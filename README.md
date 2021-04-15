@@ -1,4 +1,4 @@
-### Expert developer in Laravel, Vuejs, Flutter and Craft CMS in Bergen, Norway
+### Expert developer who works with Laravel, Vuejs, Flutter and Craft CMS in Bergen, Norway
 
 
 - 🔭 I’m currently working on [Tjommi](https://tjommi.app) 
