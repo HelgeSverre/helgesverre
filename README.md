@@ -1,7 +1,7 @@
 ###  All-stack Developer, Workaholic, Compulsive side-hustler.
 
 ⚡ CTO at [Tjommi](http://tjommi.app) <br>
-⚡ Founder of [DB2Sheets](http://db2sheets.com), [Kassalapp](http://kassal.app)  <br>
+⚡ Founder of [Extr.actor](https://extr.actor/), [DB2Sheets](http://db2sheets.com), [Kassalapp](http://kassal.app)  <br>
 ⚡ Co-founder of [BoatFlow](http://boatflow.no), [Reflow](http://reflow.no)  <br>
 
 
