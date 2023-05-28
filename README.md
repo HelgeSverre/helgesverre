@@ -11,6 +11,3 @@ A Laravel package simplifying AI integration (chatbots, vector database, semanti
 ⚡ CTO at [Tjommi](http://tjommi.app) <br>
 ⚡ Founder of [Extr.actor](https://extr.actor/), [DB2Sheets](http://db2sheets.com), [Kassalapp](http://kassal.app)  <br>
 ⚡ Co-founder of [BoatFlow](http://boatflow.no), [Reflow](http://reflow.no)  <br>
-
-
-![image](https://github.com/HelgeSverre/helgesverre/assets/1089652/9f326bd3-73f2-40e8-9227-0498c97aaaad)
