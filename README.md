@@ -26,7 +26,7 @@ of [Liseth Solutions](http://lisethsolutions.no), [Kassalapp](http://kassal.app)
       <img src="https://github-readme-stats.vercel.app/api?username=helgesverre&show_icons=true&theme=github&border_radius=8" />
     </td>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=helgesverre&layout=compact&theme=github&hide=rich text format&langs_count=8&border_radius=8" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=helgesverre&layout=compact&theme=github&hide=rich+text+format&langs_count=8&border_radius=8" />
     </td>
   </tr>
   <tr>
