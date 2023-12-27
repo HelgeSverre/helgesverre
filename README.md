@@ -8,3 +8,7 @@ Launched multiple side-projects and worked in startups, corporates, and web agen
 ⚡ VP of Engineering at [Crescat](https://crescat.io/) <br>
 ⚡ Founder of [Extr.actor](https://extr.actor/), [DB2Sheets](http://db2sheets.com), [Kassalapp](http://kassal.app)  <br>
 ⚡ Co-founder of [BoatFlow](http://boatflow.no), [Reflow](http://reflow.no)  <br>
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=HelgeSverre/extractor,HelgeSverre/mistral,HelgeSverre/ollama-gui,HelgeSverre/brain,HelgeSverre/receipt-scanner,HelgeSverre/mindwave&type=Date)](https://star-history.com/#HelgeSverre/extractor&HelgeSverre/mistral&HelgeSverre/ollama-gui&HelgeSverre/brain&HelgeSverre/receipt-scanner&HelgeSverre/mindwave&Date)
