@@ -11,7 +11,7 @@ Launched multiple side-projects and worked in startups, corporates, and web agen
 ⚡ Former CTO at [Tjommi](https://tjommi.app/) <br>
 ⚡ Former Lead Developer at [Guilty](https://guilty.no/) <br>
 ⚡ Founder
-of [Liseth Solutions](http://lisethsolutions.no), [Kassalapp](http://kassal.app), [ChatFlow](https://chatflow.no/), [Extr.actor](https://extr.actor/), [DB2Sheets](http://db2sheets.com), [MinSaldo](https://minsaldo.no), [DobbeltKlikk](https://dobbeltklikk.no),  <br>
+of [Liseth Solutions](http://lisethsolutions.no), [Kassalapp](http://kassal.app) and [ChatFlow](https://chatflow.no/)  <br>
 ⚡ Co-founder of [BoatX](http://boatx.no), [Reflow](http://reflow.no) <br>
 
 ### 🛠️ Tech Stack
