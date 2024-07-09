@@ -16,7 +16,8 @@ of [Liseth Solutions](http://lisethsolutions.no), [Kassalapp](http://kassal.app)
 
 ### 🛠️ Tech Stack
 
-![FilamentPHP](https://img.shields.io/badge/Filament-%23EC990D.svg?style=for-the-badge&logo=filamentphp&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![Livewire](https://img.shields.io/badge/Livewire-%23DA558C.svg?style=for-the-badge&logo=livewire&logoColor=white) ![Alpine.js](https://img.shields.io/badge/Alpine.js-%2377C1D2.svg?style=for-the-badge&logo=alpine.js&logoColor=white)
+![FilamentPHP](https://img.shields.io/badge/Filament-%23EC990D.svg?style=for-the-badge&logo=filamentphp&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![Livewire](https://img.shields.io/badge/Livewire-%23DA558C.svg?style=for-the-badge&logo=livewire&logoColor=white) ![Alpine.js](https://img.shields.io/badge/Alpine.js-%2377C1D2.svg?style=for-the-badge&logo=alpine.js&logoColor=white) ![Svelte](https://img.shields.io/badge/Svelte-%23FF3E00.svg?style=for-the-badge&logo=svelte&logoColor=white) ![Vue.js](https://img.shields.io/badge/Vue.js-%233FB27F.svg?style=for-the-badge&logo=vue.js&logoColor=white)
+
 
 ### 📊 GitHub Metrics
 
