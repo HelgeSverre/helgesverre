@@ -40,6 +40,3 @@ of [Liseth Solutions](http://lisethsolutions.no), [Kassalapp](http://kassal.app)
 <tr>
 </table>
 
-
-
-[![Star History Chart](https://api.star-history.com/svg?repos=HelgeSverre/extractor,HelgeSverre/mistral,HelgeSverre/ollama-gui,HelgeSverre/brain,HelgeSverre/receipt-scanner,HelgeSverre/mindwave,HelgeSverre/milvus,HelgeSverre/chromadb,HelgeSverre/blade-heroicons-upgrader&type=Date)](https://star-history.com/#HelgeSverre/extractor&HelgeSverre/mistral&HelgeSverre/ollama-gui&HelgeSverre/brain&HelgeSverre/receipt-scanner&HelgeSverre/mindwave&HelgeSverre/milvus&HelgeSverre/chromadb&HelgeSverre/blade-heroicons-upgrader&Date)
