@@ -5,6 +5,8 @@ Passionate about building web apps with Laravel and the TALL-stack.
 
 Launched multiple side-projects and worked in startups, corporates, and web agencies. 🚀
 
+Currently interested in Web MIDI, Audio and programatic music creation.
+
 ### 💼 Career Highlights
 
 ⚡ VP of Engineering at [Crescat](https://crescat.io/) <br>
