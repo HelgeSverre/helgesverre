@@ -89,6 +89,82 @@ export async function getContributions(token) {
   return { total: cal.totalContributions.toLocaleString("en-US"), cells };
 }
 
+// --- Bergen weather (met.no, free, no key; UA required) ---
+export async function getWeather() {
+  try {
+    const res = await fetch("https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=60.39&lon=5.32", {
+      headers: { "user-agent": "helgesverre-profile github.com/HelgeSverre" },
+    });
+    if (!res.ok) throw new Error(res.status);
+    const j = await res.json();
+    const t = j.properties.timeseries[0].data;
+    const temp = Math.round(t.instant.details.air_temperature);
+    const wind = Math.round(t.instant.details.wind_speed);
+    const code = (t.next_1_hours || t.next_6_hours || {}).summary?.symbol_code || "";
+    const map = (c) =>
+      /rain|sleet|drizzle/.test(c) ? ["RAIN", "☔"]
+      : /snow/.test(c) ? ["SNOW", "❄"]
+      : /thunder/.test(c) ? ["THUNDER", "⚡"]
+      : /fog/.test(c) ? ["FOG", "≋"]
+      : /clearsky|fair/.test(c) ? ["CLEAR", "☀"]
+      : ["CLOUDY", "☁"];
+    const [cond, icon] = map(code);
+    return { temp: `${temp}°`, cond, icon, wind: `${wind} m/s`, rain: /rain|sleet|drizzle/.test(code) };
+  } catch {
+    return { temp: "–", cond: "NO SIGNAL", icon: "▦", wind: "", rain: false };
+  }
+}
+
+// --- Parody TV programme guide (deterministic by day) ---
+export function getProgramme(pool, day) {
+  const witty = [
+    "Debugging in Production",
+    "Yak Shaving",
+    '"just one more commit"',
+    "Refactor Roulette",
+    "Merge Conflict: The Reckoning",
+    "Stand-up (taped)",
+    "Reading the Docs (rerun)",
+    "Prod Down: Live Coverage",
+    "Compiling… (cont.)",
+  ];
+  const w = (n) => witty[(day + n * 3) % witty.length];
+  const p1 = pool[day % pool.length];
+  const p2 = pool[(day + 4) % pool.length];
+  return [
+    { time: "18:00", title: w(0) },
+    { time: "19:30", title: `${p1.name} — ${p1.desc}` },
+    { time: "21:00", title: w(1) },
+    { time: "22:30", title: `${p2.name}, live` },
+    { time: "00:00", title: w(2) },
+    { time: "02:00", title: "Sign-off · Test Card ▦" },
+  ];
+}
+
+// --- Sema example code (cycles example files from the sema repo by day) ---
+export async function getSemaCode(token, day, count = 3, linesPer = 22) {
+  try {
+    const headers = {
+      "user-agent": "helgesverre-profile",
+      accept: "application/vnd.github+json",
+      ...(token ? { authorization: `Bearer ${token}` } : {}),
+    };
+    const res = await fetch("https://api.github.com/repos/HelgeSverre/sema/contents/examples", { headers });
+    if (!res.ok) throw new Error(res.status);
+    const files = (await res.json()).filter((f) => f.name.endsWith(".sema") && f.download_url);
+    const out = [];
+    for (let i = 0; i < Math.min(count, files.length); i++) {
+      const f = files[(day + i * 7) % files.length];
+      const raw = await fetch(f.download_url, { headers: { "user-agent": "helgesverre-profile" } });
+      const text = await raw.text();
+      out.push({ file: f.name, lines: text.replace(/\t/g, "  ").split("\n").slice(0, linesPer) });
+    }
+    return out;
+  } catch {
+    return [];
+  }
+}
+
 // Curated, not byte-counted — the hand-picked stack is more representative.
 export const LANGUAGES = ["PHP · TypeScript · Svelte", "Rust · Zig · F# · Dart · Sema"];
 

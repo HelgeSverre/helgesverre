@@ -7,7 +7,10 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { buildHtml } from "./template.mjs";
 import { renderAll } from "./render.mjs";
-import { getArticles, getStats, getContributions, rotateFeatured, LANGUAGES, BIO, LINKS } from "./data.mjs";
+import {
+  getArticles, getStats, getContributions, getWeather, getProgramme, getSemaCode,
+  rotateFeatured, LANGUAGES, BIO, LINKS,
+} from "./data.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -23,12 +26,21 @@ async function main() {
   const token = process.env.GITHUB_TOKEN;
   if (!token) console.warn("⚠️  No GITHUB_TOKEN — stars will read 0 (REST-only fallback).");
 
-  console.log("→ fetching live data…");
-  const [articles, stats, contributions] = await Promise.all([getArticles(3), getStats(token), getContributions(token)]);
+  const day = dayOfYear();
   const pool = JSON.parse(await readFile(join(root, "data/featured.json"), "utf8")).projects;
-  const projects = rotateFeatured(pool, 6, dayOfYear());
+
+  console.log("→ fetching live data…");
+  const [articles, stats, contributions, weather, sema] = await Promise.all([
+    getArticles(3),
+    getStats(token),
+    getContributions(token),
+    getWeather(),
+    getSemaCode(token, day, 2, 16),
+  ]);
+  const projects = rotateFeatured(pool, 6, day);
+  const programme = getProgramme(pool, day);
   console.log(`  stars ${stats.stars} · repos ${stats.repos} · followers ${stats.followers}`);
-  console.log(`  latest: "${articles[0]?.title}"`);
+  console.log(`  latest: "${articles[0]?.title}"  · weather ${weather.temp} ${weather.cond}  · sema files ${sema.length}`);
 
   const [fontDataUri, avatarDataUri] = await Promise.all([
     dataUri(join(root, "assets/bedstead.otf"), "font/otf"),
@@ -44,12 +56,15 @@ async function main() {
     articles,
     projects,
     contributions,
+    weather,
+    programme,
+    sema,
     links: LINKS,
   });
 
-  console.log("→ rendering panels + hero GIF…");
-  const { gif } = await renderAll({ html, outDir: join(root, "images") });
-  console.log(`✓ done — hero.gif ${gif.width}×${gif.height}, panels in images/`);
+  console.log("→ rendering panels + GIFs…");
+  const { gif, semaGif } = await renderAll({ html, outDir: join(root, "images") });
+  console.log(`✓ done — hero.gif ${gif.width}×${gif.height}${semaGif ? `, sema.gif ${semaGif.width}×${semaGif.height}` : ""}, panels in images/`);
 }
 
 main().catch((e) => {

@@ -4,10 +4,47 @@
 
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
-export function buildHtml({ fontDataUri, avatarDataUri, bio, stats, languages, articles, projects, contributions, links }) {
+const SEMA_KW = new Set([
+  "define", "defn", "defmacro", "fn", "lambda", "let", "let*", "letrec", "if", "cond", "when", "unless",
+  "do", "begin", "set!", "quote", "for-each", "map", "filter", "reduce", "fold", "loop", "recur", "and",
+  "or", "not", "case", "match", "module", "import", "export", "try", "catch", "throw", "def", "while", "else",
+]);
+
+function highlightSema(raw) {
+  const re = /("(?:[^"\\]|\\.)*"?)|(;.*$)|(-?\d+(?:\.\d+)?)|([()\[\]])|([^\s()\[\]";]+)|(\s+)/g;
+  let out = "", m;
+  while ((m = re.exec(raw))) {
+    if (m[1]) out += `<span class="s-str">${esc(m[1])}</span>`;
+    else if (m[2]) out += `<span class="s-com">${esc(m[2])}</span>`;
+    else if (m[3]) out += `<span class="s-num">${esc(m[3])}</span>`;
+    else if (m[4]) out += `<span class="s-par">${esc(m[4])}</span>`;
+    else if (m[5]) {
+      const t = m[5];
+      const cls = SEMA_KW.has(t) ? "s-kw" : /^(#t|#f|nil|true|false|#\w+)$/.test(t) ? "s-lit" : "s-def";
+      out += `<span class="${cls}">${esc(t)}</span>`;
+    } else out += esc(m[6]);
+  }
+  return out;
+}
+
+export function buildHtml({ fontDataUri, avatarDataUri, bio, stats, languages, articles, projects, contributions, weather, programme, sema, links }) {
   const heatCells = (contributions?.cells || [])
     .map((l) => (l == null ? '<i class="e"></i>' : `<i class="l${l}"></i>`))
     .join("");
+
+  const progRows = (programme || [])
+    .map((p) => `<div class="line"><span class="y">${esc(p.time)}</span>  <span class="w">${esc(p.title)}</span></div>`)
+    .join("\n");
+
+  const semaName = sema?.[0]?.file ? `examples/${sema[0].file}` : "examples/*.sema";
+  const semaCode = (sema || [])
+    .flatMap((f) => [
+      { ln: "", html: `<span class="s-com">;; ── ${esc(f.file)} ──────────────</span>` },
+      ...f.lines.map((l, i) => ({ ln: String(i + 1), html: highlightSema(l) || "&nbsp;" })),
+    ])
+    .map((r) => `<div class="cl"><span class="ln">${r.ln}</span><span class="ct">${r.html}</span></div>`)
+    .join("");
+  const semaScroll = semaCode + semaCode; // duplicate → seamless scroll loop
   const navCells = links.nav
     .map(
       (c) =>
@@ -97,6 +134,27 @@ a.tile{display:block;width:100%;text-decoration:none;color:inherit}
 .heatfoot i{display:block;width:13px;height:13px;border-radius:2px;flex:0 0 auto}
 .l0{background:#0c2113}.l1{background:#0f5a2a}.l2{background:#1d9a3a}.l3{background:#2bd64a}.l4{background:#44ff55}
 .e{background:transparent}
+/* programme guide */
+.prog-panel{font-size:17px;height:262px;display:flex;flex-direction:column}
+.prog-panel .line{line-height:1.85}
+/* weather */
+.wx-panel{font-size:17px;height:262px;display:flex;flex-direction:column}
+.wx-big{font-size:64px;line-height:1.05;color:var(--y);text-shadow:0 0 14px var(--y),0 0 3px var(--y);margin:8px 0}
+.wx-cond{font-size:24px}
+.wx-foot{margin-top:auto;line-height:1.7}
+/* sema / fedit window */
+.sema-win{background:#131110;padding:0;overflow:hidden}
+.ftop{display:flex;align-items:center;gap:10px;padding:9px 15px;background:#1c1916;border-bottom:1px solid #2b2620;font-size:16px}
+.ftop .fdot{color:#c8a855}
+.ftop .ftag{margin-left:auto;color:#968c79}
+.fbody{height:212px;overflow:hidden;position:relative}
+.fscroll{will-change:transform}
+.cl{display:flex;gap:14px;font-family:"DejaVu Sans Mono",ui-monospace,Menlo,Consolas,monospace;font-size:14.5px;line-height:1.55;white-space:pre;padding:0 15px;text-shadow:none}
+.ln{color:#3a342c;min-width:2.4ch;text-align:right;flex:0 0 auto}
+.ct{color:#e9e3d6}
+.fstat{display:flex;gap:16px;padding:8px 15px;background:#c8a855;color:#131110;font-size:15px}
+.fstat .fend{margin-left:auto}
+.s-com{color:#6b6354}.s-kw{color:#c8a855}.s-str{color:#a8c47a}.s-num{color:#d19a66}.s-lit{color:#7aacb8}.s-par{color:#7d7464}.s-def{color:#e9e3d6}
 </style></head><body><div class="wrap">
 <table class="grid">
   <tr><td colspan="2">
@@ -163,6 +221,37 @@ a.tile{display:block;width:100%;text-decoration:none;color:inherit}
       <div class="nbhead"><span class="c">P400 CONTRIBUTIONS</span><span class="w">${esc(contributions?.total || "0")} in the last year</span></div>
       <div class="heat">${heatCells}</div>
       <div class="heatfoot"><span class="w">less</span><i class="l0"></i><i class="l1"></i><i class="l2"></i><i class="l3"></i><i class="l4"></i><span class="w">more</span></div>
+      <div class="sweep"></div>
+    </div>
+    </a>
+  </td></tr>
+  <tr>
+    <td class="half">
+      <a class="tile" href="${esc(links.projects)}">
+      <div class="screen prog-panel" id="cap-prog">
+        <div class="line"><span class="c">P500 PROGRAMME</span></div>
+        <div class="line">&nbsp;</div>
+        ${progRows}
+      </div>
+      </a>
+    </td>
+    <td class="half">
+      <a class="tile" href="${esc(links.hero)}">
+      <div class="screen wx-panel" id="cap-wx">
+        <div class="line"><span class="c">P600 WEATHER · BERGEN</span></div>
+        <div class="wx-big">${esc(weather?.temp || "–")} ${esc(weather?.icon || "")}</div>
+        <div class="wx-cond"><span class="w">${esc(weather?.cond || "")}</span></div>
+        <div class="wx-foot"><div class="line"><span class="y">WIND</span>  <span class="w">${esc(weather?.wind || "")}</span></div><div class="line"><span class="g">60.39°N · 5.32°E</span></div></div>
+      </div>
+      </a>
+    </td>
+  </tr>
+  <tr><td colspan="2">
+    <a class="tile" href="https://sema-lang.com">
+    <div class="screen sema-win" id="cap-sema">
+      <div class="ftop"><span class="fdot">●</span><span class="w">${esc(semaName)}</span><span class="ftag">fedit · sema</span></div>
+      <div class="fbody"><div class="fscroll" id="sema-scroll">${semaScroll}</div></div>
+      <div class="fstat"><span>NORMAL</span><span>sema · utf-8</span><span class="fend">sema-lang.com →</span></div>
       <div class="sweep"></div>
     </div>
     </a>
