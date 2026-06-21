@@ -1,0 +1,13 @@
+{
+  "_comment": "Pool of featured projects. The generator rotates a window of 6 by date so the set shifts over time. name/desc kept short to fit two columns.",
+  "projects": [
+    { "name": "Glue", "desc": "AI coding agent (Dart)" },
+    { "name": "Sema", "desc": "Lisp + LLM primitives" },
+    { "name": "Jake", "desc": "build system in Zig" },
+    { "name": "fedit", "desc": "F# terminal editor" },
+    { "name": "Token", "desc": "Rust multicursor editor" },
+    { "name": "sql-splitter", "desc": "600MB/s SQL splitter" },
+    { "name": "dbdump", "desc": "fast MySQL dumper" },
+    { "name": "Reddit Scrutinizer", "desc": "simulated code roasts" }
+  ]
+}

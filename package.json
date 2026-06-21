@@ -1,0 +1,15 @@
+{
+  "name": "helgesverre-profile",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Tekst-TV broadcast generator for the github.com/HelgeSverre profile README",
+  "scripts": {
+    "generate": "node src/generate.mjs"
+  },
+  "dependencies": {
+    "gifenc": "^1.0.3",
+    "playwright": "^1.49.0",
+    "sharp": "^0.33.5"
+  }
+}

@@ -1,0 +1,54 @@
+name: Update profile broadcast
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # every 6 hours
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    # Only re-render when the generator/assets change — NOT when images/ are
+    # committed back, so the bot's own commit can't retrigger this workflow.
+    paths:
+      - "src/**"
+      - "assets/**"
+      - "data/**"
+      - "package.json"
+      - ".github/workflows/profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-broadcast
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      # Fonts for the flag emoji + teletext symbols that fall back from Bedstead.
+      - name: Install fonts
+        run: sudo apt-get update && sudo apt-get install -y fonts-noto-color-emoji fonts-noto-core fonts-dejavu
+
+      - run: npm ci
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Generate broadcast
+        run: npm run generate
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit updated images
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh profile broadcast"
+          file_pattern: "images/*"
