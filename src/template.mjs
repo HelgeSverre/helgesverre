@@ -35,7 +35,7 @@ export function buildHtml({ fontDataUri, avatarDataUri, bio, stats, languages, a
 @font-face{font-family:"Bedstead";src:url(${fontDataUri}) format("opentype");font-display:block}
 :root{--k:#000;--r:#ff3b30;--g:#33ff33;--y:#ffcc00;--b:#3b6bff;--m:#ff6bff;--c:#00ffff;--w:#fff}
 *{box-sizing:border-box}
-body{margin:0;background:#fff}
+body{margin:0;background:#000}
 .wrap{width:900px}
 .screen{position:relative;overflow:hidden;background:#000;color:#fff;
   font-family:"Bedstead",ui-monospace,monospace;white-space:normal;padding:16px 18px;
