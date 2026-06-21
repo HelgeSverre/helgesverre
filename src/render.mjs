@@ -110,7 +110,7 @@ export async function renderAll({ html, outDir, semaCode, gifFrames = 14, gifDel
     }, semaCode);
 
     const total = await page.evaluate(() => window.SEMA_LEN);
-    const reveal = 80, hold = 6;
+    const reveal = 190, hold = 10;
     const semaFrames = [];
     for (let i = 0; i < reveal + hold; i++) {
       const n = i < reveal ? Math.round((total * (i + 1)) / reveal) : total;
@@ -118,7 +118,7 @@ export async function renderAll({ html, outDir, semaCode, gifFrames = 14, gifDel
       await page.evaluate(({ n, blink }) => window.semaRender(n, blink), { n, blink });
       semaFrames.push(await semaEl.screenshot({ type: "png" }));
     }
-    semaGif = await encodeGif(semaFrames, join(outDir, "sema.gif"), 880, 55);
+    semaGif = await encodeGif(semaFrames, join(outDir, "sema.gif"), 900, 75);
   }
 
   await browser.close();

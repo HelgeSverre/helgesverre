@@ -14,7 +14,6 @@ export function buildHtml({ fontDataUri, avatarDataUri, bio, stats, languages, a
     .join("\n");
 
   const semaFile = sema?.file || "maze.sema";
-  const dashes = "─".repeat(400);
   const navCells = links.nav
     .map(
       (c) =>
@@ -115,11 +114,11 @@ a.tile{display:block;width:100%;text-decoration:none;color:inherit}
 /* sema in fedit — ascii-boxed code typer, official Sema brand palette, no CRT overlay */
 .sema-win{background:#131110;padding:9px 13px;text-shadow:none;color:#e9e3d6;
   font-family:"DejaVu Sans Mono",ui-monospace,Menlo,Consolas,monospace;font-size:13.5px}
-.boxtop,.boxbot{display:flex;white-space:nowrap;line-height:1.5;color:#6a6258}
+.semabox{position:relative;border:1px solid #6a6258;padding:16px 14px 8px}
+.boxleg{position:absolute;top:-9px;left:16px;background:#131110;padding:0 9px;line-height:1}
 .bxpar{color:#c8a855;font-weight:bold}
 .bxname{color:#ffffff;font-weight:bold}
-.bxfill{flex:1;overflow:hidden}
-.fwrap{height:198px;margin:3px 0}
+.fwrap{height:210px}
 .fpane{height:100%;overflow:hidden}
 #sema-out{height:100%;overflow:hidden}
 .cl{display:flex;font-size:13.5px;line-height:1.5;white-space:pre}
@@ -127,7 +126,7 @@ a.tile{display:block;width:100%;text-decoration:none;color:inherit}
 .ln{color:#4a4438;width:3ch;text-align:right;padding-right:12px;margin-right:12px;border-right:1px solid #2b2620;flex:0 0 auto}
 .ct{color:#e9e3d6;padding-right:12px}
 .tcur{background:#c8a855;color:#131110}
-.fstat{display:flex;align-items:center;font-size:12.5px;color:#968c79;padding:2px 1px}
+.fstat{display:flex;align-items:center;font-size:12.5px;color:#968c79;padding:6px 1px 1px;margin-top:6px;border-top:1px solid #2b2620}
 .fmode{color:#c8a855;font-weight:bold;margin-right:12px;letter-spacing:.05em}
 .fpath{color:#968c79}
 .fspacer{flex:1}
@@ -231,17 +230,18 @@ a.tile{display:block;width:100%;text-decoration:none;color:inherit}
   <tr><td colspan="2">
     <a class="tile" href="https://sema-lang.com">
     <div class="sema-win" id="cap-sema">
-      <div class="boxtop"><span>┌─ </span><span class="bxpar">(</span> <span class="bxname">sema</span> <span class="bxpar">)</span><span> ─</span><span class="bxfill">${dashes}</span><span>┐</span></div>
-      <div class="fwrap"><div class="fpane"><div id="sema-out"></div></div></div>
-      <div class="fstat">
-        <span class="fmode">EDIT</span>
-        <span class="fpath">~/code/sema/examples/${esc(semaFile)}</span>
-        <span class="fspacer"></span>
-        <span class="fseg" id="fpos">1:1</span>
-        <span class="fseg">LF</span>
-        <span class="fend">1/1</span>
+      <div class="semabox">
+        <span class="boxleg"><span class="bxpar">(</span> <span class="bxname">sema</span> <span class="bxpar">)</span></span>
+        <div class="fwrap"><div class="fpane"><div id="sema-out"></div></div></div>
+        <div class="fstat">
+          <span class="fmode">EDIT</span>
+          <span class="fpath">~/code/sema/examples/${esc(semaFile)}</span>
+          <span class="fspacer"></span>
+          <span class="fseg" id="fpos">1:1</span>
+          <span class="fseg">LF</span>
+          <span class="fend">1/1</span>
+        </div>
       </div>
-      <div class="boxbot"><span>└─</span><span class="bxfill">${dashes}</span><span>┘</span></div>
     </div>
     </a>
   </td></tr>

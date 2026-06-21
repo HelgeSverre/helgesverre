@@ -18,16 +18,4 @@
 
 ---
 
-### ◆ Sema — a Lisp with first-class LLM primitives
-
 <a href="https://sema-lang.com"><img src="images/sema.gif" width="100%" alt="fedit typing out a maze generator written in Sema"></a>
-
-Watch [fedit](https://fedit.dev) (my F# terminal editor) type out a maze generator written in [Sema](https://sema-lang.com) — a Lisp with first-class LLM primitives.
-
----
-
-**Helge Sverre** — All-stack Developer, Workaholic, Compulsive side-hustler.<br>
-Based in Bergen, Norway 🇳🇴 with 10+ years of experience.<br>
-VP Engineering at [Crescat](https://crescat.io), ex-CTO at [Tjommi](https://tjommi.app). Founder of [Kassalapp](https://kassal.app), [ChatFlow](https://chatflow.no) and [Liseth Solutions](https://lisethsolutions.no).
-
-🌐 [helgesver.re](https://helgesver.re) &nbsp;·&nbsp; ✍️ [Articles](https://helgesver.re/articles) &nbsp;·&nbsp; 🛠️ [Projects](https://helgesver.re/projects)
