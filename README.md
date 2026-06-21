@@ -11,11 +11,18 @@
 --><a href="https://github.com/HelgeSverre"><img src="images/heat.png" width="100%" alt="Contribution graph — contributions over the last year"></a><!--
 --><a href="https://helgesver.re/projects"><img src="images/prog.png" width="49.9%" alt="Tonight's programme — a parody TV schedule"></a><!--
 --><a href="https://www.yr.no/en/forecast/daily-table/2-3161732"><img src="images/wx.png" width="49.9%" alt="Bergen weather"></a><!--
---><a href="https://sema-lang.com"><img src="images/sema.gif" width="100%" alt="Sema example code scrolling in a fedit editor window"></a><!--
 --><a href="https://helgesver.re/projects"><img src="images/nav-0.png" width="24.9%" alt="200 Projects"></a><!--
 --><a href="https://helgesver.re/articles"><img src="images/nav-1.png" width="24.9%" alt="300 Articles"></a><!--
 --><a href="https://helgesver.re"><img src="images/nav-2.png" width="24.9%" alt="100 Home"></a><!--
 --><a href="https://helgesver.re"><img src="images/nav-3.png" width="24.9%" alt="helgesver.re"></a>
+
+---
+
+### ◆ Sema — a Lisp with first-class LLM primitives
+
+<a href="https://sema-lang.com"><img src="images/sema.gif" width="100%" alt="fedit typing out a maze generator written in Sema"></a>
+
+Watch [fedit](https://fedit.dev) (my F# terminal editor) type out a maze generator written in [Sema](https://sema-lang.com) — a Lisp with first-class LLM primitives.
 
 ---
 

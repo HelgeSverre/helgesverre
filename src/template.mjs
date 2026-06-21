@@ -14,6 +14,7 @@ export function buildHtml({ fontDataUri, avatarDataUri, bio, stats, languages, a
     .join("\n");
 
   const semaFile = sema?.file || "maze.sema";
+  const dashes = "─".repeat(400);
   const navCells = links.nav
     .map(
       (c) =>
@@ -111,35 +112,31 @@ a.tile{display:block;width:100%;text-decoration:none;color:inherit}
 .wx-big{font-size:64px;line-height:1.05;color:var(--y);text-shadow:0 0 14px var(--y),0 0 3px var(--y);margin:8px 0}
 .wx-cond{font-size:24px}
 .wx-foot{margin-top:auto;line-height:1.7}
-/* sema in fedit — TUI editor, "orange" theme. All monospace. */
-.sema-win{background:#0e0d0c;padding:0;overflow:hidden;text-shadow:none;
-  font-family:"DejaVu Sans Mono",ui-monospace,Menlo,Consolas,monospace}
-.ftabs{display:flex;background:#0a0908;border-bottom:1px solid #221d17;font-size:12px}
-.ftab{padding:7px 16px;color:#5d574c;border-right:1px solid #221d17;white-space:nowrap}
-.ftab.on{color:#cdb9a6;background:#0e0d0c}
-.ftab .fk{color:#3a342c;margin-left:8px}
-.ftab.add{color:#3a342c}
-.fwrap{display:flex;height:214px}
-.ftree{width:188px;flex:0 0 auto;background:#0b0a09;border-right:1px solid #221d17;padding:6px 0;font-size:12.5px;overflow:hidden}
-.ff{padding:1px 10px;color:#6f685c;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.ff.on{background:#b5651d;color:#0e0d0c}
-.fpane{flex:1;min-width:0;overflow:hidden}
-#sema-out{height:100%;overflow:hidden;padding:4px 0}
+/* sema in fedit — ascii-boxed code typer, official Sema brand palette, no CRT overlay */
+.sema-win{background:#131110;padding:9px 13px;text-shadow:none;color:#e9e3d6;
+  font-family:"DejaVu Sans Mono",ui-monospace,Menlo,Consolas,monospace;font-size:13.5px}
+.boxtop,.boxbot{display:flex;white-space:nowrap;line-height:1.5;color:#6a6258}
+.bxpar{color:#c8a855;font-weight:bold}
+.bxname{color:#ffffff;font-weight:bold}
+.bxfill{flex:1;overflow:hidden}
+.fwrap{height:198px;margin:3px 0}
+.fpane{height:100%;overflow:hidden}
+#sema-out{height:100%;overflow:hidden}
 .cl{display:flex;font-size:13.5px;line-height:1.5;white-space:pre}
-.cl.cur{background:rgba(255,255,255,.04)}
-.ln{color:#403a31;width:3ch;text-align:right;padding-right:12px;margin-right:12px;border-right:1px solid #221d17;flex:0 0 auto}
-.ct{color:#b9c2c9;padding-right:12px}
-.tcur{background:#c8773a;color:#0e0d0c}
-.fstat{display:flex;align-items:center;background:#16120e;border-top:1px solid #221d17;font-size:12.5px;color:#8a7e6a;padding:5px 0}
-.fmode{color:#c8773a;font-weight:bold;padding:0 12px;letter-spacing:.05em}
-.fpath{color:#9a8f7c}
+.cl.cur{background:rgba(200,168,85,.08)}
+.ln{color:#4a4438;width:3ch;text-align:right;padding-right:12px;margin-right:12px;border-right:1px solid #2b2620;flex:0 0 auto}
+.ct{color:#e9e3d6;padding-right:12px}
+.tcur{background:#c8a855;color:#131110}
+.fstat{display:flex;align-items:center;font-size:12.5px;color:#968c79;padding:2px 1px}
+.fmode{color:#c8a855;font-weight:bold;margin-right:12px;letter-spacing:.05em}
+.fpath{color:#968c79}
 .fspacer{flex:1}
-.fstat .fseg{padding:0 11px}
-.fstat .fend{padding:0 12px;color:#c8773a}
-/* sema syntax — orange theme */
-.s-comment{color:#6d685c;font-style:italic}.s-string{color:#8fae6a}.s-keyword{color:#d8a85a}
-.s-number{color:#d8a85a}.s-special{color:#c8773a}.s-builtin{color:#cf8a4a}
-.s-paren{color:#5d574c}.s-bracket{color:#5d574c}.s-brace{color:#5d574c}.s-default{color:#b9c2c9}
+.fstat .fseg{padding:0 9px}
+.fstat .fend{padding-left:9px;color:#c8a855}
+/* sema syntax — Sema playground palette */
+.s-comment{color:#6b6354;font-style:italic}.s-string{color:#a8c47a}.s-keyword{color:#7aacb8}
+.s-number{color:#d19a66}.s-special{color:#c8a855}.s-builtin{color:#c8a855}
+.s-paren{color:#6a6258}.s-bracket{color:#6a6258}.s-brace{color:#6a6258}.s-default{color:#e9e3d6}
 </style></head><body><div class="wrap">
 <table class="grid">
   <tr><td colspan="2">
@@ -233,16 +230,9 @@ a.tile{display:block;width:100%;text-decoration:none;color:inherit}
   </tr>
   <tr><td colspan="2">
     <a class="tile" href="https://sema-lang.com">
-    <div class="screen sema-win" id="cap-sema">
-      <div class="ftabs">
-        <span class="ftab">sema · examples<span class="fk">⌘1</span></span>
-        <span class="ftab on">${esc(semaFile)}<span class="fk">⌘2</span></span>
-        <span class="ftab">fedit<span class="fk">⌘3</span></span>
-        <span class="ftab add">＋</span>
-      </div>
-      <div class="fwrap">
-        <div class="fpane"><div id="sema-out"></div></div>
-      </div>
+    <div class="sema-win" id="cap-sema">
+      <div class="boxtop"><span>┌─ </span><span class="bxpar">(</span> <span class="bxname">sema</span> <span class="bxpar">)</span><span> ─</span><span class="bxfill">${dashes}</span><span>┐</span></div>
+      <div class="fwrap"><div class="fpane"><div id="sema-out"></div></div></div>
       <div class="fstat">
         <span class="fmode">EDIT</span>
         <span class="fpath">~/code/sema/examples/${esc(semaFile)}</span>
@@ -251,7 +241,7 @@ a.tile{display:block;width:100%;text-decoration:none;color:inherit}
         <span class="fseg">LF</span>
         <span class="fend">1/1</span>
       </div>
-      <div class="sweep"></div>
+      <div class="boxbot"><span>└─</span><span class="bxfill">${dashes}</span><span>┘</span></div>
     </div>
     </a>
   </td></tr>
