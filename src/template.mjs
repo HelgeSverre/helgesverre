@@ -4,29 +4,6 @@
 
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
-const SEMA_KW = new Set([
-  "define", "defn", "defmacro", "fn", "lambda", "let", "let*", "letrec", "if", "cond", "when", "unless",
-  "do", "begin", "set!", "quote", "for-each", "map", "filter", "reduce", "fold", "loop", "recur", "and",
-  "or", "not", "case", "match", "module", "import", "export", "try", "catch", "throw", "def", "while", "else",
-]);
-
-function highlightSema(raw) {
-  const re = /("(?:[^"\\]|\\.)*"?)|(;.*$)|(-?\d+(?:\.\d+)?)|([()\[\]])|([^\s()\[\]";]+)|(\s+)/g;
-  let out = "", m;
-  while ((m = re.exec(raw))) {
-    if (m[1]) out += `<span class="s-str">${esc(m[1])}</span>`;
-    else if (m[2]) out += `<span class="s-com">${esc(m[2])}</span>`;
-    else if (m[3]) out += `<span class="s-num">${esc(m[3])}</span>`;
-    else if (m[4]) out += `<span class="s-par">${esc(m[4])}</span>`;
-    else if (m[5]) {
-      const t = m[5];
-      const cls = SEMA_KW.has(t) ? "s-kw" : /^(#t|#f|nil|true|false|#\w+)$/.test(t) ? "s-lit" : "s-def";
-      out += `<span class="${cls}">${esc(t)}</span>`;
-    } else out += esc(m[6]);
-  }
-  return out;
-}
-
 export function buildHtml({ fontDataUri, avatarDataUri, bio, stats, languages, articles, projects, contributions, weather, programme, sema, links }) {
   const heatCells = (contributions?.cells || [])
     .map((l) => (l == null ? '<i class="e"></i>' : `<i class="l${l}"></i>`))
@@ -36,15 +13,7 @@ export function buildHtml({ fontDataUri, avatarDataUri, bio, stats, languages, a
     .map((p) => `<div class="line"><span class="y">${esc(p.time)}</span>  <span class="w">${esc(p.title)}</span></div>`)
     .join("\n");
 
-  const semaName = sema?.[0]?.file ? `examples/${sema[0].file}` : "examples/*.sema";
-  const semaCode = (sema || [])
-    .flatMap((f) => [
-      { ln: "", html: `<span class="s-com">;; ── ${esc(f.file)} ──────────────</span>` },
-      ...f.lines.map((l, i) => ({ ln: String(i + 1), html: highlightSema(l) || "&nbsp;" })),
-    ])
-    .map((r) => `<div class="cl"><span class="ln">${r.ln}</span><span class="ct">${r.html}</span></div>`)
-    .join("");
-  const semaScroll = semaCode + semaCode; // duplicate → seamless scroll loop
+  const semaFile = sema?.file || "maze.sema";
   const navCells = links.nav
     .map(
       (c) =>
@@ -142,19 +111,35 @@ a.tile{display:block;width:100%;text-decoration:none;color:inherit}
 .wx-big{font-size:64px;line-height:1.05;color:var(--y);text-shadow:0 0 14px var(--y),0 0 3px var(--y);margin:8px 0}
 .wx-cond{font-size:24px}
 .wx-foot{margin-top:auto;line-height:1.7}
-/* sema / fedit window */
-.sema-win{background:#131110;padding:0;overflow:hidden}
-.ftop{display:flex;align-items:center;gap:10px;padding:9px 15px;background:#1c1916;border-bottom:1px solid #2b2620;font-size:16px}
-.ftop .fdot{color:#c8a855}
-.ftop .ftag{margin-left:auto;color:#968c79}
-.fbody{height:212px;overflow:hidden;position:relative}
-.fscroll{will-change:transform}
-.cl{display:flex;gap:14px;font-family:"DejaVu Sans Mono",ui-monospace,Menlo,Consolas,monospace;font-size:14.5px;line-height:1.55;white-space:pre;padding:0 15px;text-shadow:none}
-.ln{color:#3a342c;min-width:2.4ch;text-align:right;flex:0 0 auto}
-.ct{color:#e9e3d6}
-.fstat{display:flex;gap:16px;padding:8px 15px;background:#c8a855;color:#131110;font-size:15px}
-.fstat .fend{margin-left:auto}
-.s-com{color:#6b6354}.s-kw{color:#c8a855}.s-str{color:#a8c47a}.s-num{color:#d19a66}.s-lit{color:#7aacb8}.s-par{color:#7d7464}.s-def{color:#e9e3d6}
+/* sema in fedit — TUI editor, "orange" theme. All monospace. */
+.sema-win{background:#0e0d0c;padding:0;overflow:hidden;text-shadow:none;
+  font-family:"DejaVu Sans Mono",ui-monospace,Menlo,Consolas,monospace}
+.ftabs{display:flex;background:#0a0908;border-bottom:1px solid #221d17;font-size:12px}
+.ftab{padding:7px 16px;color:#5d574c;border-right:1px solid #221d17;white-space:nowrap}
+.ftab.on{color:#cdb9a6;background:#0e0d0c}
+.ftab .fk{color:#3a342c;margin-left:8px}
+.ftab.add{color:#3a342c}
+.fwrap{display:flex;height:214px}
+.ftree{width:188px;flex:0 0 auto;background:#0b0a09;border-right:1px solid #221d17;padding:6px 0;font-size:12.5px;overflow:hidden}
+.ff{padding:1px 10px;color:#6f685c;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ff.on{background:#b5651d;color:#0e0d0c}
+.fpane{flex:1;min-width:0;overflow:hidden}
+#sema-out{height:100%;overflow:hidden;padding:4px 0}
+.cl{display:flex;font-size:13.5px;line-height:1.5;white-space:pre}
+.cl.cur{background:rgba(255,255,255,.04)}
+.ln{color:#403a31;width:3ch;text-align:right;padding-right:12px;margin-right:12px;border-right:1px solid #221d17;flex:0 0 auto}
+.ct{color:#b9c2c9;padding-right:12px}
+.tcur{background:#c8773a;color:#0e0d0c}
+.fstat{display:flex;align-items:center;background:#16120e;border-top:1px solid #221d17;font-size:12.5px;color:#8a7e6a;padding:5px 0}
+.fmode{color:#c8773a;font-weight:bold;padding:0 12px;letter-spacing:.05em}
+.fpath{color:#9a8f7c}
+.fspacer{flex:1}
+.fstat .fseg{padding:0 11px}
+.fstat .fend{padding:0 12px;color:#c8773a}
+/* sema syntax — orange theme */
+.s-comment{color:#6d685c;font-style:italic}.s-string{color:#8fae6a}.s-keyword{color:#d8a85a}
+.s-number{color:#d8a85a}.s-special{color:#c8773a}.s-builtin{color:#cf8a4a}
+.s-paren{color:#5d574c}.s-bracket{color:#5d574c}.s-brace{color:#5d574c}.s-default{color:#b9c2c9}
 </style></head><body><div class="wrap">
 <table class="grid">
   <tr><td colspan="2">
@@ -249,9 +234,23 @@ a.tile{display:block;width:100%;text-decoration:none;color:inherit}
   <tr><td colspan="2">
     <a class="tile" href="https://sema-lang.com">
     <div class="screen sema-win" id="cap-sema">
-      <div class="ftop"><span class="fdot">●</span><span class="w">${esc(semaName)}</span><span class="ftag">fedit · sema</span></div>
-      <div class="fbody"><div class="fscroll" id="sema-scroll">${semaScroll}</div></div>
-      <div class="fstat"><span>NORMAL</span><span>sema · utf-8</span><span class="fend">sema-lang.com →</span></div>
+      <div class="ftabs">
+        <span class="ftab">sema · examples<span class="fk">⌘1</span></span>
+        <span class="ftab on">${esc(semaFile)}<span class="fk">⌘2</span></span>
+        <span class="ftab">fedit<span class="fk">⌘3</span></span>
+        <span class="ftab add">＋</span>
+      </div>
+      <div class="fwrap">
+        <div class="fpane"><div id="sema-out"></div></div>
+      </div>
+      <div class="fstat">
+        <span class="fmode">EDIT</span>
+        <span class="fpath">~/code/sema/examples/${esc(semaFile)}</span>
+        <span class="fspacer"></span>
+        <span class="fseg" id="fpos">1:1</span>
+        <span class="fseg">LF</span>
+        <span class="fend">1/1</span>
+      </div>
       <div class="sweep"></div>
     </div>
     </a>

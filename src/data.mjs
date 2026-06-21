@@ -141,27 +141,23 @@ export function getProgramme(pool, day) {
   ];
 }
 
-// --- Sema example code (cycles example files from the sema repo by day) ---
-export async function getSemaCode(token, day, count = 3, linesPer = 22) {
+// --- Sema example code for the typer (maze.sema, kept short to bound GIF size) ---
+export async function getSemaCode(token, maxLines = 160) {
+  const fallback = { file: "maze.sema", code: ';; sema offline\n(println "hello, sema")' };
   try {
     const headers = {
       "user-agent": "helgesverre-profile",
       accept: "application/vnd.github+json",
       ...(token ? { authorization: `Bearer ${token}` } : {}),
     };
-    const res = await fetch("https://api.github.com/repos/HelgeSverre/sema/contents/examples", { headers });
-    if (!res.ok) throw new Error(res.status);
-    const files = (await res.json()).filter((f) => f.name.endsWith(".sema") && f.download_url);
-    const out = [];
-    for (let i = 0; i < Math.min(count, files.length); i++) {
-      const f = files[(day + i * 7) % files.length];
-      const raw = await fetch(f.download_url, { headers: { "user-agent": "helgesverre-profile" } });
-      const text = await raw.text();
-      out.push({ file: f.name, lines: text.replace(/\t/g, "  ").split("\n").slice(0, linesPer) });
-    }
-    return out;
+    const meta = await fetch("https://api.github.com/repos/HelgeSverre/sema/contents/examples/maze.sema", { headers });
+    if (!meta.ok) throw new Error(meta.status);
+    const url = (await meta.json()).download_url;
+    const text = await (await fetch(url, { headers: { "user-agent": "helgesverre-profile" } })).text();
+    const code = text.replace(/\t/g, "  ").split("\n").slice(0, maxLines).join("\n").replace(/\s+$/, "");
+    return { file: "maze.sema", code };
   } catch {
-    return [];
+    return fallback;
   }
 }
 

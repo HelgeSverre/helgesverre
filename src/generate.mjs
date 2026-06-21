@@ -35,12 +35,12 @@ async function main() {
     getStats(token),
     getContributions(token),
     getWeather(),
-    getSemaCode(token, day, 2, 16),
+    getSemaCode(token),
   ]);
   const projects = rotateFeatured(pool, 6, day);
   const programme = getProgramme(pool, day);
   console.log(`  stars ${stats.stars} · repos ${stats.repos} · followers ${stats.followers}`);
-  console.log(`  latest: "${articles[0]?.title}"  · weather ${weather.temp} ${weather.cond}  · sema files ${sema.length}`);
+  console.log(`  latest: "${articles[0]?.title}"  · weather ${weather.temp} ${weather.cond}  · sema ${sema.file} (${sema.code.split("\n").length} lines)`);
 
   const [fontDataUri, avatarDataUri] = await Promise.all([
     dataUri(join(root, "assets/bedstead.otf"), "font/otf"),
@@ -63,7 +63,7 @@ async function main() {
   });
 
   console.log("→ rendering panels + GIFs…");
-  const { gif, semaGif } = await renderAll({ html, outDir: join(root, "images") });
+  const { gif, semaGif } = await renderAll({ html, outDir: join(root, "images"), semaCode: sema.code });
   console.log(`✓ done — hero.gif ${gif.width}×${gif.height}${semaGif ? `, sema.gif ${semaGif.width}×${semaGif.height}` : ""}, panels in images/`);
 }
 
