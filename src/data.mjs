@@ -73,6 +73,22 @@ export async function getStats(token) {
   };
 }
 
+export async function getContributions(token) {
+  if (!token) return { total: "0", cells: [] };
+  const data = await ghGraphql(
+    `query{ user(login:"${USER}"){ contributionsCollection{ contributionCalendar{ totalContributions weeks{ contributionDays{ contributionLevel } } } } } }`,
+    {},
+    token,
+  );
+  const cal = data.user.contributionsCollection.contributionCalendar;
+  const map = { NONE: 0, FIRST_QUARTILE: 1, SECOND_QUARTILE: 2, THIRD_QUARTILE: 3, FOURTH_QUARTILE: 4 };
+  const weeks = cal.weeks;
+  // Pad the first (partial) week at the top so weekday rows line up like GitHub's calendar.
+  const cells = Array(7 - weeks[0].contributionDays.length).fill(null);
+  for (const w of weeks) for (const d of w.contributionDays) cells.push(map[d.contributionLevel] ?? 0);
+  return { total: cal.totalContributions.toLocaleString("en-US"), cells };
+}
+
 // Curated, not byte-counted — the hand-picked stack is more representative.
 export const LANGUAGES = ["PHP · TypeScript · Svelte", "Rust · Zig · F# · Dart · Sema"];
 
@@ -89,6 +105,7 @@ export const BIO = {
 export const LINKS = {
   hero: "https://helgesver.re",
   stats: `https://github.com/${USER}`,
+  heat: `https://github.com/${USER}`,
   articles: "https://helgesver.re/articles",
   projects: "https://helgesver.re/projects",
   nav: [

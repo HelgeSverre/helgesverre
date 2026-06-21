@@ -4,7 +4,10 @@
 
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
-export function buildHtml({ fontDataUri, avatarDataUri, bio, stats, languages, articles, projects, links }) {
+export function buildHtml({ fontDataUri, avatarDataUri, bio, stats, languages, articles, projects, contributions, links }) {
+  const heatCells = (contributions?.cells || [])
+    .map((l) => (l == null ? '<i class="e"></i>' : `<i class="l${l}"></i>`))
+    .join("");
   const navCells = links.nav
     .map(
       (c) =>
@@ -87,6 +90,13 @@ a.tile{display:block;width:100%;text-decoration:none;color:inherit}
 .nbcols{display:flex;gap:30px;margin-top:10px}
 .nbcol{flex:1}
 .nbcol .line{line-height:1.9}
+.heat-panel{font-size:17px}
+.heat{display:grid;grid-template-rows:repeat(7,1fr);grid-auto-flow:column;grid-auto-columns:1fr;gap:3px;margin-top:14px}
+.heat i{display:block;width:100%;aspect-ratio:1;border-radius:2px}
+.heatfoot{display:flex;align-items:center;gap:5px;margin-top:14px;font-size:14px}
+.heatfoot i{display:block;width:13px;height:13px;border-radius:2px;flex:0 0 auto}
+.l0{background:#0c2113}.l1{background:#0f5a2a}.l2{background:#1d9a3a}.l3{background:#2bd64a}.l4{background:#44ff55}
+.e{background:transparent}
 </style></head><body><div class="wrap">
 <table class="grid">
   <tr><td colspan="2">
@@ -143,6 +153,16 @@ a.tile{display:block;width:100%;text-decoration:none;color:inherit}
         <div class="nbcol">${col(projects.slice(0, 3))}</div>
         <div class="nbcol">${col(projects.slice(3, 6))}</div>
       </div>
+      <div class="sweep"></div>
+    </div>
+    </a>
+  </td></tr>
+  <tr><td colspan="2">
+    <a class="tile" href="${esc(links.heat)}">
+    <div class="screen strip heat-panel" id="cap-heat">
+      <div class="nbhead"><span class="c">P400 CONTRIBUTIONS</span><span class="w">${esc(contributions?.total || "0")} in the last year</span></div>
+      <div class="heat">${heatCells}</div>
+      <div class="heatfoot"><span class="w">less</span><i class="l0"></i><i class="l1"></i><i class="l2"></i><i class="l3"></i><i class="l4"></i><span class="w">more</span></div>
       <div class="sweep"></div>
     </div>
     </a>

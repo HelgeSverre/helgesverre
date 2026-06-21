@@ -7,7 +7,7 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { buildHtml } from "./template.mjs";
 import { renderAll } from "./render.mjs";
-import { getArticles, getStats, rotateFeatured, LANGUAGES, BIO, LINKS } from "./data.mjs";
+import { getArticles, getStats, getContributions, rotateFeatured, LANGUAGES, BIO, LINKS } from "./data.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -24,7 +24,7 @@ async function main() {
   if (!token) console.warn("⚠️  No GITHUB_TOKEN — stars will read 0 (REST-only fallback).");
 
   console.log("→ fetching live data…");
-  const [articles, stats] = await Promise.all([getArticles(3), getStats(token)]);
+  const [articles, stats, contributions] = await Promise.all([getArticles(3), getStats(token), getContributions(token)]);
   const pool = JSON.parse(await readFile(join(root, "data/featured.json"), "utf8")).projects;
   const projects = rotateFeatured(pool, 6, dayOfYear());
   console.log(`  stars ${stats.stars} · repos ${stats.repos} · followers ${stats.followers}`);
@@ -43,6 +43,7 @@ async function main() {
     languages: LANGUAGES,
     articles,
     projects,
+    contributions,
     links: LINKS,
   });
 

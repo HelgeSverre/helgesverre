@@ -9,6 +9,8 @@
 
 <a href="https://helgesver.re/projects"><img src="images/now.png" width="100%" alt="Now building — featured projects"></a>
 
+<a href="https://github.com/HelgeSverre"><img src="images/heat.png" width="100%" alt="Contribution graph — contributions over the last year"></a>
+
 <a href="https://helgesver.re/projects"><img src="images/nav-0.png" width="24.3%" alt="200 Projects"></a>
 <a href="https://helgesver.re/articles"><img src="images/nav-1.png" width="24.3%" alt="300 Articles"></a>
 <a href="https://helgesver.re"><img src="images/nav-2.png" width="24.3%" alt="100 Home"></a>

@@ -9,7 +9,7 @@ const { GIFEncoder, quantize, applyPalette } = gifenc;
 import { writeFile } from "node:fs/promises";
 import { join } from "node:path";
 
-const STATIC_PANELS = ["stats", "articles", "now", "nav-0", "nav-1", "nav-2", "nav-3"];
+const STATIC_PANELS = ["stats", "articles", "now", "heat", "nav-0", "nav-1", "nav-2", "nav-3"];
 
 export async function renderAll({ html, outDir, gifFrames = 14, gifDelay = 110, gifWidth = 900 }) {
   const browser = await chromium.launch();
