@@ -4,13 +4,13 @@
 
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
-export function buildHtml({ fontDataUri, avatarDataUri, bio, stats, languages, articles, projects, contributions, weather, programme, sema, links }) {
+export function buildHtml({ fontDataUri, avatarDataUri, bio, stats, languages, articles, projects, contributions, weather, programme, activity, sema, links }) {
   const heatCells = (contributions?.cells || [])
     .map((l) => (l == null ? '<i class="e"></i>' : `<i class="l${l}"></i>`))
     .join("");
 
   const progRows = (programme || [])
-    .map((p) => `<div class="line"><span class="y">${esc(p.time)}</span>  <span class="w">${esc(p.title)}</span></div>`)
+    .map((p) => `<div class="programme-item"><div class="programme-meta"><span class="y">${esc(p.date)} ${esc(p.time)}</span><span class="g">${esc(p.title)}</span></div><div class="programme-detail w">${esc(p.detail)}</div></div>`)
     .join("\n");
 
   const semaFile = sema?.file || "maze.sema";
@@ -21,10 +21,11 @@ export function buildHtml({ fontDataUri, avatarDataUri, bio, stats, languages, a
     )
     .join("");
 
-  const col = (items) =>
-    items
-      .map((p) => `<div class="line"><span class="g">▸ ${esc(p.name)}</span>  <span class="w">${esc(p.desc)}</span></div>`)
-      .join("\n");
+  const col = (items) => items.map((p) => `<div class="project-item">
+    <div class="project-heading"><span class="g project-name">▸ ${esc(p.name)}</span><span class="c freshness">${esc(p.freshness)}</span></div>
+    <div class="project-detail w">${esc(p.desc)}</div>
+    <div class="activity-bars">${p.days.map(n => `<i style="height:${n ? Math.min(14, 4 + Math.log2(n + 1)*3) : 3}px;opacity:${n ? 1 : .2}"></i>`).join('')}<span class="activity-label">7 DAYS</span></div>
+  </div>`).join("\n");
 
   const articleRows = articles
     .map(
@@ -94,7 +95,7 @@ a.tile{display:block;width:100%;text-decoration:none;color:inherit}
 .nb{font-size:17px}
 .nbhead{display:flex;justify-content:space-between;align-items:center}
 .nbcols{display:flex;gap:30px;margin-top:10px}
-.nbcol{flex:1}
+.nbcol{flex:1;min-width:0}
 .nbcol .line{line-height:1.9}
 .heat-panel{font-size:17px}
 .heat{display:grid;grid-template-rows:repeat(7,1fr);grid-auto-flow:column;grid-auto-columns:1fr;gap:3px;margin-top:14px}
@@ -103,6 +104,19 @@ a.tile{display:block;width:100%;text-decoration:none;color:inherit}
 .heatfoot i{display:block;width:13px;height:13px;border-radius:2px;flex:0 0 auto}
 .l0{background:#0c2113}.l1{background:#0f5a2a}.l2{background:#1d9a3a}.l3{background:#2bd64a}.l4{background:#44ff55}
 .e{background:transparent}
+.project-item{margin:8px 0 14px}
+.project-heading{display:flex;gap:10px;align-items:baseline;justify-content:space-between}
+.project-name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.freshness{font-size:13px;flex-shrink:0}
+.project-detail{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin:4px 0;font-size:15px}
+.activity-bars{display:flex;align-items:flex-end;gap:3px;height:16px}
+.activity-bars i{display:block;width:13px;background:var(--g)}
+.activity-label{font-size:11px;color:#aaa;margin-left:6px}
+.broadcast-status{font-size:12px;color:var(--y)}
+.programme-item{margin-top:3px;min-width:0}
+.programme-meta{display:flex;gap:10px;font-size:12px;line-height:14px;white-space:nowrap}
+.programme-meta .g{overflow:hidden;text-overflow:ellipsis}
+.programme-detail{font-size:14px;line-height:16px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:2px}
 /* programme guide */
 .prog-panel{font-size:17px;height:262px;display:flex;flex-direction:column}
 .prog-panel .line{line-height:1.85}
@@ -187,9 +201,10 @@ a.tile{display:block;width:100%;text-decoration:none;color:inherit}
   <tr><td colspan="2">
     <a class="tile" href="${esc(links.projects)}">
     <div class="screen strip nb" id="cap-now">
-      <div class="nbhead"><span class="c">P200 NOW BUILDING</span><span><span class="r cursor">●</span> <span class="w">LIVE</span></span></div>
+      <div class="nbhead"><span class="c">P200 NOW BUILDING</span><span class="broadcast-status">${esc(activity?.status || "NO SIGNAL")}</span></div>
+      <div class="activity-label" style="margin:6px 0 0">LAST 14 DAYS · PUBLIC ACTIVITY</div>
       <div class="nbcols">
-        <div class="nbcol">${col(projects.slice(0, 3))}</div>
+        <div class="nbcol">${projects.length ? col(projects.slice(0, 3)) : "NO RECENT ACTIVITY"}</div>
         <div class="nbcol">${col(projects.slice(3, 6))}</div>
       </div>
       <div class="sweep"></div>
@@ -211,8 +226,8 @@ a.tile{display:block;width:100%;text-decoration:none;color:inherit}
       <a class="tile" href="${esc(links.projects)}">
       <div class="screen prog-panel" id="cap-prog">
         <div class="line"><span class="c">P500 PROGRAMME</span></div>
-        <div class="line">&nbsp;</div>
-        ${progRows}
+        <div class="broadcast-status">RECENT BROADCAST · EUROPE/OSLO</div>
+        ${progRows || "<div class=programme-item>NO RECENT ACTIVITY</div>"}
       </div>
       </a>
     </td>

@@ -1,0 +1,12 @@
+{
+  "user": "HelgeSverre",
+  "exclude": ["HelgeSverre/helgesverre"],
+  "pin": [],
+  "names": {
+    "sema-lisp/sema": "Sema",
+    "HelgeSverre/token": "Token",
+    "HelgeSverre/fedit": "fedit",
+    "HelgeSverre/sourcefour": "Sourcefour",
+    "HelgeSverre/rust-vst3-host": "Rust VST3 Host"
+  }
+}

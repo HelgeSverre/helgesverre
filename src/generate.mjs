@@ -8,26 +8,23 @@ import { dirname, join } from "node:path";
 import { buildHtml } from "./template.mjs";
 import { renderAll } from "./render.mjs";
 import {
-  getArticles, getStats, getContributions, getWeather, getProgramme, getSemaCode,
-  rotateFeatured, LANGUAGES, BIO, LINKS,
+  getArticles, getStats, getContributions, getWeather, getSemaCode,
+  LANGUAGES, BIO, LINKS,
 } from "./data.mjs";
+
+import { loadActivity, buildActivityPanels } from "./activity.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 
 const dataUri = async (path, mime) => `data:${mime};base64,${(await readFile(path)).toString("base64")}`;
 
-const dayOfYear = () => {
-  const now = new Date();
-  const start = Date.UTC(now.getUTCFullYear(), 0, 0);
-  return Math.floor((Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()) - start) / 86400000);
-};
-
 async function main() {
   const token = process.env.GITHUB_TOKEN;
   if (!token) console.warn("⚠️  No GITHUB_TOKEN — stars will read 0 (REST-only fallback).");
 
-  const day = dayOfYear();
-  const pool = JSON.parse(await readFile(join(root, "data/featured.json"), "utf8")).projects;
+  const config = JSON.parse(await readFile(join(root, "data/activity.json"), "utf8"));
+  const snapshot = await loadActivity({ token, config, cachePath: join(root, "images/activity.json") });
+  const activity = buildActivityPanels(snapshot, config);
 
   console.log("→ fetching live data…");
   const [articles, stats, contributions, weather, sema] = await Promise.all([
@@ -37,8 +34,7 @@ async function main() {
     getWeather(),
     getSemaCode(token),
   ]);
-  const projects = rotateFeatured(pool, 6, day);
-  const programme = getProgramme(pool, day);
+  const { projects, programme } = activity;
   console.log(`  stars ${stats.stars} · repos ${stats.repos} · followers ${stats.followers}`);
   console.log(`  latest: "${articles[0]?.title}"  · weather ${weather.temp} ${weather.cond}  · sema ${sema.file} (${sema.code.split("\n").length} lines)`);
 
@@ -58,6 +54,7 @@ async function main() {
     contributions,
     weather,
     programme,
+    activity,
     sema,
     links: LINKS,
   });
