@@ -24,7 +24,6 @@ export function buildHtml({ fontDataUri, avatarDataUri, bio, stats, languages, a
   const col = (items) => items.map((p) => `<div class="project-item">
     <div class="project-heading"><span class="g project-name">▸ ${esc(p.name)}</span><span class="c freshness">${esc(p.freshness)}</span></div>
     <div class="project-detail w">${esc(p.desc)}</div>
-    <div class="activity-bars">${p.days.map(n => `<i style="height:${n ? Math.min(14, 4 + Math.log2(n + 1)*3) : 3}px;opacity:${n ? 1 : .2}"></i>`).join('')}<span class="activity-label">7 DAYS</span></div>
   </div>`).join("\n");
 
   const articleRows = articles
@@ -104,13 +103,11 @@ a.tile{display:block;width:100%;text-decoration:none;color:inherit}
 .heatfoot i{display:block;width:13px;height:13px;border-radius:2px;flex:0 0 auto}
 .l0{background:#0c2113}.l1{background:#0f5a2a}.l2{background:#1d9a3a}.l3{background:#2bd64a}.l4{background:#44ff55}
 .e{background:transparent}
-.project-item{margin:8px 0 14px}
+.project-item{margin:6px 0 12px}
 .project-heading{display:flex;gap:10px;align-items:baseline;justify-content:space-between}
 .project-name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .freshness{font-size:13px;flex-shrink:0}
 .project-detail{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin:4px 0;font-size:15px}
-.activity-bars{display:flex;align-items:flex-end;gap:3px;height:16px}
-.activity-bars i{display:block;width:13px;background:var(--g)}
 .activity-label{font-size:11px;color:#aaa;margin-left:6px}
 .broadcast-status{font-size:12px;color:var(--y)}
 .programme-item{margin-top:3px;min-width:0}
