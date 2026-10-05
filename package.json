@@ -5,7 +5,9 @@
   "type": "module",
   "description": "Tekst-TV broadcast generator for the github.com/HelgeSverre profile README",
   "scripts": {
-    "generate": "node src/generate.mjs"
+    "generate": "node src/generate.mjs",
+    "preview": "node src/preview.mjs",
+    "test": "node --test"
   },
   "dependencies": {
     "gifenc": "^1.0.3",

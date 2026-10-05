@@ -1,0 +1,1088 @@
+{
+  "version": 1,
+  "fetchedAt": "2026-10-05T14:41:51.478Z",
+  "since": "2026-09-21T14:41:51.478Z",
+  "partial": false,
+  "events": [
+    {
+      "id": "commit:HelgeSverre/splash:be6738e8fb78aae4340503acf9c2d2546ee6d083",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-05T16:11:00.000+02:00",
+      "title": "Align macOS release requirements with the webview target",
+      "url": "https://github.com/HelgeSverre/splash/commit/be6738e8fb78aae4340503acf9c2d2546ee6d083"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:5e6de9fd25d79029c3b95628251b473e93d919a6",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-05T16:08:09.000+02:00",
+      "title": "Suppress expected agent errors during app shutdown",
+      "url": "https://github.com/HelgeSverre/splash/commit/5e6de9fd25d79029c3b95628251b473e93d919a6"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:7749baa716dbaedd6a2ac165bde6ddc135928e1b",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-05T16:02:48.000+02:00",
+      "title": "Install actionlint through Homebrew on CI",
+      "url": "https://github.com/HelgeSverre/splash/commit/7749baa716dbaedd6a2ac165bde6ddc135928e1b"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:c3a68b229ec5d89d40bc73f573c397aabadeb4dc",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-05T15:58:59.000+02:00",
+      "title": "Prepare Splash 0.1.0 for public release",
+      "url": "https://github.com/HelgeSverre/splash/commit/c3a68b229ec5d89d40bc73f573c397aabadeb4dc"
+    },
+    {
+      "id": "commit:HelgeSverre/ollama-gui:e76824ea9f9c2844477de7a217427eeb8dd07603",
+      "kind": "commit",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-05T15:51:02.000+02:00",
+      "title": "chore: move to Node 26 (.nvmrc) and use it in CI",
+      "url": "https://github.com/HelgeSverre/ollama-gui/commit/e76824ea9f9c2844477de7a217427eeb8dd07603"
+    },
+    {
+      "id": "commit:HelgeSverre/ollama-gui:88322a2fb251ca007064e62556e42083940e9fcd",
+      "kind": "commit",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-05T15:37:19.000+02:00",
+      "title": "fix: explain the browser's local network permission in the connection help; tidy help text spacing",
+      "url": "https://github.com/HelgeSverre/ollama-gui/commit/88322a2fb251ca007064e62556e42083940e9fcd"
+    },
+    {
+      "id": "commit:HelgeSverre/ollama-gui:e91cb37e4aec436c7012ba68be375c297da4241e",
+      "kind": "commit",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-05T15:34:48.000+02:00",
+      "title": "test: wait for stream conditions instead of fixed delays (flaky on slow CI runners)",
+      "url": "https://github.com/HelgeSverre/ollama-gui/commit/e91cb37e4aec436c7012ba68be375c297da4241e"
+    },
+    {
+      "id": "commit:HelgeSverre/ollama-gui:0e5341b6c2bfa01c55fd549a273d914ad815bba2",
+      "kind": "commit",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-05T15:29:06.000+02:00",
+      "title": "chore: add Dependabot (bun, actions, docker) and CI/release badges",
+      "url": "https://github.com/HelgeSverre/ollama-gui/commit/0e5341b6c2bfa01c55fd549a273d914ad815bba2"
+    },
+    {
+      "id": "commit:HelgeSverre/ollama-gui:d62a4ffe67a1d14e641589e4d9a815c4dcd04e14",
+      "kind": "commit",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-05T15:26:39.000+02:00",
+      "title": "chore: drop proxy comment",
+      "url": "https://github.com/HelgeSverre/ollama-gui/commit/d62a4ffe67a1d14e641589e4d9a815c4dcd04e14"
+    },
+    {
+      "id": "commit:HelgeSverre/ollama-gui:51b89ba91cc4522f741f5fe2bc990a14e259db92",
+      "kind": "commit",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-05T15:26:18.000+02:00",
+      "title": "fix(dev): proxy /api to 127.0.0.1 so Node doesn't resolve localhost to IPv6 (#63)",
+      "url": "https://github.com/HelgeSverre/ollama-gui/commit/51b89ba91cc4522f741f5fe2bc990a14e259db92"
+    },
+    {
+      "id": "commit:HelgeSverre/ollama-gui:9cff6b0cdb00fa0a12d9360fa221bf5ec5c3b8d8",
+      "kind": "commit",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-05T15:08:04.000+02:00",
+      "title": "chore: remove Claude Code GitHub Action workflows; stop tracking local Claude settings",
+      "url": "https://github.com/HelgeSverre/ollama-gui/commit/9cff6b0cdb00fa0a12d9360fa221bf5ec5c3b8d8"
+    },
+    {
+      "id": "commit:HelgeSverre/ollama-gui:ba29941bff2b2bfc7aec2dc80913b483a3386f2d",
+      "kind": "commit",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-05T14:59:36.000+02:00",
+      "title": "docs: use the published GHCR image in the Docker examples",
+      "url": "https://github.com/HelgeSverre/ollama-gui/commit/ba29941bff2b2bfc7aec2dc80913b483a3386f2d"
+    },
+    {
+      "id": "commit:HelgeSverre/ollama-gui:468bf863da8033986382765e3dab1fb84006af60",
+      "kind": "commit",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-05T14:36:15.000+02:00",
+      "title": "ci: weekly model catalog refresh PR; make act work locally",
+      "url": "https://github.com/HelgeSverre/ollama-gui/commit/468bf863da8033986382765e3dab1fb84006af60"
+    },
+    {
+      "id": "commit:HelgeSverre/ollama-gui:070ad6a3d52ec225205237ebc43a0c46c4aa274f",
+      "kind": "commit",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-05T14:02:43.000+02:00",
+      "title": "feat: search the Ollama library from the Models dialog",
+      "url": "https://github.com/HelgeSverre/ollama-gui/commit/070ad6a3d52ec225205237ebc43a0c46c4aa274f"
+    },
+    {
+      "id": "commit:HelgeSverre/ollama-gui:ed79103cd9da9624e4a0473888a3c998947433a7",
+      "kind": "commit",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-05T13:14:53.000+02:00",
+      "title": "fix: attach every file picked at once; strip stray think tags; add real-Ollama vision tests",
+      "url": "https://github.com/HelgeSverre/ollama-gui/commit/ed79103cd9da9624e4a0473888a3c998947433a7"
+    },
+    {
+      "id": "commit:HelgeSverre/ollama-gui:9596c5ecc509fe2885da3d9d1f80801552a0eac1",
+      "kind": "commit",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-05T13:10:06.000+02:00",
+      "title": "style: format src and e2e with Prettier; add format:check to CI",
+      "url": "https://github.com/HelgeSverre/ollama-gui/commit/9596c5ecc509fe2885da3d9d1f80801552a0eac1"
+    },
+    {
+      "id": "commit:HelgeSverre/ollama-gui:fd0d2856ca678b5b7d0edf5558e00708cb2c7919",
+      "kind": "commit",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-05T13:02:56.000+02:00",
+      "title": "chore(deps): major bumps — VueUse 15, vite-plugin-pwa 2, Vitest 5, TypeScript 6, prettier-plugin-tailwindcss 0.8, @types/node 24",
+      "url": "https://github.com/HelgeSverre/ollama-gui/commit/fd0d2856ca678b5b7d0edf5558e00708cb2c7919"
+    },
+    {
+      "id": "commit:HelgeSverre/ollama-gui:84f1508fbe61f3cf923f85761767b342d29b6d7c",
+      "kind": "commit",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-05T13:01:08.000+02:00",
+      "title": "chore(deps): update within current ranges (vue 3.5.43, vite 8.3, dexie 4.4.6, eslint 10.12, playwright 1.63…)",
+      "url": "https://github.com/HelgeSverre/ollama-gui/commit/84f1508fbe61f3cf923f85761767b342d29b6d7c"
+    },
+    {
+      "id": "commit:HelgeSverre/ollama-gui:4991005ad0930c3a1990a54c21fa45ef8f96f5cf",
+      "kind": "commit",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-05T12:57:57.000+02:00",
+      "title": "fix: carry v1 dark-mode and model settings over to v2; test the v10 (main) database upgrade",
+      "url": "https://github.com/HelgeSverre/ollama-gui/commit/4991005ad0930c3a1990a54c21fa45ef8f96f5cf"
+    },
+    {
+      "id": "pr:HelgeSverre/ollama-gui:79",
+      "kind": "merge",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-05T12:55:10Z",
+      "title": "v2: rebuilt chat UI",
+      "url": "https://github.com/HelgeSverre/ollama-gui/pull/79"
+    },
+    {
+      "id": "commit:HelgeSverre/rust-vst3-host:65f2dabd66927fde90d354135268877a017ccf11",
+      "kind": "commit",
+      "repo": "HelgeSverre/rust-vst3-host",
+      "at": "2026-10-05T12:47:28.000+02:00",
+      "title": "fix: release trance pads on riff changes and improve transport controls",
+      "url": "https://github.com/HelgeSverre/rust-vst3-host/commit/65f2dabd66927fde90d354135268877a017ccf11"
+    },
+    {
+      "id": "commit:HelgeSverre/rust-vst3-host:2e02cfcf57727a7d94bf6965e2ba7e92927bb0d1",
+      "kind": "commit",
+      "repo": "HelgeSverre/rust-vst3-host",
+      "at": "2026-10-05T12:47:28.000+02:00",
+      "title": "fix: avoid deprecated atomic update while retaining Rust 1.85 support",
+      "url": "https://github.com/HelgeSverre/rust-vst3-host/commit/2e02cfcf57727a7d94bf6965e2ba7e92927bb0d1"
+    },
+    {
+      "id": "commit:HelgeSverre/rust-vst3-host:4a34fbb475f350831e763e3f73a4045727d06201",
+      "kind": "commit",
+      "repo": "HelgeSverre/rust-vst3-host",
+      "at": "2026-10-05T12:38:29.000+02:00",
+      "title": "chore: add audible hardware test recipe",
+      "url": "https://github.com/HelgeSverre/rust-vst3-host/commit/4a34fbb475f350831e763e3f73a4045727d06201"
+    },
+    {
+      "id": "commit:HelgeSverre/rust-vst3-host:ed9a7dcc3e8a064235184de34b2a2e5fb6bcc553",
+      "kind": "commit",
+      "repo": "HelgeSverre/rust-vst3-host",
+      "at": "2026-10-05T12:37:28.000+02:00",
+      "title": "test: keep validation silent unless hardware audio is explicitly enabled",
+      "url": "https://github.com/HelgeSverre/rust-vst3-host/commit/ed9a7dcc3e8a064235184de34b2a2e5fb6bcc553"
+    },
+    {
+      "id": "commit:HelgeSverre/rust-vst3-host:c4e89726b5010f6b91fd722b743346f1f8b1c421",
+      "kind": "commit",
+      "repo": "HelgeSverre/rust-vst3-host",
+      "at": "2026-10-05T12:35:01.000+02:00",
+      "title": "fix: align VST3 lifecycle and add controller compatibility APIs",
+      "url": "https://github.com/HelgeSverre/rust-vst3-host/commit/c4e89726b5010f6b91fd722b743346f1f8b1c421"
+    },
+    {
+      "id": "commit:sema-lisp/zed-sema:a57b8cc6cff73ec688876f8cd46565a1a32d5bfa",
+      "kind": "commit",
+      "repo": "sema-lisp/zed-sema",
+      "at": "2026-10-05T12:32:07.000+02:00",
+      "title": "Keep optional theme outside the language extension package",
+      "url": "https://github.com/sema-lisp/zed-sema/commit/a57b8cc6cff73ec688876f8cd46565a1a32d5bfa"
+    },
+    {
+      "id": "commit:sema-lisp/opencode-sema:eaf94d4061e9b1df0b319ad4e4837e91b8940332",
+      "kind": "commit",
+      "repo": "sema-lisp/opencode-sema",
+      "at": "2026-10-05T12:30:52.000+02:00",
+      "title": "Release 1.2.1",
+      "url": "https://github.com/sema-lisp/opencode-sema/commit/eaf94d4061e9b1df0b319ad4e4837e91b8940332"
+    },
+    {
+      "id": "commit:sema-lisp/emacs-sema:6ecdc887be79960671b1014f9d6eed2caab35b88",
+      "kind": "commit",
+      "repo": "sema-lisp/emacs-sema",
+      "at": "2026-10-05T12:28:01.000+02:00",
+      "title": "Use unambiguous rx character class in regex matcher",
+      "url": "https://github.com/sema-lisp/emacs-sema/commit/6ecdc887be79960671b1014f9d6eed2caab35b88"
+    },
+    {
+      "id": "commit:sema-lisp/sema.nvim:d988f97f3c07d2c9347bfcf8b7b3af2948eaa70b",
+      "kind": "commit",
+      "repo": "sema-lisp/sema.nvim",
+      "at": "2026-10-05T12:27:19.000+02:00",
+      "title": "Format highlight regression assertion",
+      "url": "https://github.com/sema-lisp/sema.nvim/commit/d988f97f3c07d2c9347bfcf8b7b3af2948eaa70b"
+    },
+    {
+      "id": "commit:sema-lisp/intellij-sema:99a77eb86e8b1e29e089448a444e1aeaadddbca3",
+      "kind": "commit",
+      "repo": "sema-lisp/intellij-sema",
+      "at": "2026-10-05T12:26:57.000+02:00",
+      "title": "Release 1.2.0 with reader syntax and runtime aliases",
+      "url": "https://github.com/sema-lisp/intellij-sema/commit/99a77eb86e8b1e29e089448a444e1aeaadddbca3"
+    },
+    {
+      "id": "commit:sema-lisp/pkg:c90bfdbf9dfc2a076abef965043145f00a450f2e",
+      "kind": "commit",
+      "repo": "sema-lisp/pkg",
+      "at": "2026-10-05T12:25:57.000+02:00",
+      "title": "Sync reader syntax and runtime aliases in package highlighting",
+      "url": "https://github.com/sema-lisp/pkg/commit/c90bfdbf9dfc2a076abef965043145f00a450f2e"
+    },
+    {
+      "id": "commit:sema-lisp/sublime-sema:b6fc7191e0325d420c63d656a8f51d92617f6d3d",
+      "kind": "commit",
+      "repo": "sema-lisp/sublime-sema",
+      "at": "2026-10-05T12:20:52.000+02:00",
+      "title": "fix: preserve operator scopes before builtin matching",
+      "url": "https://github.com/sema-lisp/sublime-sema/commit/b6fc7191e0325d420c63d656a8f51d92617f6d3d"
+    },
+    {
+      "id": "commit:sema-lisp/zed-sema:27b9bae20e36a3c90cfe5795a32bb3510a78aee1",
+      "kind": "commit",
+      "repo": "sema-lisp/zed-sema",
+      "at": "2026-10-05T12:18:11.000+02:00",
+      "title": "release: prepare Zed 0.4.0 with updated grammar and theme",
+      "url": "https://github.com/sema-lisp/zed-sema/commit/27b9bae20e36a3c90cfe5795a32bb3510a78aee1"
+    },
+    {
+      "id": "commit:sema-lisp/ui:b1dc3ca3d225f48930d3edcfad0af606cc1ca562",
+      "kind": "commit",
+      "repo": "sema-lisp/ui",
+      "at": "2026-10-05T12:17:58.000+02:00",
+      "title": "release: synchronize Sema grammar and prepare UI 0.3.0",
+      "url": "https://github.com/sema-lisp/ui/commit/b1dc3ca3d225f48930d3edcfad0af606cc1ca562"
+    },
+    {
+      "id": "commit:sema-lisp/sublime-sema:c07222ddab53e1dd7f2bbbfa7589c036f99c9017",
+      "kind": "commit",
+      "repo": "sema-lisp/sublime-sema",
+      "at": "2026-10-05T12:17:56.000+02:00",
+      "title": "fix: merge complete regex literal syntax scopes",
+      "url": "https://github.com/sema-lisp/sublime-sema/commit/c07222ddab53e1dd7f2bbbfa7589c036f99c9017"
+    },
+    {
+      "id": "commit:sema-lisp/helix-sema:fb63d9da58fe5d7b8298cf2504b13199fa32821c",
+      "kind": "commit",
+      "repo": "sema-lisp/helix-sema",
+      "at": "2026-10-05T12:17:24.000+02:00",
+      "title": "test: merge regex builtin query coverage",
+      "url": "https://github.com/sema-lisp/helix-sema/commit/fb63d9da58fe5d7b8298cf2504b13199fa32821c"
+    },
+    {
+      "id": "commit:sema-lisp/pkg:ee6b5e46a210ad119f78ff5528f42a704d5fa6d7",
+      "kind": "commit",
+      "repo": "sema-lisp/pkg",
+      "at": "2026-10-05T12:16:34.000+02:00",
+      "title": "fix: merge regex highlighting assets and tests",
+      "url": "https://github.com/sema-lisp/pkg/commit/ee6b5e46a210ad119f78ff5528f42a704d5fa6d7"
+    },
+    {
+      "id": "commit:sema-lisp/sublime-sema:4b45e1f4dc5029149ce13a7cc09aeea0e19ccb3a",
+      "kind": "commit",
+      "repo": "sema-lisp/sublime-sema",
+      "at": "2026-10-05T12:15:23.000+02:00",
+      "title": "fix: align reader syntax and resolve build executables",
+      "url": "https://github.com/sema-lisp/sublime-sema/commit/4b45e1f4dc5029149ce13a7cc09aeea0e19ccb3a"
+    },
+    {
+      "id": "commit:sema-lisp/helix-sema:fa69117f38c52285426570780b31a941c38fd0b8",
+      "kind": "commit",
+      "repo": "sema-lisp/helix-sema",
+      "at": "2026-10-05T12:15:23.000+02:00",
+      "title": "fix: preserve Helix server settings and align reader highlighting",
+      "url": "https://github.com/sema-lisp/helix-sema/commit/fa69117f38c52285426570780b31a941c38fd0b8"
+    },
+    {
+      "id": "commit:sema-lisp/emacs-sema:ad2616c23d804c26698ab15ce4ca05275d0b7477",
+      "kind": "commit",
+      "repo": "sema-lisp/emacs-sema",
+      "at": "2026-10-05T12:15:22.000+02:00",
+      "title": "fix: merge complete regex font-lock coverage",
+      "url": "https://github.com/sema-lisp/emacs-sema/commit/ad2616c23d804c26698ab15ce4ca05275d0b7477"
+    },
+    {
+      "id": "commit:sema-lisp/sema:143a8e062ae7ddb4b5cd5ee26d4e5dcd9825f82c",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T12:14:18.000+02:00",
+      "title": "fix(docs): synchronize reader syntax and builtin highlighting",
+      "url": "https://github.com/sema-lisp/sema/commit/143a8e062ae7ddb4b5cd5ee26d4e5dcd9825f82c"
+    },
+    {
+      "id": "commit:sema-lisp/emacs-sema:5e72b4624a7fb8bd1d43e682d2a64c649843b113",
+      "kind": "commit",
+      "repo": "sema-lisp/emacs-sema",
+      "at": "2026-10-05T12:13:49.000+02:00",
+      "title": "fix: align syntax and indentation and honor the configured executable",
+      "url": "https://github.com/sema-lisp/emacs-sema/commit/5e72b4624a7fb8bd1d43e682d2a64c649843b113"
+    },
+    {
+      "id": "commit:sema-lisp/sema.vim:ed7a850750b649c36b3ddd0f5b700fbf0393e9ac",
+      "kind": "commit",
+      "repo": "sema-lisp/sema.vim",
+      "at": "2026-10-05T12:13:05.000+02:00",
+      "title": "fix: merge complete regex literal highlighting",
+      "url": "https://github.com/sema-lisp/sema.vim/commit/ed7a850750b649c36b3ddd0f5b700fbf0393e9ac"
+    },
+    {
+      "id": "commit:sema-lisp/sema:35a1f227af5dd245598e03f9766ede2ddb9c9d33",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T12:12:11.000+02:00",
+      "title": "fix(release): recover MCP metadata without replacing published bundles",
+      "url": "https://github.com/sema-lisp/sema/commit/35a1f227af5dd245598e03f9766ede2ddb9c9d33"
+    },
+    {
+      "id": "commit:sema-lisp/sema.nvim:9d0f6cbdd84bb1517850f65fbd69226f541c2b51",
+      "kind": "commit",
+      "repo": "sema-lisp/sema.nvim",
+      "at": "2026-10-05T12:10:42.000+02:00",
+      "title": "fix: support current parser registration and preserve builtin aliases",
+      "url": "https://github.com/sema-lisp/sema.nvim/commit/9d0f6cbdd84bb1517850f65fbd69226f541c2b51"
+    },
+    {
+      "id": "commit:sema-lisp/sema.vim:d6c38146b4125ac43dbdeaafddbb5334d1040d83",
+      "kind": "commit",
+      "repo": "sema-lisp/sema.vim",
+      "at": "2026-10-05T12:10:42.000+02:00",
+      "title": "fix: align syntax, builtin aliases, and indentation",
+      "url": "https://github.com/sema-lisp/sema.vim/commit/d6c38146b4125ac43dbdeaafddbb5334d1040d83"
+    },
+    {
+      "id": "commit:sema-lisp/tree-sitter-sema:f2e289b9b3909cefa7c67138c65fe3dc8dc23553",
+      "kind": "commit",
+      "repo": "sema-lisp/tree-sitter-sema",
+      "at": "2026-10-05T12:10:08.000+02:00",
+      "title": "fix: preserve runtime aliases in builtin queries",
+      "url": "https://github.com/sema-lisp/tree-sitter-sema/commit/f2e289b9b3909cefa7c67138c65fe3dc8dc23553"
+    },
+    {
+      "id": "commit:sema-lisp/vscode-sema:d3e407cf838097037c0ce606657421136fa5a5ae",
+      "kind": "commit",
+      "repo": "sema-lisp/vscode-sema",
+      "at": "2026-10-05T12:07:33.000+02:00",
+      "title": "release: prepare VS Code extension 0.4.0",
+      "url": "https://github.com/sema-lisp/vscode-sema/commit/d3e407cf838097037c0ce606657421136fa5a5ae"
+    },
+    {
+      "id": "commit:sema-lisp/vscode-sema:2562670497a0b0528c3022dcb04fc10c11287ca4",
+      "kind": "commit",
+      "repo": "sema-lisp/vscode-sema",
+      "at": "2026-10-05T12:07:32.000+02:00",
+      "title": "fix: merge regex tokenization regression tests",
+      "url": "https://github.com/sema-lisp/vscode-sema/commit/2562670497a0b0528c3022dcb04fc10c11287ca4"
+    },
+    {
+      "id": "commit:sema-lisp/vscode-sema:3e178fe46694e190b636978d45b63f0d28a2e659",
+      "kind": "commit",
+      "repo": "sema-lisp/vscode-sema",
+      "at": "2026-10-05T12:06:12.000+02:00",
+      "title": "fix: align syntax and activate integrations before LSP startup",
+      "url": "https://github.com/sema-lisp/vscode-sema/commit/3e178fe46694e190b636978d45b63f0d28a2e659"
+    },
+    {
+      "id": "commit:sema-lisp/intellij-sema:6f84d4ba4664dc9497a64e623771e7ffc3973ae2",
+      "kind": "commit",
+      "repo": "sema-lisp/intellij-sema",
+      "at": "2026-10-05T12:05:30.000+02:00",
+      "title": "fix: merge regex token highlighting and tests",
+      "url": "https://github.com/sema-lisp/intellij-sema/commit/6f84d4ba4664dc9497a64e623771e7ffc3973ae2"
+    },
+    {
+      "id": "commit:sema-lisp/intellij-sema:863f6f82661c502d4f18de60df178ba5c972b65b",
+      "kind": "commit",
+      "repo": "sema-lisp/intellij-sema",
+      "at": "2026-10-05T12:04:58.000+02:00",
+      "title": "fix: align lexer and wait for notebook startup",
+      "url": "https://github.com/sema-lisp/intellij-sema/commit/863f6f82661c502d4f18de60df178ba5c972b65b"
+    },
+    {
+      "id": "commit:sema-lisp/tree-sitter-sema:a9fad07c94ecd82aec25a4852a42f7574685cd15",
+      "kind": "commit",
+      "repo": "sema-lisp/tree-sitter-sema",
+      "at": "2026-10-05T12:04:12.000+02:00",
+      "title": "release: prepare grammar 0.3.0",
+      "url": "https://github.com/sema-lisp/tree-sitter-sema/commit/a9fad07c94ecd82aec25a4852a42f7574685cd15"
+    },
+    {
+      "id": "commit:sema-lisp/ui:3a1447baeb516ddcb850f50c939d1d04c39b6cbd",
+      "kind": "commit",
+      "repo": "sema-lisp/ui",
+      "at": "2026-10-05T12:03:05.000+02:00",
+      "title": "fix: merge regex highlighting coverage",
+      "url": "https://github.com/sema-lisp/ui/commit/3a1447baeb516ddcb850f50c939d1d04c39b6cbd"
+    },
+    {
+      "id": "commit:sema-lisp/tree-sitter-sema:669c29a405a715826d9dcedf0b8cb3436f893d3e",
+      "kind": "commit",
+      "repo": "sema-lisp/tree-sitter-sema",
+      "at": "2026-10-05T12:03:04.000+02:00",
+      "title": "test: merge regex literal coverage",
+      "url": "https://github.com/sema-lisp/tree-sitter-sema/commit/669c29a405a715826d9dcedf0b8cb3436f893d3e"
+    },
+    {
+      "id": "commit:sema-lisp/sema:86fcd0eea0e6144efc811d3c2472c9409121343f",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T12:01:17.000+02:00",
+      "title": "ci: allow explicit validation of a release commit on main",
+      "url": "https://github.com/sema-lisp/sema/commit/86fcd0eea0e6144efc811d3c2472c9409121343f"
+    },
+    {
+      "id": "commit:sema-lisp/sema:164590482f0b34af23e0fd3f9126d9a49068143c",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T11:59:06.000+02:00",
+      "title": "release: merge 1.36.1 hotfix history into main",
+      "url": "https://github.com/sema-lisp/sema/commit/164590482f0b34af23e0fd3f9126d9a49068143c"
+    },
+    {
+      "id": "commit:sema-lisp/sema:ea0579b1656951497aecc595b4e384b1a5af1026",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T11:58:14.000+02:00",
+      "title": "release: merge 1.37.0-rc.1 preparation into main",
+      "url": "https://github.com/sema-lisp/sema/commit/ea0579b1656951497aecc595b4e384b1a5af1026"
+    },
+    {
+      "id": "commit:HelgeSverre/rust-vst3-host:491113fb8730cd93090cbfb25157c5705aecb8aa",
+      "kind": "commit",
+      "repo": "HelgeSverre/rust-vst3-host",
+      "at": "2026-10-05T11:57:53.000+02:00",
+      "title": "fix: make MIDI and plugin example defaults portable",
+      "url": "https://github.com/HelgeSverre/rust-vst3-host/commit/491113fb8730cd93090cbfb25157c5705aecb8aa"
+    },
+    {
+      "id": "commit:HelgeSverre/rust-vst3-host:6586400677357c6b03a4f60ce37f83318a9b7857",
+      "kind": "commit",
+      "repo": "HelgeSverre/rust-vst3-host",
+      "at": "2026-10-05T11:54:06.000+02:00",
+      "title": "feat: query attached editor state without creating views",
+      "url": "https://github.com/HelgeSverre/rust-vst3-host/commit/6586400677357c6b03a4f60ce37f83318a9b7857"
+    },
+    {
+      "id": "commit:HelgeSverre/ollama-gui:41e494647e6614ea495b640584ad629e7d15ab07",
+      "kind": "commit",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-05T11:49:41.000+02:00",
+      "title": "fix: generation races, stuck replies, palette dialogs; expand test coverage",
+      "url": "https://github.com/HelgeSverre/ollama-gui/commit/41e494647e6614ea495b640584ad629e7d15ab07"
+    },
+    {
+      "id": "commit:HelgeSverre/ollama-gui:179c90c4b22a884351fd3b9fde3483b03f941df5",
+      "kind": "commit",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-05T11:23:26.000+02:00",
+      "title": "docs: rewrite README in plainer language; add test:coverage script",
+      "url": "https://github.com/HelgeSverre/ollama-gui/commit/179c90c4b22a884351fd3b9fde3483b03f941df5"
+    },
+    {
+      "id": "commit:HelgeSverre/ollama-gui:85568be536fd2360a8a6ef4f8e65be810bfd7535",
+      "kind": "commit",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-05T11:17:24.000+02:00",
+      "title": "docs: fix underlined gaps between README badges",
+      "url": "https://github.com/HelgeSverre/ollama-gui/commit/85568be536fd2360a8a6ef4f8e65be810bfd7535"
+    },
+    {
+      "id": "commit:sema-lisp/sema:101303e552dd9f423bbe0c7e4a4f1b54dc571fa4",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T11:12:50.000+02:00",
+      "title": "release: retain shared artifact validation and platform fixes on main",
+      "url": "https://github.com/sema-lisp/sema/commit/101303e552dd9f423bbe0c7e4a4f1b54dc571fa4"
+    },
+    {
+      "id": "commit:HelgeSverre/ollama-gui:c36ee4c6b0e71509d81ccf519c3df5247f041f57",
+      "kind": "commit",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-05T11:10:12.000+02:00",
+      "title": "feat: v2 rework — message tree with parts, native thinking, vision, model manager, Docker proxy",
+      "url": "https://github.com/HelgeSverre/ollama-gui/commit/c36ee4c6b0e71509d81ccf519c3df5247f041f57"
+    },
+    {
+      "id": "commit:HelgeSverre/sourcefour:f0bdac410a40217183c30fe4c815e00715f8cd2e",
+      "kind": "commit",
+      "repo": "HelgeSverre/sourcefour",
+      "at": "2026-10-05T10:51:13.000+02:00",
+      "title": "Record public v0.1.7 cask upgrade and lifecycle validation",
+      "url": "https://github.com/HelgeSverre/sourcefour/commit/f0bdac410a40217183c30fe4c815e00715f8cd2e"
+    },
+    {
+      "id": "commit:sema-lisp/sema:1f492e0d8d023739ecee4f53624bbe22bdd0de06",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T10:46:07.000+02:00",
+      "title": "release: verify notarized command-line binaries with Apple requirements",
+      "url": "https://github.com/sema-lisp/sema/commit/1f492e0d8d023739ecee4f53624bbe22bdd0de06"
+    },
+    {
+      "id": "commit:sema-lisp/sema:08d1072d93ab198e0b407a548e912017ab97b16e",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T10:45:52.000+02:00",
+      "title": "release: verify notarized command-line binaries with Apple requirements",
+      "url": "https://github.com/sema-lisp/sema/commit/08d1072d93ab198e0b407a548e912017ab97b16e"
+    },
+    {
+      "id": "pr:sema-lisp/intellij-sema:2",
+      "kind": "merge",
+      "repo": "sema-lisp/intellij-sema",
+      "at": "2026-10-05T10:27:01Z",
+      "title": "fix: highlight regex literals and builtins",
+      "url": "https://github.com/sema-lisp/intellij-sema/pull/2"
+    },
+    {
+      "id": "pr:sema-lisp/pkg:4",
+      "kind": "merge",
+      "repo": "sema-lisp/pkg",
+      "at": "2026-10-05T10:26:01Z",
+      "title": "fix: scope regex literals in package code",
+      "url": "https://github.com/sema-lisp/pkg/pull/4"
+    },
+    {
+      "id": "commit:sema-lisp/sema:3ce20d4f76cef935cd8e4d244252fe889fa179be",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T10:21:31.000+02:00",
+      "title": "fix(runtime): retain release cancellation and browser corrections on main",
+      "url": "https://github.com/sema-lisp/sema/commit/3ce20d4f76cef935cd8e4d244252fe889fa179be"
+    },
+    {
+      "id": "commit:HelgeSverre/sourcefour:6056a39839096f5102218ebc5d8cc360730e9dea",
+      "kind": "commit",
+      "repo": "HelgeSverre/sourcefour",
+      "at": "2026-10-05T10:19:14.000+02:00",
+      "title": "release: v0.1.7",
+      "url": "https://github.com/HelgeSverre/sourcefour/commit/6056a39839096f5102218ebc5d8cc360730e9dea"
+    },
+    {
+      "id": "pr:sema-lisp/ui:3",
+      "kind": "merge",
+      "repo": "sema-lisp/ui",
+      "at": "2026-10-05T10:18:01Z",
+      "title": "fix: scope Sema regex literals in UI highlighting",
+      "url": "https://github.com/sema-lisp/ui/pull/3"
+    },
+    {
+      "id": "pr:sema-lisp/sublime-sema:3",
+      "kind": "merge",
+      "repo": "sema-lisp/sublime-sema",
+      "at": "2026-10-05T10:18:00Z",
+      "title": "fix: add a dedicated regex literal scope",
+      "url": "https://github.com/sema-lisp/sublime-sema/pull/3"
+    },
+    {
+      "id": "pr:sema-lisp/helix-sema:3",
+      "kind": "merge",
+      "repo": "sema-lisp/helix-sema",
+      "at": "2026-10-05T10:17:27Z",
+      "title": "fix: classify regex builtins in Helix",
+      "url": "https://github.com/sema-lisp/helix-sema/pull/3"
+    },
+    {
+      "id": "commit:HelgeSverre/sourcefour:902ef399662b96f6df3b499acc422de758ae211b",
+      "kind": "commit",
+      "repo": "HelgeSverre/sourcefour",
+      "at": "2026-10-05T10:16:57.000+02:00",
+      "title": "Isolate ordinary-user AppImage smoke extraction from the root cache",
+      "url": "https://github.com/HelgeSverre/sourcefour/commit/902ef399662b96f6df3b499acc422de758ae211b"
+    },
+    {
+      "id": "pr:sema-lisp/emacs-sema:2",
+      "kind": "merge",
+      "repo": "sema-lisp/emacs-sema",
+      "at": "2026-10-05T10:15:26Z",
+      "title": "fix: highlight complete regex literals",
+      "url": "https://github.com/sema-lisp/emacs-sema/pull/2"
+    },
+    {
+      "id": "pr:sema-lisp/sema.vim:2",
+      "kind": "merge",
+      "repo": "sema-lisp/sema.vim",
+      "at": "2026-10-05T10:13:09Z",
+      "title": "fix: highlight regex literals as one Vim region",
+      "url": "https://github.com/sema-lisp/sema.vim/pull/2"
+    },
+    {
+      "id": "commit:sema-lisp/sema:b7c38713ae5ea66be3dd18fde30cb1dcb945e359",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T10:11:34.000+02:00",
+      "title": "fix(agent): save memory when cancelled tools are reaped",
+      "url": "https://github.com/sema-lisp/sema/commit/b7c38713ae5ea66be3dd18fde30cb1dcb945e359"
+    },
+    {
+      "id": "commit:sema-lisp/sema:9d8063d1100ea09c8105b14467dae42a471917b0",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T10:08:54.000+02:00",
+      "title": "fix(runtime): preserve cleanup across cancellation transitions",
+      "url": "https://github.com/sema-lisp/sema/commit/9d8063d1100ea09c8105b14467dae42a471917b0"
+    },
+    {
+      "id": "pr:sema-lisp/vscode-sema:2",
+      "kind": "merge",
+      "repo": "sema-lisp/vscode-sema",
+      "at": "2026-10-05T10:07:45Z",
+      "title": "fix: scope Sema regex literals as regex",
+      "url": "https://github.com/sema-lisp/vscode-sema/pull/2"
+    },
+    {
+      "id": "pr:sema-lisp/tree-sitter-sema:2",
+      "kind": "merge",
+      "repo": "sema-lisp/tree-sitter-sema",
+      "at": "2026-10-05T10:04:15Z",
+      "title": "test: cover regex literal escape forms",
+      "url": "https://github.com/sema-lisp/tree-sitter-sema/pull/2"
+    },
+    {
+      "id": "commit:HelgeSverre/sourcefour:f198d185fbb5c7386aea34ac41334c0536c81054",
+      "kind": "commit",
+      "repo": "HelgeSverre/sourcefour",
+      "at": "2026-10-05T09:51:15.000+02:00",
+      "title": "release: v0.1.6",
+      "url": "https://github.com/HelgeSverre/sourcefour/commit/f198d185fbb5c7386aea34ac41334c0536c81054"
+    },
+    {
+      "id": "commit:HelgeSverre/sourcefour:c67285a5ff1b33e56d0b9f63aa3020559eaaafd1",
+      "kind": "commit",
+      "repo": "HelgeSverre/sourcefour",
+      "at": "2026-10-05T09:48:44.000+02:00",
+      "title": "Distribute a stapled app ZIP for Homebrew cask installs (#7)",
+      "url": "https://github.com/HelgeSverre/sourcefour/commit/c67285a5ff1b33e56d0b9f63aa3020559eaaafd1"
+    },
+    {
+      "id": "commit:sema-lisp/sema:6e648fa2b604ebd8bcecb17a89460aedfc62cf3e",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T09:46:25.000+02:00",
+      "title": "fix: reserve enough Windows CLI stack for interpreter startup",
+      "url": "https://github.com/sema-lisp/sema/commit/6e648fa2b604ebd8bcecb17a89460aedfc62cf3e"
+    },
+    {
+      "id": "commit:sema-lisp/sema:bb433580de32010d55f6b398c183ca138fd0c657",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T09:46:25.000+02:00",
+      "title": "release: propagate npm publication errors and preserve existing tags",
+      "url": "https://github.com/sema-lisp/sema/commit/bb433580de32010d55f6b398c183ca138fd0c657"
+    },
+    {
+      "id": "commit:sema-lisp/sema:e82fe80e4291314e2af60744784f7cc0ba8c1c9c",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T09:45:32.000+02:00",
+      "title": "release: propagate npm publication errors and preserve existing tags",
+      "url": "https://github.com/sema-lisp/sema/commit/e82fe80e4291314e2af60744784f7cc0ba8c1c9c"
+    },
+    {
+      "id": "commit:sema-lisp/sema:c043571845e130c16ae5bf3baa05b67ab4ebb8f0",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T09:44:07.000+02:00",
+      "title": "test: make release validation fixtures portable and isolated",
+      "url": "https://github.com/sema-lisp/sema/commit/c043571845e130c16ae5bf3baa05b67ab4ebb8f0"
+    },
+    {
+      "id": "commit:sema-lisp/sema:06fc22d1fc073146bdb0de5203b0e2a11fd3b80e",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T09:40:57.000+02:00",
+      "title": "fix: reserve enough Windows CLI stack for interpreter startup",
+      "url": "https://github.com/sema-lisp/sema/commit/06fc22d1fc073146bdb0de5203b0e2a11fd3b80e"
+    },
+    {
+      "id": "commit:sema-lisp/sema:661482ebe21f56665a900befd44566f8c49ba179",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T09:39:33.000+02:00",
+      "title": "fix: reserve enough Windows CLI stack for interpreter startup",
+      "url": "https://github.com/sema-lisp/sema/commit/661482ebe21f56665a900befd44566f8c49ba179"
+    },
+    {
+      "id": "commit:sema-lisp/sema:71d4f9fbd1209514da2490e3c3c00d7d7717af1d",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T09:39:32.000+02:00",
+      "title": "fix: preserve cross-evaluation channel dependencies in browser roots",
+      "url": "https://github.com/sema-lisp/sema/commit/71d4f9fbd1209514da2490e3c3c00d7d7717af1d"
+    },
+    {
+      "id": "commit:sema-lisp/sema:6d12394c053c1945ed1c6f8a4f3d51dd3e1c3b83",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T09:36:00.000+02:00",
+      "title": "test: isolate grammar argument fixtures from checkout binaries",
+      "url": "https://github.com/sema-lisp/sema/commit/6d12394c053c1945ed1c6f8a4f3d51dd3e1c3b83"
+    },
+    {
+      "id": "commit:sema-lisp/sema:dd252c0f195e4d905403b6626e3d9a723c5ee75c",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T09:35:59.000+02:00",
+      "title": "ci: pin lint toolchain to the validated Rust 1.98 release",
+      "url": "https://github.com/sema-lisp/sema/commit/dd252c0f195e4d905403b6626e3d9a723c5ee75c"
+    },
+    {
+      "id": "commit:sema-lisp/sema:dade4c3d3b87f64f36191c088bb9341c46b08e2f",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T09:35:59.000+02:00",
+      "title": "test: isolate grammar argument fixtures from checkout binaries",
+      "url": "https://github.com/sema-lisp/sema/commit/dade4c3d3b87f64f36191c088bb9341c46b08e2f"
+    },
+    {
+      "id": "commit:sema-lisp/sema:3cadd249e6ddbfe805223e972e343ea4b064a5c3",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T09:35:20.000+02:00",
+      "title": "test: isolate grammar argument fixtures from checkout binaries",
+      "url": "https://github.com/sema-lisp/sema/commit/3cadd249e6ddbfe805223e972e343ea4b064a5c3"
+    },
+    {
+      "id": "commit:sema-lisp/sema:8a4b0964d2cba54959530cc5feaaaaaa08113657",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T09:28:31.000+02:00",
+      "title": "ci: validate release branches and use release refs for MCP bundles",
+      "url": "https://github.com/sema-lisp/sema/commit/8a4b0964d2cba54959530cc5feaaaaaa08113657"
+    },
+    {
+      "id": "commit:sema-lisp/sema:cae9b254a1510a0e2b787900ebb783b5f470cbdb",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T09:28:30.000+02:00",
+      "title": "release: validate signed and notarized macOS artifacts before publication",
+      "url": "https://github.com/sema-lisp/sema/commit/cae9b254a1510a0e2b787900ebb783b5f470cbdb"
+    },
+    {
+      "id": "commit:sema-lisp/sema:dbcea6962254d34a7db07f157359fc2275fce9de",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T09:27:50.000+02:00",
+      "title": "release: validate signed and notarized macOS artifacts before publication",
+      "url": "https://github.com/sema-lisp/sema/commit/dbcea6962254d34a7db07f157359fc2275fce9de"
+    },
+    {
+      "id": "commit:sema-lisp/sema:5a41bf278606224b356d7d850d4888c59b60c784",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T09:24:43.000+02:00",
+      "title": "ci: validate release branches with the shared verify gate",
+      "url": "https://github.com/sema-lisp/sema/commit/5a41bf278606224b356d7d850d4888c59b60c784"
+    },
+    {
+      "id": "commit:sema-lisp/sema:9e681d6252b62675408bcf44be0df098f735f648",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T09:24:38.000+02:00",
+      "title": "ci: validate release branches with the shared verify gate",
+      "url": "https://github.com/sema-lisp/sema/commit/9e681d6252b62675408bcf44be0df098f735f648"
+    },
+    {
+      "id": "commit:sema-lisp/sema:f26db09f90fc012a19b6b481071571cc1005758b",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T08:40:34.000+02:00",
+      "title": "fix(release): stabilize browser runtime and prepare 1.37.0-rc.1",
+      "url": "https://github.com/sema-lisp/sema/commit/f26db09f90fc012a19b6b481071571cc1005758b"
+    },
+    {
+      "id": "commit:sema-lisp/sema:75042ab5b275b02124ab100e24c811dddb61902a",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T08:40:32.000+02:00",
+      "title": "fix(release): prepare 1.36.1 with statically linked macOS liblzma",
+      "url": "https://github.com/sema-lisp/sema/commit/75042ab5b275b02124ab100e24c811dddb61902a"
+    },
+    {
+      "id": "pr:HelgeSverre/sourcefour:7",
+      "kind": "merge",
+      "repo": "HelgeSverre/sourcefour",
+      "at": "2026-10-05T07:48:44Z",
+      "title": "Distribute a stapled app ZIP for Homebrew cask installs",
+      "url": "https://github.com/HelgeSverre/sourcefour/pull/7"
+    },
+    {
+      "id": "commit:HelgeSverre/sourcefour:406a17dc220d5268895508f532b1a7ee1672f0e0",
+      "kind": "commit",
+      "repo": "HelgeSverre/sourcefour",
+      "at": "2026-09-28T12:13:07.000+02:00",
+      "title": "release: v0.1.5",
+      "url": "https://github.com/HelgeSverre/sourcefour/commit/406a17dc220d5268895508f532b1a7ee1672f0e0"
+    },
+    {
+      "id": "commit:HelgeSverre/resume:e15d9eaa2abaf73e238b2b51867970b88191cacb",
+      "kind": "commit",
+      "repo": "HelgeSverre/resume",
+      "at": "2026-09-27T13:38:03.000+02:00",
+      "title": "Release resume 1.0.0",
+      "url": "https://github.com/HelgeSverre/resume/commit/e15d9eaa2abaf73e238b2b51867970b88191cacb"
+    },
+    {
+      "id": "commit:HelgeSverre/resume:a279d3486bdf92cf8ed70088e3d9c910d06bb613",
+      "kind": "commit",
+      "repo": "HelgeSverre/resume",
+      "at": "2026-09-27T13:21:18.000+02:00",
+      "title": "Refactor session adapters and improve picker scrolling",
+      "url": "https://github.com/HelgeSverre/resume/commit/a279d3486bdf92cf8ed70088e3d9c910d06bb613"
+    },
+    {
+      "id": "commit:HelgeSverre/herd-php-autoswitch:8d580ea3daff1312d36fafb29258b4af1bc47bc0",
+      "kind": "commit",
+      "repo": "HelgeSverre/herd-php-autoswitch",
+      "at": "2026-09-27T08:25:09.000+02:00",
+      "title": "Document and test git worktrees",
+      "url": "https://github.com/HelgeSverre/herd-php-autoswitch/commit/8d580ea3daff1312d36fafb29258b4af1bc47bc0"
+    },
+    {
+      "id": "commit:HelgeSverre/herd-php-autoswitch:0594a8f2bc48d7fc60b80984a3a300f17c38af99",
+      "kind": "commit",
+      "repo": "HelgeSverre/herd-php-autoswitch",
+      "at": "2026-09-27T07:45:09.000+02:00",
+      "title": "Find sites the way Herd does, and warn when the isolated PHP is missing",
+      "url": "https://github.com/HelgeSverre/herd-php-autoswitch/commit/0594a8f2bc48d7fc60b80984a3a300f17c38af99"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:17c1f761507a47887103b9066862bbfb480edf92",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-09-27T06:19:57.000+02:00",
+      "title": "README: framed screenshot",
+      "url": "https://github.com/HelgeSverre/splash/commit/17c1f761507a47887103b9066862bbfb480edf92"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:81004af00b2a99b3fdcbe41f51b8cbc8b8cb45df",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-09-27T06:17:31.000+02:00",
+      "title": "Add MIT license",
+      "url": "https://github.com/HelgeSverre/splash/commit/81004af00b2a99b3fdcbe41f51b8cbc8b8cb45df"
+    },
+    {
+      "id": "commit:HelgeSverre/herd-php-autoswitch:0f9ebbb1557d3d6cf172283e7085e6f7fcb46346",
+      "kind": "commit",
+      "repo": "HelgeSverre/herd-php-autoswitch",
+      "at": "2026-09-27T06:16:33.000+02:00",
+      "title": "Demo: tell the whole story, from herd isolate to switching back",
+      "url": "https://github.com/HelgeSverre/herd-php-autoswitch/commit/0f9ebbb1557d3d6cf172283e7085e6f7fcb46346"
+    },
+    {
+      "id": "commit:HelgeSverre/herd-php-autoswitch:485d59825eb977df383a24b01094987d1c0c2d46",
+      "kind": "commit",
+      "repo": "HelgeSverre/herd-php-autoswitch",
+      "at": "2026-09-27T05:42:57.000+02:00",
+      "title": "README: demo GIF and plainer language throughout",
+      "url": "https://github.com/HelgeSverre/herd-php-autoswitch/commit/485d59825eb977df383a24b01094987d1c0c2d46"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:07d09c45586c69083384319efdb8ac4a1582b443",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-09-27T05:42:50.000+02:00",
+      "title": "Prepare for GitHub: README, CI and release workflows",
+      "url": "https://github.com/HelgeSverre/splash/commit/07d09c45586c69083384319efdb8ac4a1582b443"
+    },
+    {
+      "id": "commit:HelgeSverre/herd-php-autoswitch:0dae6714638d44fc3ad426a72b90a3f1c5574ae2",
+      "kind": "commit",
+      "repo": "HelgeSverre/herd-php-autoswitch",
+      "at": "2026-09-27T05:35:22.000+02:00",
+      "title": "README: simpler opening pitch",
+      "url": "https://github.com/HelgeSverre/herd-php-autoswitch/commit/0dae6714638d44fc3ad426a72b90a3f1c5574ae2"
+    },
+    {
+      "id": "commit:HelgeSverre/herd-php-autoswitch:953c4df6cdf9bd8d778bde70d482c93a90a9a3e9",
+      "kind": "commit",
+      "repo": "HelgeSverre/herd-php-autoswitch",
+      "at": "2026-09-27T05:31:37.000+02:00",
+      "title": "README: tighter pitch, consistent badges, linked plugin managers",
+      "url": "https://github.com/HelgeSverre/herd-php-autoswitch/commit/953c4df6cdf9bd8d778bde70d482c93a90a9a3e9"
+    },
+    {
+      "id": "commit:HelgeSverre/herd-php-autoswitch:a157427f6188951d60f791691c6927a35acd8772",
+      "kind": "commit",
+      "repo": "HelgeSverre/herd-php-autoswitch",
+      "at": "2026-09-27T04:44:18.000+02:00",
+      "title": "PowerShell: fall back to a prompt hook on Windows PowerShell 5.1",
+      "url": "https://github.com/HelgeSverre/herd-php-autoswitch/commit/a157427f6188951d60f791691c6927a35acd8772"
+    },
+    {
+      "id": "commit:HelgeSverre/herd-php-autoswitch:5bc42e4a069ee9c3a305130b8ef3aef0fc6457ba",
+      "kind": "commit",
+      "repo": "HelgeSverre/herd-php-autoswitch",
+      "at": "2026-09-27T04:41:04.000+02:00",
+      "title": "Make php in the terminal follow herd isolate",
+      "url": "https://github.com/HelgeSverre/herd-php-autoswitch/commit/5bc42e4a069ee9c3a305130b8ef3aef0fc6457ba"
+    },
+    {
+      "id": "commit:HelgeSverre/brain:ccc21abe24c5778051af8fe7849c93ffd64673df",
+      "kind": "commit",
+      "repo": "HelgeSverre/brain",
+      "at": "2026-09-27T03:32:29.000+02:00",
+      "title": "Add changelog",
+      "url": "https://github.com/HelgeSverre/brain/commit/ccc21abe24c5778051af8fe7849c93ffd64673df"
+    },
+    {
+      "id": "commit:HelgeSverre/brain:cb985ea1cc4cd2ed81593db736a0d9222685993b",
+      "kind": "commit",
+      "repo": "HelgeSverre/brain",
+      "at": "2026-09-27T02:03:31.000+02:00",
+      "title": "Support Laravel 13 and openai-php/laravel up to 0.x latest",
+      "url": "https://github.com/HelgeSverre/brain/commit/cb985ea1cc4cd2ed81593db736a0d9222685993b"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:4f3c34865fa446ab5cdc3bac3a9c38361612f0bf",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-09-25T09:43:51.000+02:00",
+      "title": "Split hub and state, dedupe, add 11 agents, syntax highlighting",
+      "url": "https://github.com/HelgeSverre/splash/commit/4f3c34865fa446ab5cdc3bac3a9c38361612f0bf"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:dc73e9962c02e9734d507c59cc688f2eeeee9e52",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-09-24T03:44:42.000+02:00",
+      "title": "Initial commit",
+      "url": "https://github.com/HelgeSverre/splash/commit/dc73e9962c02e9734d507c59cc688f2eeeee9e52"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:0de710ed2ca177d0c900baa06e87caf37231d8c0",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-09-24T03:40:31.000+02:00",
+      "title": "Add .gitignore",
+      "url": "https://github.com/HelgeSverre/splash/commit/0de710ed2ca177d0c900baa06e87caf37231d8c0"
+    },
+    {
+      "id": "commit:HelgeSverre/sourcefour:63faeac68f06a7674648a83403ac0241812752c0",
+      "kind": "commit",
+      "repo": "HelgeSverre/sourcefour",
+      "at": "2026-09-22T14:35:08.000+02:00",
+      "title": "release: v0.1.4",
+      "url": "https://github.com/HelgeSverre/sourcefour/commit/63faeac68f06a7674648a83403ac0241812752c0"
+    },
+    {
+      "id": "commit:HelgeSverre/llmflow:508deb26911ef28c083cee84788f0f06459e0d70",
+      "kind": "commit",
+      "repo": "HelgeSverre/llmflow",
+      "at": "2026-09-22T13:39:08.000+02:00",
+      "title": "Improve dashboard usability and complete design sweep tasks",
+      "url": "https://github.com/HelgeSverre/llmflow/commit/508deb26911ef28c083cee84788f0f06459e0d70"
+    },
+    {
+      "id": "commit:HelgeSverre/token:764be6358f4033a1fb584f68cec4a330db741c09",
+      "kind": "commit",
+      "repo": "HelgeSverre/token",
+      "at": "2026-09-22T05:31:20.000+02:00",
+      "title": "fix(docs): apply remaining worth-fixing/minor mockup quality findings",
+      "url": "https://github.com/HelgeSverre/token/commit/764be6358f4033a1fb584f68cec4a330db741c09"
+    },
+    {
+      "id": "commit:HelgeSverre/token:0298eec1d599628596640ef3f16a77cb00276f04",
+      "kind": "commit",
+      "repo": "HelgeSverre/token",
+      "at": "2026-09-21T22:21:49.000+02:00",
+      "title": "fix(docs): correct oversimplified and fictional states across 12 mockups",
+      "url": "https://github.com/HelgeSverre/token/commit/0298eec1d599628596640ef3f16a77cb00276f04"
+    },
+    {
+      "id": "release:HelgeSverre/ollama-gui:403712882",
+      "kind": "release",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-05T12:55:26Z",
+      "title": "v2.0.0",
+      "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.0"
+    },
+    {
+      "id": "release:sema-lisp/sublime-sema:403597148",
+      "kind": "release",
+      "repo": "sema-lisp/sublime-sema",
+      "at": "2026-10-05T10:26:17Z",
+      "title": "0.5.0",
+      "url": "https://github.com/sema-lisp/sublime-sema/releases/tag/0.5.0"
+    },
+    {
+      "id": "release:sema-lisp/sema:403683468",
+      "kind": "release",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T12:21:49Z",
+      "title": "v1.37.0-rc.1",
+      "url": "https://github.com/sema-lisp/sema/releases/tag/v1.37.0-rc.1"
+    },
+    {
+      "id": "release:sema-lisp/sema:403583613",
+      "kind": "release",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T10:07:51Z",
+      "title": "v1.36.1",
+      "url": "https://github.com/sema-lisp/sema/releases/tag/v1.36.1"
+    },
+    {
+      "id": "release:sema-lisp/tree-sitter-sema:403588687",
+      "kind": "release",
+      "repo": "sema-lisp/tree-sitter-sema",
+      "at": "2026-10-05T10:14:31Z",
+      "title": "v0.3.0",
+      "url": "https://github.com/sema-lisp/tree-sitter-sema/releases/tag/v0.3.0"
+    },
+    {
+      "id": "release:sema-lisp/vscode-sema:403588857",
+      "kind": "release",
+      "repo": "sema-lisp/vscode-sema",
+      "at": "2026-10-05T10:14:44Z",
+      "title": "v0.4.0",
+      "url": "https://github.com/sema-lisp/vscode-sema/releases/tag/v0.4.0"
+    },
+    {
+      "id": "release:HelgeSverre/sourcefour:403524153",
+      "kind": "release",
+      "repo": "HelgeSverre/sourcefour",
+      "at": "2026-10-05T08:46:13Z",
+      "title": "v0.1.7",
+      "url": "https://github.com/HelgeSverre/sourcefour/releases/tag/v0.1.7"
+    },
+    {
+      "id": "release:HelgeSverre/sourcefour:398166590",
+      "kind": "release",
+      "repo": "HelgeSverre/sourcefour",
+      "at": "2026-09-28T10:58:30Z",
+      "title": "v0.1.5",
+      "url": "https://github.com/HelgeSverre/sourcefour/releases/tag/v0.1.5"
+    },
+    {
+      "id": "release:HelgeSverre/sourcefour:393738796",
+      "kind": "release",
+      "repo": "HelgeSverre/sourcefour",
+      "at": "2026-09-22T12:59:19Z",
+      "title": "v0.1.4",
+      "url": "https://github.com/HelgeSverre/sourcefour/releases/tag/v0.1.4"
+    }
+  ]
+}

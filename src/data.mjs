@@ -115,32 +115,6 @@ export async function getWeather() {
   }
 }
 
-// --- Parody TV programme guide (deterministic by day) ---
-export function getProgramme(pool, day) {
-  const witty = [
-    "Debugging in Production",
-    "Yak Shaving",
-    '"just one more commit"',
-    "Refactor Roulette",
-    "Merge Conflict: The Reckoning",
-    "Stand-up (taped)",
-    "Reading the Docs (rerun)",
-    "Prod Down: Live Coverage",
-    "Compiling… (cont.)",
-  ];
-  const w = (n) => witty[(day + n * 3) % witty.length];
-  const p1 = pool[day % pool.length];
-  const p2 = pool[(day + 4) % pool.length];
-  return [
-    { time: "18:00", title: w(0) },
-    { time: "19:30", title: `${p1.name} — ${p1.desc}` },
-    { time: "21:00", title: w(1) },
-    { time: "22:30", title: `${p2.name}, live` },
-    { time: "00:00", title: w(2) },
-    { time: "02:00", title: "Sign-off · Test Card ▦" },
-  ];
-}
-
 // --- Sema example code for the typer (maze.sema, kept short to bound GIF size) ---
 export async function getSemaCode(token, maxLines = 160) {
   const fallback = { file: "maze.sema", code: ';; sema offline\n(println "hello, sema")' };
@@ -187,12 +161,3 @@ export const LINKS = {
     { label: "helgesver.re →", color: "c", url: "https://helgesver.re" },
   ],
 };
-
-// Deterministic rotation: a window of `n` projects that shifts by day-of-year.
-export function rotateFeatured(pool, n = 6, dayOfYear = 0) {
-  const out = [];
-  for (let i = 0; i < Math.min(n, pool.length); i++) {
-    out.push(pool[(dayOfYear + i) % pool.length]);
-  }
-  return out;
-}

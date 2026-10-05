@@ -1,0 +1,35 @@
+name: Activity panel preview
+on:
+  pull_request:
+    paths:
+      - 'src/**'
+      - 'data/**'
+      - 'test/**'
+      - 'package*.json'
+      - '.github/workflows/activity-preview.yml'
+permissions:
+  contents: read
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npx playwright install --with-deps chromium
+      - name: Render activity panels with live public data
+        run: npm run preview
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: activity-panel-preview
+          path: |
+            images/now.png
+            images/prog.png
+            images/activity.json

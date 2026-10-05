@@ -7,9 +7,9 @@
 <a href="https://helgesver.re"><img src="images/hero.gif" width="100%" alt="Helge Sverre — All-stack Developer, Workaholic, Compulsive side-hustler. Bergen, Norway. VP Engineering at Crescat, ex-CTO at Tjommi. helgesver.re · github.com/HelgeSverre"></a><!--
 --><a href="https://github.com/HelgeSverre"><img src="images/stats.png" width="49.9%" alt="GitHub stats and languages: PHP, TypeScript, Svelte, Rust, Zig, F#, Dart, Sema"></a><!--
 --><a href="https://helgesver.re/articles"><img src="images/articles.png" width="49.9%" alt="Latest published articles"></a><!--
---><a href="https://helgesver.re/projects"><img src="images/now.png" width="100%" alt="Now building — featured projects"></a><!--
+--><a href="https://helgesver.re/projects"><img src="images/now.png" width="100%" alt="Now building — recently active public projects"></a><!--
 --><a href="https://github.com/HelgeSverre"><img src="images/heat.png" width="100%" alt="Contribution graph — contributions over the last year"></a><!--
---><a href="https://helgesver.re/projects"><img src="images/prog.png" width="49.9%" alt="Tonight's programme — a parody TV schedule"></a><!--
+--><a href="https://helgesver.re/projects"><img src="images/prog.png" width="49.9%" alt="Recent programme — real project activity in Europe/Oslo"></a><!--
 --><a href="https://www.yr.no/en/forecast/daily-table/2-3161732"><img src="images/wx.png" width="49.9%" alt="Bergen weather"></a><!--
 --><a href="https://helgesver.re/projects"><img src="images/nav-0.png" width="24.9%" alt="200 Projects"></a><!--
 --><a href="https://helgesver.re/articles"><img src="images/nav-1.png" width="24.9%" alt="300 Articles"></a><!--
