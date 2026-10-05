@@ -201,8 +201,8 @@ a.tile{display:block;width:100%;text-decoration:none;color:inherit}
       <div class="nbhead"><span class="c">P200 NOW BUILDING</span><span class="broadcast-status">${esc(activity?.status || "NO SIGNAL")}</span></div>
       <div class="activity-label" style="margin:6px 0 0">LAST 14 DAYS · PUBLIC ACTIVITY</div>
       <div class="nbcols">
-        <div class="nbcol">${projects.length ? col(projects.slice(0, 3)) : "NO RECENT ACTIVITY"}</div>
-        <div class="nbcol">${col(projects.slice(3, 6))}</div>
+        <div class="nbcol">${projects.length ? col(projects.slice(0, 5)) : "NO RECENT ACTIVITY"}</div>
+        <div class="nbcol">${col(projects.slice(5, 10))}</div>
       </div>
       <div class="sweep"></div>
     </div>

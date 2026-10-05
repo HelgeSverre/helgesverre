@@ -92,7 +92,7 @@ export function buildActivityPanels(snapshot, config, now = new Date()) {
     return { repo, name: name(repo), desc: lead.kind === 'release' ? `Released ${lead.title}` : lead.title,
       url: lead.url, days, freshness: localDay(latest.at) === localDay(now) ? 'TODAY' : shortDate(latest.at),
       score: activeDays * 3 + Math.max(0, 14-age) + (rows.some(e=>e.kind==='release') ? 4 : 0) + (rows.some(e=>e.kind==='merge') ? 2 : 0), latest: latest.at };
-  }).sort((a,b) => Number(config.pin.includes(b.repo))-Number(config.pin.includes(a.repo)) || b.score-a.score || b.latest.localeCompare(a.latest) || a.repo.localeCompare(b.repo)).slice(0,6);
+  }).sort((a,b) => Number(config.pin.includes(b.repo))-Number(config.pin.includes(a.repo)) || b.score-a.score || b.latest.localeCompare(a.latest) || a.repo.localeCompare(b.repo)).slice(0,10);
   // One workshop item per project/day; releases and merges remain individually visible.
   const seen = new Set();
   const programme = events.filter(e => {
