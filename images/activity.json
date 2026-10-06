@@ -1,9 +1,249 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-06T06:34:40.868Z",
-  "since": "2026-09-22T06:34:40.868Z",
+  "fetchedAt": "2026-10-06T12:30:13.859Z",
+  "since": "2026-09-22T12:30:13.859Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/wire-bridge:1fc0cc90118a5cd64941ae9bf9c717bb67759aa4",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge",
+      "at": "2026-10-06T10:04:40.000+02:00",
+      "title": "docs: dark-mode order builder demo GIF",
+      "url": "https://github.com/HelgeSverre/wire-bridge/commit/1fc0cc90118a5cd64941ae9bf9c717bb67759aa4"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge-example:a2986a95744de00760b90b4bc0511716eb45e20e",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge-example",
+      "at": "2026-10-06T10:04:36.000+02:00",
+      "title": "style: dark order page with a framework-coloured outline on each island",
+      "url": "https://github.com/HelgeSverre/wire-bridge-example/commit/a2986a95744de00760b90b4bc0511716eb45e20e"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge:47b6e119c7541e472086ea9af17c12885829839a",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge",
+      "at": "2026-10-06T09:50:56.000+02:00",
+      "title": "docs: demo GIF shows the order builder showcase",
+      "url": "https://github.com/HelgeSverre/wire-bridge/commit/47b6e119c7541e472086ea9af17c12885829839a"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge-example:63375eb4fcc4467bf89b86303c41d262cbf5165d",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge-example",
+      "at": "2026-10-06T09:50:52.000+02:00",
+      "title": "feat: order builder showcase, one Livewire order edited by six frameworks",
+      "url": "https://github.com/HelgeSverre/wire-bridge-example/commit/63375eb4fcc4467bf89b86303c41d262cbf5165d"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge:f7d8c24353548d1a99986682f80f59855f5200aa",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge",
+      "at": "2026-10-06T09:37:26.000+02:00",
+      "title": "docs: demo GIF shows PHP filling in the city after a commit",
+      "url": "https://github.com/HelgeSverre/wire-bridge/commit/f7d8c24353548d1a99986682f80f59855f5200aa"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge-example:258091c4de7dfc75c2dcd4c915f55bb16fe8edfb",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge-example",
+      "at": "2026-10-06T09:37:22.000+02:00",
+      "title": "feat: fill in the city from known postal codes on commit; demo GIF shows it",
+      "url": "https://github.com/HelgeSverre/wire-bridge-example/commit/258091c4de7dfc75c2dcd4c915f55bb16fe8edfb"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge-example:8009bf569f32e80d08d88e85b5297135e6e4f765",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge-example",
+      "at": "2026-10-06T09:19:53.000+02:00",
+      "title": "docs: demo GIF shows Commit and a PHP action, with a live PHP state panel",
+      "url": "https://github.com/HelgeSverre/wire-bridge-example/commit/8009bf569f32e80d08d88e85b5297135e6e4f765"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge:1e20f57c36e24ae00f65c1b96009504d9e982c8f",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge",
+      "at": "2026-10-06T09:19:49.000+02:00",
+      "title": "docs: demo GIF now ends with a Commit and a PHP action round trip",
+      "url": "https://github.com/HelgeSverre/wire-bridge/commit/1e20f57c36e24ae00f65c1b96009504d9e982c8f"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge:3d29f049ba2a32a18f24f76facbb31204a42c98c",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge",
+      "at": "2026-10-06T09:08:59.000+02:00",
+      "title": "chore: release 0.1.2",
+      "url": "https://github.com/HelgeSverre/wire-bridge/commit/3d29f049ba2a32a18f24f76facbb31204a42c98c"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge:919ab62802d29275a3e42427702ddc9f1672afef",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge",
+      "at": "2026-10-06T09:07:14.000+02:00",
+      "title": "ci: publish to npm via trusted publishing when a GitHub release is published",
+      "url": "https://github.com/HelgeSverre/wire-bridge/commit/919ab62802d29275a3e42427702ddc9f1672afef"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge-example:2bfa7e3f294bc4c6c24fc43ed4e5961c49309456",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge-example",
+      "at": "2026-10-06T09:06:38.000+02:00",
+      "title": "chore: lock wire-bridge 0.1.1",
+      "url": "https://github.com/HelgeSverre/wire-bridge-example/commit/2bfa7e3f294bc4c6c24fc43ed4e5961c49309456"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge:f4f264fef9e8d6bea9906d8d2b8692997e57a629",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge",
+      "at": "2026-10-06T09:03:36.000+02:00",
+      "title": "ci: update checkout and setup-node to v7",
+      "url": "https://github.com/HelgeSverre/wire-bridge/commit/f4f264fef9e8d6bea9906d8d2b8692997e57a629"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge:85020cc8580bcf9e716058b2b9deae786922e010",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge",
+      "at": "2026-10-06T09:02:41.000+02:00",
+      "title": "ci: run typecheck, tests, publint and attw on Node 22/24/26; add CI badge",
+      "url": "https://github.com/HelgeSverre/wire-bridge/commit/85020cc8580bcf9e716058b2b9deae786922e010"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge:b6ed0bcc6d7a707465433648fd651ec9b229df12",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge",
+      "at": "2026-10-06T09:01:52.000+02:00",
+      "title": "docs: drop the ESM-only and runtime-deps badges",
+      "url": "https://github.com/HelgeSverre/wire-bridge/commit/b6ed0bcc6d7a707465433648fd651ec9b229df12"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge:3154ae04717cd9f04a1887ddbd797f50efb61f95",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge",
+      "at": "2026-10-06T09:00:45.000+02:00",
+      "title": "docs: drop the README license section; LICENSE ships with the package",
+      "url": "https://github.com/HelgeSverre/wire-bridge/commit/3154ae04717cd9f04a1887ddbd797f50efb61f95"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge:399080e22fdcea544b14c35def83e5b48b50996f",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge",
+      "at": "2026-10-06T09:00:09.000+02:00",
+      "title": "chore: release 0.1.1",
+      "url": "https://github.com/HelgeSverre/wire-bridge/commit/399080e22fdcea544b14c35def83e5b48b50996f"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge-example:dec15b5ffd7956a8ae1fbb1ff499d4867654880e",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge-example",
+      "at": "2026-10-06T08:59:31.000+02:00",
+      "title": "docs: remove findings.md and spec.md, correct README against the code",
+      "url": "https://github.com/HelgeSverre/wire-bridge-example/commit/dec15b5ffd7956a8ae1fbb1ff499d4867654880e"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge:00d18d2d94b13cd93ee25e781ffdbc49dde1ec44",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge",
+      "at": "2026-10-06T08:59:29.000+02:00",
+      "title": "docs: correct API details against the source and rewrite the intro in plain prose",
+      "url": "https://github.com/HelgeSverre/wire-bridge/commit/00d18d2d94b13cd93ee25e781ffdbc49dde1ec44"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge-example:c8d47b99ac61440629448827d56a7b6513037522",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge-example",
+      "at": "2026-10-06T08:55:00.000+02:00",
+      "title": "docs: brand the README title as Wire Bridge Example",
+      "url": "https://github.com/HelgeSverre/wire-bridge-example/commit/c8d47b99ac61440629448827d56a7b6513037522"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge:326675d4947722d3dfbf8f4ca8987aee789c5435",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge",
+      "at": "2026-10-06T08:54:57.000+02:00",
+      "title": "docs: brand the README title as Wire Bridge",
+      "url": "https://github.com/HelgeSverre/wire-bridge/commit/326675d4947722d3dfbf8f4ca8987aee789c5435"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge:5652c1e02f8362190c830e7c869c0a8e657031a7",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge",
+      "at": "2026-10-06T08:54:14.000+02:00",
+      "title": "docs: add a tagline under the README title",
+      "url": "https://github.com/HelgeSverre/wire-bridge/commit/5652c1e02f8362190c830e7c869c0a8e657031a7"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge-example:7616ed5be57bc4713042eb608bf7c68fe7724ccc",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge-example",
+      "at": "2026-10-06T08:51:31.000+02:00",
+      "title": "docs: reflow the demo behavior section",
+      "url": "https://github.com/HelgeSverre/wire-bridge-example/commit/7616ed5be57bc4713042eb608bf7c68fe7724ccc"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge:337c729f88232b2ebe8b8b7274769f8606d938af",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge",
+      "at": "2026-10-06T08:51:23.000+02:00",
+      "title": "chore: stop tracking JetBrains .idea files",
+      "url": "https://github.com/HelgeSverre/wire-bridge/commit/337c729f88232b2ebe8b8b7274769f8606d938af"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge-example:09492d9ba87935c3d9e3157ad4e14bbe66b19325",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge-example",
+      "at": "2026-10-06T08:51:19.000+02:00",
+      "title": "docs: add eight-renderer demo GIF and explain when server state updates",
+      "url": "https://github.com/HelgeSverre/wire-bridge-example/commit/09492d9ba87935c3d9e3157ad4e14bbe66b19325"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge-example:575042a583094dd327532eb7f345ecf8c5331a23",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge-example",
+      "at": "2026-10-06T08:46:49.000+02:00",
+      "title": "chore: lock wire-bridge 0.1.0 from npm",
+      "url": "https://github.com/HelgeSverre/wire-bridge-example/commit/575042a583094dd327532eb7f345ecf8c5331a23"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge-example:2af3311fcd48423d7ba8e21d8e811cdd12f6355c",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge-example",
+      "at": "2026-10-06T08:44:22.000+02:00",
+      "title": "docs: local mount/unmount covers every framework host",
+      "url": "https://github.com/HelgeSverre/wire-bridge-example/commit/2af3311fcd48423d7ba8e21d8e811cdd12f6355c"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge-example:a63550e2a4e595f18e204e3e250a019de6e687e8",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge-example",
+      "at": "2026-10-06T08:44:13.000+02:00",
+      "title": "docs: point API details at the package README, fix the data-flow diagram",
+      "url": "https://github.com/HelgeSverre/wire-bridge-example/commit/a63550e2a4e595f18e204e3e250a019de6e687e8"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge:83588066234fe1d2ed9dcfe8a91f706a4928e72d",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge",
+      "at": "2026-10-06T08:44:07.000+02:00",
+      "title": "chore: prepare 0.1.0 for npm: ship only markdown docs, add repository metadata, tighten README",
+      "url": "https://github.com/HelgeSverre/wire-bridge/commit/83588066234fe1d2ed9dcfe8a91f706a4928e72d"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge:d52686cdd0e4012a9c3963a7b93a0e2b9e4d394f",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge",
+      "at": "2026-10-06T08:43:39.000+02:00",
+      "title": "fix: dispose watcher on failed init, destroy renderers whose host vanished during mount, reject non-plain objects in structural equality",
+      "url": "https://github.com/HelgeSverre/wire-bridge/commit/d52686cdd0e4012a9c3963a7b93a0e2b9e4d394f"
+    },
+    {
+      "id": "commit:HelgeSverre/wire-bridge-example:9b60efaafef1006bdb181e335111c3f41bac41d3",
+      "kind": "commit",
+      "repo": "HelgeSverre/wire-bridge-example",
+      "at": "2026-10-06T08:41:31.000+02:00",
+      "title": "chore: turn the PoC into a standalone wire-bridge example app",
+      "url": "https://github.com/HelgeSverre/wire-bridge-example/commit/9b60efaafef1006bdb181e335111c3f41bac41d3"
+    },
     {
       "id": "commit:HelgeSverre/ollama-gui:eca8dde096355f02907fd32fd2eac645570308d8",
       "kind": "commit",
@@ -997,12 +1237,20 @@
       "url": "https://github.com/HelgeSverre/sourcefour/commit/63faeac68f06a7674648a83403ac0241812752c0"
     },
     {
-      "id": "commit:HelgeSverre/llmflow:508deb26911ef28c083cee84788f0f06459e0d70",
-      "kind": "commit",
-      "repo": "HelgeSverre/llmflow",
-      "at": "2026-09-22T13:39:08.000+02:00",
-      "title": "Improve dashboard usability and complete design sweep tasks",
-      "url": "https://github.com/HelgeSverre/llmflow/commit/508deb26911ef28c083cee84788f0f06459e0d70"
+      "id": "release:HelgeSverre/wire-bridge:404418711",
+      "kind": "release",
+      "repo": "HelgeSverre/wire-bridge",
+      "at": "2026-10-06T07:09:02Z",
+      "title": "v0.1.2",
+      "url": "https://github.com/HelgeSverre/wire-bridge/releases/tag/v0.1.2"
+    },
+    {
+      "id": "release:HelgeSverre/wire-bridge:404411996",
+      "kind": "release",
+      "repo": "HelgeSverre/wire-bridge",
+      "at": "2026-10-06T07:00:18Z",
+      "title": "v0.1.1",
+      "url": "https://github.com/HelgeSverre/wire-bridge/releases/tag/v0.1.1"
     },
     {
       "id": "release:HelgeSverre/ollama-gui:404385764",
