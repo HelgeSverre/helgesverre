@@ -1,9 +1,17 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-06T00:54:47.180Z",
-  "since": "2026-09-22T00:54:47.180Z",
+  "fetchedAt": "2026-10-06T06:34:40.868Z",
+  "since": "2026-09-22T06:34:40.868Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/ollama-gui:eca8dde096355f02907fd32fd2eac645570308d8",
+      "kind": "commit",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-06T08:27:50.000+02:00",
+      "title": "chore: release 2.0.1",
+      "url": "https://github.com/HelgeSverre/ollama-gui/commit/eca8dde096355f02907fd32fd2eac645570308d8"
+    },
     {
       "id": "commit:HelgeSverre/splash:be6738e8fb78aae4340503acf9c2d2546ee6d083",
       "kind": "commit",
@@ -997,12 +1005,12 @@
       "url": "https://github.com/HelgeSverre/llmflow/commit/508deb26911ef28c083cee84788f0f06459e0d70"
     },
     {
-      "id": "commit:HelgeSverre/token:764be6358f4033a1fb584f68cec4a330db741c09",
-      "kind": "commit",
-      "repo": "HelgeSverre/token",
-      "at": "2026-09-22T05:31:20.000+02:00",
-      "title": "fix(docs): apply remaining worth-fixing/minor mockup quality findings",
-      "url": "https://github.com/HelgeSverre/token/commit/764be6358f4033a1fb584f68cec4a330db741c09"
+      "id": "release:HelgeSverre/ollama-gui:404385764",
+      "kind": "release",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-06T06:27:56Z",
+      "title": "v2.0.1",
+      "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.1"
     },
     {
       "id": "release:HelgeSverre/ollama-gui:403712882",
