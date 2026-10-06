@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-05T18:26:26.707Z",
-  "since": "2026-09-21T18:26:26.707Z",
+  "fetchedAt": "2026-10-06T00:54:47.180Z",
+  "since": "2026-09-22T00:54:47.180Z",
   "partial": false,
   "events": [
     {
@@ -1003,14 +1003,6 @@
       "at": "2026-09-22T05:31:20.000+02:00",
       "title": "fix(docs): apply remaining worth-fixing/minor mockup quality findings",
       "url": "https://github.com/HelgeSverre/token/commit/764be6358f4033a1fb584f68cec4a330db741c09"
-    },
-    {
-      "id": "commit:HelgeSverre/token:0298eec1d599628596640ef3f16a77cb00276f04",
-      "kind": "commit",
-      "repo": "HelgeSverre/token",
-      "at": "2026-09-21T22:21:49.000+02:00",
-      "title": "fix(docs): correct oversimplified and fictional states across 12 mockups",
-      "url": "https://github.com/HelgeSverre/token/commit/0298eec1d599628596640ef3f16a77cb00276f04"
     },
     {
       "id": "release:HelgeSverre/ollama-gui:403712882",
