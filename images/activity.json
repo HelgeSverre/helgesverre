@@ -1,9 +1,265 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-07T12:31:49.504Z",
-  "since": "2026-09-23T12:31:49.504Z",
+  "fetchedAt": "2026-10-07T18:25:27.289Z",
+  "since": "2026-09-23T18:25:27.289Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/splash:3cae79d44ae63b9f2e0d99778fb24999da17e4f9",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T20:21:36.000+02:00",
+      "title": "Retry the NSIS install and fail early when it is missing",
+      "url": "https://github.com/HelgeSverre/splash/commit/3cae79d44ae63b9f2e0d99778fb24999da17e4f9"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:dee4f1261e148146ef35cf01c5c3743daa669cb8",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T19:47:34.000+02:00",
+      "title": "Release 0.2.0",
+      "url": "https://github.com/HelgeSverre/splash/commit/dee4f1261e148146ef35cf01c5c3743daa669cb8"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:04b19f41e96da273d7ec91e8ffb4acab4c0958e4",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T19:47:28.000+02:00",
+      "title": "Link downloads to the latest release and offer every platform",
+      "url": "https://github.com/HelgeSverre/splash/commit/04b19f41e96da273d7ec91e8ffb4acab4c0958e4"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:8861ef6dcbbe14d2aceb31aec83e81a44a4a4644",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T19:47:28.000+02:00",
+      "title": "Keep an embedded app window's dialogs from freezing the page",
+      "url": "https://github.com/HelgeSverre/splash/commit/8861ef6dcbbe14d2aceb31aec83e81a44a4a4644"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:360b78ff4d18339338103ab07484f97e418e0ef5",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T19:42:25.000+02:00",
+      "title": "Redesign the app icon and ship it on every platform",
+      "url": "https://github.com/HelgeSverre/splash/commit/360b78ff4d18339338103ab07484f97e418e0ef5"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:38f0824aed7fa612cb3994e2a1025412cddb46ff",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T19:38:16.000+02:00",
+      "title": "Add marketing website built from the app's own components",
+      "url": "https://github.com/HelgeSverre/splash/commit/38f0824aed7fa612cb3994e2a1025412cddb46ff"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:587ea5abfd5e9c00d51dfd86f638426318a9a57b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T19:30:58.000+02:00",
+      "title": "Separate query and lateral join evaluation scopes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/587ea5abfd5e9c00d51dfd86f638426318a9a57b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:53379a4470c3b130fa49d97e1509957be77cd944",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T19:21:44.000+02:00",
+      "title": "Retain physical source flags during derived query execution",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/53379a4470c3b130fa49d97e1509957be77cd944"
+    },
+    {
+      "id": "commit:HelgeSverre/codemagic-skill:bb12fcc70bb9fa4e73cccc5f8ebd200a0bc72e3e",
+      "kind": "commit",
+      "repo": "HelgeSverre/codemagic-skill",
+      "at": "2026-10-07T19:20:30.000+02:00",
+      "title": "Prevent credential wrappers from suspending Claude (v1.3.1) (#4)",
+      "url": "https://github.com/HelgeSverre/codemagic-skill/commit/bb12fcc70bb9fa4e73cccc5f8ebd200a0bc72e3e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2625e771bfdf2097036bde27397b103af6f477b4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T19:14:59.000+02:00",
+      "title": "Preserve prepared source flags across projection boundaries",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2625e771bfdf2097036bde27397b103af6f477b4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:521afca91c33527944e6fc9fe7db586b35634259",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T18:47:36.000+02:00",
+      "title": "Report nullable columns across grouped outer joins",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/521afca91c33527944e6fc9fe7db586b35634259"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:88d0edbf96d4572eecd3f84a6953b09b745c2972",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T18:41:26.000+02:00",
+      "title": "Resolve qualified outer columns past incomplete local scopes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/88d0edbf96d4572eecd3f84a6953b09b745c2972"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:31093d91183ccc10de20f6b83117f120e2072124",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T18:40:05.000+02:00",
+      "title": "Keep local signing assets isolated in Splash checkout",
+      "url": "https://github.com/HelgeSverre/splash/commit/31093d91183ccc10de20f6b83117f120e2072124"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:095664f806ddb7b4c50183dd77cf616c8aa8b68a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T18:37:38.000+02:00",
+      "title": "Validate relation names in preparation and execution",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/095664f806ddb7b4c50183dd77cf616c8aa8b68a"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:638ff3d772c5029588e8ff8d0331b1821eb61ae8",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T18:30:17.000+02:00",
+      "title": "Automate version tags and complete GitHub release publication",
+      "url": "https://github.com/HelgeSverre/splash/commit/638ff3d772c5029588e8ff8d0331b1821eb61ae8"
+    },
+    {
+      "id": "commit:HelgeSverre/codemagic-skill:8401c3139355612258797d1521f13f3aed883e0b",
+      "kind": "commit",
+      "repo": "HelgeSverre/codemagic-skill",
+      "at": "2026-10-07T18:25:50.000+02:00",
+      "title": "Bundle MCP startup and setup guidance in agent plugins (#3)",
+      "url": "https://github.com/HelgeSverre/codemagic-skill/commit/8401c3139355612258797d1521f13f3aed883e0b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:750af1d6e0f62ce9538d2f5bd5c986723cd56fb7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T18:18:42.000+02:00",
+      "title": "Validate prepared join names in lexical query scopes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/750af1d6e0f62ce9538d2f5bd5c986723cd56fb7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5089c0a18b20f0fca3f7a6e88fe691379adfe737",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T17:23:48.000+02:00",
+      "title": "Reject invalid USING bindings during statement preparation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5089c0a18b20f0fca3f7a6e88fe691379adfe737"
+    },
+    {
+      "id": "pr:HelgeSverre/codemagic-skill:4",
+      "kind": "merge",
+      "repo": "HelgeSverre/codemagic-skill",
+      "at": "2026-10-07T17:20:31Z",
+      "title": "Prevent credential wrappers from suspending Claude (v1.3.1)",
+      "url": "https://github.com/HelgeSverre/codemagic-skill/pull/4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f7e4acbe07787673169bb06fd4e948823c469655",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T17:18:51.000+02:00",
+      "title": "Retain semantic errors during schema-only column description",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f7e4acbe07787673169bb06fd4e948823c469655"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:beff2a02621300f8cb828e127b5b3d49bcf990da",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T17:13:28.000+02:00",
+      "title": "Preserve grouped join association and logical column ownership",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/beff2a02621300f8cb828e127b5b3d49bcf990da"
+    },
+    {
+      "id": "pr:HelgeSverre/codemagic-skill:3",
+      "kind": "merge",
+      "repo": "HelgeSverre/codemagic-skill",
+      "at": "2026-10-07T16:25:50Z",
+      "title": "Bundle automatic MCP setup in Codex and Claude plugins",
+      "url": "https://github.com/HelgeSverre/codemagic-skill/pull/3"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:3419e80e579d1cbd0f1a4a62e9cdba35eb598e99",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T15:09:02.000+02:00",
+      "title": "Document Linux Docker and Windows EC2 artifact smoke tests",
+      "url": "https://github.com/HelgeSverre/splash/commit/3419e80e579d1cbd0f1a4a62e9cdba35eb598e99"
+    },
+    {
+      "id": "commit:HelgeSverre/fedit:2205d47d2a372fbe05b7b3db67f1ba9e9acff157",
+      "kind": "commit",
+      "repo": "HelgeSverre/fedit",
+      "at": "2026-10-07T15:02:05.000+02:00",
+      "title": "Release 1.10.1: refresh dependencies and tooling (#42)",
+      "url": "https://github.com/HelgeSverre/fedit/commit/2205d47d2a372fbe05b7b3db67f1ba9e9acff157"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:869a4b6c915c94e11e970ed4b42f151628565cf5",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T14:38:07.000+02:00",
+      "title": "Separate join source preparation from row matching",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/869a4b6c915c94e11e970ed4b42f151628565cf5"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4b4648d1fba2efbfa21720b66e4e0d1b286adc06",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T14:35:52.000+02:00",
+      "title": "Record grouped join association and name-scope contracts",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4b4648d1fba2efbfa21720b66e4e0d1b286adc06"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:18eb1f6a0ff0a1ab6c734a17d250f8823a422a9c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T14:34:20.000+02:00",
+      "title": "Match partition engine aliases and refusal families",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/18eb1f6a0ff0a1ab6c734a17d250f8823a422a9c"
+    },
+    {
+      "id": "commit:HelgeSverre/codemagic-skill:e7b03c4998a4fd070245db0f0559cfbc3390d7bd",
+      "kind": "commit",
+      "repo": "HelgeSverre/codemagic-skill",
+      "at": "2026-10-07T14:31:52.000+02:00",
+      "title": "Add MCP tools and PyPI Trusted Publishing for v1.2.0 (#2)",
+      "url": "https://github.com/HelgeSverre/codemagic-skill/commit/e7b03c4998a4fd070245db0f0559cfbc3390d7bd"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:cfa19330c63834ec5477402ccaf9fc39983ca70c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T14:29:44.000+02:00",
+      "title": "Preserve partition tablespace declarations and native validation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/cfa19330c63834ec5477402ccaf9fc39983ca70c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3273e1e4bf931a2022f5ec6e871229a1ee9434dd",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T14:23:32.000+02:00",
+      "title": "Centralize partition defaults and fold parsed options",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3273e1e4bf931a2022f5ec6e871229a1ee9434dd"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:fe9c382f67f83aa5f084ed06357a2178a42d171b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T14:21:28.000+02:00",
+      "title": "Record partition tablespace declaration and rendering contracts",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/fe9c382f67f83aa5f084ed06357a2178a42d171b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b115319052dfd0749ab6b53d314addd1e54c0488",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T14:19:18.000+02:00",
+      "title": "Retain HASH partition row hints and node groups",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b115319052dfd0749ab6b53d314addd1e54c0488"
+    },
     {
       "id": "commit:HelgeSverre/splash:af8228e5fbcc398b3c288c16c4689a9d97424dc0",
       "kind": "commit",
@@ -11,6 +267,22 @@
       "at": "2026-10-07T14:16:13.000+02:00",
       "title": "Ship Windows binaries with static CRT and preserve timestamp precision",
       "url": "https://github.com/HelgeSverre/splash/commit/af8228e5fbcc398b3c288c16c4689a9d97424dc0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9134a54fd6c5aefec2327495bcd0a47ae3485d2f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T14:13:14.000+02:00",
+      "title": "Record native partition row hint and node group contracts",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9134a54fd6c5aefec2327495bcd0a47ae3485d2f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:fd771308f83a7f922524c6b964c58286a03a56d1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T14:11:04.000+02:00",
+      "title": "Validate HASH partition engine declarations and defaults",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/fd771308f83a7f922524c6b964c58286a03a56d1"
     },
     {
       "id": "commit:HelgeSverre/splash:f4bbbad94511973b291cf1e621b88fb3f6ac3145",
@@ -29,12 +301,28 @@
       "url": "https://github.com/HelgeSverre/splash/commit/c7a7c70dea1d3b2fa87b8e0156d12ac8d76ad3a3"
     },
     {
+      "id": "commit:HelgeSverre/fsdb:cdd961e3866a3f6add70c84dc42c420d1372e4e6",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T13:49:55.000+02:00",
+      "title": "Record partition engine inference and rejection contracts",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/cdd961e3866a3f6add70c84dc42c420d1372e4e6"
+    },
+    {
       "id": "commit:HelgeSverre/splash:ee584e0d72872c4ce5c2f55b4f5778ec989f20ea",
       "kind": "commit",
       "repo": "HelgeSverre/splash",
       "at": "2026-10-07T13:48:06.000+02:00",
       "title": "Adapt Windows webview origin and verify cancelled process cleanup",
       "url": "https://github.com/HelgeSverre/splash/commit/ee584e0d72872c4ce5c2f55b4f5778ec989f20ea"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:264305d9e5ae63f0dcec4e6ce6fedaa02f0c2164",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T13:43:16.000+02:00",
+      "title": "Preserve HASH partition comments through DDL and recovery",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/264305d9e5ae63f0dcec4e6ce6fedaa02f0c2164"
     },
     {
       "id": "commit:HelgeSverre/splash:54c0a6c7f26dda1355ef540f03d44677bba00408",
@@ -53,6 +341,14 @@
       "url": "https://github.com/HelgeSverre/codemagic-skill/commit/502f79ac5a5ff653fda288b97914c7d232bfeeb9"
     },
     {
+      "id": "commit:HelgeSverre/fsdb:801006f249bcac2cbd53decba51081edf85d0297",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T13:32:37.000+02:00",
+      "title": "Support explicit names when adding HASH partitions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/801006f249bcac2cbd53decba51081edf85d0297"
+    },
+    {
       "id": "commit:HelgeSverre/splash:7199eb73dfae3de6f42c319bd2d1080e06b33506",
       "kind": "commit",
       "repo": "HelgeSverre/splash",
@@ -61,12 +357,108 @@
       "url": "https://github.com/HelgeSverre/splash/commit/7199eb73dfae3de6f42c319bd2d1080e06b33506"
     },
     {
+      "id": "commit:HelgeSverre/fsdb:0e0cb8b68c9cfd60be59b9bdaa33bb4e8c0199ae",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T13:25:14.000+02:00",
+      "title": "Persist named HASH partitions and support reorganization",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0e0cb8b68c9cfd60be59b9bdaa33bb4e8c0199ae"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:24960f0f9f66daa0c7629b6ee55ea0665d415dd1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T13:09:43.000+02:00",
+      "title": "Record native HASH partition reorganization contracts",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/24960f0f9f66daa0c7629b6ee55ea0665d415dd1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e9c0a7bd0ce94a8f59233d8288c89c3c95c3e787",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T13:06:25.000+02:00",
+      "title": "Reorder independent joins around straight-join constraints",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e9c0a7bd0ce94a8f59233d8288c89c3c95c3e787"
+    },
+    {
+      "id": "pr:HelgeSverre/fedit:42",
+      "kind": "merge",
+      "repo": "HelgeSverre/fedit",
+      "at": "2026-10-07T13:02:05Z",
+      "title": "Release 1.10.1: refresh dependencies and tooling",
+      "url": "https://github.com/HelgeSverre/fedit/pull/42"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ca7574bc38724bd3e05a51d72b2cbd83b671b885",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T12:41:39.000+02:00",
+      "title": "Support table-level straight joins and rendered FROM chains",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ca7574bc38724bd3e05a51d72b2cbd83b671b885"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8ec9bc4ebf4d0e9de2a04b0ee99ae1e34226adb4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T12:37:29.000+02:00",
+      "title": "Keep transaction publication race independent of thread-pool scheduling",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8ec9bc4ebf4d0e9de2a04b0ee99ae1e34226adb4"
+    },
+    {
+      "id": "pr:HelgeSverre/codemagic-skill:2",
+      "kind": "merge",
+      "repo": "HelgeSverre/codemagic-skill",
+      "at": "2026-10-07T12:31:52Z",
+      "title": "Add MCP tools and PyPI Trusted Publishing for v1.2.0",
+      "url": "https://github.com/HelgeSverre/codemagic-skill/pull/2"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:505b6fda0c561946e8107960823d7e157a704dcb",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T12:21:42.000+02:00",
+      "title": "Propagate range and membership bounds across full-text joins",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/505b6fda0c561946e8107960823d7e157a704dcb"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:80728084278bef9aad0f5300c91274455232ba69",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T12:12:25.000+02:00",
+      "title": "Resolve unqualified full-text join bounds in their written scope",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/80728084278bef9aad0f5300c91274455232ba69"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7b4da9ff45998afdeb77e422393094c7b73c3346",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T12:06:36.000+02:00",
+      "title": "Propagate compatible equality join bounds into full-text scoring",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7b4da9ff45998afdeb77e422393094c7b73c3346"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:364f5da79e7224e3acc22843223dc55862acaf0f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T11:55:32.000+02:00",
+      "title": "Record current full-text performance and join-bound diagnostic",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/364f5da79e7224e3acc22843223dc55862acaf0f"
+    },
+    {
       "id": "commit:HelgeSverre/splash:973f6341278a2aabe59aedafccc4c247ad285f8a",
       "kind": "commit",
       "repo": "HelgeSverre/splash",
       "at": "2026-10-07T11:49:49.000+02:00",
       "title": "Expose adapter startup diagnostics in ACP history discovery",
       "url": "https://github.com/HelgeSverre/splash/commit/973f6341278a2aabe59aedafccc4c247ad285f8a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:884fece3b08fc8e2c970c7fdae97cc390fcda61c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T11:42:48.000+02:00",
+      "title": "Configure expansion limit reporting without restricting InnoDB search",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/884fece3b08fc8e2c970c7fdae97cc390fcda61c"
     },
     {
       "id": "pr:HelgeSverre/codemagic-skill:1",
@@ -83,6 +475,14 @@
       "at": "2026-10-07T11:37:46.000+02:00",
       "title": "test(mcp): compile CLI once and clean up command processes",
       "url": "https://github.com/HelgeSverre/glue/commit/293202234580db3a3e20d7cd95a3e4529752315b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c0b57be1ba815b4cc05559d20e82bd4021324170",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T11:32:17.000+02:00",
+      "title": "Configure full-text word lengths with historical recovery rules",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c0b57be1ba815b4cc05559d20e82bd4021324170"
     },
     {
       "id": "commit:HelgeSverre/splash:1034198c4788ae3ac89a63e4546b0f0f1866e591",
@@ -147,6 +547,78 @@
       "at": "2026-10-07T11:17:51.000+02:00",
       "title": "feat(catalog): refresh Mistral models from current API metadata",
       "url": "https://github.com/HelgeSverre/glue/commit/2d56389667e434db8e186cccfd8b7f5292705ab4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7836703da803ec49c5745cc87d606d68ecc1fa9b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T11:08:19.000+02:00",
+      "title": "Record full-text performance at e428a5e8",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7836703da803ec49c5745cc87d606d68ecc1fa9b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e428a5e8bd7fac0acd5f2f20b044bb8c906c571d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T11:02:08.000+02:00",
+      "title": "Separate full-text word lookup bounds from indexing rules",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e428a5e8bd7fac0acd5f2f20b044bb8c906c571d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3780e145cc41887bcd7be01f19bbca35ca0d35de",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T10:45:08.000+02:00",
+      "title": "Expand InnoDB full-text queries from every matching seed",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3780e145cc41887bcd7be01f19bbca35ca0d35de"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e41ef037b1586c3cb4d663ec7ddff163a09e2fc3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T10:37:38.000+02:00",
+      "title": "Defer remembered stopword loading until full-text use",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e41ef037b1586c3cb4d663ec7ddff163a09e2fc3"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ec1f906b1f60b86aa3512c4bfa6c0d6bb5dc4fac",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T10:28:15.000+02:00",
+      "title": "Capture lazy full-text stopword loading boundaries",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ec1f906b1f60b86aa3512c4bfa6c0d6bb5dc4fac"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b936f85ebc05a99271ce4a608148ad354b4f39e4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T10:21:03.000+02:00",
+      "title": "Configure custom full-text stopword sources at startup",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b936f85ebc05a99271ce4a608148ad354b4f39e4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:41431f045823b8c742ceaeb2ea93347b04a58934",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T10:11:21.000+02:00",
+      "title": "Record full-text performance after stopword recovery changes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/41431f045823b8c742ceaeb2ea93347b04a58934"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0370842fce212152b9614e003db3ccc85cefcc67",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T10:09:04.000+02:00",
+      "title": "Support custom full-text stopword sources and recovery",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0370842fce212152b9614e003db3ccc85cefcc67"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e0dbc1b221013cc968ec5524da40a01c051b4686",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T09:32:47.000+02:00",
+      "title": "Capture loaded full-text stopword policies in WAL writes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e0dbc1b221013cc968ec5524da40a01c051b4686"
     },
     {
       "id": "commit:HelgeSverre/fsdb:0beddddc2bad3ca981d8e475bc10dc85d53e644a",
@@ -2213,6 +2685,38 @@
       "url": "https://github.com/HelgeSverre/splash/commit/0de710ed2ca177d0c900baa06e87caf37231d8c0"
     },
     {
+      "id": "release:HelgeSverre/splash:403799733",
+      "kind": "release",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T16:29:41Z",
+      "title": "v0.1.0",
+      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.1.0"
+    },
+    {
+      "id": "release:HelgeSverre/codemagic-skill:405993366",
+      "kind": "release",
+      "repo": "HelgeSverre/codemagic-skill",
+      "at": "2026-10-07T17:21:10Z",
+      "title": "v1.3.1",
+      "url": "https://github.com/HelgeSverre/codemagic-skill/releases/tag/v1.3.1"
+    },
+    {
+      "id": "release:HelgeSverre/codemagic-skill:405955198",
+      "kind": "release",
+      "repo": "HelgeSverre/codemagic-skill",
+      "at": "2026-10-07T16:26:23Z",
+      "title": "v1.3.0",
+      "url": "https://github.com/HelgeSverre/codemagic-skill/releases/tag/v1.3.0"
+    },
+    {
+      "id": "release:HelgeSverre/codemagic-skill:405743710",
+      "kind": "release",
+      "repo": "HelgeSverre/codemagic-skill",
+      "at": "2026-10-07T12:33:07Z",
+      "title": "v1.2.0",
+      "url": "https://github.com/HelgeSverre/codemagic-skill/releases/tag/v1.2.0"
+    },
+    {
       "id": "release:HelgeSverre/codemagic-skill:405697992",
       "kind": "release",
       "repo": "HelgeSverre/codemagic-skill",
@@ -2227,6 +2731,14 @@
       "at": "2026-10-07T09:21:22Z",
       "title": "v1.0.0",
       "url": "https://github.com/HelgeSverre/codemagic-skill/releases/tag/v1.0.0"
+    },
+    {
+      "id": "release:HelgeSverre/fedit:405775266",
+      "kind": "release",
+      "repo": "HelgeSverre/fedit",
+      "at": "2026-10-07T13:08:10Z",
+      "title": "v1.10.1",
+      "url": "https://github.com/HelgeSverre/fedit/releases/tag/v1.10.1"
     },
     {
       "id": "release:HelgeSverre/wire-bridge:404418711",
