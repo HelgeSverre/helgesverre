@@ -1,9 +1,825 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-07T18:25:27.289Z",
-  "since": "2026-09-23T18:25:27.289Z",
+  "fetchedAt": "2026-10-08T00:57:08.385Z",
+  "since": "2026-09-24T00:57:08.385Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/claude-plan-viewer:f1015e13f8a411394b14a5265492f130eab57248",
+      "kind": "commit",
+      "repo": "HelgeSverre/claude-plan-viewer",
+      "at": "2026-10-08T02:50:27.000+02:00",
+      "title": "test: unit tests import real server and client code",
+      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/f1015e13f8a411394b14a5265492f130eab57248"
+    },
+    {
+      "id": "commit:HelgeSverre/claude-plan-viewer:2d13b691aa9246374219cd8c46886a16a8c05286",
+      "kind": "commit",
+      "repo": "HelgeSverre/claude-plan-viewer",
+      "at": "2026-10-08T02:39:16.000+02:00",
+      "title": "fix(website): serve docs at clean URLs",
+      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/2d13b691aa9246374219cd8c46886a16a8c05286"
+    },
+    {
+      "id": "commit:HelgeSverre/claude-plan-viewer:41b3dd6fa4eb9377149cb7ac9fe220e7f259905b",
+      "kind": "commit",
+      "repo": "HelgeSverre/claude-plan-viewer",
+      "at": "2026-10-08T02:35:51.000+02:00",
+      "title": "docs: add Memory view screenshot",
+      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/41b3dd6fa4eb9377149cb7ac9fe220e7f259905b"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:66732cee98be4b0458a8c97f28c53afadd30c44b",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T02:29:53.000+02:00",
+      "title": "Look for the expected Actions request, not the last one logged",
+      "url": "https://github.com/HelgeSverre/splash/commit/66732cee98be4b0458a8c97f28c53afadd30c44b"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:046dc3185a6ef0fd77ad4c181d00412e23a9a19d",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T02:29:53.000+02:00",
+      "title": "Deliver events to a window from its first command",
+      "url": "https://github.com/HelgeSverre/splash/commit/046dc3185a6ef0fd77ad4c181d00412e23a9a19d"
+    },
+    {
+      "id": "commit:HelgeSverre/claude-plan-viewer:82b9f1cc1c71a2fa2de5d33ab1a541d7f812f8fb",
+      "kind": "commit",
+      "repo": "HelgeSverre/claude-plan-viewer",
+      "at": "2026-10-08T02:21:09.000+02:00",
+      "title": "chore(release): v1.6.0 - project memory view, content search, security fixes",
+      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/82b9f1cc1c71a2fa2de5d33ab1a541d7f812f8fb"
+    },
+    {
+      "id": "commit:HelgeSverre/claude-plan-viewer:95daedf187627b6d839762f1b28cdc5614c7b573",
+      "kind": "commit",
+      "repo": "HelgeSverre/claude-plan-viewer",
+      "at": "2026-10-08T02:20:21.000+02:00",
+      "title": "perf(memory): decode project dir names only for memory without session logs",
+      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/95daedf187627b6d839762f1b28cdc5614c7b573"
+    },
+    {
+      "id": "commit:HelgeSverre/claude-plan-viewer:3a5b9b7021f81c0d1fe255f8f641e3cf5b39b9bb",
+      "kind": "commit",
+      "repo": "HelgeSverre/claude-plan-viewer",
+      "at": "2026-10-08T02:18:21.000+02:00",
+      "title": "fix: address review findings for memory view and server",
+      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/3a5b9b7021f81c0d1fe255f8f641e3cf5b39b9bb"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:b801f72a6462978ac179a549e04971051003788f",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T02:04:18.000+02:00",
+      "title": "Give a manual e2e burn-in time to finish",
+      "url": "https://github.com/HelgeSverre/splash/commit/b801f72a6462978ac179a549e04971051003788f"
+    },
+    {
+      "id": "commit:HelgeSverre/claude-plan-viewer:22d062d825852302c798b6f961fd1f5be7033ecc",
+      "kind": "commit",
+      "repo": "HelgeSverre/claude-plan-viewer",
+      "at": "2026-10-08T02:01:10.000+02:00",
+      "title": "docs: document the Memory view and /api/memory endpoints",
+      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/22d062d825852302c798b6f961fd1f5be7033ecc"
+    },
+    {
+      "id": "commit:HelgeSverre/claude-plan-viewer:652ddc469a97a172da10f2f65d99e5717733b111",
+      "kind": "commit",
+      "repo": "HelgeSverre/claude-plan-viewer",
+      "at": "2026-10-08T01:59:58.000+02:00",
+      "title": "fix(ui): fit view tabs in narrow headers, label index-only memory groups",
+      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/652ddc469a97a172da10f2f65d99e5717733b111"
+    },
+    {
+      "id": "commit:HelgeSverre/claude-plan-viewer:b863f34bc3c62b44e5a28960462292dacd3ffecd",
+      "kind": "commit",
+      "repo": "HelgeSverre/claude-plan-viewer",
+      "at": "2026-10-08T01:57:35.000+02:00",
+      "title": "feat(memory): Memory view with project grouping, links and index budget",
+      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/b863f34bc3c62b44e5a28960462292dacd3ffecd"
+    },
+    {
+      "id": "commit:HelgeSverre/claude-plan-viewer:222d177468349ed06c16655f074fd0eb0bcf4c28",
+      "kind": "commit",
+      "repo": "HelgeSverre/claude-plan-viewer",
+      "at": "2026-10-08T01:47:21.000+02:00",
+      "title": "feat(memory): serve auto memory over /api/memory",
+      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/222d177468349ed06c16655f074fd0eb0bcf4c28"
+    },
+    {
+      "id": "commit:HelgeSverre/claude-plan-viewer:40ec0645f6173ec02eac085992b11ddc2f2ea4c8",
+      "kind": "commit",
+      "repo": "HelgeSverre/claude-plan-viewer",
+      "at": "2026-10-08T01:43:24.000+02:00",
+      "title": "feat(memory): scan Claude Code auto memory directories",
+      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/40ec0645f6173ec02eac085992b11ddc2f2ea4c8"
+    },
+    {
+      "id": "commit:HelgeSverre/glue:cbe8f73e1e4d3bb9d28cae9e322c3d5775ed1cce",
+      "kind": "commit",
+      "repo": "HelgeSverre/glue",
+      "at": "2026-10-08T01:42:56.000+02:00",
+      "title": "docs: announce Splash on the website",
+      "url": "https://github.com/HelgeSverre/glue/commit/cbe8f73e1e4d3bb9d28cae9e322c3d5775ed1cce"
+    },
+    {
+      "id": "commit:HelgeSverre/claude-plan-viewer:de2128c3d47c240d1f8c20e7e841f9420be7c52d",
+      "kind": "commit",
+      "repo": "HelgeSverre/claude-plan-viewer",
+      "at": "2026-10-08T01:37:39.000+02:00",
+      "title": "docs: document /api/search and stricter /api/open",
+      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/de2128c3d47c240d1f8c20e7e841f9420be7c52d"
+    },
+    {
+      "id": "commit:HelgeSverre/claude-plan-viewer:5e69f807eb0af011b634ac000653bac7b61321d1",
+      "kind": "commit",
+      "repo": "HelgeSverre/claude-plan-viewer",
+      "at": "2026-10-08T01:37:39.000+02:00",
+      "title": "fix(client): content search, safe highlighting, race-free selection, URL filters",
+      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/5e69f807eb0af011b634ac000653bac7b61321d1"
+    },
+    {
+      "id": "commit:HelgeSverre/claude-plan-viewer:d80e2a1940b4423d6c926954c1ddb6ee00deb8a0",
+      "kind": "commit",
+      "repo": "HelgeSverre/claude-plan-viewer",
+      "at": "2026-10-08T01:37:39.000+02:00",
+      "title": "fix(server): harden /api/open, survive missing plans dir, keep project mapping fresh",
+      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/d80e2a1940b4423d6c926954c1ddb6ee00deb8a0"
+    },
+    {
+      "id": "commit:HelgeSverre/claude-plan-viewer:9cfe55b6359c8d85137a8fa23bc0928ac72c9ce6",
+      "kind": "commit",
+      "repo": "HelgeSverre/claude-plan-viewer",
+      "at": "2026-10-08T01:37:39.000+02:00",
+      "title": "chore(deps): bump all dependencies, move typescript to devDependencies",
+      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/9cfe55b6359c8d85137a8fa23bc0928ac72c9ce6"
+    },
+    {
+      "id": "commit:HelgeSverre/glue:63f5aa3374bfc77beab736fa222e713bdd36138c",
+      "kind": "commit",
+      "repo": "HelgeSverre/glue",
+      "at": "2026-10-08T01:34:12.000+02:00",
+      "title": "fix(build): use explicit CLI target with Dart 3.13",
+      "url": "https://github.com/HelgeSverre/glue/commit/63f5aa3374bfc77beab736fa222e713bdd36138c"
+    },
+    {
+      "id": "commit:HelgeSverre/glue:225666cef3f5d3ff2f401b25aea20caa3b7c3581",
+      "kind": "commit",
+      "repo": "HelgeSverre/glue",
+      "at": "2026-10-08T01:29:06.000+02:00",
+      "title": "release: v0.9.1",
+      "url": "https://github.com/HelgeSverre/glue/commit/225666cef3f5d3ff2f401b25aea20caa3b7c3581"
+    },
+    {
+      "id": "commit:HelgeSverre/glue:445eadb9549992620aae79ce21443e3d0ad4d78b",
+      "kind": "commit",
+      "repo": "HelgeSverre/glue",
+      "at": "2026-10-08T01:28:35.000+02:00",
+      "title": "feat: support Claude Haiku 5.5",
+      "url": "https://github.com/HelgeSverre/glue/commit/445eadb9549992620aae79ce21443e3d0ad4d78b"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:1f429c1393efe809f8b37dbb98dc90e83b444f12",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T01:22:04.000+02:00",
+      "title": "List the e2e helpers by area in the README",
+      "url": "https://github.com/HelgeSverre/splash/commit/1f429c1393efe809f8b37dbb98dc90e83b444f12"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:a6963f02b26510283cccb6c4201a3889912bdd33",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T01:21:32.000+02:00",
+      "title": "Wait for the app to finish loading in the browser tests",
+      "url": "https://github.com/HelgeSverre/splash/commit/a6963f02b26510283cccb6c4201a3889912bdd33"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:4df6065526d89ea12115f6fd8acb5edc26040c51",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T01:13:27.000+02:00",
+      "title": "Update the website's dependencies",
+      "url": "https://github.com/HelgeSverre/splash/commit/4df6065526d89ea12115f6fd8acb5edc26040c51"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:fbb392a78e2058cf05acf5fd26341c22c5b5d67f",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T01:10:29.000+02:00",
+      "title": "Find Settings, shortcut and web-version elements by test id",
+      "url": "https://github.com/HelgeSverre/splash/commit/fbb392a78e2058cf05acf5fd26341c22c5b5d67f"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:1098f89e82b923d5051e6432379f975137d329a8",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T01:04:49.000+02:00",
+      "title": "Find GitHub and Actions elements in the browser tests by test id",
+      "url": "https://github.com/HelgeSverre/splash/commit/1098f89e82b923d5051e6432379f975137d329a8"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:428ff81fbc9459fb3635ab5a0cd48ea03165c444",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T01:04:45.000+02:00",
+      "title": "Find agent history elements in the browser tests by test id",
+      "url": "https://github.com/HelgeSverre/splash/commit/428ff81fbc9459fb3635ab5a0cd48ea03165c444"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:81523a49cf7f3eb252bfa6db64f175541a4e7fff",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T00:57:39.000+02:00",
+      "title": "docs: add illustrated fsdb README header",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/81523a49cf7f3eb252bfa6db64f175541a4e7fff"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7c7ae5d8aaca6a2a4d907c9d1d6bc8c468914226",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T00:55:14.000+02:00",
+      "title": "Preserve introduced literal charsets through execution and recovery",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7c7ae5d8aaca6a2a4d907c9d1d6bc8c468914226"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:5bfab96243d0c3f3fe2e9cdfb9728dce7095c145",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T00:46:47.000+02:00",
+      "title": "Find elements in the browser tests by test id",
+      "url": "https://github.com/HelgeSverre/splash/commit/5bfab96243d0c3f3fe2e9cdfb9728dce7095c145"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:110895194e69a5e7d94d72369f535a19726b825e",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T00:46:44.000+02:00",
+      "title": "Use an absolute missing folder in the folder picker test",
+      "url": "https://github.com/HelgeSverre/splash/commit/110895194e69a5e7d94d72369f535a19726b825e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5a8a881284fc7d7bbd3405ca6c02ce8026582235",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T00:35:21.000+02:00",
+      "title": "Avoid allocations on literal diagnostic cache hits",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5a8a881284fc7d7bbd3405ca6c02ce8026582235"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:ac1e5c67d651fcb92b7ce2b1b6052b31e24e29ae",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T00:35:09.000+02:00",
+      "title": "Add Amp as an agent",
+      "url": "https://github.com/HelgeSverre/splash/commit/ac1e5c67d651fcb92b7ce2b1b6052b31e24e29ae"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:67c39e165d8470dfa93bda6c11e040217661239c",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T00:25:09.000+02:00",
+      "title": "Allow GitHub feeds time to load on a busy machine",
+      "url": "https://github.com/HelgeSverre/splash/commit/67c39e165d8470dfa93bda6c11e040217661239c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a3c1f3170836b5539234552065608232e4e1aac8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T00:21:26.000+02:00",
+      "title": "Pin text literal charset identities and prepared lifetimes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a3c1f3170836b5539234552065608232e4e1aac8"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:4ade86ddcb9706e07158829ab1354e939f6ae16e",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T00:14:36.000+02:00",
+      "title": "Keep the space before a slash command's hint",
+      "url": "https://github.com/HelgeSverre/splash/commit/4ade86ddcb9706e07158829ab1354e939f6ae16e"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:6ef9b66230c8afb7fd8dab4a83b90aa89c51303d",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T00:14:22.000+02:00",
+      "title": "Test GitHub triage and Actions end to end with a fake gh",
+      "url": "https://github.com/HelgeSverre/splash/commit/6ef9b66230c8afb7fd8dab4a83b90aa89c51303d"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:a16d4a662b68fbe57297c07d9b79ce0052995851",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T00:14:22.000+02:00",
+      "title": "Keep the space before an Actions job's duration",
+      "url": "https://github.com/HelgeSverre/splash/commit/a16d4a662b68fbe57297c07d9b79ce0052995851"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:d896594b292691fcd0e8de27f352d49ab61e1464",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T00:11:28.000+02:00",
+      "title": "Answer permissions one at a time in the browser tests",
+      "url": "https://github.com/HelgeSverre/splash/commit/d896594b292691fcd0e8de27f352d49ab61e1464"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:8820302531da5dffb9fe935ed0e64eff0c4a6268",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T00:08:37.000+02:00",
+      "title": "Explain why a server folder can't be opened",
+      "url": "https://github.com/HelgeSverre/splash/commit/8820302531da5dffb9fe935ed0e64eff0c4a6268"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6ba0dd276de5a97b35f9d987abc2bd222e3715de",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T00:07:16.000+02:00",
+      "title": "Validate literal collations during expression binding",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6ba0dd276de5a97b35f9d987abc2bd222e3715de"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:0f0d5ec3f74e773c93398e179511f8e9e7696cdc",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T00:04:29.000+02:00",
+      "title": "Wait for the web page's resync after a server restart",
+      "url": "https://github.com/HelgeSverre/splash/commit/0f0d5ec3f74e773c93398e179511f8e9e7696cdc"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:5061e5fcfcd0790753f2e6144c42ce80fed30aae",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T00:00:54.000+02:00",
+      "title": "Test agent history end to end",
+      "url": "https://github.com/HelgeSverre/splash/commit/5061e5fcfcd0790753f2e6144c42ce80fed30aae"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:295a7f916371457d7e4aa12dadda1de0eceaf621",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T00:00:53.000+02:00",
+      "title": "Replay recorded history pages and loads in fake-acp",
+      "url": "https://github.com/HelgeSverre/splash/commit/295a7f916371457d7e4aa12dadda1de0eceaf621"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:31962b999da7465615df1b3ef9cb0aecc1120c17",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T00:00:17.000+02:00",
+      "title": "Keep a view opened while the app is still loading",
+      "url": "https://github.com/HelgeSverre/splash/commit/31962b999da7465615df1b3ef9cb0aecc1120c17"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:3e14b83e08b651b2b2634246b1d1df3e24525cc1",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T00:00:17.000+02:00",
+      "title": "Ask before discarding a dirty worktree from Manage history",
+      "url": "https://github.com/HelgeSverre/splash/commit/3e14b83e08b651b2b2634246b1d1df3e24525cc1"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:d79fc3d1ac830780b32f4de0930eebf27ac33c81",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T00:00:17.000+02:00",
+      "title": "Retry the agent history request that failed",
+      "url": "https://github.com/HelgeSverre/splash/commit/d79fc3d1ac830780b32f4de0930eebf27ac33c81"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:8392708a293e24a664a3e3c93bf81cd9a32a1e07",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T23:55:44.000+02:00",
+      "title": "Test settings, keyboard shortcuts and the web version's edges end to end",
+      "url": "https://github.com/HelgeSverre/splash/commit/8392708a293e24a664a3e3c93bf81cd9a32a1e07"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:c0458053195973d8b26c833ab3dcf6b79ce04552",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T23:55:44.000+02:00",
+      "title": "Let fake-acp announce its slash commands after session/new",
+      "url": "https://github.com/HelgeSverre/splash/commit/c0458053195973d8b26c833ab3dcf6b79ce04552"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:c1633fe05b465baafc863e7607b493d1aac0ec7d",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T23:55:31.000+02:00",
+      "title": "Open the command palette only on the keys bound to it",
+      "url": "https://github.com/HelgeSverre/splash/commit/c1633fe05b465baafc863e7607b493d1aac0ec7d"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:4a889b69c89bba9f8810fb21d22d71cb4cabcab4",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T23:50:20.000+02:00",
+      "title": "Add a flake burn-in for the browser tests",
+      "url": "https://github.com/HelgeSverre/splash/commit/4a889b69c89bba9f8810fb21d22d71cb4cabcab4"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:14dac1d5a60d06add5abc5e3cb5380936d64eb05",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T23:49:45.000+02:00",
+      "title": "Replay what agents send while creating a session",
+      "url": "https://github.com/HelgeSverre/splash/commit/14dac1d5a60d06add5abc5e3cb5380936d64eb05"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:4fe6446a216a772056864dfac282193bfbb12de1",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T23:45:36.000+02:00",
+      "title": "Test the workbench, Needs attention, review and the library end to end",
+      "url": "https://github.com/HelgeSverre/splash/commit/4fe6446a216a772056864dfac282193bfbb12de1"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:48264c63a9e8cfb0497bcf7a02ed79691f0610e8",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T23:43:48.000+02:00",
+      "title": "Keep terminal keystrokes in order",
+      "url": "https://github.com/HelgeSverre/splash/commit/48264c63a9e8cfb0497bcf7a02ed79691f0610e8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d0ecd694eb828168f33b5ac85a8f421e6e016ad8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T23:32:41.000+02:00",
+      "title": "Represent binary conversions separately from COLLATE annotations",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d0ecd694eb828168f33b5ac85a8f421e6e016ad8"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:5f018a92f38f71bf4db2a26f7a8af3f9bd872d18",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T23:26:39.000+02:00",
+      "title": "Let e2e tests prepare their World before the backend starts",
+      "url": "https://github.com/HelgeSverre/splash/commit/5f018a92f38f71bf4db2a26f7a8af3f9bd872d18"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:90de0ef591a1e43b4455725b6e63696b49a85898",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T23:25:19.000+02:00",
+      "title": "Test projects, sessions, the transcript and resume end to end",
+      "url": "https://github.com/HelgeSverre/splash/commit/90de0ef591a1e43b4455725b6e63696b49a85898"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:966fd787caee2f613876d0f28cdc0fdaa08da520",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T23:22:40.000+02:00",
+      "title": "Preserve COLLATE chains and SET expression diagnostics",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/966fd787caee2f613876d0f28cdc0fdaa08da520"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:21b8d9dc59be818b58163482a93637afa050000d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T23:14:48.000+02:00",
+      "title": "Validate NAME_CONST argument syntax before execution",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/21b8d9dc59be818b58163482a93637afa050000d"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:4be6472d8cdcc53ab97fd653320f2a9f90323852",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T23:11:08.000+02:00",
+      "title": "Add end-to-end browser tests for the desktop UI and web version",
+      "url": "https://github.com/HelgeSverre/splash/commit/4be6472d8cdcc53ab97fd653320f2a9f90323852"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:7f0b414cb953efae20968e9141d04ea5f320ade5",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T23:10:59.000+02:00",
+      "title": "Keep projects added at startup while the app loads",
+      "url": "https://github.com/HelgeSverre/splash/commit/7f0b414cb953efae20968e9141d04ea5f320ade5"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:0839b5d3fa97efcb9cd01ee5463203bb26c18af1",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T23:10:59.000+02:00",
+      "title": "Stop bursts of browser connections from stalling requests",
+      "url": "https://github.com/HelgeSverre/splash/commit/0839b5d3fa97efcb9cd01ee5463203bb26c18af1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b5d1a2fbdaf8797d2d4b0ade7a4e3dbeb878a18c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T22:59:19.000+02:00",
+      "title": "Match literal and NAME_CONST projection names",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b5d1a2fbdaf8797d2d4b0ade7a4e3dbeb878a18c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:64e33ead951179c26b45779dded0ccc6bc611ffe",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T22:45:22.000+02:00",
+      "title": "Preserve projection source names through parsing and execution",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/64e33ead951179c26b45779dded0ccc6bc611ffe"
+    },
+    {
+      "id": "pr:HelgeSverre/token:28",
+      "kind": "merge",
+      "repo": "HelgeSverre/token",
+      "at": "2026-10-07T22:31:39Z",
+      "title": "test(ui): cover bottom-edge hover placement in gallery",
+      "url": "https://github.com/HelgeSverre/token/pull/28"
+    },
+    {
+      "id": "pr:HelgeSverre/token:27",
+      "kind": "merge",
+      "repo": "HelgeSverre/token",
+      "at": "2026-10-07T22:31:38Z",
+      "title": "feat(gallery): show independently scrolled completion documentation",
+      "url": "https://github.com/HelgeSverre/token/pull/27"
+    },
+    {
+      "id": "pr:HelgeSverre/token:26",
+      "kind": "merge",
+      "repo": "HelgeSverre/token",
+      "at": "2026-10-07T22:31:37Z",
+      "title": "fix(gallery): keep diagnostic severity rows visible",
+      "url": "https://github.com/HelgeSverre/token/pull/26"
+    },
+    {
+      "id": "pr:HelgeSverre/token:25",
+      "kind": "merge",
+      "repo": "HelgeSverre/token",
+      "at": "2026-10-07T22:31:36Z",
+      "title": "feat(gallery): cover wrapped selections and continuation carets",
+      "url": "https://github.com/HelgeSverre/token/pull/25"
+    },
+    {
+      "id": "pr:HelgeSverre/token:24",
+      "kind": "merge",
+      "repo": "HelgeSverre/token",
+      "at": "2026-10-07T22:31:35Z",
+      "title": "feat(gallery): add production explorer specimens",
+      "url": "https://github.com/HelgeSverre/token/pull/24"
+    },
+    {
+      "id": "pr:HelgeSverre/token:23",
+      "kind": "merge",
+      "repo": "HelgeSverre/token",
+      "at": "2026-10-07T22:31:34Z",
+      "title": "feat(ui): refine status spacing and chrome readability",
+      "url": "https://github.com/HelgeSverre/token/pull/23"
+    },
+    {
+      "id": "pr:HelgeSverre/token:22",
+      "kind": "merge",
+      "repo": "HelgeSverre/token",
+      "at": "2026-10-07T22:31:33Z",
+      "title": "feat(ui): native polish baseline and roomier document tabs",
+      "url": "https://github.com/HelgeSverre/token/pull/22"
+    },
+    {
+      "id": "pr:HelgeSverre/token:21",
+      "kind": "merge",
+      "repo": "HelgeSverre/token",
+      "at": "2026-10-07T22:31:33Z",
+      "title": "perf: search regex directly over document ropes",
+      "url": "https://github.com/HelgeSverre/token/pull/21"
+    },
+    {
+      "id": "pr:HelgeSverre/token:20",
+      "kind": "merge",
+      "repo": "HelgeSverre/token",
+      "at": "2026-10-07T22:31:32Z",
+      "title": "perf(find): store compact shared match offsets",
+      "url": "https://github.com/HelgeSverre/token/pull/20"
+    },
+    {
+      "id": "pr:HelgeSverre/token:19",
+      "kind": "merge",
+      "repo": "HelgeSverre/token",
+      "at": "2026-10-07T22:31:31Z",
+      "title": "perf(folding): reuse immutable rope snapshots",
+      "url": "https://github.com/HelgeSverre/token/pull/19"
+    },
+    {
+      "id": "pr:HelgeSverre/token:18",
+      "kind": "merge",
+      "repo": "HelgeSverre/token",
+      "at": "2026-10-07T22:31:30Z",
+      "title": "perf(csv): refresh indexed cells during undo and redo",
+      "url": "https://github.com/HelgeSverre/token/pull/18"
+    },
+    {
+      "id": "pr:HelgeSverre/token:17",
+      "kind": "merge",
+      "repo": "HelgeSverre/token",
+      "at": "2026-10-07T22:31:29Z",
+      "title": "perf: reduce large-file costs and harden CSV editing",
+      "url": "https://github.com/HelgeSverre/token/pull/17"
+    },
+    {
+      "id": "pr:HelgeSverre/token:16",
+      "kind": "merge",
+      "repo": "HelgeSverre/token",
+      "at": "2026-10-07T22:31:28Z",
+      "title": "perf(text): vectorize line-ending detection across rope chunks",
+      "url": "https://github.com/HelgeSverre/token/pull/16"
+    },
+    {
+      "id": "pr:HelgeSverre/token:15",
+      "kind": "merge",
+      "repo": "HelgeSverre/token",
+      "at": "2026-10-07T22:31:27Z",
+      "title": "perf(csv): remove text size cap and reduce large-file allocations",
+      "url": "https://github.com/HelgeSverre/token/pull/15"
+    },
+    {
+      "id": "pr:HelgeSverre/token:14",
+      "kind": "merge",
+      "repo": "HelgeSverre/token",
+      "at": "2026-10-07T22:31:26Z",
+      "title": "perf(csv): establish a native 1 GiB opening performance gate",
+      "url": "https://github.com/HelgeSverre/token/pull/14"
+    },
+    {
+      "id": "pr:HelgeSverre/token:29",
+      "kind": "merge",
+      "repo": "HelgeSverre/token",
+      "at": "2026-10-07T22:30:01Z",
+      "title": "fix(ci): preserve Debian package metadata and check stacked PRs",
+      "url": "https://github.com/HelgeSverre/token/pull/29"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2b232be13c5e1ea2fc537a332e31ac8e98d1a307",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T22:18:21.000+02:00",
+      "title": "Represent SQL projections with named expression and alias fields",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2b232be13c5e1ea2fc537a332e31ac8e98d1a307"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ca95630f1a208dafacc28d4ac9f2432cea169cae",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T22:11:40.000+02:00",
+      "title": "Record native projection source-label boundaries and SQL-mode spelling",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ca95630f1a208dafacc28d4ac9f2432cea169cae"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:58dd7f63fe80d2dde957cf3112a8c4d7340ca757",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T22:10:53.000+02:00",
+      "title": "Centralize projection label selection across execution and metadata",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/58dd7f63fe80d2dde957cf3112a8c4d7340ca757"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:79fa5d4a064c70cc2b913d68459c4226c865c994",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T22:01:52.000+02:00",
+      "title": "Retain SQL literal and qualifier syntax in nested expression labels",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/79fa5d4a064c70cc2b913d68459c4226c865c994"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:abe4443b86c7ac2d959345f654fcb26dee4b83f2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T21:52:01.000+02:00",
+      "title": "Align qualified reference diagnostics across query scopes and preparation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/abe4443b86c7ac2d959345f654fcb26dee4b83f2"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:19aeb0a4ca872f2c171562623e00685741010232",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T21:34:26.000+02:00",
+      "title": "Always offer the universal macOS installer first",
+      "url": "https://github.com/HelgeSverre/splash/commit/19aeb0a4ca872f2c171562623e00685741010232"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:2b2ee91e8520d7eb815f1632263e3ce2d5fe24fc",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T21:34:24.000+02:00",
+      "title": "Use a distinctive secret in the MCP redaction test",
+      "url": "https://github.com/HelgeSverre/splash/commit/2b2ee91e8520d7eb815f1632263e3ce2d5fe24fc"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1d7783b9a4aeb146fc1a3fc6e8a0b9666a75bef8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T21:34:15.000+02:00",
+      "title": "Retain outer context for dependent nested derived sources",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1d7783b9a4aeb146fc1a3fc6e8a0b9666a75bef8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e9fce3a9c99fa4f0b8fc6bc141e857191dc0abd7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T21:21:24.000+02:00",
+      "title": "Share query validation for EXPLAIN mutation sources",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e9fce3a9c99fa4f0b8fc6bc141e857191dc0abd7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f6064d899134358cdb81f8b2c0b0c9f3599f1314",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T21:14:12.000+02:00",
+      "title": "Preserve correlated projection types and source metadata",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f6064d899134358cdb81f8b2c0b0c9f3599f1314"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:dd53e66c3114d472072afc85edce58285518db6f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T20:58:17.000+02:00",
+      "title": "Suppress session side effects in empty dependent source probes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/dd53e66c3114d472072afc85edce58285518db6f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b52e1fd3b1154d09edb72348852c851fabbde693",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T20:51:29.000+02:00",
+      "title": "Support grouped dependent mutation sources with scoped identities",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b52e1fd3b1154d09edb72348852c851fabbde693"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a3e56c52fc94d71c8f3e06fa281da875a2779a0e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T20:47:13.000+02:00",
+      "title": "Extract mutation join source preparation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a3e56c52fc94d71c8f3e06fa281da875a2779a0e"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:d2b8c32546fb8158d71e3238300bce83a6cefef6",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T20:45:16.000+02:00",
+      "title": "Add search and social metadata to the website",
+      "url": "https://github.com/HelgeSverre/splash/commit/d2b8c32546fb8158d71e3238300bce83a6cefef6"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:7ea63f277f204e84783ab6f00917b08571b2c51c",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T20:45:16.000+02:00",
+      "title": "Write the fake gh once per GitHub test fixture",
+      "url": "https://github.com/HelgeSverre/splash/commit/7ea63f277f204e84783ab6f00917b08571b2c51c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0d03f944f0723bd704f43b67ef2e500f1018fc0f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T20:40:30.000+02:00",
+      "title": "Support lateral UPDATE and DELETE sources with stable target identities",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0d03f944f0723bd704f43b67ef2e500f1018fc0f"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:2ebb79f3f878df3f6502bd37e78a47bd0371a702",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T20:39:46.000+02:00",
+      "title": "Release 0.2.1",
+      "url": "https://github.com/HelgeSverre/splash/commit/2ebb79f3f878df3f6502bd37e78a47bd0371a702"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:fc78020f9ee7cde63504f4838e2f1e01954640ef",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T20:38:38.000+02:00",
+      "title": "Shellcheck the installer packaging script in CI",
+      "url": "https://github.com/HelgeSverre/splash/commit/fc78020f9ee7cde63504f4838e2f1e01954640ef"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4f3e81826b29bdf395927f69116a72a69f2bdfaf",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T20:33:57.000+02:00",
+      "title": "Separate mutation source preparation from join matching",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4f3e81826b29bdf395927f69116a72a69f2bdfaf"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6b5903b0dfeab95fd0e42f3e6af520349f0ea02f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T20:30:28.000+02:00",
+      "title": "Bind JSON_TABLE references before expanding input rows",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6b5903b0dfeab95fd0e42f3e6af520349f0ea02f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3579c05481b75cac2b7cbc7f72f3069a1dace97a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T20:23:19.000+02:00",
+      "title": "Validate prepared JSON_TABLE argument scopes and diagnostics",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3579c05481b75cac2b7cbc7f72f3069a1dace97a"
+    },
     {
       "id": "commit:HelgeSverre/splash:3cae79d44ae63b9f2e0d99778fb24999da17e4f9",
       "kind": "commit",
@@ -11,6 +827,78 @@
       "at": "2026-10-07T20:21:36.000+02:00",
       "title": "Retry the NSIS install and fail early when it is missing",
       "url": "https://github.com/HelgeSverre/splash/commit/3cae79d44ae63b9f2e0d99778fb24999da17e4f9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:27a5935a95797bab2d4e79cbedd0dfc8d07937f0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T20:13:03.000+02:00",
+      "title": "Share JSON_TABLE natural and right join rules",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/27a5935a95797bab2d4e79cbedd0dfc8d07937f0"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:302d3ae0edd092998e0b65343445bfe940f90b00",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T20:08:35.000+02:00",
+      "title": "Retry the NSIS install and fail early when it is missing",
+      "url": "https://github.com/HelgeSverre/splash/commit/302d3ae0edd092998e0b65343445bfe940f90b00"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:43cb3f84d2f248e0c30c42b3eddea6ff4ec84e96",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T20:06:57.000+02:00",
+      "title": "Preserve lateral result collations and correlated UNION context",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/43cb3f84d2f248e0c30c42b3eddea6ff4ec84e96"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:3dd54fc93c1043794961afde37cc758a30505bbb",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T20:00:14.000+02:00",
+      "title": "Prefer the macOS installer package once a release has it",
+      "url": "https://github.com/HelgeSverre/splash/commit/3dd54fc93c1043794961afde37cc758a30505bbb"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:c14900f740d00785afb3223c56506096f10210af",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T20:00:14.000+02:00",
+      "title": "Ship a universal macOS installer package",
+      "url": "https://github.com/HelgeSverre/splash/commit/c14900f740d00785afb3223c56506096f10210af"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:bab7724553a1fa2e9244c1f3582517d377657d2c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T20:00:09.000+02:00",
+      "title": "Align prepared and executed right lateral scopes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/bab7724553a1fa2e9244c1f3582517d377657d2c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:06ff7f46c903fc5dd7cdb29c63a93021c21f878d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T19:57:00.000+02:00",
+      "title": "Evaluate right lateral sources in the enclosing query scope",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/06ff7f46c903fc5dd7cdb29c63a93021c21f878d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2ebfa71420236699f2c6e8f34763e7d49fa8f32c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T19:52:59.000+02:00",
+      "title": "Use shared matching for lateral USING and NATURAL joins",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2ebfa71420236699f2c6e8f34763e7d49fa8f32c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0efea6423e0cb80f139f329d2d24234e169e0160",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T19:49:03.000+02:00",
+      "title": "Preserve unmatched lateral rows after ON evaluation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0efea6423e0cb80f139f329d2d24234e169e0160"
     },
     {
       "id": "commit:HelgeSverre/splash:dee4f1261e148146ef35cf01c5c3743daa669cb8",
@@ -35,6 +923,14 @@
       "at": "2026-10-07T19:47:28.000+02:00",
       "title": "Keep an embedded app window's dialogs from freezing the page",
       "url": "https://github.com/HelgeSverre/splash/commit/8861ef6dcbbe14d2aceb31aec83e81a44a4a4644"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:214d72eed06fade4cf599774b6c7a640f4bfca22",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-07T19:46:15.000+02:00",
+      "title": "Share join matching for grouped dependent sources",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/214d72eed06fade4cf599774b6c7a640f4bfca22"
     },
     {
       "id": "commit:HelgeSverre/splash:360b78ff4d18339338103ab07484f97e418e0ef5",
@@ -1709,6 +2605,14 @@
       "url": "https://github.com/HelgeSverre/ollama-gui/commit/eca8dde096355f02907fd32fd2eac645570308d8"
     },
     {
+      "id": "commit:HelgeSverre/token:0993c2c01ab8a13bb4dc17287a9c1e233d87af7c",
+      "kind": "commit",
+      "repo": "HelgeSverre/token",
+      "at": "2026-10-05T16:58:01.000+02:00",
+      "title": "perf(csv): add native 1 GiB opening performance gate",
+      "url": "https://github.com/HelgeSverre/token/commit/0993c2c01ab8a13bb4dc17287a9c1e233d87af7c"
+    },
+    {
       "id": "commit:HelgeSverre/splash:be6738e8fb78aae4340503acf9c2d2546ee6d083",
       "kind": "commit",
       "repo": "HelgeSverre/splash",
@@ -2685,12 +3589,44 @@
       "url": "https://github.com/HelgeSverre/splash/commit/0de710ed2ca177d0c900baa06e87caf37231d8c0"
     },
     {
+      "id": "release:HelgeSverre/claude-plan-viewer:406271828",
+      "kind": "release",
+      "repo": "HelgeSverre/claude-plan-viewer",
+      "at": "2026-10-08T00:21:23Z",
+      "title": "v1.6.0",
+      "url": "https://github.com/HelgeSverre/claude-plan-viewer/releases/tag/v1.6.0"
+    },
+    {
+      "id": "release:HelgeSverre/splash:406118084",
+      "kind": "release",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T20:02:44Z",
+      "title": "v0.2.1",
+      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.2.1"
+    },
+    {
+      "id": "release:HelgeSverre/splash:406047357",
+      "kind": "release",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T18:31:38Z",
+      "title": "v0.2.0",
+      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.2.0"
+    },
+    {
       "id": "release:HelgeSverre/splash:403799733",
       "kind": "release",
       "repo": "HelgeSverre/splash",
       "at": "2026-10-07T16:29:41Z",
       "title": "v0.1.0",
       "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.1.0"
+    },
+    {
+      "id": "release:HelgeSverre/glue:406250073",
+      "kind": "release",
+      "repo": "HelgeSverre/glue",
+      "at": "2026-10-07T23:35:47Z",
+      "title": "v0.9.1",
+      "url": "https://github.com/HelgeSverre/glue/releases/tag/v0.9.1"
     },
     {
       "id": "release:HelgeSverre/codemagic-skill:405993366",
