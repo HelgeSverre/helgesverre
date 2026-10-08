@@ -1,9 +1,57 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-08T00:57:08.385Z",
-  "since": "2026-09-24T00:57:08.385Z",
+  "fetchedAt": "2026-10-08T12:31:24.422Z",
+  "since": "2026-09-24T12:31:24.422Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/rust-vst3-host:fb0778d63b664586c483a426efda47ea33f9eff9",
+      "kind": "commit",
+      "repo": "HelgeSverre/rust-vst3-host",
+      "at": "2026-10-08T10:57:25.000+02:00",
+      "title": "fix: normalize VST3 enum types for Windows builds",
+      "url": "https://github.com/HelgeSverre/rust-vst3-host/commit/fb0778d63b664586c483a426efda47ea33f9eff9"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:541ac14331af6c6b473aa2bf2803231214a338d4",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T04:15:42.000+02:00",
+      "title": "Report an agent's exit and stderr when it dies mid-turn",
+      "url": "https://github.com/HelgeSverre/splash/commit/541ac14331af6c6b473aa2bf2803231214a338d4"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:ccd58de59647bce881d331b08751ebb77b9ae75d",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T04:15:42.000+02:00",
+      "title": "Don't record Splash's own shutdown as an agent failure",
+      "url": "https://github.com/HelgeSverre/splash/commit/ccd58de59647bce881d331b08751ebb77b9ae75d"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:c6de2b7b0d7537679b1fa70db8e3816e4058ba97",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T04:12:05.000+02:00",
+      "title": "Reconnect to a restarted server right away, and say so plainly",
+      "url": "https://github.com/HelgeSverre/splash/commit/c6de2b7b0d7537679b1fa70db8e3816e4058ba97"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:74696ee37bed86cba7f6c95b624dc76e01d73959",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T03:11:40.000+02:00",
+      "title": "Install NSIS for Windows packages without Chocolatey",
+      "url": "https://github.com/HelgeSverre/splash/commit/74696ee37bed86cba7f6c95b624dc76e01d73959"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:419c2918491abfc6ddf1c0f608f5ea1644f6ad67",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-08T02:58:12.000+02:00",
+      "title": "Keep what the fake agents sent, for failed browser tests",
+      "url": "https://github.com/HelgeSverre/splash/commit/419c2918491abfc6ddf1c0f608f5ea1644f6ad67"
+    },
     {
       "id": "commit:HelgeSverre/claude-plan-viewer:f1015e13f8a411394b14a5265492f130eab57248",
       "kind": "commit",
@@ -3573,30 +3621,6 @@
       "url": "https://github.com/HelgeSverre/splash/commit/4f3c34865fa446ab5cdc3bac3a9c38361612f0bf"
     },
     {
-      "id": "commit:HelgeSverre/splash:dc73e9962c02e9734d507c59cc688f2eeeee9e52",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-09-24T03:44:42.000+02:00",
-      "title": "Initial commit",
-      "url": "https://github.com/HelgeSverre/splash/commit/dc73e9962c02e9734d507c59cc688f2eeeee9e52"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:0de710ed2ca177d0c900baa06e87caf37231d8c0",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-09-24T03:40:31.000+02:00",
-      "title": "Add .gitignore",
-      "url": "https://github.com/HelgeSverre/splash/commit/0de710ed2ca177d0c900baa06e87caf37231d8c0"
-    },
-    {
-      "id": "release:HelgeSverre/claude-plan-viewer:406271828",
-      "kind": "release",
-      "repo": "HelgeSverre/claude-plan-viewer",
-      "at": "2026-10-08T00:21:23Z",
-      "title": "v1.6.0",
-      "url": "https://github.com/HelgeSverre/claude-plan-viewer/releases/tag/v1.6.0"
-    },
-    {
       "id": "release:HelgeSverre/splash:406118084",
       "kind": "release",
       "repo": "HelgeSverre/splash",
@@ -3619,6 +3643,14 @@
       "at": "2026-10-07T16:29:41Z",
       "title": "v0.1.0",
       "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.1.0"
+    },
+    {
+      "id": "release:HelgeSverre/claude-plan-viewer:406271828",
+      "kind": "release",
+      "repo": "HelgeSverre/claude-plan-viewer",
+      "at": "2026-10-08T00:21:23Z",
+      "title": "v1.6.0",
+      "url": "https://github.com/HelgeSverre/claude-plan-viewer/releases/tag/v1.6.0"
     },
     {
       "id": "release:HelgeSverre/glue:406250073",
