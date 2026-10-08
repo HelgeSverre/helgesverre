@@ -1,9 +1,153 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-08T12:31:24.422Z",
-  "since": "2026-09-24T12:31:24.422Z",
+  "fetchedAt": "2026-10-08T18:24:46.079Z",
+  "since": "2026-09-24T18:24:46.079Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:008a5628cf1991de693873d941d851b812f5d1cb",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T15:49:49.000+02:00",
+      "title": "Plan join-hint warnings after binding and query elimination",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/008a5628cf1991de693873d941d851b812f5d1cb"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:06dbbefb4d28107a2bd539a6865d5ad24d058ee0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T15:14:46.000+02:00",
+      "title": "Separate join-order execution warnings from preparation diagnostics",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/06dbbefb4d28107a2bd539a6865d5ad24d058ee0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:190e7f7af5d035a212a2685b01a134d86e8ffee9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T15:06:42.000+02:00",
+      "title": "Pin native join-order hint execution warning lifecycle",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/190e7f7af5d035a212a2685b01a134d86e8ffee9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:75fa99012e19880ff8b597ad8f8718801715b306",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T15:03:29.000+02:00",
+      "title": "Preserve CTE syntax diagnostics and simplify hint state handling",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/75fa99012e19880ff8b597ad8f8718801715b306"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7a21fe9672349a6bc2791ea6ca3afaa9d7fa7ac8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T14:26:06.000+02:00",
+      "title": "Instantiate optimizer hints through lexical CTE scopes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7a21fe9672349a6bc2791ea6ca3afaa9d7fa7ac8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1e7ce5c8095288375c205aef3c05e1d7d1a8e8c6",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T14:05:30.000+02:00",
+      "title": "Pin native CTE hint instantiation and lexical scope differences",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1e7ce5c8095288375c205aef3c05e1d7d1a8e8c6"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:02ffd278b9ac960c1b8f8f128996f9b060feb3fb",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T14:00:06.000+02:00",
+      "title": "Resolve optimizer hints across mutation query blocks",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/02ffd278b9ac960c1b8f8f128996f9b060feb3fb"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:69be4c933d04436f1facee582bdbb77782b31910",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T13:48:13.000+02:00",
+      "title": "Apply SET_VAR hints in query block order and preserve warning lifetimes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/69be4c933d04436f1facee582bdbb77782b31910"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:83509988922404a2e82d2c79cfec6ae9a2bd7fe1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T13:40:00.000+02:00",
+      "title": "Clarify optimizer hint conflict targets and isolate resolution warnings",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/83509988922404a2e82d2c79cfec6ae9a2bd7fe1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:036440897c1807043b6f6a033ddcdcf8c9c7ef4e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T13:37:19.000+02:00",
+      "title": "Match audited optimizer hint family conflicts and context ordering",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/036440897c1807043b6f6a033ddcdcf8c9c7ef4e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6d9280cad960bd31790fd163561288598a9be681",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T12:58:49.000+02:00",
+      "title": "Resolve SELECT optimizer hint targets and preserve diagnostic ordering",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6d9280cad960bd31790fd163561288598a9be681"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d014676b95be0728a1dc85cf6347b0b3b921989d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T12:24:51.000+02:00",
+      "title": "Pin table and query-block hint resolution against native MySQL",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d014676b95be0728a1dc85cf6347b0b3b921989d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e76852661e62f63469df2a18b9b2781fdbff0e3a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T12:18:40.000+02:00",
+      "title": "Centralize ordered optimizer hint parsing and simplify execution",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e76852661e62f63469df2a18b9b2781fdbff0e3a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:cfd3f0705384a5834f6bce22795f5e9afabb2c47",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T12:00:47.000+02:00",
+      "title": "Pin ordered mixed optimizer hint parsing and scope effects",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/cfd3f0705384a5834f6bce22795f5e9afabb2c47"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2787c1de3b59fb727be887da78f0823f2d2f9ffb",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T11:56:23.000+02:00",
+      "title": "Align stored routine diagnostics and ALTER characteristics with MySQL",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2787c1de3b59fb727be887da78f0823f2d2f9ffb"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9367d7b8103b3e541c8aeef4c571074fd7957e42",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T11:12:56.000+02:00",
+      "title": "Pin connection-local stored routine hint warning lifetimes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9367d7b8103b3e541c8aeef4c571074fd7957e42"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:23ea8b8d3223ec0a9a25e79cd5f9d6efea080fdf",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T11:08:58.000+02:00",
+      "title": "Share optimizer hint scanning and separate timeout argument parsing",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/23ea8b8d3223ec0a9a25e79cd5f9d6efea080fdf"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8ca711919e06056f3010346e697e9b1579f7a777",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T10:59:32.000+02:00",
+      "title": "Discard valid SELECT timeout hints in view definitions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8ca711919e06056f3010346e697e9b1579f7a777"
+    },
     {
       "id": "commit:HelgeSverre/rust-vst3-host:fb0778d63b664586c483a426efda47ea33f9eff9",
       "kind": "commit",
@@ -11,6 +155,318 @@
       "at": "2026-10-08T10:57:25.000+02:00",
       "title": "fix: normalize VST3 enum types for Windows builds",
       "url": "https://github.com/HelgeSverre/rust-vst3-host/commit/fb0778d63b664586c483a426efda47ea33f9eff9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:120fb513bf8652b9991035dd0a2e26c4124e197f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T10:45:37.000+02:00",
+      "title": "Bind timeout hints to the leading SELECT query block",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/120fb513bf8652b9991035dd0a2e26c4124e197f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:45f4fd8bc2a467bde70fbbe3eb8e3f6a3a5c465f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T10:35:14.000+02:00",
+      "title": "Apply SELECT timeout hints and preserve preparation warning lifetimes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/45f4fd8bc2a467bde70fbbe3eb8e3f6a3a5c465f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3f8d1096b794ab9f18b41fc2993e65acf02ce860",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T10:26:14.000+02:00",
+      "title": "Retain optimizer hint locations and pin timeout diagnostics",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3f8d1096b794ab9f18b41fc2993e65acf02ce860"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6fa25556bc661e2f35fde3fdb4446da40e9f736f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T10:17:59.000+02:00",
+      "title": "Enforce session SELECT deadlines without aborting transactions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6fa25556bc661e2f35fde3fdb4446da40e9f736f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:bc08cf5a5385d3389b64c1ed33a9cb79aed5bfc7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T10:01:42.000+02:00",
+      "title": "Support unsigned SELECT timeout settings and scope inheritance",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/bc08cf5a5385d3389b64c1ed33a9cb79aed5bfc7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b44c63bdb79528be3d4c1cc3623bb5789c97ee6e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T09:52:04.000+02:00",
+      "title": "Pin native SELECT timeout settings and interruption behavior",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b44c63bdb79528be3d4c1cc3623bb5789c97ee6e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:dcd30a06b6d2b516bb0048d266f9946dbedc0693",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T09:48:16.000+02:00",
+      "title": "Centralize malformed character diagnostics across SQL paths",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/dcd30a06b6d2b516bb0048d266f9946dbedc0693"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:76b5afa81c460648080089c4981c506a7728a748",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T09:45:16.000+02:00",
+      "title": "Share join candidate filtering and qualified column lookup",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/76b5afa81c460648080089c4981c506a7728a748"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ff85ccc32879b99bd26f24a9f89dd476e50b7e8d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T09:43:00.000+02:00",
+      "title": "Remove arbitrary join candidate ceiling while retaining cancellation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ff85ccc32879b99bd26f24a9f89dd476e50b7e8d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:97fe1a0bf362b7c44e531635cda47188a5a58c22",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T09:31:01.000+02:00",
+      "title": "Reproduce join candidate ceiling with small native results",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/97fe1a0bf362b7c44e531635cda47188a5a58c22"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:996cfa2b49379d8b30bc21a97c82c2f8da94258c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T09:27:13.000+02:00",
+      "title": "Report malformed quoted legacy literal warnings",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/996cfa2b49379d8b30bc21a97c82c2f8da94258c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:dec377406a2e21fd959ff6102cc87ba57389ccec",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T09:21:58.000+02:00",
+      "title": "Validate GB18030 and slice supplementary characters without full scans",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/dec377406a2e21fd959ff6102cc87ba57389ccec"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9b5109b6b6f66492773afef59eb9a5f51d5001fb",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T09:10:49.000+02:00",
+      "title": "Pin GB18030 gaps and mixed UJIS controls",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9b5109b6b6f66492773afef59eb9a5f51d5001fb"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4b613a00aef6060f938b1becac82a5c638c268a7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T08:06:37.000+02:00",
+      "title": "Preserve native EUC and GB2312 literal and character boundaries",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4b613a00aef6060f938b1becac82a5c638c268a7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8ebdd6b9b2780861a7bcb8def35f7218730fbcf2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T07:59:49.000+02:00",
+      "title": "Pin EUC and GB2312 literal and character boundary gaps",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8ebdd6b9b2780861a7bcb8def35f7218730fbcf2"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:de26bab60ed9081504c53d3ffe9141f70a9fef5b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T07:57:49.000+02:00",
+      "title": "Validate Big5 and GBK literal structure and character boundaries",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/de26bab60ed9081504c53d3ffe9141f70a9fef5b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1cbecdb513b69111503fa5cc41887bdeb88483e4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T07:52:52.000+02:00",
+      "title": "Validate Shift-JIS introduced literal byte sequences",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1cbecdb513b69111503fa5cc41887bdeb88483e4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5f0746586ec2dd13b1f2cff8367241e42d158720",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T07:48:54.000+02:00",
+      "title": "Recognize Shift-JIS byte boundaries independently of Unicode mappings",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5f0746586ec2dd13b1f2cff8367241e42d158720"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ed48e9ee674cc32886fe5d4567f0d5336715d303",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T07:43:03.000+02:00",
+      "title": "Preserve encoded bytes through string slicing and concatenation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ed48e9ee674cc32886fe5d4567f0d5336715d303"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ea86a38f88807a79d77dcbcd1fbb7ba0906b17a2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T07:24:30.000+02:00",
+      "title": "Pin encoded string operation gaps against native MySQL",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ea86a38f88807a79d77dcbcd1fbb7ba0906b17a2"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8289089345b87fef022bf3eb444ba4c115f3f99c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T07:23:04.000+02:00",
+      "title": "Preserve UCS2 code units through text storage conversion",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8289089345b87fef022bf3eb444ba4c115f3f99c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3a73f98c3bb35730826c839b245b6fb948ab1cc0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T07:05:05.000+02:00",
+      "title": "Validate encoded source bytes during text storage conversion",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3a73f98c3bb35730826c839b245b6fb948ab1cc0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7c96cc0d8a4a0c74bb7c59bc70f82acdc9567d67",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T06:57:40.000+02:00",
+      "title": "Avoid structural membership allocation without rollup keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7c96cc0d8a4a0c74bb7c59bc70f82acdc9567d67"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ee7bccde4f880cb62317b1a6d3e4b1ad69a2ef68",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T06:54:36.000+02:00",
+      "title": "Preserve encoded literal bytes across assignment and preparation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ee7bccde4f880cb62317b1a6d3e4b1ad69a2ef68"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0382c3e85485dd29adb933d670fadccdfc8f4128",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T06:16:06.000+02:00",
+      "title": "Pin introduced byte preservation and warning lifetimes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0382c3e85485dd29adb933d670fadccdfc8f4128"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:98febe1accdcd07665d25b4fe696323c70cbfbbf",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T06:11:44.000+02:00",
+      "title": "Validate introduced Unicode binary literals before evaluation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/98febe1accdcd07665d25b4fe696323c70cbfbbf"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7e0cd5e6a25b622ac7183c87e3c506cc7205cad5",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T05:57:34.000+02:00",
+      "title": "Share declared column collation inference with wildcard unions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7e0cd5e6a25b622ac7183c87e3c506cc7205cad5"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f48d06b4812e5b03c531fcb012449d1f1caa0907",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T05:51:11.000+02:00",
+      "title": "Preserve source expression collation identity through materialization and rollup",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f48d06b4812e5b03c531fcb012449d1f1caa0907"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:532bc6623c4f870e0ab6b6063a8becbc92386fbe",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T05:40:57.000+02:00",
+      "title": "Pin source expression collation metadata across rollup totals",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/532bc6623c4f870e0ab6b6063a8becbc92386fbe"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:fa845504c84e76fb26974e5e6b61f216fac98509",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T05:37:12.000+02:00",
+      "title": "Record grouped query performance after binding fixes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/fa845504c84e76fb26974e5e6b61f216fac98509"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ceed2fc9dd5aadf51ea43c0140bf51d744c9a134",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T05:36:27.000+02:00",
+      "title": "Validate window keys in source scope before row evaluation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ceed2fc9dd5aadf51ea43c0140bf51d744c9a134"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a5747f6163cadf64b4ec72cb902a052bc4a0550b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T05:18:29.000+02:00",
+      "title": "Restore grouped projection assignments only for returned rows",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a5747f6163cadf64b4ec72cb902a052bc4a0550b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:11807004eeba083b0727956923a4312ab32387c9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T05:04:26.000+02:00",
+      "title": "Pin grouped projection assignment replay and filtering phases",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/11807004eeba083b0727956923a4312ab32387c9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7058caa9a96a1f6bcee7adb9860ffba500e3176f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T05:00:05.000+02:00",
+      "title": "Evaluate ROLLUP aggregate levels as groups are consumed",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7058caa9a96a1f6bcee7adb9860ffba500e3176f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:05727fa20d3f3970c1f1e9b63109af1e02376294",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T04:52:36.000+02:00",
+      "title": "Pin ROLLUP level evaluation and early limit behavior",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/05727fa20d3f3970c1f1e9b63109af1e02376294"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e8ce7bd735c8771800fb14eee916cf0cb644c63c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T04:48:34.000+02:00",
+      "title": "Match GROUP_CONCAT tie ordering and first duplicate retention",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e8ce7bd735c8771800fb14eee916cf0cb644c63c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0bd940a5a7fc33afc7f97ec26be513aced0179f1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T04:42:03.000+02:00",
+      "title": "Select grouped aggregate input order by aggregate family",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0bd940a5a7fc33afc7f97ec26be513aced0179f1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a975585dd2c99e8a4a5dfef14e7f640ac761c582",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T04:31:43.000+02:00",
+      "title": "Pin aggregate-family grouping input order against native plans",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a975585dd2c99e8a4a5dfef14e7f640ac761c582"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e8fe63ee061383bf96d043db5f61fe440a552671",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T04:23:26.000+02:00",
+      "title": "Materialize grouped aggregate inputs in source order",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e8fe63ee061383bf96d043db5f61fe440a552671"
     },
     {
       "id": "commit:HelgeSverre/splash:541ac14331af6c6b473aa2bf2803231214a338d4",
@@ -37,6 +493,38 @@
       "url": "https://github.com/HelgeSverre/splash/commit/c6de2b7b0d7537679b1fa70db8e3816e4058ba97"
     },
     {
+      "id": "commit:HelgeSverre/fsdb:b81d7e4fb1e928ffdc92178a5f173e62a5e890e0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T03:57:05.000+02:00",
+      "title": "Separate aggregate value provision from expression rewriting",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b81d7e4fb1e928ffdc92178a5f173e62a5e890e0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ee37244111d22991fa60ed648a259fd92bcf930d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T03:51:42.000+02:00",
+      "title": "Pin grouped input evaluation and returned projection side effects",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ee37244111d22991fa60ed648a259fd92bcf930d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9a498be5f33ebe8fff9a078c8c50bd48f89944ed",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T03:46:55.000+02:00",
+      "title": "Validate aggregate ordering in query scope and term order",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9a498be5f33ebe8fff9a078c8c50bd48f89944ed"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:25f4770e9cc5980dd91147416cbd411c7980e520",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T03:28:13.000+02:00",
+      "title": "Bind enclosing aggregates across expression subqueries",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/25f4770e9cc5980dd91147416cbd411c7980e520"
+    },
+    {
       "id": "commit:HelgeSverre/splash:74696ee37bed86cba7f6c95b624dc76e01d73959",
       "kind": "commit",
       "repo": "HelgeSverre/splash",
@@ -45,12 +533,36 @@
       "url": "https://github.com/HelgeSverre/splash/commit/74696ee37bed86cba7f6c95b624dc76e01d73959"
     },
     {
+      "id": "commit:HelgeSverre/fsdb:d2fed8022be1b2477cd27b85ff83ad644adc1ddb",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T03:02:41.000+02:00",
+      "title": "Pin aggregate ownership and ordering rejection across query scopes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d2fed8022be1b2477cd27b85ff83ad644adc1ddb"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f88bb501c32a955f767f789b1328fd86501df1a3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T02:59:52.000+02:00",
+      "title": "Prepare correlated ordering alias bindings once per statement",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f88bb501c32a955f767f789b1328fd86501df1a3"
+    },
+    {
       "id": "commit:HelgeSverre/splash:419c2918491abfc6ddf1c0f608f5ea1644f6ad67",
       "kind": "commit",
       "repo": "HelgeSverre/splash",
       "at": "2026-10-08T02:58:12.000+02:00",
       "title": "Keep what the fake agents sent, for failed browser tests",
       "url": "https://github.com/HelgeSverre/splash/commit/419c2918491abfc6ddf1c0f608f5ea1644f6ad67"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:bbb713cc45e4d9cf3a8ce39ed2ac535c29d354a2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T02:52:38.000+02:00",
+      "title": "Resolve correlated ordering aliases through projected value scopes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/bbb713cc45e4d9cf3a8ce39ed2ac535c29d354a2"
     },
     {
       "id": "commit:HelgeSverre/claude-plan-viewer:f1015e13f8a411394b14a5265492f130eab57248",
@@ -69,12 +581,28 @@
       "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/2d13b691aa9246374219cd8c46886a16a8c05286"
     },
     {
+      "id": "commit:HelgeSverre/fsdb:afc7900356ebd11b8c6f3aeadf2c516c3f44b516",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T02:36:48.000+02:00",
+      "title": "Pin correlated ordering alias scope and evaluation contracts",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/afc7900356ebd11b8c6f3aeadf2c516c3f44b516"
+    },
+    {
       "id": "commit:HelgeSverre/claude-plan-viewer:41b3dd6fa4eb9377149cb7ac9fe220e7f259905b",
       "kind": "commit",
       "repo": "HelgeSverre/claude-plan-viewer",
       "at": "2026-10-08T02:35:51.000+02:00",
       "title": "docs: add Memory view screenshot",
       "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/41b3dd6fa4eb9377149cb7ac9fe220e7f259905b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3034703b6b7ebe77574ca16594fb1375acf8add2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T02:35:24.000+02:00",
+      "title": "Resolve duplicate ordering aliases by projection and source identity",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3034703b6b7ebe77574ca16594fb1375acf8add2"
     },
     {
       "id": "commit:HelgeSverre/splash:66732cee98be4b0458a8c97f28c53afadd30c44b",
@@ -117,6 +645,22 @@
       "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/3a5b9b7021f81c0d1fe255f8f641e3cf5b39b9bb"
     },
     {
+      "id": "commit:HelgeSverre/fsdb:2671642313cc32d27ff4959d623b923d7f848df0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T02:09:15.000+02:00",
+      "title": "Pin ordered duplicate alias selection and preparation errors",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2671642313cc32d27ff4959d623b923d7f848df0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:86b2dbba9bb0642f0985c87186e0f5548bc15af4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T02:04:50.000+02:00",
+      "title": "Bind ordering expression aliases and reuse grouped aggregate values",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/86b2dbba9bb0642f0985c87186e0f5548bc15af4"
+    },
+    {
       "id": "commit:HelgeSverre/splash:b801f72a6462978ac179a549e04971051003788f",
       "kind": "commit",
       "repo": "HelgeSverre/splash",
@@ -157,6 +701,14 @@
       "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/222d177468349ed06c16655f074fd0eb0bcf4c28"
     },
     {
+      "id": "commit:HelgeSverre/fsdb:6451673abfdd48cf900eacc5299849817697d39d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T01:45:00.000+02:00",
+      "title": "Pin ORDER BY alias precedence and evaluation contracts",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6451673abfdd48cf900eacc5299849817697d39d"
+    },
+    {
       "id": "commit:HelgeSverre/claude-plan-viewer:40ec0645f6173ec02eac085992b11ddc2f2ea4c8",
       "kind": "commit",
       "repo": "HelgeSverre/claude-plan-viewer",
@@ -171,6 +723,14 @@
       "at": "2026-10-08T01:42:56.000+02:00",
       "title": "docs: announce Splash on the website",
       "url": "https://github.com/HelgeSverre/glue/commit/cbe8f73e1e4d3bb9d28cae9e322c3d5775ed1cce"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:09c2720df326e47d0d315b302880bcd9bb34e747",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T01:39:18.000+02:00",
+      "title": "Preserve literal view coercibility through ordering and grouping",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/09c2720df326e47d0d315b302880bcd9bb34e747"
     },
     {
       "id": "commit:HelgeSverre/claude-plan-viewer:de2128c3d47c240d1f8c20e7e841f9420be7c52d",
@@ -229,6 +789,22 @@
       "url": "https://github.com/HelgeSverre/glue/commit/445eadb9549992620aae79ce21443e3d0ad4d78b"
     },
     {
+      "id": "commit:HelgeSverre/fsdb:b8c56a7f64f12d2e19c1c0203cbf09a010cdd510",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T01:23:28.000+02:00",
+      "title": "Preserve view creation charsets in export metadata",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b8c56a7f64f12d2e19c1c0203cbf09a010cdd510"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c2c88b8d346fd2925513e2b66fc87007195e0ab3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T01:22:57.000+02:00",
+      "title": "Isolate primary-key timing probes from concurrent fixtures",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c2c88b8d346fd2925513e2b66fc87007195e0ab3"
+    },
+    {
       "id": "commit:HelgeSverre/splash:1f429c1393efe809f8b37dbb98dc90e83b444f12",
       "kind": "commit",
       "repo": "HelgeSverre/splash",
@@ -251,6 +827,14 @@
       "at": "2026-10-08T01:13:27.000+02:00",
       "title": "Update the website's dependencies",
       "url": "https://github.com/HelgeSverre/splash/commit/4df6065526d89ea12115f6fd8acb5edc26040c51"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:70e0be671e71f61b5d53e5f821b8be67710c2f1a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T01:11:46.000+02:00",
+      "title": "Capture ordinary literal collations across preparation and view recovery",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/70e0be671e71f61b5d53e5f821b8be67710c2f1a"
     },
     {
       "id": "commit:HelgeSverre/splash:fbb392a78e2058cf05acf5fd26341c22c5b5d67f",
