@@ -1,9 +1,113 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-09T12:29:16.167Z",
-  "since": "2026-09-25T12:29:16.167Z",
+  "fetchedAt": "2026-10-09T18:24:29.612Z",
+  "since": "2026-09-25T18:24:29.612Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:sema-lisp/sema-coder:2f1516ffd865b0d8ed8845c65cb74a3cfc14463e",
+      "kind": "commit",
+      "repo": "sema-lisp/sema-coder",
+      "at": "2026-10-09T15:56:52.000+02:00",
+      "title": "ci: validate sema-coder against Sema 1.37 stable",
+      "url": "https://github.com/sema-lisp/sema-coder/commit/2f1516ffd865b0d8ed8845c65cb74a3cfc14463e"
+    },
+    {
+      "id": "commit:sema-lisp/sema:44fc6c10c0c9ac00e5327f04f18e370e1f2aac26",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-09T15:42:04.000+02:00",
+      "title": "test: retain playground breakpoints on executable literals",
+      "url": "https://github.com/sema-lisp/sema/commit/44fc6c10c0c9ac00e5327f04f18e370e1f2aac26"
+    },
+    {
+      "id": "commit:sema-lisp/sema:de78bbbf26f8874cf20738880058029589a486a3",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-09T15:30:26.000+02:00",
+      "title": "docs: refresh social preview badges for 1.37.0",
+      "url": "https://github.com/sema-lisp/sema/commit/de78bbbf26f8874cf20738880058029589a486a3"
+    },
+    {
+      "id": "commit:HelgeSverre/strek:24a7ba1ea827a22adf4bf3ef08a55dba501b0f8b",
+      "kind": "commit",
+      "repo": "HelgeSverre/strek",
+      "at": "2026-10-09T15:19:49.000+02:00",
+      "title": "release: bump to v0.2.4",
+      "url": "https://github.com/HelgeSverre/strek/commit/24a7ba1ea827a22adf4bf3ef08a55dba501b0f8b"
+    },
+    {
+      "id": "commit:HelgeSverre/strek:db27c7abedee310555575191bba643b7c43f0926",
+      "kind": "commit",
+      "repo": "HelgeSverre/strek",
+      "at": "2026-10-09T15:18:08.000+02:00",
+      "title": "fix: guard double-click maximize and correct the resize-strip comment (#8)",
+      "url": "https://github.com/HelgeSverre/strek/commit/db27c7abedee310555575191bba643b7c43f0926"
+    },
+    {
+      "id": "commit:HelgeSverre/strek:00301ed3f1efd0664d1fbe12a5c21fb3755e2c65",
+      "kind": "commit",
+      "repo": "HelgeSverre/strek",
+      "at": "2026-10-09T15:18:04.000+02:00",
+      "title": "feat: choose among the layers under the pointer with Cmd/Ctrl+right-click (#7)",
+      "url": "https://github.com/HelgeSverre/strek/commit/00301ed3f1efd0664d1fbe12a5c21fb3755e2c65"
+    },
+    {
+      "id": "commit:sema-lisp/sema:6805312911310ad65e8378dff33dab7c0b402500",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-09T15:13:22.000+02:00",
+      "title": "release: 1.37.0",
+      "url": "https://github.com/sema-lisp/sema/commit/6805312911310ad65e8378dff33dab7c0b402500"
+    },
+    {
+      "id": "pr:sema-lisp/sema-coder:5",
+      "kind": "merge",
+      "repo": "sema-lisp/sema-coder",
+      "at": "2026-10-09T14:01:00Z",
+      "title": "ci: validate sema-coder against Sema 1.37 stable",
+      "url": "https://github.com/sema-lisp/sema-coder/pull/5"
+    },
+    {
+      "id": "pr:sema-lisp/sema:168",
+      "kind": "merge",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-09T13:51:22Z",
+      "title": "test: retain playground breakpoints on executable literals",
+      "url": "https://github.com/sema-lisp/sema/pull/168"
+    },
+    {
+      "id": "pr:sema-lisp/sema:167",
+      "kind": "merge",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-09T13:31:57Z",
+      "title": "docs: refresh social preview badges for 1.37.0",
+      "url": "https://github.com/sema-lisp/sema/pull/167"
+    },
+    {
+      "id": "pr:sema-lisp/sema:166",
+      "kind": "merge",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-09T13:23:51Z",
+      "title": "release: 1.37.0",
+      "url": "https://github.com/sema-lisp/sema/pull/166"
+    },
+    {
+      "id": "pr:HelgeSverre/strek:8",
+      "kind": "merge",
+      "repo": "HelgeSverre/strek",
+      "at": "2026-10-09T13:18:08Z",
+      "title": "Window chrome: guard double-click maximize, correct resize-strip comment",
+      "url": "https://github.com/HelgeSverre/strek/pull/8"
+    },
+    {
+      "id": "pr:HelgeSverre/strek:7",
+      "kind": "merge",
+      "repo": "HelgeSverre/strek",
+      "at": "2026-10-09T13:18:04Z",
+      "title": "Choose among the layers under the pointer with Cmd/Ctrl+right-click",
+      "url": "https://github.com/HelgeSverre/strek/pull/7"
+    },
     {
       "id": "commit:sema-lisp/sema:7a81335fc6ed4a58fc917ac22623d4e3c7ecae90",
       "kind": "commit",
@@ -4741,6 +4845,14 @@
       "url": "https://github.com/HelgeSverre/brain/commit/cb985ea1cc4cd2ed81593db736a0d9222685993b"
     },
     {
+      "id": "release:sema-lisp/sema:407969625",
+      "kind": "release",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-09T13:58:37Z",
+      "title": "v1.37.0",
+      "url": "https://github.com/sema-lisp/sema/releases/tag/v1.37.0"
+    },
+    {
       "id": "release:sema-lisp/sema:407842488",
       "kind": "release",
       "repo": "sema-lisp/sema",
@@ -4763,6 +4875,14 @@
       "at": "2026-10-05T10:07:51Z",
       "title": "v1.36.1",
       "url": "https://github.com/sema-lisp/sema/releases/tag/v1.36.1"
+    },
+    {
+      "id": "release:HelgeSverre/strek:407951626",
+      "kind": "release",
+      "repo": "HelgeSverre/strek",
+      "at": "2026-10-09T13:38:29Z",
+      "title": "v0.2.4",
+      "url": "https://github.com/HelgeSverre/strek/releases/tag/v0.2.4"
     },
     {
       "id": "release:sema-lisp/sublime-sema:407778632",
