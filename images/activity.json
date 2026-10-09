@@ -1,9 +1,553 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-09T06:34:53.729Z",
-  "since": "2026-09-25T06:34:53.729Z",
+  "fetchedAt": "2026-10-09T12:29:16.167Z",
+  "since": "2026-09-25T12:29:16.167Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:sema-lisp/sema:7a81335fc6ed4a58fc917ac22623d4e3c7ecae90",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-09T12:12:04.000+02:00",
+      "title": "test: prove shell overlap with a subprocess barrier",
+      "url": "https://github.com/sema-lisp/sema/commit/7a81335fc6ed4a58fc917ac22623d4e3c7ecae90"
+    },
+    {
+      "id": "commit:sema-lisp/sema-coder:35b412ecd740aaf9455a96f16eea799e7a549e2a",
+      "kind": "commit",
+      "repo": "sema-lisp/sema-coder",
+      "at": "2026-10-09T12:02:09.000+02:00",
+      "title": "ci: validate sema-coder against Sema 1.37 RC2",
+      "url": "https://github.com/sema-lisp/sema-coder/commit/35b412ecd740aaf9455a96f16eea799e7a549e2a"
+    },
+    {
+      "id": "commit:sema-lisp/sema:623124e36bdfa94aea8e2f9b11ce7c86ed2125e1",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-09T11:56:12.000+02:00",
+      "title": "release: 1.37.0-rc.2",
+      "url": "https://github.com/sema-lisp/sema/commit/623124e36bdfa94aea8e2f9b11ce7c86ed2125e1"
+    },
+    {
+      "id": "commit:sema-lisp/sublime-sema:a07fd5283f7f8d673e98c8fd8691dc03f872057c",
+      "kind": "commit",
+      "repo": "sema-lisp/sublime-sema",
+      "at": "2026-10-09T11:38:29.000+02:00",
+      "title": "fix: align editor syntax with the Sema 1.37 reader",
+      "url": "https://github.com/sema-lisp/sublime-sema/commit/a07fd5283f7f8d673e98c8fd8691dc03f872057c"
+    },
+    {
+      "id": "commit:sema-lisp/intellij-sema:4e057f69a2e0ab443c9375b681c1cf6876683920",
+      "kind": "commit",
+      "repo": "sema-lisp/intellij-sema",
+      "at": "2026-10-09T11:38:24.000+02:00",
+      "title": "fix: align editor syntax with the Sema 1.37 reader",
+      "url": "https://github.com/sema-lisp/intellij-sema/commit/4e057f69a2e0ab443c9375b681c1cf6876683920"
+    },
+    {
+      "id": "commit:sema-lisp/emacs-sema:65799351292d46567c003af4b43113357236ea47",
+      "kind": "commit",
+      "repo": "sema-lisp/emacs-sema",
+      "at": "2026-10-09T11:38:19.000+02:00",
+      "title": "fix: align editor syntax with the Sema 1.37 reader",
+      "url": "https://github.com/sema-lisp/emacs-sema/commit/65799351292d46567c003af4b43113357236ea47"
+    },
+    {
+      "id": "commit:sema-lisp/sema.vim:a0647c9e995efe0bb043e4238e24673a73bb5c71",
+      "kind": "commit",
+      "repo": "sema-lisp/sema.vim",
+      "at": "2026-10-09T11:38:14.000+02:00",
+      "title": "fix: align editor syntax with the Sema 1.37 reader",
+      "url": "https://github.com/sema-lisp/sema.vim/commit/a0647c9e995efe0bb043e4238e24673a73bb5c71"
+    },
+    {
+      "id": "commit:sema-lisp/sema.nvim:366238ade9bc4855c280f31adbea820d3af8ebe3",
+      "kind": "commit",
+      "repo": "sema-lisp/sema.nvim",
+      "at": "2026-10-09T11:38:09.000+02:00",
+      "title": "fix: align editor syntax with the Sema 1.37 reader",
+      "url": "https://github.com/sema-lisp/sema.nvim/commit/366238ade9bc4855c280f31adbea820d3af8ebe3"
+    },
+    {
+      "id": "commit:sema-lisp/sema:e2e69f927d19918250243746d7aa46ab2039efd8",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-09T11:38:08.000+02:00",
+      "title": "fix: update ChaCha RNG dependency and align embedded runtime",
+      "url": "https://github.com/sema-lisp/sema/commit/e2e69f927d19918250243746d7aa46ab2039efd8"
+    },
+    {
+      "id": "commit:sema-lisp/helix-sema:4194026dc7d3e8ae7b464065a27bb43aeb024e3e",
+      "kind": "commit",
+      "repo": "sema-lisp/helix-sema",
+      "at": "2026-10-09T11:38:04.000+02:00",
+      "title": "fix: align editor syntax with the Sema 1.37 reader",
+      "url": "https://github.com/sema-lisp/helix-sema/commit/4194026dc7d3e8ae7b464065a27bb43aeb024e3e"
+    },
+    {
+      "id": "commit:sema-lisp/zed-sema:8b98eeff1bda0925840bfa19a85458445b3e39b5",
+      "kind": "commit",
+      "repo": "sema-lisp/zed-sema",
+      "at": "2026-10-09T11:37:59.000+02:00",
+      "title": "fix: align editor syntax with the Sema 1.37 reader",
+      "url": "https://github.com/sema-lisp/zed-sema/commit/8b98eeff1bda0925840bfa19a85458445b3e39b5"
+    },
+    {
+      "id": "commit:sema-lisp/vscode-sema:bc79f8d76df24bcd1b3e12c61ff7099657d63019",
+      "kind": "commit",
+      "repo": "sema-lisp/vscode-sema",
+      "at": "2026-10-09T11:33:33.000+02:00",
+      "title": "fix: align reader literals, macro scopes, and dependencies",
+      "url": "https://github.com/sema-lisp/vscode-sema/commit/bc79f8d76df24bcd1b3e12c61ff7099657d63019"
+    },
+    {
+      "id": "commit:sema-lisp/sema-coder:e94d7a2cbf6ae2b1562644f9a3f383f55eb32eb9",
+      "kind": "commit",
+      "repo": "sema-lisp/sema-coder",
+      "at": "2026-10-09T11:33:31.000+02:00",
+      "title": "fix: use Sema 1.37 tool defaults and turn usage",
+      "url": "https://github.com/sema-lisp/sema-coder/commit/e94d7a2cbf6ae2b1562644f9a3f383f55eb32eb9"
+    },
+    {
+      "id": "commit:sema-lisp/tree-sitter-sema:4c56443c99f7322d0a592229461234d93bf192d6",
+      "kind": "commit",
+      "repo": "sema-lisp/tree-sitter-sema",
+      "at": "2026-10-09T11:28:27.000+02:00",
+      "title": "fix: align comments, booleans, and operators with the reader",
+      "url": "https://github.com/sema-lisp/tree-sitter-sema/commit/4c56443c99f7322d0a592229461234d93bf192d6"
+    },
+    {
+      "id": "pr:sema-lisp/sema-coder:4",
+      "kind": "merge",
+      "repo": "sema-lisp/sema-coder",
+      "at": "2026-10-09T11:25:14Z",
+      "title": "Validate sema-coder against Sema 1.37 RC2",
+      "url": "https://github.com/sema-lisp/sema-coder/pull/4"
+    },
+    {
+      "id": "commit:HelgeSverre/strek:de23edcb493ba30bc5282cda7cbf9e6795424745",
+      "kind": "commit",
+      "repo": "HelgeSverre/strek",
+      "at": "2026-10-09T11:17:01.000+02:00",
+      "title": "feat: font picker, consistent font resolution, and bundled Inter UI font (#6)",
+      "url": "https://github.com/HelgeSverre/strek/commit/de23edcb493ba30bc5282cda7cbf9e6795424745"
+    },
+    {
+      "id": "commit:sema-lisp/sema:c416326bc3f2fc2098a32bb551c12e022f4a6f9d",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-09T11:12:23.000+02:00",
+      "title": "test: wait for complete MCP cancellation outcomes",
+      "url": "https://github.com/sema-lisp/sema/commit/c416326bc3f2fc2098a32bb551c12e022f4a6f9d"
+    },
+    {
+      "id": "commit:HelgeSverre/strek:c7e5530d09c15547d165dfb2fc2d13690af25d88",
+      "kind": "commit",
+      "repo": "HelgeSverre/strek",
+      "at": "2026-10-09T10:53:21.000+02:00",
+      "title": "fix: render themed, wrapping prompt dialogs on Linux (#5)",
+      "url": "https://github.com/HelgeSverre/strek/commit/c7e5530d09c15547d165dfb2fc2d13690af25d88"
+    },
+    {
+      "id": "pr:sema-lisp/sema:165",
+      "kind": "merge",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-09T10:20:30Z",
+      "title": "release: 1.37.0-rc.2",
+      "url": "https://github.com/sema-lisp/sema/pull/165"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6a62757e90e8b506a346158709173a17dd291373",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T10:01:02.000+02:00",
+      "title": "Persist generated index provenance and match foreign-key index replacement",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6a62757e90e8b506a346158709173a17dd291373"
+    },
+    {
+      "id": "pr:sema-lisp/sema:164",
+      "kind": "merge",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-09T09:53:28Z",
+      "title": "Fix 1.37 RNG dependency and MCP cancellation validation",
+      "url": "https://github.com/sema-lisp/sema/pull/164"
+    },
+    {
+      "id": "pr:sema-lisp/sema-coder:3",
+      "kind": "merge",
+      "repo": "sema-lisp/sema-coder",
+      "at": "2026-10-09T09:53:23Z",
+      "title": "Use Sema 1.37 defaults and turn accounting",
+      "url": "https://github.com/sema-lisp/sema-coder/pull/3"
+    },
+    {
+      "id": "pr:sema-lisp/emacs-sema:3",
+      "kind": "merge",
+      "repo": "sema-lisp/emacs-sema",
+      "at": "2026-10-09T09:53:19Z",
+      "title": "Align editor syntax with Sema 1.37",
+      "url": "https://github.com/sema-lisp/emacs-sema/pull/3"
+    },
+    {
+      "id": "pr:sema-lisp/sema.vim:3",
+      "kind": "merge",
+      "repo": "sema-lisp/sema.vim",
+      "at": "2026-10-09T09:53:14Z",
+      "title": "Align editor syntax with Sema 1.37",
+      "url": "https://github.com/sema-lisp/sema.vim/pull/3"
+    },
+    {
+      "id": "pr:sema-lisp/sema.nvim:2",
+      "kind": "merge",
+      "repo": "sema-lisp/sema.nvim",
+      "at": "2026-10-09T09:53:10Z",
+      "title": "Align editor syntax with Sema 1.37",
+      "url": "https://github.com/sema-lisp/sema.nvim/pull/2"
+    },
+    {
+      "id": "pr:sema-lisp/helix-sema:4",
+      "kind": "merge",
+      "repo": "sema-lisp/helix-sema",
+      "at": "2026-10-09T09:53:06Z",
+      "title": "Align editor syntax with Sema 1.37",
+      "url": "https://github.com/sema-lisp/helix-sema/pull/4"
+    },
+    {
+      "id": "pr:sema-lisp/zed-sema:3",
+      "kind": "merge",
+      "repo": "sema-lisp/zed-sema",
+      "at": "2026-10-09T09:53:02Z",
+      "title": "Align editor syntax with Sema 1.37",
+      "url": "https://github.com/sema-lisp/zed-sema/pull/3"
+    },
+    {
+      "id": "pr:sema-lisp/intellij-sema:3",
+      "kind": "merge",
+      "repo": "sema-lisp/intellij-sema",
+      "at": "2026-10-09T09:52:58Z",
+      "title": "Align editor syntax with Sema 1.37",
+      "url": "https://github.com/sema-lisp/intellij-sema/pull/3"
+    },
+    {
+      "id": "pr:sema-lisp/sublime-sema:4",
+      "kind": "merge",
+      "repo": "sema-lisp/sublime-sema",
+      "at": "2026-10-09T09:52:54Z",
+      "title": "Align editor syntax with Sema 1.37",
+      "url": "https://github.com/sema-lisp/sublime-sema/pull/4"
+    },
+    {
+      "id": "pr:sema-lisp/vscode-sema:3",
+      "kind": "merge",
+      "repo": "sema-lisp/vscode-sema",
+      "at": "2026-10-09T09:52:50Z",
+      "title": "Fix reader syntax and update dependencies for 0.4.1",
+      "url": "https://github.com/sema-lisp/vscode-sema/pull/3"
+    },
+    {
+      "id": "pr:sema-lisp/tree-sitter-sema:3",
+      "kind": "merge",
+      "repo": "sema-lisp/tree-sitter-sema",
+      "at": "2026-10-09T09:52:46Z",
+      "title": "Align grammar with the Sema 1.37 reader",
+      "url": "https://github.com/sema-lisp/tree-sitter-sema/pull/3"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f5f2c2e7803c5ca0f849f238416f8f524d46df67",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T09:36:50.000+02:00",
+      "title": "Protect required foreign-key indexes across ALTER actions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f5f2c2e7803c5ca0f849f238416f8f524d46df67"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:870d66a8780cd9ba5862ad6ac76423180d03e3c7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T09:18:46.000+02:00",
+      "title": "Generate foreign-key backing indexes and validate reserved names",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/870d66a8780cd9ba5862ad6ac76423180d03e3c7"
+    },
+    {
+      "id": "pr:HelgeSverre/strek:6",
+      "kind": "merge",
+      "repo": "HelgeSverre/strek",
+      "at": "2026-10-09T09:17:02Z",
+      "title": "Font picker, consistent font rendering, and bundled Inter UI font",
+      "url": "https://github.com/HelgeSverre/strek/pull/6"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2190df5766ddb3a70a8b58162bc38c680d070365",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T09:04:53.000+02:00",
+      "title": "Audit foreign-key collision scope and diagnostic precedence",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2190df5766ddb3a70a8b58162bc38c680d070365"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:43d23f006439dd6620235e2a38ca9bd584628710",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T09:01:12.000+02:00",
+      "title": "Keep stored-function UPDATE writes within the invoking statement snapshot",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/43d23f006439dd6620235e2a38ca9bd584628710"
+    },
+    {
+      "id": "pr:HelgeSverre/strek:5",
+      "kind": "merge",
+      "repo": "HelgeSverre/strek",
+      "at": "2026-10-09T08:53:21Z",
+      "title": "Render themed, wrapping prompt dialogs on Linux",
+      "url": "https://github.com/HelgeSverre/strek/pull/5"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0f32ec35d68d6bb352061b7ac77df4e6e81a488a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T08:50:46.000+02:00",
+      "title": "Share identifier quoting and replacement-row validation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0f32ec35d68d6bb352061b7ac77df4e6e81a488a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f59af26e537243bceeee93d408b547bba4222c4b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T02:21:54.000+02:00",
+      "title": "Batch eligible UPDATE IGNORE writes while preserving row rejection",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f59af26e537243bceeee93d408b547bba4222c4b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4ebf5f82e622fbf047e334db42f9ac993a21917c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T02:03:41.000+02:00",
+      "title": "Measure UPDATE IGNORE overhead against the pre-fix baseline",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4ebf5f82e622fbf047e334db42f9ac993a21917c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0504f67204e7b63e004a45b70c4e80b7051df6ad",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T01:58:44.000+02:00",
+      "title": "Resolve ALTER foreign-key names from the original table definition",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0504f67204e7b63e004a45b70c4e80b7051df6ad"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:23dfd3fa4e450bd0fc29f61160273b0b1176975c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T01:52:06.000+02:00",
+      "title": "Generate CREATE foreign-key names from the owning table",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/23dfd3fa4e450bd0fc29f61160273b0b1176975c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:aa0fe16426810c6a3471b298fde0a5e3e7ad205c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T01:42:45.000+02:00",
+      "title": "Record native foreign-key naming and collision rules",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/aa0fe16426810c6a3471b298fde0a5e3e7ad205c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:83d96a0a2c5e79b44677cdbf41f45dfc363a658a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T01:39:49.000+02:00",
+      "title": "Skip rejected UPDATE IGNORE rows with native trigger ordering",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/83d96a0a2c5e79b44677cdbf41f45dfc363a658a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:53e1d2e6326a81e672ff61827615abd56131e13e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T01:32:15.000+02:00",
+      "title": "Validate foreign-key candidates and retain complete constraint diagnostics",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/53e1d2e6326a81e672ff61827615abd56131e13e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:85bf01cd61af527aeadb8f8335ad5116a3591eb5",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T01:08:40.000+02:00",
+      "title": "Preserve quoted table identity and native wire metadata",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/85bf01cd61af527aeadb8f8335ad5116a3591eb5"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b88484cf305a1c2142756884dc093a62527c2701",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T00:44:22.000+02:00",
+      "title": "Share CASE branch traversal and simplify ALTER column tracking",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b88484cf305a1c2142756884dc093a62527c2701"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:62ff3f52a39cc51ca3914fbf7c7442ebdedf0195",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T00:44:17.000+02:00",
+      "title": "Report expression-assignment deprecations at parse time",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/62ff3f52a39cc51ca3914fbf7c7442ebdedf0195"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:79521d35d52c4a6996c85839f97c9389212fdeb7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T00:31:06.000+02:00",
+      "title": "Preserve expression-sensitive integer conversion in HEX",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/79521d35d52c4a6996c85839f97c9389212fdeb7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:abb4d0b47ffe6f956bfe707e5b7ae20f7a8ae248",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T00:16:31.000+02:00",
+      "title": "Plan ALTER definitions before converting complete rows",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/abb4d0b47ffe6f956bfe707e5b7ae20f7a8ae248"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:07ce6cf297ee2722ec48bbfef0f62430d9a02077",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T00:03:27.000+02:00",
+      "title": "Separate ALTER row conversion helpers and pin multi-column ordering",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/07ce6cf297ee2722ec48bbfef0f62430d9a02077"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:10ef4e64ef1b6445d8f30843109fee16b49daa83",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T23:58:07.000+02:00",
+      "title": "Preserve exact decimal rounding and overflow warnings in HEX",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/10ef4e64ef1b6445d8f30843109fee16b49daa83"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ff9f2f14d62c68c3b994c97c574ba56613908670",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T23:52:37.000+02:00",
+      "title": "Share default validation and match ALTER binlog safety conditions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ff9f2f14d62c68c3b994c97c574ba56613908670"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6b838d4b74f19463b6c93d224ea2ffb4c5073f44",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T23:32:28.000+02:00",
+      "title": "Plan ALTER algorithms and report copied live-row counts",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6b838d4b74f19463b6c93d224ea2ffb4c5073f44"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7aea1124b4311258b0c02b0c5676aaf1d9c5ac0a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T23:16:14.000+02:00",
+      "title": "Preserve ALTER coercion conditions and SHOW key metadata",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7aea1124b4311258b0c02b0c5676aaf1d9c5ac0a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0e412e452a55998d99b3926a2fc5565b47a2be3b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T23:00:16.000+02:00",
+      "title": "Share ALTER row rebuilding and remove redundant range checks",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0e412e452a55998d99b3926a2fc5565b47a2be3b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:00b83615b6ad5901a1990887d5a159f39c4957ea",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T22:50:12.000+02:00",
+      "title": "Preserve missing-table identity and reject unresolved definitions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/00b83615b6ad5901a1990887d5a159f39c4957ea"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:56b55ac1eeab125c66fb5b403f54e9dbff4f3336",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T22:30:48.000+02:00",
+      "title": "Qualify duplicate-key diagnostics with the base table",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/56b55ac1eeab125c66fb5b403f54e9dbff4f3336"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:651e38ab2fb5f18e7e0e54e8deafaf81982f9941",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T22:22:25.000+02:00",
+      "title": "Share expression validation and preserve integer-cast diagnostics",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/651e38ab2fb5f18e7e0e54e8deafaf81982f9941"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:49d8df53fd3904e9458df091588d79d6024827b0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T21:55:03.000+02:00",
+      "title": "Keep trigger warnings local and preserve failing statement conditions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/49d8df53fd3904e9458df091588d79d6024827b0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e15d5eec9efa42d73904a6958dc91a76dcbe118a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T21:34:29.000+02:00",
+      "title": "Skip restricted DELETE IGNORE rows while preserving trigger semantics",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e15d5eec9efa42d73904a6958dc91a76dcbe118a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:960d6fb3f3f7a45076a00921abdf4214535e0aaa",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T21:20:21.000+02:00",
+      "title": "Clarify join-hint planning and reuse elimination analysis",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/960d6fb3f3f7a45076a00921abdf4214535e0aaa"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4f8fb69d2f83199075ff1e73f2e666f1c4580ea2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T21:12:35.000+02:00",
+      "title": "Share simple stored-program parsing for bare trigger conditions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4f8fb69d2f83199075ff1e73f2e666f1c4580ea2"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b3713d55f519d52c41f96fb4f9bddb6dcee71c9a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T21:01:25.000+02:00",
+      "title": "Pin DELETE IGNORE referential and trigger error boundaries",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b3713d55f519d52c41f96fb4f9bddb6dcee71c9a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1538b449e28caf56cdb4d85e431d4bc4d8ef14a0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T20:58:58.000+02:00",
+      "title": "Avoid speculative mutation warnings and retain DELETE IGNORE policy",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1538b449e28caf56cdb4d85e431d4bc4d8ef14a0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:057b1b55f54340023fdca079454a7e91cf1634b6",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T20:53:01.000+02:00",
+      "title": "Match Boolean conversion diagnostics and retained parameter coercion",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/057b1b55f54340023fdca079454a7e91cf1634b6"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:758250b666249f869717bc678a18f6b23c6139e2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T20:32:59.000+02:00",
+      "title": "Pin Boolean conversion diagnostics against native MySQL",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/758250b666249f869717bc678a18f6b23c6139e2"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:24dba8e949f104fc6f8dd1dded9cb2f56bc0be84",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-08T20:30:30.000+02:00",
+      "title": "Preserve join-hint ownership across source merging and bound elimination",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/24dba8e949f104fc6f8dd1dded9cb2f56bc0be84"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:008a5628cf1991de693873d941d851b812f5d1cb",
       "kind": "commit",
@@ -4197,12 +4741,76 @@
       "url": "https://github.com/HelgeSverre/brain/commit/cb985ea1cc4cd2ed81593db736a0d9222685993b"
     },
     {
-      "id": "commit:HelgeSverre/splash:4f3c34865fa446ab5cdc3bac3a9c38361612f0bf",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-09-25T09:43:51.000+02:00",
-      "title": "Split hub and state, dedupe, add 11 agents, syntax highlighting",
-      "url": "https://github.com/HelgeSverre/splash/commit/4f3c34865fa446ab5cdc3bac3a9c38361612f0bf"
+      "id": "release:sema-lisp/sema:407842488",
+      "kind": "release",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-09T11:20:39Z",
+      "title": "v1.37.0-rc.2",
+      "url": "https://github.com/sema-lisp/sema/releases/tag/v1.37.0-rc.2"
+    },
+    {
+      "id": "release:sema-lisp/sema:403683468",
+      "kind": "release",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T12:21:49Z",
+      "title": "v1.37.0-rc.1",
+      "url": "https://github.com/sema-lisp/sema/releases/tag/v1.37.0-rc.1"
+    },
+    {
+      "id": "release:sema-lisp/sema:403583613",
+      "kind": "release",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-05T10:07:51Z",
+      "title": "v1.36.1",
+      "url": "https://github.com/sema-lisp/sema/releases/tag/v1.36.1"
+    },
+    {
+      "id": "release:sema-lisp/sublime-sema:407778632",
+      "kind": "release",
+      "repo": "sema-lisp/sublime-sema",
+      "at": "2026-10-09T09:53:57Z",
+      "title": "0.5.1",
+      "url": "https://github.com/sema-lisp/sublime-sema/releases/tag/0.5.1"
+    },
+    {
+      "id": "release:sema-lisp/sublime-sema:403597148",
+      "kind": "release",
+      "repo": "sema-lisp/sublime-sema",
+      "at": "2026-10-05T10:26:17Z",
+      "title": "0.5.0",
+      "url": "https://github.com/sema-lisp/sublime-sema/releases/tag/0.5.0"
+    },
+    {
+      "id": "release:sema-lisp/vscode-sema:407779044",
+      "kind": "release",
+      "repo": "sema-lisp/vscode-sema",
+      "at": "2026-10-09T09:54:33Z",
+      "title": "v0.4.1",
+      "url": "https://github.com/sema-lisp/vscode-sema/releases/tag/v0.4.1"
+    },
+    {
+      "id": "release:sema-lisp/vscode-sema:403588857",
+      "kind": "release",
+      "repo": "sema-lisp/vscode-sema",
+      "at": "2026-10-05T10:14:44Z",
+      "title": "v0.4.0",
+      "url": "https://github.com/sema-lisp/vscode-sema/releases/tag/v0.4.0"
+    },
+    {
+      "id": "release:sema-lisp/tree-sitter-sema:407779417",
+      "kind": "release",
+      "repo": "sema-lisp/tree-sitter-sema",
+      "at": "2026-10-09T09:55:06Z",
+      "title": "v0.3.1",
+      "url": "https://github.com/sema-lisp/tree-sitter-sema/releases/tag/v0.3.1"
+    },
+    {
+      "id": "release:sema-lisp/tree-sitter-sema:403588687",
+      "kind": "release",
+      "repo": "sema-lisp/tree-sitter-sema",
+      "at": "2026-10-05T10:14:31Z",
+      "title": "v0.3.0",
+      "url": "https://github.com/sema-lisp/tree-sitter-sema/releases/tag/v0.3.0"
     },
     {
       "id": "release:HelgeSverre/splash:406118084",
@@ -4323,46 +4931,6 @@
       "at": "2026-10-05T12:55:26Z",
       "title": "v2.0.0",
       "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.0"
-    },
-    {
-      "id": "release:sema-lisp/sublime-sema:403597148",
-      "kind": "release",
-      "repo": "sema-lisp/sublime-sema",
-      "at": "2026-10-05T10:26:17Z",
-      "title": "0.5.0",
-      "url": "https://github.com/sema-lisp/sublime-sema/releases/tag/0.5.0"
-    },
-    {
-      "id": "release:sema-lisp/sema:403683468",
-      "kind": "release",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T12:21:49Z",
-      "title": "v1.37.0-rc.1",
-      "url": "https://github.com/sema-lisp/sema/releases/tag/v1.37.0-rc.1"
-    },
-    {
-      "id": "release:sema-lisp/sema:403583613",
-      "kind": "release",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T10:07:51Z",
-      "title": "v1.36.1",
-      "url": "https://github.com/sema-lisp/sema/releases/tag/v1.36.1"
-    },
-    {
-      "id": "release:sema-lisp/tree-sitter-sema:403588687",
-      "kind": "release",
-      "repo": "sema-lisp/tree-sitter-sema",
-      "at": "2026-10-05T10:14:31Z",
-      "title": "v0.3.0",
-      "url": "https://github.com/sema-lisp/tree-sitter-sema/releases/tag/v0.3.0"
-    },
-    {
-      "id": "release:sema-lisp/vscode-sema:403588857",
-      "kind": "release",
-      "repo": "sema-lisp/vscode-sema",
-      "at": "2026-10-05T10:14:44Z",
-      "title": "v0.4.0",
-      "url": "https://github.com/sema-lisp/vscode-sema/releases/tag/v0.4.0"
     },
     {
       "id": "release:HelgeSverre/sourcefour:403524153",
