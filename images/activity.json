@@ -1,9 +1,409 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-10T12:27:38.389Z",
-  "since": "2026-09-26T12:27:38.389Z",
+  "fetchedAt": "2026-10-10T18:23:23.370Z",
+  "since": "2026-09-26T18:23:23.370Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:a0b07fc6e390a7c1530985a7f5e5fc61855f2c7d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T20:11:59.000+02:00",
+      "title": "Validate table index hint names before planning",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a0b07fc6e390a7c1530985a7f5e5fc61855f2c7d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:395eedc3ff4438296e8ad4dc6e6a808061af613c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T19:59:23.000+02:00",
+      "title": "Honor table hints when selecting range keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/395eedc3ff4438296e8ad4dc6e6a808061af613c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a45f7e9ec75e82475a7fb77289cb864d60ca0baf",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T19:54:02.000+02:00",
+      "title": "Choose eligible equality keys for table hints",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a45f7e9ec75e82475a7fb77289cb864d60ca0baf"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:97d4c3bcabf4417af57ba43bea2c560b166cc6ce",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T19:46:26.000+02:00",
+      "title": "Honor table index hints in direct access planning",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/97d4c3bcabf4417af57ba43bea2c560b166cc6ce"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e572601ac47c8bd2f49339677120082fa5afa5f9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T19:38:29.000+02:00",
+      "title": "Preserve table index hints in SQL table references",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e572601ac47c8bd2f49339677120082fa5afa5f9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:65bce10849f52f9595eaf4dc9c1b593f6c71f2f7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T19:32:29.000+02:00",
+      "title": "Profile indexed functional constant bounds",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/65bce10849f52f9595eaf4dc9c1b593f6c71f2f7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b5f9a5b18acdce84a2d61f0cb9c60af3773db527",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T19:19:18.000+02:00",
+      "title": "Fold constants for numeric-result functional keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b5f9a5b18acdce84a2d61f0cb9c60af3773db527"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:15d93af6c7d328a13d821140a620f07c476d6053",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T19:12:52.000+02:00",
+      "title": "Fold constant expressions against exact-integer functional keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/15d93af6c7d328a13d821140a620f07c476d6053"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:99bee07b9a629c305875022f97f5fcc61c4b7ca9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T19:03:56.000+02:00",
+      "title": "Serve CRC32 functional indexes with shared checksum projection",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/99bee07b9a629c305875022f97f5fcc61c4b7ca9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a6c2c13ecd2e2c5b96265b41d060c39bfe1b47f8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T18:55:01.000+02:00",
+      "title": "Index BIT_COUNT expressions across numeric and binary values",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a6c2c13ecd2e2c5b96265b41d060c39bfe1b47f8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:49b65f046cbc2434f1fb84ad39769aecfe0c2f5b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T18:42:27.000+02:00",
+      "title": "Profile point-lookup parser and session costs",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/49b65f046cbc2434f1fb84ad39769aecfe0c2f5b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5a9009ad7f8e7f59092799b0658d24666b7ef21f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T18:24:21.000+02:00",
+      "title": "Record indexed constant-bound latency snapshot",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5a9009ad7f8e7f59092799b0658d24666b7ef21f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2067dd315213882bd73f642002430b812c37e7ea",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T18:20:14.000+02:00",
+      "title": "Benchmark indexed constant expression lookups",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2067dd315213882bd73f642002430b812c37e7ea"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b7723d142d1fd41771eab50fd6b9cd17bbd32ff7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T18:14:43.000+02:00",
+      "title": "Fold PI within numeric index bounds",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b7723d142d1fd41771eab50fd6b9cd17bbd32ff7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a61b12554b1a72d98d6c9ca8317a9c2df770598b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T18:08:45.000+02:00",
+      "title": "Warn on empty BIT_COUNT text coercion",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a61b12554b1a72d98d6c9ca8317a9c2df770598b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:afed17f403a13f342015ac63d97198fea7feef38",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T18:03:50.000+02:00",
+      "title": "Match BIT_COUNT binary argument semantics",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/afed17f403a13f342015ac63d97198fea7feef38"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7850a19a20b5980657fe23b78b15f6186409dc42",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T17:50:44.000+02:00",
+      "title": "Report BIT_COUNT string conversion warnings",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7850a19a20b5980657fe23b78b15f6186409dc42"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8af06bbaddb4a06e62e882fb4710e82341e4b1f4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T17:45:04.000+02:00",
+      "title": "Share indexed constant evaluation across lookup probes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8af06bbaddb4a06e62e882fb4710e82341e4b1f4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f2fd6341870b61e3ee8eab3004fe0a0464c94f1d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T17:41:04.000+02:00",
+      "title": "Fold BIT_COUNT and CRC32 into numeric index bounds",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f2fd6341870b61e3ee8eab3004fe0a0464c94f1d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:85b2dbee573c9418f6e36250d83d30de4777d103",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T17:28:59.000+02:00",
+      "title": "Canonicalize unary ATAN2 and classify functional keys once",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/85b2dbee573c9418f6e36250d83d30de4777d103"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:137b28d4f744b29205212f02ed5163f27331e031",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T17:20:57.000+02:00",
+      "title": "Index cotangent and angle conversion expressions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/137b28d4f744b29205212f02ed5163f27331e031"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7c624c246d80ac985ab89c5515ddfd12031307c9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T17:10:50.000+02:00",
+      "title": "Index inverse trigonometric expressions and projected unique keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7c624c246d80ac985ab89c5515ddfd12031307c9"
+    },
+    {
+      "id": "commit:HelgeSverre/clickmore:976a6adcf7cdedaa588f7d81cc3e909ef303220b",
+      "kind": "commit",
+      "repo": "HelgeSverre/clickmore",
+      "at": "2026-10-10T17:03:24.000+02:00",
+      "title": "Release ClickMore 0.1.2 with Settings and permission setup fixes",
+      "url": "https://github.com/HelgeSverre/clickmore/commit/976a6adcf7cdedaa588f7d81cc3e909ef303220b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:537a2dbfe26b1f7f3527e138d070f70026ae4183",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T16:56:54.000+02:00",
+      "title": "Use functional indexes for trigonometric expressions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/537a2dbfe26b1f7f3527e138d070f70026ae4183"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3c4286ef34a236f5d81d92f9d05cde4479fe7420",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T16:48:36.000+02:00",
+      "title": "Record functional index lookup benchmark",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3c4286ef34a236f5d81d92f9d05cde4479fe7420"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6a04800b87b83b48aa6d9853f98939e510c57f1e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T16:45:16.000+02:00",
+      "title": "Clarify functional result and recovery checks",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6a04800b87b83b48aa6d9853f98939e510c57f1e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d8ae4b278340838e91b26f3a23dc32bac0ec107e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T16:42:42.000+02:00",
+      "title": "Use functional indexes for logarithm expressions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d8ae4b278340838e91b26f3a23dc32bac0ec107e"
+    },
+    {
+      "id": "commit:HelgeSverre/clickmore:a5c1d7187d08fadc80ff463e3925e9066926ae0a",
+      "kind": "commit",
+      "repo": "HelgeSverre/clickmore",
+      "at": "2026-10-10T16:34:59.000+02:00",
+      "title": "Guide Accessibility setup with PermissionFlow and an attention pulse",
+      "url": "https://github.com/HelgeSverre/clickmore/commit/a5c1d7187d08fadc80ff463e3925e9066926ae0a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b25e5c984ff361cedf16e357b601f352e0890055",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T16:29:57.000+02:00",
+      "title": "Report overflowing composed EXP expression",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b25e5c984ff361cedf16e357b601f352e0890055"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c8554b3f392400da971198a7682de54c214047f6",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T16:22:46.000+02:00",
+      "title": "Use physical functional indexes for EXP expressions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c8554b3f392400da971198a7682de54c214047f6"
+    },
+    {
+      "id": "commit:HelgeSverre/clickmore:98a853a8dbc6beb1e80ac4c5f6a0c40c28046184",
+      "kind": "commit",
+      "repo": "HelgeSverre/clickmore",
+      "at": "2026-10-10T16:17:11.000+02:00",
+      "title": "Improve Settings focus, editing commits, and keyboard shortcuts",
+      "url": "https://github.com/HelgeSverre/clickmore/commit/98a853a8dbc6beb1e80ac4c5f6a0c40c28046184"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8c85644427b832dec7bec42a3ad65c302f23b1a7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T16:13:53.000+02:00",
+      "title": "Record UTF-8 oracle condition for regex scripts",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8c85644427b832dec7bec42a3ad65c302f23b1a7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4650c5088e7896993a25eeb4cddee6b14220a3c9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T16:12:05.000+02:00",
+      "title": "Share stored-object binding validation setup",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4650c5088e7896993a25eeb4cddee6b14220a3c9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:13db88788e42d4aafefcf8e081c95cbd59976c11",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T16:08:28.000+02:00",
+      "title": "Keep prepared statements in their preparation database",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/13db88788e42d4aafefcf8e081c95cbd59976c11"
+    },
+    {
+      "id": "commit:HelgeSverre/clickmore:d468c287b00a1f850d270f5abc4e158a9bf82fe9",
+      "kind": "commit",
+      "repo": "HelgeSverre/clickmore",
+      "at": "2026-10-10T16:06:09.000+02:00",
+      "title": "Fix delay input label wrapping in settings",
+      "url": "https://github.com/HelgeSverre/clickmore/commit/d468c287b00a1f850d270f5abc4e158a9bf82fe9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c72cb52c92eaf2c0b3e797be042c70db33700b89",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T16:00:02.000+02:00",
+      "title": "Report invalid stored view dependencies consistently",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c72cb52c92eaf2c0b3e797be042c70db33700b89"
+    },
+    {
+      "id": "commit:HelgeSverre/clickmore:4fdb65329b4b191733ebcd737655a67849f5ccd8",
+      "kind": "commit",
+      "repo": "HelgeSverre/clickmore",
+      "at": "2026-10-10T15:58:57.000+02:00",
+      "title": "Allow typing the delay between clicks in settings",
+      "url": "https://github.com/HelgeSverre/clickmore/commit/4fdb65329b4b191733ebcd737655a67849f5ccd8"
+    },
+    {
+      "id": "commit:HelgeSverre/clickmore:0182a03ed2fa31a68b0bbaf0a621a6c3b91d653f",
+      "kind": "commit",
+      "repo": "HelgeSverre/clickmore",
+      "at": "2026-10-10T15:57:29.000+02:00",
+      "title": "Add ClickMore landing page with interactive demo",
+      "url": "https://github.com/HelgeSverre/clickmore/commit/0182a03ed2fa31a68b0bbaf0a621a6c3b91d653f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c74d162380b8cb9e14839505e494928703279b4e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T15:47:28.000+02:00",
+      "title": "Report missing view functions as invalid view",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c74d162380b8cb9e14839505e494928703279b4e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:95e075d05edcf201e76c1514c3dac52a98d146be",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T15:42:40.000+02:00",
+      "title": "Resolve nested functions in routine definition schema",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/95e075d05edcf201e76c1514c3dac52a98d146be"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:42d5e5d47ba366ef3ab4394cb87aa633b40d75d6",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T15:38:21.000+02:00",
+      "title": "Bind prepared stored functions to preparation schema",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/42d5e5d47ba366ef3ab4394cb87aa633b40d75d6"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c31754efca622c826dec42690fa9d4a5296d807f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T15:27:00.000+02:00",
+      "title": "Scope stored function lookup to selected database",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c31754efca622c826dec42690fa9d4a5296d807f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4512181ee2f7103ca2e85a665210f4ed7058f0b6",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T15:12:28.000+02:00",
+      "title": "Validate function names in view definitions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4512181ee2f7103ca2e85a665210f4ed7058f0b6"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:55aaa645d48c6aa36c40c7c3eed970e2efadb8b1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T14:58:09.000+02:00",
+      "title": "Resolve missing function names across mutation statements",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/55aaa645d48c6aa36c40c7c3eed970e2efadb8b1"
+    },
+    {
+      "id": "commit:HelgeSverre/clickmore:73a4aadb005e4284077237bbc5f38407ba2b6ad7",
+      "kind": "commit",
+      "repo": "HelgeSverre/clickmore",
+      "at": "2026-10-10T14:48:08.000+02:00",
+      "title": "Verify both installers in CI and preserve the triggering release snapshot",
+      "url": "https://github.com/HelgeSverre/clickmore/commit/73a4aadb005e4284077237bbc5f38407ba2b6ad7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:146280b9b1a16ea34d831541d8afc6a69e12e137",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T14:47:45.000+02:00",
+      "title": "Qualify missing function diagnostics against selected database",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/146280b9b1a16ea34d831541d8afc6a69e12e137"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3bcfc415b54e81455e00ed4ebc20ae680391d684",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T14:41:06.000+02:00",
+      "title": "Profile literal and constant-expression point reads",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3bcfc415b54e81455e00ed4ebc20ae680391d684"
+    },
+    {
+      "id": "commit:HelgeSverre/clickmore:1a331870d4d9a1f6a9a04fc4807318775f76c09c",
+      "kind": "commit",
+      "repo": "HelgeSverre/clickmore",
+      "at": "2026-10-10T14:40:01.000+02:00",
+      "title": "Use shared App Store Connect API signing setup for CI releases",
+      "url": "https://github.com/HelgeSverre/clickmore/commit/1a331870d4d9a1f6a9a04fc4807318775f76c09c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:64e8d3abf3f3a71dffbb986e073710cfe3f30a8f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T14:37:36.000+02:00",
+      "title": "Record planner quick benchmark against native MySQL",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/64e8d3abf3f3a71dffbb986e073710cfe3f30a8f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5571652a6f4337881008bc8b2114be42f3963b5d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T14:34:30.000+02:00",
+      "title": "Bind names in eliminated WHERE branches",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5571652a6f4337881008bc8b2114be42f3963b5d"
+    },
     {
       "id": "commit:HelgeSverre/clickmore:00ced3cd3c59fbc4fb21fa41e6d3f48a22cced19",
       "kind": "commit",
@@ -6229,6 +6629,22 @@
       "url": "https://github.com/HelgeSverre/brain/commit/cb985ea1cc4cd2ed81593db736a0d9222685993b"
     },
     {
+      "id": "release:HelgeSverre/clickmore:409019919",
+      "kind": "release",
+      "repo": "HelgeSverre/clickmore",
+      "at": "2026-10-10T15:06:14Z",
+      "title": "v0.1.2",
+      "url": "https://github.com/HelgeSverre/clickmore/releases/tag/v0.1.2"
+    },
+    {
+      "id": "release:HelgeSverre/clickmore:408946147",
+      "kind": "release",
+      "repo": "HelgeSverre/clickmore",
+      "at": "2026-10-10T12:42:35Z",
+      "title": "v0.1.1",
+      "url": "https://github.com/HelgeSverre/clickmore/releases/tag/v0.1.1"
+    },
+    {
       "id": "release:HelgeSverre/clickmore:408866767",
       "kind": "release",
       "repo": "HelgeSverre/clickmore",
@@ -6451,6 +6867,14 @@
       "at": "2026-10-06T07:00:18Z",
       "title": "v0.1.1",
       "url": "https://github.com/HelgeSverre/wire-bridge/releases/tag/v0.1.1"
+    },
+    {
+      "id": "release:HelgeSverre/ollama-gui:409023372",
+      "kind": "release",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-10T15:12:30Z",
+      "title": "v2.0.2",
+      "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.2"
     },
     {
       "id": "release:HelgeSverre/ollama-gui:404385764",
