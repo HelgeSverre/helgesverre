@@ -1,9 +1,417 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-10T06:32:02.536Z",
-  "since": "2026-09-26T06:32:02.536Z",
+  "fetchedAt": "2026-10-10T12:27:38.389Z",
+  "since": "2026-09-26T12:27:38.389Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/clickmore:00ced3cd3c59fbc4fb21fa41e6d3f48a22cced19",
+      "kind": "commit",
+      "repo": "HelgeSverre/clickmore",
+      "at": "2026-10-10T14:22:02.000+02:00",
+      "title": "Automate signed notarized releases and Homebrew publishing in Actions",
+      "url": "https://github.com/HelgeSverre/clickmore/commit/00ced3cd3c59fbc4fb21fa41e6d3f48a22cced19"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:846571189bfc749b531671954c8f0f202e5aabcc",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T14:20:29.000+02:00",
+      "title": "Preserve MySQL division warnings across Boolean branches",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/846571189bfc749b531671954c8f0f202e5aabcc"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3aa0648cbdc1562a216355b759df16fe7d93ad42",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T14:01:10.000+02:00",
+      "title": "Match MySQL division warning counts for constant bounds",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3aa0648cbdc1562a216355b759df16fe7d93ad42"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c52831c44664706c9d682cf65f3beb96964935da",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T13:44:44.000+02:00",
+      "title": "Fold numeric scalar bounds into indexed probes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c52831c44664706c9d682cf65f3beb96964935da"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2119b6e0314f5d80395ee0646611d4cff3f98bd5",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T13:32:03.000+02:00",
+      "title": "Centralize functional key tags and numeric coercion",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2119b6e0314f5d80395ee0646611d4cff3f98bd5"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9257a492d5c4b26e8cfefcf690c800dd6c831c5c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T13:26:58.000+02:00",
+      "title": "Use numeric unary compositions as physical functional keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9257a492d5c4b26e8cfefcf690c800dd6c831c5c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f0663b359e91b6f45456774504df3fa84fe21a4c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T13:17:52.000+02:00",
+      "title": "Add physical SQRT functional index keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f0663b359e91b6f45456774504df3fa84fe21a4c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c560612877f8a8e049c0abccb76173edbf642a0d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T13:08:09.000+02:00",
+      "title": "Add physical ROUND functional index keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c560612877f8a8e049c0abccb76173edbf642a0d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2e85a5f2db36d8b53754102503587927cf832c84",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T12:54:15.000+02:00",
+      "title": "Use null-rejecting WHERE for safe RIGHT JOIN writes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2e85a5f2db36d8b53754102503587927cf832c84"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8b728b4d0c12fe3ae3c89db4394c1a431aee8c66",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T12:42:35.000+02:00",
+      "title": "Record safe-update join performance snapshot",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8b728b4d0c12fe3ae3c89db4394c1a431aee8c66"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:224915e63a790f9d3493209d00ef5fd4bc832376",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T12:38:28.000+02:00",
+      "title": "Allow keyed unfiltered RIGHT JOIN deletes in safe-update mode",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/224915e63a790f9d3493209d00ef5fd4bc832376"
+    },
+    {
+      "id": "commit:HelgeSverre/clickmore:00367f4f7ef201e259d5f47175e00a4f19cdb221",
+      "kind": "commit",
+      "repo": "HelgeSverre/clickmore",
+      "at": "2026-10-10T12:31:41.000+02:00",
+      "title": "Remember release Macs Keychain profile without committing credentials",
+      "url": "https://github.com/HelgeSverre/clickmore/commit/00367f4f7ef201e259d5f47175e00a4f19cdb221"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:071371e739170e9c2a5f3acb8b0ea3961e2936d7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T12:30:46.000+02:00",
+      "title": "Follow indexed outer joins in safe-update checks",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/071371e739170e9c2a5f3acb8b0ea3961e2936d7"
+    },
+    {
+      "id": "commit:HelgeSverre/clickmore:747a77145e69cbdce7d900624a2c1907f65bf822",
+      "kind": "commit",
+      "repo": "HelgeSverre/clickmore",
+      "at": "2026-10-10T12:27:40.000+02:00",
+      "title": "Allow the runtime harness to wait for macOS first-launch confirmation",
+      "url": "https://github.com/HelgeSverre/clickmore/commit/747a77145e69cbdce7d900624a2c1907f65bf822"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:615109fa21bd57fac9fbab2ad61b58767937931a",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-10-10T12:24:53.000+02:00",
+      "title": "Document ClickMore installation and release publishing",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/615109fa21bd57fac9fbab2ad61b58767937931a"
+    },
+    {
+      "id": "commit:HelgeSverre/clickmore:ccd111e2751ea19c1aab4d72bb09560331e62e50",
+      "kind": "commit",
+      "repo": "HelgeSverre/clickmore",
+      "at": "2026-10-10T12:24:12.000+02:00",
+      "title": "Validate every release shell script in CI",
+      "url": "https://github.com/HelgeSverre/clickmore/commit/ccd111e2751ea19c1aab4d72bb09560331e62e50"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:9ecd266940836cf4f2631263a494a8b87a289a09",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-10-10T12:22:50.000+02:00",
+      "title": "Update ClickMore to 0.1.0",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/9ecd266940836cf4f2631263a494a8b87a289a09"
+    },
+    {
+      "id": "commit:HelgeSverre/clickmore:efe0e3a0acf285d60519bf8d620e48850868aa37",
+      "kind": "commit",
+      "repo": "HelgeSverre/clickmore",
+      "at": "2026-10-10T12:22:35.000+02:00",
+      "title": "Make release publishing retryable and pass standalone cask style checks",
+      "url": "https://github.com/HelgeSverre/clickmore/commit/efe0e3a0acf285d60519bf8d620e48850868aa37"
+    },
+    {
+      "id": "commit:HelgeSverre/clickmore:47d90937119fb4921b23dbf2512d855c1183d6fa",
+      "kind": "commit",
+      "repo": "HelgeSverre/clickmore",
+      "at": "2026-10-10T12:19:45.000+02:00",
+      "title": "Improve clustered routing and add illustrated docs and notarized releases",
+      "url": "https://github.com/HelgeSverre/clickmore/commit/47d90937119fb4921b23dbf2512d855c1183d6fa"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:916b516f1a3f98ab1de69af6084f457e1cd101ce",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T12:13:15.000+02:00",
+      "title": "Simplify implicit join key checks",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/916b516f1a3f98ab1de69af6084f457e1cd101ce"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b6375fa2c9422e813ca1ec8ce90e832fbaa703a1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T12:10:50.000+02:00",
+      "title": "Recognize NATURAL JOIN keys in safe-update checks",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b6375fa2c9422e813ca1ec8ce90e832fbaa703a1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:dcdddac69276f909d3996777a4b06888cfdf5ccd",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T12:03:10.000+02:00",
+      "title": "Recognize USING keys in safe-update joins",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/dcdddac69276f909d3996777a4b06888cfdf5ccd"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:47a8dfdb08f495842e8aee261ae96450833daceb",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T11:57:00.000+02:00",
+      "title": "Simplify safe-update validator and fixtures",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/47a8dfdb08f495842e8aee261ae96450833daceb"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4fb7e8a0f776aea3835afde16cf599f903d6afd8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T11:50:06.000+02:00",
+      "title": "Fold impossible safe-update predicates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4fb7e8a0f776aea3835afde16cf599f903d6afd8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:376f4097fb2df2a350f620a00c74886d1b844b91",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T11:44:13.000+02:00",
+      "title": "Respect constant conditions in safe updates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/376f4097fb2df2a350f620a00c74886d1b844b91"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:508aef8b66738dc4f2fc87ff7619c900ef7f9a20",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T11:41:02.000+02:00",
+      "title": "Drop the API key storage claim from the Automaker comparison",
+      "url": "https://github.com/HelgeSverre/splash/commit/508aef8b66738dc4f2fc87ff7619c900ef7f9a20"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:dcfbfbd3e13832aca221db2e64f61d2ef4ad032a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T11:37:42.000+02:00",
+      "title": "Allow ON-only keyed safe-update filters",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/dcfbfbd3e13832aca221db2e64f61d2ef4ad032a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6dabeb733b895d07855333f2108848b03538e4d2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T11:31:49.000+02:00",
+      "title": "Recognize WHERE join keys in safe updates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6dabeb733b895d07855333f2108848b03538e4d2"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:689aa05359fd7afbaffbb37b79b0a1c63787e892",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T11:24:03.000+02:00",
+      "title": "Follow keyed join chains for safe updates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/689aa05359fd7afbaffbb37b79b0a1c63787e892"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ddd07a05d6e3facf57e6da3e4e1360d050795c6f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T11:15:31.000+02:00",
+      "title": "Cover multi-target safe-update key filters",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ddd07a05d6e3facf57e6da3e4e1360d050795c6f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c57d14d7e73c6d2bc0218c18bcadf323ee304403",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T11:09:40.000+02:00",
+      "title": "Cover reverse temporal foreign-key cascades",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c57d14d7e73c6d2bc0218c18bcadf323ee304403"
+    },
+    {
+      "id": "commit:HelgeSverre/clickmore:7820be351315cdfa5c8df801df152c0a21a7dd09",
+      "kind": "commit",
+      "repo": "HelgeSverre/clickmore",
+      "at": "2026-10-10T11:09:21.000+02:00",
+      "title": "Build ClickMore overlay with rebindable drag gestures and spaced connectors",
+      "url": "https://github.com/HelgeSverre/clickmore/commit/7820be351315cdfa5c8df801df152c0a21a7dd09"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:c8c9646e2c1579b967c1013dcbf937e167a96e05",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T11:06:45.000+02:00",
+      "title": "Add 37 comparison pages, a tool directory and faster first paint",
+      "url": "https://github.com/HelgeSverre/splash/commit/c8c9646e2c1579b967c1013dcbf937e167a96e05"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1251cba03887227b0f430aab0f3927928a0401d8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T11:02:48.000+02:00",
+      "title": "Resolve safe-update column errors before row work",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1251cba03887227b0f430aab0f3927928a0401d8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:569ae49a4cdcc557bdc3488edf45995477aa3f06",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T10:55:14.000+02:00",
+      "title": "Resolve bare safe-update join filters",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/569ae49a4cdcc557bdc3488edf45995477aa3f06"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:87e86e132a844180a61d29d5bbf58310a49d268e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T10:39:35.000+02:00",
+      "title": "Honor source-local safe-update join filters",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/87e86e132a844180a61d29d5bbf58310a49d268e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2e4a1bb9752ae5873be59d8be82de889800fb45a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T10:30:37.000+02:00",
+      "title": "Record indexed conjunction benchmark snapshot",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2e4a1bb9752ae5873be59d8be82de889800fb45a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6aaef0207bb205966193acf691ec13d12e6baaa9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T10:26:08.000+02:00",
+      "title": "Pin mixed-type join expression behavior",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6aaef0207bb205966193acf691ec13d12e6baaa9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:25c7651fdf765cff26bc07efd21f09954e0ae01f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T10:24:55.000+02:00",
+      "title": "Strengthen mixed-type join oracle evidence",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/25c7651fdf765cff26bc07efd21f09954e0ae01f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9d3dca0f8535db816cb25d5b008f88095ff0549b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T10:21:09.000+02:00",
+      "title": "Count failed local uploads in slow-query status",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9d3dca0f8535db816cb25d5b008f88095ff0549b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:08f20a9259a3cb27caf729e5ccc36fb7befab966",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T10:16:06.000+02:00",
+      "title": "Report active threads in SHOW STATUS",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/08f20a9259a3cb27caf729e5ccc36fb7befab966"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:8a1a798baa7dcba3c61739d654946a9fead479ce",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T10:13:09.000+02:00",
+      "title": "Declare terminal dependencies for clean website builds",
+      "url": "https://github.com/HelgeSverre/splash/commit/8a1a798baa7dcba3c61739d654946a9fead479ce"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4e9963499adc6fdcfd15962c7068013e4e939520",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T10:02:01.000+02:00",
+      "title": "Include load transfer time in slow-query status",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4e9963499adc6fdcfd15962c7068013e4e939520"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7c539c788fea0477842a2fb6fecebea7d464ed19",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T09:46:34.000+02:00",
+      "title": "Track slow queries with fractional session threshold",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7c539c788fea0477842a2fb6fecebea7d464ed19"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4aefc8e8c721afef180067f286a56b80f25bb202",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T09:33:10.000+02:00",
+      "title": "Cover mixed-precision temporal SET NULL actions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4aefc8e8c721afef180067f286a56b80f25bb202"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:10c9c021255c6763240e9891fb2a76bff4aed2eb",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T09:29:44.000+02:00",
+      "title": "Preserve temporal foreign-key keys across unrelated updates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/10c9c021255c6763240e9891fb2a76bff4aed2eb"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:cf3e619be8cd55876938c20089208afb89cf5cee",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T09:10:07.000+02:00",
+      "title": "Record native point-read and mutation latency snapshot",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/cf3e619be8cd55876938c20089208afb89cf5cee"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:36185ad21156b9f5b3a924d153d142684da22466",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T09:05:53.000+02:00",
+      "title": "Match safe-update checks for keyed joined mutations",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/36185ad21156b9f5b3a924d153d142684da22466"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f4423c812a2c756e01fe336e708480bb55808af4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T08:53:27.000+02:00",
+      "title": "Make contract step identities unique and stabilize event recovery test",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f4423c812a2c756e01fe336e708480bb55808af4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c4c8f5b26468c693ccff97c61e7091926df3dcf5",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T08:47:09.000+02:00",
+      "title": "Honor sql_safe_updates for keyed or limited mutations",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c4c8f5b26468c693ccff97c61e7091926df3dcf5"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:70da85e949f5e9f7b7d4fea5086c0c730af4adec",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T08:47:07.000+02:00",
+      "title": "Fix torture catalog fixtures for table statistics",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/70da85e949f5e9f7b7d4fea5086c0c730af4adec"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:a6a212e7a767b32d50c4c450a14dab961f5fb63c",
       "kind": "commit",
@@ -21,6 +429,14 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/e992b19feea7af0903fdf5c79904b9f3e95036f3"
     },
     {
+      "id": "pr:HelgeSverre/splash:8",
+      "kind": "merge",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T08:15:14Z",
+      "title": "Declare terminal dependencies for clean website builds",
+      "url": "https://github.com/HelgeSverre/splash/pull/8"
+    },
+    {
       "id": "commit:HelgeSverre/fsdb:3d774ffb196a26ac5bc9228d236823706264f5ec",
       "kind": "commit",
       "repo": "HelgeSverre/fsdb",
@@ -35,6 +451,54 @@
       "at": "2026-10-10T08:06:19.000+02:00",
       "title": "Preserve declared text type in scalar subqueries",
       "url": "https://github.com/HelgeSverre/fsdb/commit/e14b6d37fd9f42f180079dab98a400e7b11ecfd6"
+    },
+    {
+      "id": "pr:HelgeSverre/splash:7",
+      "kind": "merge",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T08:02:49Z",
+      "title": "[6/6] Release HTTP capacity when request uploads stall",
+      "url": "https://github.com/HelgeSverre/splash/pull/7"
+    },
+    {
+      "id": "pr:HelgeSverre/splash:6",
+      "kind": "merge",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T08:02:39Z",
+      "title": "[5/6] Add clean package checks, isolated audit tooling and UI evidence",
+      "url": "https://github.com/HelgeSverre/splash/pull/6"
+    },
+    {
+      "id": "pr:HelgeSverre/splash:5",
+      "kind": "merge",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T08:02:29Z",
+      "title": "[4/6] Move history actions into a menu and fix workbench and navigation defects",
+      "url": "https://github.com/HelgeSverre/splash/pull/5"
+    },
+    {
+      "id": "pr:HelgeSverre/splash:4",
+      "kind": "merge",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T08:02:20Z",
+      "title": "[3/6] Improve first-session setup and preserve client state through reconnects",
+      "url": "https://github.com/HelgeSverre/splash/pull/4"
+    },
+    {
+      "id": "pr:HelgeSverre/splash:3",
+      "kind": "merge",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T08:02:10Z",
+      "title": "[2/6] Fix terminal replacement, Windows shell exit and minimum-window layout",
+      "url": "https://github.com/HelgeSverre/splash/pull/3"
+    },
+    {
+      "id": "pr:HelgeSverre/splash:2",
+      "kind": "merge",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T08:02:01Z",
+      "title": "[1/6] Fix agent startup, interrupted sessions and HTTP command capacity",
+      "url": "https://github.com/HelgeSverre/splash/pull/2"
     },
     {
       "id": "commit:HelgeSverre/fsdb:3ce5bce62c4bbecf68a0e5fe73047b66063411f0",
@@ -165,6 +629,22 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/5811182781c03ee5b2c07e3f4a94d36afca0d67f"
     },
     {
+      "id": "commit:HelgeSverre/splash:8086036b322293ead8ab1fbc52608e7ed4521924",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T04:58:25.000+02:00",
+      "title": "Format request deadline scope and transport exports",
+      "url": "https://github.com/HelgeSverre/splash/commit/8086036b322293ead8ab1fbc52608e7ed4521924"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:3fb96dd561e9e8d37a19852ee5d260425732a0a7",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T04:58:25.000+02:00",
+      "title": "Scope request deadlines to body ownership before reader handoff",
+      "url": "https://github.com/HelgeSverre/splash/commit/3fb96dd561e9e8d37a19852ee5d260425732a0a7"
+    },
+    {
       "id": "commit:HelgeSverre/fsdb:fb0a44c0a3f6f549e5c37b4a22ef28e844603851",
       "kind": "commit",
       "repo": "HelgeSverre/fsdb",
@@ -205,6 +685,14 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/177f6306ba2185e86d8a0096fd945488f2fb1297"
     },
     {
+      "id": "commit:HelgeSverre/splash:978cb7e70f1cf0068ac11176a0cb2602db43ef80",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T04:19:59.000+02:00",
+      "title": "Record final Windows timeout recovery and all-platform validation",
+      "url": "https://github.com/HelgeSverre/splash/commit/978cb7e70f1cf0068ac11176a0cb2602db43ef80"
+    },
+    {
       "id": "commit:HelgeSverre/fsdb:829c3a61eaaef58233564b12f7a5869649f217cf",
       "kind": "commit",
       "repo": "HelgeSverre/fsdb",
@@ -213,12 +701,28 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/829c3a61eaaef58233564b12f7a5869649f217cf"
     },
     {
+      "id": "commit:HelgeSverre/splash:139ea111d06cc2cfd791e91a231f76c39fc0fe03",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T04:11:00.000+02:00",
+      "title": "Apply request timeout control on the active socket reader",
+      "url": "https://github.com/HelgeSverre/splash/commit/139ea111d06cc2cfd791e91a231f76c39fc0fe03"
+    },
+    {
       "id": "commit:HelgeSverre/fsdb:25f90b1864f1ca1bf24ba1e856b80e55bc7587f1",
       "kind": "commit",
       "repo": "HelgeSverre/fsdb",
       "at": "2026-10-10T03:59:32.000+02:00",
       "title": "Support FLOOR and CEIL functional indexes",
       "url": "https://github.com/HelgeSverre/fsdb/commit/25f90b1864f1ca1bf24ba1e856b80e55bc7587f1"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:17f1148dc6c4e36a143cc7549780b429bd227307",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T03:54:17.000+02:00",
+      "title": "Synchronize stalled-body regression with handler admission",
+      "url": "https://github.com/HelgeSverre/splash/commit/17f1148dc6c4e36a143cc7549780b429bd227307"
     },
     {
       "id": "commit:HelgeSverre/fsdb:6b9314929e5baafb34030284726d71b84324926b",
@@ -245,12 +749,36 @@
       "url": "https://github.com/sema-lisp/sema-fractals/commit/a12391bd7835958a4e6dddd8936ed89deaf49761"
     },
     {
+      "id": "commit:HelgeSverre/splash:9931b1048e8444c043d133e7dfe1980795aff1db",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T03:36:50.000+02:00",
+      "title": "Link the final HTTP timeout review and cumulative checks",
+      "url": "https://github.com/HelgeSverre/splash/commit/9931b1048e8444c043d133e7dfe1980795aff1db"
+    },
+    {
       "id": "commit:HelgeSverre/fsdb:6dadf8fa97d9b9d0bba8b35424f098618f95dc3a",
       "kind": "commit",
       "repo": "HelgeSverre/fsdb",
       "at": "2026-10-10T03:36:13.000+02:00",
       "title": "Use constant fallback expressions for indexed bounds",
       "url": "https://github.com/HelgeSverre/fsdb/commit/6dadf8fa97d9b9d0bba8b35424f098618f95dc3a"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:5b5273b3d29aff7d5d28a8bcec1031731ffb7709",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T03:35:59.000+02:00",
+      "title": "Record stalled-upload regressions and artifact source snapshots",
+      "url": "https://github.com/HelgeSverre/splash/commit/5b5273b3d29aff7d5d28a8bcec1031731ffb7709"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:0e0cb6378e1a7e22c7d25ad9394f11c7df708b1a",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T03:31:19.000+02:00",
+      "title": "Expire stalled HTTP bodies and bound transport cleanup",
+      "url": "https://github.com/HelgeSverre/splash/commit/0e0cb6378e1a7e22c7d25ad9394f11c7df708b1a"
     },
     {
       "id": "commit:sema-lisp/sema-fractals:a3900ff3d2075163b6aeb7e06b9caf75e118c1ea",
@@ -285,6 +813,22 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/e04c26feb696c240085d758f6031d0c0dd030db8"
     },
     {
+      "id": "commit:HelgeSverre/splash:d7939bbf580dfae75ff78a9533110eb05b0821b2",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T03:10:40.000+02:00",
+      "title": "Document stacked reviews and slash-menu IME validation",
+      "url": "https://github.com/HelgeSverre/splash/commit/d7939bbf580dfae75ff78a9533110eb05b0821b2"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:da00ee28377c1f99c4fab2f6432735ac977ded33",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T03:00:13.000+02:00",
+      "title": "Prevent IME confirmation from completing slash commands",
+      "url": "https://github.com/HelgeSverre/splash/commit/da00ee28377c1f99c4fab2f6432735ac977ded33"
+    },
+    {
       "id": "commit:HelgeSverre/fsdb:667835ca4ccdae6ee179a49c91ab73154cfc9759",
       "kind": "commit",
       "repo": "HelgeSverre/fsdb",
@@ -309,12 +853,60 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/681f8bc88318642fa4437c39c47baf199a88b11d"
     },
     {
+      "id": "commit:HelgeSverre/splash:5741961ea58a08c202930e6af4705901ab28e16b",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T02:49:44.000+02:00",
+      "title": "Accept unique probe scratch directories",
+      "url": "https://github.com/HelgeSverre/splash/commit/5741961ea58a08c202930e6af4705901ab28e16b"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:cec7f8632dbdfe779861fade76362edeafce073b",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T02:41:57.000+02:00",
+      "title": "Document quality audit and validation evidence",
+      "url": "https://github.com/HelgeSverre/splash/commit/cec7f8632dbdfe779861fade76362edeafce073b"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:10d22203a1ef54438fabb71a08275c4a7bd8af74",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T02:41:20.000+02:00",
+      "title": "Improve history management and workbench recovery",
+      "url": "https://github.com/HelgeSverre/splash/commit/10d22203a1ef54438fabb71a08275c4a7bd8af74"
+    },
+    {
       "id": "commit:HelgeSverre/fsdb:64417a3a945f7a0f1363245e426a8a71e37d101c",
       "kind": "commit",
       "repo": "HelgeSverre/fsdb",
       "at": "2026-10-10T02:40:52.000+02:00",
       "title": "Support ST_SwapXY across geometry shapes",
       "url": "https://github.com/HelgeSverre/fsdb/commit/64417a3a945f7a0f1363245e426a8a71e37d101c"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:ff1e07d2f1d4879d6bd5b2e45313a22921568711",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T02:40:50.000+02:00",
+      "title": "Recover client state after delayed or failed updates",
+      "url": "https://github.com/HelgeSverre/splash/commit/ff1e07d2f1d4879d6bd5b2e45313a22921568711"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:bf7f17ad8d3087c714b611830051dd62420dad26",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T02:40:22.000+02:00",
+      "title": "Stabilize terminal lifecycle and layout recovery",
+      "url": "https://github.com/HelgeSverre/splash/commit/bf7f17ad8d3087c714b611830051dd62420dad26"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:c003c6d750aa178d29c0f92ec246df60786b89b7",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T02:37:11.000+02:00",
+      "title": "Recover backend lifecycle and probe reliability",
+      "url": "https://github.com/HelgeSverre/splash/commit/c003c6d750aa178d29c0f92ec246df60786b89b7"
     },
     {
       "id": "commit:HelgeSverre/fsdb:d5be1810b83bfefbad4c67422b93eb105db3c06d",
@@ -5635,6 +6227,14 @@
       "at": "2026-09-27T02:03:31.000+02:00",
       "title": "Support Laravel 13 and openai-php/laravel up to 0.x latest",
       "url": "https://github.com/HelgeSverre/brain/commit/cb985ea1cc4cd2ed81593db736a0d9222685993b"
+    },
+    {
+      "id": "release:HelgeSverre/clickmore:408866767",
+      "kind": "release",
+      "repo": "HelgeSverre/clickmore",
+      "at": "2026-10-10T10:20:57Z",
+      "title": "v0.1.0",
+      "url": "https://github.com/HelgeSverre/clickmore/releases/tag/v0.1.0"
     },
     {
       "id": "release:HelgeSverre/splash:406118084",
