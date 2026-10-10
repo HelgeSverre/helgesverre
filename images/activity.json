@@ -1,9 +1,481 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-09T18:24:29.612Z",
-  "since": "2026-09-25T18:24:29.612Z",
+  "fetchedAt": "2026-10-10T01:00:57.392Z",
+  "since": "2026-09-26T01:00:57.392Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:667835ca4ccdae6ee179a49c91ab73154cfc9759",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T02:53:57.000+02:00",
+      "title": "Record line interpolation wire performance snapshot",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/667835ca4ccdae6ee179a49c91ab73154cfc9759"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3a43085355aba310050d97bd693a8e7081264502",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T02:52:20.000+02:00",
+      "title": "Record native table statistics cache behavior",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3a43085355aba310050d97bd693a8e7081264502"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:681f8bc88318642fa4437c39c47baf199a88b11d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T02:50:44.000+02:00",
+      "title": "Support line interpolation across spatial reference systems",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/681f8bc88318642fa4437c39c47baf199a88b11d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:64417a3a945f7a0f1363245e426a8a71e37d101c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T02:40:52.000+02:00",
+      "title": "Support ST_SwapXY across geometry shapes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/64417a3a945f7a0f1363245e426a8a71e37d101c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d5be1810b83bfefbad4c67422b93eb105db3c06d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T02:37:08.000+02:00",
+      "title": "Support World Mercator transforms and invalid pole geometry",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d5be1810b83bfefbad4c67422b93eb105db3c06d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e28600b123942f960bd6d04136052208f02e9343",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T02:29:24.000+02:00",
+      "title": "Add MySQL-compatible ST_Transform for WGS84 and Web Mercator",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e28600b123942f960bd6d04136052208f02e9343"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:bc89c9dede4fa8c7ed90f34b7e4bcbb2337c7a45",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T02:20:43.000+02:00",
+      "title": "Support EPSG 3857 projected spatial operations",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/bc89c9dede4fa8c7ed90f34b7e4bcbb2337c7a45"
+    },
+    {
+      "id": "commit:HelgeSverre/namecheap-cli:3daf53b53f9f25cb01ece4d7af9a9e1ded44309c",
+      "kind": "commit",
+      "repo": "HelgeSverre/namecheap-cli",
+      "at": "2026-10-10T02:05:37.000+02:00",
+      "title": "Release 0.2.1",
+      "url": "https://github.com/HelgeSverre/namecheap-cli/commit/3daf53b53f9f25cb01ece4d7af9a9e1ded44309c"
+    },
+    {
+      "id": "commit:HelgeSverre/namecheap-cli:26cb53f718b4f2bd570442430115202e66b8418e",
+      "kind": "commit",
+      "repo": "HelgeSverre/namecheap-cli",
+      "at": "2026-10-10T02:05:19.000+02:00",
+      "title": "Publish to npm via trusted publishing (OIDC); allow publishing an existing tag via workflow_dispatch; match repository URL casing (#9)",
+      "url": "https://github.com/HelgeSverre/namecheap-cli/commit/26cb53f718b4f2bd570442430115202e66b8418e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:656af38a4ae857b047945a2575182d7e8064d318",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T02:02:56.000+02:00",
+      "title": "Report view diagnostics for CHECKSUM TABLE",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/656af38a4ae857b047945a2575182d7e8064d318"
+    },
+    {
+      "id": "commit:HelgeSverre/namecheap-cli:ae4e24c9ac4aa4a0152337fdeb3022abc65b8d0e",
+      "kind": "commit",
+      "repo": "HelgeSverre/namecheap-cli",
+      "at": "2026-10-10T01:59:55.000+02:00",
+      "title": "chore: release v0.2.0",
+      "url": "https://github.com/HelgeSverre/namecheap-cli/commit/ae4e24c9ac4aa4a0152337fdeb3022abc65b8d0e"
+    },
+    {
+      "id": "commit:HelgeSverre/namecheap-cli:c2c84a142bbe900d20f2b7eb58694fca003d97ed",
+      "kind": "commit",
+      "repo": "HelgeSverre/namecheap-cli",
+      "at": "2026-10-10T01:59:18.000+02:00",
+      "title": "chore(deps): bump all dependencies to latest (#8)",
+      "url": "https://github.com/HelgeSverre/namecheap-cli/commit/c2c84a142bbe900d20f2b7eb58694fca003d97ed"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:df229d7a366bdd4461000c80ae4db7b6d94e1068",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T01:57:59.000+02:00",
+      "title": "Match CHECKSUM TABLE missing-object diagnostics",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/df229d7a366bdd4461000c80ae4db7b6d94e1068"
+    },
+    {
+      "id": "commit:HelgeSverre/namecheap-cli:52fbff9b790f76d0fb614f563f2631456147edc4",
+      "kind": "commit",
+      "repo": "HelgeSverre/namecheap-cli",
+      "at": "2026-10-10T01:55:29.000+02:00",
+      "title": "feat: add `namecheap uninstall` to remove config, credentials, completions and caches (#7)",
+      "url": "https://github.com/HelgeSverre/namecheap-cli/commit/52fbff9b790f76d0fb614f563f2631456147edc4"
+    },
+    {
+      "id": "commit:HelgeSverre/namecheap-cli:f078b62b74891ede0c77e969c38edc3fe48d533d",
+      "kind": "commit",
+      "repo": "HelgeSverre/namecheap-cli",
+      "at": "2026-10-10T01:49:24.000+02:00",
+      "title": "test: sandbox HOME and config dir so tests never touch real credentials (#6)",
+      "url": "https://github.com/HelgeSverre/namecheap-cli/commit/f078b62b74891ede0c77e969c38edc3fe48d533d"
+    },
+    {
+      "id": "commit:HelgeSverre/namecheap-cli:e7099dd6849ddbd79fcc80c11ac5a6fea90a53fd",
+      "kind": "commit",
+      "repo": "HelgeSverre/namecheap-cli",
+      "at": "2026-10-10T01:47:04.000+02:00",
+      "title": "fix(dns): send EmailType to setHosts so MX records are kept (#5)",
+      "url": "https://github.com/HelgeSverre/namecheap-cli/commit/e7099dd6849ddbd79fcc80c11ac5a6fea90a53fd"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:766d42639a4459a73958cf95787a354f022c6903",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T01:47:03.000+02:00",
+      "title": "Correct TIME arithmetic warning gap against MySQL oracle",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/766d42639a4459a73958cf95787a354f022c6903"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c0a80a175facbe8795ea60f4809df853233cfe31",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T01:45:18.000+02:00",
+      "title": "Compare DECIMAL foreign keys by packed storage bytes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c0a80a175facbe8795ea60f4809df853233cfe31"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:43e7178f85349afe3f9eb2097924bbeeb29b7882",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T01:34:26.000+02:00",
+      "title": "Match temporal foreign keys by fractional storage tier",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/43e7178f85349afe3f9eb2097924bbeeb29b7882"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ef8b77fa374b592ba7b33e0a3cbea8881b4216b6",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T01:27:30.000+02:00",
+      "title": "Format stored BIT values in HEX like MySQL",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ef8b77fa374b592ba7b33e0a3cbea8881b4216b6"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:94ab18b41de1c32d0802c0eb4f9dc4b5b0ccafc0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T01:19:59.000+02:00",
+      "title": "Compare differing BIT foreign keys by storage bytes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/94ab18b41de1c32d0802c0eb4f9dc4b5b0ccafc0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ed0962b90e26cbc14ca79325782ae5fdc91dcf05",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T01:02:35.000+02:00",
+      "title": "Simplify DELETE trigger dispatch and cover target order",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ed0962b90e26cbc14ca79325782ae5fdc91dcf05"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7af798892d6019271ab073a68e6eeeb27a2bcd8b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T00:51:54.000+02:00",
+      "title": "Preserve selected child DELETE trigger images across FK actions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7af798892d6019271ab073a68e6eeeb27a2bcd8b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4ee33da7590961c99f895faa0b3d49b505b5a31d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T00:40:05.000+02:00",
+      "title": "Preserve multi-target delete selection through FK actions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4ee33da7590961c99f895faa0b3d49b505b5a31d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:af30bc64faa3d5d4eba78fe7e0f7c75d8c9a540e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T00:17:49.000+02:00",
+      "title": "Keep multi-target ignored delete FK checks on original rows",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/af30bc64faa3d5d4eba78fe7e0f7c75d8c9a540e"
+    },
+    {
+      "id": "pr:HelgeSverre/namecheap-cli:9",
+      "kind": "merge",
+      "repo": "HelgeSverre/namecheap-cli",
+      "at": "2026-10-10T00:05:20Z",
+      "title": "Publish to npm with trusted publishing",
+      "url": "https://github.com/HelgeSverre/namecheap-cli/pull/9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8b235085039c1a2ae3d334054c721e38a615c5ba",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T23:59:42.000+02:00",
+      "title": "Share benchmark target lifecycle across suites",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8b235085039c1a2ae3d334054c721e38a615c5ba"
+    },
+    {
+      "id": "pr:HelgeSverre/namecheap-cli:8",
+      "kind": "merge",
+      "repo": "HelgeSverre/namecheap-cli",
+      "at": "2026-10-09T23:59:19Z",
+      "title": "chore(deps): bump all dependencies to latest",
+      "url": "https://github.com/HelgeSverre/namecheap-cli/pull/8"
+    },
+    {
+      "id": "pr:HelgeSverre/namecheap-cli:7",
+      "kind": "merge",
+      "repo": "HelgeSverre/namecheap-cli",
+      "at": "2026-10-09T23:55:29Z",
+      "title": "feat: add `namecheap uninstall` command",
+      "url": "https://github.com/HelgeSverre/namecheap-cli/pull/7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:44bd01bea06fc2f79744192ac2772d88a262ba77",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T23:52:35.000+02:00",
+      "title": "Benchmark BIT and binary foreign-key updates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/44bd01bea06fc2f79744192ac2772d88a262ba77"
+    },
+    {
+      "id": "pr:HelgeSverre/namecheap-cli:2",
+      "kind": "merge",
+      "repo": "HelgeSverre/namecheap-cli",
+      "at": "2026-10-09T23:51:23Z",
+      "title": "chore(deps): refresh dependency ranges from Dependabot review",
+      "url": "https://github.com/HelgeSverre/namecheap-cli/pull/2"
+    },
+    {
+      "id": "pr:HelgeSverre/namecheap-cli:6",
+      "kind": "merge",
+      "repo": "HelgeSverre/namecheap-cli",
+      "at": "2026-10-09T23:49:24Z",
+      "title": "test: isolate config and completion paths from the real home dir",
+      "url": "https://github.com/HelgeSverre/namecheap-cli/pull/6"
+    },
+    {
+      "id": "pr:HelgeSverre/namecheap-cli:5",
+      "kind": "merge",
+      "repo": "HelgeSverre/namecheap-cli",
+      "at": "2026-10-09T23:47:04Z",
+      "title": "fix(dns): send EmailType to setHosts so MX records are kept",
+      "url": "https://github.com/HelgeSverre/namecheap-cli/pull/5"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e1123f2d982fa57569598926dcd9ab0097ccaed3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T23:40:06.000+02:00",
+      "title": "Verify ENUM cascade ordinals through WAL and snapshots",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e1123f2d982fa57569598926dcd9ab0097ccaed3"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ae1c828a4ee21adbd640e197e31902099599e5ce",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T23:35:38.000+02:00",
+      "title": "Compare BIT and binary foreign keys by stored bytes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ae1c828a4ee21adbd640e197e31902099599e5ce"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:175810ea5ab10cfb80758d85a3e4376e6d8ddae8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T23:26:18.000+02:00",
+      "title": "Preserve out-of-domain ENUM cascade ordinals",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/175810ea5ab10cfb80758d85a3e4376e6d8ddae8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3c03cd899ce4e33579dbc34e614e4c3c7d4db8b7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T23:10:19.000+02:00",
+      "title": "Match ENUM and SET foreign keys by encoded values",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3c03cd899ce4e33579dbc34e614e4c3c7d4db8b7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8e46a73ab7fb6a24772c72ef0ed5f27c3f4a2dc1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T23:04:16.000+02:00",
+      "title": "Keep DATETIME and TIMESTAMP foreign-key zero keys distinct",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8e46a73ab7fb6a24772c72ef0ed5f27c3f4a2dc1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:81ceadf97d581ff7b1faf188ba1a66fe2c2edf07",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T22:55:28.000+02:00",
+      "title": "Cover DATETIME and TIMESTAMP foreign-key nonmatches",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/81ceadf97d581ff7b1faf188ba1a66fe2c2edf07"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:19f7b3a9eeb12a0d40ed93217136dede74ff4f56",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T22:51:30.000+02:00",
+      "title": "Verify non-strict YEAR truncation against MySQL",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/19f7b3a9eeb12a0d40ed93217136dede74ff4f56"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6ceb1dcf259d5a4f1dc2d7b286055aec0b84cd11",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T22:48:17.000+02:00",
+      "title": "Match YEAR zero-string and truncated-prefix coercion",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6ceb1dcf259d5a4f1dc2d7b286055aec0b84cd11"
+    },
+    {
+      "id": "commit:HelgeSverre/rust-vst3-host:7bece4e39cff2925a0a33b40092f2c2dcaaea9ac",
+      "kind": "commit",
+      "repo": "HelgeSverre/rust-vst3-host",
+      "at": "2026-10-09T22:42:41.000+02:00",
+      "title": "Clarify IMidiMapping2 release note terminology",
+      "url": "https://github.com/HelgeSverre/rust-vst3-host/commit/7bece4e39cff2925a0a33b40092f2c2dcaaea9ac"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:712927b48380ae639adda0f532db30ecdc8ba5f0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T22:40:26.000+02:00",
+      "title": "Accept audited TIME and date-time foreign-key pairs",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/712927b48380ae639adda0f532db30ecdc8ba5f0"
+    },
+    {
+      "id": "commit:HelgeSverre/rust-vst3-host:fe282e7bb64b9cc21d2513281cf3817b40f70149",
+      "kind": "commit",
+      "repo": "HelgeSverre/rust-vst3-host",
+      "at": "2026-10-09T22:37:54.000+02:00",
+      "title": "Prepare 0.10.0 and fix release validation blockers",
+      "url": "https://github.com/HelgeSverre/rust-vst3-host/commit/fe282e7bb64b9cc21d2513281cf3817b40f70149"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c884e946fa70f7bd84e1cb0645de28438d1bc11b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T22:33:01.000+02:00",
+      "title": "Match YEAR and unsigned tinyint foreign-key bytes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c884e946fa70f7bd84e1cb0645de28438d1bc11b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:aa39fb4267ab449537ea732df124d57e62175c37",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T22:21:48.000+02:00",
+      "title": "Normalize YEAR column inputs to MySQL storage values",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/aa39fb4267ab449537ea732df124d57e62175c37"
+    },
+    {
+      "id": "commit:HelgeSverre/fedit:2ba8d3f74c192c758b2fe996d4c81888870c284f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fedit",
+      "at": "2026-10-09T22:12:17.000+02:00",
+      "title": "Add Ahrefs analytics script to website layout",
+      "url": "https://github.com/HelgeSverre/fedit/commit/2ba8d3f74c192c758b2fe996d4c81888870c284f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:69f65450e76aa0ec09b69ee7a8744983b974f0a1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T22:05:35.000+02:00",
+      "title": "Preserve SET NULL foreign-key nullability during ALTER",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/69f65450e76aa0ec09b69ee7a8744983b974f0a1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1961bb3156f98ffb583ab2b7bfcb2d4e3aed0473",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T21:57:18.000+02:00",
+      "title": "Propagate numeric join IN through compound ON",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1961bb3156f98ffb583ab2b7bfcb2d4e3aed0473"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a163cf023a301146b5aacda50c85e47a6b1be273",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T21:51:41.000+02:00",
+      "title": "Document costed mixed-type join counterprobe",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a163cf023a301146b5aacda50c85e47a6b1be273"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:28247c546dc561892ac4b98ee642d06148a77d2c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T21:48:33.000+02:00",
+      "title": "Match explicit-plan mixed-type IN join filters",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/28247c546dc561892ac4b98ee642d06148a77d2c"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:7b04cd86b76d86e9034719c9d4cedba44017e34f",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-09T21:34:36.000+02:00",
+      "title": "Load Ahrefs Web Analytics on the website",
+      "url": "https://github.com/HelgeSverre/splash/commit/7b04cd86b76d86e9034719c9d4cedba44017e34f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c44f45a4e40e8556e3e035e1d398683f809159e7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T21:33:19.000+02:00",
+      "title": "Match generated-column foreign-key action restrictions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c44f45a4e40e8556e3e035e1d398683f809159e7"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:e81f3b5c273805cf6fa0c37762a2937d074da27e",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-09T21:33:04.000+02:00",
+      "title": "Add breadcrumb structured data and a favicon.ico to the website",
+      "url": "https://github.com/HelgeSverre/splash/commit/e81f3b5c273805cf6fa0c37762a2937d074da27e"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:4aed3da3dd4241feafe2cfdac2c9fe453ef34447",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-09T21:27:41.000+02:00",
+      "title": "Add comparison pages for twelve other agent apps",
+      "url": "https://github.com/HelgeSverre/splash/commit/4aed3da3dd4241feafe2cfdac2c9fe453ef34447"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:607322e1f1552a59e0214834825e7800d130dee4",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-09T21:27:41.000+02:00",
+      "title": "Give the website a designed 404 page",
+      "url": "https://github.com/HelgeSverre/splash/commit/607322e1f1552a59e0214834825e7800d130dee4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7ed51ad05a1317a0a35a618bd227385a961e865e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T21:25:01.000+02:00",
+      "title": "Match foreign-key storage-width and ALTER column rules",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7ed51ad05a1317a0a35a618bd227385a961e865e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:62b3da23c33875da12799719e0712366426882aa",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T20:59:48.000+02:00",
+      "title": "Record oracle probes, performance results, and remaining gaps",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/62b3da23c33875da12799719e0712366426882aa"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5fd8f08f3f87d7d082d2c6adb281f970acba4529",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T20:59:41.000+02:00",
+      "title": "Close MySQL-oracle compatibility gaps across FK, temporal, and query paths",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5fd8f08f3f87d7d082d2c6adb281f970acba4529"
+    },
     {
       "id": "commit:sema-lisp/sema-coder:2f1516ffd865b0d8ed8845c65cb74a3cfc14463e",
       "kind": "commit",
@@ -253,12 +725,28 @@
       "url": "https://github.com/HelgeSverre/strek/commit/c7e5530d09c15547d165dfb2fc2d13690af25d88"
     },
     {
+      "id": "commit:HelgeSverre/fsdb:cab70b90d1cd2d006af1eb747b303e8042ea9607",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T10:30:38.000+02:00",
+      "title": "Resolve foreign-key ALTER actions against final column definitions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/cab70b90d1cd2d006af1eb747b303e8042ea9607"
+    },
+    {
       "id": "pr:sema-lisp/sema:165",
       "kind": "merge",
       "repo": "sema-lisp/sema",
       "at": "2026-10-09T10:20:30Z",
       "title": "release: 1.37.0-rc.2",
       "url": "https://github.com/sema-lisp/sema/pull/165"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9e9a9d6d101f54408be8d5e1a3626a49271e1262",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-09T10:13:53.000+02:00",
+      "title": "Validate foreign-key names atomically during table renames",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9e9a9d6d101f54408be8d5e1a3626a49271e1262"
     },
     {
       "id": "commit:HelgeSverre/fsdb:6a62757e90e8b506a346158709173a17dd291373",
@@ -4845,6 +5333,62 @@
       "url": "https://github.com/HelgeSverre/brain/commit/cb985ea1cc4cd2ed81593db736a0d9222685993b"
     },
     {
+      "id": "release:HelgeSverre/namecheap-cli:408440846",
+      "kind": "release",
+      "repo": "HelgeSverre/namecheap-cli",
+      "at": "2026-10-10T00:07:11Z",
+      "title": "v0.2.1",
+      "url": "https://github.com/HelgeSverre/namecheap-cli/releases/tag/v0.2.1"
+    },
+    {
+      "id": "release:HelgeSverre/namecheap-cli:408436720",
+      "kind": "release",
+      "repo": "HelgeSverre/namecheap-cli",
+      "at": "2026-10-10T00:01:16Z",
+      "title": "v0.2.0",
+      "url": "https://github.com/HelgeSverre/namecheap-cli/releases/tag/v0.2.0"
+    },
+    {
+      "id": "release:HelgeSverre/rust-vst3-host:408360623",
+      "kind": "release",
+      "repo": "HelgeSverre/rust-vst3-host",
+      "at": "2026-10-09T21:26:30Z",
+      "title": "v0.10.0",
+      "url": "https://github.com/HelgeSverre/rust-vst3-host/releases/tag/v0.10.0"
+    },
+    {
+      "id": "release:HelgeSverre/fedit:405775266",
+      "kind": "release",
+      "repo": "HelgeSverre/fedit",
+      "at": "2026-10-07T13:08:10Z",
+      "title": "v1.10.1",
+      "url": "https://github.com/HelgeSverre/fedit/releases/tag/v1.10.1"
+    },
+    {
+      "id": "release:HelgeSverre/splash:406118084",
+      "kind": "release",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T20:02:44Z",
+      "title": "v0.2.1",
+      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.2.1"
+    },
+    {
+      "id": "release:HelgeSverre/splash:406047357",
+      "kind": "release",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T18:31:38Z",
+      "title": "v0.2.0",
+      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.2.0"
+    },
+    {
+      "id": "release:HelgeSverre/splash:403799733",
+      "kind": "release",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T16:29:41Z",
+      "title": "v0.1.0",
+      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.1.0"
+    },
+    {
       "id": "release:sema-lisp/sema:407969625",
       "kind": "release",
       "repo": "sema-lisp/sema",
@@ -4933,30 +5477,6 @@
       "url": "https://github.com/sema-lisp/tree-sitter-sema/releases/tag/v0.3.0"
     },
     {
-      "id": "release:HelgeSverre/splash:406118084",
-      "kind": "release",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T20:02:44Z",
-      "title": "v0.2.1",
-      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.2.1"
-    },
-    {
-      "id": "release:HelgeSverre/splash:406047357",
-      "kind": "release",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T18:31:38Z",
-      "title": "v0.2.0",
-      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.2.0"
-    },
-    {
-      "id": "release:HelgeSverre/splash:403799733",
-      "kind": "release",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T16:29:41Z",
-      "title": "v0.1.0",
-      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.1.0"
-    },
-    {
       "id": "release:HelgeSverre/claude-plan-viewer:406271828",
       "kind": "release",
       "repo": "HelgeSverre/claude-plan-viewer",
@@ -5011,14 +5531,6 @@
       "at": "2026-10-07T09:21:22Z",
       "title": "v1.0.0",
       "url": "https://github.com/HelgeSverre/codemagic-skill/releases/tag/v1.0.0"
-    },
-    {
-      "id": "release:HelgeSverre/fedit:405775266",
-      "kind": "release",
-      "repo": "HelgeSverre/fedit",
-      "at": "2026-10-07T13:08:10Z",
-      "title": "v1.10.1",
-      "url": "https://github.com/HelgeSverre/fedit/releases/tag/v1.10.1"
     },
     {
       "id": "release:HelgeSverre/wire-bridge:404418711",
