@@ -1,9 +1,289 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-10T01:00:57.392Z",
-  "since": "2026-09-26T01:00:57.392Z",
+  "fetchedAt": "2026-10-10T06:32:02.536Z",
+  "since": "2026-09-26T06:32:02.536Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:a6a212e7a767b32d50c4c450a14dab961f5fb63c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T08:28:37.000+02:00",
+      "title": "Name scalar subquery result coercion",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a6a212e7a767b32d50c4c450a14dab961f5fb63c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e992b19feea7af0903fdf5c79904b9f3e95036f3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T08:25:42.000+02:00",
+      "title": "Preserve computed scalar subquery charset",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e992b19feea7af0903fdf5c79904b9f3e95036f3"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3d774ffb196a26ac5bc9228d236823706264f5ec",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T08:13:36.000+02:00",
+      "title": "Preserve binary scalar subquery result types",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3d774ffb196a26ac5bc9228d236823706264f5ec"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e14b6d37fd9f42f180079dab98a400e7b11ecfd6",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T08:06:19.000+02:00",
+      "title": "Preserve declared text type in scalar subqueries",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e14b6d37fd9f42f180079dab98a400e7b11ecfd6"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3ce5bce62c4bbecf68a0e5fe73047b66063411f0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T07:55:57.000+02:00",
+      "title": "Audit HEX scalar subquery conversion shapes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3ce5bce62c4bbecf68a0e5fe73047b66063411f0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:70234176d1d359540a1ee7ce5bd2e2492530e319",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T07:50:17.000+02:00",
+      "title": "Separate numeric CHAR cast regression cases",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/70234176d1d359540a1ee7ce5bd2e2492530e319"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:dd5fae16e3ebbc0f2323b82b06c57102f1b64c18",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T07:47:08.000+02:00",
+      "title": "Avoid per-value diagnostic scopes in DISTINCT aggregates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/dd5fae16e3ebbc0f2323b82b06c57102f1b64c18"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3378e71da81e6276e953820adf49dac1cde0978e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T07:38:00.000+02:00",
+      "title": "Avoid storage coercion for numeric CHAR casts",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3378e71da81e6276e953820adf49dac1cde0978e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:35654c020482381f2946dca1d46fdac706540f0d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T07:27:11.000+02:00",
+      "title": "Record numeric parser performance comparison",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/35654c020482381f2946dca1d46fdac706540f0d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:386f5d9575218bc4aa8e70402a072c28ff855253",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T07:17:36.000+02:00",
+      "title": "Avoid repeated metadata inference for integer text casts",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/386f5d9575218bc4aa8e70402a072c28ff855253"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:87f34eebd7aa8f1e2ec4c31ef251acd7d99562e7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T06:58:04.000+02:00",
+      "title": "Audit prepared functional comparisons against MySQL",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/87f34eebd7aa8f1e2ec4c31ef251acd7d99562e7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:fd5fccb8e12e492f86342d648b5e920baa8b593c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T06:53:23.000+02:00",
+      "title": "Preserve string operands in prepared comparison predicates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/fd5fccb8e12e492f86342d648b5e920baa8b593c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:372269436a7b1896b4d0a0af907780c4b3b5d50b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T06:44:24.000+02:00",
+      "title": "Measure prepared functional-index lookup against PK control",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/372269436a7b1896b4d0a0af907780c4b3b5d50b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:54d47699f2349f1da490fa15e387d94bde05fc95",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T06:33:52.000+02:00",
+      "title": "Measure functional lookup against a matching primary-key control",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/54d47699f2349f1da490fa15e387d94bde05fc95"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9754c9b79be4a012472a968c80c704324123236f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T06:21:01.000+02:00",
+      "title": "Share digest scalar registration and validate SHA arity",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9754c9b79be4a012472a968c80c704324123236f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:85bf743e6f5937d3b3d1b141c891af27fab65bfe",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T06:13:35.000+02:00",
+      "title": "Index MD5 and SHA1 expressions with stable digest probes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/85bf743e6f5937d3b3d1b141c891af27fab65bfe"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e1ded5311384c30fb70a302fa0ff099ecb89e5d7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T06:00:35.000+02:00",
+      "title": "Index HEX expressions across text and numeric values",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e1ded5311384c30fb70a302fa0ff099ecb89e5d7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:813e67babbf2a16301afc82f5309d224027cfe51",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T05:43:33.000+02:00",
+      "title": "Index UNHEX expressions with MySQL-compatible validation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/813e67babbf2a16301afc82f5309d224027cfe51"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7401b2045a987f57f3c4d6e4b7bd41b989fe46c9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T05:25:04.000+02:00",
+      "title": "Index ORD expressions with source charset semantics",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7401b2045a987f57f3c4d6e4b7bd41b989fe46c9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5811182781c03ee5b2c07e3f4a94d36afca0d67f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T05:14:06.000+02:00",
+      "title": "Index ASCII expressions using source character-set bytes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5811182781c03ee5b2c07e3f4a94d36afca0d67f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:fb0a44c0a3f6f549e5c37b4a22ef28e844603851",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T04:55:17.000+02:00",
+      "title": "Index ISNULL functional keys with null-result recovery",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/fb0a44c0a3f6f549e5c37b4a22ef28e844603851"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:efc9553f25d61e13be606df126bd96fc41bcd95a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T04:48:59.000+02:00",
+      "title": "Plan literal CASE boolean bounds through shared expression traversal",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/efc9553f25d61e13be606df126bd96fc41bcd95a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:697969fdad32e5e6be147e1be065f94bd65edf09",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T04:44:05.000+02:00",
+      "title": "Plan literal CASE bounds with indexed numeric keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/697969fdad32e5e6be147e1be065f94bd65edf09"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6d3cfb07b76fd70213a3bf30c4144dc1757f7e11",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T04:39:57.000+02:00",
+      "title": "Profile indexed conditional bounds against forced scans",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6d3cfb07b76fd70213a3bf30c4144dc1757f7e11"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:177f6306ba2185e86d8a0096fd945488f2fb1297",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T04:37:43.000+02:00",
+      "title": "Match MySQL warning counts for integral double index bounds",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/177f6306ba2185e86d8a0096fd945488f2fb1297"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:829c3a61eaaef58233564b12f7a5869649f217cf",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T04:16:19.000+02:00",
+      "title": "Plan more literal conditional bounds and align functional index SQLSTATE",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/829c3a61eaaef58233564b12f7a5869649f217cf"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:25f90b1864f1ca1bf24ba1e856b80e55bc7587f1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T03:59:32.000+02:00",
+      "title": "Support FLOOR and CEIL functional indexes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/25f90b1864f1ca1bf24ba1e856b80e55bc7587f1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6b9314929e5baafb34030284726d71b84324926b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T03:51:08.000+02:00",
+      "title": "Support SIGN functional indexes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6b9314929e5baafb34030284726d71b84324926b"
+    },
+    {
+      "id": "commit:sema-lisp/sema-fractals:8e9c2e878dc44ea6f285f8683dff1dd7ede681c9",
+      "kind": "commit",
+      "repo": "sema-lisp/sema-fractals",
+      "at": "2026-10-10T03:37:22.000+02:00",
+      "title": "State the required Sema version",
+      "url": "https://github.com/sema-lisp/sema-fractals/commit/8e9c2e878dc44ea6f285f8683dff1dd7ede681c9"
+    },
+    {
+      "id": "commit:sema-lisp/sema-fractals:a12391bd7835958a4e6dddd8936ed89deaf49761",
+      "kind": "commit",
+      "repo": "sema-lisp/sema-fractals",
+      "at": "2026-10-10T03:37:12.000+02:00",
+      "title": "Trim README commentary and repeated rendering details",
+      "url": "https://github.com/sema-lisp/sema-fractals/commit/a12391bd7835958a4e6dddd8936ed89deaf49761"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6dadf8fa97d9b9d0bba8b35424f098618f95dc3a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T03:36:13.000+02:00",
+      "title": "Use constant fallback expressions for indexed bounds",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6dadf8fa97d9b9d0bba8b35424f098618f95dc3a"
+    },
+    {
+      "id": "commit:sema-lisp/sema-fractals:a3900ff3d2075163b6aeb7e06b9caf75e118c1ea",
+      "kind": "commit",
+      "repo": "sema-lisp/sema-fractals",
+      "at": "2026-10-10T03:31:08.000+02:00",
+      "title": "Add Sema fractal experiments and four animated showcases",
+      "url": "https://github.com/sema-lisp/sema-fractals/commit/a3900ff3d2075163b6aeb7e06b9caf75e118c1ea"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0abc672bce6232f219cd0643527abde1082b1f2e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T03:26:30.000+02:00",
+      "title": "Document zero-expiry index sampling boundary",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0abc672bce6232f219cd0643527abde1082b1f2e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:033365302bcfda95d09d85e3bd181569aae542b3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T03:20:07.000+02:00",
+      "title": "Cache index cardinality with table statistics",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/033365302bcfda95d09d85e3bd181569aae542b3"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e04c26feb696c240085d758f6031d0c0dd030db8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T03:13:37.000+02:00",
+      "title": "Cache table row estimates and refresh them on ANALYZE",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e04c26feb696c240085d758f6031d0c0dd030db8"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:667835ca4ccdae6ee179a49c91ab73154cfc9759",
       "kind": "commit",
@@ -51,6 +331,14 @@
       "at": "2026-10-10T02:29:24.000+02:00",
       "title": "Add MySQL-compatible ST_Transform for WGS84 and Web Mercator",
       "url": "https://github.com/HelgeSverre/fsdb/commit/e28600b123942f960bd6d04136052208f02e9343"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:f4e1b76ec17c1636b2cf4ba82b4cfdd821152002",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T02:29:22.000+02:00",
+      "title": "Show the flowchart and sequence diagram captures in the README",
+      "url": "https://github.com/HelgeSverre/splash/commit/f4e1b76ec17c1636b2cf4ba82b4cfdd821152002"
     },
     {
       "id": "commit:HelgeSverre/fsdb:bc89c9dede4fa8c7ed90f34b7e4bcbb2337c7a45",
@@ -179,6 +467,22 @@
       "at": "2026-10-10T01:02:35.000+02:00",
       "title": "Simplify DELETE trigger dispatch and cover target order",
       "url": "https://github.com/HelgeSverre/fsdb/commit/ed0962b90e26cbc14ca79325782ae5fdc91dcf05"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:24d1cea57d448795730b43db82dadab83668cfe8",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T01:00:36.000+02:00",
+      "title": "Add diagram screenshots to the README",
+      "url": "https://github.com/HelgeSverre/splash/commit/24d1cea57d448795730b43db82dadab83668cfe8"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:916b89867a68339fff7578308e021d433bc89180",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-10T01:00:36.000+02:00",
+      "title": "Draw mermaid fences in agent messages as diagrams",
+      "url": "https://github.com/HelgeSverre/splash/commit/916b89867a68339fff7578308e021d433bc89180"
     },
     {
       "id": "commit:HelgeSverre/fsdb:7af798892d6019271ab073a68e6eeeb27a2bcd8b",
@@ -5333,6 +5637,30 @@
       "url": "https://github.com/HelgeSverre/brain/commit/cb985ea1cc4cd2ed81593db736a0d9222685993b"
     },
     {
+      "id": "release:HelgeSverre/splash:406118084",
+      "kind": "release",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T20:02:44Z",
+      "title": "v0.2.1",
+      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.2.1"
+    },
+    {
+      "id": "release:HelgeSverre/splash:406047357",
+      "kind": "release",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T18:31:38Z",
+      "title": "v0.2.0",
+      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.2.0"
+    },
+    {
+      "id": "release:HelgeSverre/splash:403799733",
+      "kind": "release",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-10-07T16:29:41Z",
+      "title": "v0.1.0",
+      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.1.0"
+    },
+    {
       "id": "release:HelgeSverre/namecheap-cli:408440846",
       "kind": "release",
       "repo": "HelgeSverre/namecheap-cli",
@@ -5363,30 +5691,6 @@
       "at": "2026-10-07T13:08:10Z",
       "title": "v1.10.1",
       "url": "https://github.com/HelgeSverre/fedit/releases/tag/v1.10.1"
-    },
-    {
-      "id": "release:HelgeSverre/splash:406118084",
-      "kind": "release",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T20:02:44Z",
-      "title": "v0.2.1",
-      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.2.1"
-    },
-    {
-      "id": "release:HelgeSverre/splash:406047357",
-      "kind": "release",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T18:31:38Z",
-      "title": "v0.2.0",
-      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.2.0"
-    },
-    {
-      "id": "release:HelgeSverre/splash:403799733",
-      "kind": "release",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T16:29:41Z",
-      "title": "v0.1.0",
-      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.1.0"
     },
     {
       "id": "release:sema-lisp/sema:407969625",
