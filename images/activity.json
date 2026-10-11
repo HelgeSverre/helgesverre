@@ -1,9 +1,441 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-11T01:02:00.504Z",
-  "since": "2026-09-27T01:02:00.504Z",
+  "fetchedAt": "2026-10-11T06:32:43.502Z",
+  "since": "2026-09-27T06:32:43.502Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:9f56c9d47974fd43716be2ce3a7f59e83b5533d6",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T08:29:00.000+02:00",
+      "title": "Handle geometry collections in topology predicates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9f56c9d47974fd43716be2ce3a7f59e83b5533d6"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7257c708103ebe11dd568deb29a6be8c9a6b5248",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T08:22:00.000+02:00",
+      "title": "Add crossing and overlap predicates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7257c708103ebe11dd568deb29a6be8c9a6b5248"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:23d1c3492d29c839e2ff158c1ee03291063642e9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T08:05:15.000+02:00",
+      "title": "Simplify geographic topology dispatch",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/23d1c3492d29c839e2ff158c1ee03291063642e9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:af06d83e4e6dc7a451a1760fe58b19f2db67e0e1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T08:03:14.000+02:00",
+      "title": "Match geographic polygon intersections",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/af06d83e4e6dc7a451a1760fe58b19f2db67e0e1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:658827f2483bed5d1b6eca3082f6f56dcc355046",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T07:56:50.000+02:00",
+      "title": "Match geographic line-polygon intersections",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/658827f2483bed5d1b6eca3082f6f56dcc355046"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0eec66d1b5d6cb22259201f053d70c50aa7bf0f4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T07:51:19.000+02:00",
+      "title": "Match geographic line intersection predicates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0eec66d1b5d6cb22259201f053d70c50aa7bf0f4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:edef47afa7c42c332de875762fbe247e0a5f0e99",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T07:41:23.000+02:00",
+      "title": "Match geographic point-line topology",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/edef47afa7c42c332de875762fbe247e0a5f0e99"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f023e1ed94fb0a66c3b399c1bfe9de9174c0e665",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T07:30:12.000+02:00",
+      "title": "Match geographic multipoint-polygon topology",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f023e1ed94fb0a66c3b399c1bfe9de9174c0e665"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b19a25ad9d6b75c083cbe835765f50cfe2e6d7a8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T07:21:53.000+02:00",
+      "title": "Preserve tiny geographic meridional distances",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b19a25ad9d6b75c083cbe835765f50cfe2e6d7a8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e3313b823562e6111306ed87625ab64a2045fd3f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T07:13:25.000+02:00",
+      "title": "Match geographic point-polygon topology",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e3313b823562e6111306ed87625ab64a2045fd3f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2d44daf111b30801a0cad1a3ed117f549e661bc7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T07:06:07.000+02:00",
+      "title": "Clarify geographic distance shape dispatch",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2d44daf111b30801a0cad1a3ed117f549e661bc7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c36fbe360d0e3accba9866b7ccfbbf5e6765de02",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T06:59:16.000+02:00",
+      "title": "Measure geographic polygon-to-polygon distance",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c36fbe360d0e3accba9866b7ccfbbf5e6765de02"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:fa1bd3a0284ee47b02c34af080aca6ae58e7a5f3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T06:53:42.000+02:00",
+      "title": "Measure geographic line-to-polygon distance",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/fa1bd3a0284ee47b02c34af080aca6ae58e7a5f3"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4192078996357d978c92d0847e0e922c584b09ce",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T06:46:03.000+02:00",
+      "title": "Measure geographic point-to-polygon distance",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4192078996357d978c92d0847e0e922c584b09ce"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:04d347b76bacdfb1f5c175ea1413c48a5c9e3e4b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T06:39:02.000+02:00",
+      "title": "Document near-tangent geographic line discrepancy",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/04d347b76bacdfb1f5c175ea1413c48a5c9e3e4b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:cd4ee37ef988af9d682338b2021055348e435d1f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T06:35:35.000+02:00",
+      "title": "Measure geographic line-to-line distance",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/cd4ee37ef988af9d682338b2021055348e435d1f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:424e9a32b52d62faffbf8df211bb14340ebfc99d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T06:18:40.000+02:00",
+      "title": "Extract geographic point-to-segment distance",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/424e9a32b52d62faffbf8df211bb14340ebfc99d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:fb114bc4cdd0ce195c626bfae04a7864d9e028ae",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T06:16:38.000+02:00",
+      "title": "Measure geographic point-to-line distance",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/fb114bc4cdd0ce195c626bfae04a7864d9e028ae"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ad4a4fbe051100b1211ac64bd9cf0419b29cec26",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T06:06:08.000+02:00",
+      "title": "Wrap longitude in inverse projected transforms",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ad4a4fbe051100b1211ac64bd9cf0419b29cec26"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a40fb30eaf851022b98b194b0754b658cdeba896",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T05:59:53.000+02:00",
+      "title": "Transform ETRS89 and NAD83 coordinates through WGS84",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a40fb30eaf851022b98b194b0754b658cdeba896"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:bbcc41740262cb077db26c334e9b063539f6643b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T05:56:25.000+02:00",
+      "title": "Register ETRS89 and NAD83 geographic reference systems",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/bbcc41740262cb077db26c334e9b063539f6643b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2485b3c291585b244a60ac1a7dbf38fe57b12bba",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T05:52:46.000+02:00",
+      "title": "Support geographic point-set topology predicates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2485b3c291585b244a60ac1a7dbf38fe57b12bba"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d34c9c4055c72bf3e62d561a0f9906e7235f1d53",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T05:45:39.000+02:00",
+      "title": "Share minimum point-set distance across geographic strategies",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d34c9c4055c72bf3e62d561a0f9906e7235f1d53"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:77d10a9335865dcb059d2fd6a45d3c1dbc4dfd00",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T05:42:50.000+02:00",
+      "title": "Support geographic multipoint distance",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/77d10a9335865dcb059d2fd6a45d3c1dbc4dfd00"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c1f1bfbe2d5642440f2fefa05c5d118e53d06fe2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T05:34:30.000+02:00",
+      "title": "Bound table-size metadata estimation to live row sample",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c1f1bfbe2d5642440f2fefa05c5d118e53d06fe2"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6841825e616c78d01d5a95c8359f019a65387d64",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T05:29:51.000+02:00",
+      "title": "Unify page-rounded table-size metadata",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6841825e616c78d01d5a95c8359f019a65387d64"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4be5a0cb47e6a8f41f0fa94395b4520b5e3dcce4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T05:25:16.000+02:00",
+      "title": "Make table-size oracle probe reproducible",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4be5a0cb47e6a8f41f0fa94395b4520b5e3dcce4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d62f68328d1a5dae122c1a78c276a2958286aa7d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T05:24:38.000+02:00",
+      "title": "Record MySQL table-size metadata boundary",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d62f68328d1a5dae122c1a78c276a2958286aa7d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7ccebfdc81eb81582841585c1bfed2de859a57e3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T05:23:03.000+02:00",
+      "title": "Simplify full-text count source flow",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7ccebfdc81eb81582841585c1bfed2de859a57e3"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c28c19a8bb4d935e5c6490299597381e2299b7d9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T05:20:29.000+02:00",
+      "title": "Count non-null literals from full-text postings",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c28c19a8bb4d935e5c6490299597381e2299b7d9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ade1782a3fc9f46606d55bb1d8fcfdaaae991e33",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T05:16:55.000+02:00",
+      "title": "Skip unused virtual columns in full-text posting counts",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ade1782a3fc9f46606d55bb1d8fcfdaaae991e33"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:09a6655b2e94520407604655e999d61767151571",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T05:12:32.000+02:00",
+      "title": "Use full-text postings for direct COUNT aggregates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/09a6655b2e94520407604655e999d61767151571"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:fb7a4e88c77b95cdcd78daefb4059986210a9da3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T05:06:28.000+02:00",
+      "title": "Pin grouped full-text slow-log counts to MySQL",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/fb7a4e88c77b95cdcd78daefb4059986210a9da3"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:aa61ce7f7635791afcec37424f0d6adacafad34b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T04:59:51.000+02:00",
+      "title": "Name reusable full-text scores in join planning",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/aa61ce7f7635791afcec37424f0d6adacafad34b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:fa3b62f18b673d34f126c134213ce2419965efa5",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T04:55:53.000+02:00",
+      "title": "Cost unbounded full-text join order from posting count",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/fa3b62f18b673d34f126c134213ce2419965efa5"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ecd8534dcf590b1b7ccb439d303568d0ae203866",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T04:50:00.000+02:00",
+      "title": "Drive Boolean full-text joins from postings with LIMIT",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ecd8534dcf590b1b7ccb439d303568d0ae203866"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:afee83c6be37ec6581185ba116733ce97babe5cf",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T04:44:08.000+02:00",
+      "title": "Count full-text base rows in indexed joins",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/afee83c6be37ec6581185ba116733ce97babe5cf"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2376bc7a57c5e926fbf436af47b3c1ca7e2cf301",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T04:40:10.000+02:00",
+      "title": "Record full-text relevance benchmark before and after streaming",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2376bc7a57c5e926fbf436af47b3c1ca7e2cf301"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e6735c5ffd1c860ca7696d570e3f5c02404d9c91",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T04:35:32.000+02:00",
+      "title": "Match MySQL full-text sort examination counts",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e6735c5ffd1c860ca7696d570e3f5c02404d9c91"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d6fc0e155ad43a6d78899415301ed1aadce6b6b2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T04:24:19.000+02:00",
+      "title": "Count single-table full-text candidates in slow log",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d6fc0e155ad43a6d78899415301ed1aadce6b6b2"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6feefc5c4e4b289924919ea5e1e11210f48ca4f7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T04:18:24.000+02:00",
+      "title": "Share session time zone resolution across query paths",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6feefc5c4e4b289924919ea5e1e11210f48ca4f7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:19ac10fd6151fa9ca11b7efeba30ec19a9021e93",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T04:15:32.000+02:00",
+      "title": "Use session date for TIME day interval arithmetic",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/19ac10fd6151fa9ca11b7efeba30ec19a9021e93"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ed1f0eb55c098c2d06c13d82678ba59b54f5ddc9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T04:08:43.000+02:00",
+      "title": "Carry extended TIME offsets into date intervals",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ed1f0eb55c098c2d06c13d82678ba59b54f5ddc9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:549636b8b8f072d79d539d16cd3e17ab3c5ab9ea",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T04:04:15.000+02:00",
+      "title": "Preserve TIME arithmetic across subday intervals",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/549636b8b8f072d79d539d16cd3e17ab3c5ab9ea"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e8e23e3ef8b004457aadd39de3272ad518315627",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T03:51:36.000+02:00",
+      "title": "Report interval arithmetic as temporal on the wire",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e8e23e3ef8b004457aadd39de3272ad518315627"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f69a044c269e1f6f78a4e014881c876759681420",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T03:45:46.000+02:00",
+      "title": "Verify negated range writes and simplify key guard",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f69a044c269e1f6f78a4e014881c876759681420"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f874d0757289ecab33f4a1118e3f0aaad55c0169",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T03:41:32.000+02:00",
+      "title": "Use indexed integer inequality unions in joins",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f874d0757289ecab33f4a1118e3f0aaad55c0169"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f3fe27984f6bfcb72d11abd0ee6aa762d432880c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T03:36:42.000+02:00",
+      "title": "Plan negated ranges through shared index classifier",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f3fe27984f6bfcb72d11abd0ee6aa762d432880c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3a4d2d0978e766469d64c32115f4b53ac47f21ec",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T03:30:18.000+02:00",
+      "title": "Use indexed bounds for negated outer-join ranges",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3a4d2d0978e766469d64c32115f4b53ac47f21ec"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5e5ff093035e5c07a9b1f48566d0f8edf5d43069",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T03:24:21.000+02:00",
+      "title": "Share hash join key-domain guard",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5e5ff093035e5c07a9b1f48566d0f8edf5d43069"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:02aeca5630bc3c878cfa9a6f01da3a455bce1410",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T03:22:03.000+02:00",
+      "title": "Drive null-rejected IN and BETWEEN joins from indexes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/02aeca5630bc3c878cfa9a6f01da3a455bce1410"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:51501d23c9e645bc346496458d5ba88f95dcfaab",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T03:18:23.000+02:00",
+      "title": "Benchmark null-rejected indexed OR join",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/51501d23c9e645bc346496458d5ba88f95dcfaab"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e2597033312c64d35d26df24c1fc79700ea2c1c5",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T03:11:58.000+02:00",
+      "title": "Use indexed OR candidates for null-rejected joins",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e2597033312c64d35d26df24c1fc79700ea2c1c5"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:be60f12c0070f711785521f84c3fd1d733c179bc",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T03:04:51.000+02:00",
+      "title": "Cover null-rejected right join candidate counts",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/be60f12c0070f711785521f84c3fd1d733c179bc"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:bd005e4b2c7a780dd39b7ee84b8a5f5c03488b3e",
       "kind": "commit",
@@ -6883,102 +7315,6 @@
       "at": "2026-09-27T13:21:18.000+02:00",
       "title": "Refactor session adapters and improve picker scrolling",
       "url": "https://github.com/HelgeSverre/resume/commit/a279d3486bdf92cf8ed70088e3d9c910d06bb613"
-    },
-    {
-      "id": "commit:HelgeSverre/herd-php-autoswitch:8d580ea3daff1312d36fafb29258b4af1bc47bc0",
-      "kind": "commit",
-      "repo": "HelgeSverre/herd-php-autoswitch",
-      "at": "2026-09-27T08:25:09.000+02:00",
-      "title": "Document and test git worktrees",
-      "url": "https://github.com/HelgeSverre/herd-php-autoswitch/commit/8d580ea3daff1312d36fafb29258b4af1bc47bc0"
-    },
-    {
-      "id": "commit:HelgeSverre/herd-php-autoswitch:0594a8f2bc48d7fc60b80984a3a300f17c38af99",
-      "kind": "commit",
-      "repo": "HelgeSverre/herd-php-autoswitch",
-      "at": "2026-09-27T07:45:09.000+02:00",
-      "title": "Find sites the way Herd does, and warn when the isolated PHP is missing",
-      "url": "https://github.com/HelgeSverre/herd-php-autoswitch/commit/0594a8f2bc48d7fc60b80984a3a300f17c38af99"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:17c1f761507a47887103b9066862bbfb480edf92",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-09-27T06:19:57.000+02:00",
-      "title": "README: framed screenshot",
-      "url": "https://github.com/HelgeSverre/splash/commit/17c1f761507a47887103b9066862bbfb480edf92"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:81004af00b2a99b3fdcbe41f51b8cbc8b8cb45df",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-09-27T06:17:31.000+02:00",
-      "title": "Add MIT license",
-      "url": "https://github.com/HelgeSverre/splash/commit/81004af00b2a99b3fdcbe41f51b8cbc8b8cb45df"
-    },
-    {
-      "id": "commit:HelgeSverre/herd-php-autoswitch:0f9ebbb1557d3d6cf172283e7085e6f7fcb46346",
-      "kind": "commit",
-      "repo": "HelgeSverre/herd-php-autoswitch",
-      "at": "2026-09-27T06:16:33.000+02:00",
-      "title": "Demo: tell the whole story, from herd isolate to switching back",
-      "url": "https://github.com/HelgeSverre/herd-php-autoswitch/commit/0f9ebbb1557d3d6cf172283e7085e6f7fcb46346"
-    },
-    {
-      "id": "commit:HelgeSverre/herd-php-autoswitch:485d59825eb977df383a24b01094987d1c0c2d46",
-      "kind": "commit",
-      "repo": "HelgeSverre/herd-php-autoswitch",
-      "at": "2026-09-27T05:42:57.000+02:00",
-      "title": "README: demo GIF and plainer language throughout",
-      "url": "https://github.com/HelgeSverre/herd-php-autoswitch/commit/485d59825eb977df383a24b01094987d1c0c2d46"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:07d09c45586c69083384319efdb8ac4a1582b443",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-09-27T05:42:50.000+02:00",
-      "title": "Prepare for GitHub: README, CI and release workflows",
-      "url": "https://github.com/HelgeSverre/splash/commit/07d09c45586c69083384319efdb8ac4a1582b443"
-    },
-    {
-      "id": "commit:HelgeSverre/herd-php-autoswitch:0dae6714638d44fc3ad426a72b90a3f1c5574ae2",
-      "kind": "commit",
-      "repo": "HelgeSverre/herd-php-autoswitch",
-      "at": "2026-09-27T05:35:22.000+02:00",
-      "title": "README: simpler opening pitch",
-      "url": "https://github.com/HelgeSverre/herd-php-autoswitch/commit/0dae6714638d44fc3ad426a72b90a3f1c5574ae2"
-    },
-    {
-      "id": "commit:HelgeSverre/herd-php-autoswitch:953c4df6cdf9bd8d778bde70d482c93a90a9a3e9",
-      "kind": "commit",
-      "repo": "HelgeSverre/herd-php-autoswitch",
-      "at": "2026-09-27T05:31:37.000+02:00",
-      "title": "README: tighter pitch, consistent badges, linked plugin managers",
-      "url": "https://github.com/HelgeSverre/herd-php-autoswitch/commit/953c4df6cdf9bd8d778bde70d482c93a90a9a3e9"
-    },
-    {
-      "id": "commit:HelgeSverre/herd-php-autoswitch:a157427f6188951d60f791691c6927a35acd8772",
-      "kind": "commit",
-      "repo": "HelgeSverre/herd-php-autoswitch",
-      "at": "2026-09-27T04:44:18.000+02:00",
-      "title": "PowerShell: fall back to a prompt hook on Windows PowerShell 5.1",
-      "url": "https://github.com/HelgeSverre/herd-php-autoswitch/commit/a157427f6188951d60f791691c6927a35acd8772"
-    },
-    {
-      "id": "commit:HelgeSverre/herd-php-autoswitch:5bc42e4a069ee9c3a305130b8ef3aef0fc6457ba",
-      "kind": "commit",
-      "repo": "HelgeSverre/herd-php-autoswitch",
-      "at": "2026-09-27T04:41:04.000+02:00",
-      "title": "Make php in the terminal follow herd isolate",
-      "url": "https://github.com/HelgeSverre/herd-php-autoswitch/commit/5bc42e4a069ee9c3a305130b8ef3aef0fc6457ba"
-    },
-    {
-      "id": "commit:HelgeSverre/brain:ccc21abe24c5778051af8fe7849c93ffd64673df",
-      "kind": "commit",
-      "repo": "HelgeSverre/brain",
-      "at": "2026-09-27T03:32:29.000+02:00",
-      "title": "Add changelog",
-      "url": "https://github.com/HelgeSverre/brain/commit/ccc21abe24c5778051af8fe7849c93ffd64673df"
     },
     {
       "id": "release:HelgeSverre/clickmore:409019919",
