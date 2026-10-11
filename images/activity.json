@@ -1,9 +1,361 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-11T12:29:00.268Z",
-  "since": "2026-09-27T12:29:00.268Z",
-  "partial": false,
+  "fetchedAt": "2026-10-11T18:24:00.024Z",
+  "since": "2026-09-27T18:24:00.024Z",
+  "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:c0c6b7fe4db03b0ca0fdb5e850370df371efdf7e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T20:08:40.000+02:00",
+      "title": "Parse typed CONVERT through shared cast targets",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c0c6b7fe4db03b0ca0fdb5e850370df371efdf7e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:957a7c0d2cbacc3f128cd2772285e93dd076778a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T20:00:53.000+02:00",
+      "title": "Reject unknown conversion charsets before evaluation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/957a7c0d2cbacc3f128cd2772285e93dd076778a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:27cdd41374795d909c31f5824a5d07d9af5afc02",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T19:52:05.000+02:00",
+      "title": "Match binary charset CAST byte widths",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/27cdd41374795d909c31f5824a5d07d9af5afc02"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:cd4f753b22ef6cf1d29d6b1a15d7ec8ef7c16c80",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T19:45:24.000+02:00",
+      "title": "Preserve charset and width in CAST AS CHAR",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/cd4f753b22ef6cf1d29d6b1a15d7ec8ef7c16c80"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c0dc02cade293b39536d6d14726ab037d2b0d47e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T19:19:54.000+02:00",
+      "title": "Select single-byte conversion rules once",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c0dc02cade293b39536d6d14726ab037d2b0d47e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d1a713d33ca931ec711569269df67eee088a339c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T19:15:21.000+02:00",
+      "title": "Retain target charset bytes from text CONVERT",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d1a713d33ca931ec711569269df67eee088a339c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f1ba097aaa8b1184555cf644c65a759bf0dbf51d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T19:09:43.000+02:00",
+      "title": "Retain valid encoded bytes through CONVERT",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f1ba097aaa8b1184555cf644c65a759bf0dbf51d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ea0fad6963bf5e9b254df902859a4e85140eb3e1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T19:04:16.000+02:00",
+      "title": "Preserve encoded source semantics in CONVERT",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ea0fad6963bf5e9b254df902859a4e85140eb3e1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:311a30d55d645e6cc19ba9983c4b942ae0731607",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T18:54:03.000+02:00",
+      "title": "Preserve single-byte CONVERT bytes and warnings",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/311a30d55d645e6cc19ba9983c4b942ae0731607"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a2b345a59c031696395fb9e59926c16e3dd8e51b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T18:42:49.000+02:00",
+      "title": "Match invalid legacy CONVERT byte diagnostics",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a2b345a59c031696395fb9e59926c16e3dd8e51b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8da071eabd0a414b73e5cdf0081ac6641fa17176",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T18:37:16.000+02:00",
+      "title": "Clarify regex property and charset deprecation rules",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8da071eabd0a414b73e5cdf0081ac6641fa17176"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:566f1cac3b205faae6e77bbaac0e6fc284e8e6a1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T18:31:06.000+02:00",
+      "title": "Match invalid-byte CONVERT USING diagnostics",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/566f1cac3b205faae6e77bbaac0e6fc284e8e6a1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:88420a7634cc86cf263d0efdbb78a3343ebb2d48",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T18:17:33.000+02:00",
+      "title": "Decode binary literals in CONVERT USING charset",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/88420a7634cc86cf263d0efdbb78a3343ebb2d48"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:65130958c01c31323fa720be63ecc86869cdae2f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T18:10:51.000+02:00",
+      "title": "Match MySQL REGEXP Any scalar property",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/65130958c01c31323fa720be63ecc86869cdae2f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:74e37dedc5b565774228e0220b6f6844a3b2ce87",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T18:01:48.000+02:00",
+      "title": "Match audited MySQL REGEXP letter escapes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/74e37dedc5b565774228e0220b6f6844a3b2ce87"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7358a9c6a127a44fa2b4805cbc56f5a1950da216",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T17:52:07.000+02:00",
+      "title": "Match audited MySQL possessive REGEXP quantifiers",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7358a9c6a127a44fa2b4805cbc56f5a1950da216"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3d4f1a0b33c2044afe46861a6e95e6a431907325",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T17:39:00.000+02:00",
+      "title": "Match audited MySQL REGEXP diagnostics",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3d4f1a0b33c2044afe46861a6e95e6a431907325"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:561d24bfd1cb8f0762ea55fcc213898c05dd4d54",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T17:22:06.000+02:00",
+      "title": "Reduce stored-function session scope allocation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/561d24bfd1cb8f0762ea55fcc213898c05dd4d54"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:449f695cb780deae33177393f32d12c78eee2d5e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T17:18:03.000+02:00",
+      "title": "Reduce prepared division-precision scope allocation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/449f695cb780deae33177393f32d12c78eee2d5e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9476e7449279308b3a5caed5f741a942915d5ddd",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T17:12:20.000+02:00",
+      "title": "Consume supplementary symbols in negative regex properties",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9476e7449279308b3a5caed5f741a942915d5ddd"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:505e7d72a6963d0d3a5751a3e6203e59f2fdd437",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T17:06:19.000+02:00",
+      "title": "Match supplementary symbols in negated POSIX regex classes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/505e7d72a6963d0d3a5751a3e6203e59f2fdd437"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:be66054496d7457e8e7ff9df9ae9f40137cfefc4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T16:55:33.000+02:00",
+      "title": "Reduce synchronous trigger-scope allocation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/be66054496d7457e8e7ff9df9ae9f40137cfefc4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:bf584266b6fe06e72f9a6eac3310be957e8ddce1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T16:50:04.000+02:00",
+      "title": "Skip empty stored-function registry decoration",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/bf584266b6fe06e72f9a6eac3310be957e8ddce1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:02ef8726c2511322cdf33f28cde64282430a5745",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T16:41:00.000+02:00",
+      "title": "Reduce synchronous function-scope allocation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/02ef8726c2511322cdf33f28cde64282430a5745"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5498cf6d5666d7c54445f0f6df1885e32c34fbb6",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T16:34:55.000+02:00",
+      "title": "Reduce synchronous variable-scope allocation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5498cf6d5666d7c54445f0f6df1885e32c34fbb6"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:164b0c9ac3f04b33bd6038cb74ad89b378bb22e6",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T16:21:03.000+02:00",
+      "title": "Place scalar EXPLAIN children within UNION branches",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/164b0c9ac3f04b33bd6038cb74ad89b378bb22e6"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8e42e67c4430967534785858bf96de97718deeb4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T16:15:25.000+02:00",
+      "title": "Place derived-source predicate subqueries in JSON plans",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8e42e67c4430967534785858bf96de97718deeb4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d354b65138c7f995b037ef9c108f73a1ad159657",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T16:10:05.000+02:00",
+      "title": "Nest scalar EXPLAIN plans beside materialized derived sources",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d354b65138c7f995b037ef9c108f73a1ad159657"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:90f9fa432ec872a872b447983b8d8a76bbee31d3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T15:59:05.000+02:00",
+      "title": "Reduce execution-limit scope allocation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/90f9fa432ec872a872b447983b8d8a76bbee31d3"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0f7c94dab377045ed684974afb7c1a714cf2788e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T15:48:02.000+02:00",
+      "title": "Split scalar EXPLAIN regressions by plan shape",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0f7c94dab377045ed684974afb7c1a714cf2788e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f3d6be0661e9bd6d379041fe70601eeaa9670ce7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T15:43:59.000+02:00",
+      "title": "Cover grouped mixed-clause scalar EXPLAIN plans",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f3d6be0661e9bd6d379041fe70601eeaa9670ce7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1fe3f4eeb9c8674d36c80070ce38fabc556e16fa",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T15:40:46.000+02:00",
+      "title": "Render ordered mixed-clause scalar EXPLAIN plans",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1fe3f4eeb9c8674d36c80070ce38fabc556e16fa"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:708fb9b26a3dcbf7ab5645be2168656cc31aeb4e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T15:35:50.000+02:00",
+      "title": "Render mixed-clause scalar EXPLAIN children by owner",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/708fb9b26a3dcbf7ab5645be2168656cc31aeb4e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:27295a8b2f92d5f018593024b54e9e13a0d66762",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T15:30:24.000+02:00",
+      "title": "Nest independent DISTINCT order scalars in JSON plans",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/27295a8b2f92d5f018593024b54e9e13a0d66762"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b3948540f8b553b33b5f41d163a671058f83196f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T15:25:39.000+02:00",
+      "title": "Place independent scalar subqueries in grouped plans",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b3948540f8b553b33b5f41d163a671058f83196f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e43118ec1e7416f857dcd209c14b5f3be6a623ea",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T15:22:24.000+02:00",
+      "title": "Place independent scalar EXPLAIN subqueries by clause",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e43118ec1e7416f857dcd209c14b5f3be6a623ea"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5806b4fd25ebdef23cd829c0ae5c35102c1b3e54",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T15:15:12.000+02:00",
+      "title": "Match scalar DISTINCT ordering EXPLAIN plans",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5806b4fd25ebdef23cd829c0ae5c35102c1b3e54"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4f2cd9bcaaeadd003e28e3248a3ed451b6e680e9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T15:09:54.000+02:00",
+      "title": "Compose combined scalar EXPLAIN operations",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4f2cd9bcaaeadd003e28e3248a3ed451b6e680e9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3f5a943e2abc1ac26964413a294295fabf2a5d42",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T15:00:52.000+02:00",
+      "title": "Nest scalar EXPLAIN plans under clause operations",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3f5a943e2abc1ac26964413a294295fabf2a5d42"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:937dd5d4fc9efed5b722a187188ada4eb1d5d861",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T14:53:04.000+02:00",
+      "title": "Nest dependent WHERE scalar EXPLAIN plans",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/937dd5d4fc9efed5b722a187188ada4eb1d5d861"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:90a7a03b6ecbc5ec20dd408c73c44f1cbc60b31d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T14:46:39.000+02:00",
+      "title": "Correct scalar EXPLAIN placement and cover single SELECT",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/90a7a03b6ecbc5ec20dd408c73c44f1cbc60b31d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3c2429583aa6234a8c36e942b2c7bf5a03f3350a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T14:41:31.000+02:00",
+      "title": "Nest scalar projection subqueries in UNION JSON plans",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3c2429583aa6234a8c36e942b2c7bf5a03f3350a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0f60fa762bdc33b096677854fabf69b71573aa94",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T14:36:21.000+02:00",
+      "title": "Record native scalar subquery EXPLAIN hierarchy",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0f60fa762bdc33b096677854fabf69b71573aa94"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f90062bfe25748a26bb78515ac6882c0b42cb8d0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T14:33:45.000+02:00",
+      "title": "Match ICU ASCII regex property aliases",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f90062bfe25748a26bb78515ac6882c0b42cb8d0"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:df33c9d68874eb265b3bbd7b4e6e8931082447b7",
       "kind": "commit",
@@ -7629,92 +7981,12 @@
       "url": "https://github.com/sema-lisp/sema/commit/dd252c0f195e4d905403b6626e3d9a723c5ee75c"
     },
     {
-      "id": "commit:sema-lisp/sema:dade4c3d3b87f64f36191c088bb9341c46b08e2f",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T09:35:59.000+02:00",
-      "title": "test: isolate grammar argument fixtures from checkout binaries",
-      "url": "https://github.com/sema-lisp/sema/commit/dade4c3d3b87f64f36191c088bb9341c46b08e2f"
-    },
-    {
-      "id": "commit:sema-lisp/sema:3cadd249e6ddbfe805223e972e343ea4b064a5c3",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T09:35:20.000+02:00",
-      "title": "test: isolate grammar argument fixtures from checkout binaries",
-      "url": "https://github.com/sema-lisp/sema/commit/3cadd249e6ddbfe805223e972e343ea4b064a5c3"
-    },
-    {
-      "id": "commit:sema-lisp/sema:8a4b0964d2cba54959530cc5feaaaaaa08113657",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T09:28:31.000+02:00",
-      "title": "ci: validate release branches and use release refs for MCP bundles",
-      "url": "https://github.com/sema-lisp/sema/commit/8a4b0964d2cba54959530cc5feaaaaaa08113657"
-    },
-    {
-      "id": "commit:sema-lisp/sema:cae9b254a1510a0e2b787900ebb783b5f470cbdb",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T09:28:30.000+02:00",
-      "title": "release: validate signed and notarized macOS artifacts before publication",
-      "url": "https://github.com/sema-lisp/sema/commit/cae9b254a1510a0e2b787900ebb783b5f470cbdb"
-    },
-    {
-      "id": "commit:sema-lisp/sema:dbcea6962254d34a7db07f157359fc2275fce9de",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T09:27:50.000+02:00",
-      "title": "release: validate signed and notarized macOS artifacts before publication",
-      "url": "https://github.com/sema-lisp/sema/commit/dbcea6962254d34a7db07f157359fc2275fce9de"
-    },
-    {
-      "id": "commit:sema-lisp/sema:5a41bf278606224b356d7d850d4888c59b60c784",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T09:24:43.000+02:00",
-      "title": "ci: validate release branches with the shared verify gate",
-      "url": "https://github.com/sema-lisp/sema/commit/5a41bf278606224b356d7d850d4888c59b60c784"
-    },
-    {
-      "id": "commit:sema-lisp/sema:9e681d6252b62675408bcf44be0df098f735f648",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T09:24:38.000+02:00",
-      "title": "ci: validate release branches with the shared verify gate",
-      "url": "https://github.com/sema-lisp/sema/commit/9e681d6252b62675408bcf44be0df098f735f648"
-    },
-    {
-      "id": "commit:sema-lisp/sema:f26db09f90fc012a19b6b481071571cc1005758b",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T08:40:34.000+02:00",
-      "title": "fix(release): stabilize browser runtime and prepare 1.37.0-rc.1",
-      "url": "https://github.com/sema-lisp/sema/commit/f26db09f90fc012a19b6b481071571cc1005758b"
-    },
-    {
-      "id": "commit:sema-lisp/sema:75042ab5b275b02124ab100e24c811dddb61902a",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T08:40:32.000+02:00",
-      "title": "fix(release): prepare 1.36.1 with statically linked macOS liblzma",
-      "url": "https://github.com/sema-lisp/sema/commit/75042ab5b275b02124ab100e24c811dddb61902a"
-    },
-    {
       "id": "pr:HelgeSverre/sourcefour:7",
       "kind": "merge",
       "repo": "HelgeSverre/sourcefour",
       "at": "2026-10-05T07:48:44Z",
       "title": "Distribute a stapled app ZIP for Homebrew cask installs",
       "url": "https://github.com/HelgeSverre/sourcefour/pull/7"
-    },
-    {
-      "id": "commit:HelgeSverre/sourcefour:406a17dc220d5268895508f532b1a7ee1672f0e0",
-      "kind": "commit",
-      "repo": "HelgeSverre/sourcefour",
-      "at": "2026-09-28T12:13:07.000+02:00",
-      "title": "release: v0.1.5",
-      "url": "https://github.com/HelgeSverre/sourcefour/commit/406a17dc220d5268895508f532b1a7ee1672f0e0"
     },
     {
       "id": "release:HelgeSverre/clickmore:409019919",
