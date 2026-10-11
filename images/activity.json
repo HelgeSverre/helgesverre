@@ -1,9 +1,369 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-10T18:23:23.370Z",
-  "since": "2026-09-26T18:23:23.370Z",
+  "fetchedAt": "2026-10-11T01:02:00.504Z",
+  "since": "2026-09-27T01:02:00.504Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:bd005e4b2c7a780dd39b7ee84b8a5f5c03488b3e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T02:58:06.000+02:00",
+      "title": "Drive null-rejected left joins from indexed filters",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/bd005e4b2c7a780dd39b7ee84b8a5f5c03488b3e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9017fa332566ad3b570069437645a8de14347e51",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T02:48:34.000+02:00",
+      "title": "Apply indexed nullable-side filters to full left joins",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9017fa332566ad3b570069437645a8de14347e51"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a2ec72e7fda2c570dfecd747f369f5667dc7b53b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T02:43:49.000+02:00",
+      "title": "Push indexed right ON filters before limited left joins",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a2ec72e7fda2c570dfecd747f369f5667dc7b53b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:964f2aa63eaf3bf627ef503f91f395cfaf26d877",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T02:39:06.000+02:00",
+      "title": "Stream scan-shaped left joins under LIMIT",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/964f2aa63eaf3bf627ef503f91f395cfaf26d877"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:95dadf65b11465c6fa6fa5fefd8723b8ee01c7c5",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T02:27:53.000+02:00",
+      "title": "Exclude hash join sizing reads from slow-log counts",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/95dadf65b11465c6fa6fa5fefd8723b8ee01c7c5"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:bf75b5ddebf8d830f522cfae633e867ae88f7b34",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T02:23:58.000+02:00",
+      "title": "Count preserved-right join candidates in slow log",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/bf75b5ddebf8d830f522cfae633e867ae88f7b34"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c6bf8e09449b2b878aefcbc27109280b32abdb79",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T02:19:29.000+02:00",
+      "title": "Count indexed and scan join candidates in slow log",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c6bf8e09449b2b878aefcbc27109280b32abdb79"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1ad1df4b267f247e8d7113807d382b3731b632d6",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T02:13:15.000+02:00",
+      "title": "Match MySQL empty-query comment delimiter errors",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1ad1df4b267f247e8d7113807d382b3731b632d6"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4ee1aeb28631e577a8055c7ac3e5ec5835860fb4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T02:07:26.000+02:00",
+      "title": "Match MySQL wire errors for malformed field lists and database selection",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4ee1aeb28631e577a8055c7ac3e5ec5835860fb4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:16fe676add1aca91912847a95f1055566cd778a5",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T02:00:14.000+02:00",
+      "title": "Match view field-list string descriptor scale",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/16fe676add1aca91912847a95f1055566cd778a5"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7f49009bbf7212ee4750ea8698da044e64bf9495",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T01:55:23.000+02:00",
+      "title": "Record slow-log helper performance comparison",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7f49009bbf7212ee4750ea8698da044e64bf9495"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:225fde1b2efb7f0472c99b07eb0fa3ede602e8ea",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T01:53:27.000+02:00",
+      "title": "Report invalid views in COM_FIELD_LIST",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/225fde1b2efb7f0472c99b07eb0fa3ede602e8ea"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2796f08902b0f2fb9e387cda630ae8a270e5ac8b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T01:49:02.000+02:00",
+      "title": "Describe views in COM_FIELD_LIST",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2796f08902b0f2fb9e387cda630ae8a270e5ac8b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ca4a45131488c1dd8c5f59caac8d0c5ea6be0ea0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T01:45:11.000+02:00",
+      "title": "Centralize completed-statement slow logging",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ca4a45131488c1dd8c5f59caac8d0c5ea6be0ea0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a4a84d85c6c3ae1be2a7f81945b4ee294c89fa95",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T01:42:16.000+02:00",
+      "title": "Count COM_STATISTICS as a question",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a4a84d85c6c3ae1be2a7f81945b4ee294c89fa95"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:69866157d417a432fffa58d43eae9f6cb7a582f7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T01:38:42.000+02:00",
+      "title": "Report live slow query count in COM_STATISTICS",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/69866157d417a432fffa58d43eae9f6cb7a582f7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:11b1b4379e92f954f3a611a20fcb1b50ebbe4dd0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T01:35:05.000+02:00",
+      "title": "Verify INSERT SELECT slow-log examined rows",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/11b1b4379e92f954f3a611a20fcb1b50ebbe4dd0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:cb603ebb553b5ee7d236dd16bcb52752a43db13d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T01:31:08.000+02:00",
+      "title": "Apply COM_FIELD_LIST column wildcard",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/cb603ebb553b5ee7d236dd16bcb52752a43db13d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:986ed16cd255c09052d6a1663c80c23ad4eb7f64",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T01:26:04.000+02:00",
+      "title": "Log statistics and debug wire commands",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/986ed16cd255c09052d6a1663c80c23ad4eb7f64"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8ff786c8a206f73724d3dda01972ca7abf05ed65",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T01:22:44.000+02:00",
+      "title": "Log COM_FIELD_LIST requests with wildcard",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8ff786c8a206f73724d3dda01972ca7abf05ed65"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:479138a119692c5eb5f0afa7c51188152ac5a8f7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T01:19:31.000+02:00",
+      "title": "Count examined mutation candidates in slow log",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/479138a119692c5eb5f0afa7c51188152ac5a8f7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:11099278463428bca93bb583a7378c66a07ad69a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T01:14:54.000+02:00",
+      "title": "Write table slow log with examined-row accounting",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/11099278463428bca93bb583a7378c66a07ad69a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:00d94d45672d6264a744ae2e77b47a48f974649b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T01:05:35.000+02:00",
+      "title": "Respect NONE log output and pin slow-log oracle",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/00d94d45672d6264a744ae2e77b47a48f974649b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:98ce536b704d2bf9733c43af3be2d2ca4991d358",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T01:02:29.000+02:00",
+      "title": "Log MySQL wire connection lifecycle events",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/98ce536b704d2bf9733c43af3be2d2ca4991d358"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7202ac872909ea66da20044ae4da3637cf90ed06",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T00:57:19.000+02:00",
+      "title": "Log prepared statement lifecycle to general log table",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7202ac872909ea66da20044ae4da3637cf90ed06"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c5b9de085a07ec83b662f4295668afa0433f5884",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T00:52:11.000+02:00",
+      "title": "Record text queries in MySQL general log table",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c5b9de085a07ec83b662f4295668afa0433f5884"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:441b387a66a6a2d8fddb883ccee1dcf6f1af14c2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T00:38:16.000+02:00",
+      "title": "Record MySQL general log oracle baseline",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/441b387a66a6a2d8fddb883ccee1dcf6f1af14c2"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b912ed12a9f6abedb98bd95e6a47abda39b30853",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T00:36:54.000+02:00",
+      "title": "Record current lookup profile limitation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b912ed12a9f6abedb98bd95e6a47abda39b30853"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ff7d95fa5474ced1ab6c0fa354d8eb9c3bee1a38",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T00:32:02.000+02:00",
+      "title": "Record async scope allocation follow-up",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ff7d95fa5474ced1ab6c0fa354d8eb9c3bee1a38"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7c5f1e951d84b8d18f10b3b46ec59d868731fac0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T00:30:37.000+02:00",
+      "title": "Avoid redundant async scope writes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7c5f1e951d84b8d18f10b3b46ec59d868731fac0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:50057db6b9d505e6aa65939dbe6d324ae3d451da",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T00:06:42.000+02:00",
+      "title": "Cache session function registries for repeated queries",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/50057db6b9d505e6aa65939dbe6d324ae3d451da"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2efaf3e5f33113f1121aeca3d9cf6a343cf99b36",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T23:18:08.000+02:00",
+      "title": "Release Fsdb 0.1.0-preview.4",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2efaf3e5f33113f1121aeca3d9cf6a343cf99b36"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c231d3f806a47cf940a998068ededdf630e3b6dd",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T23:13:05.000+02:00",
+      "title": "Add reusable prepared commands to embedded API",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c231d3f806a47cf940a998068ededdf630e3b6dd"
+    },
+    {
+      "id": "commit:HelgeSverre/llmflow:a5dfff73c268b1c24a5302fa9ebdeef844b5886b",
+      "kind": "commit",
+      "repo": "HelgeSverre/llmflow",
+      "at": "2026-10-10T22:26:38.000+02:00",
+      "title": "backlog: record green release CI and remaining publishing setup",
+      "url": "https://github.com/HelgeSverre/llmflow/commit/a5dfff73c268b1c24a5302fa9ebdeef844b5886b"
+    },
+    {
+      "id": "commit:HelgeSverre/llmflow:46e55632446f7ee0fa045d2a5b1bd8c445bff553",
+      "kind": "commit",
+      "repo": "HelgeSverre/llmflow",
+      "at": "2026-10-10T22:23:22.000+02:00",
+      "title": "backlog: record verified 0.5.0 release candidate and publishing prerequisites",
+      "url": "https://github.com/HelgeSverre/llmflow/commit/46e55632446f7ee0fa045d2a5b1bd8c445bff553"
+    },
+    {
+      "id": "commit:HelgeSverre/llmflow:9eaae70a508b8e3f91bd4bf9429072394da6c2a4",
+      "kind": "commit",
+      "repo": "HelgeSverre/llmflow",
+      "at": "2026-10-10T22:20:30.000+02:00",
+      "title": "Release v0.5.0",
+      "url": "https://github.com/HelgeSverre/llmflow/commit/9eaae70a508b8e3f91bd4bf9429072394da6c2a4"
+    },
+    {
+      "id": "commit:HelgeSverre/llmflow:f0ccd2fb644e1a1d45cf4974e40c138c921bfcf4",
+      "kind": "commit",
+      "repo": "HelgeSverre/llmflow",
+      "at": "2026-10-10T22:20:30.000+02:00",
+      "title": "Prepare 0.5.0 release verification and bundled pricing",
+      "url": "https://github.com/HelgeSverre/llmflow/commit/f0ccd2fb644e1a1d45cf4974e40c138c921bfcf4"
+    },
+    {
+      "id": "commit:HelgeSverre/llmflow:7feef88c1f6fc6df0c39b9048e321189cb79d890",
+      "kind": "commit",
+      "repo": "HelgeSverre/llmflow",
+      "at": "2026-10-10T22:10:22.000+02:00",
+      "title": "backlog: verify and close GitHub issues, assess AtFlows backports",
+      "url": "https://github.com/HelgeSverre/llmflow/commit/7feef88c1f6fc6df0c39b9048e321189cb79d890"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:10144edb8c667903a76fcffe1f6a5e6a7ec43054",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T22:05:15.000+02:00",
+      "title": "Reserve event scheduler workers for bounded execution",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/10144edb8c667903a76fcffe1f6a5e6a7ec43054"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ffaa8823223b3db6ed032282bf4a1d81496584d7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T21:59:02.000+02:00",
+      "title": "Expand embedded Fsdb library API",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ffaa8823223b3db6ed032282bf4a1d81496584d7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a0f7f9055e98ce6671cba0cc19daac6cd1d01eb0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T21:17:29.000+02:00",
+      "title": "Publish NuGet releases with trusted publishing",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a0f7f9055e98ce6671cba0cc19daac6cd1d01eb0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:292e7daea5429a65e5ac7184aa6e531fe1bbcdcc",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T20:55:38.000+02:00",
+      "title": "Prepare Fsdb NuGet library and package consumer",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/292e7daea5429a65e5ac7184aa6e531fe1bbcdcc"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:06f2580d4fe05d222b4462ba1058dc80f3ad589a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T20:44:32.000+02:00",
+      "title": "Validate index hints on joined mutations",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/06f2580d4fe05d222b4462ba1058dc80f3ad589a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a56729942ef8160a0816fd0e418e35d73862652c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T20:36:14.000+02:00",
+      "title": "Honor index hints for joined equality probes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a56729942ef8160a0816fd0e418e35d73862652c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5993ba93d8cc9e76efdcfb3aad6aa3b6060a626d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-10T20:27:07.000+02:00",
+      "title": "Honor table hints in ordered index planning",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5993ba93d8cc9e76efdcfb3aad6aa3b6060a626d"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:a0b07fc6e390a7c1530985a7f5e5fc61855f2c7d",
       "kind": "commit",
@@ -6619,14 +6979,6 @@
       "at": "2026-09-27T03:32:29.000+02:00",
       "title": "Add changelog",
       "url": "https://github.com/HelgeSverre/brain/commit/ccc21abe24c5778051af8fe7849c93ffd64673df"
-    },
-    {
-      "id": "commit:HelgeSverre/brain:cb985ea1cc4cd2ed81593db736a0d9222685993b",
-      "kind": "commit",
-      "repo": "HelgeSverre/brain",
-      "at": "2026-09-27T02:03:31.000+02:00",
-      "title": "Support Laravel 13 and openai-php/laravel up to 0.x latest",
-      "url": "https://github.com/HelgeSverre/brain/commit/cb985ea1cc4cd2ed81593db736a0d9222685993b"
     },
     {
       "id": "release:HelgeSverre/clickmore:409019919",
