@@ -1,9 +1,145 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-12T06:50:36.317Z",
-  "since": "2026-09-28T06:50:36.317Z",
+  "fetchedAt": "2026-10-12T12:42:42.078Z",
+  "since": "2026-09-28T12:42:42.078Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fence:ffad11a45d45194d0346a1049454a462ad1fa46b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fence",
+      "at": "2026-10-12T14:29:41.000+02:00",
+      "title": "Fix macOS quit after asynchronous document close guard",
+      "url": "https://github.com/HelgeSverre/fence/commit/ffad11a45d45194d0346a1049454a462ad1fa46b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:270c50386669acba0057e54fd86999e355484b93",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T13:39:42.000+02:00",
+      "title": "Index fitting text NULL fallbacks with charset identity",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/270c50386669acba0057e54fd86999e355484b93"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9bf69b1e4105124f43a75f99dc65fb8597926284",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T12:57:54.000+02:00",
+      "title": "Release Fsdb 0.1.0-preview.5 with expanded package guide",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9bf69b1e4105124f43a75f99dc65fb8597926284"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e8b9bf7206dad9b40677a7947407eb2d35ee65aa",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T12:45:41.000+02:00",
+      "title": "Index integer NULLIF expressions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e8b9bf7206dad9b40677a7947407eb2d35ee65aa"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:21811a32530fe77d735d9b7a3817265e319569e6",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T12:34:28.000+02:00",
+      "title": "Index integer IFNULL fallback expressions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/21811a32530fe77d735d9b7a3817265e319569e6"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6115768a124bc90af6363ea4f0f454ea117d96e7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T12:19:39.000+02:00",
+      "title": "Match MySQL unsigned COALESCE functional keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6115768a124bc90af6363ea4f0f454ea117d96e7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:941e9dfc67eac2fbee98dc1f3f3f330e6b7efddc",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T11:55:16.000+02:00",
+      "title": "Index signed integer COALESCE fallback expressions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/941e9dfc67eac2fbee98dc1f3f3f330e6b7efddc"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6da88524a5c9c27a648f2e6c6088cc0b9ebce854",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T11:20:34.000+02:00",
+      "title": "Correct functional index gap inventory for ABS",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6da88524a5c9c27a648f2e6c6088cc0b9ebce854"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b584411fd372f9b59e02b4b13b2529ec404f0101",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T11:09:47.000+02:00",
+      "title": "Centralize regex script property aliases",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b584411fd372f9b59e02b4b13b2529ec404f0101"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:db28368b9e79a9c977b4a222e1818edc650e82a1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T11:06:10.000+02:00",
+      "title": "Match pinned MySQL Arabic and Devanagari regex scripts",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/db28368b9e79a9c977b4a222e1818edc650e82a1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a72803cff3d7b49be4d63465326c58def7d1976a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T10:51:48.000+02:00",
+      "title": "Match pinned MySQL Cyrillic regex script properties",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a72803cff3d7b49be4d63465326c58def7d1976a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:edfbdcfe4bfe2b7358e2230e3c599f442ae72f23",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T10:41:30.000+02:00",
+      "title": "Separate regex script property data from normalization",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/edfbdcfe4bfe2b7358e2230e3c599f442ae72f23"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4a2c1da873fe51cc07d808868e79503fd9e8e582",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T10:36:03.000+02:00",
+      "title": "Match pinned MySQL Latin regex script properties",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4a2c1da873fe51cc07d808868e79503fd9e8e582"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4320ea1f01d92351909861b1b6f6a6e538e0f786",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T10:23:48.000+02:00",
+      "title": "Match pinned MySQL Han regex script properties",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4320ea1f01d92351909861b1b6f6a6e538e0f786"
+    },
+    {
+      "id": "commit:HelgeSverre/patchbay-js:a808d02ae479eead787e2953f6e3df7d15232a4f",
+      "kind": "commit",
+      "repo": "HelgeSverre/patchbay-js",
+      "at": "2026-10-12T10:20:22.000+02:00",
+      "title": "Release patchbay.js 1.1.0 and tidy README badges",
+      "url": "https://github.com/HelgeSverre/patchbay-js/commit/a808d02ae479eead787e2953f6e3df7d15232a4f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9f79e0271d0f6689ea74263647e7a0aec3a376b3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T10:09:30.000+02:00",
+      "title": "Share scalar range construction for regex scripts",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9f79e0271d0f6689ea74263647e7a0aec3a376b3"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:feec0864cfcfd26fa1ab80f514683b26a5b47d64",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T10:05:07.000+02:00",
+      "title": "Match MySQL variation-selector regex property",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/feec0864cfcfd26fa1ab80f514683b26a5b47d64"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:79d7882eb702485a30e9041ecaea6d3a3af5531b",
       "kind": "commit",
@@ -7821,86 +7957,6 @@
       "url": "https://github.com/HelgeSverre/wire-bridge-example/commit/7616ed5be57bc4713042eb608bf7c68fe7724ccc"
     },
     {
-      "id": "commit:HelgeSverre/wire-bridge:337c729f88232b2ebe8b8b7274769f8606d938af",
-      "kind": "commit",
-      "repo": "HelgeSverre/wire-bridge",
-      "at": "2026-10-06T08:51:23.000+02:00",
-      "title": "chore: stop tracking JetBrains .idea files",
-      "url": "https://github.com/HelgeSverre/wire-bridge/commit/337c729f88232b2ebe8b8b7274769f8606d938af"
-    },
-    {
-      "id": "commit:HelgeSverre/wire-bridge-example:09492d9ba87935c3d9e3157ad4e14bbe66b19325",
-      "kind": "commit",
-      "repo": "HelgeSverre/wire-bridge-example",
-      "at": "2026-10-06T08:51:19.000+02:00",
-      "title": "docs: add eight-renderer demo GIF and explain when server state updates",
-      "url": "https://github.com/HelgeSverre/wire-bridge-example/commit/09492d9ba87935c3d9e3157ad4e14bbe66b19325"
-    },
-    {
-      "id": "commit:HelgeSverre/wire-bridge-example:575042a583094dd327532eb7f345ecf8c5331a23",
-      "kind": "commit",
-      "repo": "HelgeSverre/wire-bridge-example",
-      "at": "2026-10-06T08:46:49.000+02:00",
-      "title": "chore: lock wire-bridge 0.1.0 from npm",
-      "url": "https://github.com/HelgeSverre/wire-bridge-example/commit/575042a583094dd327532eb7f345ecf8c5331a23"
-    },
-    {
-      "id": "commit:HelgeSverre/wire-bridge-example:2af3311fcd48423d7ba8e21d8e811cdd12f6355c",
-      "kind": "commit",
-      "repo": "HelgeSverre/wire-bridge-example",
-      "at": "2026-10-06T08:44:22.000+02:00",
-      "title": "docs: local mount/unmount covers every framework host",
-      "url": "https://github.com/HelgeSverre/wire-bridge-example/commit/2af3311fcd48423d7ba8e21d8e811cdd12f6355c"
-    },
-    {
-      "id": "commit:HelgeSverre/wire-bridge-example:a63550e2a4e595f18e204e3e250a019de6e687e8",
-      "kind": "commit",
-      "repo": "HelgeSverre/wire-bridge-example",
-      "at": "2026-10-06T08:44:13.000+02:00",
-      "title": "docs: point API details at the package README, fix the data-flow diagram",
-      "url": "https://github.com/HelgeSverre/wire-bridge-example/commit/a63550e2a4e595f18e204e3e250a019de6e687e8"
-    },
-    {
-      "id": "commit:HelgeSverre/wire-bridge:83588066234fe1d2ed9dcfe8a91f706a4928e72d",
-      "kind": "commit",
-      "repo": "HelgeSverre/wire-bridge",
-      "at": "2026-10-06T08:44:07.000+02:00",
-      "title": "chore: prepare 0.1.0 for npm: ship only markdown docs, add repository metadata, tighten README",
-      "url": "https://github.com/HelgeSverre/wire-bridge/commit/83588066234fe1d2ed9dcfe8a91f706a4928e72d"
-    },
-    {
-      "id": "commit:HelgeSverre/wire-bridge:d52686cdd0e4012a9c3963a7b93a0e2b9e4d394f",
-      "kind": "commit",
-      "repo": "HelgeSverre/wire-bridge",
-      "at": "2026-10-06T08:43:39.000+02:00",
-      "title": "fix: dispose watcher on failed init, destroy renderers whose host vanished during mount, reject non-plain objects in structural equality",
-      "url": "https://github.com/HelgeSverre/wire-bridge/commit/d52686cdd0e4012a9c3963a7b93a0e2b9e4d394f"
-    },
-    {
-      "id": "commit:HelgeSverre/wire-bridge-example:9b60efaafef1006bdb181e335111c3f41bac41d3",
-      "kind": "commit",
-      "repo": "HelgeSverre/wire-bridge-example",
-      "at": "2026-10-06T08:41:31.000+02:00",
-      "title": "chore: turn the PoC into a standalone wire-bridge example app",
-      "url": "https://github.com/HelgeSverre/wire-bridge-example/commit/9b60efaafef1006bdb181e335111c3f41bac41d3"
-    },
-    {
-      "id": "commit:HelgeSverre/ollama-gui:eca8dde096355f02907fd32fd2eac645570308d8",
-      "kind": "commit",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-06T08:27:50.000+02:00",
-      "title": "chore: release 2.0.1",
-      "url": "https://github.com/HelgeSverre/ollama-gui/commit/eca8dde096355f02907fd32fd2eac645570308d8"
-    },
-    {
-      "id": "commit:HelgeSverre/token:0993c2c01ab8a13bb4dc17287a9c1e233d87af7c",
-      "kind": "commit",
-      "repo": "HelgeSverre/token",
-      "at": "2026-10-05T16:58:01.000+02:00",
-      "title": "perf(csv): add native 1 GiB opening performance gate",
-      "url": "https://github.com/HelgeSverre/token/commit/0993c2c01ab8a13bb4dc17287a9c1e233d87af7c"
-    },
-    {
       "id": "pr:HelgeSverre/ollama-gui:79",
       "kind": "merge",
       "repo": "HelgeSverre/ollama-gui",
@@ -8259,14 +8315,6 @@
       "at": "2026-10-05T08:46:13Z",
       "title": "v0.1.7",
       "url": "https://github.com/HelgeSverre/sourcefour/releases/tag/v0.1.7"
-    },
-    {
-      "id": "release:HelgeSverre/sourcefour:398166590",
-      "kind": "release",
-      "repo": "HelgeSverre/sourcefour",
-      "at": "2026-09-28T10:58:30Z",
-      "title": "v0.1.5",
-      "url": "https://github.com/HelgeSverre/sourcefour/releases/tag/v0.1.5"
     }
   ]
 }
