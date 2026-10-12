@@ -1,9 +1,401 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-11T18:24:00.024Z",
-  "since": "2026-09-27T18:24:00.024Z",
+  "fetchedAt": "2026-10-12T01:03:35.860Z",
+  "since": "2026-09-28T01:03:35.860Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:c02cbaffc6e411ca830eaaddff7010c74d1102f9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T03:00:07.000+02:00",
+      "title": "Preserve CHAR pass-through overflow semantics",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c02cbaffc6e411ca830eaaddff7010c74d1102f9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b0e746ca38fc9bf42817dd6932fde4905424471a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T02:51:17.000+02:00",
+      "title": "Match computed CHAR overflow errors",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b0e746ca38fc9bf42817dd6932fde4905424471a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:099ce7a633d03183e57e6000afb2ccb3784e7ae5",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T02:36:33.000+02:00",
+      "title": "Verify CHAR conversion across more JSON expression sources",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/099ce7a633d03183e57e6000afb2ccb3784e7ae5"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d60d7dc74711b0e0e5137cfae0705903fe061c6b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T02:28:22.000+02:00",
+      "title": "Match CHAR JSON warning rows in ordered and grouped queries",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d60d7dc74711b0e0e5137cfae0705903fe061c6b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b33405a4faa119e978c3d66f12ee5deab03f383e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T02:16:45.000+02:00",
+      "title": "Match CHAR stored JSON warning row numbers",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b33405a4faa119e978c3d66f12ee5deab03f383e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:081c647c2b673d91dd8bcdbf2f63bf8c3347db51",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T02:03:15.000+02:00",
+      "title": "Match CHAR JSON argument values and diagnostics",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/081c647c2b673d91dd8bcdbf2f63bf8c3347db51"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:15c7fc9b6cdff40f62fcf613bf24474873a621a9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T01:55:22.000+02:00",
+      "title": "Match CHAR warnings for stored DOUBLE overflow",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/15c7fc9b6cdff40f62fcf613bf24474873a621a9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9bb6f93763c4f9fdcef6cf855ca65c499d236b8b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T01:46:13.000+02:00",
+      "title": "Match CHAR bit and numeric overflow domains",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9bb6f93763c4f9fdcef6cf855ca65c499d236b8b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7f3e82554fb9eb5d25bab3f4f5cf43c161877735",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T01:38:37.000+02:00",
+      "title": "Match CHAR binary integer warning previews",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7f3e82554fb9eb5d25bab3f4f5cf43c161877735"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:570b263da04a3b653812753a66c7ab9a6afa5539",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T01:32:20.000+02:00",
+      "title": "Support CHAR USING charset with MySQL byte semantics",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/570b263da04a3b653812753a66c7ab9a6afa5539"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2f376620506bc0969d0591d39d60b186b2a1250b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T01:24:08.000+02:00",
+      "title": "Match CHAR text integer prefixes and warnings",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2f376620506bc0969d0591d39d60b186b2a1250b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:04946367ea97e4f2c3d55583fd19da85ff0065a0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T01:17:35.000+02:00",
+      "title": "Assemble CHAR results as MySQL binary bytes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/04946367ea97e4f2c3d55583fd19da85ff0065a0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e835d1c6a1976b2c33c95032bcff6c722e774bb8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T01:06:28.000+02:00",
+      "title": "Match TIME warning previews by source charset",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e835d1c6a1976b2c33c95032bcff6c722e774bb8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8cad0ceb04d9954b81592d3592a285ac7e86b9c1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T00:57:10.000+02:00",
+      "title": "Match TIME casts from bit and binary sources",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8cad0ceb04d9954b81592d3592a285ac7e86b9c1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3f0f64e1083aabaf75d22292990737e580cf0690",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T00:35:53.000+02:00",
+      "title": "Match audited internal TIME delimiter cases",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3f0f64e1083aabaf75d22292990737e580cf0690"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b71a2acf8b5a55ced1e576cd70f020d53b772782",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T00:27:59.000+02:00",
+      "title": "Match audited TIME cast space delimiter warnings",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b71a2acf8b5a55ced1e576cd70f020d53b772782"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9baedb209eab11ae5dc5a7e669c971060f29c179",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T00:22:02.000+02:00",
+      "title": "Match audited TIME cast values and warnings",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9baedb209eab11ae5dc5a7e669c971060f29c179"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d3331b68bab47677b05c26697e713c7ddac4ce88",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T00:11:05.000+02:00",
+      "title": "Match YEAR casts from temporal and binary sources",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d3331b68bab47677b05c26697e713c7ddac4ce88"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4a9837f07bcaee5a9d03d1f49e8d5bf3bd3c70d5",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T00:01:32.000+02:00",
+      "title": "Match MySQL YEAR cast diagnostics and normalization",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4a9837f07bcaee5a9d03d1f49e8d5bf3bd3c70d5"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b43fa066ab3a5cef502fcb85fcd16ccee6fe49eb",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T23:47:08.000+02:00",
+      "title": "Match numeric CAST warnings from sourced scalar queries",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b43fa066ab3a5cef502fcb85fcd16ccee6fe49eb"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:193ad94eb95e4224f7e032c012035cb59fdb5381",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T23:41:11.000+02:00",
+      "title": "Match DECIMAL warnings across derived binary columns",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/193ad94eb95e4224f7e032c012035cb59fdb5381"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:81cf89c904fbc4dc04240e145ed206761d8204e2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T23:31:24.000+02:00",
+      "title": "Match DECIMAL warnings from binary conditionals",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/81cf89c904fbc4dc04240e145ed206761d8204e2"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1bfb33f091f60a432e7b77dacaba4a81529d7f19",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T23:25:09.000+02:00",
+      "title": "Match multibyte numeric CAST warning previews",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1bfb33f091f60a432e7b77dacaba4a81529d7f19"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0b261b43495a8e70029b6f5fcefeb5c692113bd8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T23:18:58.000+02:00",
+      "title": "Cap audited ASCII numeric CAST warning previews",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0b261b43495a8e70029b6f5fcefeb5c692113bd8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:363b741c4e630b577119f9a90d47e95740afaede",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T23:09:48.000+02:00",
+      "title": "Match MySQL NUL text in numeric CAST warnings",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/363b741c4e630b577119f9a90d47e95740afaede"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:825b587ccf66b3265eba8366a02a4be0cb7019c9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T23:05:32.000+02:00",
+      "title": "Centralize numeric CAST text classification",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/825b587ccf66b3265eba8366a02a4be0cb7019c9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b476eb9cdcab1ee41a87d8cf9dc2570a99736b89",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T22:59:00.000+02:00",
+      "title": "Match DECIMAL casts from computed binary values",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b476eb9cdcab1ee41a87d8cf9dc2570a99736b89"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ae7d06cb7329f3edd35e42edeffdd67dff48815a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T22:53:53.000+02:00",
+      "title": "Escape binary bytes in numeric CAST warnings",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ae7d06cb7329f3edd35e42edeffdd67dff48815a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8c85753a9845df9fac86289abb0760eed418ae6a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T22:48:55.000+02:00",
+      "title": "Match numeric casts from binary columns",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8c85753a9845df9fac86289abb0760eed418ae6a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:13fe2e07b747efe9e187ffa72e24a65011711148",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T22:42:57.000+02:00",
+      "title": "Match numeric casts from binary string sources",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/13fe2e07b747efe9e187ffa72e24a65011711148"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0d2b08099b4b445e598686385c0bc62663559d9e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T22:35:52.000+02:00",
+      "title": "Use ASCII digits for numeric CAST text prefixes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0d2b08099b4b445e598686385c0bc62663559d9e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:29d2f71993c89b3da0ea09150186b20ad1fc008a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T22:31:44.000+02:00",
+      "title": "Match high-exponent DECIMAL cast warnings",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/29d2f71993c89b3da0ea09150186b20ad1fc008a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:da6b1892128810998c46a6dda87edcfca79edc40",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T22:23:48.000+02:00",
+      "title": "Clamp finite wide DECIMAL cast text to target bounds",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/da6b1892128810998c46a6dda87edcfca79edc40"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:330859e2725b035bbb0e88a9b80c7c856fcc37d1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T22:18:28.000+02:00",
+      "title": "Avoid duplicate DOUBLE cast overflow warnings",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/330859e2725b035bbb0e88a9b80c7c856fcc37d1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a4d61b6be03af5e3d53ea746bb65cb0346a06cd5",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T22:13:50.000+02:00",
+      "title": "Match MySQL DOUBLE and FLOAT CAST diagnostics",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a4d61b6be03af5e3d53ea746bb65cb0346a06cd5"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0d19485d1f7f7d5d6d4eef008556b86c4ecfe9a6",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T22:08:06.000+02:00",
+      "title": "Match audited DECIMAL cast warnings and range clamps",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0d19485d1f7f7d5d6d4eef008556b86c4ecfe9a6"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ceb467512cbe51defab6f388bc0fad491471c0b9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T21:52:58.000+02:00",
+      "title": "Preserve unsigned character cast widths and byte ceilings",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ceb467512cbe51defab6f388bc0fad491471c0b9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b545863bf65a87dbc255c7008e8f9361ed43331c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T21:33:05.000+02:00",
+      "title": "Reject negative CAST target precision",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b545863bf65a87dbc255c7008e8f9361ed43331c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:df60fd40d9ca1f1197bffc7b9648e47891d95e9e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T21:27:18.000+02:00",
+      "title": "Centralize character cast width and collation rules",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/df60fd40d9ca1f1197bffc7b9648e47891d95e9e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c16bb8c699b3ec715348c85bea41ee1fa8cc6dc2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T21:20:07.000+02:00",
+      "title": "Reject negative character cast widths",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c16bb8c699b3ec715348c85bea41ee1fa8cc6dc2"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:206e49041cc5778643273f9f218ad3b871b54be0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T21:15:40.000+02:00",
+      "title": "Honor packet limit for character cast widths",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/206e49041cc5778643273f9f218ad3b871b54be0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8388133821ae5335c39f9577b22f0cd0bd0a6fd1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T21:10:15.000+02:00",
+      "title": "Match decimal cast limit diagnostics and SQLSTATE",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8388133821ae5335c39f9577b22f0cd0bd0a6fd1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:da43e4d0624f8fe3f02b4902def11764868fb137",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T21:00:17.000+02:00",
+      "title": "Match CAST precision ceiling diagnostics",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/da43e4d0624f8fe3f02b4902def11764868fb137"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d01b73a95027128c69dd87dbf87de6fc9da35bb5",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T20:55:25.000+02:00",
+      "title": "Use MySQL cast target grammar and preserve CHAR widths",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d01b73a95027128c69dd87dbf87de6fc9da35bb5"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:72454e655510fd40252247ce3b574c69e332be9a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T20:44:08.000+02:00",
+      "title": "Preserve ordered CHAR cast modifiers and binary collation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/72454e655510fd40252247ce3b574c69e332be9a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:11eba5ca8c3b8b62333504dedb39223ecd6d08f5",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T20:34:57.000+02:00",
+      "title": "Preserve national and legacy character cast syntax",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/11eba5ca8c3b8b62333504dedb39223ecd6d08f5"
+    },
+    {
+      "id": "commit:HelgeSverre/patchbay-js:147c7e2f56a4a096eaa6a67ded4b6a412d529deb",
+      "kind": "commit",
+      "repo": "HelgeSverre/patchbay-js",
+      "at": "2026-10-11T20:28:10.000+02:00",
+      "title": "Add canvas rendering and verify cable behavior across browsers",
+      "url": "https://github.com/HelgeSverre/patchbay-js/commit/147c7e2f56a4a096eaa6a67ded4b6a412d529deb"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ccec398b9c5f5fc1c57f705f17e4c63cb19b3f55",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T20:28:01.000+02:00",
+      "title": "Reject charset clauses on non-character casts",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ccec398b9c5f5fc1c57f705f17e4c63cb19b3f55"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6f5aec0fd0ec0d56e4b346ee58fb0c07ff8c2e4e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-11T20:23:21.000+02:00",
+      "title": "Preserve explicit binary cast byte widths",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6f5aec0fd0ec0d56e4b346ee58fb0c07ff8c2e4e"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:c0c6b7fe4db03b0ca0fdb5e850370df371efdf7e",
       "kind": "commit",
@@ -7509,278 +7901,6 @@
       "url": "https://github.com/sema-lisp/ui/commit/b1dc3ca3d225f48930d3edcfad0af606cc1ca562"
     },
     {
-      "id": "commit:sema-lisp/sublime-sema:c07222ddab53e1dd7f2bbbfa7589c036f99c9017",
-      "kind": "commit",
-      "repo": "sema-lisp/sublime-sema",
-      "at": "2026-10-05T12:17:56.000+02:00",
-      "title": "fix: merge complete regex literal syntax scopes",
-      "url": "https://github.com/sema-lisp/sublime-sema/commit/c07222ddab53e1dd7f2bbbfa7589c036f99c9017"
-    },
-    {
-      "id": "commit:sema-lisp/helix-sema:fb63d9da58fe5d7b8298cf2504b13199fa32821c",
-      "kind": "commit",
-      "repo": "sema-lisp/helix-sema",
-      "at": "2026-10-05T12:17:24.000+02:00",
-      "title": "test: merge regex builtin query coverage",
-      "url": "https://github.com/sema-lisp/helix-sema/commit/fb63d9da58fe5d7b8298cf2504b13199fa32821c"
-    },
-    {
-      "id": "commit:sema-lisp/pkg:ee6b5e46a210ad119f78ff5528f42a704d5fa6d7",
-      "kind": "commit",
-      "repo": "sema-lisp/pkg",
-      "at": "2026-10-05T12:16:34.000+02:00",
-      "title": "fix: merge regex highlighting assets and tests",
-      "url": "https://github.com/sema-lisp/pkg/commit/ee6b5e46a210ad119f78ff5528f42a704d5fa6d7"
-    },
-    {
-      "id": "commit:sema-lisp/sublime-sema:4b45e1f4dc5029149ce13a7cc09aeea0e19ccb3a",
-      "kind": "commit",
-      "repo": "sema-lisp/sublime-sema",
-      "at": "2026-10-05T12:15:23.000+02:00",
-      "title": "fix: align reader syntax and resolve build executables",
-      "url": "https://github.com/sema-lisp/sublime-sema/commit/4b45e1f4dc5029149ce13a7cc09aeea0e19ccb3a"
-    },
-    {
-      "id": "commit:sema-lisp/helix-sema:fa69117f38c52285426570780b31a941c38fd0b8",
-      "kind": "commit",
-      "repo": "sema-lisp/helix-sema",
-      "at": "2026-10-05T12:15:23.000+02:00",
-      "title": "fix: preserve Helix server settings and align reader highlighting",
-      "url": "https://github.com/sema-lisp/helix-sema/commit/fa69117f38c52285426570780b31a941c38fd0b8"
-    },
-    {
-      "id": "commit:sema-lisp/emacs-sema:ad2616c23d804c26698ab15ce4ca05275d0b7477",
-      "kind": "commit",
-      "repo": "sema-lisp/emacs-sema",
-      "at": "2026-10-05T12:15:22.000+02:00",
-      "title": "fix: merge complete regex font-lock coverage",
-      "url": "https://github.com/sema-lisp/emacs-sema/commit/ad2616c23d804c26698ab15ce4ca05275d0b7477"
-    },
-    {
-      "id": "commit:sema-lisp/sema:143a8e062ae7ddb4b5cd5ee26d4e5dcd9825f82c",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T12:14:18.000+02:00",
-      "title": "fix(docs): synchronize reader syntax and builtin highlighting",
-      "url": "https://github.com/sema-lisp/sema/commit/143a8e062ae7ddb4b5cd5ee26d4e5dcd9825f82c"
-    },
-    {
-      "id": "commit:sema-lisp/emacs-sema:5e72b4624a7fb8bd1d43e682d2a64c649843b113",
-      "kind": "commit",
-      "repo": "sema-lisp/emacs-sema",
-      "at": "2026-10-05T12:13:49.000+02:00",
-      "title": "fix: align syntax and indentation and honor the configured executable",
-      "url": "https://github.com/sema-lisp/emacs-sema/commit/5e72b4624a7fb8bd1d43e682d2a64c649843b113"
-    },
-    {
-      "id": "commit:sema-lisp/sema.vim:ed7a850750b649c36b3ddd0f5b700fbf0393e9ac",
-      "kind": "commit",
-      "repo": "sema-lisp/sema.vim",
-      "at": "2026-10-05T12:13:05.000+02:00",
-      "title": "fix: merge complete regex literal highlighting",
-      "url": "https://github.com/sema-lisp/sema.vim/commit/ed7a850750b649c36b3ddd0f5b700fbf0393e9ac"
-    },
-    {
-      "id": "commit:sema-lisp/sema:35a1f227af5dd245598e03f9766ede2ddb9c9d33",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T12:12:11.000+02:00",
-      "title": "fix(release): recover MCP metadata without replacing published bundles",
-      "url": "https://github.com/sema-lisp/sema/commit/35a1f227af5dd245598e03f9766ede2ddb9c9d33"
-    },
-    {
-      "id": "commit:sema-lisp/sema.nvim:9d0f6cbdd84bb1517850f65fbd69226f541c2b51",
-      "kind": "commit",
-      "repo": "sema-lisp/sema.nvim",
-      "at": "2026-10-05T12:10:42.000+02:00",
-      "title": "fix: support current parser registration and preserve builtin aliases",
-      "url": "https://github.com/sema-lisp/sema.nvim/commit/9d0f6cbdd84bb1517850f65fbd69226f541c2b51"
-    },
-    {
-      "id": "commit:sema-lisp/sema.vim:d6c38146b4125ac43dbdeaafddbb5334d1040d83",
-      "kind": "commit",
-      "repo": "sema-lisp/sema.vim",
-      "at": "2026-10-05T12:10:42.000+02:00",
-      "title": "fix: align syntax, builtin aliases, and indentation",
-      "url": "https://github.com/sema-lisp/sema.vim/commit/d6c38146b4125ac43dbdeaafddbb5334d1040d83"
-    },
-    {
-      "id": "commit:sema-lisp/tree-sitter-sema:f2e289b9b3909cefa7c67138c65fe3dc8dc23553",
-      "kind": "commit",
-      "repo": "sema-lisp/tree-sitter-sema",
-      "at": "2026-10-05T12:10:08.000+02:00",
-      "title": "fix: preserve runtime aliases in builtin queries",
-      "url": "https://github.com/sema-lisp/tree-sitter-sema/commit/f2e289b9b3909cefa7c67138c65fe3dc8dc23553"
-    },
-    {
-      "id": "commit:sema-lisp/vscode-sema:d3e407cf838097037c0ce606657421136fa5a5ae",
-      "kind": "commit",
-      "repo": "sema-lisp/vscode-sema",
-      "at": "2026-10-05T12:07:33.000+02:00",
-      "title": "release: prepare VS Code extension 0.4.0",
-      "url": "https://github.com/sema-lisp/vscode-sema/commit/d3e407cf838097037c0ce606657421136fa5a5ae"
-    },
-    {
-      "id": "commit:sema-lisp/vscode-sema:2562670497a0b0528c3022dcb04fc10c11287ca4",
-      "kind": "commit",
-      "repo": "sema-lisp/vscode-sema",
-      "at": "2026-10-05T12:07:32.000+02:00",
-      "title": "fix: merge regex tokenization regression tests",
-      "url": "https://github.com/sema-lisp/vscode-sema/commit/2562670497a0b0528c3022dcb04fc10c11287ca4"
-    },
-    {
-      "id": "commit:sema-lisp/vscode-sema:3e178fe46694e190b636978d45b63f0d28a2e659",
-      "kind": "commit",
-      "repo": "sema-lisp/vscode-sema",
-      "at": "2026-10-05T12:06:12.000+02:00",
-      "title": "fix: align syntax and activate integrations before LSP startup",
-      "url": "https://github.com/sema-lisp/vscode-sema/commit/3e178fe46694e190b636978d45b63f0d28a2e659"
-    },
-    {
-      "id": "commit:sema-lisp/intellij-sema:6f84d4ba4664dc9497a64e623771e7ffc3973ae2",
-      "kind": "commit",
-      "repo": "sema-lisp/intellij-sema",
-      "at": "2026-10-05T12:05:30.000+02:00",
-      "title": "fix: merge regex token highlighting and tests",
-      "url": "https://github.com/sema-lisp/intellij-sema/commit/6f84d4ba4664dc9497a64e623771e7ffc3973ae2"
-    },
-    {
-      "id": "commit:sema-lisp/intellij-sema:863f6f82661c502d4f18de60df178ba5c972b65b",
-      "kind": "commit",
-      "repo": "sema-lisp/intellij-sema",
-      "at": "2026-10-05T12:04:58.000+02:00",
-      "title": "fix: align lexer and wait for notebook startup",
-      "url": "https://github.com/sema-lisp/intellij-sema/commit/863f6f82661c502d4f18de60df178ba5c972b65b"
-    },
-    {
-      "id": "commit:sema-lisp/tree-sitter-sema:a9fad07c94ecd82aec25a4852a42f7574685cd15",
-      "kind": "commit",
-      "repo": "sema-lisp/tree-sitter-sema",
-      "at": "2026-10-05T12:04:12.000+02:00",
-      "title": "release: prepare grammar 0.3.0",
-      "url": "https://github.com/sema-lisp/tree-sitter-sema/commit/a9fad07c94ecd82aec25a4852a42f7574685cd15"
-    },
-    {
-      "id": "commit:sema-lisp/ui:3a1447baeb516ddcb850f50c939d1d04c39b6cbd",
-      "kind": "commit",
-      "repo": "sema-lisp/ui",
-      "at": "2026-10-05T12:03:05.000+02:00",
-      "title": "fix: merge regex highlighting coverage",
-      "url": "https://github.com/sema-lisp/ui/commit/3a1447baeb516ddcb850f50c939d1d04c39b6cbd"
-    },
-    {
-      "id": "commit:sema-lisp/tree-sitter-sema:669c29a405a715826d9dcedf0b8cb3436f893d3e",
-      "kind": "commit",
-      "repo": "sema-lisp/tree-sitter-sema",
-      "at": "2026-10-05T12:03:04.000+02:00",
-      "title": "test: merge regex literal coverage",
-      "url": "https://github.com/sema-lisp/tree-sitter-sema/commit/669c29a405a715826d9dcedf0b8cb3436f893d3e"
-    },
-    {
-      "id": "commit:sema-lisp/sema:86fcd0eea0e6144efc811d3c2472c9409121343f",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T12:01:17.000+02:00",
-      "title": "ci: allow explicit validation of a release commit on main",
-      "url": "https://github.com/sema-lisp/sema/commit/86fcd0eea0e6144efc811d3c2472c9409121343f"
-    },
-    {
-      "id": "commit:sema-lisp/sema:164590482f0b34af23e0fd3f9126d9a49068143c",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T11:59:06.000+02:00",
-      "title": "release: merge 1.36.1 hotfix history into main",
-      "url": "https://github.com/sema-lisp/sema/commit/164590482f0b34af23e0fd3f9126d9a49068143c"
-    },
-    {
-      "id": "commit:sema-lisp/sema:ea0579b1656951497aecc595b4e384b1a5af1026",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T11:58:14.000+02:00",
-      "title": "release: merge 1.37.0-rc.1 preparation into main",
-      "url": "https://github.com/sema-lisp/sema/commit/ea0579b1656951497aecc595b4e384b1a5af1026"
-    },
-    {
-      "id": "commit:HelgeSverre/rust-vst3-host:491113fb8730cd93090cbfb25157c5705aecb8aa",
-      "kind": "commit",
-      "repo": "HelgeSverre/rust-vst3-host",
-      "at": "2026-10-05T11:57:53.000+02:00",
-      "title": "fix: make MIDI and plugin example defaults portable",
-      "url": "https://github.com/HelgeSverre/rust-vst3-host/commit/491113fb8730cd93090cbfb25157c5705aecb8aa"
-    },
-    {
-      "id": "commit:HelgeSverre/rust-vst3-host:6586400677357c6b03a4f60ce37f83318a9b7857",
-      "kind": "commit",
-      "repo": "HelgeSverre/rust-vst3-host",
-      "at": "2026-10-05T11:54:06.000+02:00",
-      "title": "feat: query attached editor state without creating views",
-      "url": "https://github.com/HelgeSverre/rust-vst3-host/commit/6586400677357c6b03a4f60ce37f83318a9b7857"
-    },
-    {
-      "id": "commit:HelgeSverre/ollama-gui:41e494647e6614ea495b640584ad629e7d15ab07",
-      "kind": "commit",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-05T11:49:41.000+02:00",
-      "title": "fix: generation races, stuck replies, palette dialogs; expand test coverage",
-      "url": "https://github.com/HelgeSverre/ollama-gui/commit/41e494647e6614ea495b640584ad629e7d15ab07"
-    },
-    {
-      "id": "commit:HelgeSverre/ollama-gui:179c90c4b22a884351fd3b9fde3483b03f941df5",
-      "kind": "commit",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-05T11:23:26.000+02:00",
-      "title": "docs: rewrite README in plainer language; add test:coverage script",
-      "url": "https://github.com/HelgeSverre/ollama-gui/commit/179c90c4b22a884351fd3b9fde3483b03f941df5"
-    },
-    {
-      "id": "commit:HelgeSverre/ollama-gui:85568be536fd2360a8a6ef4f8e65be810bfd7535",
-      "kind": "commit",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-05T11:17:24.000+02:00",
-      "title": "docs: fix underlined gaps between README badges",
-      "url": "https://github.com/HelgeSverre/ollama-gui/commit/85568be536fd2360a8a6ef4f8e65be810bfd7535"
-    },
-    {
-      "id": "commit:sema-lisp/sema:101303e552dd9f423bbe0c7e4a4f1b54dc571fa4",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T11:12:50.000+02:00",
-      "title": "release: retain shared artifact validation and platform fixes on main",
-      "url": "https://github.com/sema-lisp/sema/commit/101303e552dd9f423bbe0c7e4a4f1b54dc571fa4"
-    },
-    {
-      "id": "commit:HelgeSverre/ollama-gui:c36ee4c6b0e71509d81ccf519c3df5247f041f57",
-      "kind": "commit",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-05T11:10:12.000+02:00",
-      "title": "feat: v2 rework — message tree with parts, native thinking, vision, model manager, Docker proxy",
-      "url": "https://github.com/HelgeSverre/ollama-gui/commit/c36ee4c6b0e71509d81ccf519c3df5247f041f57"
-    },
-    {
-      "id": "commit:HelgeSverre/sourcefour:f0bdac410a40217183c30fe4c815e00715f8cd2e",
-      "kind": "commit",
-      "repo": "HelgeSverre/sourcefour",
-      "at": "2026-10-05T10:51:13.000+02:00",
-      "title": "Record public v0.1.7 cask upgrade and lifecycle validation",
-      "url": "https://github.com/HelgeSverre/sourcefour/commit/f0bdac410a40217183c30fe4c815e00715f8cd2e"
-    },
-    {
-      "id": "commit:sema-lisp/sema:1f492e0d8d023739ecee4f53624bbe22bdd0de06",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T10:46:07.000+02:00",
-      "title": "release: verify notarized command-line binaries with Apple requirements",
-      "url": "https://github.com/sema-lisp/sema/commit/1f492e0d8d023739ecee4f53624bbe22bdd0de06"
-    },
-    {
-      "id": "commit:sema-lisp/sema:08d1072d93ab198e0b407a548e912017ab97b16e",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T10:45:52.000+02:00",
-      "title": "release: verify notarized command-line binaries with Apple requirements",
-      "url": "https://github.com/sema-lisp/sema/commit/08d1072d93ab198e0b407a548e912017ab97b16e"
-    },
-    {
       "id": "pr:sema-lisp/intellij-sema:2",
       "kind": "merge",
       "repo": "sema-lisp/intellij-sema",
@@ -7795,22 +7915,6 @@
       "at": "2026-10-05T10:26:01Z",
       "title": "fix: scope regex literals in package code",
       "url": "https://github.com/sema-lisp/pkg/pull/4"
-    },
-    {
-      "id": "commit:sema-lisp/sema:3ce20d4f76cef935cd8e4d244252fe889fa179be",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T10:21:31.000+02:00",
-      "title": "fix(runtime): retain release cancellation and browser corrections on main",
-      "url": "https://github.com/sema-lisp/sema/commit/3ce20d4f76cef935cd8e4d244252fe889fa179be"
-    },
-    {
-      "id": "commit:HelgeSverre/sourcefour:6056a39839096f5102218ebc5d8cc360730e9dea",
-      "kind": "commit",
-      "repo": "HelgeSverre/sourcefour",
-      "at": "2026-10-05T10:19:14.000+02:00",
-      "title": "release: v0.1.7",
-      "url": "https://github.com/HelgeSverre/sourcefour/commit/6056a39839096f5102218ebc5d8cc360730e9dea"
     },
     {
       "id": "pr:sema-lisp/ui:3",
@@ -7837,14 +7941,6 @@
       "url": "https://github.com/sema-lisp/helix-sema/pull/3"
     },
     {
-      "id": "commit:HelgeSverre/sourcefour:902ef399662b96f6df3b499acc422de758ae211b",
-      "kind": "commit",
-      "repo": "HelgeSverre/sourcefour",
-      "at": "2026-10-05T10:16:57.000+02:00",
-      "title": "Isolate ordinary-user AppImage smoke extraction from the root cache",
-      "url": "https://github.com/HelgeSverre/sourcefour/commit/902ef399662b96f6df3b499acc422de758ae211b"
-    },
-    {
       "id": "pr:sema-lisp/emacs-sema:2",
       "kind": "merge",
       "repo": "sema-lisp/emacs-sema",
@@ -7861,22 +7957,6 @@
       "url": "https://github.com/sema-lisp/sema.vim/pull/2"
     },
     {
-      "id": "commit:sema-lisp/sema:b7c38713ae5ea66be3dd18fde30cb1dcb945e359",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T10:11:34.000+02:00",
-      "title": "fix(agent): save memory when cancelled tools are reaped",
-      "url": "https://github.com/sema-lisp/sema/commit/b7c38713ae5ea66be3dd18fde30cb1dcb945e359"
-    },
-    {
-      "id": "commit:sema-lisp/sema:9d8063d1100ea09c8105b14467dae42a471917b0",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T10:08:54.000+02:00",
-      "title": "fix(runtime): preserve cleanup across cancellation transitions",
-      "url": "https://github.com/sema-lisp/sema/commit/9d8063d1100ea09c8105b14467dae42a471917b0"
-    },
-    {
       "id": "pr:sema-lisp/vscode-sema:2",
       "kind": "merge",
       "repo": "sema-lisp/vscode-sema",
@@ -7891,94 +7971,6 @@
       "at": "2026-10-05T10:04:15Z",
       "title": "test: cover regex literal escape forms",
       "url": "https://github.com/sema-lisp/tree-sitter-sema/pull/2"
-    },
-    {
-      "id": "commit:HelgeSverre/sourcefour:f198d185fbb5c7386aea34ac41334c0536c81054",
-      "kind": "commit",
-      "repo": "HelgeSverre/sourcefour",
-      "at": "2026-10-05T09:51:15.000+02:00",
-      "title": "release: v0.1.6",
-      "url": "https://github.com/HelgeSverre/sourcefour/commit/f198d185fbb5c7386aea34ac41334c0536c81054"
-    },
-    {
-      "id": "commit:HelgeSverre/sourcefour:c67285a5ff1b33e56d0b9f63aa3020559eaaafd1",
-      "kind": "commit",
-      "repo": "HelgeSverre/sourcefour",
-      "at": "2026-10-05T09:48:44.000+02:00",
-      "title": "Distribute a stapled app ZIP for Homebrew cask installs (#7)",
-      "url": "https://github.com/HelgeSverre/sourcefour/commit/c67285a5ff1b33e56d0b9f63aa3020559eaaafd1"
-    },
-    {
-      "id": "commit:sema-lisp/sema:6e648fa2b604ebd8bcecb17a89460aedfc62cf3e",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T09:46:25.000+02:00",
-      "title": "fix: reserve enough Windows CLI stack for interpreter startup",
-      "url": "https://github.com/sema-lisp/sema/commit/6e648fa2b604ebd8bcecb17a89460aedfc62cf3e"
-    },
-    {
-      "id": "commit:sema-lisp/sema:bb433580de32010d55f6b398c183ca138fd0c657",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T09:46:25.000+02:00",
-      "title": "release: propagate npm publication errors and preserve existing tags",
-      "url": "https://github.com/sema-lisp/sema/commit/bb433580de32010d55f6b398c183ca138fd0c657"
-    },
-    {
-      "id": "commit:sema-lisp/sema:e82fe80e4291314e2af60744784f7cc0ba8c1c9c",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T09:45:32.000+02:00",
-      "title": "release: propagate npm publication errors and preserve existing tags",
-      "url": "https://github.com/sema-lisp/sema/commit/e82fe80e4291314e2af60744784f7cc0ba8c1c9c"
-    },
-    {
-      "id": "commit:sema-lisp/sema:c043571845e130c16ae5bf3baa05b67ab4ebb8f0",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T09:44:07.000+02:00",
-      "title": "test: make release validation fixtures portable and isolated",
-      "url": "https://github.com/sema-lisp/sema/commit/c043571845e130c16ae5bf3baa05b67ab4ebb8f0"
-    },
-    {
-      "id": "commit:sema-lisp/sema:06fc22d1fc073146bdb0de5203b0e2a11fd3b80e",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T09:40:57.000+02:00",
-      "title": "fix: reserve enough Windows CLI stack for interpreter startup",
-      "url": "https://github.com/sema-lisp/sema/commit/06fc22d1fc073146bdb0de5203b0e2a11fd3b80e"
-    },
-    {
-      "id": "commit:sema-lisp/sema:661482ebe21f56665a900befd44566f8c49ba179",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T09:39:33.000+02:00",
-      "title": "fix: reserve enough Windows CLI stack for interpreter startup",
-      "url": "https://github.com/sema-lisp/sema/commit/661482ebe21f56665a900befd44566f8c49ba179"
-    },
-    {
-      "id": "commit:sema-lisp/sema:71d4f9fbd1209514da2490e3c3c00d7d7717af1d",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T09:39:32.000+02:00",
-      "title": "fix: preserve cross-evaluation channel dependencies in browser roots",
-      "url": "https://github.com/sema-lisp/sema/commit/71d4f9fbd1209514da2490e3c3c00d7d7717af1d"
-    },
-    {
-      "id": "commit:sema-lisp/sema:6d12394c053c1945ed1c6f8a4f3d51dd3e1c3b83",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T09:36:00.000+02:00",
-      "title": "test: isolate grammar argument fixtures from checkout binaries",
-      "url": "https://github.com/sema-lisp/sema/commit/6d12394c053c1945ed1c6f8a4f3d51dd3e1c3b83"
-    },
-    {
-      "id": "commit:sema-lisp/sema:dd252c0f195e4d905403b6626e3d9a723c5ee75c",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T09:35:59.000+02:00",
-      "title": "ci: pin lint toolchain to the validated Rust 1.98 release",
-      "url": "https://github.com/sema-lisp/sema/commit/dd252c0f195e4d905403b6626e3d9a723c5ee75c"
     },
     {
       "id": "pr:HelgeSverre/sourcefour:7",
