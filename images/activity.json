@@ -1,9 +1,281 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-12T01:03:35.860Z",
-  "since": "2026-09-28T01:03:35.860Z",
+  "fetchedAt": "2026-10-12T06:50:36.317Z",
+  "since": "2026-09-28T06:50:36.317Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:79d7882eb702485a30e9041ecaea6d3a3af5531b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T08:21:16.000+02:00",
+      "title": "Match MySQL Greek script extensions in regex",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/79d7882eb702485a30e9041ecaea6d3a3af5531b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c08fbe230d91ffd87da8c7bf0b960e995b379d0e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T08:11:50.000+02:00",
+      "title": "Match MySQL Greek regex script properties",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c08fbe230d91ffd87da8c7bf0b960e995b379d0e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:dd40e5e8b10d82aa34489c1d42e50e962c234cce",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T07:56:23.000+02:00",
+      "title": "Cover prepared direct-variable mutations against MySQL",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/dd40e5e8b10d82aa34489c1d42e50e962c234cce"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2b748c85dafb02c09bd0c9136a9d794cf85d03a8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T07:49:45.000+02:00",
+      "title": "Cover prepared variable types across nested and table queries",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2b748c85dafb02c09bd0c9136a9d794cf85d03a8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:98bd8eab8d378fa7358283e577e7094fa325c33e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T07:36:22.000+02:00",
+      "title": "Isolate indexed table open as MySQL join transition",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/98bd8eab8d378fa7358283e577e7094fa325c33e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:29a9457985b306f5fe9331fa1ced81392c0e1d5e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T07:34:50.000+02:00",
+      "title": "Pin connection-sensitive MySQL numeric join result",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/29a9457985b306f5fe9331fa1ced81392c0e1d5e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:33611ed5eba071e29c5ef95a87b11a9d8811b6bc",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T07:24:47.000+02:00",
+      "title": "Pin MySQL join result versus ANALYZE discrepancy",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/33611ed5eba071e29c5ef95a87b11a9d8811b6bc"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:55ff0d9048e69c1dd92a7f61f4fef470770053b1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T07:19:39.000+02:00",
+      "title": "Cover singleton numeric joins and pin costed counterexample",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/55ff0d9048e69c1dd92a7f61f4fef470770053b1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f3bc63405754dcc1bd790f0c95dd71b4447b2fe0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T07:05:07.000+02:00",
+      "title": "Choose indexed costed join base for numeric IN",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f3bc63405754dcc1bd790f0c95dd71b4447b2fe0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:580ab40c827f4f231e06305c8431fb7dd58ab3bd",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T06:43:57.000+02:00",
+      "title": "Support supplementary scalar regex properties",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/580ab40c827f4f231e06305c8431fb7dd58ab3bd"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:61ee4e54afe44fabfc168133fcb95fd9802fb53e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T06:35:45.000+02:00",
+      "title": "Support Bidi_Control regex property aliases",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/61ee4e54afe44fabfc168133fcb95fd9802fb53e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:faca5958c7135f804e5a62cdd29f14f6ecf985e3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T06:28:25.000+02:00",
+      "title": "Support Join_Control regex property aliases",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/faca5958c7135f804e5a62cdd29f14f6ecf985e3"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:27eb19e09e40884bfb9b786a49656176c1ce4694",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T06:22:38.000+02:00",
+      "title": "Document MySQL costed join access-path ownership",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/27eb19e09e40884bfb9b786a49656176c1ce4694"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:da546ab74f5fe37685fe667c0af6ff545b2cd947",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T06:20:21.000+02:00",
+      "title": "Support Unicode hex-digit regex properties",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/da546ab74f5fe37685fe667c0af6ff545b2cd947"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6425688d733f5c118ad82a01137522971c0258d7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T06:14:01.000+02:00",
+      "title": "Clarify numeric join filter transfer predicate",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6425688d733f5c118ad82a01137522971c0258d7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:39b0bbc538d2a4f42ed3eefc78ce1cd974c323b3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T06:10:25.000+02:00",
+      "title": "Pin mixed-type join index counterexample in MySQL oracle",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/39b0bbc538d2a4f42ed3eefc78ce1cd974c323b3"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2f747cfbf2cb43145c604113f1d772333796c1ec",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T06:07:16.000+02:00",
+      "title": "Recheck mixed-type costed joins against MySQL",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2f747cfbf2cb43145c604113f1d772333796c1ec"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:62adbc2215ac405287605ebe86b959d1f787f905",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T06:02:03.000+02:00",
+      "title": "Skip document-index delta work when no document indexes exist",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/62adbc2215ac405287605ebe86b959d1f787f905"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:963373af296c7a38c101ca35141c5cbcd132651d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T05:39:58.000+02:00",
+      "title": "Cover keyless insert concurrency and reject unhelpful fast path",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/963373af296c7a38c101ca35141c5cbcd132651d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ed2c38e490b5a1b5c29fd2d09f3aaed3389fcb10",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T05:23:44.000+02:00",
+      "title": "Measure keyless insert scaling with retention checks",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ed2c38e490b5a1b5c29fd2d09f3aaed3389fcb10"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0eb6786979ec20d2417854e47458d0b1266d8428",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T05:17:07.000+02:00",
+      "title": "Match MySQL ASCII hex regex property aliases",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0eb6786979ec20d2417854e47458d0b1266d8428"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c6ed25737d7b06660a73f98e3da7b4f3ae466334",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T05:08:58.000+02:00",
+      "title": "Clarify joined CHAR warning row provenance from MySQL probe",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c6ed25737d7b06660a73f98e3da7b4f3ae466334"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e5e9c47b859b0f65e06321a591938a50006e2d53",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T05:03:50.000+02:00",
+      "title": "Preserve CHAR JSON origins through mergeable derived sources",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e5e9c47b859b0f65e06321a591938a50006e2d53"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1b649a8910a0914d10ac7f82cd147a5d64836e99",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T04:49:52.000+02:00",
+      "title": "Clarify joined CHAR warning provenance and avoid needless view expansion",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1b649a8910a0914d10ac7f82cd147a5d64836e99"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:979654c027e04f7900559dc9706d2a667db5209f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T04:42:08.000+02:00",
+      "title": "Preserve CHAR JSON warning origins in joined views",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/979654c027e04f7900559dc9706d2a667db5209f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9535032a06a75efb9ec99402efbb99af50236a27",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T04:32:57.000+02:00",
+      "title": "Trace CHAR JSON warnings through mixed star views",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9535032a06a75efb9ec99402efbb99af50236a27"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f293c3bb417cdc3eaa3c18538659930df38b710f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T04:20:46.000+02:00",
+      "title": "Preserve CHAR JSON warning sources through star views",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f293c3bb417cdc3eaa3c18538659930df38b710f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:cd9c69ba9a6274d375ec454f0004ea7f7a272ad4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T04:10:37.000+02:00",
+      "title": "Verify CHAR JSON warning source through CAST views",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/cd9c69ba9a6274d375ec454f0004ea7f7a272ad4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a2d215d3cf9e01e843a354ecee1bee68c78dca8b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T04:02:54.000+02:00",
+      "title": "Trace CHAR JSON warning sources through nested views",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a2d215d3cf9e01e843a354ecee1bee68c78dca8b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a835ec5236a8e18467162b3de9dcd1d2c16f6af3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T03:54:13.000+02:00",
+      "title": "Preserve CHAR JSON warning origins through views",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a835ec5236a8e18467162b3de9dcd1d2c16f6af3"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b520fc035713e39fc9dfeccfea5a98e6695d9b39",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T03:41:06.000+02:00",
+      "title": "Preserve JSON type through UNION and CTE sources",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b520fc035713e39fc9dfeccfea5a98e6695d9b39"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7607dd5733a875402192b0c86bc7ded455bb38ac",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T03:20:06.000+02:00",
+      "title": "Cover CHAR conversion for all JSON-returning builtins",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7607dd5733a875402192b0c86bc7ded455bb38ac"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e7ddd7165198d5937d4261e62ea0e36f9201df58",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T03:14:48.000+02:00",
+      "title": "Verify CHAR conversion across JSON mutation sources",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e7ddd7165198d5937d4261e62ea0e36f9201df58"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d29b6762a0aea4f6c4af8e2520c010d5cec1c7fd",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T03:07:59.000+02:00",
+      "title": "Match CHAR overflow diagnostics for numeric functions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d29b6762a0aea4f6c4af8e2520c010d5cec1c7fd"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:c02cbaffc6e411ca830eaaddff7010c74d1102f9",
       "kind": "commit",
@@ -7629,276 +7901,12 @@
       "url": "https://github.com/HelgeSverre/token/commit/0993c2c01ab8a13bb4dc17287a9c1e233d87af7c"
     },
     {
-      "id": "commit:HelgeSverre/splash:be6738e8fb78aae4340503acf9c2d2546ee6d083",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-05T16:11:00.000+02:00",
-      "title": "Align macOS release requirements with the webview target",
-      "url": "https://github.com/HelgeSverre/splash/commit/be6738e8fb78aae4340503acf9c2d2546ee6d083"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:5e6de9fd25d79029c3b95628251b473e93d919a6",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-05T16:08:09.000+02:00",
-      "title": "Suppress expected agent errors during app shutdown",
-      "url": "https://github.com/HelgeSverre/splash/commit/5e6de9fd25d79029c3b95628251b473e93d919a6"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:7749baa716dbaedd6a2ac165bde6ddc135928e1b",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-05T16:02:48.000+02:00",
-      "title": "Install actionlint through Homebrew on CI",
-      "url": "https://github.com/HelgeSverre/splash/commit/7749baa716dbaedd6a2ac165bde6ddc135928e1b"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:c3a68b229ec5d89d40bc73f573c397aabadeb4dc",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-05T15:58:59.000+02:00",
-      "title": "Prepare Splash 0.1.0 for public release",
-      "url": "https://github.com/HelgeSverre/splash/commit/c3a68b229ec5d89d40bc73f573c397aabadeb4dc"
-    },
-    {
-      "id": "commit:HelgeSverre/ollama-gui:e76824ea9f9c2844477de7a217427eeb8dd07603",
-      "kind": "commit",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-05T15:51:02.000+02:00",
-      "title": "chore: move to Node 26 (.nvmrc) and use it in CI",
-      "url": "https://github.com/HelgeSverre/ollama-gui/commit/e76824ea9f9c2844477de7a217427eeb8dd07603"
-    },
-    {
-      "id": "commit:HelgeSverre/ollama-gui:88322a2fb251ca007064e62556e42083940e9fcd",
-      "kind": "commit",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-05T15:37:19.000+02:00",
-      "title": "fix: explain the browser's local network permission in the connection help; tidy help text spacing",
-      "url": "https://github.com/HelgeSverre/ollama-gui/commit/88322a2fb251ca007064e62556e42083940e9fcd"
-    },
-    {
-      "id": "commit:HelgeSverre/ollama-gui:e91cb37e4aec436c7012ba68be375c297da4241e",
-      "kind": "commit",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-05T15:34:48.000+02:00",
-      "title": "test: wait for stream conditions instead of fixed delays (flaky on slow CI runners)",
-      "url": "https://github.com/HelgeSverre/ollama-gui/commit/e91cb37e4aec436c7012ba68be375c297da4241e"
-    },
-    {
-      "id": "commit:HelgeSverre/ollama-gui:0e5341b6c2bfa01c55fd549a273d914ad815bba2",
-      "kind": "commit",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-05T15:29:06.000+02:00",
-      "title": "chore: add Dependabot (bun, actions, docker) and CI/release badges",
-      "url": "https://github.com/HelgeSverre/ollama-gui/commit/0e5341b6c2bfa01c55fd549a273d914ad815bba2"
-    },
-    {
-      "id": "commit:HelgeSverre/ollama-gui:d62a4ffe67a1d14e641589e4d9a815c4dcd04e14",
-      "kind": "commit",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-05T15:26:39.000+02:00",
-      "title": "chore: drop proxy comment",
-      "url": "https://github.com/HelgeSverre/ollama-gui/commit/d62a4ffe67a1d14e641589e4d9a815c4dcd04e14"
-    },
-    {
-      "id": "commit:HelgeSverre/ollama-gui:51b89ba91cc4522f741f5fe2bc990a14e259db92",
-      "kind": "commit",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-05T15:26:18.000+02:00",
-      "title": "fix(dev): proxy /api to 127.0.0.1 so Node doesn't resolve localhost to IPv6 (#63)",
-      "url": "https://github.com/HelgeSverre/ollama-gui/commit/51b89ba91cc4522f741f5fe2bc990a14e259db92"
-    },
-    {
-      "id": "commit:HelgeSverre/ollama-gui:9cff6b0cdb00fa0a12d9360fa221bf5ec5c3b8d8",
-      "kind": "commit",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-05T15:08:04.000+02:00",
-      "title": "chore: remove Claude Code GitHub Action workflows; stop tracking local Claude settings",
-      "url": "https://github.com/HelgeSverre/ollama-gui/commit/9cff6b0cdb00fa0a12d9360fa221bf5ec5c3b8d8"
-    },
-    {
-      "id": "commit:HelgeSverre/ollama-gui:ba29941bff2b2bfc7aec2dc80913b483a3386f2d",
-      "kind": "commit",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-05T14:59:36.000+02:00",
-      "title": "docs: use the published GHCR image in the Docker examples",
-      "url": "https://github.com/HelgeSverre/ollama-gui/commit/ba29941bff2b2bfc7aec2dc80913b483a3386f2d"
-    },
-    {
-      "id": "commit:HelgeSverre/ollama-gui:468bf863da8033986382765e3dab1fb84006af60",
-      "kind": "commit",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-05T14:36:15.000+02:00",
-      "title": "ci: weekly model catalog refresh PR; make act work locally",
-      "url": "https://github.com/HelgeSverre/ollama-gui/commit/468bf863da8033986382765e3dab1fb84006af60"
-    },
-    {
-      "id": "commit:HelgeSverre/ollama-gui:070ad6a3d52ec225205237ebc43a0c46c4aa274f",
-      "kind": "commit",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-05T14:02:43.000+02:00",
-      "title": "feat: search the Ollama library from the Models dialog",
-      "url": "https://github.com/HelgeSverre/ollama-gui/commit/070ad6a3d52ec225205237ebc43a0c46c4aa274f"
-    },
-    {
-      "id": "commit:HelgeSverre/ollama-gui:ed79103cd9da9624e4a0473888a3c998947433a7",
-      "kind": "commit",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-05T13:14:53.000+02:00",
-      "title": "fix: attach every file picked at once; strip stray think tags; add real-Ollama vision tests",
-      "url": "https://github.com/HelgeSverre/ollama-gui/commit/ed79103cd9da9624e4a0473888a3c998947433a7"
-    },
-    {
-      "id": "commit:HelgeSverre/ollama-gui:9596c5ecc509fe2885da3d9d1f80801552a0eac1",
-      "kind": "commit",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-05T13:10:06.000+02:00",
-      "title": "style: format src and e2e with Prettier; add format:check to CI",
-      "url": "https://github.com/HelgeSverre/ollama-gui/commit/9596c5ecc509fe2885da3d9d1f80801552a0eac1"
-    },
-    {
-      "id": "commit:HelgeSverre/ollama-gui:fd0d2856ca678b5b7d0edf5558e00708cb2c7919",
-      "kind": "commit",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-05T13:02:56.000+02:00",
-      "title": "chore(deps): major bumps — VueUse 15, vite-plugin-pwa 2, Vitest 5, TypeScript 6, prettier-plugin-tailwindcss 0.8, @types/node 24",
-      "url": "https://github.com/HelgeSverre/ollama-gui/commit/fd0d2856ca678b5b7d0edf5558e00708cb2c7919"
-    },
-    {
-      "id": "commit:HelgeSverre/ollama-gui:84f1508fbe61f3cf923f85761767b342d29b6d7c",
-      "kind": "commit",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-05T13:01:08.000+02:00",
-      "title": "chore(deps): update within current ranges (vue 3.5.43, vite 8.3, dexie 4.4.6, eslint 10.12, playwright 1.63…)",
-      "url": "https://github.com/HelgeSverre/ollama-gui/commit/84f1508fbe61f3cf923f85761767b342d29b6d7c"
-    },
-    {
-      "id": "commit:HelgeSverre/ollama-gui:4991005ad0930c3a1990a54c21fa45ef8f96f5cf",
-      "kind": "commit",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-05T12:57:57.000+02:00",
-      "title": "fix: carry v1 dark-mode and model settings over to v2; test the v10 (main) database upgrade",
-      "url": "https://github.com/HelgeSverre/ollama-gui/commit/4991005ad0930c3a1990a54c21fa45ef8f96f5cf"
-    },
-    {
       "id": "pr:HelgeSverre/ollama-gui:79",
       "kind": "merge",
       "repo": "HelgeSverre/ollama-gui",
       "at": "2026-10-05T12:55:10Z",
       "title": "v2: rebuilt chat UI",
       "url": "https://github.com/HelgeSverre/ollama-gui/pull/79"
-    },
-    {
-      "id": "commit:HelgeSverre/rust-vst3-host:65f2dabd66927fde90d354135268877a017ccf11",
-      "kind": "commit",
-      "repo": "HelgeSverre/rust-vst3-host",
-      "at": "2026-10-05T12:47:28.000+02:00",
-      "title": "fix: release trance pads on riff changes and improve transport controls",
-      "url": "https://github.com/HelgeSverre/rust-vst3-host/commit/65f2dabd66927fde90d354135268877a017ccf11"
-    },
-    {
-      "id": "commit:HelgeSverre/rust-vst3-host:2e02cfcf57727a7d94bf6965e2ba7e92927bb0d1",
-      "kind": "commit",
-      "repo": "HelgeSverre/rust-vst3-host",
-      "at": "2026-10-05T12:47:28.000+02:00",
-      "title": "fix: avoid deprecated atomic update while retaining Rust 1.85 support",
-      "url": "https://github.com/HelgeSverre/rust-vst3-host/commit/2e02cfcf57727a7d94bf6965e2ba7e92927bb0d1"
-    },
-    {
-      "id": "commit:HelgeSverre/rust-vst3-host:4a34fbb475f350831e763e3f73a4045727d06201",
-      "kind": "commit",
-      "repo": "HelgeSverre/rust-vst3-host",
-      "at": "2026-10-05T12:38:29.000+02:00",
-      "title": "chore: add audible hardware test recipe",
-      "url": "https://github.com/HelgeSverre/rust-vst3-host/commit/4a34fbb475f350831e763e3f73a4045727d06201"
-    },
-    {
-      "id": "commit:HelgeSverre/rust-vst3-host:ed9a7dcc3e8a064235184de34b2a2e5fb6bcc553",
-      "kind": "commit",
-      "repo": "HelgeSverre/rust-vst3-host",
-      "at": "2026-10-05T12:37:28.000+02:00",
-      "title": "test: keep validation silent unless hardware audio is explicitly enabled",
-      "url": "https://github.com/HelgeSverre/rust-vst3-host/commit/ed9a7dcc3e8a064235184de34b2a2e5fb6bcc553"
-    },
-    {
-      "id": "commit:HelgeSverre/rust-vst3-host:c4e89726b5010f6b91fd722b743346f1f8b1c421",
-      "kind": "commit",
-      "repo": "HelgeSverre/rust-vst3-host",
-      "at": "2026-10-05T12:35:01.000+02:00",
-      "title": "fix: align VST3 lifecycle and add controller compatibility APIs",
-      "url": "https://github.com/HelgeSverre/rust-vst3-host/commit/c4e89726b5010f6b91fd722b743346f1f8b1c421"
-    },
-    {
-      "id": "commit:sema-lisp/zed-sema:a57b8cc6cff73ec688876f8cd46565a1a32d5bfa",
-      "kind": "commit",
-      "repo": "sema-lisp/zed-sema",
-      "at": "2026-10-05T12:32:07.000+02:00",
-      "title": "Keep optional theme outside the language extension package",
-      "url": "https://github.com/sema-lisp/zed-sema/commit/a57b8cc6cff73ec688876f8cd46565a1a32d5bfa"
-    },
-    {
-      "id": "commit:sema-lisp/opencode-sema:eaf94d4061e9b1df0b319ad4e4837e91b8940332",
-      "kind": "commit",
-      "repo": "sema-lisp/opencode-sema",
-      "at": "2026-10-05T12:30:52.000+02:00",
-      "title": "Release 1.2.1",
-      "url": "https://github.com/sema-lisp/opencode-sema/commit/eaf94d4061e9b1df0b319ad4e4837e91b8940332"
-    },
-    {
-      "id": "commit:sema-lisp/emacs-sema:6ecdc887be79960671b1014f9d6eed2caab35b88",
-      "kind": "commit",
-      "repo": "sema-lisp/emacs-sema",
-      "at": "2026-10-05T12:28:01.000+02:00",
-      "title": "Use unambiguous rx character class in regex matcher",
-      "url": "https://github.com/sema-lisp/emacs-sema/commit/6ecdc887be79960671b1014f9d6eed2caab35b88"
-    },
-    {
-      "id": "commit:sema-lisp/sema.nvim:d988f97f3c07d2c9347bfcf8b7b3af2948eaa70b",
-      "kind": "commit",
-      "repo": "sema-lisp/sema.nvim",
-      "at": "2026-10-05T12:27:19.000+02:00",
-      "title": "Format highlight regression assertion",
-      "url": "https://github.com/sema-lisp/sema.nvim/commit/d988f97f3c07d2c9347bfcf8b7b3af2948eaa70b"
-    },
-    {
-      "id": "commit:sema-lisp/intellij-sema:99a77eb86e8b1e29e089448a444e1aeaadddbca3",
-      "kind": "commit",
-      "repo": "sema-lisp/intellij-sema",
-      "at": "2026-10-05T12:26:57.000+02:00",
-      "title": "Release 1.2.0 with reader syntax and runtime aliases",
-      "url": "https://github.com/sema-lisp/intellij-sema/commit/99a77eb86e8b1e29e089448a444e1aeaadddbca3"
-    },
-    {
-      "id": "commit:sema-lisp/pkg:c90bfdbf9dfc2a076abef965043145f00a450f2e",
-      "kind": "commit",
-      "repo": "sema-lisp/pkg",
-      "at": "2026-10-05T12:25:57.000+02:00",
-      "title": "Sync reader syntax and runtime aliases in package highlighting",
-      "url": "https://github.com/sema-lisp/pkg/commit/c90bfdbf9dfc2a076abef965043145f00a450f2e"
-    },
-    {
-      "id": "commit:sema-lisp/sublime-sema:b6fc7191e0325d420c63d656a8f51d92617f6d3d",
-      "kind": "commit",
-      "repo": "sema-lisp/sublime-sema",
-      "at": "2026-10-05T12:20:52.000+02:00",
-      "title": "fix: preserve operator scopes before builtin matching",
-      "url": "https://github.com/sema-lisp/sublime-sema/commit/b6fc7191e0325d420c63d656a8f51d92617f6d3d"
-    },
-    {
-      "id": "commit:sema-lisp/zed-sema:27b9bae20e36a3c90cfe5795a32bb3510a78aee1",
-      "kind": "commit",
-      "repo": "sema-lisp/zed-sema",
-      "at": "2026-10-05T12:18:11.000+02:00",
-      "title": "release: prepare Zed 0.4.0 with updated grammar and theme",
-      "url": "https://github.com/sema-lisp/zed-sema/commit/27b9bae20e36a3c90cfe5795a32bb3510a78aee1"
-    },
-    {
-      "id": "commit:sema-lisp/ui:b1dc3ca3d225f48930d3edcfad0af606cc1ca562",
-      "kind": "commit",
-      "repo": "sema-lisp/ui",
-      "at": "2026-10-05T12:17:58.000+02:00",
-      "title": "release: synchronize Sema grammar and prepare UI 0.3.0",
-      "url": "https://github.com/sema-lisp/ui/commit/b1dc3ca3d225f48930d3edcfad0af606cc1ca562"
     },
     {
       "id": "pr:sema-lisp/intellij-sema:2",
