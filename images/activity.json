@@ -1,9 +1,81 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-12T18:25:03.820Z",
-  "since": "2026-09-28T18:25:03.820Z",
+  "fetchedAt": "2026-10-13T00:59:11.305Z",
+  "since": "2026-09-29T00:59:11.305Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:d4f09f4f7aae887c440dde503504f7f3ec8443d0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T21:39:49.000+02:00",
+      "title": "Prepare Fsdb 0.1.0-preview.7",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d4f09f4f7aae887c440dde503504f7f3ec8443d0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:71761a493b20e7ef861f4ae0afcac9ffaa758d79",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T21:34:05.000+02:00",
+      "title": "Use byte-correct LIKE ranges for binary keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/71761a493b20e7ef861f4ae0afcac9ffaa758d79"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:51229baf4e720244f5ba6dbc154e43a12e280ccb",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T21:07:22.000+02:00",
+      "title": "Clarify pinned MySQL oracle results for LIKE ranges",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/51229baf4e720244f5ba6dbc154e43a12e280ccb"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3f0d8cc78c5309ea55102894b4d6d409ea6f795a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T21:02:34.000+02:00",
+      "title": "Use indexed LIKE ranges for safe constant patterns",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3f0d8cc78c5309ea55102894b4d6d409ea6f795a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ed6c5b9a64fbed6fdaa58ac318d400fa9c4a7e2a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T20:50:49.000+02:00",
+      "title": "Deduplicate binary LIKE contract seed rendering",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ed6c5b9a64fbed6fdaa58ac318d400fa9c4a7e2a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d97f51c8aa15bfa7e6849f6ebce6ae6eb2de28a0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T20:38:52.000+02:00",
+      "title": "Prepare Fsdb 0.1.0-preview.6",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d97f51c8aa15bfa7e6849f6ebce6ae6eb2de28a0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a6bf802ddab6cbdc7732072b0894eb75d65d5414",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T20:35:07.000+02:00",
+      "title": "Use binary LIKE ranges on CHAR keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a6bf802ddab6cbdc7732072b0894eb75d65d5414"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a3043aac98c91eb980115b90a338a67e8f83824c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T20:29:25.000+02:00",
+      "title": "Use LIKE ranges on indexed TEXT columns",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a3043aac98c91eb980115b90a338a67e8f83824c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b23b826376df19aed2b64a09f7c9780fbcdcb83f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-12T20:23:50.000+02:00",
+      "title": "Use LIKE ranges on legacy binary text keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b23b826376df19aed2b64a09f7c9780fbcdcb83f"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:7e6925c996700a8d0815652522863ac128d04d27",
       "kind": "commit",
@@ -3867,14 +3939,6 @@
       "at": "2026-10-10T02:40:22.000+02:00",
       "title": "Stabilize terminal lifecycle and layout recovery",
       "url": "https://github.com/HelgeSverre/splash/commit/bf7f17ad8d3087c714b611830051dd62420dad26"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:c003c6d750aa178d29c0f92ec246df60786b89b7",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-10T02:37:11.000+02:00",
-      "title": "Recover backend lifecycle and probe reliability",
-      "url": "https://github.com/HelgeSverre/splash/commit/c003c6d750aa178d29c0f92ec246df60786b89b7"
     },
     {
       "id": "commit:HelgeSverre/splash:c003c6d750aa178d29c0f92ec246df60786b89b7",
@@ -7891,70 +7955,6 @@
       "at": "2026-10-06T16:00:29.000+02:00",
       "title": "Record decimal expression scale and division oracle",
       "url": "https://github.com/HelgeSverre/fsdb/commit/1ffa763750a71d07290f6e608a9c6565aca373b1"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:4f45e95549fe97a6d0715c78b631bebe8bf01b51",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-06T15:52:17.000+02:00",
-      "title": "Retain prepared variable types across SET NAMES clauses",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/4f45e95549fe97a6d0715c78b631bebe8bf01b51"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:313eb6f17a93dbbc310316bc55b2bb14e748b8c4",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-06T15:46:51.000+02:00",
-      "title": "Retain prepared types in mixed system-variable assignments",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/313eb6f17a93dbbc310316bc55b2bb14e748b8c4"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:3e0c4c7ccf68cd84c0deab0c24b55db410108863",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-06T15:36:59.000+02:00",
-      "title": "Record prepared mixed SET type histories from MySQL",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/3e0c4c7ccf68cd84c0deab0c24b55db410108863"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ef2aabcbb1d64e65a787a2b60a155ae40e843fc9",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-06T15:36:59.000+02:00",
-      "title": "Separate system SET normalization from expression evaluation",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ef2aabcbb1d64e65a787a2b60a155ae40e843fc9"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:67b9117c5790fce0c98b80dce20229597d4abeea",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-06T15:32:08.000+02:00",
-      "title": "Allow temporary tables to shadow permanent views",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/67b9117c5790fce0c98b80dce20229597d4abeea"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:f599613e71adf1c5a313d66e7727afab50e6f450",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-06T15:08:39.000+02:00",
-      "title": "Refresh prepared types after referenced schema changes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/f599613e71adf1c5a313d66e7727afab50e6f450"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:247b6ec64b043ffb075ef2981f0350ae22ec595e",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-06T14:53:19.000+02:00",
-      "title": "Retain typed user-variable SET assignments across preparation",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/247b6ec64b043ffb075ef2981f0350ae22ec595e"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:043ee7f28cfd643e5a0d3afa6b1c6a0a7b4dce6b",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-06T14:39:49.000+02:00",
-      "title": "Retain prepared user-variable read types",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/043ee7f28cfd643e5a0d3afa6b1c6a0a7b4dce6b"
     },
     {
       "id": "pr:HelgeSverre/ollama-gui:79",
