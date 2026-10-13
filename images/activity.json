@@ -1,9 +1,41 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-13T06:37:56.019Z",
-  "since": "2026-09-29T06:37:56.019Z",
+  "fetchedAt": "2026-10-13T12:32:03.896Z",
+  "since": "2026-09-29T12:32:03.896Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/dbdump:47d4cd185632a218469e566d12190a369f8ca1d2",
+      "kind": "commit",
+      "repo": "HelgeSverre/dbdump",
+      "at": "2026-10-13T09:54:18.000+02:00",
+      "title": "fix(restore): create triggers after loading table data",
+      "url": "https://github.com/HelgeSverre/dbdump/commit/47d4cd185632a218469e566d12190a369f8ca1d2"
+    },
+    {
+      "id": "commit:HelgeSverre/dbdump:f1e3fc28e4a83dec20055e3507cf2b58cfc4ab39",
+      "kind": "commit",
+      "repo": "HelgeSverre/dbdump",
+      "at": "2026-10-13T09:23:47.000+02:00",
+      "title": "chore(release): prepare v1.5.0",
+      "url": "https://github.com/HelgeSverre/dbdump/commit/f1e3fc28e4a83dec20055e3507cf2b58cfc4ab39"
+    },
+    {
+      "id": "commit:HelgeSverre/dbdump:b27f0d441be0eaa37e17bfaaaaa8c09082afe5a3",
+      "kind": "commit",
+      "repo": "HelgeSverre/dbdump",
+      "at": "2026-10-13T09:23:47.000+02:00",
+      "title": "fix(dump): preserve directories used as output destinations",
+      "url": "https://github.com/HelgeSverre/dbdump/commit/b27f0d441be0eaa37e17bfaaaaa8c09082afe5a3"
+    },
+    {
+      "id": "commit:HelgeSverre/dbdump:3e50298aa6a23f61bf4356dbb7dbb1b54528e7a1",
+      "kind": "commit",
+      "repo": "HelgeSverre/dbdump",
+      "at": "2026-10-13T09:23:47.000+02:00",
+      "title": "feat(cli): allow explicit table includes to override exclusion rules",
+      "url": "https://github.com/HelgeSverre/dbdump/commit/3e50298aa6a23f61bf4356dbb7dbb1b54528e7a1"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:d4f09f4f7aae887c440dde503504f7f3ec8443d0",
       "kind": "commit",
@@ -7893,62 +7925,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/e0ab03fb5aca38863f21cc5a6d81fae24d7b2981"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:be7374511a95df9726487909ee7d899c9c558ff3",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-06T17:27:17.000+02:00",
-      "title": "Convert numeric aggregate inputs before accumulation and distinct",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/be7374511a95df9726487909ee7d899c9c558ff3"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:67294928ee55169896fa1e99a1574dd7d4b2e9ab",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-06T17:22:17.000+02:00",
-      "title": "Preserve approximate aggregate result descriptors",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/67294928ee55169896fa1e99a1574dd7d4b2e9ab"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:3f67027c361495bbe3bfad7f47f5880f8c845589",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-06T17:16:41.000+02:00",
-      "title": "Separate constant and runtime integer negation semantics",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/3f67027c361495bbe3bfad7f47f5880f8c845589"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:0fce94c917de922a1d9bfbdef5261c88be473058",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-06T16:58:05.000+02:00",
-      "title": "Derive decimal result precision and distinguish unary negation",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/0fce94c917de922a1d9bfbdef5261c88be473058"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:3d56d2c94e3db58315848c237badc36cfe2d4f2f",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-06T16:35:45.000+02:00",
-      "title": "Honor division precision settings across prepared lifetimes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/3d56d2c94e3db58315848c237badc36cfe2d4f2f"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:0085f6dd30b7ce0a0aeab36d0f5a6e254346a9cb",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-06T16:22:44.000+02:00",
-      "title": "Record division precision increment and preparation oracle",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/0085f6dd30b7ce0a0aeab36d0f5a6e254346a9cb"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:77b9e9acb8990042ddc26482c3834dcbcdd527e3",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-06T16:17:58.000+02:00",
-      "title": "Preserve decimal expression scales and division guard digits",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/77b9e9acb8990042ddc26482c3834dcbcdd527e3"
-    },
-    {
       "id": "pr:HelgeSverre/ollama-gui:79",
       "kind": "merge",
       "repo": "HelgeSverre/ollama-gui",
@@ -8035,6 +8011,14 @@
       "at": "2026-10-05T07:48:44Z",
       "title": "Distribute a stapled app ZIP for Homebrew cask installs",
       "url": "https://github.com/HelgeSverre/sourcefour/pull/7"
+    },
+    {
+      "id": "release:HelgeSverre/dbdump:411431342",
+      "kind": "release",
+      "repo": "HelgeSverre/dbdump",
+      "at": "2026-10-13T07:59:59Z",
+      "title": "v1.5.0",
+      "url": "https://github.com/HelgeSverre/dbdump/releases/tag/v1.5.0"
     },
     {
       "id": "release:HelgeSverre/mire:410857086",
