@@ -1,9 +1,25 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-13T12:32:03.896Z",
-  "since": "2026-09-29T12:32:03.896Z",
+  "fetchedAt": "2026-10-13T18:26:34.961Z",
+  "since": "2026-09-29T18:26:34.961Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/ollama-gui:7b0780e2ced3038d39285cb11260a88546b65aa5",
+      "kind": "commit",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-13T19:54:24.000+02:00",
+      "title": "chore: release 2.0.4",
+      "url": "https://github.com/HelgeSverre/ollama-gui/commit/7b0780e2ced3038d39285cb11260a88546b65aa5"
+    },
+    {
+      "id": "commit:HelgeSverre/fedit:5faf2ac34e96416cf80af05d74e49a10a2a7dc83",
+      "kind": "commit",
+      "repo": "HelgeSverre/fedit",
+      "at": "2026-10-13T19:20:21.000+02:00",
+      "title": "Release 1.10.2: fix completion harness dependency drift",
+      "url": "https://github.com/HelgeSverre/fedit/commit/5faf2ac34e96416cf80af05d74e49a10a2a7dc83"
+    },
     {
       "id": "commit:HelgeSverre/dbdump:47d4cd185632a218469e566d12190a369f8ca1d2",
       "kind": "commit",
@@ -7901,30 +7917,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/73e313a1affdd33a1ddc3666e1b39a2989bf0f7a"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:e8fb6e2ca126386ad5a00817968d0c98afafb06a",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-06T18:15:05.000+02:00",
-      "title": "Parse explicit binary bit and hex introducers with MySQL token boundaries",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/e8fb6e2ca126386ad5a00817968d0c98afafb06a"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ba639a32ce0ca3b1dd5af12ec844bae566dcbe9b",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-06T18:07:43.000+02:00",
-      "title": "Preserve binary literal numeric origin until materialization",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ba639a32ce0ca3b1dd5af12ec844bae566dcbe9b"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:e0ab03fb5aca38863f21cc5a6d81fae24d7b2981",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-06T17:35:01.000+02:00",
-      "title": "Pin binary literal numeric context and materialization boundaries",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/e0ab03fb5aca38863f21cc5a6d81fae24d7b2981"
-    },
-    {
       "id": "pr:HelgeSverre/ollama-gui:79",
       "kind": "merge",
       "repo": "HelgeSverre/ollama-gui",
@@ -8011,6 +8003,62 @@
       "at": "2026-10-05T07:48:44Z",
       "title": "Distribute a stapled app ZIP for Homebrew cask installs",
       "url": "https://github.com/HelgeSverre/sourcefour/pull/7"
+    },
+    {
+      "id": "release:HelgeSverre/ollama-gui:411956701",
+      "kind": "release",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-13T17:54:39Z",
+      "title": "v2.0.4",
+      "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.4"
+    },
+    {
+      "id": "release:HelgeSverre/ollama-gui:411898079",
+      "kind": "release",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-13T16:43:33Z",
+      "title": "v2.0.3",
+      "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.3"
+    },
+    {
+      "id": "release:HelgeSverre/ollama-gui:409023372",
+      "kind": "release",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-10T15:12:30Z",
+      "title": "v2.0.2",
+      "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.2"
+    },
+    {
+      "id": "release:HelgeSverre/ollama-gui:404385764",
+      "kind": "release",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-06T06:27:56Z",
+      "title": "v2.0.1",
+      "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.1"
+    },
+    {
+      "id": "release:HelgeSverre/ollama-gui:403712882",
+      "kind": "release",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-05T12:55:26Z",
+      "title": "v2.0.0",
+      "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.0"
+    },
+    {
+      "id": "release:HelgeSverre/fedit:411939979",
+      "kind": "release",
+      "repo": "HelgeSverre/fedit",
+      "at": "2026-10-13T17:33:47Z",
+      "title": "v1.10.2",
+      "url": "https://github.com/HelgeSverre/fedit/releases/tag/v1.10.2"
+    },
+    {
+      "id": "release:HelgeSverre/fedit:405775266",
+      "kind": "release",
+      "repo": "HelgeSverre/fedit",
+      "at": "2026-10-07T13:08:10Z",
+      "title": "v1.10.1",
+      "url": "https://github.com/HelgeSverre/fedit/releases/tag/v1.10.1"
     },
     {
       "id": "release:HelgeSverre/dbdump:411431342",
@@ -8107,14 +8155,6 @@
       "at": "2026-10-09T21:26:30Z",
       "title": "v0.10.0",
       "url": "https://github.com/HelgeSverre/rust-vst3-host/releases/tag/v0.10.0"
-    },
-    {
-      "id": "release:HelgeSverre/fedit:405775266",
-      "kind": "release",
-      "repo": "HelgeSverre/fedit",
-      "at": "2026-10-07T13:08:10Z",
-      "title": "v1.10.1",
-      "url": "https://github.com/HelgeSverre/fedit/releases/tag/v1.10.1"
     },
     {
       "id": "release:sema-lisp/sema:407969625",
@@ -8259,30 +8299,6 @@
       "at": "2026-10-07T09:21:22Z",
       "title": "v1.0.0",
       "url": "https://github.com/HelgeSverre/codemagic-skill/releases/tag/v1.0.0"
-    },
-    {
-      "id": "release:HelgeSverre/ollama-gui:409023372",
-      "kind": "release",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-10T15:12:30Z",
-      "title": "v2.0.2",
-      "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.2"
-    },
-    {
-      "id": "release:HelgeSverre/ollama-gui:404385764",
-      "kind": "release",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-06T06:27:56Z",
-      "title": "v2.0.1",
-      "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.1"
-    },
-    {
-      "id": "release:HelgeSverre/ollama-gui:403712882",
-      "kind": "release",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-05T12:55:26Z",
-      "title": "v2.0.0",
-      "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.0"
     },
     {
       "id": "release:HelgeSverre/sourcefour:403524153",
