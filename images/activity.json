@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-13T00:59:11.305Z",
-  "since": "2026-09-29T00:59:11.305Z",
+  "fetchedAt": "2026-10-13T06:37:56.019Z",
+  "since": "2026-09-29T06:37:56.019Z",
   "partial": true,
   "events": [
     {
@@ -7947,14 +7947,6 @@
       "at": "2026-10-06T16:17:58.000+02:00",
       "title": "Preserve decimal expression scales and division guard digits",
       "url": "https://github.com/HelgeSverre/fsdb/commit/77b9e9acb8990042ddc26482c3834dcbcdd527e3"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:1ffa763750a71d07290f6e608a9c6565aca373b1",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-06T16:00:29.000+02:00",
-      "title": "Record decimal expression scale and division oracle",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/1ffa763750a71d07290f6e608a9c6565aca373b1"
     },
     {
       "id": "pr:HelgeSverre/ollama-gui:79",
