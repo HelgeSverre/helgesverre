@@ -1,9 +1,17 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-13T18:26:34.961Z",
-  "since": "2026-09-29T18:26:34.961Z",
+  "fetchedAt": "2026-10-14T00:47:06.162Z",
+  "since": "2026-09-30T00:47:06.162Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:dee36412cfc09932076832612d9e6eca941aeffc",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-13T22:46:42.000+02:00",
+      "title": "Prepare Fsdb 0.1.0-preview.8",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/dee36412cfc09932076832612d9e6eca941aeffc"
+    },
     {
       "id": "commit:HelgeSverre/ollama-gui:7b0780e2ced3038d39285cb11260a88546b65aa5",
       "kind": "commit",
@@ -7899,22 +7907,6 @@
       "at": "2026-10-06T18:37:50.000+02:00",
       "title": "Record native numeric expression performance snapshot and stability check",
       "url": "https://github.com/HelgeSverre/fsdb/commit/ef0ca9927d6feac1130936faf1988b09b038f53b"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:c29d188d5affcd203e13ed3f63ca0792e52e8aa8",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-06T18:29:48.000+02:00",
-      "title": "Add focused numeric expression and scalar subquery benchmarks",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/c29d188d5affcd203e13ed3f63ca0792e52e8aa8"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:73e313a1affdd33a1ddc3666e1b39a2989bf0f7a",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-06T18:26:24.000+02:00",
-      "title": "Preserve scalar projection metadata and materialize row-backed binary results",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/73e313a1affdd33a1ddc3666e1b39a2989bf0f7a"
     },
     {
       "id": "pr:HelgeSverre/ollama-gui:79",
