@@ -1,9 +1,457 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-15T12:28:38.280Z",
-  "since": "2026-10-01T12:28:38.280Z",
+  "fetchedAt": "2026-10-15T18:22:32.706Z",
+  "since": "2026-10-01T18:22:32.706Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:16bf5e46958f0ca3d252bc19314aa1878eaee860",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T20:03:22.000+02:00",
+      "title": "Prepare Fsdb 0.1.0-preview.14",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/16bf5e46958f0ca3d252bc19314aa1878eaee860"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f6dd358bd8ac50a2b628311bef5d47102aba98ec",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T19:55:34.000+02:00",
+      "title": "Probe indexed correlated ABS equality by signed keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f6dd358bd8ac50a2b628311bef5d47102aba98ec"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:39c62d6f19bf73932384a56f10a03ef4e1d411dd",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T19:37:21.000+02:00",
+      "title": "Make NuGet publishing reproducible from a release tag",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/39c62d6f19bf73932384a56f10a03ef4e1d411dd"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1c943a721f620198d4f77f6960e538fa51a32e41",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T19:18:09.000+02:00",
+      "title": "Prepare Fsdb 0.1.0-preview.13",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1c943a721f620198d4f77f6960e538fa51a32e41"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e2d8fc554605f2a81530818bf787e2c1d72bf9d4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T19:10:23.000+02:00",
+      "title": "Probe indexed correlated affine equality by inverse key",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e2d8fc554605f2a81530818bf787e2c1d72bf9d4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:91223aeb924c8bfca5d4c138db8d10538d61ea44",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T18:45:22.000+02:00",
+      "title": "Release Fsdb 0.1.0-preview.12",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/91223aeb924c8bfca5d4c138db8d10538d61ea44"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c46e2cb927c4b5e8852cc11a16afc8c6c51128f6",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T18:35:56.000+02:00",
+      "title": "Probe materialized correlated affine equality by inverse key",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c46e2cb927c4b5e8852cc11a16afc8c6c51128f6"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c58551dcecf463df75bbfa8862188cabb8df3da5",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T18:17:56.000+02:00",
+      "title": "Record post-preview durable write checkpoint",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c58551dcecf463df75bbfa8862188cabb8df3da5"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:67",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T18:11:48Z",
+      "title": "Release Fsdb 0.1.0-preview.14",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/67"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:24302ed13d93a412c51276f9a2d00f59135b7b18",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T18:07:03.000+02:00",
+      "title": "Audit layered lateral view grant behavior",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/24302ed13d93a412c51276f9a2d00f59135b7b18"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:66",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T18:02:25Z",
+      "title": "Probe indexed correlated ABS equality by signed keys",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/66"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:cfcadea8f42bae0db82a621792043ffc1d8ce81a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T17:53:04.000+02:00",
+      "title": "Release Fsdb 0.1.0-preview.11",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/cfcadea8f42bae0db82a621792043ffc1d8ce81a"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:65",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T17:45:45Z",
+      "title": "Make NuGet tag publishing use validated test settings",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/65"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3746268a6f64ae29353d54ad3c6ce776bd9be43c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T17:42:45.000+02:00",
+      "title": "Push preserved outer-join bounds into ngram scoring",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3746268a6f64ae29353d54ad3c6ce776bd9be43c"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:64",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T17:27:36Z",
+      "title": "Release Fsdb 0.1.0-preview.13",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/64"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:79afccb7e359f42f9f2abaa954743691cbc701fb",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T17:26:08.000+02:00",
+      "title": "Probe materialized correlated ABS equality by inverse keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/79afccb7e359f42f9f2abaa954743691cbc701fb"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:63",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T17:17:18Z",
+      "title": "Probe indexed correlated affine equality by inverse key",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/63"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f3914a7f8af2fbddf884051891356ce6168506d7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T17:12:15.000+02:00",
+      "title": "Lock unique write keys exactly",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f3914a7f8af2fbddf884051891356ce6168506d7"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:62",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T16:53:54Z",
+      "title": "Release Fsdb 0.1.0-preview.12",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/62"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:61",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T16:45:09Z",
+      "title": "Probe materialized correlated affine equality by inverse key",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/61"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:68ba798acc0eb66a1d52dabc8a0766ce39ac7d8a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T16:44:40.000+02:00",
+      "title": "Release Fsdb 0.1.0-preview.10",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/68ba798acc0eb66a1d52dabc8a0766ce39ac7d8a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0dd02d9c984a5c32341de42477cb297fde13f61e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T16:33:01.000+02:00",
+      "title": "Preserve refreshed table statistics during transaction rebase",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0dd02d9c984a5c32341de42477cb297fde13f61e"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:60",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T16:26:39Z",
+      "title": "Record current durable write-scaling checkpoint",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/60"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:39d0a1da0c5baefcd6fd537be00dd93490bc4c9e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T16:24:59.000+02:00",
+      "title": "Keep point and IN lookups indexed beside TIMESTAMP payloads",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/39d0a1da0c5baefcd6fd537be00dd93490bc4c9e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2c4eeb63fff41f109ebc249f2a93709c3ca71633",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T16:24:46.000+02:00",
+      "title": "Rebase transactions cheaply past AUTO_INCREMENT advances",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2c4eeb63fff41f109ebc249f2a93709c3ca71633"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b0f78afd3fca073d339b4fb814a7c5bfefeaf859",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T16:20:33.000+02:00",
+      "title": "Link current independent review disposition",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b0f78afd3fca073d339b4fb814a7c5bfefeaf859"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:59",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T16:14:00Z",
+      "title": "Audit layered lateral view grants against MySQL",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/59"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c9e7969efd044f85707d26174aaa19bbaf65ad2d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T16:10:12.000+02:00",
+      "title": "Preserve EXISTS validation when decorrelating",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c9e7969efd044f85707d26174aaa19bbaf65ad2d"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:58",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T16:01:39Z",
+      "title": "Release Fsdb 0.1.0-preview.11",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/58"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:83337e83aca1c591c956794fbcbcaa7c36515f2f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T16:00:33.000+02:00",
+      "title": "Profile functional equality over materialized correlated rows",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/83337e83aca1c591c956794fbcbcaa7c36515f2f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:827217cea15fa33b77e6f4637e2925d3eff56528",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T15:53:42.000+02:00",
+      "title": "Verify view INSERT SELECT key contention",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/827217cea15fa33b77e6f4637e2925d3eff56528"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a6bca2c57b10c6237b59d4df043425dc1b8a8a19",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T15:52:46.000+02:00",
+      "title": "Hash integer parent keys when checking merged foreign keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a6bca2c57b10c6237b59d4df043425dc1b8a8a19"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:57",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T15:51:13Z",
+      "title": "Bound nullable ngram scoring through outer-join owner keys",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/57"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e5dc75d43b8c1cbb359c128a850de539da7090a3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T15:48:40.000+02:00",
+      "title": "Accept orphaned children written with foreign_key_checks off",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e5dc75d43b8c1cbb359c128a850de539da7090a3"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a6b83b82d9fbd5ad9bdc9b9279103ea7be0443aa",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T15:47:33.000+02:00",
+      "title": "Cover right outer join view write rejection",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a6b83b82d9fbd5ad9bdc9b9279103ea7be0443aa"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7041028984bc6b4e013337e6a1a67bcad97ea6cb",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T15:43:45.000+02:00",
+      "title": "Verify legacy ngrams across token sizes and modes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7041028984bc6b4e013337e6a1a67bcad97ea6cb"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4e586a2e19cc301244e7a1c8096353affee2a368",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T15:39:17.000+02:00",
+      "title": "Fold legacy CJK punctuation widths for ngram keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4e586a2e19cc301244e7a1c8096353affee2a368"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:02e1853e95396abc44f12a00623a1b96f0ca5b43",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T15:38:49.000+02:00",
+      "title": "Add TIME_TO_SEC",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/02e1853e95396abc44f12a00623a1b96f0ca5b43"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:83019a0cb4dfc036b84494a57493817da9ea87f1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T15:38:48.000+02:00",
+      "title": "Warn on unparseable TIME input",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/83019a0cb4dfc036b84494a57493817da9ea87f1"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:56",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T15:33:08Z",
+      "title": "Index correlated ABS equality over materialized sources",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/56"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e2e5870b0862e44c8be01b70b2211246b07bec73",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T15:29:34.000+02:00",
+      "title": "Extend geographic hole-edge oracle to polar points",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e2e5870b0862e44c8be01b70b2211246b07bec73"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0c9c126700b04dfc414cbe5ffbc3831168a857ce",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T15:24:32.000+02:00",
+      "title": "Probe BIGINT UNSIGNED indexes with non-negative signed values",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0c9c126700b04dfc414cbe5ffbc3831168a857ce"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:88380e2b1a0819a5fb2b2db645ea3a1a71ed76ef",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T15:24:32.000+02:00",
+      "title": "Hash IN membership over unsigned integer columns",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/88380e2b1a0819a5fb2b2db645ea3a1a71ed76ef"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c579a32a6c0672a7428f3df9d51eb5239878d951",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T15:24:32.000+02:00",
+      "title": "Decorrelate joined COUNT and EXISTS integer-key subqueries",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c579a32a6c0672a7428f3df9d51eb5239878d951"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:351d188c82e77dc7ee0dfdef58a6df51efe473ca",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T15:24:32.000+02:00",
+      "title": "Keep equality joins indexed beside TIMESTAMP payloads",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/351d188c82e77dc7ee0dfdef58a6df51efe473ca"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:113bfe5a8589eb20ef93e541f6916e5e36a6848b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T15:21:45.000+02:00",
+      "title": "Rebase joined writes beside lateral and JSON sources",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/113bfe5a8589eb20ef93e541f6916e5e36a6848b"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:55",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T15:20:32Z",
+      "title": "Prevent unrelated unique keys from sharing write locks",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/55"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:bf2100dd002fae06bced91a6d20ae2fdd7fe3a29",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T15:14:37.000+02:00",
+      "title": "Keep lateral-first join views updatable",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/bf2100dd002fae06bced91a6d20ae2fdd7fe3a29"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:42276956daef4dfc3e1a6d4128c45ab9145b5e99",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T15:07:58.000+02:00",
+      "title": "Align comma width folding in CJK collations",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/42276956daef4dfc3e1a6d4128c45ab9145b5e99"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2092deb628dd9058a96adcf718ba43f2426683df",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T14:59:07.000+02:00",
+      "title": "Index correlated text patterns on byte keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2092deb628dd9058a96adcf718ba43f2426683df"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:67599804de67c89189d73e9e06c23ac52e54abc7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T14:52:59.000+02:00",
+      "title": "Index correlated byte LIKE prefixes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/67599804de67c89189d73e9e06c23ac52e54abc7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c930ef6efe8a61618419fa50ebd0393bf1ca623d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T14:46:20.000+02:00",
+      "title": "Keep aggregate lateral join views updatable",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c930ef6efe8a61618419fa50ebd0393bf1ca623d"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:53",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T14:41:17Z",
+      "title": "Make inserts inside a transaction linear",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/53"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:cdfbb087a4bbab8590a45674a3414f66756a28e0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T14:39:01.000+02:00",
+      "title": "Distinguish legacy vertical punctuation in CJK ngrams",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/cdfbb087a4bbab8590a45674a3414f66756a28e0"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:54",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T14:37:43Z",
+      "title": "Keep point and IN lookups indexed beside TIMESTAMP payloads",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/54"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:59f82e482ad8df8794d9df040fcceffd6c80a7e0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T14:29:40.000+02:00",
+      "title": "Record durable write lock-admission profile",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/59f82e482ad8df8794d9df040fcceffd6c80a7e0"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:aafc996b4214ef811adc85a84bec66d742b15235",
       "kind": "commit",
@@ -13,12 +461,36 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/aafc996b4214ef811adc85a84bec66d742b15235"
     },
     {
+      "id": "pr:HelgeSverre/fsdb:50",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T14:18:56Z",
+      "title": "Fix ORM-shaped query plans on unsigned keys and TIMESTAMP tables",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/50"
+    },
+    {
       "id": "commit:HelgeSverre/fsdb:793101d313e9f25b5770db3685fab9520e11b25a",
       "kind": "commit",
       "repo": "HelgeSverre/fsdb",
       "at": "2026-10-15T14:11:19.000+02:00",
       "title": "Condense independent review disposition",
       "url": "https://github.com/HelgeSverre/fsdb/commit/793101d313e9f25b5770db3685fab9520e11b25a"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:52",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T14:11:15Z",
+      "title": "Accept orphaned children written with foreign_key_checks off",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/52"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:51",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T14:10:26Z",
+      "title": "Add TIME_TO_SEC and warn on unparseable TIME input",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/51"
     },
     {
       "id": "commit:HelgeSverre/fsdb:804ade8ab775dd4c438dee9ed3bcceb4273aae2d",
@@ -7341,478 +7813,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/7058caa9a96a1f6bcee7adb9860ffba500e3176f"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:05727fa20d3f3970c1f1e9b63109af1e02376294",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T04:52:36.000+02:00",
-      "title": "Pin ROLLUP level evaluation and early limit behavior",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/05727fa20d3f3970c1f1e9b63109af1e02376294"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:e8ce7bd735c8771800fb14eee916cf0cb644c63c",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T04:48:34.000+02:00",
-      "title": "Match GROUP_CONCAT tie ordering and first duplicate retention",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/e8ce7bd735c8771800fb14eee916cf0cb644c63c"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:0bd940a5a7fc33afc7f97ec26be513aced0179f1",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T04:42:03.000+02:00",
-      "title": "Select grouped aggregate input order by aggregate family",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/0bd940a5a7fc33afc7f97ec26be513aced0179f1"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:a975585dd2c99e8a4a5dfef14e7f640ac761c582",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T04:31:43.000+02:00",
-      "title": "Pin aggregate-family grouping input order against native plans",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/a975585dd2c99e8a4a5dfef14e7f640ac761c582"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:e8fe63ee061383bf96d043db5f61fe440a552671",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T04:23:26.000+02:00",
-      "title": "Materialize grouped aggregate inputs in source order",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/e8fe63ee061383bf96d043db5f61fe440a552671"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:541ac14331af6c6b473aa2bf2803231214a338d4",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-08T04:15:42.000+02:00",
-      "title": "Report an agent's exit and stderr when it dies mid-turn",
-      "url": "https://github.com/HelgeSverre/splash/commit/541ac14331af6c6b473aa2bf2803231214a338d4"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:ccd58de59647bce881d331b08751ebb77b9ae75d",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-08T04:15:42.000+02:00",
-      "title": "Don't record Splash's own shutdown as an agent failure",
-      "url": "https://github.com/HelgeSverre/splash/commit/ccd58de59647bce881d331b08751ebb77b9ae75d"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:c6de2b7b0d7537679b1fa70db8e3816e4058ba97",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-08T04:12:05.000+02:00",
-      "title": "Reconnect to a restarted server right away, and say so plainly",
-      "url": "https://github.com/HelgeSverre/splash/commit/c6de2b7b0d7537679b1fa70db8e3816e4058ba97"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:b81d7e4fb1e928ffdc92178a5f173e62a5e890e0",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T03:57:05.000+02:00",
-      "title": "Separate aggregate value provision from expression rewriting",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/b81d7e4fb1e928ffdc92178a5f173e62a5e890e0"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ee37244111d22991fa60ed648a259fd92bcf930d",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T03:51:42.000+02:00",
-      "title": "Pin grouped input evaluation and returned projection side effects",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ee37244111d22991fa60ed648a259fd92bcf930d"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:9a498be5f33ebe8fff9a078c8c50bd48f89944ed",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T03:46:55.000+02:00",
-      "title": "Validate aggregate ordering in query scope and term order",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/9a498be5f33ebe8fff9a078c8c50bd48f89944ed"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:25f4770e9cc5980dd91147416cbd411c7980e520",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T03:28:13.000+02:00",
-      "title": "Bind enclosing aggregates across expression subqueries",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/25f4770e9cc5980dd91147416cbd411c7980e520"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:74696ee37bed86cba7f6c95b624dc76e01d73959",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-08T03:11:40.000+02:00",
-      "title": "Install NSIS for Windows packages without Chocolatey",
-      "url": "https://github.com/HelgeSverre/splash/commit/74696ee37bed86cba7f6c95b624dc76e01d73959"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:d2fed8022be1b2477cd27b85ff83ad644adc1ddb",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T03:02:41.000+02:00",
-      "title": "Pin aggregate ownership and ordering rejection across query scopes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/d2fed8022be1b2477cd27b85ff83ad644adc1ddb"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:f88bb501c32a955f767f789b1328fd86501df1a3",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T02:59:52.000+02:00",
-      "title": "Prepare correlated ordering alias bindings once per statement",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/f88bb501c32a955f767f789b1328fd86501df1a3"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:419c2918491abfc6ddf1c0f608f5ea1644f6ad67",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-08T02:58:12.000+02:00",
-      "title": "Keep what the fake agents sent, for failed browser tests",
-      "url": "https://github.com/HelgeSverre/splash/commit/419c2918491abfc6ddf1c0f608f5ea1644f6ad67"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:bbb713cc45e4d9cf3a8ce39ed2ac535c29d354a2",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T02:52:38.000+02:00",
-      "title": "Resolve correlated ordering aliases through projected value scopes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/bbb713cc45e4d9cf3a8ce39ed2ac535c29d354a2"
-    },
-    {
-      "id": "commit:HelgeSverre/claude-plan-viewer:f1015e13f8a411394b14a5265492f130eab57248",
-      "kind": "commit",
-      "repo": "HelgeSverre/claude-plan-viewer",
-      "at": "2026-10-08T02:50:27.000+02:00",
-      "title": "test: unit tests import real server and client code",
-      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/f1015e13f8a411394b14a5265492f130eab57248"
-    },
-    {
-      "id": "commit:HelgeSverre/claude-plan-viewer:2d13b691aa9246374219cd8c46886a16a8c05286",
-      "kind": "commit",
-      "repo": "HelgeSverre/claude-plan-viewer",
-      "at": "2026-10-08T02:39:16.000+02:00",
-      "title": "fix(website): serve docs at clean URLs",
-      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/2d13b691aa9246374219cd8c46886a16a8c05286"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:afc7900356ebd11b8c6f3aeadf2c516c3f44b516",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T02:36:48.000+02:00",
-      "title": "Pin correlated ordering alias scope and evaluation contracts",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/afc7900356ebd11b8c6f3aeadf2c516c3f44b516"
-    },
-    {
-      "id": "commit:HelgeSverre/claude-plan-viewer:41b3dd6fa4eb9377149cb7ac9fe220e7f259905b",
-      "kind": "commit",
-      "repo": "HelgeSverre/claude-plan-viewer",
-      "at": "2026-10-08T02:35:51.000+02:00",
-      "title": "docs: add Memory view screenshot",
-      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/41b3dd6fa4eb9377149cb7ac9fe220e7f259905b"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:3034703b6b7ebe77574ca16594fb1375acf8add2",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T02:35:24.000+02:00",
-      "title": "Resolve duplicate ordering aliases by projection and source identity",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/3034703b6b7ebe77574ca16594fb1375acf8add2"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:66732cee98be4b0458a8c97f28c53afadd30c44b",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-08T02:29:53.000+02:00",
-      "title": "Look for the expected Actions request, not the last one logged",
-      "url": "https://github.com/HelgeSverre/splash/commit/66732cee98be4b0458a8c97f28c53afadd30c44b"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:046dc3185a6ef0fd77ad4c181d00412e23a9a19d",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-08T02:29:53.000+02:00",
-      "title": "Deliver events to a window from its first command",
-      "url": "https://github.com/HelgeSverre/splash/commit/046dc3185a6ef0fd77ad4c181d00412e23a9a19d"
-    },
-    {
-      "id": "commit:HelgeSverre/claude-plan-viewer:82b9f1cc1c71a2fa2de5d33ab1a541d7f812f8fb",
-      "kind": "commit",
-      "repo": "HelgeSverre/claude-plan-viewer",
-      "at": "2026-10-08T02:21:09.000+02:00",
-      "title": "chore(release): v1.6.0 - project memory view, content search, security fixes",
-      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/82b9f1cc1c71a2fa2de5d33ab1a541d7f812f8fb"
-    },
-    {
-      "id": "commit:HelgeSverre/claude-plan-viewer:95daedf187627b6d839762f1b28cdc5614c7b573",
-      "kind": "commit",
-      "repo": "HelgeSverre/claude-plan-viewer",
-      "at": "2026-10-08T02:20:21.000+02:00",
-      "title": "perf(memory): decode project dir names only for memory without session logs",
-      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/95daedf187627b6d839762f1b28cdc5614c7b573"
-    },
-    {
-      "id": "commit:HelgeSverre/claude-plan-viewer:3a5b9b7021f81c0d1fe255f8f641e3cf5b39b9bb",
-      "kind": "commit",
-      "repo": "HelgeSverre/claude-plan-viewer",
-      "at": "2026-10-08T02:18:21.000+02:00",
-      "title": "fix: address review findings for memory view and server",
-      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/3a5b9b7021f81c0d1fe255f8f641e3cf5b39b9bb"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:2671642313cc32d27ff4959d623b923d7f848df0",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T02:09:15.000+02:00",
-      "title": "Pin ordered duplicate alias selection and preparation errors",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/2671642313cc32d27ff4959d623b923d7f848df0"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:86b2dbba9bb0642f0985c87186e0f5548bc15af4",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T02:04:50.000+02:00",
-      "title": "Bind ordering expression aliases and reuse grouped aggregate values",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/86b2dbba9bb0642f0985c87186e0f5548bc15af4"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:b801f72a6462978ac179a549e04971051003788f",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-08T02:04:18.000+02:00",
-      "title": "Give a manual e2e burn-in time to finish",
-      "url": "https://github.com/HelgeSverre/splash/commit/b801f72a6462978ac179a549e04971051003788f"
-    },
-    {
-      "id": "commit:HelgeSverre/claude-plan-viewer:22d062d825852302c798b6f961fd1f5be7033ecc",
-      "kind": "commit",
-      "repo": "HelgeSverre/claude-plan-viewer",
-      "at": "2026-10-08T02:01:10.000+02:00",
-      "title": "docs: document the Memory view and /api/memory endpoints",
-      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/22d062d825852302c798b6f961fd1f5be7033ecc"
-    },
-    {
-      "id": "commit:HelgeSverre/claude-plan-viewer:652ddc469a97a172da10f2f65d99e5717733b111",
-      "kind": "commit",
-      "repo": "HelgeSverre/claude-plan-viewer",
-      "at": "2026-10-08T01:59:58.000+02:00",
-      "title": "fix(ui): fit view tabs in narrow headers, label index-only memory groups",
-      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/652ddc469a97a172da10f2f65d99e5717733b111"
-    },
-    {
-      "id": "commit:HelgeSverre/claude-plan-viewer:b863f34bc3c62b44e5a28960462292dacd3ffecd",
-      "kind": "commit",
-      "repo": "HelgeSverre/claude-plan-viewer",
-      "at": "2026-10-08T01:57:35.000+02:00",
-      "title": "feat(memory): Memory view with project grouping, links and index budget",
-      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/b863f34bc3c62b44e5a28960462292dacd3ffecd"
-    },
-    {
-      "id": "commit:HelgeSverre/claude-plan-viewer:222d177468349ed06c16655f074fd0eb0bcf4c28",
-      "kind": "commit",
-      "repo": "HelgeSverre/claude-plan-viewer",
-      "at": "2026-10-08T01:47:21.000+02:00",
-      "title": "feat(memory): serve auto memory over /api/memory",
-      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/222d177468349ed06c16655f074fd0eb0bcf4c28"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:6451673abfdd48cf900eacc5299849817697d39d",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T01:45:00.000+02:00",
-      "title": "Pin ORDER BY alias precedence and evaluation contracts",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/6451673abfdd48cf900eacc5299849817697d39d"
-    },
-    {
-      "id": "commit:HelgeSverre/claude-plan-viewer:40ec0645f6173ec02eac085992b11ddc2f2ea4c8",
-      "kind": "commit",
-      "repo": "HelgeSverre/claude-plan-viewer",
-      "at": "2026-10-08T01:43:24.000+02:00",
-      "title": "feat(memory): scan Claude Code auto memory directories",
-      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/40ec0645f6173ec02eac085992b11ddc2f2ea4c8"
-    },
-    {
-      "id": "commit:HelgeSverre/glue:cbe8f73e1e4d3bb9d28cae9e322c3d5775ed1cce",
-      "kind": "commit",
-      "repo": "HelgeSverre/glue",
-      "at": "2026-10-08T01:42:56.000+02:00",
-      "title": "docs: announce Splash on the website",
-      "url": "https://github.com/HelgeSverre/glue/commit/cbe8f73e1e4d3bb9d28cae9e322c3d5775ed1cce"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:09c2720df326e47d0d315b302880bcd9bb34e747",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T01:39:18.000+02:00",
-      "title": "Preserve literal view coercibility through ordering and grouping",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/09c2720df326e47d0d315b302880bcd9bb34e747"
-    },
-    {
-      "id": "commit:HelgeSverre/claude-plan-viewer:de2128c3d47c240d1f8c20e7e841f9420be7c52d",
-      "kind": "commit",
-      "repo": "HelgeSverre/claude-plan-viewer",
-      "at": "2026-10-08T01:37:39.000+02:00",
-      "title": "docs: document /api/search and stricter /api/open",
-      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/de2128c3d47c240d1f8c20e7e841f9420be7c52d"
-    },
-    {
-      "id": "commit:HelgeSverre/claude-plan-viewer:5e69f807eb0af011b634ac000653bac7b61321d1",
-      "kind": "commit",
-      "repo": "HelgeSverre/claude-plan-viewer",
-      "at": "2026-10-08T01:37:39.000+02:00",
-      "title": "fix(client): content search, safe highlighting, race-free selection, URL filters",
-      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/5e69f807eb0af011b634ac000653bac7b61321d1"
-    },
-    {
-      "id": "commit:HelgeSverre/claude-plan-viewer:d80e2a1940b4423d6c926954c1ddb6ee00deb8a0",
-      "kind": "commit",
-      "repo": "HelgeSverre/claude-plan-viewer",
-      "at": "2026-10-08T01:37:39.000+02:00",
-      "title": "fix(server): harden /api/open, survive missing plans dir, keep project mapping fresh",
-      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/d80e2a1940b4423d6c926954c1ddb6ee00deb8a0"
-    },
-    {
-      "id": "commit:HelgeSverre/claude-plan-viewer:9cfe55b6359c8d85137a8fa23bc0928ac72c9ce6",
-      "kind": "commit",
-      "repo": "HelgeSverre/claude-plan-viewer",
-      "at": "2026-10-08T01:37:39.000+02:00",
-      "title": "chore(deps): bump all dependencies, move typescript to devDependencies",
-      "url": "https://github.com/HelgeSverre/claude-plan-viewer/commit/9cfe55b6359c8d85137a8fa23bc0928ac72c9ce6"
-    },
-    {
-      "id": "commit:HelgeSverre/glue:63f5aa3374bfc77beab736fa222e713bdd36138c",
-      "kind": "commit",
-      "repo": "HelgeSverre/glue",
-      "at": "2026-10-08T01:34:12.000+02:00",
-      "title": "fix(build): use explicit CLI target with Dart 3.13",
-      "url": "https://github.com/HelgeSverre/glue/commit/63f5aa3374bfc77beab736fa222e713bdd36138c"
-    },
-    {
-      "id": "commit:HelgeSverre/glue:225666cef3f5d3ff2f401b25aea20caa3b7c3581",
-      "kind": "commit",
-      "repo": "HelgeSverre/glue",
-      "at": "2026-10-08T01:29:06.000+02:00",
-      "title": "release: v0.9.1",
-      "url": "https://github.com/HelgeSverre/glue/commit/225666cef3f5d3ff2f401b25aea20caa3b7c3581"
-    },
-    {
-      "id": "commit:HelgeSverre/glue:445eadb9549992620aae79ce21443e3d0ad4d78b",
-      "kind": "commit",
-      "repo": "HelgeSverre/glue",
-      "at": "2026-10-08T01:28:35.000+02:00",
-      "title": "feat: support Claude Haiku 5.5",
-      "url": "https://github.com/HelgeSverre/glue/commit/445eadb9549992620aae79ce21443e3d0ad4d78b"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:b8c56a7f64f12d2e19c1c0203cbf09a010cdd510",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T01:23:28.000+02:00",
-      "title": "Preserve view creation charsets in export metadata",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/b8c56a7f64f12d2e19c1c0203cbf09a010cdd510"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:c2c88b8d346fd2925513e2b66fc87007195e0ab3",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T01:22:57.000+02:00",
-      "title": "Isolate primary-key timing probes from concurrent fixtures",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/c2c88b8d346fd2925513e2b66fc87007195e0ab3"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:1f429c1393efe809f8b37dbb98dc90e83b444f12",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-08T01:22:04.000+02:00",
-      "title": "List the e2e helpers by area in the README",
-      "url": "https://github.com/HelgeSverre/splash/commit/1f429c1393efe809f8b37dbb98dc90e83b444f12"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:a6963f02b26510283cccb6c4201a3889912bdd33",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-08T01:21:32.000+02:00",
-      "title": "Wait for the app to finish loading in the browser tests",
-      "url": "https://github.com/HelgeSverre/splash/commit/a6963f02b26510283cccb6c4201a3889912bdd33"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:4df6065526d89ea12115f6fd8acb5edc26040c51",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-08T01:13:27.000+02:00",
-      "title": "Update the website's dependencies",
-      "url": "https://github.com/HelgeSverre/splash/commit/4df6065526d89ea12115f6fd8acb5edc26040c51"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:70e0be671e71f61b5d53e5f821b8be67710c2f1a",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T01:11:46.000+02:00",
-      "title": "Capture ordinary literal collations across preparation and view recovery",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/70e0be671e71f61b5d53e5f821b8be67710c2f1a"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:fbb392a78e2058cf05acf5fd26341c22c5b5d67f",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-08T01:10:29.000+02:00",
-      "title": "Find Settings, shortcut and web-version elements by test id",
-      "url": "https://github.com/HelgeSverre/splash/commit/fbb392a78e2058cf05acf5fd26341c22c5b5d67f"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:1098f89e82b923d5051e6432379f975137d329a8",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-08T01:04:49.000+02:00",
-      "title": "Find GitHub and Actions elements in the browser tests by test id",
-      "url": "https://github.com/HelgeSverre/splash/commit/1098f89e82b923d5051e6432379f975137d329a8"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:428ff81fbc9459fb3635ab5a0cd48ea03165c444",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-08T01:04:45.000+02:00",
-      "title": "Find agent history elements in the browser tests by test id",
-      "url": "https://github.com/HelgeSverre/splash/commit/428ff81fbc9459fb3635ab5a0cd48ea03165c444"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:81523a49cf7f3eb252bfa6db64f175541a4e7fff",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T00:57:39.000+02:00",
-      "title": "docs: add illustrated fsdb README header",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/81523a49cf7f3eb252bfa6db64f175541a4e7fff"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:7c7ae5d8aaca6a2a4d907c9d1d6bc8c468914226",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T00:55:14.000+02:00",
-      "title": "Preserve introduced literal charsets through execution and recovery",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/7c7ae5d8aaca6a2a4d907c9d1d6bc8c468914226"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:5bfab96243d0c3f3fe2e9cdfb9728dce7095c145",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-08T00:46:47.000+02:00",
-      "title": "Find elements in the browser tests by test id",
-      "url": "https://github.com/HelgeSverre/splash/commit/5bfab96243d0c3f3fe2e9cdfb9728dce7095c145"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:110895194e69a5e7d94d72369f535a19726b825e",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-08T00:46:44.000+02:00",
-      "title": "Use an absolute missing folder in the folder picker test",
-      "url": "https://github.com/HelgeSverre/splash/commit/110895194e69a5e7d94d72369f535a19726b825e"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:5a8a881284fc7d7bbd3405ca6c02ce8026582235",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T00:35:21.000+02:00",
-      "title": "Avoid allocations on literal diagnostic cache hits",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/5a8a881284fc7d7bbd3405ca6c02ce8026582235"
-    },
-    {
       "id": "pr:HelgeSverre/token:28",
       "kind": "merge",
       "repo": "HelgeSverre/token",
@@ -8363,22 +8363,6 @@
       "at": "2026-10-05T10:14:31Z",
       "title": "v0.3.0",
       "url": "https://github.com/sema-lisp/tree-sitter-sema/releases/tag/v0.3.0"
-    },
-    {
-      "id": "release:HelgeSverre/claude-plan-viewer:406271828",
-      "kind": "release",
-      "repo": "HelgeSverre/claude-plan-viewer",
-      "at": "2026-10-08T00:21:23Z",
-      "title": "v1.6.0",
-      "url": "https://github.com/HelgeSverre/claude-plan-viewer/releases/tag/v1.6.0"
-    },
-    {
-      "id": "release:HelgeSverre/glue:406250073",
-      "kind": "release",
-      "repo": "HelgeSverre/glue",
-      "at": "2026-10-07T23:35:47Z",
-      "title": "v0.9.1",
-      "url": "https://github.com/HelgeSverre/glue/releases/tag/v0.9.1"
     },
     {
       "id": "release:HelgeSverre/codemagic-skill:405993366",
