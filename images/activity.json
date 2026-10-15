@@ -1,9 +1,409 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-14T18:23:56.861Z",
-  "since": "2026-09-30T18:23:56.861Z",
+  "fetchedAt": "2026-10-15T00:46:38.745Z",
+  "since": "2026-10-01T00:46:38.745Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:3fec33393059752ca9e775c9ba5b85c342301de5",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T02:40:01.000+02:00",
+      "title": "Cover writable views after lateral source chains",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3fec33393059752ca9e775c9ba5b85c342301de5"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2f9f5ff9f13ebba0d3facade5b04264f667ad6c1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T02:35:09.000+02:00",
+      "title": "Intersect correlated physical IN and range probes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2f9f5ff9f13ebba0d3facade5b04264f667ad6c1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:45e74facafa581355229fd390dd65ad5b88f0615",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T02:18:15.000+02:00",
+      "title": "Record publication and group-commit role profile",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/45e74facafa581355229fd390dd65ad5b88f0615"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0c8da47810032d2ea14479d5d5b069c68349bcc8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T02:11:25.000+02:00",
+      "title": "Update views beside dependent lateral sources",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0c8da47810032d2ea14479d5d5b069c68349bcc8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:74fa1f00ef82ea8292ca71a3b53cb2d13cb3cc68",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T02:06:36.000+02:00",
+      "title": "Update views across multiple derived STRAIGHT_JOIN sources",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/74fa1f00ef82ea8292ca71a3b53cb2d13cb3cc68"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e3550f39d3cda8a22faa1be8d75911be46b5b812",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T02:02:37.000+02:00",
+      "title": "Use physical indexes for correlated IN probes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e3550f39d3cda8a22faa1be8d75911be46b5b812"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5213d3b5b44aea643367f4290b6c7f094dd1e562",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T01:46:53.000+02:00",
+      "title": "Probe stable outer expressions in materialized correlated IN",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5213d3b5b44aea643367f4290b6c7f094dd1e562"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:747962bb0abd7aa940eca6518fa887d6a61bcaf4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T01:41:21.000+02:00",
+      "title": "Record current review disposition and wire write stages",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/747962bb0abd7aa940eca6518fa887d6a61bcaf4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6d239eec5a6e5b05e94e0c40a03b913e38fef2d2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T01:32:34.000+02:00",
+      "title": "Record async client control for durable wire writes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6d239eec5a6e5b05e94e0c40a03b913e38fef2d2"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ee249072059a5ee086cd703f6f2d04aad92abe92",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T01:27:13.000+02:00",
+      "title": "Update derived-first NATURAL join views",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ee249072059a5ee086cd703f6f2d04aad92abe92"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a14b6119bc3fa0d8b1692a46bcd62cb1e4feb020",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T01:21:59.000+02:00",
+      "title": "Intersect correlated materialized IN candidates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a14b6119bc3fa0d8b1692a46bcd62cb1e4feb020"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c6a29592d5466e5a943f3491ad27edb034803eb0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T01:18:02.000+02:00",
+      "title": "Preserve mixed USING keys in derived-first view updates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c6a29592d5466e5a943f3491ad27edb034803eb0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:eedfc9b99c8ee25da1f6d2b92bae9518653e8e0e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T01:11:39.000+02:00",
+      "title": "Recheck independent review against current validation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/eedfc9b99c8ee25da1f6d2b92bae9518653e8e0e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4bbf3ed26ab3c52fd4bbc3fb85cc90a8a6272f18",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T01:08:34.000+02:00",
+      "title": "Update derived-first join views through USING keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4bbf3ed26ab3c52fd4bbc3fb85cc90a8a6272f18"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:bf7acdd8eeb5e35311e608cfbe521fac81b8d6b5",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T01:00:25.000+02:00",
+      "title": "Measure durable wire write stages under concurrency",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/bf7acdd8eeb5e35311e608cfbe521fac81b8d6b5"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:cbb2fad9a536d4b420d70f077d78539cbb685195",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T00:56:16.000+02:00",
+      "title": "Measure dependency expansion within durable wire writes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/cbb2fad9a536d4b420d70f077d78539cbb685195"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:badff3adc929572e429cbc960a78144f8315aa85",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T00:51:56.000+02:00",
+      "title": "Record method-resolved WAL wire write trace",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/badff3adc929572e429cbc960a78144f8315aa85"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:704d551477038f7ceb2332a58d8db6b323766167",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T00:46:53.000+02:00",
+      "title": "Extend ngram MySQL oracle across Unicode boundaries",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/704d551477038f7ceb2332a58d8db6b323766167"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7114d87834048b1d6c8808bac97b60390297f658",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T00:45:01.000+02:00",
+      "title": "Recheck independent review against current validation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7114d87834048b1d6c8808bac97b60390297f658"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d39355319be957d59657d889c9774c4c01608a90",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T00:41:54.000+02:00",
+      "title": "Update joined views with multiple leading derived sources",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d39355319be957d59657d889c9774c4c01608a90"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6dd6b4e3cfdc0f84edbfb41f9c7a1b8720ef7312",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T00:26:36.000+02:00",
+      "title": "Record WAL queue and batch-stage controls",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6dd6b4e3cfdc0f84edbfb41f9c7a1b8720ef7312"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c52e036d83a49aa7a7d41ced18c320fba27d94ae",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T00:18:57.000+02:00",
+      "title": "Intersect multiple correlated functional index probes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c52e036d83a49aa7a7d41ced18c320fba27d94ae"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d47cd92226d137bf100c71eca905d446aa5e1e05",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T00:14:34.000+02:00",
+      "title": "Intersect indexed candidates within correlated OR branches",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d47cd92226d137bf100c71eca905d446aa5e1e05"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:069511e3c0736d13e1d0f29cd49390b6a5f2f143",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T00:09:37.000+02:00",
+      "title": "Intersect correlated plain and functional index probes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/069511e3c0736d13e1d0f29cd49390b6a5f2f143"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:81b6811eb31ff76b96ff1c424a9635b6c1bd2cf8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T00:04:57.000+02:00",
+      "title": "Update independent review response with wire write evidence",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/81b6811eb31ff76b96ff1c424a9635b6c1bd2cf8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:95896b7c12cc9bdfdada11991258246d19e2753f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T00:03:19.000+02:00",
+      "title": "Record wire write scheduling and WAL batch controls",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/95896b7c12cc9bdfdada11991258246d19e2753f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5542fad3116b235c9834a673b0c20d9d93280a75",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-14T23:50:16.000+02:00",
+      "title": "Resolve grouped derived stars in updatable join views",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5542fad3116b235c9834a673b0c20d9d93280a75"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:59dc2bde8f420280b0e8e3f4813d74ddc71b84a0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-14T23:44:59.000+02:00",
+      "title": "Record neutral disconnect-watcher scheduling experiment",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/59dc2bde8f420280b0e8e3f4813d74ddc71b84a0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1700cbf274bacf3eddbebeec93c24fd0c22df1fe",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-14T23:40:36.000+02:00",
+      "title": "Document independent review follow-up and embedded write control",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1700cbf274bacf3eddbebeec93c24fd0c22df1fe"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:53c34f2ed71f4147b5dfbd7eeac285d35118f73a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-14T23:33:16.000+02:00",
+      "title": "Record durable and in-memory write scaling control",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/53c34f2ed71f4147b5dfbd7eeac285d35118f73a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:fb8fd5f5807bcdca9c698b55e71a7dd8013bc32f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-14T23:26:09.000+02:00",
+      "title": "Intersect correlated materialized OR branch candidates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/fb8fd5f5807bcdca9c698b55e71a7dd8013bc32f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:61d31f97d022eedb67d31cef4c6455bf10c59942",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-14T23:18:06.000+02:00",
+      "title": "Expand derived stars for joined view updates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/61d31f97d022eedb67d31cef4c6455bf10c59942"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:642041ed2c22507b0139135c679ca1b80246c4e5",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-14T23:12:59.000+02:00",
+      "title": "Update physical tables through derived join views",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/642041ed2c22507b0139135c679ca1b80246c4e5"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:76a82a55cae739ccacb6a298732d7a292c20ec70",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-14T23:06:37.000+02:00",
+      "title": "Refresh independent review CI evidence",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/76a82a55cae739ccacb6a298732d7a292c20ec70"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f11a278c3a5fe15cc18da6397aa0911f6906f371",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-14T22:57:26.000+02:00",
+      "title": "Index matching-collation correlated text IN",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f11a278c3a5fe15cc18da6397aa0911f6906f371"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:94510cdc2265e0c1aa6caa12509c20ad1c041e94",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-14T22:51:40.000+02:00",
+      "title": "Index correlated numeric IN on materialized sources",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/94510cdc2265e0c1aa6caa12509c20ad1c041e94"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:726491f76c23dc0ee9803ca15f5d30d7796bf36d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-14T22:35:58.000+02:00",
+      "title": "Record durable group commit completion experiment",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/726491f76c23dc0ee9803ca15f5d30d7796bf36d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d9d37330057a506ccee50ef81000d126718d5478",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-14T22:32:08.000+02:00",
+      "title": "Clarify review disposition and commit notification contract",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d9d37330057a506ccee50ef81000d126718d5478"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:11e5a19df618dbffd3c9836844eb5a0d9ef92e95",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-14T22:23:18.000+02:00",
+      "title": "Union mixed correlated text and functional candidates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/11e5a19df618dbffd3c9836844eb5a0d9ef92e95"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:807e1f34700f57d9cbf5c14442ac0f10583eb809",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-14T22:17:58.000+02:00",
+      "title": "Union correlated functional equality and range candidates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/807e1f34700f57d9cbf5c14442ac0f10583eb809"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:82f278895de9d335314e3018b7df793e6004be58",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-14T22:09:26.000+02:00",
+      "title": "Audit joined-view INSERT SET and nested check options",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/82f278895de9d335314e3018b7df793e6004be58"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d26d9782978e18c49d2f88632c07db45d9c7ace0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-14T22:04:22.000+02:00",
+      "title": "Extract EXPLAIN JSON rendering and refresh review response",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d26d9782978e18c49d2f88632c07db45d9c7ace0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0158fed842578baac13a0ce28f7f7725401f132b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-14T21:58:35.000+02:00",
+      "title": "Record durable write dependency profile",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0158fed842578baac13a0ce28f7f7725401f132b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0750bb20412e769bc113cefbb1f60a80d4dec468",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-14T21:47:13.000+02:00",
+      "title": "Match repeated ngram query relevance",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0750bb20412e769bc113cefbb1f60a80d4dec468"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e35baa65f43c18bdfae168dcaf2e56bda8eaa063",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-14T21:47:13.000+02:00",
+      "title": "Record near-hole intersection diagnostics",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e35baa65f43c18bdfae168dcaf2e56bda8eaa063"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a88dec68dba8729d1dd1c48e685923b52c6f1e5c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-14T21:26:29.000+02:00",
+      "title": "Union correlated equality and range candidates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a88dec68dba8729d1dd1c48e685923b52c6f1e5c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9b3d8e941d6bd8a84aecf166d94efca9e0ef445e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-14T21:12:44.000+02:00",
+      "title": "Pin embedding registration visibility and refresh review response",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9b3d8e941d6bd8a84aecf166d94efca9e0ef445e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:64ca9352ccc7c1029e0c2e36531b0e9655638a79",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-14T20:57:45.000+02:00",
+      "title": "Remove parsed statement admission contention",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/64ca9352ccc7c1029e0c2e36531b0e9655638a79"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b081bd1b9ce78e88c3b9660e96d70c8ca155cc13",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-14T20:42:21.000+02:00",
+      "title": "Record durable keyless scaling and spatial edge diagnostics",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b081bd1b9ce78e88c3b9660e96d70c8ca155cc13"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5a00d3d5cc35ea3e58ef14a59073df7f35e7f011",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-14T20:26:35.000+02:00",
+      "title": "Match concurrent write gate durability to MySQL",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5a00d3d5cc35ea3e58ef14a59073df7f35e7f011"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:c419b2fe1d95c1ea696c74598437c270cbeabbd0",
       "kind": "commit",
@@ -7533,188 +7933,12 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/18eb1f6a0ff0a1ab6c734a17d250f8823a422a9c"
     },
     {
-      "id": "commit:HelgeSverre/codemagic-skill:e7b03c4998a4fd070245db0f0559cfbc3390d7bd",
-      "kind": "commit",
-      "repo": "HelgeSverre/codemagic-skill",
-      "at": "2026-10-07T14:31:52.000+02:00",
-      "title": "Add MCP tools and PyPI Trusted Publishing for v1.2.0 (#2)",
-      "url": "https://github.com/HelgeSverre/codemagic-skill/commit/e7b03c4998a4fd070245db0f0559cfbc3390d7bd"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:cfa19330c63834ec5477402ccaf9fc39983ca70c",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T14:29:44.000+02:00",
-      "title": "Preserve partition tablespace declarations and native validation",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/cfa19330c63834ec5477402ccaf9fc39983ca70c"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:3273e1e4bf931a2022f5ec6e871229a1ee9434dd",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T14:23:32.000+02:00",
-      "title": "Centralize partition defaults and fold parsed options",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/3273e1e4bf931a2022f5ec6e871229a1ee9434dd"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:fe9c382f67f83aa5f084ed06357a2178a42d171b",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T14:21:28.000+02:00",
-      "title": "Record partition tablespace declaration and rendering contracts",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/fe9c382f67f83aa5f084ed06357a2178a42d171b"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:b115319052dfd0749ab6b53d314addd1e54c0488",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T14:19:18.000+02:00",
-      "title": "Retain HASH partition row hints and node groups",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/b115319052dfd0749ab6b53d314addd1e54c0488"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:af8228e5fbcc398b3c288c16c4689a9d97424dc0",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T14:16:13.000+02:00",
-      "title": "Ship Windows binaries with static CRT and preserve timestamp precision",
-      "url": "https://github.com/HelgeSverre/splash/commit/af8228e5fbcc398b3c288c16c4689a9d97424dc0"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:9134a54fd6c5aefec2327495bcd0a47ae3485d2f",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T14:13:14.000+02:00",
-      "title": "Record native partition row hint and node group contracts",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/9134a54fd6c5aefec2327495bcd0a47ae3485d2f"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:fd771308f83a7f922524c6b964c58286a03a56d1",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T14:11:04.000+02:00",
-      "title": "Validate HASH partition engine declarations and defaults",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/fd771308f83a7f922524c6b964c58286a03a56d1"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:f4bbbad94511973b291cf1e621b88fb3f6ac3145",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T14:09:03.000+02:00",
-      "title": "Stop the fixture agent before removing its database",
-      "url": "https://github.com/HelgeSverre/splash/commit/f4bbbad94511973b291cf1e621b88fb3f6ac3145"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:c7a7c70dea1d3b2fa87b8e0156d12ac8d76ad3a3",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T13:56:27.000+02:00",
-      "title": "Wait for Windows SQLite teardown and retain diagnostic build caches",
-      "url": "https://github.com/HelgeSverre/splash/commit/c7a7c70dea1d3b2fa87b8e0156d12ac8d76ad3a3"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:cdd961e3866a3f6add70c84dc42c420d1372e4e6",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T13:49:55.000+02:00",
-      "title": "Record partition engine inference and rejection contracts",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/cdd961e3866a3f6add70c84dc42c420d1372e4e6"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:ee584e0d72872c4ce5c2f55b4f5778ec989f20ea",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T13:48:06.000+02:00",
-      "title": "Adapt Windows webview origin and verify cancelled process cleanup",
-      "url": "https://github.com/HelgeSverre/splash/commit/ee584e0d72872c4ce5c2f55b4f5778ec989f20ea"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:264305d9e5ae63f0dcec4e6ce6fedaa02f0c2164",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T13:43:16.000+02:00",
-      "title": "Preserve HASH partition comments through DDL and recovery",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/264305d9e5ae63f0dcec4e6ce6fedaa02f0c2164"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:54c0a6c7f26dda1355ef540f03d44677bba00408",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T13:42:53.000+02:00",
-      "title": "Fix Linux webview IPC and native Windows test harnesses",
-      "url": "https://github.com/HelgeSverre/splash/commit/54c0a6c7f26dda1355ef540f03d44677bba00408"
-    },
-    {
-      "id": "commit:HelgeSverre/codemagic-skill:502f79ac5a5ff653fda288b97914c7d232bfeeb9",
-      "kind": "commit",
-      "repo": "HelgeSverre/codemagic-skill",
-      "at": "2026-10-07T13:40:31.000+02:00",
-      "title": "Add agent installation recipes and mobile signing guidance (#1)",
-      "url": "https://github.com/HelgeSverre/codemagic-skill/commit/502f79ac5a5ff653fda288b97914c7d232bfeeb9"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:801006f249bcac2cbd53decba51081edf85d0297",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T13:32:37.000+02:00",
-      "title": "Support explicit names when adding HASH partitions",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/801006f249bcac2cbd53decba51081edf85d0297"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:7199eb73dfae3de6f42c319bd2d1080e06b33506",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T13:31:51.000+02:00",
-      "title": "Add native platform support and installable cross-platform CI artifacts",
-      "url": "https://github.com/HelgeSverre/splash/commit/7199eb73dfae3de6f42c319bd2d1080e06b33506"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:0e0cb8b68c9cfd60be59b9bdaa33bb4e8c0199ae",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T13:25:14.000+02:00",
-      "title": "Persist named HASH partitions and support reorganization",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/0e0cb8b68c9cfd60be59b9bdaa33bb4e8c0199ae"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:24960f0f9f66daa0c7629b6ee55ea0665d415dd1",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T13:09:43.000+02:00",
-      "title": "Record native HASH partition reorganization contracts",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/24960f0f9f66daa0c7629b6ee55ea0665d415dd1"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:e9c0a7bd0ce94a8f59233d8288c89c3c95c3e787",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T13:06:25.000+02:00",
-      "title": "Reorder independent joins around straight-join constraints",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/e9c0a7bd0ce94a8f59233d8288c89c3c95c3e787"
-    },
-    {
       "id": "pr:HelgeSverre/fedit:42",
       "kind": "merge",
       "repo": "HelgeSverre/fedit",
       "at": "2026-10-07T13:02:05Z",
       "title": "Release 1.10.1: refresh dependencies and tooling",
       "url": "https://github.com/HelgeSverre/fedit/pull/42"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ca7574bc38724bd3e05a51d72b2cbd83b671b885",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T12:41:39.000+02:00",
-      "title": "Support table-level straight joins and rendered FROM chains",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ca7574bc38724bd3e05a51d72b2cbd83b671b885"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:8ec9bc4ebf4d0e9de2a04b0ee99ae1e34226adb4",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T12:37:29.000+02:00",
-      "title": "Keep transaction publication race independent of thread-pool scheduling",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/8ec9bc4ebf4d0e9de2a04b0ee99ae1e34226adb4"
     },
     {
       "id": "pr:HelgeSverre/codemagic-skill:2",
@@ -7725,212 +7949,12 @@
       "url": "https://github.com/HelgeSverre/codemagic-skill/pull/2"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:505b6fda0c561946e8107960823d7e157a704dcb",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T12:21:42.000+02:00",
-      "title": "Propagate range and membership bounds across full-text joins",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/505b6fda0c561946e8107960823d7e157a704dcb"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:80728084278bef9aad0f5300c91274455232ba69",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T12:12:25.000+02:00",
-      "title": "Resolve unqualified full-text join bounds in their written scope",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/80728084278bef9aad0f5300c91274455232ba69"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:7b4da9ff45998afdeb77e422393094c7b73c3346",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T12:06:36.000+02:00",
-      "title": "Propagate compatible equality join bounds into full-text scoring",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/7b4da9ff45998afdeb77e422393094c7b73c3346"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:364f5da79e7224e3acc22843223dc55862acaf0f",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T11:55:32.000+02:00",
-      "title": "Record current full-text performance and join-bound diagnostic",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/364f5da79e7224e3acc22843223dc55862acaf0f"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:973f6341278a2aabe59aedafccc4c247ad285f8a",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T11:49:49.000+02:00",
-      "title": "Expose adapter startup diagnostics in ACP history discovery",
-      "url": "https://github.com/HelgeSverre/splash/commit/973f6341278a2aabe59aedafccc4c247ad285f8a"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:884fece3b08fc8e2c970c7fdae97cc390fcda61c",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T11:42:48.000+02:00",
-      "title": "Configure expansion limit reporting without restricting InnoDB search",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/884fece3b08fc8e2c970c7fdae97cc390fcda61c"
-    },
-    {
       "id": "pr:HelgeSverre/codemagic-skill:1",
       "kind": "merge",
       "repo": "HelgeSverre/codemagic-skill",
       "at": "2026-10-07T11:40:32Z",
       "title": "Add agent installation recipes and mobile signing guidance",
       "url": "https://github.com/HelgeSverre/codemagic-skill/pull/1"
-    },
-    {
-      "id": "commit:HelgeSverre/glue:293202234580db3a3e20d7cd95a3e4529752315b",
-      "kind": "commit",
-      "repo": "HelgeSverre/glue",
-      "at": "2026-10-07T11:37:46.000+02:00",
-      "title": "test(mcp): compile CLI once and clean up command processes",
-      "url": "https://github.com/HelgeSverre/glue/commit/293202234580db3a3e20d7cd95a3e4529752315b"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:c0b57be1ba815b4cc05559d20e82bd4021324170",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T11:32:17.000+02:00",
-      "title": "Configure full-text word lengths with historical recovery rules",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/c0b57be1ba815b4cc05559d20e82bd4021324170"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:1034198c4788ae3ac89a63e4546b0f0f1866e591",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T11:29:56.000+02:00",
-      "title": "Wait for queued title persistence in the session integration test",
-      "url": "https://github.com/HelgeSverre/splash/commit/1034198c4788ae3ac89a63e4546b0f0f1866e591"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:9bf58066a51a3520e93aca71bc4163865e2b5bfa",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T11:26:09.000+02:00",
-      "title": "Add server build recipes and multi-browser watch regression coverage",
-      "url": "https://github.com/HelgeSverre/splash/commit/9bf58066a51a3520e93aca71bc4163865e2b5bfa"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:4172fcd81139e9b13a725ebabee6dec16b7f6c68",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T11:22:54.000+02:00",
-      "title": "Add authenticated Splash server with SSH tunnel access and reconnect recovery",
-      "url": "https://github.com/HelgeSverre/splash/commit/4172fcd81139e9b13a725ebabee6dec16b7f6c68"
-    },
-    {
-      "id": "commit:HelgeSverre/codemagic-skill:73c68c3686695c86207851291c0ffd6733c5a8b3",
-      "kind": "commit",
-      "repo": "HelgeSverre/codemagic-skill",
-      "at": "2026-10-07T11:19:37.000+02:00",
-      "title": "Initial release of Codemagic skill and agent tools",
-      "url": "https://github.com/HelgeSverre/codemagic-skill/commit/73c68c3686695c86207851291c0ffd6733c5a8b3"
-    },
-    {
-      "id": "commit:HelgeSverre/glue:c3e0fc521f3cb5f7aa2a0aa0c6c4360247f31298",
-      "kind": "commit",
-      "repo": "HelgeSverre/glue",
-      "at": "2026-10-07T11:19:09.000+02:00",
-      "title": "build(deps): update source-map-js to patched 1.2.2",
-      "url": "https://github.com/HelgeSverre/glue/commit/c3e0fc521f3cb5f7aa2a0aa0c6c4360247f31298"
-    },
-    {
-      "id": "commit:HelgeSverre/glue:b768ebe8870b92b871955aa1f5844d2fe828ba3e",
-      "kind": "commit",
-      "repo": "HelgeSverre/glue",
-      "at": "2026-10-07T11:17:51.000+02:00",
-      "title": "style: align Dart test formatting with CI SDK",
-      "url": "https://github.com/HelgeSverre/glue/commit/b768ebe8870b92b871955aa1f5844d2fe828ba3e"
-    },
-    {
-      "id": "commit:HelgeSverre/glue:4996a03f3bcf3ca54fac886f76fa684edf5746fb",
-      "kind": "commit",
-      "repo": "HelgeSverre/glue",
-      "at": "2026-10-07T11:17:51.000+02:00",
-      "title": "fix(harness): cancel timed-out summary streams and finish UI cleanup",
-      "url": "https://github.com/HelgeSverre/glue/commit/4996a03f3bcf3ca54fac886f76fa684edf5746fb"
-    },
-    {
-      "id": "commit:HelgeSverre/glue:2d56389667e434db8e186cccfd8b7f5292705ab4",
-      "kind": "commit",
-      "repo": "HelgeSverre/glue",
-      "at": "2026-10-07T11:17:51.000+02:00",
-      "title": "feat(catalog): refresh Mistral models from current API metadata",
-      "url": "https://github.com/HelgeSverre/glue/commit/2d56389667e434db8e186cccfd8b7f5292705ab4"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:7836703da803ec49c5745cc87d606d68ecc1fa9b",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T11:08:19.000+02:00",
-      "title": "Record full-text performance at e428a5e8",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/7836703da803ec49c5745cc87d606d68ecc1fa9b"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:e428a5e8bd7fac0acd5f2f20b044bb8c906c571d",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T11:02:08.000+02:00",
-      "title": "Separate full-text word lookup bounds from indexing rules",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/e428a5e8bd7fac0acd5f2f20b044bb8c906c571d"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:3780e145cc41887bcd7be01f19bbca35ca0d35de",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T10:45:08.000+02:00",
-      "title": "Expand InnoDB full-text queries from every matching seed",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/3780e145cc41887bcd7be01f19bbca35ca0d35de"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:e41ef037b1586c3cb4d663ec7ddff163a09e2fc3",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T10:37:38.000+02:00",
-      "title": "Defer remembered stopword loading until full-text use",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/e41ef037b1586c3cb4d663ec7ddff163a09e2fc3"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ec1f906b1f60b86aa3512c4bfa6c0d6bb5dc4fac",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T10:28:15.000+02:00",
-      "title": "Capture lazy full-text stopword loading boundaries",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ec1f906b1f60b86aa3512c4bfa6c0d6bb5dc4fac"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:b936f85ebc05a99271ce4a608148ad354b4f39e4",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T10:21:03.000+02:00",
-      "title": "Configure custom full-text stopword sources at startup",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/b936f85ebc05a99271ce4a608148ad354b4f39e4"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:41431f045823b8c742ceaeb2ea93347b04a58934",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T10:11:21.000+02:00",
-      "title": "Record full-text performance after stopword recovery changes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/41431f045823b8c742ceaeb2ea93347b04a58934"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:0370842fce212152b9614e003db3ccc85cefcc67",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T10:09:04.000+02:00",
-      "title": "Support custom full-text stopword sources and recovery",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/0370842fce212152b9614e003db3ccc85cefcc67"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:e0dbc1b221013cc968ec5524da40a01c051b4686",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T09:32:47.000+02:00",
-      "title": "Capture loaded full-text stopword policies in WAL writes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/e0dbc1b221013cc968ec5524da40a01c051b4686"
     },
     {
       "id": "pr:HelgeSverre/ollama-gui:79",
