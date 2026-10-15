@@ -1,9 +1,361 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-15T00:46:38.745Z",
-  "since": "2026-10-01T00:46:38.745Z",
+  "fetchedAt": "2026-10-15T06:32:35.582Z",
+  "since": "2026-10-01T06:32:35.582Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:91c16d1527ae1b268e6db38964f99c9bc43808bd",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T08:31:01.000+02:00",
+      "title": "Avoid metadata scan for correlated NULL inequality bound",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/91c16d1527ae1b268e6db38964f99c9bc43808bd"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:460f0fe85dd0c6a007d92204b7fde0edb6968e16",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T08:26:09.000+02:00",
+      "title": "Union correlated integer inequality range candidates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/460f0fe85dd0c6a007d92204b7fde0edb6968e16"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8039320941cdf95e89213c9cda8d654819e98b29",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T08:15:42.000+02:00",
+      "title": "Cost correlated non-NULL index slices before reading rows",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8039320941cdf95e89213c9cda8d654819e98b29"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9c68bcdc1384d422be12df66cf1e30d2cf68e2f0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T08:11:18.000+02:00",
+      "title": "Use ordered indexes for correlated non-NULL probes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9c68bcdc1384d422be12df66cf1e30d2cf68e2f0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b18bcf4b243d29ea8a95672a50c6c2512c088eef",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T07:12:59.000+02:00",
+      "title": "Cache correlated materialized non-NULL candidates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b18bcf4b243d29ea8a95672a50c6c2512c088eef"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b0f1035e6f5b1679cb0856ba27f663d8697ab96c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T07:04:58.000+02:00",
+      "title": "Bind bare grouped join columns for view writes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b0f1035e6f5b1679cb0856ba27f663d8697ab96c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3d5113f3a60ddd06ef8dd445b06d8d660b3fe158",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T06:59:45.000+02:00",
+      "title": "Update through grouped derived join views",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3d5113f3a60ddd06ef8dd445b06d8d660b3fe158"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8bd50e1247c1a5f0fa900d2d9203055b0bab9452",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T06:51:17.000+02:00",
+      "title": "Match layered derived-view grant diagnostics",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8bd50e1247c1a5f0fa900d2d9203055b0bab9452"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ae1ae37d31cf837e567ba7e5ad9b3a9e7c6b9ccb",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T06:44:38.000+02:00",
+      "title": "Refresh independent review validation at current head",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ae1ae37d31cf837e567ba7e5ad9b3a9e7c6b9ccb"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:119250477513d7eecdbaa10c758bc0158b321748",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T06:37:46.000+02:00",
+      "title": "Expand CJK oracle and streamline NULL prefix lookup",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/119250477513d7eecdbaa10c758bc0158b321748"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7f0c2a9887608df4f1274dcd496013d2de2842f0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T06:31:33.000+02:00",
+      "title": "Use composite NULL slices in direct reads",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7f0c2a9887608df4f1274dcd496013d2de2842f0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:27f3d284dd28227485d2a9bb8080557703071de9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T06:25:34.000+02:00",
+      "title": "Probe bound composite NULL slices in correlated reads",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/27f3d284dd28227485d2a9bb8080557703071de9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2f62a923903b90b355a7879f714a6f389f5f79ea",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T06:21:01.000+02:00",
+      "title": "Use ordered NULL prefixes for correlated physical reads",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2f62a923903b90b355a7879f714a6f389f5f79ea"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:40bc4c4686d71fea288f2fe0ff7e161efdf8d2bb",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T06:15:47.000+02:00",
+      "title": "Consolidate independent review disposition",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/40bc4c4686d71fea288f2fe0ff7e161efdf8d2bb"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b1811b70e6c18a2bc7c19fb3756180a612bf7d19",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T06:12:40.000+02:00",
+      "title": "Use secondary NULL buckets for correlated physical reads",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b1811b70e6c18a2bc7c19fb3756180a612bf7d19"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:23100210551206e8d9bac5f9398d85f0a1b85238",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T06:06:16.000+02:00",
+      "title": "Cache NULL candidates for correlated materialized sources",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/23100210551206e8d9bac5f9398d85f0a1b85238"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5d28bdca8610ebc11884a66822cc736a87a84414",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T05:59:12.000+02:00",
+      "title": "Expand CJK variation and layered join grant oracles",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5d28bdca8610ebc11884a66822cc736a87a84414"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3557733dc49e2746a1fa6022b7712d000b3f0dfb",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T05:53:52.000+02:00",
+      "title": "Pin layered invoker join-grant ownership",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3557733dc49e2746a1fa6022b7712d000b3f0dfb"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:45d381bf6cc448fab7de4de34ba78c55a957cf86",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T05:48:19.000+02:00",
+      "title": "Authorize layered view join columns before projections",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/45d381bf6cc448fab7de4de34ba78c55a957cf86"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ba6171e35320f73d177fbf333f273b551ca6446a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T05:38:03.000+02:00",
+      "title": "Recheck independent review at current head",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ba6171e35320f73d177fbf333f273b551ca6446a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f73a580646b0786493db0888a106d2bab827420c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T05:32:58.000+02:00",
+      "title": "Align layered direct-view grant errors with MySQL",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f73a580646b0786493db0888a106d2bab827420c"
+    },
+    {
+      "id": "commit:HelgeSverre/sourcefour:a2140642205100554c84466ef52ca23a7edc1edf",
+      "kind": "commit",
+      "repo": "HelgeSverre/sourcefour",
+      "at": "2026-10-15T05:26:14.000+02:00",
+      "title": "release: v0.1.9",
+      "url": "https://github.com/HelgeSverre/sourcefour/commit/a2140642205100554c84466ef52ca23a7edc1edf"
+    },
+    {
+      "id": "commit:HelgeSverre/sourcefour:6f433dda2f60e884051edc7491141ae9434ba453",
+      "kind": "commit",
+      "repo": "HelgeSverre/sourcefour",
+      "at": "2026-10-15T05:24:44.000+02:00",
+      "title": "Fix Windows Start menu shortcut icon (#9)",
+      "url": "https://github.com/HelgeSverre/sourcefour/commit/6f433dda2f60e884051edc7491141ae9434ba453"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:447ac14a2ebb0617c0580ab2e8d3ab6f7c99a5b6",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T05:17:17.000+02:00",
+      "title": "Use composite keys for materialized correlated row IN",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/447ac14a2ebb0617c0580ab2e8d3ab6f7c99a5b6"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:00b027474de4d35c998b9b152d163c1470d6a84d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T05:10:25.000+02:00",
+      "title": "Pin composed updatable join-view behavior",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/00b027474de4d35c998b9b152d163c1470d6a84d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:41626ed5f1f442722c5682c242000a9f5c1577e7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T05:01:33.000+02:00",
+      "title": "Expand geographic hole-edge oracle across latitudes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/41626ed5f1f442722c5682c242000a9f5c1577e7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:626bf4ad4a39fd370ff6f1a4b178d319fddb50d4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T04:59:32.000+02:00",
+      "title": "Broaden ngram Unicode oracle boundaries",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/626bf4ad4a39fd370ff6f1a4b178d319fddb50d4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:76636333dabeb12439f326f7c860f174943137ee",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T04:59:27.000+02:00",
+      "title": "Recheck independent review against current gates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/76636333dabeb12439f326f7c860f174943137ee"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:95d83d9a95994a0314f2f7120d5484e17293aa5e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T04:48:51.000+02:00",
+      "title": "Skip null correlated LIKE scans and cover JSON view contention",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/95d83d9a95994a0314f2f7120d5484e17293aa5e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7334edb2d24e18660dfc9d8c5b87856f63f9ee64",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T04:41:56.000+02:00",
+      "title": "Audit view insert locks and correlated LIKE prefixes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7334edb2d24e18660dfc9d8c5b87856f63f9ee64"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b8186a58daf06fe852001ab803bfe2ef700c1cde",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T04:30:34.000+02:00",
+      "title": "Rebase transaction writes through updatable views",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b8186a58daf06fe852001ab803bfe2ef700c1cde"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:78a134f227cc4494ce8ed5c2d08f0a43bbf59460",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T04:21:01.000+02:00",
+      "title": "Verify durable recovery after commit observer failures",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/78a134f227cc4494ce8ed5c2d08f0a43bbf59460"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3515f38e9cbc555b0e8349e5664e8e7310bc8c2c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T04:16:00.000+02:00",
+      "title": "Match nullable BETWEEN semantics and index correlated outside ranges",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3515f38e9cbc555b0e8349e5664e8e7310bc8c2c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b52117ed3e934e9ab292eecfb2204dabd41c4c92",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T03:49:51.000+02:00",
+      "title": "Recognize Unicode number terms in full-text searches",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b52117ed3e934e9ab292eecfb2204dabd41c4c92"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:358049f2e2e369a40eb01bccc1d4c67c2b56fb2a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T03:38:37.000+02:00",
+      "title": "Update physical tables through JSON_TABLE join views",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/358049f2e2e369a40eb01bccc1d4c67c2b56fb2a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5ea066fc66f9876b9dc0e1a722bc1ae2e9c75ba0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T03:28:38.000+02:00",
+      "title": "Clarify outer-join view updateability against MySQL",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5ea066fc66f9876b9dc0e1a722bc1ae2e9c75ba0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:791f18fd68985488d446ebe85c8dcc8587082f1a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T03:27:05.000+02:00",
+      "title": "Record current durable write performance checkpoint",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/791f18fd68985488d446ebe85c8dcc8587082f1a"
+    },
+    {
+      "id": "pr:HelgeSverre/sourcefour:9",
+      "kind": "merge",
+      "repo": "HelgeSverre/sourcefour",
+      "at": "2026-10-15T03:24:44Z",
+      "title": "Fix Windows Start menu shortcut icon",
+      "url": "https://github.com/HelgeSverre/sourcefour/pull/9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:125afe52a12b32b39a017f56bd57080dd3e6780b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T03:22:21.000+02:00",
+      "title": "Intersect broad range and IN probes within correlated OR branches",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/125afe52a12b32b39a017f56bd57080dd3e6780b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c03a859881679ba46638068fd466cb1f65a7873a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T03:18:45.000+02:00",
+      "title": "Union correlated physical IN branches by row identity",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c03a859881679ba46638068fd466cb1f65a7873a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:81baabf43484850fd90d0394f13b7b35c308c0b4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T03:11:23.000+02:00",
+      "title": "Match voiced kana ngram scores and script folding",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/81baabf43484850fd90d0394f13b7b35c308c0b4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:57796c588c765e906912a7bbac4e9b37fdd4c42a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T03:02:08.000+02:00",
+      "title": "Match kana width in ngram full-text collation keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/57796c588c765e906912a7bbac4e9b37fdd4c42a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:58f170aed2b003706c2f63e1635c95352d91aac5",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T02:54:19.000+02:00",
+      "title": "Refresh independent review validation at current head",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/58f170aed2b003706c2f63e1635c95352d91aac5"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:612439cdb35f909ff536823bf799db547456021f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T02:48:10.000+02:00",
+      "title": "Record group-commit leader handoff comparison",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/612439cdb35f909ff536823bf799db547456021f"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:3fec33393059752ca9e775c9ba5b85c342301de5",
       "kind": "commit",
@@ -7589,278 +7941,6 @@
       "url": "https://github.com/HelgeSverre/splash/commit/7ea63f277f204e84783ab6f00917b08571b2c51c"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:0d03f944f0723bd704f43b67ef2e500f1018fc0f",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T20:40:30.000+02:00",
-      "title": "Support lateral UPDATE and DELETE sources with stable target identities",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/0d03f944f0723bd704f43b67ef2e500f1018fc0f"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:2ebb79f3f878df3f6502bd37e78a47bd0371a702",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T20:39:46.000+02:00",
-      "title": "Release 0.2.1",
-      "url": "https://github.com/HelgeSverre/splash/commit/2ebb79f3f878df3f6502bd37e78a47bd0371a702"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:fc78020f9ee7cde63504f4838e2f1e01954640ef",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T20:38:38.000+02:00",
-      "title": "Shellcheck the installer packaging script in CI",
-      "url": "https://github.com/HelgeSverre/splash/commit/fc78020f9ee7cde63504f4838e2f1e01954640ef"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:4f3e81826b29bdf395927f69116a72a69f2bdfaf",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T20:33:57.000+02:00",
-      "title": "Separate mutation source preparation from join matching",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/4f3e81826b29bdf395927f69116a72a69f2bdfaf"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:6b5903b0dfeab95fd0e42f3e6af520349f0ea02f",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T20:30:28.000+02:00",
-      "title": "Bind JSON_TABLE references before expanding input rows",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/6b5903b0dfeab95fd0e42f3e6af520349f0ea02f"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:3579c05481b75cac2b7cbc7f72f3069a1dace97a",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T20:23:19.000+02:00",
-      "title": "Validate prepared JSON_TABLE argument scopes and diagnostics",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/3579c05481b75cac2b7cbc7f72f3069a1dace97a"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:3cae79d44ae63b9f2e0d99778fb24999da17e4f9",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T20:21:36.000+02:00",
-      "title": "Retry the NSIS install and fail early when it is missing",
-      "url": "https://github.com/HelgeSverre/splash/commit/3cae79d44ae63b9f2e0d99778fb24999da17e4f9"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:27a5935a95797bab2d4e79cbedd0dfc8d07937f0",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T20:13:03.000+02:00",
-      "title": "Share JSON_TABLE natural and right join rules",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/27a5935a95797bab2d4e79cbedd0dfc8d07937f0"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:302d3ae0edd092998e0b65343445bfe940f90b00",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T20:08:35.000+02:00",
-      "title": "Retry the NSIS install and fail early when it is missing",
-      "url": "https://github.com/HelgeSverre/splash/commit/302d3ae0edd092998e0b65343445bfe940f90b00"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:43cb3f84d2f248e0c30c42b3eddea6ff4ec84e96",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T20:06:57.000+02:00",
-      "title": "Preserve lateral result collations and correlated UNION context",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/43cb3f84d2f248e0c30c42b3eddea6ff4ec84e96"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:3dd54fc93c1043794961afde37cc758a30505bbb",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T20:00:14.000+02:00",
-      "title": "Prefer the macOS installer package once a release has it",
-      "url": "https://github.com/HelgeSverre/splash/commit/3dd54fc93c1043794961afde37cc758a30505bbb"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:c14900f740d00785afb3223c56506096f10210af",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T20:00:14.000+02:00",
-      "title": "Ship a universal macOS installer package",
-      "url": "https://github.com/HelgeSverre/splash/commit/c14900f740d00785afb3223c56506096f10210af"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:bab7724553a1fa2e9244c1f3582517d377657d2c",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T20:00:09.000+02:00",
-      "title": "Align prepared and executed right lateral scopes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/bab7724553a1fa2e9244c1f3582517d377657d2c"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:06ff7f46c903fc5dd7cdb29c63a93021c21f878d",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T19:57:00.000+02:00",
-      "title": "Evaluate right lateral sources in the enclosing query scope",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/06ff7f46c903fc5dd7cdb29c63a93021c21f878d"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:2ebfa71420236699f2c6e8f34763e7d49fa8f32c",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T19:52:59.000+02:00",
-      "title": "Use shared matching for lateral USING and NATURAL joins",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/2ebfa71420236699f2c6e8f34763e7d49fa8f32c"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:0efea6423e0cb80f139f329d2d24234e169e0160",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T19:49:03.000+02:00",
-      "title": "Preserve unmatched lateral rows after ON evaluation",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/0efea6423e0cb80f139f329d2d24234e169e0160"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:dee4f1261e148146ef35cf01c5c3743daa669cb8",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T19:47:34.000+02:00",
-      "title": "Release 0.2.0",
-      "url": "https://github.com/HelgeSverre/splash/commit/dee4f1261e148146ef35cf01c5c3743daa669cb8"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:04b19f41e96da273d7ec91e8ffb4acab4c0958e4",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T19:47:28.000+02:00",
-      "title": "Link downloads to the latest release and offer every platform",
-      "url": "https://github.com/HelgeSverre/splash/commit/04b19f41e96da273d7ec91e8ffb4acab4c0958e4"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:8861ef6dcbbe14d2aceb31aec83e81a44a4a4644",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T19:47:28.000+02:00",
-      "title": "Keep an embedded app window's dialogs from freezing the page",
-      "url": "https://github.com/HelgeSverre/splash/commit/8861ef6dcbbe14d2aceb31aec83e81a44a4a4644"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:214d72eed06fade4cf599774b6c7a640f4bfca22",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T19:46:15.000+02:00",
-      "title": "Share join matching for grouped dependent sources",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/214d72eed06fade4cf599774b6c7a640f4bfca22"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:360b78ff4d18339338103ab07484f97e418e0ef5",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T19:42:25.000+02:00",
-      "title": "Redesign the app icon and ship it on every platform",
-      "url": "https://github.com/HelgeSverre/splash/commit/360b78ff4d18339338103ab07484f97e418e0ef5"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:38f0824aed7fa612cb3994e2a1025412cddb46ff",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T19:38:16.000+02:00",
-      "title": "Add marketing website built from the app's own components",
-      "url": "https://github.com/HelgeSverre/splash/commit/38f0824aed7fa612cb3994e2a1025412cddb46ff"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:587ea5abfd5e9c00d51dfd86f638426318a9a57b",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T19:30:58.000+02:00",
-      "title": "Separate query and lateral join evaluation scopes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/587ea5abfd5e9c00d51dfd86f638426318a9a57b"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:53379a4470c3b130fa49d97e1509957be77cd944",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T19:21:44.000+02:00",
-      "title": "Retain physical source flags during derived query execution",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/53379a4470c3b130fa49d97e1509957be77cd944"
-    },
-    {
-      "id": "commit:HelgeSverre/codemagic-skill:bb12fcc70bb9fa4e73cccc5f8ebd200a0bc72e3e",
-      "kind": "commit",
-      "repo": "HelgeSverre/codemagic-skill",
-      "at": "2026-10-07T19:20:30.000+02:00",
-      "title": "Prevent credential wrappers from suspending Claude (v1.3.1) (#4)",
-      "url": "https://github.com/HelgeSverre/codemagic-skill/commit/bb12fcc70bb9fa4e73cccc5f8ebd200a0bc72e3e"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:2625e771bfdf2097036bde27397b103af6f477b4",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T19:14:59.000+02:00",
-      "title": "Preserve prepared source flags across projection boundaries",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/2625e771bfdf2097036bde27397b103af6f477b4"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:521afca91c33527944e6fc9fe7db586b35634259",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T18:47:36.000+02:00",
-      "title": "Report nullable columns across grouped outer joins",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/521afca91c33527944e6fc9fe7db586b35634259"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:88d0edbf96d4572eecd3f84a6953b09b745c2972",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T18:41:26.000+02:00",
-      "title": "Resolve qualified outer columns past incomplete local scopes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/88d0edbf96d4572eecd3f84a6953b09b745c2972"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:31093d91183ccc10de20f6b83117f120e2072124",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T18:40:05.000+02:00",
-      "title": "Keep local signing assets isolated in Splash checkout",
-      "url": "https://github.com/HelgeSverre/splash/commit/31093d91183ccc10de20f6b83117f120e2072124"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:095664f806ddb7b4c50183dd77cf616c8aa8b68a",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T18:37:38.000+02:00",
-      "title": "Validate relation names in preparation and execution",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/095664f806ddb7b4c50183dd77cf616c8aa8b68a"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:638ff3d772c5029588e8ff8d0331b1821eb61ae8",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T18:30:17.000+02:00",
-      "title": "Automate version tags and complete GitHub release publication",
-      "url": "https://github.com/HelgeSverre/splash/commit/638ff3d772c5029588e8ff8d0331b1821eb61ae8"
-    },
-    {
-      "id": "commit:HelgeSverre/codemagic-skill:8401c3139355612258797d1521f13f3aed883e0b",
-      "kind": "commit",
-      "repo": "HelgeSverre/codemagic-skill",
-      "at": "2026-10-07T18:25:50.000+02:00",
-      "title": "Bundle MCP startup and setup guidance in agent plugins (#3)",
-      "url": "https://github.com/HelgeSverre/codemagic-skill/commit/8401c3139355612258797d1521f13f3aed883e0b"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:750af1d6e0f62ce9538d2f5bd5c986723cd56fb7",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T18:18:42.000+02:00",
-      "title": "Validate prepared join names in lexical query scopes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/750af1d6e0f62ce9538d2f5bd5c986723cd56fb7"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:5089c0a18b20f0fca3f7a6e88fe691379adfe737",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T17:23:48.000+02:00",
-      "title": "Reject invalid USING bindings during statement preparation",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/5089c0a18b20f0fca3f7a6e88fe691379adfe737"
-    },
-    {
       "id": "pr:HelgeSverre/codemagic-skill:4",
       "kind": "merge",
       "repo": "HelgeSverre/codemagic-skill",
@@ -7869,68 +7949,12 @@
       "url": "https://github.com/HelgeSverre/codemagic-skill/pull/4"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:f7e4acbe07787673169bb06fd4e948823c469655",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T17:18:51.000+02:00",
-      "title": "Retain semantic errors during schema-only column description",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/f7e4acbe07787673169bb06fd4e948823c469655"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:beff2a02621300f8cb828e127b5b3d49bcf990da",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T17:13:28.000+02:00",
-      "title": "Preserve grouped join association and logical column ownership",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/beff2a02621300f8cb828e127b5b3d49bcf990da"
-    },
-    {
       "id": "pr:HelgeSverre/codemagic-skill:3",
       "kind": "merge",
       "repo": "HelgeSverre/codemagic-skill",
       "at": "2026-10-07T16:25:50Z",
       "title": "Bundle automatic MCP setup in Codex and Claude plugins",
       "url": "https://github.com/HelgeSverre/codemagic-skill/pull/3"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:3419e80e579d1cbd0f1a4a62e9cdba35eb598e99",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T15:09:02.000+02:00",
-      "title": "Document Linux Docker and Windows EC2 artifact smoke tests",
-      "url": "https://github.com/HelgeSverre/splash/commit/3419e80e579d1cbd0f1a4a62e9cdba35eb598e99"
-    },
-    {
-      "id": "commit:HelgeSverre/fedit:2205d47d2a372fbe05b7b3db67f1ba9e9acff157",
-      "kind": "commit",
-      "repo": "HelgeSverre/fedit",
-      "at": "2026-10-07T15:02:05.000+02:00",
-      "title": "Release 1.10.1: refresh dependencies and tooling (#42)",
-      "url": "https://github.com/HelgeSverre/fedit/commit/2205d47d2a372fbe05b7b3db67f1ba9e9acff157"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:869a4b6c915c94e11e970ed4b42f151628565cf5",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T14:38:07.000+02:00",
-      "title": "Separate join source preparation from row matching",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/869a4b6c915c94e11e970ed4b42f151628565cf5"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:4b4648d1fba2efbfa21720b66e4e0d1b286adc06",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T14:35:52.000+02:00",
-      "title": "Record grouped join association and name-scope contracts",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/4b4648d1fba2efbfa21720b66e4e0d1b286adc06"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:18eb1f6a0ff0a1ab6c734a17d250f8823a422a9c",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-07T14:34:20.000+02:00",
-      "title": "Match partition engine aliases and refusal families",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/18eb1f6a0ff0a1ab6c734a17d250f8823a422a9c"
     },
     {
       "id": "pr:HelgeSverre/fedit:42",
@@ -8045,6 +8069,30 @@
       "url": "https://github.com/HelgeSverre/sourcefour/pull/7"
     },
     {
+      "id": "release:HelgeSverre/sourcefour:413407120",
+      "kind": "release",
+      "repo": "HelgeSverre/sourcefour",
+      "at": "2026-10-15T04:06:10Z",
+      "title": "v0.1.9",
+      "url": "https://github.com/HelgeSverre/sourcefour/releases/tag/v0.1.9"
+    },
+    {
+      "id": "release:HelgeSverre/sourcefour:412739272",
+      "kind": "release",
+      "repo": "HelgeSverre/sourcefour",
+      "at": "2026-10-14T13:17:51Z",
+      "title": "v0.1.8",
+      "url": "https://github.com/HelgeSverre/sourcefour/releases/tag/v0.1.8"
+    },
+    {
+      "id": "release:HelgeSverre/sourcefour:403524153",
+      "kind": "release",
+      "repo": "HelgeSverre/sourcefour",
+      "at": "2026-10-05T08:46:13Z",
+      "title": "v0.1.7",
+      "url": "https://github.com/HelgeSverre/sourcefour/releases/tag/v0.1.7"
+    },
+    {
       "id": "release:HelgeSverre/pest-to-phpunit:412863600",
       "kind": "release",
       "repo": "HelgeSverre/pest-to-phpunit",
@@ -8067,22 +8115,6 @@
       "at": "2026-10-14T02:02:37Z",
       "title": "v0.8.0",
       "url": "https://github.com/HelgeSverre/libui/releases/tag/v0.8.0"
-    },
-    {
-      "id": "release:HelgeSverre/sourcefour:412739272",
-      "kind": "release",
-      "repo": "HelgeSverre/sourcefour",
-      "at": "2026-10-14T13:17:51Z",
-      "title": "v0.1.8",
-      "url": "https://github.com/HelgeSverre/sourcefour/releases/tag/v0.1.8"
-    },
-    {
-      "id": "release:HelgeSverre/sourcefour:403524153",
-      "kind": "release",
-      "repo": "HelgeSverre/sourcefour",
-      "at": "2026-10-05T08:46:13Z",
-      "title": "v0.1.7",
-      "url": "https://github.com/HelgeSverre/sourcefour/releases/tag/v0.1.7"
     },
     {
       "id": "release:HelgeSverre/ollama-gui:411956701",
