@@ -1,9 +1,361 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-15T18:22:32.706Z",
-  "since": "2026-10-01T18:22:32.706Z",
+  "fetchedAt": "2026-10-16T00:46:49.259Z",
+  "since": "2026-10-02T00:46:49.259Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:030bdc30deba266b6b3bf100accc3758330244b8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-16T02:35:01.000+02:00",
+      "title": "Prepare Fsdb 0.1.0-preview.24",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/030bdc30deba266b6b3bf100accc3758330244b8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:66c78da43191ff6b2e5d3d664df2e92245a560fa",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-16T02:25:26.000+02:00",
+      "title": "Update joined views beside recursive CTE sources",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/66c78da43191ff6b2e5d3d664df2e92245a560fa"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2d132e91e618c1b20a41d021d9c43903c54d23a4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-16T02:10:13.000+02:00",
+      "title": "Plan materialized correlated DOUBLE ranges",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2d132e91e618c1b20a41d021d9c43903c54d23a4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:330ef3577f4765c64bc44a0ea461192f86160e53",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-16T01:45:33.000+02:00",
+      "title": "Prepare Fsdb 0.1.0-preview.23",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/330ef3577f4765c64bc44a0ea461192f86160e53"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9e236002e571a58584d79b0d28f92a4041508b34",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-16T01:35:54.000+02:00",
+      "title": "Key materialized correlated DOUBLE expressions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9e236002e571a58584d79b0d28f92a4041508b34"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a073e5a096be174c416376f432bd3615121e7328",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-16T01:06:25.000+02:00",
+      "title": "Prepare Fsdb 0.1.0-preview.22",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a073e5a096be174c416376f432bd3615121e7328"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ba0972ddd3527242a2d7012e364b24a4ba72573c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-16T00:56:54.000+02:00",
+      "title": "Key stable materialized correlated decimal expressions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ba0972ddd3527242a2d7012e364b24a4ba72573c"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:89",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-16T00:43:52Z",
+      "title": "Prepare Fsdb 0.1.0-preview.24",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/89"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:88",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-16T00:34:19Z",
+      "title": "Update joined views beside recursive CTE sources",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/88"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:aeaa14d1a34783cfbbe51abb6f2e72b9edfbe133",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-16T00:21:37.000+02:00",
+      "title": "Prepare Fsdb 0.1.0-preview.21",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/aeaa14d1a34783cfbbe51abb6f2e72b9edfbe133"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:87",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-16T00:19:00Z",
+      "title": "Plan materialized correlated DOUBLE ranges",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/87"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:fcfb45ee093f7af67535f152130884f5414a77ab",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-16T00:11:34.000+02:00",
+      "title": "Cover composed materialized text expression",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/fcfb45ee093f7af67535f152130884f5414a77ab"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b4fc23c12d59f664027fd7ddc896e5c51a9fc578",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-16T00:09:45.000+02:00",
+      "title": "Key stable materialized correlated text expressions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b4fc23c12d59f664027fd7ddc896e5c51a9fc578"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:86",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T23:54:44Z",
+      "title": "Prepare Fsdb 0.1.0-preview.23",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/86"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:85",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T23:44:48Z",
+      "title": "Key materialized correlated DOUBLE expressions",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/85"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0460b3985c8b8ab003e6300366c5d30ee08cecdd",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T23:43:55.000+02:00",
+      "title": "Prepare Fsdb 0.1.0-preview.20",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0460b3985c8b8ab003e6300366c5d30ee08cecdd"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:49f5da565a41a978dba07e6cee759871347ad936",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T23:34:37.000+02:00",
+      "title": "Lock only matched rows in joined updates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/49f5da565a41a978dba07e6cee759871347ad936"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9b3b4269f814fdad6ce5394476c0983e92f4c6a9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T23:26:46.000+02:00",
+      "title": "Resolve uniquely owned bare joined-view assignments",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9b3b4269f814fdad6ce5394476c0983e92f4c6a9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4d826ca2e7b20ca4541f7e8701eaed4f43994110",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T23:20:55.000+02:00",
+      "title": "Update nested joined views through outer joined mutations",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4d826ca2e7b20ca4541f7e8701eaed4f43994110"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:84",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T23:15:19Z",
+      "title": "Prepare Fsdb 0.1.0-preview.22",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/84"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:83",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T23:05:36Z",
+      "title": "Key stable materialized correlated decimal expressions",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/83"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7b574e41c5fd0a5f516ed36d60caf00b5cd5745c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T22:58:46.000+02:00",
+      "title": "Prepare Fsdb 0.1.0-preview.19",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7b574e41c5fd0a5f516ed36d60caf00b5cd5745c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2c40e3cd6410c94874dc40bd570d0bbe8ff0d786",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T22:50:58.000+02:00",
+      "title": "Update joined single-table views through physical sources",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2c40e3cd6410c94874dc40bd570d0bbe8ff0d786"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:13c2ac7826c4689ed7c492fb0cdc2de4a3900ee0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T22:43:23.000+02:00",
+      "title": "Record joined view mutation source and scheduling gap",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/13c2ac7826c4689ed7c492fb0cdc2de4a3900ee0"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:82",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T22:39:59Z",
+      "title": "Prepare Fsdb 0.1.0-preview.21",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/82"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1a9254f2f6634c7fd0852ef56bba9ce8629a4d4d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T22:26:31.000+02:00",
+      "title": "Prepare Fsdb 0.1.0-preview.18",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1a9254f2f6634c7fd0852ef56bba9ce8629a4d4d"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:81",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T22:20:52Z",
+      "title": "Key stable materialized correlated text expressions",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/81"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d1d20ecbd0b6e88b7add4b570a4e5098cc414e11",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T22:18:50.000+02:00",
+      "title": "Expand merged join stars in CTE-backed view writes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d1d20ecbd0b6e88b7add4b570a4e5098cc414e11"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e5fb0c4cd45824bd6b36ea1bf98503d39c3cfc2c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T22:05:29.000+02:00",
+      "title": "Expand starred CTE columns for joined view writes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e5fb0c4cd45824bd6b36ea1bf98503d39c3cfc2c"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:80",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T21:52:36Z",
+      "title": "Prepare Fsdb 0.1.0-preview.20",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/80"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:804036c5d81eaff8b969b7e5ddcd92fe54580bd0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T21:44:11.000+02:00",
+      "title": "Prepare Fsdb 0.1.0-preview.17",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/804036c5d81eaff8b969b7e5ddcd92fe54580bd0"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:79",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T21:43:11Z",
+      "title": "Update nested joined views through outer joined mutations",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/79"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b13188a180e474a9ac66eeb3368e3d97c78cefd6",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T21:33:48.000+02:00",
+      "title": "Index stable materialized integer expressions for correlated equality",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b13188a180e474a9ac66eeb3368e3d97c78cefd6"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5fffd49325e704f249fb5ef47d9657084ecc4126",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T21:25:02.000+02:00",
+      "title": "Record remaining materialized functional lookup scan",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5fffd49325e704f249fb5ef47d9657084ecc4126"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c82f1c230a86836fcc518423d265471118f6733f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T21:24:05.000+02:00",
+      "title": "Correct materialized correlated ABS gap status",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c82f1c230a86836fcc518423d265471118f6733f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:05112e4a202832a5a638c96a2cafcb7894833558",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T21:09:47.000+02:00",
+      "title": "Prepare Fsdb 0.1.0-preview.16",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/05112e4a202832a5a638c96a2cafcb7894833558"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:78",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T21:07:26Z",
+      "title": "Prepare Fsdb 0.1.0-preview.19",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/78"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:edf0993597c4b04805b4d520a6c3a30b12db3ebf",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T21:00:19.000+02:00",
+      "title": "Match MySQL CJK kana and quote ngram keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/edf0993597c4b04805b4d520a6c3a30b12db3ebf"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:77",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T20:58:04Z",
+      "title": "Update joined single-table views through physical targets",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/77"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:76",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T20:35:57Z",
+      "title": "Prepare Fsdb 0.1.0-preview.18",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/76"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:84f930c07fc11422d19f8568d1d4c0c7905b349a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T20:32:41.000+02:00",
+      "title": "Prepare Fsdb 0.1.0-preview.15",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/84f930c07fc11422d19f8568d1d4c0c7905b349a"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:75",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T20:25:44Z",
+      "title": "Expand merged join stars in CTE-backed view writes",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/75"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e6af058e9df1037a310ddba6a07dc665b2642322",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T20:23:24.000+02:00",
+      "title": "Allow independent derived CTE sources in joined view writes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e6af058e9df1037a310ddba6a07dc665b2642322"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:74",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T20:14:18Z",
+      "title": "Expand starred CTE sources in joined updatable views",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/74"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:16bf5e46958f0ca3d252bc19314aa1878eaee860",
       "kind": "commit",
@@ -21,12 +373,36 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/f6dd358bd8ac50a2b628311bef5d47102aba98ec"
     },
     {
+      "id": "pr:HelgeSverre/fsdb:73",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T19:53:10Z",
+      "title": "Prepare Fsdb 0.1.0-preview.17",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/73"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:72",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T19:43:19Z",
+      "title": "Index correlated integer expressions over materialized sources",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/72"
+    },
+    {
       "id": "commit:HelgeSverre/fsdb:39c62d6f19bf73932384a56f10a03ef4e1d411dd",
       "kind": "commit",
       "repo": "HelgeSverre/fsdb",
       "at": "2026-10-15T19:37:21.000+02:00",
       "title": "Make NuGet publishing reproducible from a release tag",
       "url": "https://github.com/HelgeSverre/fsdb/commit/39c62d6f19bf73932384a56f10a03ef4e1d411dd"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:71",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T19:18:17Z",
+      "title": "Release Fsdb 0.1.0-preview.16",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/71"
     },
     {
       "id": "commit:HelgeSverre/fsdb:1c943a721f620198d4f77f6960e538fa51a32e41",
@@ -45,6 +421,14 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/e2d8fc554605f2a81530818bf787e2c1d72bf9d4"
     },
     {
+      "id": "pr:HelgeSverre/fsdb:70",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T19:08:49Z",
+      "title": "Match MySQL CJK kana and quote ngram keys",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/70"
+    },
+    {
       "id": "commit:HelgeSverre/fsdb:91223aeb924c8bfca5d4c138db8d10538d61ea44",
       "kind": "commit",
       "repo": "HelgeSverre/fsdb",
@@ -53,12 +437,28 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/91223aeb924c8bfca5d4c138db8d10538d61ea44"
     },
     {
+      "id": "pr:HelgeSverre/fsdb:69",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T18:39:31Z",
+      "title": "Release Fsdb 0.1.0-preview.15",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/69"
+    },
+    {
       "id": "commit:HelgeSverre/fsdb:c46e2cb927c4b5e8852cc11a16afc8c6c51128f6",
       "kind": "commit",
       "repo": "HelgeSverre/fsdb",
       "at": "2026-10-15T18:35:56.000+02:00",
       "title": "Probe materialized correlated affine equality by inverse key",
       "url": "https://github.com/HelgeSverre/fsdb/commit/c46e2cb927c4b5e8852cc11a16afc8c6c51128f6"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:68",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-15T18:31:46Z",
+      "title": "Allow independent derived CTE sources in joined view writes",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/68"
     },
     {
       "id": "commit:HelgeSverre/fsdb:c58551dcecf463df75bbfa8862188cabb8df3da5",
@@ -7419,398 +7819,6 @@
       "at": "2026-10-08T15:03:29.000+02:00",
       "title": "Preserve CTE syntax diagnostics and simplify hint state handling",
       "url": "https://github.com/HelgeSverre/fsdb/commit/75fa99012e19880ff8b597ad8f8718801715b306"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:7a21fe9672349a6bc2791ea6ca3afaa9d7fa7ac8",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T14:26:06.000+02:00",
-      "title": "Instantiate optimizer hints through lexical CTE scopes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/7a21fe9672349a6bc2791ea6ca3afaa9d7fa7ac8"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:1e7ce5c8095288375c205aef3c05e1d7d1a8e8c6",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T14:05:30.000+02:00",
-      "title": "Pin native CTE hint instantiation and lexical scope differences",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/1e7ce5c8095288375c205aef3c05e1d7d1a8e8c6"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:02ffd278b9ac960c1b8f8f128996f9b060feb3fb",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T14:00:06.000+02:00",
-      "title": "Resolve optimizer hints across mutation query blocks",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/02ffd278b9ac960c1b8f8f128996f9b060feb3fb"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:69be4c933d04436f1facee582bdbb77782b31910",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T13:48:13.000+02:00",
-      "title": "Apply SET_VAR hints in query block order and preserve warning lifetimes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/69be4c933d04436f1facee582bdbb77782b31910"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:83509988922404a2e82d2c79cfec6ae9a2bd7fe1",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T13:40:00.000+02:00",
-      "title": "Clarify optimizer hint conflict targets and isolate resolution warnings",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/83509988922404a2e82d2c79cfec6ae9a2bd7fe1"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:036440897c1807043b6f6a033ddcdcf8c9c7ef4e",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T13:37:19.000+02:00",
-      "title": "Match audited optimizer hint family conflicts and context ordering",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/036440897c1807043b6f6a033ddcdcf8c9c7ef4e"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:6d9280cad960bd31790fd163561288598a9be681",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T12:58:49.000+02:00",
-      "title": "Resolve SELECT optimizer hint targets and preserve diagnostic ordering",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/6d9280cad960bd31790fd163561288598a9be681"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:d014676b95be0728a1dc85cf6347b0b3b921989d",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T12:24:51.000+02:00",
-      "title": "Pin table and query-block hint resolution against native MySQL",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/d014676b95be0728a1dc85cf6347b0b3b921989d"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:e76852661e62f63469df2a18b9b2781fdbff0e3a",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T12:18:40.000+02:00",
-      "title": "Centralize ordered optimizer hint parsing and simplify execution",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/e76852661e62f63469df2a18b9b2781fdbff0e3a"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:cfd3f0705384a5834f6bce22795f5e9afabb2c47",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T12:00:47.000+02:00",
-      "title": "Pin ordered mixed optimizer hint parsing and scope effects",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/cfd3f0705384a5834f6bce22795f5e9afabb2c47"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:2787c1de3b59fb727be887da78f0823f2d2f9ffb",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T11:56:23.000+02:00",
-      "title": "Align stored routine diagnostics and ALTER characteristics with MySQL",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/2787c1de3b59fb727be887da78f0823f2d2f9ffb"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:9367d7b8103b3e541c8aeef4c571074fd7957e42",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T11:12:56.000+02:00",
-      "title": "Pin connection-local stored routine hint warning lifetimes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/9367d7b8103b3e541c8aeef4c571074fd7957e42"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:23ea8b8d3223ec0a9a25e79cd5f9d6efea080fdf",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T11:08:58.000+02:00",
-      "title": "Share optimizer hint scanning and separate timeout argument parsing",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/23ea8b8d3223ec0a9a25e79cd5f9d6efea080fdf"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:8ca711919e06056f3010346e697e9b1579f7a777",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T10:59:32.000+02:00",
-      "title": "Discard valid SELECT timeout hints in view definitions",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/8ca711919e06056f3010346e697e9b1579f7a777"
-    },
-    {
-      "id": "commit:HelgeSverre/rust-vst3-host:fb0778d63b664586c483a426efda47ea33f9eff9",
-      "kind": "commit",
-      "repo": "HelgeSverre/rust-vst3-host",
-      "at": "2026-10-08T10:57:25.000+02:00",
-      "title": "fix: normalize VST3 enum types for Windows builds",
-      "url": "https://github.com/HelgeSverre/rust-vst3-host/commit/fb0778d63b664586c483a426efda47ea33f9eff9"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:120fb513bf8652b9991035dd0a2e26c4124e197f",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T10:45:37.000+02:00",
-      "title": "Bind timeout hints to the leading SELECT query block",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/120fb513bf8652b9991035dd0a2e26c4124e197f"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:45f4fd8bc2a467bde70fbbe3eb8e3f6a3a5c465f",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T10:35:14.000+02:00",
-      "title": "Apply SELECT timeout hints and preserve preparation warning lifetimes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/45f4fd8bc2a467bde70fbbe3eb8e3f6a3a5c465f"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:3f8d1096b794ab9f18b41fc2993e65acf02ce860",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T10:26:14.000+02:00",
-      "title": "Retain optimizer hint locations and pin timeout diagnostics",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/3f8d1096b794ab9f18b41fc2993e65acf02ce860"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:6fa25556bc661e2f35fde3fdb4446da40e9f736f",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T10:17:59.000+02:00",
-      "title": "Enforce session SELECT deadlines without aborting transactions",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/6fa25556bc661e2f35fde3fdb4446da40e9f736f"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:bc08cf5a5385d3389b64c1ed33a9cb79aed5bfc7",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T10:01:42.000+02:00",
-      "title": "Support unsigned SELECT timeout settings and scope inheritance",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/bc08cf5a5385d3389b64c1ed33a9cb79aed5bfc7"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:b44c63bdb79528be3d4c1cc3623bb5789c97ee6e",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T09:52:04.000+02:00",
-      "title": "Pin native SELECT timeout settings and interruption behavior",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/b44c63bdb79528be3d4c1cc3623bb5789c97ee6e"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:dcd30a06b6d2b516bb0048d266f9946dbedc0693",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T09:48:16.000+02:00",
-      "title": "Centralize malformed character diagnostics across SQL paths",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/dcd30a06b6d2b516bb0048d266f9946dbedc0693"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:76b5afa81c460648080089c4981c506a7728a748",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T09:45:16.000+02:00",
-      "title": "Share join candidate filtering and qualified column lookup",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/76b5afa81c460648080089c4981c506a7728a748"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ff85ccc32879b99bd26f24a9f89dd476e50b7e8d",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T09:43:00.000+02:00",
-      "title": "Remove arbitrary join candidate ceiling while retaining cancellation",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ff85ccc32879b99bd26f24a9f89dd476e50b7e8d"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:97fe1a0bf362b7c44e531635cda47188a5a58c22",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T09:31:01.000+02:00",
-      "title": "Reproduce join candidate ceiling with small native results",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/97fe1a0bf362b7c44e531635cda47188a5a58c22"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:996cfa2b49379d8b30bc21a97c82c2f8da94258c",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T09:27:13.000+02:00",
-      "title": "Report malformed quoted legacy literal warnings",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/996cfa2b49379d8b30bc21a97c82c2f8da94258c"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:dec377406a2e21fd959ff6102cc87ba57389ccec",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T09:21:58.000+02:00",
-      "title": "Validate GB18030 and slice supplementary characters without full scans",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/dec377406a2e21fd959ff6102cc87ba57389ccec"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:9b5109b6b6f66492773afef59eb9a5f51d5001fb",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T09:10:49.000+02:00",
-      "title": "Pin GB18030 gaps and mixed UJIS controls",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/9b5109b6b6f66492773afef59eb9a5f51d5001fb"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:4b613a00aef6060f938b1becac82a5c638c268a7",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T08:06:37.000+02:00",
-      "title": "Preserve native EUC and GB2312 literal and character boundaries",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/4b613a00aef6060f938b1becac82a5c638c268a7"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:8ebdd6b9b2780861a7bcb8def35f7218730fbcf2",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T07:59:49.000+02:00",
-      "title": "Pin EUC and GB2312 literal and character boundary gaps",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/8ebdd6b9b2780861a7bcb8def35f7218730fbcf2"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:de26bab60ed9081504c53d3ffe9141f70a9fef5b",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T07:57:49.000+02:00",
-      "title": "Validate Big5 and GBK literal structure and character boundaries",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/de26bab60ed9081504c53d3ffe9141f70a9fef5b"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:1cbecdb513b69111503fa5cc41887bdeb88483e4",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T07:52:52.000+02:00",
-      "title": "Validate Shift-JIS introduced literal byte sequences",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/1cbecdb513b69111503fa5cc41887bdeb88483e4"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:5f0746586ec2dd13b1f2cff8367241e42d158720",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T07:48:54.000+02:00",
-      "title": "Recognize Shift-JIS byte boundaries independently of Unicode mappings",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/5f0746586ec2dd13b1f2cff8367241e42d158720"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ed48e9ee674cc32886fe5d4567f0d5336715d303",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T07:43:03.000+02:00",
-      "title": "Preserve encoded bytes through string slicing and concatenation",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ed48e9ee674cc32886fe5d4567f0d5336715d303"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ea86a38f88807a79d77dcbcd1fbb7ba0906b17a2",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T07:24:30.000+02:00",
-      "title": "Pin encoded string operation gaps against native MySQL",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ea86a38f88807a79d77dcbcd1fbb7ba0906b17a2"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:8289089345b87fef022bf3eb444ba4c115f3f99c",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T07:23:04.000+02:00",
-      "title": "Preserve UCS2 code units through text storage conversion",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/8289089345b87fef022bf3eb444ba4c115f3f99c"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:3a73f98c3bb35730826c839b245b6fb948ab1cc0",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T07:05:05.000+02:00",
-      "title": "Validate encoded source bytes during text storage conversion",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/3a73f98c3bb35730826c839b245b6fb948ab1cc0"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:7c96cc0d8a4a0c74bb7c59bc70f82acdc9567d67",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T06:57:40.000+02:00",
-      "title": "Avoid structural membership allocation without rollup keys",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/7c96cc0d8a4a0c74bb7c59bc70f82acdc9567d67"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ee7bccde4f880cb62317b1a6d3e4b1ad69a2ef68",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T06:54:36.000+02:00",
-      "title": "Preserve encoded literal bytes across assignment and preparation",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ee7bccde4f880cb62317b1a6d3e4b1ad69a2ef68"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:0382c3e85485dd29adb933d670fadccdfc8f4128",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T06:16:06.000+02:00",
-      "title": "Pin introduced byte preservation and warning lifetimes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/0382c3e85485dd29adb933d670fadccdfc8f4128"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:98febe1accdcd07665d25b4fe696323c70cbfbbf",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T06:11:44.000+02:00",
-      "title": "Validate introduced Unicode binary literals before evaluation",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/98febe1accdcd07665d25b4fe696323c70cbfbbf"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:7e0cd5e6a25b622ac7183c87e3c506cc7205cad5",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T05:57:34.000+02:00",
-      "title": "Share declared column collation inference with wildcard unions",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/7e0cd5e6a25b622ac7183c87e3c506cc7205cad5"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:f48d06b4812e5b03c531fcb012449d1f1caa0907",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T05:51:11.000+02:00",
-      "title": "Preserve source expression collation identity through materialization and rollup",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/f48d06b4812e5b03c531fcb012449d1f1caa0907"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:532bc6623c4f870e0ab6b6063a8becbc92386fbe",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T05:40:57.000+02:00",
-      "title": "Pin source expression collation metadata across rollup totals",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/532bc6623c4f870e0ab6b6063a8becbc92386fbe"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:fa845504c84e76fb26974e5e6b61f216fac98509",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T05:37:12.000+02:00",
-      "title": "Record grouped query performance after binding fixes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/fa845504c84e76fb26974e5e6b61f216fac98509"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ceed2fc9dd5aadf51ea43c0140bf51d744c9a134",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T05:36:27.000+02:00",
-      "title": "Validate window keys in source scope before row evaluation",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ceed2fc9dd5aadf51ea43c0140bf51d744c9a134"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:a5747f6163cadf64b4ec72cb902a052bc4a0550b",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T05:18:29.000+02:00",
-      "title": "Restore grouped projection assignments only for returned rows",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/a5747f6163cadf64b4ec72cb902a052bc4a0550b"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:11807004eeba083b0727956923a4312ab32387c9",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T05:04:26.000+02:00",
-      "title": "Pin grouped projection assignment replay and filtering phases",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/11807004eeba083b0727956923a4312ab32387c9"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:7058caa9a96a1f6bcee7adb9860ffba500e3176f",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-08T05:00:05.000+02:00",
-      "title": "Evaluate ROLLUP aggregate levels as groups are consumed",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/7058caa9a96a1f6bcee7adb9860ffba500e3176f"
     },
     {
       "id": "pr:HelgeSverre/token:28",
