@@ -1,9 +1,145 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-16T06:31:44.494Z",
-  "since": "2026-10-02T06:31:44.494Z",
+  "fetchedAt": "2026-10-16T12:28:34.967Z",
+  "since": "2026-10-02T12:28:34.967Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/ryde-cli:1c72747bea8514722f2d8fff520899c6b12e4988",
+      "kind": "commit",
+      "repo": "HelgeSverre/ryde-cli",
+      "at": "2026-10-16T13:45:11.000+02:00",
+      "title": "Refresh native request signer and reject invalid sessions",
+      "url": "https://github.com/HelgeSverre/ryde-cli/commit/1c72747bea8514722f2d8fff520899c6b12e4988"
+    },
+    {
+      "id": "commit:HelgeSverre/ryde-cli:9a4ac70697005cfb5450d42cf2b20735a85cc6c7",
+      "kind": "commit",
+      "repo": "HelgeSverre/ryde-cli",
+      "at": "2026-10-16T12:01:35.000+02:00",
+      "title": "Add city lookup and agent setup; refresh Android API profile",
+      "url": "https://github.com/HelgeSverre/ryde-cli/commit/9a4ac70697005cfb5450d42cf2b20735a85cc6c7"
+    },
+    {
+      "id": "commit:HelgeSverre/ryde-cli:f807f06e8f795954c750d356cc37b2111b411b34",
+      "kind": "commit",
+      "repo": "HelgeSverre/ryde-cli",
+      "at": "2026-10-16T11:32:53.000+02:00",
+      "title": "Consolidate fixes and dependency upgrades for 0.1.1",
+      "url": "https://github.com/HelgeSverre/ryde-cli/commit/f807f06e8f795954c750d356cc37b2111b411b34"
+    },
+    {
+      "id": "commit:HelgeSverre/ryde-cli:1ceedb0c2fd7ec012f514f75ca56aebcab2ec389",
+      "kind": "commit",
+      "repo": "HelgeSverre/ryde-cli",
+      "at": "2026-10-16T11:19:48.000+02:00",
+      "title": "Prepare 0.1.0 PyPI release and uv installation docs",
+      "url": "https://github.com/HelgeSverre/ryde-cli/commit/1ceedb0c2fd7ec012f514f75ca56aebcab2ec389"
+    },
+    {
+      "id": "commit:HelgeSverre/ryde-cli:397e5ce07f4bdcc2c1bc870718277345d882327c",
+      "kind": "commit",
+      "repo": "HelgeSverre/ryde-cli",
+      "at": "2026-10-16T11:16:55.000+02:00",
+      "title": "Set up uv Trusted Publishing for PyPI releases",
+      "url": "https://github.com/HelgeSverre/ryde-cli/commit/397e5ce07f4bdcc2c1bc870718277345d882327c"
+    },
+    {
+      "id": "commit:HelgeSverre/ryde-cli:319088c5ce32a98840b3df58b84fefec387e7331",
+      "kind": "commit",
+      "repo": "HelgeSverre/ryde-cli",
+      "at": "2026-10-16T11:06:44.000+02:00",
+      "title": "Add branded README visuals and fix bundled map rendering",
+      "url": "https://github.com/HelgeSverre/ryde-cli/commit/319088c5ce32a98840b3df58b84fefec387e7331"
+    },
+    {
+      "id": "commit:HelgeSverre/ryde-cli:ef6fc421c904fdf32cdc6358ca25f1d4298a6f3f",
+      "kind": "commit",
+      "repo": "HelgeSverre/ryde-cli",
+      "at": "2026-10-16T11:03:20.000+02:00",
+      "title": "Avoid reverse DNS during local dashboard startup",
+      "url": "https://github.com/HelgeSverre/ryde-cli/commit/ef6fc421c904fdf32cdc6358ca25f1d4298a6f3f"
+    },
+    {
+      "id": "commit:HelgeSverre/ryde-cli:44ca3677aa01f5d2aa5c77a21557abe3d02c555d",
+      "kind": "commit",
+      "repo": "HelgeSverre/ryde-cli",
+      "at": "2026-10-16T10:56:56.000+02:00",
+      "title": "Allow cold dashboard startup and report safe job failure stages",
+      "url": "https://github.com/HelgeSverre/ryde-cli/commit/44ca3677aa01f5d2aa5c77a21557abe3d02c555d"
+    },
+    {
+      "id": "commit:HelgeSverre/ryde-cli:9cb19978e1462d40347ac6503b3695a3a1c6b3de",
+      "kind": "commit",
+      "repo": "HelgeSverre/ryde-cli",
+      "at": "2026-10-16T10:56:02.000+02:00",
+      "title": "Serve dashboard through a fixed resource table",
+      "url": "https://github.com/HelgeSverre/ryde-cli/commit/9cb19978e1462d40347ac6503b3695a3a1c6b3de"
+    },
+    {
+      "id": "commit:HelgeSverre/ryde-cli:054328036d53e44cabef78475bd83ccbd7cb8f06",
+      "kind": "commit",
+      "repo": "HelgeSverre/ryde-cli",
+      "at": "2026-10-16T10:53:26.000+02:00",
+      "title": "Prepare public Ryde CLI with bundled stats dashboard and agent support",
+      "url": "https://github.com/HelgeSverre/ryde-cli/commit/054328036d53e44cabef78475bd83ccbd7cb8f06"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b147b9c2b5761a24aee8740b6cac4f55027241ac",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-16T10:24:46.000+02:00",
+      "title": "Record SHOW CREATE TABLE key-order divergence",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b147b9c2b5761a24aee8740b6cac4f55027241ac"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4ec3431a1611d8c490fc86c867d5a2d31c0f1d6c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-16T09:31:34.000+02:00",
+      "title": "Audit sort-key changes during limited write rebasing",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4ec3431a1611d8c490fc86c867d5a2d31c0f1d6c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d13157908613a3447444ec8b7cab6f7121986f08",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-16T09:19:23.000+02:00",
+      "title": "Audit contended limited ordered write rebasing",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d13157908613a3447444ec8b7cab6f7121986f08"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a0e7a2581913c615d1a4f820868631f307f82cd3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-16T08:55:55.000+02:00",
+      "title": "Prepare Fsdb 0.1.0-preview.34",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a0e7a2581913c615d1a4f820868631f307f82cd3"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:15ceda675763d9a5c7c779252368d1aee87bc50e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-16T08:45:51.000+02:00",
+      "title": "Allow ordered local union CTEs in recursive joined views",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/15ceda675763d9a5c7c779252368d1aee87bc50e"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:114",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-16T08:44:50Z",
+      "title": "Record SHOW CREATE TABLE key-order divergence in GAPS.md",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/114"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d4a3162c881193bac0c17d5976de5cdce70999af",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-16T08:32:35.000+02:00",
+      "title": "Support local union CTEs in recursive joined views",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d4a3162c881193bac0c17d5976de5cdce70999af"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:6d2acdcf9cc3cfd835abc9dae8c46f43d193ea32",
       "kind": "commit",
@@ -11,6 +147,14 @@
       "at": "2026-10-16T08:07:53.000+02:00",
       "title": "Prepare Fsdb 0.1.0-preview.33",
       "url": "https://github.com/HelgeSverre/fsdb/commit/6d2acdcf9cc3cfd835abc9dae8c46f43d193ea32"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:113",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-16T08:01:45Z",
+      "title": "Audit sort-key changes during limited write rebasing",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/113"
     },
     {
       "id": "commit:HelgeSverre/fsdb:252d92322f049ff093ebc581429beb22d8710134",
@@ -29,6 +173,14 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/2b86934359ae06c88b069a8b9b62460bdf389690"
     },
     {
+      "id": "pr:HelgeSverre/fsdb:112",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-16T07:26:13Z",
+      "title": "Audit contended limited ordered write rebasing",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/112"
+    },
+    {
       "id": "commit:HelgeSverre/fsdb:e63a7959819ceb48009faad1111d1a666c756e75",
       "kind": "commit",
       "repo": "HelgeSverre/fsdb",
@@ -45,12 +197,36 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/f334a7f51e801160f1881ce38d75cc5392a8633f"
     },
     {
+      "id": "pr:HelgeSverre/fsdb:111",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-16T07:04:09Z",
+      "title": "Prepare Fsdb 0.1.0-preview.34",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/111"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:110",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-16T06:55:09Z",
+      "title": "Allow ordered local union CTEs in recursive joined views",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/110"
+    },
+    {
       "id": "commit:HelgeSverre/fsdb:f86d20047fee31b2ac4e4dd84370facf64c2b7fc",
       "kind": "commit",
       "repo": "HelgeSverre/fsdb",
       "at": "2026-10-16T06:47:01.000+02:00",
       "title": "Prepare Fsdb 0.1.0-preview.31",
       "url": "https://github.com/HelgeSverre/fsdb/commit/f86d20047fee31b2ac4e4dd84370facf64c2b7fc"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:109",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-16T06:41:16Z",
+      "title": "Support local union CTEs in recursive joined views",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/109"
     },
     {
       "id": "commit:HelgeSverre/fsdb:b44c37c8704cec0bd3af8079b32765ef763cbc06",
@@ -7557,94 +7733,6 @@
       "url": "https://github.com/sema-lisp/sema/commit/623124e36bdfa94aea8e2f9b11ce7c86ed2125e1"
     },
     {
-      "id": "commit:sema-lisp/sublime-sema:a07fd5283f7f8d673e98c8fd8691dc03f872057c",
-      "kind": "commit",
-      "repo": "sema-lisp/sublime-sema",
-      "at": "2026-10-09T11:38:29.000+02:00",
-      "title": "fix: align editor syntax with the Sema 1.37 reader",
-      "url": "https://github.com/sema-lisp/sublime-sema/commit/a07fd5283f7f8d673e98c8fd8691dc03f872057c"
-    },
-    {
-      "id": "commit:sema-lisp/intellij-sema:4e057f69a2e0ab443c9375b681c1cf6876683920",
-      "kind": "commit",
-      "repo": "sema-lisp/intellij-sema",
-      "at": "2026-10-09T11:38:24.000+02:00",
-      "title": "fix: align editor syntax with the Sema 1.37 reader",
-      "url": "https://github.com/sema-lisp/intellij-sema/commit/4e057f69a2e0ab443c9375b681c1cf6876683920"
-    },
-    {
-      "id": "commit:sema-lisp/emacs-sema:65799351292d46567c003af4b43113357236ea47",
-      "kind": "commit",
-      "repo": "sema-lisp/emacs-sema",
-      "at": "2026-10-09T11:38:19.000+02:00",
-      "title": "fix: align editor syntax with the Sema 1.37 reader",
-      "url": "https://github.com/sema-lisp/emacs-sema/commit/65799351292d46567c003af4b43113357236ea47"
-    },
-    {
-      "id": "commit:sema-lisp/sema.vim:a0647c9e995efe0bb043e4238e24673a73bb5c71",
-      "kind": "commit",
-      "repo": "sema-lisp/sema.vim",
-      "at": "2026-10-09T11:38:14.000+02:00",
-      "title": "fix: align editor syntax with the Sema 1.37 reader",
-      "url": "https://github.com/sema-lisp/sema.vim/commit/a0647c9e995efe0bb043e4238e24673a73bb5c71"
-    },
-    {
-      "id": "commit:sema-lisp/sema.nvim:366238ade9bc4855c280f31adbea820d3af8ebe3",
-      "kind": "commit",
-      "repo": "sema-lisp/sema.nvim",
-      "at": "2026-10-09T11:38:09.000+02:00",
-      "title": "fix: align editor syntax with the Sema 1.37 reader",
-      "url": "https://github.com/sema-lisp/sema.nvim/commit/366238ade9bc4855c280f31adbea820d3af8ebe3"
-    },
-    {
-      "id": "commit:sema-lisp/sema:e2e69f927d19918250243746d7aa46ab2039efd8",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-09T11:38:08.000+02:00",
-      "title": "fix: update ChaCha RNG dependency and align embedded runtime",
-      "url": "https://github.com/sema-lisp/sema/commit/e2e69f927d19918250243746d7aa46ab2039efd8"
-    },
-    {
-      "id": "commit:sema-lisp/helix-sema:4194026dc7d3e8ae7b464065a27bb43aeb024e3e",
-      "kind": "commit",
-      "repo": "sema-lisp/helix-sema",
-      "at": "2026-10-09T11:38:04.000+02:00",
-      "title": "fix: align editor syntax with the Sema 1.37 reader",
-      "url": "https://github.com/sema-lisp/helix-sema/commit/4194026dc7d3e8ae7b464065a27bb43aeb024e3e"
-    },
-    {
-      "id": "commit:sema-lisp/zed-sema:8b98eeff1bda0925840bfa19a85458445b3e39b5",
-      "kind": "commit",
-      "repo": "sema-lisp/zed-sema",
-      "at": "2026-10-09T11:37:59.000+02:00",
-      "title": "fix: align editor syntax with the Sema 1.37 reader",
-      "url": "https://github.com/sema-lisp/zed-sema/commit/8b98eeff1bda0925840bfa19a85458445b3e39b5"
-    },
-    {
-      "id": "commit:sema-lisp/vscode-sema:bc79f8d76df24bcd1b3e12c61ff7099657d63019",
-      "kind": "commit",
-      "repo": "sema-lisp/vscode-sema",
-      "at": "2026-10-09T11:33:33.000+02:00",
-      "title": "fix: align reader literals, macro scopes, and dependencies",
-      "url": "https://github.com/sema-lisp/vscode-sema/commit/bc79f8d76df24bcd1b3e12c61ff7099657d63019"
-    },
-    {
-      "id": "commit:sema-lisp/sema-coder:e94d7a2cbf6ae2b1562644f9a3f383f55eb32eb9",
-      "kind": "commit",
-      "repo": "sema-lisp/sema-coder",
-      "at": "2026-10-09T11:33:31.000+02:00",
-      "title": "fix: use Sema 1.37 tool defaults and turn usage",
-      "url": "https://github.com/sema-lisp/sema-coder/commit/e94d7a2cbf6ae2b1562644f9a3f383f55eb32eb9"
-    },
-    {
-      "id": "commit:sema-lisp/tree-sitter-sema:4c56443c99f7322d0a592229461234d93bf192d6",
-      "kind": "commit",
-      "repo": "sema-lisp/tree-sitter-sema",
-      "at": "2026-10-09T11:28:27.000+02:00",
-      "title": "fix: align comments, booleans, and operators with the reader",
-      "url": "https://github.com/sema-lisp/tree-sitter-sema/commit/4c56443c99f7322d0a592229461234d93bf192d6"
-    },
-    {
       "id": "pr:sema-lisp/sema-coder:4",
       "kind": "merge",
       "repo": "sema-lisp/sema-coder",
@@ -7653,60 +7741,12 @@
       "url": "https://github.com/sema-lisp/sema-coder/pull/4"
     },
     {
-      "id": "commit:HelgeSverre/strek:de23edcb493ba30bc5282cda7cbf9e6795424745",
-      "kind": "commit",
-      "repo": "HelgeSverre/strek",
-      "at": "2026-10-09T11:17:01.000+02:00",
-      "title": "feat: font picker, consistent font resolution, and bundled Inter UI font (#6)",
-      "url": "https://github.com/HelgeSverre/strek/commit/de23edcb493ba30bc5282cda7cbf9e6795424745"
-    },
-    {
-      "id": "commit:sema-lisp/sema:c416326bc3f2fc2098a32bb551c12e022f4a6f9d",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-09T11:12:23.000+02:00",
-      "title": "test: wait for complete MCP cancellation outcomes",
-      "url": "https://github.com/sema-lisp/sema/commit/c416326bc3f2fc2098a32bb551c12e022f4a6f9d"
-    },
-    {
-      "id": "commit:HelgeSverre/strek:c7e5530d09c15547d165dfb2fc2d13690af25d88",
-      "kind": "commit",
-      "repo": "HelgeSverre/strek",
-      "at": "2026-10-09T10:53:21.000+02:00",
-      "title": "fix: render themed, wrapping prompt dialogs on Linux (#5)",
-      "url": "https://github.com/HelgeSverre/strek/commit/c7e5530d09c15547d165dfb2fc2d13690af25d88"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:cab70b90d1cd2d006af1eb747b303e8042ea9607",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-09T10:30:38.000+02:00",
-      "title": "Resolve foreign-key ALTER actions against final column definitions",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/cab70b90d1cd2d006af1eb747b303e8042ea9607"
-    },
-    {
       "id": "pr:sema-lisp/sema:165",
       "kind": "merge",
       "repo": "sema-lisp/sema",
       "at": "2026-10-09T10:20:30Z",
       "title": "release: 1.37.0-rc.2",
       "url": "https://github.com/sema-lisp/sema/pull/165"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:9e9a9d6d101f54408be8d5e1a3626a49271e1262",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-09T10:13:53.000+02:00",
-      "title": "Validate foreign-key names atomically during table renames",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/9e9a9d6d101f54408be8d5e1a3626a49271e1262"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:6a62757e90e8b506a346158709173a17dd291373",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-09T10:01:02.000+02:00",
-      "title": "Persist generated index provenance and match foreign-key index replacement",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/6a62757e90e8b506a346158709173a17dd291373"
     },
     {
       "id": "pr:sema-lisp/sema:164",
@@ -7797,36 +7837,12 @@
       "url": "https://github.com/sema-lisp/tree-sitter-sema/pull/3"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:f5f2c2e7803c5ca0f849f238416f8f524d46df67",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-09T09:36:50.000+02:00",
-      "title": "Protect required foreign-key indexes across ALTER actions",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/f5f2c2e7803c5ca0f849f238416f8f524d46df67"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:870d66a8780cd9ba5862ad6ac76423180d03e3c7",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-09T09:18:46.000+02:00",
-      "title": "Generate foreign-key backing indexes and validate reserved names",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/870d66a8780cd9ba5862ad6ac76423180d03e3c7"
-    },
-    {
       "id": "pr:HelgeSverre/strek:6",
       "kind": "merge",
       "repo": "HelgeSverre/strek",
       "at": "2026-10-09T09:17:02Z",
       "title": "Font picker, consistent font rendering, and bundled Inter UI font",
       "url": "https://github.com/HelgeSverre/strek/pull/6"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:2190df5766ddb3a70a8b58162bc38c680d070365",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-09T09:04:53.000+02:00",
-      "title": "Audit foreign-key collision scope and diagnostic precedence",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/2190df5766ddb3a70a8b58162bc38c680d070365"
     },
     {
       "id": "pr:HelgeSverre/strek:5",
@@ -8091,6 +8107,22 @@
       "at": "2026-10-05T07:48:44Z",
       "title": "Distribute a stapled app ZIP for Homebrew cask installs",
       "url": "https://github.com/HelgeSverre/sourcefour/pull/7"
+    },
+    {
+      "id": "release:HelgeSverre/ryde-cli:414776370",
+      "kind": "release",
+      "repo": "HelgeSverre/ryde-cli",
+      "at": "2026-10-16T09:34:44Z",
+      "title": "v0.1.1",
+      "url": "https://github.com/HelgeSverre/ryde-cli/releases/tag/v0.1.1"
+    },
+    {
+      "id": "release:HelgeSverre/ryde-cli:414763720",
+      "kind": "release",
+      "repo": "HelgeSverre/ryde-cli",
+      "at": "2026-10-16T09:21:27Z",
+      "title": "v0.1.0",
+      "url": "https://github.com/HelgeSverre/ryde-cli/releases/tag/v0.1.0"
     },
     {
       "id": "release:HelgeSverre/SpamProtection:413607714",
