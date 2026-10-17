@@ -1,9 +1,41 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-17T12:23:21.551Z",
-  "since": "2026-10-03T12:23:21.551Z",
+  "fetchedAt": "2026-10-17T18:18:52.837Z",
+  "since": "2026-10-03T18:18:52.837Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:nunomaduro/dev-null.sh:f940180e8db4b00ab9f6e6ad2f4e36b378b0c282",
+      "kind": "commit",
+      "repo": "nunomaduro/dev-null.sh",
+      "at": "2026-10-17T20:04:32.000+02:00",
+      "title": "perf: make signed-in pages 10–30× faster at production scale (#264)",
+      "url": "https://github.com/nunomaduro/dev-null.sh/commit/f940180e8db4b00ab9f6e6ad2f4e36b378b0c282"
+    },
+    {
+      "id": "pr:nunomaduro/dev-null.sh:264",
+      "kind": "merge",
+      "repo": "nunomaduro/dev-null.sh",
+      "at": "2026-10-17T18:04:33Z",
+      "title": "perf: make signed-in pages 10–30× faster at production scale",
+      "url": "https://github.com/nunomaduro/dev-null.sh/pull/264"
+    },
+    {
+      "id": "commit:HelgeSverre/phpgraph-laravel-repros:551bb0ef667cf279aa0a4ce4b6c41c87daca7639",
+      "kind": "commit",
+      "repo": "HelgeSverre/phpgraph-laravel-repros",
+      "at": "2026-10-17T17:49:26.000+02:00",
+      "title": "Add seven isolated phpgraph Laravel reproductions with runtime controls",
+      "url": "https://github.com/HelgeSverre/phpgraph-laravel-repros/commit/551bb0ef667cf279aa0a4ce4b6c41c87daca7639"
+    },
+    {
+      "id": "commit:HelgeSverre/devnull-tv:8bc5f09fc5cb5f5e315bed77ff4ee78881fd6cc0",
+      "kind": "commit",
+      "repo": "HelgeSverre/devnull-tv",
+      "at": "2026-10-17T15:06:25.000+02:00",
+      "title": "Design: the ambient variants study, with fictional people and posts",
+      "url": "https://github.com/HelgeSverre/devnull-tv/commit/8bc5f09fc5cb5f5e315bed77ff4ee78881fd6cc0"
+    },
     {
       "id": "commit:HelgeSverre/devnull-tv:db191c6c23605510d1741d34031ca9110bd3bd98",
       "kind": "commit",
@@ -7763,38 +7795,6 @@
       "at": "2026-10-09T22:21:48.000+02:00",
       "title": "Normalize YEAR column inputs to MySQL storage values",
       "url": "https://github.com/HelgeSverre/fsdb/commit/aa39fb4267ab449537ea732df124d57e62175c37"
-    },
-    {
-      "id": "commit:HelgeSverre/fedit:2ba8d3f74c192c758b2fe996d4c81888870c284f",
-      "kind": "commit",
-      "repo": "HelgeSverre/fedit",
-      "at": "2026-10-09T22:12:17.000+02:00",
-      "title": "Add Ahrefs analytics script to website layout",
-      "url": "https://github.com/HelgeSverre/fedit/commit/2ba8d3f74c192c758b2fe996d4c81888870c284f"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:69f65450e76aa0ec09b69ee7a8744983b974f0a1",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-09T22:05:35.000+02:00",
-      "title": "Preserve SET NULL foreign-key nullability during ALTER",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/69f65450e76aa0ec09b69ee7a8744983b974f0a1"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:1961bb3156f98ffb583ab2b7bfcb2d4e3aed0473",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-09T21:57:18.000+02:00",
-      "title": "Propagate numeric join IN through compound ON",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/1961bb3156f98ffb583ab2b7bfcb2d4e3aed0473"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:a163cf023a301146b5aacda50c85e47a6b1be273",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-09T21:51:41.000+02:00",
-      "title": "Document costed mixed-type join counterprobe",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/a163cf023a301146b5aacda50c85e47a6b1be273"
     },
     {
       "id": "pr:sema-lisp/sema-coder:5",
