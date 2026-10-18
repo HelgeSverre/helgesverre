@@ -1,9 +1,17 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-18T12:24:39.896Z",
-  "since": "2026-10-04T12:24:39.896Z",
+  "fetchedAt": "2026-10-18T18:19:36.527Z",
+  "since": "2026-10-04T18:19:36.527Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/jake:37f9be4859fd8afeeda4fcb2d247ca0f91ff3131",
+      "kind": "commit",
+      "repo": "HelgeSverre/jake",
+      "at": "2026-10-18T14:52:42.000+02:00",
+      "title": "fix: prevent mobile website overflow",
+      "url": "https://github.com/HelgeSverre/jake/commit/37f9be4859fd8afeeda4fcb2d247ca0f91ff3131"
+    },
     {
       "id": "commit:nunomaduro/dev-null.sh:d63ba4981c7d9c21c0dd21684ea8f362052ccf98",
       "kind": "commit",
@@ -7765,22 +7773,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/19f7b3a9eeb12a0d40ed93217136dede74ff4f56"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:6ceb1dcf259d5a4f1dc2d7b286055aec0b84cd11",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-09T22:48:17.000+02:00",
-      "title": "Match YEAR zero-string and truncated-prefix coercion",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/6ceb1dcf259d5a4f1dc2d7b286055aec0b84cd11"
-    },
-    {
-      "id": "commit:HelgeSverre/rust-vst3-host:7bece4e39cff2925a0a33b40092f2c2dcaaea9ac",
-      "kind": "commit",
-      "repo": "HelgeSverre/rust-vst3-host",
-      "at": "2026-10-09T22:42:41.000+02:00",
-      "title": "Clarify IMidiMapping2 release note terminology",
-      "url": "https://github.com/HelgeSverre/rust-vst3-host/commit/7bece4e39cff2925a0a33b40092f2c2dcaaea9ac"
-    },
-    {
       "id": "pr:sema-lisp/sema-coder:5",
       "kind": "merge",
       "repo": "sema-lisp/sema-coder",
@@ -8419,14 +8411,6 @@
       "at": "2026-10-10T00:01:16Z",
       "title": "v0.2.0",
       "url": "https://github.com/HelgeSverre/namecheap-cli/releases/tag/v0.2.0"
-    },
-    {
-      "id": "release:HelgeSverre/rust-vst3-host:408360623",
-      "kind": "release",
-      "repo": "HelgeSverre/rust-vst3-host",
-      "at": "2026-10-09T21:26:30Z",
-      "title": "v0.10.0",
-      "url": "https://github.com/HelgeSverre/rust-vst3-host/releases/tag/v0.10.0"
     },
     {
       "id": "release:sema-lisp/sema:407969625",
