@@ -1,9 +1,25 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-17T18:18:52.837Z",
-  "since": "2026-10-03T18:18:52.837Z",
+  "fetchedAt": "2026-10-18T00:52:35.795Z",
+  "since": "2026-10-04T00:52:35.795Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:nunomaduro/dev-null.sh:d63ba4981c7d9c21c0dd21684ea8f362052ccf98",
+      "kind": "commit",
+      "repo": "nunomaduro/dev-null.sh",
+      "at": "2026-10-18T00:17:02.000+02:00",
+      "title": "fix: show the video thumbnail on YouTube embeds (#291)",
+      "url": "https://github.com/nunomaduro/dev-null.sh/commit/d63ba4981c7d9c21c0dd21684ea8f362052ccf98"
+    },
+    {
+      "id": "pr:nunomaduro/dev-null.sh:291",
+      "kind": "merge",
+      "repo": "nunomaduro/dev-null.sh",
+      "at": "2026-10-17T22:17:02Z",
+      "title": "fix: show the video thumbnail on YouTube embeds",
+      "url": "https://github.com/nunomaduro/dev-null.sh/pull/291"
+    },
     {
       "id": "commit:nunomaduro/dev-null.sh:f940180e8db4b00ab9f6e6ad2f4e36b378b0c282",
       "kind": "commit",
@@ -7779,22 +7795,6 @@
       "at": "2026-10-09T22:37:54.000+02:00",
       "title": "Prepare 0.10.0 and fix release validation blockers",
       "url": "https://github.com/HelgeSverre/rust-vst3-host/commit/fe282e7bb64b9cc21d2513281cf3817b40f70149"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:c884e946fa70f7bd84e1cb0645de28438d1bc11b",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-09T22:33:01.000+02:00",
-      "title": "Match YEAR and unsigned tinyint foreign-key bytes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/c884e946fa70f7bd84e1cb0645de28438d1bc11b"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:aa39fb4267ab449537ea732df124d57e62175c37",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-09T22:21:48.000+02:00",
-      "title": "Normalize YEAR column inputs to MySQL storage values",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/aa39fb4267ab449537ea732df124d57e62175c37"
     },
     {
       "id": "pr:sema-lisp/sema-coder:5",
