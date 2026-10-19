@@ -1,9 +1,25 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-19T12:29:58.066Z",
-  "since": "2026-10-05T12:29:58.066Z",
+  "fetchedAt": "2026-10-19T18:24:39.550Z",
+  "since": "2026-10-05T18:24:39.550Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:nunomaduro/dev-null.sh:92562332b00034e27ff877c3269f920793fd3723",
+      "kind": "commit",
+      "repo": "nunomaduro/dev-null.sh",
+      "at": "2026-10-19T18:56:22.000+01:00",
+      "title": "fix: handle images selected from the Android photo picker (#494)",
+      "url": "https://github.com/nunomaduro/dev-null.sh/commit/92562332b00034e27ff877c3269f920793fd3723"
+    },
+    {
+      "id": "pr:nunomaduro/dev-null.sh:494",
+      "kind": "merge",
+      "repo": "nunomaduro/dev-null.sh",
+      "at": "2026-10-19T17:56:22Z",
+      "title": "fix: handle images selected from the Android photo picker",
+      "url": "https://github.com/nunomaduro/dev-null.sh/pull/494"
+    },
     {
       "id": "commit:HelgeSverre/glue:ef3ef0c2f82f1443f14edc729f993cf383d9c65e",
       "kind": "commit",
@@ -7797,22 +7813,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/9faebaf75283467c2a4dfb2447e6c3ec0a3f7f21"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:a46ab9dda136ca170c6e354feb4a7dc828faf5ed",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T11:38:57.000+02:00",
-      "title": "Profile reused prepared point lookups on shared fixture",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/a46ab9dda136ca170c6e354feb4a7dc828faf5ed"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:23a3be1235140a03f58c4b0e6e792b7a4a936e2f",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T11:34:50.000+02:00",
-      "title": "Clarify cached parsing in point lookup profile",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/23a3be1235140a03f58c4b0e6e792b7a4a936e2f"
-    },
-    {
       "id": "pr:HelgeSverre/splash:8",
       "kind": "merge",
       "repo": "HelgeSverre/splash",
@@ -8253,14 +8253,6 @@
       "url": "https://github.com/HelgeSverre/codemagic-skill/pull/1"
     },
     {
-      "id": "pr:HelgeSverre/ollama-gui:79",
-      "kind": "merge",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-05T12:55:10Z",
-      "title": "v2: rebuilt chat UI",
-      "url": "https://github.com/HelgeSverre/ollama-gui/pull/79"
-    },
-    {
       "id": "release:HelgeSverre/glue:406250073",
       "kind": "release",
       "repo": "HelgeSverre/glue",
@@ -8371,14 +8363,6 @@
       "at": "2026-10-06T06:27:56Z",
       "title": "v2.0.1",
       "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.1"
-    },
-    {
-      "id": "release:HelgeSverre/ollama-gui:403712882",
-      "kind": "release",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-05T12:55:26Z",
-      "title": "v2.0.0",
-      "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.0"
     },
     {
       "id": "release:HelgeSverre/fedit:411939979",
