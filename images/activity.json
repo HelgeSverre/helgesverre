@@ -1,9 +1,25 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-19T06:43:08.960Z",
-  "since": "2026-10-05T06:43:08.960Z",
+  "fetchedAt": "2026-10-19T12:29:58.066Z",
+  "since": "2026-10-05T12:29:58.066Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/glue:ef3ef0c2f82f1443f14edc729f993cf383d9c65e",
+      "kind": "commit",
+      "repo": "HelgeSverre/glue",
+      "at": "2026-10-19T09:43:41.000+02:00",
+      "title": "docs: embed demo GIF directly in README",
+      "url": "https://github.com/HelgeSverre/glue/commit/ef3ef0c2f82f1443f14edc729f993cf383d9c65e"
+    },
+    {
+      "id": "commit:HelgeSverre/glue:613897f99a905d43e90240d2455c3fd10127606c",
+      "kind": "commit",
+      "repo": "HelgeSverre/glue",
+      "at": "2026-10-19T09:43:16.000+02:00",
+      "title": "docs: showcase Glue chat and slash menu in README",
+      "url": "https://github.com/HelgeSverre/glue/commit/613897f99a905d43e90240d2455c3fd10127606c"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:0bf10859e725b5bb4ec2072e60dd22bf3984fae1",
       "kind": "commit",
@@ -7797,30 +7813,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/23a3be1235140a03f58c4b0e6e792b7a4a936e2f"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:72a24470fd26c3acb111e35e2c5cc0e56a1a4fe8",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T11:31:28.000+02:00",
-      "title": "Record discarded point lookup parser shortcut",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/72a24470fd26c3acb111e35e2c5cc0e56a1a4fe8"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:6657cd65043dca4b19130f8a7df98d64ad863df1",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T11:29:02.000+02:00",
-      "title": "Restore project-backed point lookup profiling",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/6657cd65043dca4b19130f8a7df98d64ad863df1"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:743fdd63641eaa72a1a936d227eeb0cfd07a17f3",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T11:23:07.000+02:00",
-      "title": "Use collation-safe materialized correlated text ranges",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/743fdd63641eaa72a1a936d227eeb0cfd07a17f3"
-    },
-    {
       "id": "pr:HelgeSverre/splash:8",
       "kind": "merge",
       "repo": "HelgeSverre/splash",
@@ -8269,84 +8261,12 @@
       "url": "https://github.com/HelgeSverre/ollama-gui/pull/79"
     },
     {
-      "id": "pr:sema-lisp/intellij-sema:2",
-      "kind": "merge",
-      "repo": "sema-lisp/intellij-sema",
-      "at": "2026-10-05T10:27:01Z",
-      "title": "fix: highlight regex literals and builtins",
-      "url": "https://github.com/sema-lisp/intellij-sema/pull/2"
-    },
-    {
-      "id": "pr:sema-lisp/pkg:4",
-      "kind": "merge",
-      "repo": "sema-lisp/pkg",
-      "at": "2026-10-05T10:26:01Z",
-      "title": "fix: scope regex literals in package code",
-      "url": "https://github.com/sema-lisp/pkg/pull/4"
-    },
-    {
-      "id": "pr:sema-lisp/ui:3",
-      "kind": "merge",
-      "repo": "sema-lisp/ui",
-      "at": "2026-10-05T10:18:01Z",
-      "title": "fix: scope Sema regex literals in UI highlighting",
-      "url": "https://github.com/sema-lisp/ui/pull/3"
-    },
-    {
-      "id": "pr:sema-lisp/sublime-sema:3",
-      "kind": "merge",
-      "repo": "sema-lisp/sublime-sema",
-      "at": "2026-10-05T10:18:00Z",
-      "title": "fix: add a dedicated regex literal scope",
-      "url": "https://github.com/sema-lisp/sublime-sema/pull/3"
-    },
-    {
-      "id": "pr:sema-lisp/helix-sema:3",
-      "kind": "merge",
-      "repo": "sema-lisp/helix-sema",
-      "at": "2026-10-05T10:17:27Z",
-      "title": "fix: classify regex builtins in Helix",
-      "url": "https://github.com/sema-lisp/helix-sema/pull/3"
-    },
-    {
-      "id": "pr:sema-lisp/emacs-sema:2",
-      "kind": "merge",
-      "repo": "sema-lisp/emacs-sema",
-      "at": "2026-10-05T10:15:26Z",
-      "title": "fix: highlight complete regex literals",
-      "url": "https://github.com/sema-lisp/emacs-sema/pull/2"
-    },
-    {
-      "id": "pr:sema-lisp/sema.vim:2",
-      "kind": "merge",
-      "repo": "sema-lisp/sema.vim",
-      "at": "2026-10-05T10:13:09Z",
-      "title": "fix: highlight regex literals as one Vim region",
-      "url": "https://github.com/sema-lisp/sema.vim/pull/2"
-    },
-    {
-      "id": "pr:sema-lisp/vscode-sema:2",
-      "kind": "merge",
-      "repo": "sema-lisp/vscode-sema",
-      "at": "2026-10-05T10:07:45Z",
-      "title": "fix: scope Sema regex literals as regex",
-      "url": "https://github.com/sema-lisp/vscode-sema/pull/2"
-    },
-    {
-      "id": "pr:sema-lisp/tree-sitter-sema:2",
-      "kind": "merge",
-      "repo": "sema-lisp/tree-sitter-sema",
-      "at": "2026-10-05T10:04:15Z",
-      "title": "test: cover regex literal escape forms",
-      "url": "https://github.com/sema-lisp/tree-sitter-sema/pull/2"
-    },
-    {
-      "id": "pr:HelgeSverre/sourcefour:7",
-      "kind": "merge",
-      "repo": "HelgeSverre/sourcefour",
-      "at": "2026-10-05T07:48:44Z",
-      "title": "Distribute a stapled app ZIP for Homebrew cask installs",
-      "url": "https://github.com/HelgeSverre/sourcefour/pull/7"
+      "id": "release:HelgeSverre/glue:406250073",
+      "kind": "release",
+      "repo": "HelgeSverre/glue",
+      "at": "2026-10-07T23:35:47Z",
+      "title": "v0.9.1",
+      "url": "https://github.com/HelgeSverre/glue/releases/tag/v0.9.1"
     },
     {
       "id": "release:HelgeSverre/fsdb:416688077",
@@ -8395,14 +8315,6 @@
       "at": "2026-10-14T13:17:51Z",
       "title": "v0.1.8",
       "url": "https://github.com/HelgeSverre/sourcefour/releases/tag/v0.1.8"
-    },
-    {
-      "id": "release:HelgeSverre/sourcefour:403524153",
-      "kind": "release",
-      "repo": "HelgeSverre/sourcefour",
-      "at": "2026-10-05T08:46:13Z",
-      "title": "v0.1.7",
-      "url": "https://github.com/HelgeSverre/sourcefour/releases/tag/v0.1.7"
     },
     {
       "id": "release:HelgeSverre/pest-to-phpunit:412863600",
@@ -8565,22 +8477,6 @@
       "url": "https://github.com/sema-lisp/sema/releases/tag/v1.37.0-rc.2"
     },
     {
-      "id": "release:sema-lisp/sema:403683468",
-      "kind": "release",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T12:21:49Z",
-      "title": "v1.37.0-rc.1",
-      "url": "https://github.com/sema-lisp/sema/releases/tag/v1.37.0-rc.1"
-    },
-    {
-      "id": "release:sema-lisp/sema:403583613",
-      "kind": "release",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-05T10:07:51Z",
-      "title": "v1.36.1",
-      "url": "https://github.com/sema-lisp/sema/releases/tag/v1.36.1"
-    },
-    {
       "id": "release:HelgeSverre/strek:407951626",
       "kind": "release",
       "repo": "HelgeSverre/strek",
@@ -8597,14 +8493,6 @@
       "url": "https://github.com/sema-lisp/sublime-sema/releases/tag/0.5.1"
     },
     {
-      "id": "release:sema-lisp/sublime-sema:403597148",
-      "kind": "release",
-      "repo": "sema-lisp/sublime-sema",
-      "at": "2026-10-05T10:26:17Z",
-      "title": "0.5.0",
-      "url": "https://github.com/sema-lisp/sublime-sema/releases/tag/0.5.0"
-    },
-    {
       "id": "release:sema-lisp/vscode-sema:407779044",
       "kind": "release",
       "repo": "sema-lisp/vscode-sema",
@@ -8613,28 +8501,12 @@
       "url": "https://github.com/sema-lisp/vscode-sema/releases/tag/v0.4.1"
     },
     {
-      "id": "release:sema-lisp/vscode-sema:403588857",
-      "kind": "release",
-      "repo": "sema-lisp/vscode-sema",
-      "at": "2026-10-05T10:14:44Z",
-      "title": "v0.4.0",
-      "url": "https://github.com/sema-lisp/vscode-sema/releases/tag/v0.4.0"
-    },
-    {
       "id": "release:sema-lisp/tree-sitter-sema:407779417",
       "kind": "release",
       "repo": "sema-lisp/tree-sitter-sema",
       "at": "2026-10-09T09:55:06Z",
       "title": "v0.3.1",
       "url": "https://github.com/sema-lisp/tree-sitter-sema/releases/tag/v0.3.1"
-    },
-    {
-      "id": "release:sema-lisp/tree-sitter-sema:403588687",
-      "kind": "release",
-      "repo": "sema-lisp/tree-sitter-sema",
-      "at": "2026-10-05T10:14:31Z",
-      "title": "v0.3.0",
-      "url": "https://github.com/sema-lisp/tree-sitter-sema/releases/tag/v0.3.0"
     },
     {
       "id": "release:HelgeSverre/codemagic-skill:405993366",
