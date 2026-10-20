@@ -1,9 +1,17 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-20T06:31:22.545Z",
-  "since": "2026-10-06T06:31:22.545Z",
+  "fetchedAt": "2026-10-20T12:28:55.066Z",
+  "since": "2026-10-06T12:28:55.066Z",
   "partial": true,
   "events": [
+    {
+      "id": "pr:tempestphp/highlight:218",
+      "kind": "merge",
+      "repo": "tempestphp/highlight",
+      "at": "2026-10-20T08:11:08Z",
+      "title": "feat: add Sema language support",
+      "url": "https://github.com/tempestphp/highlight/pull/218"
+    },
     {
       "id": "commit:nunomaduro/dev-null.sh:92562332b00034e27ff877c3269f920793fd3723",
       "kind": "commit",
@@ -2973,6 +2981,14 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/6f32573161ef3707055fb196b779c90a3fa69579"
     },
     {
+      "id": "commit:tempestphp/highlight:919c3a7998a81425e94ddb218698fdb1af960542",
+      "kind": "commit",
+      "repo": "tempestphp/highlight",
+      "at": "2026-10-16T20:06:48.000+02:00",
+      "title": "fix: highlight llm/with-budget as a call, since Sema defines it as a function",
+      "url": "https://github.com/tempestphp/highlight/commit/919c3a7998a81425e94ddb218698fdb1af960542"
+    },
+    {
       "id": "commit:HelgeSverre/dev-null-video-remotion:f9e72c800111edb0edb830f5bbef511ed7b740d9",
       "kind": "commit",
       "repo": "HelgeSverre/dev-null-video-remotion",
@@ -2995,6 +3011,30 @@
       "at": "2026-10-16T18:11:07.000+02:00",
       "title": "feat: /dev/null launch film synced to Deviation",
       "url": "https://github.com/HelgeSverre/dev-null-video-remotion/commit/917e0158b59d043802e7ea568389be988731331f"
+    },
+    {
+      "id": "commit:tempestphp/highlight:190c15a85aec5092cd667677c4bd1730e63734de",
+      "kind": "commit",
+      "repo": "tempestphp/highlight",
+      "at": "2026-10-16T18:01:55.000+02:00",
+      "title": "fix: follow Sema's reader for bindings, delimiters and long input",
+      "url": "https://github.com/tempestphp/highlight/commit/190c15a85aec5092cd667677c4bd1730e63734de"
+    },
+    {
+      "id": "commit:tempestphp/highlight:6bbd260da87feb281ea6b8fa452da1c8031ae33a",
+      "kind": "commit",
+      "repo": "tempestphp/highlight",
+      "at": "2026-10-16T17:38:07.000+02:00",
+      "title": "feat: highlight Sema calls, operators, macros and parameters",
+      "url": "https://github.com/tempestphp/highlight/commit/6bbd260da87feb281ea6b8fa452da1c8031ae33a"
+    },
+    {
+      "id": "commit:tempestphp/highlight:f1d951f2730ef4756d44604b05b8b1d18e6df04f",
+      "kind": "commit",
+      "repo": "tempestphp/highlight",
+      "at": "2026-10-16T17:26:26.000+02:00",
+      "title": "feat: add Sema language support",
+      "url": "https://github.com/tempestphp/highlight/commit/f1d951f2730ef4756d44604b05b8b1d18e6df04f"
     },
     {
       "id": "commit:nunomaduro/dev-null.sh:7ff336ca8ede2c2f82c6fb45df938f1c462a6f71",
@@ -7757,46 +7797,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/cad92611b793430213e53c92b6f2451178278e0c"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:c210b6229ee86288cdb406c5d7855de90c676feb",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T12:42:11.000+02:00",
-      "title": "Support ICU White_Space regex property",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/c210b6229ee86288cdb406c5d7855de90c676feb"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:61e57b6c22c6d7ec58742e3cde90ff171eb5788c",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T12:34:50.000+02:00",
-      "title": "Map common ICU regex general-category names",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/61e57b6c22c6d7ec58742e3cde90ff171eb5788c"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:dfd16f7fa1795b8fca84c1679b8a395430c78e8a",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T12:29:54.000+02:00",
-      "title": "Recognize common ICU regex category aliases",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/dfd16f7fa1795b8fca84c1679b8a395430c78e8a"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:34d355944ce61d46c4d05673bcb748323583dc07",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T12:23:48.000+02:00",
-      "title": "Share planner constant-folding builtin set",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/34d355944ce61d46c4d05673bcb748323583dc07"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:719cf633265dd1bccbc31e418341bd4d7e98d86b",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T12:19:32.000+02:00",
-      "title": "Skip repeated SQL mode parsing for unchanged session mode",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/719cf633265dd1bccbc31e418341bd4d7e98d86b"
-    },
-    {
       "id": "pr:HelgeSverre/splash:8",
       "kind": "merge",
       "repo": "HelgeSverre/splash",
@@ -8235,6 +8235,14 @@
       "at": "2026-10-07T11:40:32Z",
       "title": "Add agent installation recipes and mobile signing guidance",
       "url": "https://github.com/HelgeSverre/codemagic-skill/pull/1"
+    },
+    {
+      "id": "release:tempestphp/highlight:418156743",
+      "kind": "release",
+      "repo": "tempestphp/highlight",
+      "at": "2026-10-20T08:22:07Z",
+      "title": "2.29.0",
+      "url": "https://github.com/tempestphp/highlight/releases/tag/2.29.0"
     },
     {
       "id": "release:HelgeSverre/glue:406250073",
