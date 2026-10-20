@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-20T00:48:30.248Z",
-  "since": "2026-10-06T00:48:30.248Z",
+  "fetchedAt": "2026-10-20T06:31:22.545Z",
+  "since": "2026-10-06T06:31:22.545Z",
   "partial": true,
   "events": [
     {
@@ -7797,14 +7797,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/719cf633265dd1bccbc31e418341bd4d7e98d86b"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:d7759b21ff228db623d1dd2dba342fe280e1c669",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T12:07:40.000+02:00",
-      "title": "Read single live global defaults without rebuilding map",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/d7759b21ff228db623d1dd2dba342fe280e1c669"
-    },
-    {
       "id": "pr:HelgeSverre/splash:8",
       "kind": "merge",
       "repo": "HelgeSverre/splash",
@@ -8347,14 +8339,6 @@
       "at": "2026-10-10T15:12:30Z",
       "title": "v2.0.2",
       "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.2"
-    },
-    {
-      "id": "release:HelgeSverre/ollama-gui:404385764",
-      "kind": "release",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-06T06:27:56Z",
-      "title": "v2.0.1",
-      "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.1"
     },
     {
       "id": "release:HelgeSverre/fedit:411939979",
