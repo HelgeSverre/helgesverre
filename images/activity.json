@@ -1,9 +1,65 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-20T12:28:55.066Z",
-  "since": "2026-10-06T12:28:55.066Z",
+  "fetchedAt": "2026-10-20T18:23:42.540Z",
+  "since": "2026-10-06T18:23:42.540Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:cff2c8394e5872c44d67296c0b2466d0bbbe10b5",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-20T20:16:04.000+02:00",
+      "title": "Release Fsdb 0.1.0-preview.36",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/cff2c8394e5872c44d67296c0b2466d0bbbe10b5"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6ffa1a37b673a440f1d4eeced2737994942e48e4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-20T20:04:58.000+02:00",
+      "title": "Match keyless filesort writes against pending indexed inserts",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6ffa1a37b673a440f1d4eeced2737994942e48e4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3c8b82293c24537185e554b4dd261ec2d3586b90",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-20T19:34:37.000+02:00",
+      "title": "Probe DECIMAL range joins in either source order",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3c8b82293c24537185e554b4dd261ec2d3586b90"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f1d90019a197bd613ae9942b580259b1cfd92226",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-20T19:18:36.000+02:00",
+      "title": "Match indexed DECIMAL and DOUBLE range joins near 2^53",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f1d90019a197bd613ae9942b580259b1cfd92226"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:185",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-20T18:15:17Z",
+      "title": "Match keyless filesort writes against pending indexed inserts",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/185"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:184",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-20T17:35:02Z",
+      "title": "Probe DECIMAL/DOUBLE range joins in either source order",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/184"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:183",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-20T17:26:46Z",
+      "title": "Match indexed DECIMAL/DOUBLE range joins near 2^53",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/183"
+    },
     {
       "id": "pr:tempestphp/highlight:218",
       "kind": "merge",
@@ -7733,70 +7789,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/92afc4501546bf09c51fc1efdd5d30734f625a76"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:350bfce3934d8fb1e8a4ebc6538d0ddd7ca683f5",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T13:54:27.000+02:00",
-      "title": "Honor session sql_select_limit for top-level reads",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/350bfce3934d8fb1e8a4ebc6538d0ddd7ca683f5"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:6eab6f38d9810fe7fcc9029b60507577ce5b50fc",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T13:35:51.000+02:00",
-      "title": "Skip view catalog expansion for physical table locks",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/6eab6f38d9810fe7fcc9029b60507577ce5b50fc"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:f8bfbebefc71ce7ddf71516bfa9f3c89023651f9",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T13:25:33.000+02:00",
-      "title": "Track abnormal established-client disconnects",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/f8bfbebefc71ce7ddf71516bfa9f3c89023651f9"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:e35112bc2f81f64aece841fa2508c67451c6e344",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T13:19:01.000+02:00",
-      "title": "Count aborted connection handshakes in status",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/e35112bc2f81f64aece841fa2508c67451c6e344"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:186713f0af65522ea85e6974150a7ce1eefb58d5",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T13:11:39.000+02:00",
-      "title": "Report live connection and status uptime counters",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/186713f0af65522ea85e6974150a7ce1eefb58d5"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:bb53e172380d4b23004eb688f97cd46d47b9ba57",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T13:05:20.000+02:00",
-      "title": "Reset all live session wire metrics on FLUSH STATUS",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/bb53e172380d4b23004eb688f97cd46d47b9ba57"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:5f3bf01320786c3bd35dbabd2946b297c85f5827",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T12:59:15.000+02:00",
-      "title": "Report aggregate wire bytes in global status",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/5f3bf01320786c3bd35dbabd2946b297c85f5827"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:cad92611b793430213e53c92b6f2451178278e0c",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T12:49:27.000+02:00",
-      "title": "Match supplementary Unicode scalars with REGEXP dot",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/cad92611b793430213e53c92b6f2451178278e0c"
-    },
-    {
       "id": "pr:HelgeSverre/splash:8",
       "kind": "merge",
       "repo": "HelgeSverre/splash",
@@ -8237,6 +8229,22 @@
       "url": "https://github.com/HelgeSverre/codemagic-skill/pull/1"
     },
     {
+      "id": "release:HelgeSverre/fsdb:418718446",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-20T18:16:19Z",
+      "title": "v0.1.0-preview.36",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0-preview.36"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:416688077",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-18T20:21:39Z",
+      "title": "v0.1.0-preview.35",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0-preview.35"
+    },
+    {
       "id": "release:tempestphp/highlight:418156743",
       "kind": "release",
       "repo": "tempestphp/highlight",
@@ -8251,14 +8259,6 @@
       "at": "2026-10-07T23:35:47Z",
       "title": "v0.9.1",
       "url": "https://github.com/HelgeSverre/glue/releases/tag/v0.9.1"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:416688077",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-18T20:21:39Z",
-      "title": "v0.1.0-preview.35",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0-preview.35"
     },
     {
       "id": "release:HelgeSverre/ryde-cli:414776370",
