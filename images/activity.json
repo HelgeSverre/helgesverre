@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-19T18:24:39.550Z",
-  "since": "2026-10-05T18:24:39.550Z",
+  "fetchedAt": "2026-10-20T00:48:30.248Z",
+  "since": "2026-10-06T00:48:30.248Z",
   "partial": true,
   "events": [
     {
@@ -7803,14 +7803,6 @@
       "at": "2026-10-11T12:07:40.000+02:00",
       "title": "Read single live global defaults without rebuilding map",
       "url": "https://github.com/HelgeSverre/fsdb/commit/d7759b21ff228db623d1dd2dba342fe280e1c669"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:9faebaf75283467c2a4dfb2447e6c3ec0a3f7f21",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T11:57:44.000+02:00",
-      "title": "Avoid coercion scopes for exact signed integer probes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/9faebaf75283467c2a4dfb2447e6c3ec0a3f7f21"
     },
     {
       "id": "pr:HelgeSverre/splash:8",
