@@ -1,9 +1,89 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-21T12:28:07.486Z",
-  "since": "2026-10-07T12:28:07.486Z",
+  "fetchedAt": "2026-10-21T18:23:21.046Z",
+  "since": "2026-10-07T18:23:21.046Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/vapor-swap:30f62e469e3cb27f5d00e3eaea90ce84e3850dc0",
+      "kind": "commit",
+      "repo": "HelgeSverre/vapor-swap",
+      "at": "2026-10-21T17:48:48.000+02:00",
+      "title": "Polish README with Vapor Sweep title and project badges",
+      "url": "https://github.com/HelgeSverre/vapor-swap/commit/30f62e469e3cb27f5d00e3eaea90ce84e3850dc0"
+    },
+    {
+      "id": "commit:HelgeSverre/vapor-swap:52a428b80239bd61f6c8db0177cbd7c66d83c737",
+      "kind": "commit",
+      "repo": "HelgeSverre/vapor-swap",
+      "at": "2026-10-21T17:38:22.000+02:00",
+      "title": "Keep checkout line endings consistent across CI platforms",
+      "url": "https://github.com/HelgeSverre/vapor-swap/commit/52a428b80239bd61f6c8db0177cbd7c66d83c737"
+    },
+    {
+      "id": "commit:HelgeSverre/vapor-swap:0440ea03f16f0741151308bc5a6d65b27df6f806",
+      "kind": "commit",
+      "repo": "HelgeSverre/vapor-swap",
+      "at": "2026-10-21T17:36:31.000+02:00",
+      "title": "Build Vapor profile manager with shell integration and PHP CI matrix",
+      "url": "https://github.com/HelgeSverre/vapor-swap/commit/0440ea03f16f0741151308bc5a6d65b27df6f806"
+    },
+    {
+      "id": "commit:HelgeSverre/fence:eee560c1e224869da50909b35e07535a6d806273",
+      "kind": "commit",
+      "repo": "HelgeSverre/fence",
+      "at": "2026-10-21T15:24:34.000+02:00",
+      "title": "fix: wait for preview fonts before centering search results",
+      "url": "https://github.com/HelgeSverre/fence/commit/eee560c1e224869da50909b35e07535a6d806273"
+    },
+    {
+      "id": "commit:HelgeSverre/fence:7ef2676d5cfabe5a27fcaef2476d0353952f439a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fence",
+      "at": "2026-10-21T15:16:34.000+02:00",
+      "title": "fix: preserve sidebar focus and navigate preview metadata reliably",
+      "url": "https://github.com/HelgeSverre/fence/commit/7ef2676d5cfabe5a27fcaef2476d0353952f439a"
+    },
+    {
+      "id": "commit:HelgeSverre/fence:4dcb3753bca0afbc445634c3ba8be39dfe35497e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fence",
+      "at": "2026-10-21T15:06:58.000+02:00",
+      "title": "release: prepare Fence 0.8.0",
+      "url": "https://github.com/HelgeSverre/fence/commit/4dcb3753bca0afbc445634c3ba8be39dfe35497e"
+    },
+    {
+      "id": "commit:HelgeSverre/fence:a4f268739767bb829f7abd79ea4b149a5f54956e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fence",
+      "at": "2026-10-21T12:49:37.000+02:00",
+      "title": "fix: focus and center workspace search results in document panes",
+      "url": "https://github.com/HelgeSverre/fence/commit/a4f268739767bb829f7abd79ea4b149a5f54956e"
+    },
+    {
+      "id": "commit:HelgeSverre/fence:06a3d48ff70de3bda69d306962e4358600c4d865",
+      "kind": "commit",
+      "repo": "HelgeSverre/fence",
+      "at": "2026-10-21T12:49:29.000+02:00",
+      "title": "fix: choose the current palette result after rapid keyboard navigation",
+      "url": "https://github.com/HelgeSverre/fence/commit/06a3d48ff70de3bda69d306962e4358600c4d865"
+    },
+    {
+      "id": "commit:HelgeSverre/fence:fc5b34a64e03814ee55abae14f30cf7cefc589d3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fence",
+      "at": "2026-10-21T12:42:29.000+02:00",
+      "title": "feat: improve palette matching, actions and optional document peek",
+      "url": "https://github.com/HelgeSverre/fence/commit/fc5b34a64e03814ee55abae14f30cf7cefc589d3"
+    },
+    {
+      "id": "commit:HelgeSverre/fence:b1de6f7ff6408c42a75522df35350ac02ea0f693",
+      "kind": "commit",
+      "repo": "HelgeSverre/fence",
+      "at": "2026-10-21T12:42:29.000+02:00",
+      "title": "build: add isolated local macOS app launcher",
+      "url": "https://github.com/HelgeSverre/fence/commit/b1de6f7ff6408c42a75522df35350ac02ea0f693"
+    },
     {
       "id": "commit:sema-lisp/sema:7f9ce80b66a7968c021aa88327b1746648a29e39",
       "kind": "commit",
@@ -7701,86 +7781,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/206e49041cc5778643273f9f218ad3b871b54be0"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:8388133821ae5335c39f9577b22f0cd0bd0a6fd1",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T21:10:15.000+02:00",
-      "title": "Match decimal cast limit diagnostics and SQLSTATE",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/8388133821ae5335c39f9577b22f0cd0bd0a6fd1"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:da43e4d0624f8fe3f02b4902def11764868fb137",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T21:00:17.000+02:00",
-      "title": "Match CAST precision ceiling diagnostics",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/da43e4d0624f8fe3f02b4902def11764868fb137"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:d01b73a95027128c69dd87dbf87de6fc9da35bb5",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T20:55:25.000+02:00",
-      "title": "Use MySQL cast target grammar and preserve CHAR widths",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/d01b73a95027128c69dd87dbf87de6fc9da35bb5"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:72454e655510fd40252247ce3b574c69e332be9a",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T20:44:08.000+02:00",
-      "title": "Preserve ordered CHAR cast modifiers and binary collation",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/72454e655510fd40252247ce3b574c69e332be9a"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:11eba5ca8c3b8b62333504dedb39223ecd6d08f5",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T20:34:57.000+02:00",
-      "title": "Preserve national and legacy character cast syntax",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/11eba5ca8c3b8b62333504dedb39223ecd6d08f5"
-    },
-    {
-      "id": "commit:HelgeSverre/patchbay-js:147c7e2f56a4a096eaa6a67ded4b6a412d529deb",
-      "kind": "commit",
-      "repo": "HelgeSverre/patchbay-js",
-      "at": "2026-10-11T20:28:10.000+02:00",
-      "title": "Add canvas rendering and verify cable behavior across browsers",
-      "url": "https://github.com/HelgeSverre/patchbay-js/commit/147c7e2f56a4a096eaa6a67ded4b6a412d529deb"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ccec398b9c5f5fc1c57f705f17e4c63cb19b3f55",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T20:28:01.000+02:00",
-      "title": "Reject charset clauses on non-character casts",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ccec398b9c5f5fc1c57f705f17e4c63cb19b3f55"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:6f5aec0fd0ec0d56e4b346ee58fb0c07ff8c2e4e",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T20:23:21.000+02:00",
-      "title": "Preserve explicit binary cast byte widths",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/6f5aec0fd0ec0d56e4b346ee58fb0c07ff8c2e4e"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:c0c6b7fe4db03b0ca0fdb5e850370df371efdf7e",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T20:08:40.000+02:00",
-      "title": "Parse typed CONVERT through shared cast targets",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/c0c6b7fe4db03b0ca0fdb5e850370df371efdf7e"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:957a7c0d2cbacc3f128cd2772285e93dd076778a",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T20:00:53.000+02:00",
-      "title": "Reject unknown conversion charsets before evaluation",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/957a7c0d2cbacc3f128cd2772285e93dd076778a"
-    },
-    {
       "id": "pr:HelgeSverre/splash:8",
       "kind": "merge",
       "repo": "HelgeSverre/splash",
@@ -8181,36 +8181,20 @@
       "url": "https://github.com/HelgeSverre/token/pull/29"
     },
     {
-      "id": "pr:HelgeSverre/codemagic-skill:4",
-      "kind": "merge",
-      "repo": "HelgeSverre/codemagic-skill",
-      "at": "2026-10-07T17:20:31Z",
-      "title": "Prevent credential wrappers from suspending Claude (v1.3.1)",
-      "url": "https://github.com/HelgeSverre/codemagic-skill/pull/4"
+      "id": "release:HelgeSverre/fence:419596875",
+      "kind": "release",
+      "repo": "HelgeSverre/fence",
+      "at": "2026-10-21T13:38:20Z",
+      "title": "v0.8.0",
+      "url": "https://github.com/HelgeSverre/fence/releases/tag/v0.8.0"
     },
     {
-      "id": "pr:HelgeSverre/codemagic-skill:3",
-      "kind": "merge",
-      "repo": "HelgeSverre/codemagic-skill",
-      "at": "2026-10-07T16:25:50Z",
-      "title": "Bundle automatic MCP setup in Codex and Claude plugins",
-      "url": "https://github.com/HelgeSverre/codemagic-skill/pull/3"
-    },
-    {
-      "id": "pr:HelgeSverre/fedit:42",
-      "kind": "merge",
-      "repo": "HelgeSverre/fedit",
-      "at": "2026-10-07T13:02:05Z",
-      "title": "Release 1.10.1: refresh dependencies and tooling",
-      "url": "https://github.com/HelgeSverre/fedit/pull/42"
-    },
-    {
-      "id": "pr:HelgeSverre/codemagic-skill:2",
-      "kind": "merge",
-      "repo": "HelgeSverre/codemagic-skill",
-      "at": "2026-10-07T12:31:52Z",
-      "title": "Add MCP tools and PyPI Trusted Publishing for v1.2.0",
-      "url": "https://github.com/HelgeSverre/codemagic-skill/pull/2"
+      "id": "release:HelgeSverre/fence:410649506",
+      "kind": "release",
+      "repo": "HelgeSverre/fence",
+      "at": "2026-10-12T13:53:21Z",
+      "title": "v0.7.0",
+      "url": "https://github.com/HelgeSverre/fence/releases/tag/v0.7.0"
     },
     {
       "id": "release:sema-lisp/sema:407969625",
@@ -8389,14 +8373,6 @@
       "url": "https://github.com/HelgeSverre/fedit/releases/tag/v1.10.2"
     },
     {
-      "id": "release:HelgeSverre/fedit:405775266",
-      "kind": "release",
-      "repo": "HelgeSverre/fedit",
-      "at": "2026-10-07T13:08:10Z",
-      "title": "v1.10.1",
-      "url": "https://github.com/HelgeSverre/fedit/releases/tag/v1.10.1"
-    },
-    {
       "id": "release:HelgeSverre/dbdump:411431342",
       "kind": "release",
       "repo": "HelgeSverre/dbdump",
@@ -8413,14 +8389,6 @@
       "url": "https://github.com/HelgeSverre/mire/releases/tag/v0.8.0"
     },
     {
-      "id": "release:HelgeSverre/fence:410649506",
-      "kind": "release",
-      "repo": "HelgeSverre/fence",
-      "at": "2026-10-12T13:53:21Z",
-      "title": "v0.7.0",
-      "url": "https://github.com/HelgeSverre/fence/releases/tag/v0.7.0"
-    },
-    {
       "id": "release:HelgeSverre/splash:406118084",
       "kind": "release",
       "repo": "HelgeSverre/splash",
@@ -8435,14 +8403,6 @@
       "at": "2026-10-07T18:31:38Z",
       "title": "v0.2.0",
       "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.2.0"
-    },
-    {
-      "id": "release:HelgeSverre/splash:403799733",
-      "kind": "release",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T16:29:41Z",
-      "title": "v0.1.0",
-      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.1.0"
     },
     {
       "id": "release:HelgeSverre/namecheap-cli:408440846",
@@ -8491,30 +8451,6 @@
       "at": "2026-10-09T09:55:06Z",
       "title": "v0.3.1",
       "url": "https://github.com/sema-lisp/tree-sitter-sema/releases/tag/v0.3.1"
-    },
-    {
-      "id": "release:HelgeSverre/codemagic-skill:405993366",
-      "kind": "release",
-      "repo": "HelgeSverre/codemagic-skill",
-      "at": "2026-10-07T17:21:10Z",
-      "title": "v1.3.1",
-      "url": "https://github.com/HelgeSverre/codemagic-skill/releases/tag/v1.3.1"
-    },
-    {
-      "id": "release:HelgeSverre/codemagic-skill:405955198",
-      "kind": "release",
-      "repo": "HelgeSverre/codemagic-skill",
-      "at": "2026-10-07T16:26:23Z",
-      "title": "v1.3.0",
-      "url": "https://github.com/HelgeSverre/codemagic-skill/releases/tag/v1.3.0"
-    },
-    {
-      "id": "release:HelgeSverre/codemagic-skill:405743710",
-      "kind": "release",
-      "repo": "HelgeSverre/codemagic-skill",
-      "at": "2026-10-07T12:33:07Z",
-      "title": "v1.2.0",
-      "url": "https://github.com/HelgeSverre/codemagic-skill/releases/tag/v1.2.0"
     }
   ]
 }
