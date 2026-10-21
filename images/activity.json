@@ -1,9 +1,33 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-21T00:48:07.996Z",
-  "since": "2026-10-07T00:48:07.996Z",
+  "fetchedAt": "2026-10-21T06:31:53.510Z",
+  "since": "2026-10-07T06:31:53.510Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:sema-lisp/sema:7f9ce80b66a7968c021aa88327b1746648a29e39",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-21T03:43:00.000+02:00",
+      "title": "docs: record D1-D5 approval for async registration plan",
+      "url": "https://github.com/sema-lisp/sema/commit/7f9ce80b66a7968c021aa88327b1746648a29e39"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e53dfaf135b5470891abfa38702ac95b90e38b55",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-21T03:18:29.000+02:00",
+      "title": "Record Extension A 3700 ngram parity audit",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e53dfaf135b5470891abfa38702ac95b90e38b55"
+    },
+    {
+      "id": "commit:sema-lisp/sema:919e6207e69c314be72603051a17f1fb3dc37ccd",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-21T03:13:06.000+02:00",
+      "title": "docs: fold review findings into async registration plan",
+      "url": "https://github.com/sema-lisp/sema/commit/919e6207e69c314be72603051a17f1fb3dc37ccd"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:428fbff9be6815c5998746e9b1105ecf40ef0173",
       "kind": "commit",
@@ -21,6 +45,14 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/41fb33c38e9daec2f83a03c3ce45bacf25479aa5"
     },
     {
+      "id": "commit:sema-lisp/sema:de2e1341e87825aac75aaf05a2fec36ecd70b477",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-21T02:07:46.000+02:00",
+      "title": "docs: propose async native function registration",
+      "url": "https://github.com/sema-lisp/sema/commit/de2e1341e87825aac75aaf05a2fec36ecd70b477"
+    },
+    {
       "id": "commit:HelgeSverre/fsdb:49787dc0c5e1da255252fa0dde3f05500f7a0aa5",
       "kind": "commit",
       "repo": "HelgeSverre/fsdb",
@@ -29,12 +61,28 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/49787dc0c5e1da255252fa0dde3f05500f7a0aa5"
     },
     {
+      "id": "pr:sema-lisp/sema:177",
+      "kind": "merge",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-21T01:43:13Z",
+      "title": "docs: propose async native function registration",
+      "url": "https://github.com/sema-lisp/sema/pull/177"
+    },
+    {
       "id": "commit:HelgeSverre/fsdb:7d744f08198248725b2e26ca6330d22fdede291b",
       "kind": "commit",
       "repo": "HelgeSverre/fsdb",
       "at": "2026-10-21T01:28:41.000+02:00",
       "title": "Verify cross-zone TIMESTAMP pending insert scheduling",
       "url": "https://github.com/HelgeSverre/fsdb/commit/7d744f08198248725b2e26ca6330d22fdede291b"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:204",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-10-21T01:25:38Z",
+      "title": "Record Extension A U+3700–U+37FF ngram parity audit",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/204"
     },
     {
       "id": "commit:HelgeSverre/fsdb:c7915004e8180a244582c31f6be0f2542776c1b1",
@@ -7741,62 +7789,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/27cdd41374795d909c31f5824a5d07d9af5afc02"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:cd4f753b22ef6cf1d29d6b1a15d7ec8ef7c16c80",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T19:45:24.000+02:00",
-      "title": "Preserve charset and width in CAST AS CHAR",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/cd4f753b22ef6cf1d29d6b1a15d7ec8ef7c16c80"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:c0dc02cade293b39536d6d14726ab037d2b0d47e",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T19:19:54.000+02:00",
-      "title": "Select single-byte conversion rules once",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/c0dc02cade293b39536d6d14726ab037d2b0d47e"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:d1a713d33ca931ec711569269df67eee088a339c",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T19:15:21.000+02:00",
-      "title": "Retain target charset bytes from text CONVERT",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/d1a713d33ca931ec711569269df67eee088a339c"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:f1ba097aaa8b1184555cf644c65a759bf0dbf51d",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T19:09:43.000+02:00",
-      "title": "Retain valid encoded bytes through CONVERT",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/f1ba097aaa8b1184555cf644c65a759bf0dbf51d"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ea0fad6963bf5e9b254df902859a4e85140eb3e1",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T19:04:16.000+02:00",
-      "title": "Preserve encoded source semantics in CONVERT",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ea0fad6963bf5e9b254df902859a4e85140eb3e1"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:311a30d55d645e6cc19ba9983c4b942ae0731607",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T18:54:03.000+02:00",
-      "title": "Preserve single-byte CONVERT bytes and warnings",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/311a30d55d645e6cc19ba9983c4b942ae0731607"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:a2b345a59c031696395fb9e59926c16e3dd8e51b",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T18:42:49.000+02:00",
-      "title": "Match invalid legacy CONVERT byte diagnostics",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/a2b345a59c031696395fb9e59926c16e3dd8e51b"
-    },
-    {
       "id": "pr:HelgeSverre/splash:8",
       "kind": "merge",
       "repo": "HelgeSverre/splash",
@@ -8237,6 +8229,22 @@
       "url": "https://github.com/HelgeSverre/codemagic-skill/pull/1"
     },
     {
+      "id": "release:sema-lisp/sema:407969625",
+      "kind": "release",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-09T13:58:37Z",
+      "title": "v1.37.0",
+      "url": "https://github.com/sema-lisp/sema/releases/tag/v1.37.0"
+    },
+    {
+      "id": "release:sema-lisp/sema:407842488",
+      "kind": "release",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-09T11:20:39Z",
+      "title": "v1.37.0-rc.2",
+      "url": "https://github.com/sema-lisp/sema/releases/tag/v1.37.0-rc.2"
+    },
+    {
       "id": "release:HelgeSverre/fsdb:419021332",
       "kind": "release",
       "repo": "HelgeSverre/fsdb",
@@ -8467,22 +8475,6 @@
       "at": "2026-10-10T00:01:16Z",
       "title": "v0.2.0",
       "url": "https://github.com/HelgeSverre/namecheap-cli/releases/tag/v0.2.0"
-    },
-    {
-      "id": "release:sema-lisp/sema:407969625",
-      "kind": "release",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-09T13:58:37Z",
-      "title": "v1.37.0",
-      "url": "https://github.com/sema-lisp/sema/releases/tag/v1.37.0"
-    },
-    {
-      "id": "release:sema-lisp/sema:407842488",
-      "kind": "release",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-09T11:20:39Z",
-      "title": "v1.37.0-rc.2",
-      "url": "https://github.com/sema-lisp/sema/releases/tag/v1.37.0-rc.2"
     },
     {
       "id": "release:HelgeSverre/strek:407951626",
