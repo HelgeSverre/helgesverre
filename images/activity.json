@@ -1,9 +1,201 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-22T00:47:55.378Z",
-  "since": "2026-10-08T00:47:55.378Z",
+  "fetchedAt": "2026-10-22T12:28:50.767Z",
+  "since": "2026-10-08T12:28:50.767Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/github-narcissist-feed:486c5bfb93d508bcf9d00a1b99c1f35655de6eec",
+      "kind": "commit",
+      "repo": "HelgeSverre/github-narcissist-feed",
+      "at": "2026-10-22T06:18:29.000+02:00",
+      "title": "Make collapse-all a persisted default instead of a snapshot",
+      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/486c5bfb93d508bcf9d00a1b99c1f35655de6eec"
+    },
+    {
+      "id": "commit:HelgeSverre/github-narcissist-feed:01def4e6f524eac4c39c91cce9c09c6dfe5105c3",
+      "kind": "commit",
+      "repo": "HelgeSverre/github-narcissist-feed",
+      "at": "2026-10-22T06:18:24.000+02:00",
+      "title": "Drop the \"/\" hint from the search field",
+      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/01def4e6f524eac4c39c91cce9c09c6dfe5105c3"
+    },
+    {
+      "id": "commit:HelgeSverre/github-narcissist-feed:2206120ca3a2de3809ee1aec992b909d946d7edc",
+      "kind": "commit",
+      "repo": "HelgeSverre/github-narcissist-feed",
+      "at": "2026-10-22T06:18:19.000+02:00",
+      "title": "Remove the rail's Reset filters button",
+      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/2206120ca3a2de3809ee1aec992b909d946d7edc"
+    },
+    {
+      "id": "commit:HelgeSverre/sourcefour:cf743238b811896dd55107ce5d7fd8a7597a4ab8",
+      "kind": "commit",
+      "repo": "HelgeSverre/sourcefour",
+      "at": "2026-10-22T05:14:44.000+02:00",
+      "title": "slim justfile",
+      "url": "https://github.com/HelgeSverre/sourcefour/commit/cf743238b811896dd55107ce5d7fd8a7597a4ab8"
+    },
+    {
+      "id": "commit:HelgeSverre/sourcefour:27d1b7ff634e4567e3711d286613226a8fdf5cc4",
+      "kind": "commit",
+      "repo": "HelgeSverre/sourcefour",
+      "at": "2026-10-22T04:53:54.000+02:00",
+      "title": "docs: record visual evidence requirement in changelog",
+      "url": "https://github.com/HelgeSverre/sourcefour/commit/27d1b7ff634e4567e3711d286613226a8fdf5cc4"
+    },
+    {
+      "id": "commit:sema-lisp/pi-sema:2470efcbbffc3b4a8d10dff184dae63374f6dc66",
+      "kind": "commit",
+      "repo": "sema-lisp/pi-sema",
+      "at": "2026-10-22T04:40:50.000+02:00",
+      "title": "fix: use npm trusted publishing for releases",
+      "url": "https://github.com/sema-lisp/pi-sema/commit/2470efcbbffc3b4a8d10dff184dae63374f6dc66"
+    },
+    {
+      "id": "commit:HelgeSverre/github-narcissist-feed:5dea8f43a9d085a5ac6e82da924a90e2ba272da7",
+      "kind": "commit",
+      "repo": "HelgeSverre/github-narcissist-feed",
+      "at": "2026-10-22T04:39:49.000+02:00",
+      "title": "Select several activity types with Shift+Arrow and toggle them together",
+      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/5dea8f43a9d085a5ac6e82da924a90e2ba272da7"
+    },
+    {
+      "id": "commit:HelgeSverre/github-narcissist-feed:0c860dcc4cc24a45f97cd83c48f5aff9950095c2",
+      "kind": "commit",
+      "repo": "HelgeSverre/github-narcissist-feed",
+      "at": "2026-10-22T04:39:44.000+02:00",
+      "title": "Accent colours and a segmented theme switch",
+      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/0c860dcc4cc24a45f97cd83c48f5aff9950095c2"
+    },
+    {
+      "id": "commit:HelgeSverre/github-narcissist-feed:a38af425144c13c7a968b9bd5d8f1fb61c6778f3",
+      "kind": "commit",
+      "repo": "HelgeSverre/github-narcissist-feed",
+      "at": "2026-10-22T04:39:28.000+02:00",
+      "title": "Keyboard accessibility: rail arrow keys, radio groups, focus rings",
+      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/a38af425144c13c7a968b9bd5d8f1fb61c6778f3"
+    },
+    {
+      "id": "commit:HelgeSverre/github-narcissist-feed:a73dc2fbb7042bd2524aeb71d0bdd78009fe28d0",
+      "kind": "commit",
+      "repo": "HelgeSverre/github-narcissist-feed",
+      "at": "2026-10-22T04:30:04.000+02:00",
+      "title": "wip",
+      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/a73dc2fbb7042bd2524aeb71d0bdd78009fe28d0"
+    },
+    {
+      "id": "commit:sema-lisp/pi-sema:13b72bb0751ed111bd9bf7c6c461ae132c5bbb82",
+      "kind": "commit",
+      "repo": "sema-lisp/pi-sema",
+      "at": "2026-10-22T04:22:56.000+02:00",
+      "title": "release: v0.2.1",
+      "url": "https://github.com/sema-lisp/pi-sema/commit/13b72bb0751ed111bd9bf7c6c461ae132c5bbb82"
+    },
+    {
+      "id": "commit:HelgeSverre/sourcefour:ecf70b2b62fafc3a6cfe83909be4322d8f70f167",
+      "kind": "commit",
+      "repo": "HelgeSverre/sourcefour",
+      "at": "2026-10-22T04:20:38.000+02:00",
+      "title": "Fix remote badges and inline images in Markdown previews",
+      "url": "https://github.com/HelgeSverre/sourcefour/commit/ecf70b2b62fafc3a6cfe83909be4322d8f70f167"
+    },
+    {
+      "id": "commit:sema-lisp/pi-sema:ce9a0e507667a1b68f12029ce09d32c16ecd90ad",
+      "kind": "commit",
+      "repo": "sema-lisp/pi-sema",
+      "at": "2026-10-22T04:13:58.000+02:00",
+      "title": "fix: declare Pi host packages as peers (#1)",
+      "url": "https://github.com/sema-lisp/pi-sema/commit/ce9a0e507667a1b68f12029ce09d32c16ecd90ad"
+    },
+    {
+      "id": "commit:HelgeSverre/github-narcissist-feed:6429f6f2d69be9ddc4b2199830e4d47862998fde",
+      "kind": "commit",
+      "repo": "HelgeSverre/github-narcissist-feed",
+      "at": "2026-10-22T04:13:02.000+02:00",
+      "title": "Exclude .letta and .amp tool directories from oxlint and oxfmt",
+      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/6429f6f2d69be9ddc4b2199830e4d47862998fde"
+    },
+    {
+      "id": "commit:HelgeSverre/github-narcissist-feed:15cbd9c5c654e85e08a788226649cddf34894193",
+      "kind": "commit",
+      "repo": "HelgeSverre/github-narcissist-feed",
+      "at": "2026-10-22T04:13:02.000+02:00",
+      "title": "Make the Vite config native-loader compatible",
+      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/15cbd9c5c654e85e08a788226649cddf34894193"
+    },
+    {
+      "id": "commit:HelgeSverre/github-narcissist-feed:6550eb425b5fa39a4ad48a25ea206eea708736a8",
+      "kind": "commit",
+      "repo": "HelgeSverre/github-narcissist-feed",
+      "at": "2026-10-22T03:53:46.000+02:00",
+      "title": "Add justfile and headed e2e runs",
+      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/6550eb425b5fa39a4ad48a25ea206eea708736a8"
+    },
+    {
+      "id": "commit:HelgeSverre/github-narcissist-feed:5708eb5cdf50e351733abafe0b1e1118924f76f8",
+      "kind": "commit",
+      "repo": "HelgeSverre/github-narcissist-feed",
+      "at": "2026-10-22T03:53:42.000+02:00",
+      "title": "Switch to bun, oxlint and oxfmt",
+      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/5708eb5cdf50e351733abafe0b1e1118924f76f8"
+    },
+    {
+      "id": "commit:HelgeSverre/github-narcissist-feed:2ea79c58f5354982326c190d9feeac318e1c5b68",
+      "kind": "commit",
+      "repo": "HelgeSverre/github-narcissist-feed",
+      "at": "2026-10-22T03:53:31.000+02:00",
+      "title": "Tidy code flagged by oxlint",
+      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/2ea79c58f5354982326c190d9feeac318e1c5b68"
+    },
+    {
+      "id": "commit:HelgeSverre/github-narcissist-feed:c39f1bbf6471e458bb10647282454dceba5b3694",
+      "kind": "commit",
+      "repo": "HelgeSverre/github-narcissist-feed",
+      "at": "2026-10-22T03:43:27.000+02:00",
+      "title": "Replace icon with a glossy dark tile and frosted star-and-person glyph",
+      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/c39f1bbf6471e458bb10647282454dceba5b3694"
+    },
+    {
+      "id": "commit:HelgeSverre/github-narcissist-feed:17ac76b4dcdbd0c4eb3c0b02e09e31ca0e91f5d8",
+      "kind": "commit",
+      "repo": "HelgeSverre/github-narcissist-feed",
+      "at": "2026-10-22T03:37:20.000+02:00",
+      "title": "Add dark-mode screenshot of the feed to the README",
+      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/17ac76b4dcdbd0c4eb3c0b02e09e31ca0e91f5d8"
+    },
+    {
+      "id": "commit:HelgeSverre/github-narcissist-feed:20fc010b2d7cb67caf2d8bbcf85aebe07a18f423",
+      "kind": "commit",
+      "repo": "HelgeSverre/github-narcissist-feed",
+      "at": "2026-10-22T03:30:06.000+02:00",
+      "title": "Switch README header to the dark theme",
+      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/20fc010b2d7cb67caf2d8bbcf85aebe07a18f423"
+    },
+    {
+      "id": "commit:HelgeSverre/github-narcissist-feed:a4b2c32311bfdf78bbee8bad58c21b77b6fd429c",
+      "kind": "commit",
+      "repo": "HelgeSverre/github-narcissist-feed",
+      "at": "2026-10-22T03:18:04.000+02:00",
+      "title": "Regenerate README header from the real UI with gpt-image-2",
+      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/a4b2c32311bfdf78bbee8bad58c21b77b6fd429c"
+    },
+    {
+      "id": "commit:HelgeSverre/github-narcissist-feed:7c20c634fe75872bbcf2fc6a40820386d7df9181",
+      "kind": "commit",
+      "repo": "HelgeSverre/github-narcissist-feed",
+      "at": "2026-10-22T03:06:39.000+02:00",
+      "title": "Narcissist Feed for GitHub: initial release",
+      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/7c20c634fe75872bbcf2fc6a40820386d7df9181"
+    },
+    {
+      "id": "pr:sema-lisp/pi-sema:1",
+      "kind": "merge",
+      "repo": "sema-lisp/pi-sema",
+      "at": "2026-10-22T02:13:59Z",
+      "title": "fix: declare Pi host packages as peers",
+      "url": "https://github.com/sema-lisp/pi-sema/pull/1"
+    },
     {
       "id": "commit:HelgeSverre/vapor-swap:b47a8bddbdfb1fb1ed792449d216c0a23da6c130",
       "kind": "commit",
@@ -7573,206 +7765,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/e835d1c6a1976b2c33c95032bcff6c722e774bb8"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:8cad0ceb04d9954b81592d3592a285ac7e86b9c1",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T00:57:10.000+02:00",
-      "title": "Match TIME casts from bit and binary sources",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/8cad0ceb04d9954b81592d3592a285ac7e86b9c1"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:3f0f64e1083aabaf75d22292990737e580cf0690",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T00:35:53.000+02:00",
-      "title": "Match audited internal TIME delimiter cases",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/3f0f64e1083aabaf75d22292990737e580cf0690"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:b71a2acf8b5a55ced1e576cd70f020d53b772782",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T00:27:59.000+02:00",
-      "title": "Match audited TIME cast space delimiter warnings",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/b71a2acf8b5a55ced1e576cd70f020d53b772782"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:9baedb209eab11ae5dc5a7e669c971060f29c179",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T00:22:02.000+02:00",
-      "title": "Match audited TIME cast values and warnings",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/9baedb209eab11ae5dc5a7e669c971060f29c179"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:d3331b68bab47677b05c26697e713c7ddac4ce88",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T00:11:05.000+02:00",
-      "title": "Match YEAR casts from temporal and binary sources",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/d3331b68bab47677b05c26697e713c7ddac4ce88"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:4a9837f07bcaee5a9d03d1f49e8d5bf3bd3c70d5",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T00:01:32.000+02:00",
-      "title": "Match MySQL YEAR cast diagnostics and normalization",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/4a9837f07bcaee5a9d03d1f49e8d5bf3bd3c70d5"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:b43fa066ab3a5cef502fcb85fcd16ccee6fe49eb",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T23:47:08.000+02:00",
-      "title": "Match numeric CAST warnings from sourced scalar queries",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/b43fa066ab3a5cef502fcb85fcd16ccee6fe49eb"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:193ad94eb95e4224f7e032c012035cb59fdb5381",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T23:41:11.000+02:00",
-      "title": "Match DECIMAL warnings across derived binary columns",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/193ad94eb95e4224f7e032c012035cb59fdb5381"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:81cf89c904fbc4dc04240e145ed206761d8204e2",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T23:31:24.000+02:00",
-      "title": "Match DECIMAL warnings from binary conditionals",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/81cf89c904fbc4dc04240e145ed206761d8204e2"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:1bfb33f091f60a432e7b77dacaba4a81529d7f19",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T23:25:09.000+02:00",
-      "title": "Match multibyte numeric CAST warning previews",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/1bfb33f091f60a432e7b77dacaba4a81529d7f19"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:0b261b43495a8e70029b6f5fcefeb5c692113bd8",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T23:18:58.000+02:00",
-      "title": "Cap audited ASCII numeric CAST warning previews",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/0b261b43495a8e70029b6f5fcefeb5c692113bd8"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:363b741c4e630b577119f9a90d47e95740afaede",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T23:09:48.000+02:00",
-      "title": "Match MySQL NUL text in numeric CAST warnings",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/363b741c4e630b577119f9a90d47e95740afaede"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:825b587ccf66b3265eba8366a02a4be0cb7019c9",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T23:05:32.000+02:00",
-      "title": "Centralize numeric CAST text classification",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/825b587ccf66b3265eba8366a02a4be0cb7019c9"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:b476eb9cdcab1ee41a87d8cf9dc2570a99736b89",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T22:59:00.000+02:00",
-      "title": "Match DECIMAL casts from computed binary values",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/b476eb9cdcab1ee41a87d8cf9dc2570a99736b89"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ae7d06cb7329f3edd35e42edeffdd67dff48815a",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T22:53:53.000+02:00",
-      "title": "Escape binary bytes in numeric CAST warnings",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ae7d06cb7329f3edd35e42edeffdd67dff48815a"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:8c85753a9845df9fac86289abb0760eed418ae6a",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T22:48:55.000+02:00",
-      "title": "Match numeric casts from binary columns",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/8c85753a9845df9fac86289abb0760eed418ae6a"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:13fe2e07b747efe9e187ffa72e24a65011711148",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T22:42:57.000+02:00",
-      "title": "Match numeric casts from binary string sources",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/13fe2e07b747efe9e187ffa72e24a65011711148"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:0d2b08099b4b445e598686385c0bc62663559d9e",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T22:35:52.000+02:00",
-      "title": "Use ASCII digits for numeric CAST text prefixes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/0d2b08099b4b445e598686385c0bc62663559d9e"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:29d2f71993c89b3da0ea09150186b20ad1fc008a",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T22:31:44.000+02:00",
-      "title": "Match high-exponent DECIMAL cast warnings",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/29d2f71993c89b3da0ea09150186b20ad1fc008a"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:da6b1892128810998c46a6dda87edcfca79edc40",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T22:23:48.000+02:00",
-      "title": "Clamp finite wide DECIMAL cast text to target bounds",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/da6b1892128810998c46a6dda87edcfca79edc40"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:330859e2725b035bbb0e88a9b80c7c856fcc37d1",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T22:18:28.000+02:00",
-      "title": "Avoid duplicate DOUBLE cast overflow warnings",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/330859e2725b035bbb0e88a9b80c7c856fcc37d1"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:a4d61b6be03af5e3d53ea746bb65cb0346a06cd5",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T22:13:50.000+02:00",
-      "title": "Match MySQL DOUBLE and FLOAT CAST diagnostics",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/a4d61b6be03af5e3d53ea746bb65cb0346a06cd5"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:0d19485d1f7f7d5d6d4eef008556b86c4ecfe9a6",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T22:08:06.000+02:00",
-      "title": "Match audited DECIMAL cast warnings and range clamps",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/0d19485d1f7f7d5d6d4eef008556b86c4ecfe9a6"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ceb467512cbe51defab6f388bc0fad491471c0b9",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T21:52:58.000+02:00",
-      "title": "Preserve unsigned character cast widths and byte ceilings",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ceb467512cbe51defab6f388bc0fad491471c0b9"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:b545863bf65a87dbc255c7008e8f9361ed43331c",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T21:33:05.000+02:00",
-      "title": "Reject negative CAST target precision",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/b545863bf65a87dbc255c7008e8f9361ed43331c"
-    },
-    {
       "id": "pr:HelgeSverre/splash:8",
       "kind": "merge",
       "repo": "HelgeSverre/splash",
@@ -8045,6 +8037,30 @@
       "url": "https://github.com/HelgeSverre/strek/pull/5"
     },
     {
+      "id": "release:HelgeSverre/sourcefour:413407120",
+      "kind": "release",
+      "repo": "HelgeSverre/sourcefour",
+      "at": "2026-10-15T04:06:10Z",
+      "title": "v0.1.9",
+      "url": "https://github.com/HelgeSverre/sourcefour/releases/tag/v0.1.9"
+    },
+    {
+      "id": "release:HelgeSverre/sourcefour:412739272",
+      "kind": "release",
+      "repo": "HelgeSverre/sourcefour",
+      "at": "2026-10-14T13:17:51Z",
+      "title": "v0.1.8",
+      "url": "https://github.com/HelgeSverre/sourcefour/releases/tag/v0.1.8"
+    },
+    {
+      "id": "release:sema-lisp/pi-sema:420282753",
+      "kind": "release",
+      "repo": "sema-lisp/pi-sema",
+      "at": "2026-10-22T03:40:00Z",
+      "title": "v0.2.2",
+      "url": "https://github.com/sema-lisp/pi-sema/releases/tag/v0.2.2"
+    },
+    {
       "id": "release:HelgeSverre/fence:419596875",
       "kind": "release",
       "repo": "HelgeSverre/fence",
@@ -8155,22 +8171,6 @@
       "at": "2026-10-15T09:04:42Z",
       "title": "2.0.0",
       "url": "https://github.com/HelgeSverre/SpamProtection/releases/tag/2.0.0"
-    },
-    {
-      "id": "release:HelgeSverre/sourcefour:413407120",
-      "kind": "release",
-      "repo": "HelgeSverre/sourcefour",
-      "at": "2026-10-15T04:06:10Z",
-      "title": "v0.1.9",
-      "url": "https://github.com/HelgeSverre/sourcefour/releases/tag/v0.1.9"
-    },
-    {
-      "id": "release:HelgeSverre/sourcefour:412739272",
-      "kind": "release",
-      "repo": "HelgeSverre/sourcefour",
-      "at": "2026-10-14T13:17:51Z",
-      "title": "v0.1.8",
-      "url": "https://github.com/HelgeSverre/sourcefour/releases/tag/v0.1.8"
     },
     {
       "id": "release:HelgeSverre/pest-to-phpunit:412863600",
