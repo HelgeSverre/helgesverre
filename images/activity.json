@@ -1,9 +1,25 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-21T18:23:21.046Z",
-  "since": "2026-10-07T18:23:21.046Z",
+  "fetchedAt": "2026-10-22T00:47:55.378Z",
+  "since": "2026-10-08T00:47:55.378Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/vapor-swap:b47a8bddbdfb1fb1ed792449d216c0a23da6c130",
+      "kind": "commit",
+      "repo": "HelgeSverre/vapor-swap",
+      "at": "2026-10-21T23:22:53.000+02:00",
+      "title": "Add comic-style Vapor Sweep README banner",
+      "url": "https://github.com/HelgeSverre/vapor-swap/commit/b47a8bddbdfb1fb1ed792449d216c0a23da6c130"
+    },
+    {
+      "id": "commit:HelgeSverre/vapor-swap:0f1ae92e5639bca816c0aa9ed8f57c820eb9317c",
+      "kind": "commit",
+      "repo": "HelgeSverre/vapor-swap",
+      "at": "2026-10-21T23:12:28.000+02:00",
+      "title": "Simplify README and give concrete Zsh setup paths",
+      "url": "https://github.com/HelgeSverre/vapor-swap/commit/0f1ae92e5639bca816c0aa9ed8f57c820eb9317c"
+    },
     {
       "id": "commit:HelgeSverre/vapor-swap:30f62e469e3cb27f5d00e3eaea90ce84e3850dc0",
       "kind": "commit",
@@ -357,12 +373,12 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/97b214d0b209017caf9d7f572b475b44e9e69727"
     },
     {
-      "id": "commit:nunomaduro/dev-null.sh:7f17d925ee4b618956d80c8afee43998189f4bec",
+      "id": "commit:dev-null-sh/dev-null.sh:7f17d925ee4b618956d80c8afee43998189f4bec",
       "kind": "commit",
-      "repo": "nunomaduro/dev-null.sh",
+      "repo": "dev-null-sh/dev-null.sh",
       "at": "2026-10-20T21:01:55.000+02:00",
       "title": "fix: resize asciinema recordings to fit content (#874)",
-      "url": "https://github.com/nunomaduro/dev-null.sh/commit/7f17d925ee4b618956d80c8afee43998189f4bec"
+      "url": "https://github.com/dev-null-sh/dev-null.sh/commit/7f17d925ee4b618956d80c8afee43998189f4bec"
     },
     {
       "id": "commit:HelgeSverre/fsdb:2e8775b7158e5e794c0a155d0cd6c1073a0e246c",
@@ -469,12 +485,12 @@
       "url": "https://github.com/HelgeSverre/fsdb/pull/187"
     },
     {
-      "id": "pr:nunomaduro/dev-null.sh:874",
+      "id": "pr:dev-null-sh/dev-null.sh:874",
       "kind": "merge",
-      "repo": "nunomaduro/dev-null.sh",
+      "repo": "dev-null-sh/dev-null.sh",
       "at": "2026-10-20T19:01:56Z",
       "title": "fix: resize asciinema recordings to fit content",
-      "url": "https://github.com/nunomaduro/dev-null.sh/pull/874"
+      "url": "https://github.com/dev-null-sh/dev-null.sh/pull/874"
     },
     {
       "id": "pr:HelgeSverre/fsdb:186",
@@ -517,20 +533,20 @@
       "url": "https://github.com/tempestphp/highlight/pull/218"
     },
     {
-      "id": "commit:nunomaduro/dev-null.sh:92562332b00034e27ff877c3269f920793fd3723",
+      "id": "commit:dev-null-sh/dev-null.sh:92562332b00034e27ff877c3269f920793fd3723",
       "kind": "commit",
-      "repo": "nunomaduro/dev-null.sh",
+      "repo": "dev-null-sh/dev-null.sh",
       "at": "2026-10-19T18:56:22.000+01:00",
       "title": "fix: handle images selected from the Android photo picker (#494)",
-      "url": "https://github.com/nunomaduro/dev-null.sh/commit/92562332b00034e27ff877c3269f920793fd3723"
+      "url": "https://github.com/dev-null-sh/dev-null.sh/commit/92562332b00034e27ff877c3269f920793fd3723"
     },
     {
-      "id": "pr:nunomaduro/dev-null.sh:494",
+      "id": "pr:dev-null-sh/dev-null.sh:494",
       "kind": "merge",
-      "repo": "nunomaduro/dev-null.sh",
+      "repo": "dev-null-sh/dev-null.sh",
       "at": "2026-10-19T17:56:22Z",
       "title": "fix: handle images selected from the Android photo picker",
-      "url": "https://github.com/nunomaduro/dev-null.sh/pull/494"
+      "url": "https://github.com/dev-null-sh/dev-null.sh/pull/494"
     },
     {
       "id": "commit:HelgeSverre/glue:ef3ef0c2f82f1443f14edc729f993cf383d9c65e",
@@ -1645,12 +1661,12 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/e8cc0c9ffec34c3e2ea03f3039e8edd48807236d"
     },
     {
-      "id": "commit:nunomaduro/dev-null.sh:d63ba4981c7d9c21c0dd21684ea8f362052ccf98",
+      "id": "commit:dev-null-sh/dev-null.sh:d63ba4981c7d9c21c0dd21684ea8f362052ccf98",
       "kind": "commit",
-      "repo": "nunomaduro/dev-null.sh",
+      "repo": "dev-null-sh/dev-null.sh",
       "at": "2026-10-18T00:17:02.000+02:00",
       "title": "fix: show the video thumbnail on YouTube embeds (#291)",
-      "url": "https://github.com/nunomaduro/dev-null.sh/commit/d63ba4981c7d9c21c0dd21684ea8f362052ccf98"
+      "url": "https://github.com/dev-null-sh/dev-null.sh/commit/d63ba4981c7d9c21c0dd21684ea8f362052ccf98"
     },
     {
       "id": "commit:HelgeSverre/fsdb:ceeaac5ee8a560bea2eb25459e42e2a46fc038d7",
@@ -1805,12 +1821,12 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/55cfdfaf4df4b6b97a374b4efb5ff38aabf9dea4"
     },
     {
-      "id": "pr:nunomaduro/dev-null.sh:291",
+      "id": "pr:dev-null-sh/dev-null.sh:291",
       "kind": "merge",
-      "repo": "nunomaduro/dev-null.sh",
+      "repo": "dev-null-sh/dev-null.sh",
       "at": "2026-10-17T22:17:02Z",
       "title": "fix: show the video thumbnail on YouTube embeds",
-      "url": "https://github.com/nunomaduro/dev-null.sh/pull/291"
+      "url": "https://github.com/dev-null-sh/dev-null.sh/pull/291"
     },
     {
       "id": "commit:HelgeSverre/fsdb:422df99bf7952f24afa3d4e92eb192fb6a224612",
@@ -1989,12 +2005,12 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/58a1c3b078125aadf86a691515ee8326eb49ba47"
     },
     {
-      "id": "commit:nunomaduro/dev-null.sh:f940180e8db4b00ab9f6e6ad2f4e36b378b0c282",
+      "id": "commit:dev-null-sh/dev-null.sh:f940180e8db4b00ab9f6e6ad2f4e36b378b0c282",
       "kind": "commit",
-      "repo": "nunomaduro/dev-null.sh",
+      "repo": "dev-null-sh/dev-null.sh",
       "at": "2026-10-17T20:04:32.000+02:00",
       "title": "perf: make signed-in pages 10–30× faster at production scale (#264)",
-      "url": "https://github.com/nunomaduro/dev-null.sh/commit/f940180e8db4b00ab9f6e6ad2f4e36b378b0c282"
+      "url": "https://github.com/dev-null-sh/dev-null.sh/commit/f940180e8db4b00ab9f6e6ad2f4e36b378b0c282"
     },
     {
       "id": "commit:HelgeSverre/fsdb:15674214b32dbaffa78cd3832b7c10f6cbd74e39",
@@ -2157,12 +2173,12 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/d4d9c94459d499cc593f506711b1a53cb4f094d5"
     },
     {
-      "id": "pr:nunomaduro/dev-null.sh:264",
+      "id": "pr:dev-null-sh/dev-null.sh:264",
       "kind": "merge",
-      "repo": "nunomaduro/dev-null.sh",
+      "repo": "dev-null-sh/dev-null.sh",
       "at": "2026-10-17T18:04:33Z",
       "title": "perf: make signed-in pages 10–30× faster at production scale",
-      "url": "https://github.com/nunomaduro/dev-null.sh/pull/264"
+      "url": "https://github.com/dev-null-sh/dev-null.sh/pull/264"
     },
     {
       "id": "commit:HelgeSverre/fsdb:43194344bbf8b841dbac8b2bb5a08c1f16709956",
@@ -3541,20 +3557,20 @@
       "url": "https://github.com/tempestphp/highlight/commit/f1d951f2730ef4756d44604b05b8b1d18e6df04f"
     },
     {
-      "id": "commit:nunomaduro/dev-null.sh:7ff336ca8ede2c2f82c6fb45df938f1c462a6f71",
+      "id": "commit:dev-null-sh/dev-null.sh:7ff336ca8ede2c2f82c6fb45df938f1c462a6f71",
       "kind": "commit",
-      "repo": "nunomaduro/dev-null.sh",
+      "repo": "dev-null-sh/dev-null.sh",
       "at": "2026-10-16T17:08:52.000+02:00",
       "title": "feat: play YouTube, Suno, Spotify and other links in place (#243)",
-      "url": "https://github.com/nunomaduro/dev-null.sh/commit/7ff336ca8ede2c2f82c6fb45df938f1c462a6f71"
+      "url": "https://github.com/dev-null-sh/dev-null.sh/commit/7ff336ca8ede2c2f82c6fb45df938f1c462a6f71"
     },
     {
-      "id": "pr:nunomaduro/dev-null.sh:243",
+      "id": "pr:dev-null-sh/dev-null.sh:243",
       "kind": "merge",
-      "repo": "nunomaduro/dev-null.sh",
+      "repo": "dev-null-sh/dev-null.sh",
       "at": "2026-10-16T15:02:15Z",
       "title": "feat: play YouTube, Suno, Spotify and other links in place",
-      "url": "https://github.com/nunomaduro/dev-null.sh/pull/243"
+      "url": "https://github.com/dev-null-sh/dev-null.sh/pull/243"
     },
     {
       "id": "commit:HelgeSverre/fsdb:f6ca78c9983cd6e41c0d48989d9fe2922dc1672b",
@@ -7757,30 +7773,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/b545863bf65a87dbc255c7008e8f9361ed43331c"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:df60fd40d9ca1f1197bffc7b9648e47891d95e9e",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T21:27:18.000+02:00",
-      "title": "Centralize character cast width and collation rules",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/df60fd40d9ca1f1197bffc7b9648e47891d95e9e"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:c16bb8c699b3ec715348c85bea41ee1fa8cc6dc2",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T21:20:07.000+02:00",
-      "title": "Reject negative character cast widths",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/c16bb8c699b3ec715348c85bea41ee1fa8cc6dc2"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:206e49041cc5778643273f9f218ad3b871b54be0",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-11T21:15:40.000+02:00",
-      "title": "Honor packet limit for character cast widths",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/206e49041cc5778643273f9f218ad3b871b54be0"
-    },
-    {
       "id": "pr:HelgeSverre/splash:8",
       "kind": "merge",
       "repo": "HelgeSverre/splash",
@@ -8053,134 +8045,6 @@
       "url": "https://github.com/HelgeSverre/strek/pull/5"
     },
     {
-      "id": "pr:HelgeSverre/token:28",
-      "kind": "merge",
-      "repo": "HelgeSverre/token",
-      "at": "2026-10-07T22:31:39Z",
-      "title": "test(ui): cover bottom-edge hover placement in gallery",
-      "url": "https://github.com/HelgeSverre/token/pull/28"
-    },
-    {
-      "id": "pr:HelgeSverre/token:27",
-      "kind": "merge",
-      "repo": "HelgeSverre/token",
-      "at": "2026-10-07T22:31:38Z",
-      "title": "feat(gallery): show independently scrolled completion documentation",
-      "url": "https://github.com/HelgeSverre/token/pull/27"
-    },
-    {
-      "id": "pr:HelgeSverre/token:26",
-      "kind": "merge",
-      "repo": "HelgeSverre/token",
-      "at": "2026-10-07T22:31:37Z",
-      "title": "fix(gallery): keep diagnostic severity rows visible",
-      "url": "https://github.com/HelgeSverre/token/pull/26"
-    },
-    {
-      "id": "pr:HelgeSverre/token:25",
-      "kind": "merge",
-      "repo": "HelgeSverre/token",
-      "at": "2026-10-07T22:31:36Z",
-      "title": "feat(gallery): cover wrapped selections and continuation carets",
-      "url": "https://github.com/HelgeSverre/token/pull/25"
-    },
-    {
-      "id": "pr:HelgeSverre/token:24",
-      "kind": "merge",
-      "repo": "HelgeSverre/token",
-      "at": "2026-10-07T22:31:35Z",
-      "title": "feat(gallery): add production explorer specimens",
-      "url": "https://github.com/HelgeSverre/token/pull/24"
-    },
-    {
-      "id": "pr:HelgeSverre/token:23",
-      "kind": "merge",
-      "repo": "HelgeSverre/token",
-      "at": "2026-10-07T22:31:34Z",
-      "title": "feat(ui): refine status spacing and chrome readability",
-      "url": "https://github.com/HelgeSverre/token/pull/23"
-    },
-    {
-      "id": "pr:HelgeSverre/token:22",
-      "kind": "merge",
-      "repo": "HelgeSverre/token",
-      "at": "2026-10-07T22:31:33Z",
-      "title": "feat(ui): native polish baseline and roomier document tabs",
-      "url": "https://github.com/HelgeSverre/token/pull/22"
-    },
-    {
-      "id": "pr:HelgeSverre/token:21",
-      "kind": "merge",
-      "repo": "HelgeSverre/token",
-      "at": "2026-10-07T22:31:33Z",
-      "title": "perf: search regex directly over document ropes",
-      "url": "https://github.com/HelgeSverre/token/pull/21"
-    },
-    {
-      "id": "pr:HelgeSverre/token:20",
-      "kind": "merge",
-      "repo": "HelgeSverre/token",
-      "at": "2026-10-07T22:31:32Z",
-      "title": "perf(find): store compact shared match offsets",
-      "url": "https://github.com/HelgeSverre/token/pull/20"
-    },
-    {
-      "id": "pr:HelgeSverre/token:19",
-      "kind": "merge",
-      "repo": "HelgeSverre/token",
-      "at": "2026-10-07T22:31:31Z",
-      "title": "perf(folding): reuse immutable rope snapshots",
-      "url": "https://github.com/HelgeSverre/token/pull/19"
-    },
-    {
-      "id": "pr:HelgeSverre/token:18",
-      "kind": "merge",
-      "repo": "HelgeSverre/token",
-      "at": "2026-10-07T22:31:30Z",
-      "title": "perf(csv): refresh indexed cells during undo and redo",
-      "url": "https://github.com/HelgeSverre/token/pull/18"
-    },
-    {
-      "id": "pr:HelgeSverre/token:17",
-      "kind": "merge",
-      "repo": "HelgeSverre/token",
-      "at": "2026-10-07T22:31:29Z",
-      "title": "perf: reduce large-file costs and harden CSV editing",
-      "url": "https://github.com/HelgeSverre/token/pull/17"
-    },
-    {
-      "id": "pr:HelgeSverre/token:16",
-      "kind": "merge",
-      "repo": "HelgeSverre/token",
-      "at": "2026-10-07T22:31:28Z",
-      "title": "perf(text): vectorize line-ending detection across rope chunks",
-      "url": "https://github.com/HelgeSverre/token/pull/16"
-    },
-    {
-      "id": "pr:HelgeSverre/token:15",
-      "kind": "merge",
-      "repo": "HelgeSverre/token",
-      "at": "2026-10-07T22:31:27Z",
-      "title": "perf(csv): remove text size cap and reduce large-file allocations",
-      "url": "https://github.com/HelgeSverre/token/pull/15"
-    },
-    {
-      "id": "pr:HelgeSverre/token:14",
-      "kind": "merge",
-      "repo": "HelgeSverre/token",
-      "at": "2026-10-07T22:31:26Z",
-      "title": "perf(csv): establish a native 1 GiB opening performance gate",
-      "url": "https://github.com/HelgeSverre/token/pull/14"
-    },
-    {
-      "id": "pr:HelgeSverre/token:29",
-      "kind": "merge",
-      "repo": "HelgeSverre/token",
-      "at": "2026-10-07T22:30:01Z",
-      "title": "fix(ci): preserve Debian package metadata and check stacked PRs",
-      "url": "https://github.com/HelgeSverre/token/pull/29"
-    },
-    {
       "id": "release:HelgeSverre/fence:419596875",
       "kind": "release",
       "repo": "HelgeSverre/fence",
@@ -8267,14 +8131,6 @@
       "at": "2026-10-20T08:22:07Z",
       "title": "2.29.0",
       "url": "https://github.com/tempestphp/highlight/releases/tag/2.29.0"
-    },
-    {
-      "id": "release:HelgeSverre/glue:406250073",
-      "kind": "release",
-      "repo": "HelgeSverre/glue",
-      "at": "2026-10-07T23:35:47Z",
-      "title": "v0.9.1",
-      "url": "https://github.com/HelgeSverre/glue/releases/tag/v0.9.1"
     },
     {
       "id": "release:HelgeSverre/ryde-cli:414776370",
@@ -8387,22 +8243,6 @@
       "at": "2026-10-12T17:37:28Z",
       "title": "v0.8.0",
       "url": "https://github.com/HelgeSverre/mire/releases/tag/v0.8.0"
-    },
-    {
-      "id": "release:HelgeSverre/splash:406118084",
-      "kind": "release",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T20:02:44Z",
-      "title": "v0.2.1",
-      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.2.1"
-    },
-    {
-      "id": "release:HelgeSverre/splash:406047357",
-      "kind": "release",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-10-07T18:31:38Z",
-      "title": "v0.2.0",
-      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.2.0"
     },
     {
       "id": "release:HelgeSverre/namecheap-cli:408440846",
