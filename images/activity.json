@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-22T12:28:50.767Z",
-  "since": "2026-10-08T12:28:50.767Z",
+  "fetchedAt": "2026-10-22T18:39:12.470Z",
+  "since": "2026-10-08T18:39:12.470Z",
   "partial": true,
   "events": [
     {
@@ -7755,14 +7755,6 @@
       "at": "2026-10-12T01:17:35.000+02:00",
       "title": "Assemble CHAR results as MySQL binary bytes",
       "url": "https://github.com/HelgeSverre/fsdb/commit/04946367ea97e4f2c3d55583fd19da85ff0065a0"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:e835d1c6a1976b2c33c95032bcff6c722e774bb8",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T01:06:28.000+02:00",
-      "title": "Match TIME warning previews by source charset",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/e835d1c6a1976b2c33c95032bcff6c722e774bb8"
     },
     {
       "id": "pr:HelgeSverre/splash:8",
