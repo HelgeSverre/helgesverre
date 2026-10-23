@@ -1,9 +1,41 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-23T00:49:54.500Z",
-  "since": "2026-10-09T00:49:54.500Z",
+  "fetchedAt": "2026-10-23T06:32:11.786Z",
+  "since": "2026-10-09T06:32:11.786Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/ollama-gui:b79a7b8ca537037d1985c69109260ff540b88170",
+      "kind": "commit",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-23T02:54:35.000+02:00",
+      "title": "chore: release 2.0.5",
+      "url": "https://github.com/HelgeSverre/ollama-gui/commit/b79a7b8ca537037d1985c69109260ff540b88170"
+    },
+    {
+      "id": "commit:HelgeSverre/ollama-gui:f4eec6a47214c2a3307ffe03a03b56074efce1a0",
+      "kind": "commit",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-23T02:54:13.000+02:00",
+      "title": "chore: refresh Ollama model catalog",
+      "url": "https://github.com/HelgeSverre/ollama-gui/commit/f4eec6a47214c2a3307ffe03a03b56074efce1a0"
+    },
+    {
+      "id": "commit:HelgeSverre/ollama-gui:5e155b5fd1b874248dbd826f5de1ed27740acef1",
+      "kind": "commit",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-23T02:53:56.000+02:00",
+      "title": "chore: refresh Ollama model catalog",
+      "url": "https://github.com/HelgeSverre/ollama-gui/commit/5e155b5fd1b874248dbd826f5de1ed27740acef1"
+    },
+    {
+      "id": "commit:HelgeSverre/ollama-gui:dc54314183c6e2b4528043d88b6a4a5dba2d6d81",
+      "kind": "commit",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-23T02:53:48.000+02:00",
+      "title": "chore(deps): bump the minor-and-patch group with 10 updates",
+      "url": "https://github.com/HelgeSverre/ollama-gui/commit/dc54314183c6e2b4528043d88b6a4a5dba2d6d81"
+    },
     {
       "id": "commit:HelgeSverre/trace-context:03ba7904cc86d07942a4b34c66871fcfa9a77548",
       "kind": "commit",
@@ -7709,46 +7741,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/b33405a4faa119e978c3d66f12ee5deab03f383e"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:081c647c2b673d91dd8bcdbf2f63bf8c3347db51",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T02:03:15.000+02:00",
-      "title": "Match CHAR JSON argument values and diagnostics",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/081c647c2b673d91dd8bcdbf2f63bf8c3347db51"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:15c7fc9b6cdff40f62fcf613bf24474873a621a9",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T01:55:22.000+02:00",
-      "title": "Match CHAR warnings for stored DOUBLE overflow",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/15c7fc9b6cdff40f62fcf613bf24474873a621a9"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:9bb6f93763c4f9fdcef6cf855ca65c499d236b8b",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T01:46:13.000+02:00",
-      "title": "Match CHAR bit and numeric overflow domains",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/9bb6f93763c4f9fdcef6cf855ca65c499d236b8b"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:7f3e82554fb9eb5d25bab3f4f5cf43c161877735",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T01:38:37.000+02:00",
-      "title": "Match CHAR binary integer warning previews",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/7f3e82554fb9eb5d25bab3f4f5cf43c161877735"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:570b263da04a3b653812753a66c7ab9a6afa5539",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T01:32:20.000+02:00",
-      "title": "Support CHAR USING charset with MySQL byte semantics",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/570b263da04a3b653812753a66c7ab9a6afa5539"
-    },
-    {
       "id": "pr:HelgeSverre/splash:8",
       "kind": "merge",
       "repo": "HelgeSverre/splash",
@@ -8021,6 +8013,38 @@
       "url": "https://github.com/HelgeSverre/strek/pull/5"
     },
     {
+      "id": "release:HelgeSverre/ollama-gui:421344937",
+      "kind": "release",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-23T00:55:17Z",
+      "title": "v2.0.5",
+      "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.5"
+    },
+    {
+      "id": "release:HelgeSverre/ollama-gui:411956701",
+      "kind": "release",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-13T17:54:39Z",
+      "title": "v2.0.4",
+      "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.4"
+    },
+    {
+      "id": "release:HelgeSverre/ollama-gui:411898079",
+      "kind": "release",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-13T16:43:33Z",
+      "title": "v2.0.3",
+      "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.3"
+    },
+    {
+      "id": "release:HelgeSverre/ollama-gui:409023372",
+      "kind": "release",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-10-10T15:12:30Z",
+      "title": "v2.0.2",
+      "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.2"
+    },
+    {
       "id": "release:HelgeSverre/trace-context:421250645",
       "kind": "release",
       "repo": "HelgeSverre/trace-context",
@@ -8187,30 +8211,6 @@
       "at": "2026-10-14T02:02:37Z",
       "title": "v0.8.0",
       "url": "https://github.com/HelgeSverre/libui/releases/tag/v0.8.0"
-    },
-    {
-      "id": "release:HelgeSverre/ollama-gui:411956701",
-      "kind": "release",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-13T17:54:39Z",
-      "title": "v2.0.4",
-      "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.4"
-    },
-    {
-      "id": "release:HelgeSverre/ollama-gui:411898079",
-      "kind": "release",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-13T16:43:33Z",
-      "title": "v2.0.3",
-      "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.3"
-    },
-    {
-      "id": "release:HelgeSverre/ollama-gui:409023372",
-      "kind": "release",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-10T15:12:30Z",
-      "title": "v2.0.2",
-      "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.2"
     },
     {
       "id": "release:HelgeSverre/fedit:411939979",
