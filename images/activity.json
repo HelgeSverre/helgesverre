@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-23T06:32:11.786Z",
-  "since": "2026-10-09T06:32:11.786Z",
+  "fetchedAt": "2026-10-23T12:26:51.448Z",
+  "since": "2026-10-09T12:26:51.448Z",
   "partial": true,
   "events": [
     {
@@ -7733,14 +7733,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/d60d7dc74711b0e0e5137cfae0705903fe061c6b"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:b33405a4faa119e978c3d66f12ee5deab03f383e",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T02:16:45.000+02:00",
-      "title": "Match CHAR stored JSON warning row numbers",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/b33405a4faa119e978c3d66f12ee5deab03f383e"
-    },
-    {
       "id": "pr:HelgeSverre/splash:8",
       "kind": "merge",
       "repo": "HelgeSverre/splash",
@@ -7893,126 +7885,6 @@
       "url": "https://github.com/HelgeSverre/strek/pull/7"
     },
     {
-      "id": "pr:sema-lisp/sema-coder:4",
-      "kind": "merge",
-      "repo": "sema-lisp/sema-coder",
-      "at": "2026-10-09T11:25:14Z",
-      "title": "Validate sema-coder against Sema 1.37 RC2",
-      "url": "https://github.com/sema-lisp/sema-coder/pull/4"
-    },
-    {
-      "id": "pr:sema-lisp/sema:165",
-      "kind": "merge",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-09T10:20:30Z",
-      "title": "release: 1.37.0-rc.2",
-      "url": "https://github.com/sema-lisp/sema/pull/165"
-    },
-    {
-      "id": "pr:sema-lisp/sema:164",
-      "kind": "merge",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-09T09:53:28Z",
-      "title": "Fix 1.37 RNG dependency and MCP cancellation validation",
-      "url": "https://github.com/sema-lisp/sema/pull/164"
-    },
-    {
-      "id": "pr:sema-lisp/sema-coder:3",
-      "kind": "merge",
-      "repo": "sema-lisp/sema-coder",
-      "at": "2026-10-09T09:53:23Z",
-      "title": "Use Sema 1.37 defaults and turn accounting",
-      "url": "https://github.com/sema-lisp/sema-coder/pull/3"
-    },
-    {
-      "id": "pr:sema-lisp/emacs-sema:3",
-      "kind": "merge",
-      "repo": "sema-lisp/emacs-sema",
-      "at": "2026-10-09T09:53:19Z",
-      "title": "Align editor syntax with Sema 1.37",
-      "url": "https://github.com/sema-lisp/emacs-sema/pull/3"
-    },
-    {
-      "id": "pr:sema-lisp/sema.vim:3",
-      "kind": "merge",
-      "repo": "sema-lisp/sema.vim",
-      "at": "2026-10-09T09:53:14Z",
-      "title": "Align editor syntax with Sema 1.37",
-      "url": "https://github.com/sema-lisp/sema.vim/pull/3"
-    },
-    {
-      "id": "pr:sema-lisp/sema.nvim:2",
-      "kind": "merge",
-      "repo": "sema-lisp/sema.nvim",
-      "at": "2026-10-09T09:53:10Z",
-      "title": "Align editor syntax with Sema 1.37",
-      "url": "https://github.com/sema-lisp/sema.nvim/pull/2"
-    },
-    {
-      "id": "pr:sema-lisp/helix-sema:4",
-      "kind": "merge",
-      "repo": "sema-lisp/helix-sema",
-      "at": "2026-10-09T09:53:06Z",
-      "title": "Align editor syntax with Sema 1.37",
-      "url": "https://github.com/sema-lisp/helix-sema/pull/4"
-    },
-    {
-      "id": "pr:sema-lisp/zed-sema:3",
-      "kind": "merge",
-      "repo": "sema-lisp/zed-sema",
-      "at": "2026-10-09T09:53:02Z",
-      "title": "Align editor syntax with Sema 1.37",
-      "url": "https://github.com/sema-lisp/zed-sema/pull/3"
-    },
-    {
-      "id": "pr:sema-lisp/intellij-sema:3",
-      "kind": "merge",
-      "repo": "sema-lisp/intellij-sema",
-      "at": "2026-10-09T09:52:58Z",
-      "title": "Align editor syntax with Sema 1.37",
-      "url": "https://github.com/sema-lisp/intellij-sema/pull/3"
-    },
-    {
-      "id": "pr:sema-lisp/sublime-sema:4",
-      "kind": "merge",
-      "repo": "sema-lisp/sublime-sema",
-      "at": "2026-10-09T09:52:54Z",
-      "title": "Align editor syntax with Sema 1.37",
-      "url": "https://github.com/sema-lisp/sublime-sema/pull/4"
-    },
-    {
-      "id": "pr:sema-lisp/vscode-sema:3",
-      "kind": "merge",
-      "repo": "sema-lisp/vscode-sema",
-      "at": "2026-10-09T09:52:50Z",
-      "title": "Fix reader syntax and update dependencies for 0.4.1",
-      "url": "https://github.com/sema-lisp/vscode-sema/pull/3"
-    },
-    {
-      "id": "pr:sema-lisp/tree-sitter-sema:3",
-      "kind": "merge",
-      "repo": "sema-lisp/tree-sitter-sema",
-      "at": "2026-10-09T09:52:46Z",
-      "title": "Align grammar with the Sema 1.37 reader",
-      "url": "https://github.com/sema-lisp/tree-sitter-sema/pull/3"
-    },
-    {
-      "id": "pr:HelgeSverre/strek:6",
-      "kind": "merge",
-      "repo": "HelgeSverre/strek",
-      "at": "2026-10-09T09:17:02Z",
-      "title": "Font picker, consistent font rendering, and bundled Inter UI font",
-      "url": "https://github.com/HelgeSverre/strek/pull/6"
-    },
-    {
-      "id": "pr:HelgeSverre/strek:5",
-      "kind": "merge",
-      "repo": "HelgeSverre/strek",
-      "at": "2026-10-09T08:53:21Z",
-      "title": "Render themed, wrapping prompt dialogs on Linux",
-      "url": "https://github.com/HelgeSverre/strek/pull/5"
-    },
-    {
       "id": "release:HelgeSverre/ollama-gui:421344937",
       "kind": "release",
       "repo": "HelgeSverre/ollama-gui",
@@ -8099,14 +7971,6 @@
       "at": "2026-10-09T13:58:37Z",
       "title": "v1.37.0",
       "url": "https://github.com/sema-lisp/sema/releases/tag/v1.37.0"
-    },
-    {
-      "id": "release:sema-lisp/sema:407842488",
-      "kind": "release",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-09T11:20:39Z",
-      "title": "v1.37.0-rc.2",
-      "url": "https://github.com/sema-lisp/sema/releases/tag/v1.37.0-rc.2"
     },
     {
       "id": "release:HelgeSverre/fsdb:419021332",
@@ -8259,30 +8123,6 @@
       "at": "2026-10-09T13:38:29Z",
       "title": "v0.2.4",
       "url": "https://github.com/HelgeSverre/strek/releases/tag/v0.2.4"
-    },
-    {
-      "id": "release:sema-lisp/sublime-sema:407778632",
-      "kind": "release",
-      "repo": "sema-lisp/sublime-sema",
-      "at": "2026-10-09T09:53:57Z",
-      "title": "0.5.1",
-      "url": "https://github.com/sema-lisp/sublime-sema/releases/tag/0.5.1"
-    },
-    {
-      "id": "release:sema-lisp/vscode-sema:407779044",
-      "kind": "release",
-      "repo": "sema-lisp/vscode-sema",
-      "at": "2026-10-09T09:54:33Z",
-      "title": "v0.4.1",
-      "url": "https://github.com/sema-lisp/vscode-sema/releases/tag/v0.4.1"
-    },
-    {
-      "id": "release:sema-lisp/tree-sitter-sema:407779417",
-      "kind": "release",
-      "repo": "sema-lisp/tree-sitter-sema",
-      "at": "2026-10-09T09:55:06Z",
-      "title": "v0.3.1",
-      "url": "https://github.com/sema-lisp/tree-sitter-sema/releases/tag/v0.3.1"
     }
   ]
 }
