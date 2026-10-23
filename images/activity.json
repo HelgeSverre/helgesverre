@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-23T12:26:51.448Z",
-  "since": "2026-10-09T12:26:51.448Z",
+  "fetchedAt": "2026-10-23T18:38:30.594Z",
+  "since": "2026-10-09T18:38:30.594Z",
   "partial": true,
   "events": [
     {
@@ -7725,14 +7725,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/099ce7a633d03183e57e6000afb2ccb3784e7ae5"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:d60d7dc74711b0e0e5137cfae0705903fe061c6b",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T02:28:22.000+02:00",
-      "title": "Match CHAR JSON warning rows in ordered and grouped queries",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/d60d7dc74711b0e0e5137cfae0705903fe061c6b"
-    },
-    {
       "id": "pr:HelgeSverre/splash:8",
       "kind": "merge",
       "repo": "HelgeSverre/splash",
@@ -7837,54 +7829,6 @@
       "url": "https://github.com/HelgeSverre/namecheap-cli/pull/5"
     },
     {
-      "id": "pr:sema-lisp/sema-coder:5",
-      "kind": "merge",
-      "repo": "sema-lisp/sema-coder",
-      "at": "2026-10-09T14:01:00Z",
-      "title": "ci: validate sema-coder against Sema 1.37 stable",
-      "url": "https://github.com/sema-lisp/sema-coder/pull/5"
-    },
-    {
-      "id": "pr:sema-lisp/sema:168",
-      "kind": "merge",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-09T13:51:22Z",
-      "title": "test: retain playground breakpoints on executable literals",
-      "url": "https://github.com/sema-lisp/sema/pull/168"
-    },
-    {
-      "id": "pr:sema-lisp/sema:167",
-      "kind": "merge",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-09T13:31:57Z",
-      "title": "docs: refresh social preview badges for 1.37.0",
-      "url": "https://github.com/sema-lisp/sema/pull/167"
-    },
-    {
-      "id": "pr:sema-lisp/sema:166",
-      "kind": "merge",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-09T13:23:51Z",
-      "title": "release: 1.37.0",
-      "url": "https://github.com/sema-lisp/sema/pull/166"
-    },
-    {
-      "id": "pr:HelgeSverre/strek:8",
-      "kind": "merge",
-      "repo": "HelgeSverre/strek",
-      "at": "2026-10-09T13:18:08Z",
-      "title": "Window chrome: guard double-click maximize, correct resize-strip comment",
-      "url": "https://github.com/HelgeSverre/strek/pull/8"
-    },
-    {
-      "id": "pr:HelgeSverre/strek:7",
-      "kind": "merge",
-      "repo": "HelgeSverre/strek",
-      "at": "2026-10-09T13:18:04Z",
-      "title": "Choose among the layers under the pointer with Cmd/Ctrl+right-click",
-      "url": "https://github.com/HelgeSverre/strek/pull/7"
-    },
-    {
       "id": "release:HelgeSverre/ollama-gui:421344937",
       "kind": "release",
       "repo": "HelgeSverre/ollama-gui",
@@ -7963,14 +7907,6 @@
       "at": "2026-10-12T13:53:21Z",
       "title": "v0.7.0",
       "url": "https://github.com/HelgeSverre/fence/releases/tag/v0.7.0"
-    },
-    {
-      "id": "release:sema-lisp/sema:407969625",
-      "kind": "release",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-09T13:58:37Z",
-      "title": "v1.37.0",
-      "url": "https://github.com/sema-lisp/sema/releases/tag/v1.37.0"
     },
     {
       "id": "release:HelgeSverre/fsdb:419021332",
@@ -8115,14 +8051,6 @@
       "at": "2026-10-10T00:01:16Z",
       "title": "v0.2.0",
       "url": "https://github.com/HelgeSverre/namecheap-cli/releases/tag/v0.2.0"
-    },
-    {
-      "id": "release:HelgeSverre/strek:407951626",
-      "kind": "release",
-      "repo": "HelgeSverre/strek",
-      "at": "2026-10-09T13:38:29Z",
-      "title": "v0.2.4",
-      "url": "https://github.com/HelgeSverre/strek/releases/tag/v0.2.4"
     }
   ]
 }
