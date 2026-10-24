@@ -1,9 +1,17 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-24T12:24:06.920Z",
-  "since": "2026-10-10T12:24:06.920Z",
+  "fetchedAt": "2026-10-24T18:20:01.576Z",
+  "since": "2026-10-10T18:20:01.576Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/github-narcissist-feed:530da51a4bc3abf2ab06e5a3e330d1e13457bdb7",
+      "kind": "commit",
+      "repo": "HelgeSverre/github-narcissist-feed",
+      "at": "2026-10-24T18:48:04.000+02:00",
+      "title": "Add website and PWA builds with guided setup and public GitHub access",
+      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/530da51a4bc3abf2ab06e5a3e330d1e13457bdb7"
+    },
     {
       "id": "commit:HelgeSverre/ollama-gui:b79a7b8ca537037d1985c69109260ff540b88170",
       "kind": "commit",
@@ -7693,14 +7701,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/e7ddd7165198d5937d4261e62ea0e36f9201df58"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:d29b6762a0aea4f6c4af8e2520c010d5cec1c7fd",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T03:07:59.000+02:00",
-      "title": "Match CHAR overflow diagnostics for numeric functions",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/d29b6762a0aea4f6c4af8e2520c010d5cec1c7fd"
-    },
-    {
       "id": "release:HelgeSverre/ollama-gui:421344937",
       "kind": "release",
       "repo": "HelgeSverre/ollama-gui",
@@ -7723,14 +7723,6 @@
       "at": "2026-10-13T16:43:33Z",
       "title": "v2.0.3",
       "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.3"
-    },
-    {
-      "id": "release:HelgeSverre/ollama-gui:409023372",
-      "kind": "release",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-10-10T15:12:30Z",
-      "title": "v2.0.2",
-      "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.2"
     },
     {
       "id": "release:HelgeSverre/trace-context:421250645",
