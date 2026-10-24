@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-24T00:46:33.197Z",
-  "since": "2026-10-10T00:46:33.197Z",
+  "fetchedAt": "2026-10-24T06:28:41.814Z",
+  "since": "2026-10-10T06:28:41.814Z",
   "partial": true,
   "events": [
     {
@@ -7707,14 +7707,6 @@
       "at": "2026-10-12T03:00:07.000+02:00",
       "title": "Preserve CHAR pass-through overflow semantics",
       "url": "https://github.com/HelgeSverre/fsdb/commit/c02cbaffc6e411ca830eaaddff7010c74d1102f9"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:b0e746ca38fc9bf42817dd6932fde4905424471a",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T02:51:17.000+02:00",
-      "title": "Match computed CHAR overflow errors",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/b0e746ca38fc9bf42817dd6932fde4905424471a"
     },
     {
       "id": "pr:HelgeSverre/splash:8",
