@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-23T18:38:30.594Z",
-  "since": "2026-10-09T18:38:30.594Z",
+  "fetchedAt": "2026-10-24T00:46:33.197Z",
+  "since": "2026-10-10T00:46:33.197Z",
   "partial": true,
   "events": [
     {
@@ -7717,14 +7717,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/b0e746ca38fc9bf42817dd6932fde4905424471a"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:099ce7a633d03183e57e6000afb2ccb3784e7ae5",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T02:36:33.000+02:00",
-      "title": "Verify CHAR conversion across more JSON expression sources",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/099ce7a633d03183e57e6000afb2ccb3784e7ae5"
-    },
-    {
       "id": "pr:HelgeSverre/splash:8",
       "kind": "merge",
       "repo": "HelgeSverre/splash",
@@ -7779,54 +7771,6 @@
       "at": "2026-10-10T08:02:01Z",
       "title": "[1/6] Fix agent startup, interrupted sessions and HTTP command capacity",
       "url": "https://github.com/HelgeSverre/splash/pull/2"
-    },
-    {
-      "id": "pr:HelgeSverre/namecheap-cli:9",
-      "kind": "merge",
-      "repo": "HelgeSverre/namecheap-cli",
-      "at": "2026-10-10T00:05:20Z",
-      "title": "Publish to npm with trusted publishing",
-      "url": "https://github.com/HelgeSverre/namecheap-cli/pull/9"
-    },
-    {
-      "id": "pr:HelgeSverre/namecheap-cli:8",
-      "kind": "merge",
-      "repo": "HelgeSverre/namecheap-cli",
-      "at": "2026-10-09T23:59:19Z",
-      "title": "chore(deps): bump all dependencies to latest",
-      "url": "https://github.com/HelgeSverre/namecheap-cli/pull/8"
-    },
-    {
-      "id": "pr:HelgeSverre/namecheap-cli:7",
-      "kind": "merge",
-      "repo": "HelgeSverre/namecheap-cli",
-      "at": "2026-10-09T23:55:29Z",
-      "title": "feat: add `namecheap uninstall` command",
-      "url": "https://github.com/HelgeSverre/namecheap-cli/pull/7"
-    },
-    {
-      "id": "pr:HelgeSverre/namecheap-cli:2",
-      "kind": "merge",
-      "repo": "HelgeSverre/namecheap-cli",
-      "at": "2026-10-09T23:51:23Z",
-      "title": "chore(deps): refresh dependency ranges from Dependabot review",
-      "url": "https://github.com/HelgeSverre/namecheap-cli/pull/2"
-    },
-    {
-      "id": "pr:HelgeSverre/namecheap-cli:6",
-      "kind": "merge",
-      "repo": "HelgeSverre/namecheap-cli",
-      "at": "2026-10-09T23:49:24Z",
-      "title": "test: isolate config and completion paths from the real home dir",
-      "url": "https://github.com/HelgeSverre/namecheap-cli/pull/6"
-    },
-    {
-      "id": "pr:HelgeSverre/namecheap-cli:5",
-      "kind": "merge",
-      "repo": "HelgeSverre/namecheap-cli",
-      "at": "2026-10-09T23:47:04Z",
-      "title": "fix(dns): send EmailType to setHosts so MX records are kept",
-      "url": "https://github.com/HelgeSverre/namecheap-cli/pull/5"
     },
     {
       "id": "release:HelgeSverre/ollama-gui:421344937",
@@ -8035,22 +7979,6 @@
       "at": "2026-10-12T17:37:28Z",
       "title": "v0.8.0",
       "url": "https://github.com/HelgeSverre/mire/releases/tag/v0.8.0"
-    },
-    {
-      "id": "release:HelgeSverre/namecheap-cli:408440846",
-      "kind": "release",
-      "repo": "HelgeSverre/namecheap-cli",
-      "at": "2026-10-10T00:07:11Z",
-      "title": "v0.2.1",
-      "url": "https://github.com/HelgeSverre/namecheap-cli/releases/tag/v0.2.1"
-    },
-    {
-      "id": "release:HelgeSverre/namecheap-cli:408436720",
-      "kind": "release",
-      "repo": "HelgeSverre/namecheap-cli",
-      "at": "2026-10-10T00:01:16Z",
-      "title": "v0.2.0",
-      "url": "https://github.com/HelgeSverre/namecheap-cli/releases/tag/v0.2.0"
     }
   ]
 }
