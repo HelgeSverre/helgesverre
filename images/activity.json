@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-25T06:29:03.721Z",
-  "since": "2026-10-11T06:29:03.721Z",
+  "fetchedAt": "2026-10-25T18:26:09.394Z",
+  "since": "2026-10-11T18:26:09.394Z",
   "partial": true,
   "events": [
     {
@@ -7667,22 +7667,6 @@
       "at": "2026-10-12T04:02:54.000+02:00",
       "title": "Trace CHAR JSON warning sources through nested views",
       "url": "https://github.com/HelgeSverre/fsdb/commit/a2d215d3cf9e01e843a354ecee1bee68c78dca8b"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:a835ec5236a8e18467162b3de9dcd1d2c16f6af3",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T03:54:13.000+02:00",
-      "title": "Preserve CHAR JSON warning origins through views",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/a835ec5236a8e18467162b3de9dcd1d2c16f6af3"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:b520fc035713e39fc9dfeccfea5a98e6695d9b39",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T03:41:06.000+02:00",
-      "title": "Preserve JSON type through UNION and CTE sources",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/b520fc035713e39fc9dfeccfea5a98e6695d9b39"
     },
     {
       "id": "release:HelgeSverre/ollama-gui:421344937",
