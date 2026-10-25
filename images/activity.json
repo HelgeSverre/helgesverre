@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-24T18:20:01.576Z",
-  "since": "2026-10-10T18:20:01.576Z",
+  "fetchedAt": "2026-10-25T00:52:27.276Z",
+  "since": "2026-10-11T00:52:27.276Z",
   "partial": true,
   "events": [
     {
@@ -7691,14 +7691,6 @@
       "at": "2026-10-12T03:20:06.000+02:00",
       "title": "Cover CHAR conversion for all JSON-returning builtins",
       "url": "https://github.com/HelgeSverre/fsdb/commit/7607dd5733a875402192b0c86bc7ded455bb38ac"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:e7ddd7165198d5937d4261e62ea0e36f9201df58",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T03:14:48.000+02:00",
-      "title": "Verify CHAR conversion across JSON mutation sources",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/e7ddd7165198d5937d4261e62ea0e36f9201df58"
     },
     {
       "id": "release:HelgeSverre/ollama-gui:421344937",
