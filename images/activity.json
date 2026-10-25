@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-25T00:52:27.276Z",
-  "since": "2026-10-11T00:52:27.276Z",
+  "fetchedAt": "2026-10-25T06:29:03.721Z",
+  "since": "2026-10-11T06:29:03.721Z",
   "partial": true,
   "events": [
     {
@@ -7683,14 +7683,6 @@
       "at": "2026-10-12T03:41:06.000+02:00",
       "title": "Preserve JSON type through UNION and CTE sources",
       "url": "https://github.com/HelgeSverre/fsdb/commit/b520fc035713e39fc9dfeccfea5a98e6695d9b39"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:7607dd5733a875402192b0c86bc7ded455bb38ac",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T03:20:06.000+02:00",
-      "title": "Cover CHAR conversion for all JSON-returning builtins",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/7607dd5733a875402192b0c86bc7ded455bb38ac"
     },
     {
       "id": "release:HelgeSverre/ollama-gui:421344937",
