@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-26T13:53:18.136Z",
-  "since": "2026-10-12T13:53:18.136Z",
+  "fetchedAt": "2026-10-26T18:29:21.020Z",
+  "since": "2026-10-12T18:29:21.020Z",
   "partial": false,
   "events": [
     {
@@ -7085,206 +7085,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/a3043aac98c91eb980115b90a338a67e8f83824c"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:b23b826376df19aed2b64a09f7c9780fbcdcb83f",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T20:23:50.000+02:00",
-      "title": "Use LIKE ranges on legacy binary text keys",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/b23b826376df19aed2b64a09f7c9780fbcdcb83f"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:7e6925c996700a8d0815652522863ac128d04d27",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T20:12:29.000+02:00",
-      "title": "Use binary LIKE ranges for Unicode prefixes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/7e6925c996700a8d0815652522863ac128d04d27"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:4053d74f89b420e255e6e659ec71a5a2ee932928",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T20:06:45.000+02:00",
-      "title": "Use LIKE ranges for escaped and exact binary patterns",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/4053d74f89b420e255e6e659ec71a5a2ee932928"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:805336d8002cb6fd2617c626d18977282427fe07",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T19:57:37.000+02:00",
-      "title": "Record LIKE prefix benchmark",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/805336d8002cb6fd2617c626d18977282427fe07"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:2cf93f5d3ee1f605eb9e4e3943cba70b5575a670",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T19:55:22.000+02:00",
-      "title": "Use binary LIKE prefix index ranges",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/2cf93f5d3ee1f605eb9e4e3943cba70b5575a670"
-    },
-    {
-      "id": "commit:HelgeSverre/mire:b9b2b6b84042460ab3d05f59ad5626b08f8f2586",
-      "kind": "commit",
-      "repo": "HelgeSverre/mire",
-      "at": "2026-10-12T19:54:48.000+02:00",
-      "title": "docs: use the production Vercel documentation URL",
-      "url": "https://github.com/HelgeSverre/mire/commit/b9b2b6b84042460ab3d05f59ad5626b08f8f2586"
-    },
-    {
-      "id": "commit:HelgeSverre/mire:f89cae7c4ec4819f31186218d4b223b15291bd19",
-      "kind": "commit",
-      "repo": "HelgeSverre/mire",
-      "at": "2026-10-12T19:45:19.000+02:00",
-      "title": "docs: synchronize guides and API examples with 0.8.0",
-      "url": "https://github.com/HelgeSverre/mire/commit/f89cae7c4ec4819f31186218d4b223b15291bd19"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:b4e0f4d03484e3c7107f0d1fc693b136355b04c4",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T19:38:01.000+02:00",
-      "title": "Clean introduced-literal contract objects",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/b4e0f4d03484e3c7107f0d1fc693b136355b04c4"
-    },
-    {
-      "id": "commit:HelgeSverre/mire:e08f7d02d321dccf12057943f58b5a6abb9e4186",
-      "kind": "commit",
-      "repo": "HelgeSverre/mire",
-      "at": "2026-10-12T19:35:32.000+02:00",
-      "title": "chore: prepare 0.8.0 release",
-      "url": "https://github.com/HelgeSverre/mire/commit/e08f7d02d321dccf12057943f58b5a6abb9e4186"
-    },
-    {
-      "id": "commit:HelgeSverre/mire:b5815ff04c1c60740658d91cf760f0cdc5efc40e",
-      "kind": "commit",
-      "repo": "HelgeSverre/mire",
-      "at": "2026-10-12T19:35:32.000+02:00",
-      "title": "fix: preserve grapheme boundaries after deletion and CRLF cell alignment",
-      "url": "https://github.com/HelgeSverre/mire/commit/b5815ff04c1c60740658d91cf760f0cdc5efc40e"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:422852e1ea0adce2a4410ea65fae93841b10ed24",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T19:33:16.000+02:00",
-      "title": "Probe equivalent text IF fallback keys",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/422852e1ea0adce2a4410ea65fae93841b10ed24"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:8b4d286aec6415740228ff20b284ee8780834b29",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T19:25:47.000+02:00",
-      "title": "Match equivalent text fallback index probes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/8b4d286aec6415740228ff20b284ee8780834b29"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:7676880610322a050faf498725d256d7542eb022",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T19:19:11.000+02:00",
-      "title": "Deduplicate functional key source parsing",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/7676880610322a050faf498725d256d7542eb022"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:6d5e02b80673fa40a6239ec4cfbf3c6205fe5af7",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T19:14:43.000+02:00",
-      "title": "Index text NULLIF expressions on CHAR columns",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/6d5e02b80673fa40a6239ec4cfbf3c6205fe5af7"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:bffcd129cad4ba7508da54a55f7a02ac9ea2c9b0",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T19:08:19.000+02:00",
-      "title": "Simplify functional projection and NULLIF regressions",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/bffcd129cad4ba7508da54a55f7a02ac9ea2c9b0"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:92690a3f9b4583c991b3ffb6b8a8b02754441f2c",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T19:05:09.000+02:00",
-      "title": "Match equivalent text NULLIF index probes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/92690a3f9b4583c991b3ffb6b8a8b02754441f2c"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:9047d3066456e4dbeef89c3df590e24b0ad4eb0a",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T18:56:59.000+02:00",
-      "title": "Project text NULLIF keys with source collations",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/9047d3066456e4dbeef89c3df590e24b0ad4eb0a"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:60b4717d219ca187c392328b3c0d73a44c52be3b",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T18:45:03.000+02:00",
-      "title": "Index exact-binary text NULLIF expressions",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/60b4717d219ca187c392328b3c0d73a44c52be3b"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:b64b82b0c22f3e4941c90ea11ea2c8275ef84e40",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T18:32:45.000+02:00",
-      "title": "Support fitting text IF branch functional keys",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/b64b82b0c22f3e4941c90ea11ea2c8275ef84e40"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:3e5b652f7e86542902b3b75b511f0f20b3c0223f",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T18:12:06.000+02:00",
-      "title": "Honor IF fallback literal key width",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/3e5b652f7e86542902b3b75b511f0f20b3c0223f"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:cc7f45a5814b109d1b090fafca21d49603e86f04",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T18:02:53.000+02:00",
-      "title": "Index integer IF null branches across key widths",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/cc7f45a5814b109d1b090fafca21d49603e86f04"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:46a93a01a05f61bf5e0f21c596ab7a33a4975afd",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T17:55:38.000+02:00",
-      "title": "Index both signed INT IF null branches",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/46a93a01a05f61bf5e0f21c596ab7a33a4975afd"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:0c4b13b3d56099132fa57bbe68311b9e2e827707",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T17:46:55.000+02:00",
-      "title": "Index signed INT IF NULL branches",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/0c4b13b3d56099132fa57bbe68311b9e2e827707"
-    },
-    {
-      "id": "pr:HelgeSverre/mire:1",
-      "kind": "merge",
-      "repo": "HelgeSverre/mire",
-      "at": "2026-10-12T17:37:12Z",
-      "title": "fix(render): sanitize control chars in cell text; keep wide-glyph pairs valid",
-      "url": "https://github.com/HelgeSverre/mire/pull/1"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:007de4e6a59cd04eab24e398ae0b5279fd60472b",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T17:30:11.000+02:00",
-      "title": "Clean outputs for every F# project",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/007de4e6a59cd04eab24e398ae0b5279fd60472b"
-    },
-    {
       "id": "release:HelgeSverre/ollama-gui:421344937",
       "kind": "release",
       "repo": "HelgeSverre/ollama-gui",
@@ -7347,14 +7147,6 @@
       "at": "2026-10-21T13:38:20Z",
       "title": "v0.8.0",
       "url": "https://github.com/HelgeSverre/fence/releases/tag/v0.8.0"
-    },
-    {
-      "id": "release:HelgeSverre/fence:410649506",
-      "kind": "release",
-      "repo": "HelgeSverre/fence",
-      "at": "2026-10-12T13:53:21Z",
-      "title": "v0.7.0",
-      "url": "https://github.com/HelgeSverre/fence/releases/tag/v0.7.0"
     },
     {
       "id": "release:HelgeSverre/fsdb:419021332",
@@ -7475,14 +7267,6 @@
       "at": "2026-10-13T07:59:59Z",
       "title": "v1.5.0",
       "url": "https://github.com/HelgeSverre/dbdump/releases/tag/v1.5.0"
-    },
-    {
-      "id": "release:HelgeSverre/mire:410857086",
-      "kind": "release",
-      "repo": "HelgeSverre/mire",
-      "at": "2026-10-12T17:37:28Z",
-      "title": "v0.8.0",
-      "url": "https://github.com/HelgeSverre/mire/releases/tag/v0.8.0"
     }
   ]
 }
