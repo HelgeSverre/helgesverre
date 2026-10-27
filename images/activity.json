@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-26T18:29:21.020Z",
-  "since": "2026-10-12T18:29:21.020Z",
+  "fetchedAt": "2026-10-27T00:49:19.692Z",
+  "since": "2026-10-13T00:49:19.692Z",
   "partial": false,
   "events": [
     {
@@ -7019,70 +7019,6 @@
       "at": "2026-10-13T09:23:47.000+02:00",
       "title": "feat(cli): allow explicit table includes to override exclusion rules",
       "url": "https://github.com/HelgeSverre/dbdump/commit/3e50298aa6a23f61bf4356dbb7dbb1b54528e7a1"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:d4f09f4f7aae887c440dde503504f7f3ec8443d0",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T21:39:49.000+02:00",
-      "title": "Prepare Fsdb 0.1.0-preview.7",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/d4f09f4f7aae887c440dde503504f7f3ec8443d0"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:71761a493b20e7ef861f4ae0afcac9ffaa758d79",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T21:34:05.000+02:00",
-      "title": "Use byte-correct LIKE ranges for binary keys",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/71761a493b20e7ef861f4ae0afcac9ffaa758d79"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:51229baf4e720244f5ba6dbc154e43a12e280ccb",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T21:07:22.000+02:00",
-      "title": "Clarify pinned MySQL oracle results for LIKE ranges",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/51229baf4e720244f5ba6dbc154e43a12e280ccb"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:3f0d8cc78c5309ea55102894b4d6d409ea6f795a",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T21:02:34.000+02:00",
-      "title": "Use indexed LIKE ranges for safe constant patterns",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/3f0d8cc78c5309ea55102894b4d6d409ea6f795a"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ed6c5b9a64fbed6fdaa58ac318d400fa9c4a7e2a",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T20:50:49.000+02:00",
-      "title": "Deduplicate binary LIKE contract seed rendering",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ed6c5b9a64fbed6fdaa58ac318d400fa9c4a7e2a"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:d97f51c8aa15bfa7e6849f6ebce6ae6eb2de28a0",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T20:38:52.000+02:00",
-      "title": "Prepare Fsdb 0.1.0-preview.6",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/d97f51c8aa15bfa7e6849f6ebce6ae6eb2de28a0"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:a6bf802ddab6cbdc7732072b0894eb75d65d5414",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T20:35:07.000+02:00",
-      "title": "Use binary LIKE ranges on CHAR keys",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/a6bf802ddab6cbdc7732072b0894eb75d65d5414"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:a3043aac98c91eb980115b90a338a67e8f83824c",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-12T20:29:25.000+02:00",
-      "title": "Use LIKE ranges on indexed TEXT columns",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/a3043aac98c91eb980115b90a338a67e8f83824c"
     },
     {
       "id": "release:HelgeSverre/ollama-gui:421344937",
