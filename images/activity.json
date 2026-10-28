@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-28T00:38:29.376Z",
-  "since": "2026-10-14T00:38:29.376Z",
+  "fetchedAt": "2026-10-28T06:24:08.890Z",
+  "since": "2026-10-14T06:24:08.890Z",
   "partial": false,
   "events": [
     {
@@ -6901,70 +6901,6 @@
       "url": "https://github.com/HelgeSverre/libui/commit/8f5b44c9c7b3079b93522a4ed69cce3ea07c00a7"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:ffb9e71d5036f901b9d89fbc7286095e31fabf60",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T05:46:48.000+02:00",
-      "title": "Use DATE functional key for CAST grouping",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ffb9e71d5036f901b9d89fbc7286095e31fabf60"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:7740a090bb683a3e2da5035e637d1deadb921077",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T05:38:31.000+02:00",
-      "title": "Index DATE results on date and datetime columns",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/7740a090bb683a3e2da5035e637d1deadb921077"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:cb724ff1a99811d8f9432bcf0b8e8747a384d1ed",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T05:21:15.000+02:00",
-      "title": "Prepare Fsdb 0.1.0-preview.9",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/cb724ff1a99811d8f9432bcf0b8e8747a384d1ed"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:7592e817f66b769b9af17dd417ca4353f01ddb53",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T05:12:32.000+02:00",
-      "title": "Index derived calendar parts and correct zero-date QUARTER",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/7592e817f66b769b9af17dd417ca4353f01ddb53"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:a69d434fe5bde31ef02c69a414778716bac60204",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T04:57:40.000+02:00",
-      "title": "Index MONTH and DAY expressions on date columns",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/a69d434fe5bde31ef02c69a414778716bac60204"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:9d71ee91f97f5dd70ca6f3f216341b43c640d685",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T04:45:49.000+02:00",
-      "title": "Index YEAR expressions on date columns",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/9d71ee91f97f5dd70ca6f3f216341b43c640d685"
-    },
-    {
-      "id": "commit:HelgeSverre/libui:243c9bb33e0258b6879f06dd2acc3e8c736ce4b4",
-      "kind": "commit",
-      "repo": "HelgeSverre/libui",
-      "at": "2026-10-14T04:02:08.000+02:00",
-      "title": "Fix platform issues and prepare v0.8.0 (#6)",
-      "url": "https://github.com/HelgeSverre/libui/commit/243c9bb33e0258b6879f06dd2acc3e8c736ce4b4"
-    },
-    {
-      "id": "pr:HelgeSverre/libui:6",
-      "kind": "merge",
-      "repo": "HelgeSverre/libui",
-      "at": "2026-10-14T02:02:09Z",
-      "title": "Fix platform issues and prepare v0.8.0",
-      "url": "https://github.com/HelgeSverre/libui/pull/6"
-    },
-    {
       "id": "release:HelgeSverre/ollama-gui:421344937",
       "kind": "release",
       "repo": "HelgeSverre/ollama-gui",
@@ -7115,14 +7051,6 @@
       "at": "2026-10-14T12:12:51Z",
       "title": "v0.8.1",
       "url": "https://github.com/HelgeSverre/libui/releases/tag/v0.8.1"
-    },
-    {
-      "id": "release:HelgeSverre/libui:412267913",
-      "kind": "release",
-      "repo": "HelgeSverre/libui",
-      "at": "2026-10-14T02:02:37Z",
-      "title": "v0.8.0",
-      "url": "https://github.com/HelgeSverre/libui/releases/tag/v0.8.0"
     }
   ]
 }
