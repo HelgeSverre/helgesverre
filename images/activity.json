@@ -1,9 +1,129 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-28T06:24:08.890Z",
-  "since": "2026-10-14T06:24:08.890Z",
+  "fetchedAt": "2026-10-28T12:20:53.396Z",
+  "since": "2026-10-14T12:20:53.396Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:sema-lisp/sema:62404bf7f07e82e149a56088e38512ce8cc91c2c",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-28T11:52:01.000+01:00",
+      "title": "fix(vm): clear interrupted callback frames before reuse",
+      "url": "https://github.com/sema-lisp/sema/commit/62404bf7f07e82e149a56088e38512ce8cc91c2c"
+    },
+    {
+      "id": "commit:sema-lisp/sema:7be0d7c4b466be1ab758832af7cd49b455b5d440",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-28T11:30:32.000+01:00",
+      "title": "fix(eval): keep async debugger admission separate from sync entry",
+      "url": "https://github.com/sema-lisp/sema/commit/7be0d7c4b466be1ab758832af7cd49b455b5d440"
+    },
+    {
+      "id": "commit:sema-lisp/sema:5b8700ea405079f9aec10fd951a18fc7c53352de",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-28T11:19:10.000+01:00",
+      "title": "test(vm): preserve ownership coverage under reentrancy guards",
+      "url": "https://github.com/sema-lisp/sema/commit/5b8700ea405079f9aec10fd951a18fc7c53352de"
+    },
+    {
+      "id": "commit:sema-lisp/sema:2f405e28bafd8976b933d31f112a84a46d0e4898",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-28T11:12:12.000+01:00",
+      "title": "fix(mcp): enforce source limits before build hooks",
+      "url": "https://github.com/sema-lisp/sema/commit/2f405e28bafd8976b933d31f112a84a46d0e4898"
+    },
+    {
+      "id": "commit:sema-lisp/sema:47ac9be76fef06fd8677385e203ef43bb72c68c5",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-28T11:11:10.000+01:00",
+      "title": "test(llm): isolate missing Nomic credential check",
+      "url": "https://github.com/sema-lisp/sema/commit/47ac9be76fef06fd8677385e203ef43bb72c68c5"
+    },
+    {
+      "id": "pr:sema-lisp/sema:176",
+      "kind": "merge",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-28T11:08:31Z",
+      "title": "docs: propose MCP access for embedded interpreters",
+      "url": "https://github.com/sema-lisp/sema/pull/176"
+    },
+    {
+      "id": "pr:sema-lisp/sema:175",
+      "kind": "merge",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-28T11:08:31Z",
+      "title": "fix(core): enforce Value thread affinity",
+      "url": "https://github.com/sema-lisp/sema/pull/175"
+    },
+    {
+      "id": "pr:sema-lisp/sema:172",
+      "kind": "merge",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-28T11:08:31Z",
+      "title": "Fix retrieval configuration and add native Ollama and Nomic embeddings",
+      "url": "https://github.com/sema-lisp/sema/pull/172"
+    },
+    {
+      "id": "pr:sema-lisp/sema:173",
+      "kind": "merge",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-28T11:08:30Z",
+      "title": "Validate embedding and reranking responses before use or replay",
+      "url": "https://github.com/sema-lisp/sema/pull/173"
+    },
+    {
+      "id": "pr:sema-lisp/sema:180",
+      "kind": "merge",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-28T11:08:30Z",
+      "title": "feat(embed): typed registration, ValueRef, and register_async_fn_cx",
+      "url": "https://github.com/sema-lisp/sema/pull/180"
+    },
+    {
+      "id": "pr:sema-lisp/sema:174",
+      "kind": "merge",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-28T11:08:30Z",
+      "title": "Add six embedding providers through shared retrieval presets",
+      "url": "https://github.com/sema-lisp/sema/pull/174"
+    },
+    {
+      "id": "pr:sema-lisp/sema:178",
+      "kind": "merge",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-28T11:08:30Z",
+      "title": "feat(embed): add Interpreter::register_async_fn",
+      "url": "https://github.com/sema-lisp/sema/pull/178"
+    },
+    {
+      "id": "pr:sema-lisp/sema:171",
+      "kind": "merge",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-28T11:08:30Z",
+      "title": "fix(reader): accept rational components in complex literals",
+      "url": "https://github.com/sema-lisp/sema/pull/171"
+    },
+    {
+      "id": "pr:sema-lisp/sema:182",
+      "kind": "merge",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-28T11:08:28Z",
+      "title": "Release Sema 2.0: embedding APIs, retrieval configuration, and embeddable MCP",
+      "url": "https://github.com/sema-lisp/sema/pull/182"
+    },
+    {
+      "id": "commit:sema-lisp/sema:d83ce67c74647c7d8f6f14503be8f9b742d54006",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-28T11:07:55.000+01:00",
+      "title": "feat(mcp): expose embedded server sessions and prepare Sema 2.0",
+      "url": "https://github.com/sema-lisp/sema/commit/d83ce67c74647c7d8f6f14503be8f9b742d54006"
+    },
     {
       "id": "commit:HelgeSverre/github-narcissist-feed:530da51a4bc3abf2ab06e5a3e330d1e13457bdb7",
       "kind": "commit",
@@ -229,6 +349,22 @@
       "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/a4b2c32311bfdf78bbee8bad58c21b77b6fd429c"
     },
     {
+      "id": "commit:sema-lisp/sema:c2a98654f032876c300794a8555a1cc48e928149",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-22T03:12:31.000+02:00",
+      "title": "docs(core): trim thread-affinity docs and flag the breaking change",
+      "url": "https://github.com/sema-lisp/sema/commit/c2a98654f032876c300794a8555a1cc48e928149"
+    },
+    {
+      "id": "commit:sema-lisp/sema:5fb48abed485560e690a31c24edd189ee749dc2d",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-22T03:12:31.000+02:00",
+      "title": "fix(core): enforce Value thread affinity",
+      "url": "https://github.com/sema-lisp/sema/commit/5fb48abed485560e690a31c24edd189ee749dc2d"
+    },
+    {
       "id": "commit:HelgeSverre/github-narcissist-feed:7c20c634fe75872bbcf2fc6a40820386d7df9181",
       "kind": "commit",
       "repo": "HelgeSverre/github-narcissist-feed",
@@ -237,12 +373,60 @@
       "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/7c20c634fe75872bbcf2fc6a40820386d7df9181"
     },
     {
+      "id": "commit:sema-lisp/sema:8aaefda02da93c9f5f0c83a67315e534cef0ef61",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-22T02:34:57.000+02:00",
+      "title": "build(web): re-vendor the browser runtime after the sema-core additions",
+      "url": "https://github.com/sema-lisp/sema/commit/8aaefda02da93c9f5f0c83a67315e534cef0ef61"
+    },
+    {
+      "id": "commit:sema-lisp/sema:de1ed7381ab975edfda010c32290394581d7fe6a",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-22T02:31:52.000+02:00",
+      "title": "fix(embed): address review of #179 slices",
+      "url": "https://github.com/sema-lisp/sema/commit/de1ed7381ab975edfda010c32290394581d7fe6a"
+    },
+    {
+      "id": "commit:sema-lisp/sema:a4b95dd5c3dacaf03b6ac4fdbb52747070d05a6e",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-22T02:22:00.000+02:00",
+      "title": "docs: document typed registration, ValueRef and register_async_fn_cx",
+      "url": "https://github.com/sema-lisp/sema/commit/a4b95dd5c3dacaf03b6ac4fdbb52747070d05a6e"
+    },
+    {
+      "id": "commit:sema-lisp/sema:dbceb9c1213762396b0ce86a209e313430c1e81d",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-22T02:21:26.000+02:00",
+      "title": "feat(embed): add FromValue/IntoValue and typed registration",
+      "url": "https://github.com/sema-lisp/sema/commit/dbceb9c1213762396b0ce86a209e313430c1e81d"
+    },
+    {
+      "id": "commit:sema-lisp/sema:5ddb85548849bba3d7606d6b8bed8c6c942504b5",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-22T02:16:25.000+02:00",
+      "title": "feat(embed): add register_async_fn_cx with a single-closure context",
+      "url": "https://github.com/sema-lisp/sema/commit/5ddb85548849bba3d7606d6b8bed8c6c942504b5"
+    },
+    {
       "id": "pr:sema-lisp/pi-sema:1",
       "kind": "merge",
       "repo": "sema-lisp/pi-sema",
       "at": "2026-10-22T02:13:59Z",
       "title": "fix: declare Pi host packages as peers",
       "url": "https://github.com/sema-lisp/pi-sema/pull/1"
+    },
+    {
+      "id": "commit:sema-lisp/sema:7f9076c45d8bc7cabcaaea3ceb88b820727e03c5",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-22T02:10:34.000+02:00",
+      "title": "feat(embed): add a public matchable ValueRef view",
+      "url": "https://github.com/sema-lisp/sema/commit/7f9076c45d8bc7cabcaaea3ceb88b820727e03c5"
     },
     {
       "id": "commit:HelgeSverre/vapor-swap:b47a8bddbdfb1fb1ed792449d216c0a23da6c130",
@@ -341,12 +525,116 @@
       "url": "https://github.com/HelgeSverre/fence/commit/b1de6f7ff6408c42a75522df35350ac02ea0f693"
     },
     {
+      "id": "commit:sema-lisp/sema:7cf709b22732f3bcd30e18a9622f82825ff28b73",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-21T12:00:47.000+02:00",
+      "title": "docs: map the MCP embedding plan onto existing runtime and notebook primitives",
+      "url": "https://github.com/sema-lisp/sema/commit/7cf709b22732f3bcd30e18a9622f82825ff28b73"
+    },
+    {
+      "id": "commit:sema-lisp/sema:3c6f17d7a6cdf7b09d53734d6045d8886d95c3e0",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-21T11:42:24.000+02:00",
+      "title": "docs: third revision of the MCP embedding proposal after round two",
+      "url": "https://github.com/sema-lisp/sema/commit/3c6f17d7a6cdf7b09d53734d6045d8886d95c3e0"
+    },
+    {
+      "id": "commit:sema-lisp/sema:74c0b0bf1e049a07dc2527ed37d5b56cab90ea62",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-21T11:27:28.000+02:00",
+      "title": "docs: revise MCP embedding proposal after five-role adversarial review",
+      "url": "https://github.com/sema-lisp/sema/commit/74c0b0bf1e049a07dc2527ed37d5b56cab90ea62"
+    },
+    {
+      "id": "commit:sema-lisp/sema:ac1c2f011a13606895e3ffff039e3c1e0d835865",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-21T10:19:55.000+02:00",
+      "title": "build(web): re-vendor the browser runtime after the stdlib offload change",
+      "url": "https://github.com/sema-lisp/sema/commit/ac1c2f011a13606895e3ffff039e3c1e0d835865"
+    },
+    {
+      "id": "commit:sema-lisp/sema:65c5f7fd3e64698048c8ae8a6486cb09b3016a74",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-21T04:13:42.000+02:00",
+      "title": "fix(embed): address review of register_async_fn",
+      "url": "https://github.com/sema-lisp/sema/commit/65c5f7fd3e64698048c8ae8a6486cb09b3016a74"
+    },
+    {
+      "id": "commit:sema-lisp/sema:4c6687fbd1d35e94ce950ec9451702e54146625d",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-21T04:09:46.000+02:00",
+      "title": "docs: document register_async_fn and archive the async registration plan",
+      "url": "https://github.com/sema-lisp/sema/commit/4c6687fbd1d35e94ce950ec9451702e54146625d"
+    },
+    {
+      "id": "commit:sema-lisp/sema:2d752ca4e5a344726516ddf2cf82eae49b1af1c4",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-21T04:09:40.000+02:00",
+      "title": "feat(embed): add Interpreter::register_async_fn",
+      "url": "https://github.com/sema-lisp/sema/commit/2d752ca4e5a344726516ddf2cf82eae49b1af1c4"
+    },
+    {
+      "id": "commit:sema-lisp/sema:f5cc50bb89f0e403fad44b2cc091de3c35f7127c",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-21T04:09:40.000+02:00",
+      "title": "refactor(stdlib): share async offload cancel hook and assembler with sema-io",
+      "url": "https://github.com/sema-lisp/sema/commit/f5cc50bb89f0e403fad44b2cc091de3c35f7127c"
+    },
+    {
+      "id": "commit:sema-lisp/sema:6729fe9703648102cf20ac90c0f56adf3ce97e52",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-21T04:09:40.000+02:00",
+      "title": "feat(io): add host_async adapter for host-registered async natives",
+      "url": "https://github.com/sema-lisp/sema/commit/6729fe9703648102cf20ac90c0f56adf3ce97e52"
+    },
+    {
+      "id": "commit:sema-lisp/sema:dd280dafe4b3a12edf7806a7d6ee9e958b216a79",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-21T04:09:40.000+02:00",
+      "title": "docs: record D1-D5 approval for async registration plan",
+      "url": "https://github.com/sema-lisp/sema/commit/dd280dafe4b3a12edf7806a7d6ee9e958b216a79"
+    },
+    {
+      "id": "commit:sema-lisp/sema:0597a4916a4ca5a485733e2c9263b668759e2f5c",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-21T04:09:40.000+02:00",
+      "title": "docs: fold review findings into async registration plan",
+      "url": "https://github.com/sema-lisp/sema/commit/0597a4916a4ca5a485733e2c9263b668759e2f5c"
+    },
+    {
+      "id": "commit:sema-lisp/sema:2e37c896425c321e4036deec6869d77c106f87a4",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-21T04:09:40.000+02:00",
+      "title": "docs: propose async native function registration",
+      "url": "https://github.com/sema-lisp/sema/commit/2e37c896425c321e4036deec6869d77c106f87a4"
+    },
+    {
       "id": "commit:sema-lisp/sema:7f9ce80b66a7968c021aa88327b1746648a29e39",
       "kind": "commit",
       "repo": "sema-lisp/sema",
       "at": "2026-10-21T03:43:00.000+02:00",
       "title": "docs: record D1-D5 approval for async registration plan",
       "url": "https://github.com/sema-lisp/sema/commit/7f9ce80b66a7968c021aa88327b1746648a29e39"
+    },
+    {
+      "id": "commit:sema-lisp/sema:a6f3e77259f07d7ce3e13dfff431d3ef220f3f32",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-21T03:42:07.000+02:00",
+      "title": "docs(core): trim thread-affinity docs and flag the breaking change",
+      "url": "https://github.com/sema-lisp/sema/commit/a6f3e77259f07d7ce3e13dfff431d3ef220f3f32"
     },
     {
       "id": "commit:HelgeSverre/fsdb:e53dfaf135b5470891abfa38702ac95b90e38b55",
@@ -365,6 +653,14 @@
       "url": "https://github.com/sema-lisp/sema/commit/919e6207e69c314be72603051a17f1fb3dc37ccd"
     },
     {
+      "id": "commit:sema-lisp/sema:9b96f08491dc5461337e0feb9f3427341718c6db",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-21T03:11:16.000+02:00",
+      "title": "docs: close gaps in the MCP embedding proposal",
+      "url": "https://github.com/sema-lisp/sema/commit/9b96f08491dc5461337e0feb9f3427341718c6db"
+    },
+    {
       "id": "commit:HelgeSverre/fsdb:428fbff9be6815c5998746e9b1105ecf40ef0173",
       "kind": "commit",
       "repo": "HelgeSverre/fsdb",
@@ -381,6 +677,14 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/41fb33c38e9daec2f83a03c3ce45bacf25479aa5"
     },
     {
+      "id": "commit:sema-lisp/sema:aeec08f7f0a47f481fe53f954a3d05ed57942749",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-21T02:08:11.000+02:00",
+      "title": "fix(core): enforce Value thread affinity",
+      "url": "https://github.com/sema-lisp/sema/commit/aeec08f7f0a47f481fe53f954a3d05ed57942749"
+    },
+    {
       "id": "commit:sema-lisp/sema:de2e1341e87825aac75aaf05a2fec36ecd70b477",
       "kind": "commit",
       "repo": "sema-lisp/sema",
@@ -389,12 +693,36 @@
       "url": "https://github.com/sema-lisp/sema/commit/de2e1341e87825aac75aaf05a2fec36ecd70b477"
     },
     {
+      "id": "commit:sema-lisp/sema:bf20dd1450c2419a3b17cd11aee47e9094f6b63c",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-21T02:07:46.000+02:00",
+      "title": "docs: propose MCP access for embedded interpreters",
+      "url": "https://github.com/sema-lisp/sema/commit/bf20dd1450c2419a3b17cd11aee47e9094f6b63c"
+    },
+    {
+      "id": "commit:sema-lisp/sema:89001090861d876a411ab6e71ee4ffa794a408a3",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-21T01:55:01.000+02:00",
+      "title": "docs: record successful DeepInfra embedding smoke test",
+      "url": "https://github.com/sema-lisp/sema/commit/89001090861d876a411ab6e71ee4ffa794a408a3"
+    },
+    {
       "id": "commit:HelgeSverre/fsdb:49787dc0c5e1da255252fa0dde3f05500f7a0aa5",
       "kind": "commit",
       "repo": "HelgeSverre/fsdb",
       "at": "2026-10-21T01:48:31.000+02:00",
       "title": "Keep pending TIMESTAMP claims at DST gap bounds",
       "url": "https://github.com/HelgeSverre/fsdb/commit/49787dc0c5e1da255252fa0dde3f05500f7a0aa5"
+    },
+    {
+      "id": "commit:sema-lisp/sema:ed1a2220a926d9fc450552853b8a3241a5ac5654",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-21T01:48:27.000+02:00",
+      "title": "feat(llm): add shared embedding presets and six provider setups",
+      "url": "https://github.com/sema-lisp/sema/commit/ed1a2220a926d9fc450552853b8a3241a5ac5654"
     },
     {
       "id": "pr:sema-lisp/sema:177",
@@ -419,6 +747,14 @@
       "at": "2026-10-21T01:25:38Z",
       "title": "Record Extension A U+3700–U+37FF ngram parity audit",
       "url": "https://github.com/HelgeSverre/fsdb/pull/204"
+    },
+    {
+      "id": "commit:sema-lisp/sema:6edafdc5e80788468b97aec5f1a290955116eb5e",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-21T01:15:19.000+02:00",
+      "title": "test(llm): verify Nomic embeddings against the live API",
+      "url": "https://github.com/sema-lisp/sema/commit/6edafdc5e80788468b97aec5f1a290955116eb5e"
     },
     {
       "id": "commit:HelgeSverre/fsdb:c7915004e8180a244582c31f6be0f2542776c1b1",
@@ -453,12 +789,28 @@
       "url": "https://github.com/HelgeSverre/fsdb/pull/203"
     },
     {
+      "id": "commit:sema-lisp/sema:36338bd0aa47df03892a7ff21402fa9258df78cf",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-21T00:38:49.000+02:00",
+      "title": "docs: compare embedding providers and outline adapter refactor",
+      "url": "https://github.com/sema-lisp/sema/commit/36338bd0aa47df03892a7ff21402fa9258df78cf"
+    },
+    {
       "id": "commit:HelgeSverre/fsdb:c6c0790cee4b5a577596ab9d49589c5c2fe59758",
       "kind": "commit",
       "repo": "HelgeSverre/fsdb",
       "at": "2026-10-21T00:30:54.000+02:00",
       "title": "Use materialized TIME ranges for correlated queries",
       "url": "https://github.com/HelgeSverre/fsdb/commit/c6c0790cee4b5a577596ab9d49589c5c2fe59758"
+    },
+    {
+      "id": "commit:sema-lisp/sema:2af07199e99954e18f989f8b39e4318f031ea3f1",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-21T00:29:23.000+02:00",
+      "title": "fix(llm): align Nomic batching and defaults with SDK",
+      "url": "https://github.com/sema-lisp/sema/commit/2af07199e99954e18f989f8b39e4318f031ea3f1"
     },
     {
       "id": "pr:HelgeSverre/fsdb:202",
@@ -483,6 +835,14 @@
       "at": "2026-10-20T23:58:48Z",
       "title": "Keep pending TIMESTAMP claims at DST gap bounds",
       "url": "https://github.com/HelgeSverre/fsdb/pull/201"
+    },
+    {
+      "id": "commit:sema-lisp/sema:ef3c89d785546ac5100419dd9d9ca5cd3654fc8a",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-20T23:54:10.000+02:00",
+      "title": "feat(llm): add native Nomic text embeddings",
+      "url": "https://github.com/sema-lisp/sema/commit/ef3c89d785546ac5100419dd9d9ca5cd3654fc8a"
     },
     {
       "id": "commit:HelgeSverre/fsdb:9d59546803feaf968ab8b593c9672d0f92cfeabf",
@@ -549,12 +909,36 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/c9ddaa7c000eac8aa2fba752775cbf528bbd0f50"
     },
     {
+      "id": "commit:sema-lisp/sema:4e7e775b0dc52f9581a518c176d426bdc72c6d3a",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-20T22:26:17.000+02:00",
+      "title": "test(llm): exercise custom embedding and rerank gateway endpoints",
+      "url": "https://github.com/sema-lisp/sema/commit/4e7e775b0dc52f9581a518c176d426bdc72c6d3a"
+    },
+    {
       "id": "commit:HelgeSverre/fsdb:a6fbaa0888b05a91912cce0ebbe069e952d6b409",
       "kind": "commit",
       "repo": "HelgeSverre/fsdb",
       "at": "2026-10-20T22:26:08.000+02:00",
       "title": "Use DATE range lookups for stable correlated sources",
       "url": "https://github.com/HelgeSverre/fsdb/commit/a6fbaa0888b05a91912cce0ebbe069e952d6b409"
+    },
+    {
+      "id": "commit:sema-lisp/sema:0c294f685b79c689069dd9a2f47796f8118a15d8",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-20T22:20:51.000+02:00",
+      "title": "fix(llm): accept Gemini's omitted zero embedding index",
+      "url": "https://github.com/sema-lisp/sema/commit/0c294f685b79c689069dd9a2f47796f8118a15d8"
+    },
+    {
+      "id": "commit:sema-lisp/sema:a966f2262354651997e5d94c049e4d39994b0d36",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-20T22:14:06.000+02:00",
+      "title": "chore(web): refresh runtime fingerprint after retrieval configuration changes",
+      "url": "https://github.com/sema-lisp/sema/commit/a966f2262354651997e5d94c049e4d39994b0d36"
     },
     {
       "id": "pr:HelgeSverre/fsdb:196",
@@ -565,6 +949,22 @@
       "url": "https://github.com/HelgeSverre/fsdb/pull/196"
     },
     {
+      "id": "commit:sema-lisp/sema:2817ff9131a08691f7bd8d0cae0e6ef8bd00e519",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-20T22:13:05.000+02:00",
+      "title": "fix(llm): validate embedding and reranking responses before use",
+      "url": "https://github.com/sema-lisp/sema/commit/2817ff9131a08691f7bd8d0cae0e6ef8bd00e519"
+    },
+    {
+      "id": "commit:sema-lisp/sema:3dfb5bacf3aaaedf943c9e04559fe591c726d5ad",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-20T22:05:25.000+02:00",
+      "title": "fix(llm): isolate retrieval configuration and support native Ollama embeddings",
+      "url": "https://github.com/sema-lisp/sema/commit/3dfb5bacf3aaaedf943c9e04559fe591c726d5ad"
+    },
+    {
       "id": "commit:HelgeSverre/fsdb:79ce7dd1df4caab442628923da9460fb1def3924",
       "kind": "commit",
       "repo": "HelgeSverre/fsdb",
@@ -573,12 +973,28 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/79ce7dd1df4caab442628923da9460fb1def3924"
     },
     {
+      "id": "commit:sema-lisp/sema:a9183741ddb93ca6e22e69991a69c6059e802735",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-20T21:58:59.000+02:00",
+      "title": "build: refresh embedded runtime for rational complex literals",
+      "url": "https://github.com/sema-lisp/sema/commit/a9183741ddb93ca6e22e69991a69c6059e802735"
+    },
+    {
       "id": "pr:HelgeSverre/fsdb:195",
       "kind": "merge",
       "repo": "HelgeSverre/fsdb",
       "at": "2026-10-20T21:58:06Z",
       "title": "Index correlated DATETIME and TIMESTAMP ranges over materialized sources",
       "url": "https://github.com/HelgeSverre/fsdb/pull/195"
+    },
+    {
+      "id": "commit:sema-lisp/sema:e2bc637ec19e894b1309ee83e4866b01e3bb205c",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-20T21:50:11.000+02:00",
+      "title": "fix(reader): accept rational components in complex literals",
+      "url": "https://github.com/sema-lisp/sema/commit/e2bc637ec19e894b1309ee83e4866b01e3bb205c"
     },
     {
       "id": "commit:HelgeSverre/fsdb:43edb8d56e7177a4d94edc302d7ff4f67698c83f",
@@ -6605,86 +7021,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/8a2c2de2f223470b5beeece2cb061a16b34db385"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:de493f5dce4e79fbc38ecf9c93e6f9cdbd6563cb",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T14:18:14.000+02:00",
-      "title": "Preserve component view columns during joined update authorization",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/de493f5dce4e79fbc38ecf9c93e6f9cdbd6563cb"
-    },
-    {
-      "id": "commit:HelgeSverre/libui:d211d4c9392bc03c758ed2b8d3c77354de56a181",
-      "kind": "commit",
-      "repo": "HelgeSverre/libui",
-      "at": "2026-10-14T14:09:42.000+02:00",
-      "title": "Prepare v0.8.1 release",
-      "url": "https://github.com/HelgeSverre/libui/commit/d211d4c9392bc03c758ed2b8d3c77354de56a181"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:3cd125c5fa0c44f1164f24c9bc7f178ec7587c37",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T14:05:18.000+02:00",
-      "title": "Keep CI logs concise and record repeated runner cancellation",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/3cd125c5fa0c44f1164f24c9bc7f178ec7587c37"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:2a5f185ee9641353cc6e5d6d491a840182650291",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T14:02:27.000+02:00",
-      "title": "Authorize joined view updates across distinct definers",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/2a5f185ee9641353cc6e5d6d491a840182650291"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:9ebe48860f3bfb6079c671926ce18e7cbe835b2f",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T13:33:59.000+02:00",
-      "title": "Expose test progress when CI stops unexpectedly",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/9ebe48860f3bfb6079c671926ce18e7cbe835b2f"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:5f33edb41d04a3749979b23210093e39a7dd7731",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T13:30:50.000+02:00",
-      "title": "Qualify independent review response with CI cancellation evidence",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/5f33edb41d04a3749979b23210093e39a7dd7731"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:64d93f726a2264252219cb9035bd6646e3618a63",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T13:15:44.000+02:00",
-      "title": "Claim physical targets for CTE-joined writes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/64d93f726a2264252219cb9035bd6646e3618a63"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:6b2d28186c26798df4b57efc8223a83b22a78f64",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T13:02:54.000+02:00",
-      "title": "Match geographic edge contact and audit near-hole topology",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/6b2d28186c26798df4b57efc8223a83b22a78f64"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:433deb9e118d4318328f2b62f05e1efbc53f035d",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T12:49:30.000+02:00",
-      "title": "Isolate joined mutation targets and verify legacy recovery lifecycle",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/433deb9e118d4318328f2b62f05e1efbc53f035d"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ace1641c665c4fcbd283fe47a54ccdbf42c19c25",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T12:33:37.000+02:00",
-      "title": "Preserve insertion through ordered join views",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ace1641c665c4fcbd283fe47a54ccdbf42c19c25"
-    },
-    {
       "id": "pr:HelgeSverre/sourcefour:8",
       "kind": "merge",
       "repo": "HelgeSverre/sourcefour",
@@ -6693,212 +7029,12 @@
       "url": "https://github.com/HelgeSverre/sourcefour/pull/8"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:691066d3daefe77a50a3ac3a19194b6b6b204e2b",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T12:25:24.000+02:00",
-      "title": "Choose narrower correlated physical range candidates",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/691066d3daefe77a50a3ac3a19194b6b6b204e2b"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:066b71b6749926a0c9fdbbb36c3ee15bfeecd40c",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T12:17:50.000+02:00",
-      "title": "Claim uniquely owned unqualified joined update targets",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/066b71b6749926a0c9fdbbb36c3ee15bfeecd40c"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:2c78d8ecc805d891df48453eb3133fe68ddbe2a6",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T12:11:53.000+02:00",
-      "title": "Claim all named tables in concurrent joined writes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/2c78d8ecc805d891df48453eb3133fe68ddbe2a6"
-    },
-    {
-      "id": "pr:HelgeSverre/libui:7",
-      "kind": "merge",
-      "repo": "HelgeSverre/libui",
-      "at": "2026-10-14T12:11:10Z",
-      "title": "Harden native ownership and lifecycle safety",
-      "url": "https://github.com/HelgeSverre/libui/pull/7"
-    },
-    {
-      "id": "pr:HelgeSverre/libui-ng:1",
-      "kind": "merge",
-      "repo": "HelgeSverre/libui-ng",
-      "at": "2026-10-14T12:08:43Z",
-      "title": "Fix Unix control and timer teardown ownership",
-      "url": "https://github.com/HelgeSverre/libui-ng/pull/1"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:184d8f8dc758d532b839a38b558aee6f272ee5d9",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T12:00:39.000+02:00",
-      "title": "Rebase single-target joined deletes after concurrent writes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/184d8f8dc758d532b839a38b558aee6f272ee5d9"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:e97fd7833fec43a1414915e16a4c53982ae113d6",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T11:55:24.000+02:00",
-      "title": "Rebase single-target joined updates after concurrent writes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/e97fd7833fec43a1414915e16a4c53982ae113d6"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:fe3fb1005543dd37e8628e9747ce9ea21f7dcf29",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T11:46:23.000+02:00",
-      "title": "Recognize geographic hole-edge line touches",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/fe3fb1005543dd37e8628e9747ce9ea21f7dcf29"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:4cde1813eeb3c085e3543f130c25bb8cd68acc69",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T11:38:36.000+02:00",
-      "title": "Support writable cross and coalesced join views",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/4cde1813eeb3c085e3543f130c25bb8cd68acc69"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:629c97d84f4af19725a134b7405b37d634a5a5bf",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T11:31:56.000+02:00",
-      "title": "Validate checked inner-join view writes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/629c97d84f4af19725a134b7405b37d634a5a5bf"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:586392d040760906dce8753fe7977087d8528874",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T11:19:36.000+02:00",
-      "title": "Keep durable benchmark MySQL free of binary logs",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/586392d040760906dce8753fe7977087d8528874"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:92fe4a11a53cd8cfc3f1f1737c3f9be47604b5f0",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T11:10:18.000+02:00",
-      "title": "Record focused durability-matched write baseline",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/92fe4a11a53cd8cfc3f1f1737c3f9be47604b5f0"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:c399e5d00e6dfac9333287d73c7ff3ef82e7c508",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T11:09:09.000+02:00",
-      "title": "Allow focused durability-matched benchmark pair",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/c399e5d00e6dfac9333287d73c7ff3ef82e7c508"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:65aa9d7406472be802073ce62efa74c4519bb608",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T11:02:35.000+02:00",
-      "title": "Record measured full-scan update worker scaling",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/65aa9d7406472be802073ce62efa74c4519bb608"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:92b019ff5fe1c32f0f650cfda681c1738b8f9d88",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T10:59:28.000+02:00",
-      "title": "Measure unindexed concurrent updates with row-change proof",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/92b019ff5fe1c32f0f650cfda681c1738b8f9d88"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:1fb5e5836fda08f4d7c4d9c8626961aa9dd048a6",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T10:53:25.000+02:00",
-      "title": "Allow scheduler jitter in BENCHMARK deadline canary",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/1fb5e5836fda08f4d7c4d9c8626961aa9dd048a6"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:e197f1e11e37dc4a9bae52790b96c99327beb4c6",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T10:42:35.000+02:00",
-      "title": "Allow large packet regression under branch instrumentation",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/e197f1e11e37dc4a9bae52790b96c99327beb4c6"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:9f26b2501d2c02301489f141c8653b331e9e9be3",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T10:42:35.000+02:00",
-      "title": "Serialize full-scan writes against current rows",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/9f26b2501d2c02301489f141c8653b331e9e9be3"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:10713a56ce428da111bf5f1f51ddcef1c87b5672",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T10:28:01.000+02:00",
-      "title": "Reconcile independent review with current implementation",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/10713a56ce428da111bf5f1f51ddcef1c87b5672"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:a37c1c6a99dfde2d5dc336d02858e13ea3cb02eb",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T10:10:05.000+02:00",
-      "title": "Intersect correlated materialized lookup candidates",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/a37c1c6a99dfde2d5dc336d02858e13ea3cb02eb"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:e0437b3092ad291f309732642d64aaa19f43e7d3",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T09:52:32.000+02:00",
-      "title": "Preserve indexed numeric CAST warning lifetime",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/e0437b3092ad291f309732642d64aaa19f43e7d3"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:2d4ca4a7a551472de7eb9bd71f6fc2875f3b6327",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T09:48:26.000+02:00",
-      "title": "Keep timing canaries out of shared CI runners",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/2d4ca4a7a551472de7eb9bd71f6fc2875f3b6327"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:9be7990dde2b3878a04d57ddc86e90cadb872d29",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T09:42:42.000+02:00",
-      "title": "Record numeric CAST bound lookup comparison",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/9be7990dde2b3878a04d57ddc86e90cadb872d29"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:f157d68422f8572dce1f6dd1b0cd5a5983b5082b",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T09:42:23.000+02:00",
-      "title": "Use clean numeric CAST bounds for indexed lookups",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/f157d68422f8572dce1f6dd1b0cd5a5983b5082b"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:9e178f668b7d216a73e7bf649d7cfb280287af9e",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-14T09:24:33.000+02:00",
-      "title": "Harden embedded commit feeds and add PR validation",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/9e178f668b7d216a73e7bf649d7cfb280287af9e"
-    },
-    {
-      "id": "commit:HelgeSverre/libui:8f5b44c9c7b3079b93522a4ed69cce3ea07c00a7",
-      "kind": "commit",
-      "repo": "HelgeSverre/libui",
-      "at": "2026-10-14T08:54:26.000+02:00",
-      "title": "Harden native ownership and lifecycle safety",
-      "url": "https://github.com/HelgeSverre/libui/commit/8f5b44c9c7b3079b93522a4ed69cce3ea07c00a7"
+      "id": "release:sema-lisp/sema:426629432",
+      "kind": "release",
+      "repo": "sema-lisp/sema",
+      "at": "2026-10-28T12:17:24Z",
+      "title": "v2.0.0",
+      "url": "https://github.com/sema-lisp/sema/releases/tag/v2.0.0"
     },
     {
       "id": "release:HelgeSverre/ollama-gui:421344937",
@@ -7043,14 +7179,6 @@
       "at": "2026-10-14T15:15:25Z",
       "title": "v0.0.11",
       "url": "https://github.com/HelgeSverre/pest-to-phpunit/releases/tag/v0.0.11"
-    },
-    {
-      "id": "release:HelgeSverre/libui:412677479",
-      "kind": "release",
-      "repo": "HelgeSverre/libui",
-      "at": "2026-10-14T12:12:51Z",
-      "title": "v0.8.1",
-      "url": "https://github.com/HelgeSverre/libui/releases/tag/v0.8.1"
     }
   ]
 }
