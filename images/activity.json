@@ -1,9 +1,25 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-29T06:24:19.041Z",
-  "since": "2026-10-15T06:24:19.041Z",
+  "fetchedAt": "2026-10-29T12:22:01.252Z",
+  "since": "2026-10-15T12:22:01.252Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/nvmr:e4b129b4284ebda8708899472ef74a5eca8133de",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-29T11:13:22.000+01:00",
+      "title": "Add project website",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/e4b129b4284ebda8708899472ef74a5eca8133de"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:2c65dd467437730cee245e9dcbf38d25d1b1ba69",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-29T11:13:22.000+01:00",
+      "title": "Rename project to nvmr",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/2c65dd467437730cee245e9dcbf38d25d1b1ba69"
+    },
     {
       "id": "commit:sema-lisp/sema:0fb0dfd3e372bedbd5539fb63d4b380c4af5a384",
       "kind": "commit",
@@ -189,6 +205,110 @@
       "url": "https://github.com/HelgeSverre/trace-context/commit/03ba7904cc86d07942a4b34c66871fcfa9a77548"
     },
     {
+      "id": "commit:HelgeSverre/nvmr:30de9c4dece4ae20933d1712b3b12c887322941a",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T22:12:35.000+02:00",
+      "title": "Docker reference benchmark results (Linux arm64, 2 pinned CPUs)",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/30de9c4dece4ae20933d1712b3b12c887322941a"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:85808c9bcb28ac7533ef7be0d82d17ab2128dc60",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T16:54:07.000+02:00",
+      "title": "Host benchmark results (Apple M2 Max, macOS 15.6)",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/85808c9bcb28ac7533ef7be0d82d17ab2128dc60"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:c42f9a4a1fe0428843773fc426dae10849c922be",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T16:22:28.000+02:00",
+      "title": "bench: serve the install mirror on a free port",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/c42f9a4a1fe0428843773fc426dae10849c922be"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:2280a98795030dadb86391ea0eaa738cc9acdebc",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T16:22:28.000+02:00",
+      "title": "macOS: nvm-core links libSystem only",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/2280a98795030dadb86391ea0eaa738cc9acdebc"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:c871fb2cc3b49547947b35f3381ec54a1c5584e8",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T15:33:17.000+02:00",
+      "title": "Reproducible benchmark and profiling harness; AGENTS.md",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/c871fb2cc3b49547947b35f3381ec54a1c5584e8"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:2933b33bf209660060825c93a02ad0d3d1f19215",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T15:14:19.000+02:00",
+      "title": "NVM_TIMINGS=1 prints nvm-core's in-process timings",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/2933b33bf209660060825c93a02ad0d3d1f19215"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:affa5b75e87ed5e2f76d2447a03c548a1a850124",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T15:14:19.000+02:00",
+      "title": "Remove ad-hoc probe scripts and scripts/perf.sh",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/affa5b75e87ed5e2f76d2447a03c548a1a850124"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:4d3acd19a16208b7856dd0f5aa0e69599ede463e",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T15:14:13.000+02:00",
+      "title": "Port upstream and fnm test cases; fix the divergences they found",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/4d3acd19a16208b7856dd0f5aa0e69599ede463e"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:2a6bfc48ec5e4f8c21685320af2348744c61209c",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T13:19:35.000+02:00",
+      "title": "Gate: rustfmt and clippy checks; doc counts",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/2a6bfc48ec5e4f8c21685320af2348744c61209c"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:bed5d3b4d129b4bd3498a49c97ebc57beec11d29",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T13:13:30.000+02:00",
+      "title": "Send NVM_AUTH_HEADER on every fetch; uninstall --; safer installer",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/bed5d3b4d129b4bd3498a49c97ebc57beec11d29"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:a181841252d092eb5c6f0ab1eddac3ae1a896465",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T13:11:45.000+02:00",
+      "title": "Clean up: split modules, clippy-clean, simpler nvm-fetch protocol",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/a181841252d092eb5c6f0ab1eddac3ae1a896465"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:92681256b876084c655463a9cc07faad1d16ea45",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T13:03:49.000+02:00",
+      "title": "Source builds, io.js/old-layout recognition, Ctrl-C handling",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/92681256b876084c655463a9cc07faad1d16ea45"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:90001f3a81f73deeba89df4d2df74a605d2c9865",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T13:01:29.000+02:00",
+      "title": "Format with rustfmt",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/90001f3a81f73deeba89df4d2df74a605d2c9865"
+    },
+    {
       "id": "commit:HelgeSverre/github-narcissist-feed:486c5bfb93d508bcf9d00a1b99c1f35655de6eec",
       "kind": "commit",
       "repo": "HelgeSverre/github-narcissist-feed",
@@ -333,12 +453,44 @@
       "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/2ea79c58f5354982326c190d9feeac318e1c5b68"
     },
     {
+      "id": "commit:HelgeSverre/nvmr:bb3aa835f663113af0ef88e56fa32a0f602e29aa",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T03:51:52.000+02:00",
+      "title": "Remove stray npm lockfile created by a test run",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/bb3aa835f663113af0ef88e56fa32a0f602e29aa"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:206f233855934f3d8c62d90f8b5b3b718a7ad241",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T03:51:42.000+02:00",
+      "title": "Docs: final counts and known remaining differences",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/206f233855934f3d8c62d90f8b5b3b718a7ad241"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:b03f4efbc70303287ec7a11e7c4b85659e0fc13f",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T03:45:04.000+02:00",
+      "title": "Restore silent use --lts quirk",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/b03f4efbc70303287ec7a11e7c4b85659e0fc13f"
+    },
+    {
       "id": "commit:HelgeSverre/github-narcissist-feed:c39f1bbf6471e458bb10647282454dceba5b3694",
       "kind": "commit",
       "repo": "HelgeSverre/github-narcissist-feed",
       "at": "2026-10-22T03:43:27.000+02:00",
       "title": "Replace icon with a glossy dark tile and frosted star-and-person glyph",
       "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/c39f1bbf6471e458bb10647282454dceba5b3694"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:0dd51ec023a4c76a8bbba9ccd687584498d92f56",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T03:41:37.000+02:00",
+      "title": "Port upstream arg semantics (use/which/run/exec/alias/unalias), read-only NVM_DIR, scenario 7",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/0dd51ec023a4c76a8bbba9ccd687584498d92f56"
     },
     {
       "id": "commit:HelgeSverre/github-narcissist-feed:17ac76b4dcdbd0c4eb3c0b02e09e31ca0e91f5d8",
@@ -357,12 +509,36 @@
       "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/20fc010b2d7cb67caf2d8bbcf85aebe07a18f423"
     },
     {
+      "id": "commit:HelgeSverre/nvmr:29f2b937f64d8159134c2bc302bc30212570a664",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T03:20:16.000+02:00",
+      "title": "Colour ls-remote parity; gate includes it",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/29f2b937f64d8159134c2bc302bc30212570a664"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:8ddfe324194eb7c368ad7c2988686eb0f31c3ce9",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T03:18:20.000+02:00",
+      "title": "Spec: reproduced quirks, status; README",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/8ddfe324194eb7c368ad7c2988686eb0f31c3ce9"
+    },
+    {
       "id": "commit:HelgeSverre/github-narcissist-feed:a4b2c32311bfdf78bbee8bad58c21b77b6fd429c",
       "kind": "commit",
       "repo": "HelgeSverre/github-narcissist-feed",
       "at": "2026-10-22T03:18:04.000+02:00",
       "title": "Regenerate README header from the real UI with gpt-image-2",
       "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/a4b2c32311bfdf78bbee8bad58c21b77b6fd429c"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:8b4b62fa77d43dd548faf55c30753fae37c7ed09",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T03:17:54.000+02:00",
+      "title": "README, spec updates: reproduced quirks, status, eval channel",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/8b4b62fa77d43dd548faf55c30753fae37c7ed09"
     },
     {
       "id": "commit:sema-lisp/sema:c2a98654f032876c300794a8555a1cc48e928149",
@@ -381,6 +557,22 @@
       "url": "https://github.com/sema-lisp/sema/commit/5fb48abed485560e690a31c24edd189ee749dc2d"
     },
     {
+      "id": "commit:HelgeSverre/nvmr:b1cff44975e4b65643155823cf3027b3516350b7",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T03:11:00.000+02:00",
+      "title": "Installer, static bundle script",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/b1cff44975e4b65643155823cf3027b3516350b7"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:df5b07580642da6ff16ab410553802c1e50683da",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T03:09:08.000+02:00",
+      "title": "debug, install lock, third-party hook (scenario 6 identical)",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/df5b07580642da6ff16ab410553802c1e50683da"
+    },
+    {
       "id": "commit:HelgeSverre/github-narcissist-feed:7c20c634fe75872bbcf2fc6a40820386d7df9181",
       "kind": "commit",
       "repo": "HelgeSverre/github-narcissist-feed",
@@ -389,12 +581,76 @@
       "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/7c20c634fe75872bbcf2fc6a40820386d7df9181"
     },
     {
+      "id": "commit:HelgeSverre/nvmr:350d95627570f56ecdcdf34237caec1d6528b5e8",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T03:05:49.000+02:00",
+      "title": "System node, offline cache resolution, mirror validation, prefix guard (scenarios 4-5 identical)",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/350d95627570f56ecdcdf34237caec1d6528b5e8"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:8c16083ba67937b6691f4310d6fbfb00b91c852f",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T02:58:46.000+02:00",
+      "title": "MANPATH/NODE_PATH parity, single-spawn eval file",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/8c16083ba67937b6691f4310d6fbfb00b91c852f"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:614c1c70f596cb40e1c024a7c90769c06a372815",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T02:50:55.000+02:00",
+      "title": "fish integration",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/614c1c70f596cb40e1c024a7c90769c06a372815"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:ef81d269188973b2b2c5dcebfca89e9456bdba66",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T02:49:02.000+02:00",
+      "title": "Shell integration: auto modes, helpers, lazy mode, nvm-exec, completion (bash/zsh parity)",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/ef81d269188973b2b2c5dcebfca89e9456bdba66"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:aea7f54d17b2098882a53f5de29d1c9a63b33c76",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T02:47:17.000+02:00",
+      "title": "npm features: install-latest-npm, reinstall-packages, default-packages, install flags (scenario 3 identical)",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/aea7f54d17b2098882a53f5de29d1c9a63b33c76"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:e31b951f1e2237560a42f24010006db0d6d67bb9",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T02:41:39.000+02:00",
+      "title": "Colour output, set-colors, unload; colour parity harness",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/e31b951f1e2237560a42f24010006db0d6d67bb9"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:35135d286c1dfb8fa50edae3320c12dbfc5d61f0",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T02:37:59.000+02:00",
+      "title": "Scenario 2: nvmrc, env, aliases, flags parity (86 commands identical)",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/35135d286c1dfb8fa50edae3320c12dbfc5d61f0"
+    },
+    {
       "id": "commit:sema-lisp/sema:8aaefda02da93c9f5f0c83a67315e534cef0ef61",
       "kind": "commit",
       "repo": "sema-lisp/sema",
       "at": "2026-10-22T02:34:57.000+02:00",
       "title": "build(web): re-vendor the browser runtime after the sema-core additions",
       "url": "https://github.com/sema-lisp/sema/commit/8aaefda02da93c9f5f0c83a67315e534cef0ef61"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:1725e28570018991c826a16a6273809eab0b8a82",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T02:32:41.000+02:00",
+      "title": "ls-remote/install/uninstall/exec/run match upstream (49-command scenario)",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/1725e28570018991c826a16a6273809eab0b8a82"
     },
     {
       "id": "commit:sema-lisp/sema:de1ed7381ab975edfda010c32290394581d7fe6a",
@@ -443,6 +699,30 @@
       "at": "2026-10-22T02:10:34.000+02:00",
       "title": "feat(embed): add a public matchable ValueRef view",
       "url": "https://github.com/sema-lisp/sema/commit/7f9076c45d8bc7cabcaaea3ceb88b820727e03c5"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:8f56bcdf7ba275c21e2036e9d46771d69addb572",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T02:09:12.000+02:00",
+      "title": "Remote commands: ls-remote, install, uninstall, run, exec",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/8f56bcdf7ba275c21e2036e9d46771d69addb572"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:e4cf569ff4a0410b00914ffc1798739e9fcad1a6",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T01:33:22.000+02:00",
+      "title": "Offline core, nvm-fetch, shell function, Docker dev image",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/e4cf569ff4a0410b00914ffc1798739e9fcad1a6"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:ae2831a9d61c5e35dfcf79f9fd829906bc5803f3",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-10-22T01:30:51.000+02:00",
+      "title": "Initial slice: offline core, shell function, Docker dev image",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/ae2831a9d61c5e35dfcf79f9fd829906bc5803f3"
     },
     {
       "id": "commit:HelgeSverre/vapor-swap:b47a8bddbdfb1fb1ed792449d216c0a23da6c130",
@@ -5605,14 +5885,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/pull/50"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:793101d313e9f25b5770db3685fab9520e11b25a",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T14:11:19.000+02:00",
-      "title": "Condense independent review disposition",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/793101d313e9f25b5770db3685fab9520e11b25a"
-    },
-    {
       "id": "pr:HelgeSverre/fsdb:52",
       "kind": "merge",
       "repo": "HelgeSverre/fsdb",
@@ -5627,382 +5899,6 @@
       "at": "2026-10-15T14:10:26Z",
       "title": "Add TIME_TO_SEC and warn on unparseable TIME input",
       "url": "https://github.com/HelgeSverre/fsdb/pull/51"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:804ade8ab775dd4c438dee9ed3bcceb4273aae2d",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T14:08:12.000+02:00",
-      "title": "Narrow correlated NULL-safe equality probes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/804ade8ab775dd4c438dee9ed3bcceb4273aae2d"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:41d2a4c877555a53aef3aa58599ae4586c2ff7a9",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T13:57:26.000+02:00",
-      "title": "Distinguish legacy CJK punctuation in ngram keys",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/41d2a4c877555a53aef3aa58599ae4586c2ff7a9"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:f28eb473b99b417c5fc6bf24f9d8e0609b3bd893",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T13:49:40.000+02:00",
-      "title": "Share repeated CTE sources in joined view writes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/f28eb473b99b417c5fc6bf24f9d8e0609b3bd893"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:35baa2a9be7429d75d763282ca44735dff75454c",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T13:38:33.000+02:00",
-      "title": "Recheck independent review against current head",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/35baa2a9be7429d75d763282ca44735dff75454c"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:314b677020b3dbbc51d02c730f72cb6c7438465d",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T13:30:10.000+02:00",
-      "title": "Record current durable wire and embedded write checkpoint",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/314b677020b3dbbc51d02c730f72cb6c7438465d"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:427c74d109990811ae6a1838ae4e17c487abd65c",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T13:25:18.000+02:00",
-      "title": "Bound materialized correlated LIKE OR branches",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/427c74d109990811ae6a1838ae4e17c487abd65c"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:6c83b2be2d3991eefb1e2d9d8df693f98f171141",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T13:17:45.000+02:00",
-      "title": "Bound correlated binary LIKE probes over materialized rows",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/6c83b2be2d3991eefb1e2d9d8df693f98f171141"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ba293695bb464e8f1da78741fe5025073f53ea44",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T12:59:38.000+02:00",
-      "title": "Record materialized correlated LIKE planning gap",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ba293695bb464e8f1da78741fe5025073f53ea44"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:1f9220d8fdc903c0bf97fdfceec97c2e05eb4fd6",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T12:55:39.000+02:00",
-      "title": "Recheck independent review against current head",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/1f9220d8fdc903c0bf97fdfceec97c2e05eb4fd6"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:c4d37b47fa4a16b1cce5b7c93c62a0f19b7dca73",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T12:53:25.000+02:00",
-      "title": "Support renamed and joined CTE sources in view updates",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/c4d37b47fa4a16b1cce5b7c93c62a0f19b7dca73"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:1f9ed0da19df319ee179dfa8266e2ca129864424",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T12:48:52.000+02:00",
-      "title": "Allow joined view updates through independent CTE sources",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/1f9ed0da19df319ee179dfa8266e2ca129864424"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:011c9f89ad2944789d6e5adbbff100c2aa584db0",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T12:38:43.000+02:00",
-      "title": "Match CJK punctuation forms in ngram collation keys",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/011c9f89ad2944789d6e5adbbff100c2aa584db0"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:d6477e151305788bdbdfc7513aa69946c8de3e62",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T12:25:52.000+02:00",
-      "title": "Extend geographic hole-edge oracle to high latitudes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/d6477e151305788bdbdfc7513aa69946c8de3e62"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ff3db6fdebb73d6291bb6c85ed4ec7a03b4d9e0c",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T12:22:51.000+02:00",
-      "title": "Show bounded commit subscriptions in embedding examples",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ff3db6fdebb73d6291bb6c85ed4ec7a03b4d9e0c"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:66df12dd618a70dc43aedeaf3545a2fac9f45e53",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T12:15:30.000+02:00",
-      "title": "Check every joined row for view inserts",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/66df12dd618a70dc43aedeaf3545a2fac9f45e53"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:34613427b890a08a0bb5bfb77f9b57bad2809f86",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T12:06:47.000+02:00",
-      "title": "Record current durable wire and embedded write checkpoint",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/34613427b890a08a0bb5bfb77f9b57bad2809f86"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:7834ba4c1d8448313dd993a2cd0f6c4f89deebec",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T11:57:13.000+02:00",
-      "title": "Bound ngram scoring on right join nullable sources",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/7834ba4c1d8448313dd993a2cd0f6c4f89deebec"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:e470040b6d4b2ea06e40762f2861f74b648bb517",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T11:48:05.000+02:00",
-      "title": "Validate every original joined-view check partner",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/e470040b6d4b2ea06e40762f2861f74b648bb517"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:e9a2adcc521a502d7a67c9cbc8eae5f2ceacc8c8",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T11:40:29.000+02:00",
-      "title": "Bound correlated functional text NOT BETWEEN candidates",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/e9a2adcc521a502d7a67c9cbc8eae5f2ceacc8c8"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:8951599b87149b339e2556c8fa45f01cee6062dd",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T11:34:41.000+02:00",
-      "title": "Bound correlated text NOT BETWEEN candidates",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/8951599b87149b339e2556c8fa45f01cee6062dd"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:bed2a5c037f07462cdc7dff3529df24adf315820",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T11:23:22.000+02:00",
-      "title": "Bound ngram scoring on nullable join sources",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/bed2a5c037f07462cdc7dff3529df24adf315820"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:44b122e12663357030a73a4bf2461c30d4d7c059",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T11:09:21.000+02:00",
-      "title": "Drain group commit batches with bounded stack",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/44b122e12663357030a73a4bf2461c30d4d7c059"
-    },
-    {
-      "id": "commit:HelgeSverre/SpamProtection:01a67443dcf3753c41ace63ff31c9cca25312c08",
-      "kind": "commit",
-      "repo": "HelgeSverre/SpamProtection",
-      "at": "2026-10-15T11:02:37.000+02:00",
-      "title": "Prepare 2.0.0 with reliable tests and descriptive API failures",
-      "url": "https://github.com/HelgeSverre/SpamProtection/commit/01a67443dcf3753c41ace63ff31c9cca25312c08"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:019e8b8ca3905401c8cb35f41a68c4cf7caba1fb",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T10:57:24.000+02:00",
-      "title": "Recheck durable write review finding on current head",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/019e8b8ca3905401c8cb35f41a68c4cf7caba1fb"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:9228587ef1ed0e367dfffa305c32591a1623a25f",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T10:52:03.000+02:00",
-      "title": "Require exact exterior ring contact in geographic topology",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/9228587ef1ed0e367dfffa305c32591a1623a25f"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:7c6e24b8e829f972595d581df360b9c487c76a3f",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T10:37:57.000+02:00",
-      "title": "Audit grouped dependent sources in writable join views",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/7c6e24b8e829f972595d581df360b9c487c76a3f"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:e5ba74b0cb2ceaf3fd9c7085979c3b72895b254d",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T10:31:46.000+02:00",
-      "title": "Audit CJK ngram join range and list bounds",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/e5ba74b0cb2ceaf3fd9c7085979c3b72895b254d"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:4a17634df72ecdb71d7c01745c2e5e3e2e70fb37",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T10:25:44.000+02:00",
-      "title": "Bound correlated decimal ranges with double outer values",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/4a17634df72ecdb71d7c01745c2e5e3e2e70fb37"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ac22e0991ae0f0a97717f6290339ff9e553c7633",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T10:11:38.000+02:00",
-      "title": "Recheck independent review against current main",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ac22e0991ae0f0a97717f6290339ff9e553c7633"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:949441e667780f62743ee005bef8b7146752bc7a",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T10:05:35.000+02:00",
-      "title": "Record current durable concurrent-write checkpoint",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/949441e667780f62743ee005bef8b7146752bc7a"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:3aa4190689757bac69c71e37f4b16f731d4d2fe8",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T09:59:52.000+02:00",
-      "title": "Audit bounded CJK ngram joins against MySQL",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/3aa4190689757bac69c71e37f4b16f731d4d2fe8"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:3064c45093de6a40942b108c9527e7cbba5748c1",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T09:50:57.000+02:00",
-      "title": "Use exact bigint ordering for double range candidates",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/3064c45093de6a40942b108c9527e7cbba5748c1"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:218e0be2a85f1ee8f1209b69144887edf2d6ddd6",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T09:34:49.000+02:00",
-      "title": "Use finite double bounds for correlated integer ranges",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/218e0be2a85f1ee8f1209b69144887edf2d6ddd6"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:1b9974ae1aab79c022d767097216dcc697b1b8da",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T09:26:53.000+02:00",
-      "title": "Audit derived JSON_TABLE chains in updatable views",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/1b9974ae1aab79c022d767097216dcc697b1b8da"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:895cb57c66e93cedda63926b739dcfeede33fa3f",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T09:22:47.000+02:00",
-      "title": "Keep refresh identity regression on disjoint key locks",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/895cb57c66e93cedda63926b739dcfeede33fa3f"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:597c889b909f0b165211c61b973273f13ed3e45a",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T09:16:39.000+02:00",
-      "title": "Recheck independent review against current main",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/597c889b909f0b165211c61b973273f13ed3e45a"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:508477107c92013375bfc205cda246c82e6472b7",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T09:13:10.000+02:00",
-      "title": "Use fractional decimal bounds in integer range probes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/508477107c92013375bfc205cda246c82e6472b7"
-    },
-    {
-      "id": "pr:HelgeSverre/SpamProtection:10",
-      "kind": "merge",
-      "repo": "HelgeSverre/SpamProtection",
-      "at": "2026-10-15T09:04:19Z",
-      "title": "Release SpamProtection 2.0.0",
-      "url": "https://github.com/HelgeSverre/SpamProtection/pull/10"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:41cfd926ff0f5e3258cd2d529baf100bcf56ac00",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T09:03:41.000+02:00",
-      "title": "Record durable concurrent-write checkpoint",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/41cfd926ff0f5e3258cd2d529baf100bcf56ac00"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:38574aa625ba7f7a0dcee2a7da4e6cebad57a519",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T08:59:12.000+02:00",
-      "title": "Use exact mixed numeric bounds for correlated ranges",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/38574aa625ba7f7a0dcee2a7da4e6cebad57a519"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:9dbee44d76d008e4b86e42191b75476cd01af46c",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T08:49:37.000+02:00",
-      "title": "Use decimal range unions for correlated inequality",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/9dbee44d76d008e4b86e42191b75476cd01af46c"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ce27e908bd771441357c1168df87e521beccdcf2",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T08:42:59.000+02:00",
-      "title": "Audit reordered layered JSON_TABLE view writes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ce27e908bd771441357c1168df87e521beccdcf2"
-    },
-    {
-      "id": "commit:HelgeSverre/sourcefour:c589615503113cb1fd5463badbabde08b6395682",
-      "kind": "commit",
-      "repo": "HelgeSverre/sourcefour",
-      "at": "2026-10-15T08:42:20.000+02:00",
-      "title": "docs: require screenshots for visual verification (#10)",
-      "url": "https://github.com/HelgeSverre/sourcefour/commit/c589615503113cb1fd5463badbabde08b6395682"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:9d224140c4b0e1a9f5a0fee29f8a47005e88e416",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T08:37:51.000+02:00",
-      "title": "Audit layered JSON_TABLE chain view grants",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/9d224140c4b0e1a9f5a0fee29f8a47005e88e416"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:91c16d1527ae1b268e6db38964f99c9bc43808bd",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T08:31:01.000+02:00",
-      "title": "Avoid metadata scan for correlated NULL inequality bound",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/91c16d1527ae1b268e6db38964f99c9bc43808bd"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:460f0fe85dd0c6a007d92204b7fde0edb6968e16",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-15T08:26:09.000+02:00",
-      "title": "Union correlated integer inequality range candidates",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/460f0fe85dd0c6a007d92204b7fde0edb6968e16"
-    },
-    {
-      "id": "pr:HelgeSverre/sourcefour:10",
-      "kind": "merge",
-      "repo": "HelgeSverre/sourcefour",
-      "at": "2026-10-15T06:42:20Z",
-      "title": "Require screenshots for visual verification",
-      "url": "https://github.com/HelgeSverre/sourcefour/pull/10"
     },
     {
       "id": "release:sema-lisp/sema:426629432",
@@ -6123,14 +6019,6 @@
       "at": "2026-10-16T09:21:27Z",
       "title": "v0.1.0",
       "url": "https://github.com/HelgeSverre/ryde-cli/releases/tag/v0.1.0"
-    },
-    {
-      "id": "release:HelgeSverre/SpamProtection:413607714",
-      "kind": "release",
-      "repo": "HelgeSverre/SpamProtection",
-      "at": "2026-10-15T09:04:42Z",
-      "title": "2.0.0",
-      "url": "https://github.com/HelgeSverre/SpamProtection/releases/tag/2.0.0"
     }
   ]
 }
