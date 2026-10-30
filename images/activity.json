@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-30T06:23:59.798Z",
-  "since": "2026-10-16T06:23:59.798Z",
+  "fetchedAt": "2026-10-30T12:21:13.331Z",
+  "since": "2026-10-16T12:21:13.331Z",
   "partial": false,
   "events": [
     {
@@ -4533,188 +4533,12 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/f6ca78c9983cd6e41c0d48989d9fe2922dc1672b"
     },
     {
-      "id": "commit:HelgeSverre/ryde-cli:1c72747bea8514722f2d8fff520899c6b12e4988",
-      "kind": "commit",
-      "repo": "HelgeSverre/ryde-cli",
-      "at": "2026-10-16T13:45:11.000+02:00",
-      "title": "Refresh native request signer and reject invalid sessions",
-      "url": "https://github.com/HelgeSverre/ryde-cli/commit/1c72747bea8514722f2d8fff520899c6b12e4988"
-    },
-    {
       "id": "pr:HelgeSverre/fsdb:115",
       "kind": "merge",
       "repo": "HelgeSverre/fsdb",
       "at": "2026-10-16T13:10:25Z",
       "title": "Prevent stack overflow in bulk prepared parameter binding",
       "url": "https://github.com/HelgeSverre/fsdb/pull/115"
-    },
-    {
-      "id": "commit:HelgeSverre/ryde-cli:9a4ac70697005cfb5450d42cf2b20735a85cc6c7",
-      "kind": "commit",
-      "repo": "HelgeSverre/ryde-cli",
-      "at": "2026-10-16T12:01:35.000+02:00",
-      "title": "Add city lookup and agent setup; refresh Android API profile",
-      "url": "https://github.com/HelgeSverre/ryde-cli/commit/9a4ac70697005cfb5450d42cf2b20735a85cc6c7"
-    },
-    {
-      "id": "commit:HelgeSverre/ryde-cli:f807f06e8f795954c750d356cc37b2111b411b34",
-      "kind": "commit",
-      "repo": "HelgeSverre/ryde-cli",
-      "at": "2026-10-16T11:32:53.000+02:00",
-      "title": "Consolidate fixes and dependency upgrades for 0.1.1",
-      "url": "https://github.com/HelgeSverre/ryde-cli/commit/f807f06e8f795954c750d356cc37b2111b411b34"
-    },
-    {
-      "id": "commit:HelgeSverre/ryde-cli:1ceedb0c2fd7ec012f514f75ca56aebcab2ec389",
-      "kind": "commit",
-      "repo": "HelgeSverre/ryde-cli",
-      "at": "2026-10-16T11:19:48.000+02:00",
-      "title": "Prepare 0.1.0 PyPI release and uv installation docs",
-      "url": "https://github.com/HelgeSverre/ryde-cli/commit/1ceedb0c2fd7ec012f514f75ca56aebcab2ec389"
-    },
-    {
-      "id": "commit:HelgeSverre/ryde-cli:397e5ce07f4bdcc2c1bc870718277345d882327c",
-      "kind": "commit",
-      "repo": "HelgeSverre/ryde-cli",
-      "at": "2026-10-16T11:16:55.000+02:00",
-      "title": "Set up uv Trusted Publishing for PyPI releases",
-      "url": "https://github.com/HelgeSverre/ryde-cli/commit/397e5ce07f4bdcc2c1bc870718277345d882327c"
-    },
-    {
-      "id": "commit:HelgeSverre/ryde-cli:319088c5ce32a98840b3df58b84fefec387e7331",
-      "kind": "commit",
-      "repo": "HelgeSverre/ryde-cli",
-      "at": "2026-10-16T11:06:44.000+02:00",
-      "title": "Add branded README visuals and fix bundled map rendering",
-      "url": "https://github.com/HelgeSverre/ryde-cli/commit/319088c5ce32a98840b3df58b84fefec387e7331"
-    },
-    {
-      "id": "commit:HelgeSverre/ryde-cli:ef6fc421c904fdf32cdc6358ca25f1d4298a6f3f",
-      "kind": "commit",
-      "repo": "HelgeSverre/ryde-cli",
-      "at": "2026-10-16T11:03:20.000+02:00",
-      "title": "Avoid reverse DNS during local dashboard startup",
-      "url": "https://github.com/HelgeSverre/ryde-cli/commit/ef6fc421c904fdf32cdc6358ca25f1d4298a6f3f"
-    },
-    {
-      "id": "commit:HelgeSverre/ryde-cli:44ca3677aa01f5d2aa5c77a21557abe3d02c555d",
-      "kind": "commit",
-      "repo": "HelgeSverre/ryde-cli",
-      "at": "2026-10-16T10:56:56.000+02:00",
-      "title": "Allow cold dashboard startup and report safe job failure stages",
-      "url": "https://github.com/HelgeSverre/ryde-cli/commit/44ca3677aa01f5d2aa5c77a21557abe3d02c555d"
-    },
-    {
-      "id": "commit:HelgeSverre/ryde-cli:9cb19978e1462d40347ac6503b3695a3a1c6b3de",
-      "kind": "commit",
-      "repo": "HelgeSverre/ryde-cli",
-      "at": "2026-10-16T10:56:02.000+02:00",
-      "title": "Serve dashboard through a fixed resource table",
-      "url": "https://github.com/HelgeSverre/ryde-cli/commit/9cb19978e1462d40347ac6503b3695a3a1c6b3de"
-    },
-    {
-      "id": "commit:HelgeSverre/ryde-cli:054328036d53e44cabef78475bd83ccbd7cb8f06",
-      "kind": "commit",
-      "repo": "HelgeSverre/ryde-cli",
-      "at": "2026-10-16T10:53:26.000+02:00",
-      "title": "Prepare public Ryde CLI with bundled stats dashboard and agent support",
-      "url": "https://github.com/HelgeSverre/ryde-cli/commit/054328036d53e44cabef78475bd83ccbd7cb8f06"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:b147b9c2b5761a24aee8740b6cac4f55027241ac",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-16T10:24:46.000+02:00",
-      "title": "Record SHOW CREATE TABLE key-order divergence",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/b147b9c2b5761a24aee8740b6cac4f55027241ac"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:4ec3431a1611d8c490fc86c867d5a2d31c0f1d6c",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-16T09:31:34.000+02:00",
-      "title": "Audit sort-key changes during limited write rebasing",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/4ec3431a1611d8c490fc86c867d5a2d31c0f1d6c"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:d13157908613a3447444ec8b7cab6f7121986f08",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-16T09:19:23.000+02:00",
-      "title": "Audit contended limited ordered write rebasing",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/d13157908613a3447444ec8b7cab6f7121986f08"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:a0e7a2581913c615d1a4f820868631f307f82cd3",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-16T08:55:55.000+02:00",
-      "title": "Prepare Fsdb 0.1.0-preview.34",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/a0e7a2581913c615d1a4f820868631f307f82cd3"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:15ceda675763d9a5c7c779252368d1aee87bc50e",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-16T08:45:51.000+02:00",
-      "title": "Allow ordered local union CTEs in recursive joined views",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/15ceda675763d9a5c7c779252368d1aee87bc50e"
-    },
-    {
-      "id": "pr:HelgeSverre/fsdb:114",
-      "kind": "merge",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-16T08:44:50Z",
-      "title": "Record SHOW CREATE TABLE key-order divergence in GAPS.md",
-      "url": "https://github.com/HelgeSverre/fsdb/pull/114"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:d4a3162c881193bac0c17d5976de5cdce70999af",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-16T08:32:35.000+02:00",
-      "title": "Support local union CTEs in recursive joined views",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/d4a3162c881193bac0c17d5976de5cdce70999af"
-    },
-    {
-      "id": "pr:HelgeSverre/fsdb:113",
-      "kind": "merge",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-16T08:01:45Z",
-      "title": "Audit sort-key changes during limited write rebasing",
-      "url": "https://github.com/HelgeSverre/fsdb/pull/113"
-    },
-    {
-      "id": "pr:HelgeSverre/fsdb:112",
-      "kind": "merge",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-16T07:26:13Z",
-      "title": "Audit contended limited ordered write rebasing",
-      "url": "https://github.com/HelgeSverre/fsdb/pull/112"
-    },
-    {
-      "id": "pr:HelgeSverre/fsdb:111",
-      "kind": "merge",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-16T07:04:09Z",
-      "title": "Prepare Fsdb 0.1.0-preview.34",
-      "url": "https://github.com/HelgeSverre/fsdb/pull/111"
-    },
-    {
-      "id": "pr:HelgeSverre/fsdb:110",
-      "kind": "merge",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-16T06:55:09Z",
-      "title": "Allow ordered local union CTEs in recursive joined views",
-      "url": "https://github.com/HelgeSverre/fsdb/pull/110"
-    },
-    {
-      "id": "pr:HelgeSverre/fsdb:109",
-      "kind": "merge",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-16T06:41:16Z",
-      "title": "Support local union CTEs in recursive joined views",
-      "url": "https://github.com/HelgeSverre/fsdb/pull/109"
     },
     {
       "id": "release:sema-lisp/sema:426629432",
@@ -4819,22 +4643,6 @@
       "at": "2026-10-20T08:22:07Z",
       "title": "2.29.0",
       "url": "https://github.com/tempestphp/highlight/releases/tag/2.29.0"
-    },
-    {
-      "id": "release:HelgeSverre/ryde-cli:414776370",
-      "kind": "release",
-      "repo": "HelgeSverre/ryde-cli",
-      "at": "2026-10-16T09:34:44Z",
-      "title": "v0.1.1",
-      "url": "https://github.com/HelgeSverre/ryde-cli/releases/tag/v0.1.1"
-    },
-    {
-      "id": "release:HelgeSverre/ryde-cli:414763720",
-      "kind": "release",
-      "repo": "HelgeSverre/ryde-cli",
-      "at": "2026-10-16T09:21:27Z",
-      "title": "v0.1.0",
-      "url": "https://github.com/HelgeSverre/ryde-cli/releases/tag/v0.1.0"
     }
   ]
 }
