@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "fetchedAt": "2026-10-30T12:21:13.331Z",
-  "since": "2026-10-16T12:21:13.331Z",
+  "fetchedAt": "2026-10-30T18:14:36.556Z",
+  "since": "2026-10-16T18:14:36.556Z",
   "partial": false,
   "events": [
     {
@@ -4451,94 +4451,6 @@
       "at": "2026-10-16T20:43:56.000+02:00",
       "title": "Document concurrent app probe lock contention",
       "url": "https://github.com/HelgeSverre/fsdb/commit/6f32573161ef3707055fb196b779c90a3fa69579"
-    },
-    {
-      "id": "commit:tempestphp/highlight:919c3a7998a81425e94ddb218698fdb1af960542",
-      "kind": "commit",
-      "repo": "tempestphp/highlight",
-      "at": "2026-10-16T20:06:48.000+02:00",
-      "title": "fix: highlight llm/with-budget as a call, since Sema defines it as a function",
-      "url": "https://github.com/tempestphp/highlight/commit/919c3a7998a81425e94ddb218698fdb1af960542"
-    },
-    {
-      "id": "commit:HelgeSverre/dev-null-video-remotion:f9e72c800111edb0edb830f5bbef511ed7b740d9",
-      "kind": "commit",
-      "repo": "HelgeSverre/dev-null-video-remotion",
-      "at": "2026-10-16T18:18:51.000+02:00",
-      "title": "feat: pass 2 synced to Deviation: follows + readme scenes, asciinema montage cut, corrected downbeat phase",
-      "url": "https://github.com/HelgeSverre/dev-null-video-remotion/commit/f9e72c800111edb0edb830f5bbef511ed7b740d9"
-    },
-    {
-      "id": "commit:HelgeSverre/dev-null-video-remotion:5c151c862f4195e33cb42fcd91acde00a83f3978",
-      "kind": "commit",
-      "repo": "HelgeSverre/dev-null-video-remotion",
-      "at": "2026-10-16T18:12:10.000+02:00",
-      "title": "chore: commit Geist fonts (OFL) and the final soundtrack mix",
-      "url": "https://github.com/HelgeSverre/dev-null-video-remotion/commit/5c151c862f4195e33cb42fcd91acde00a83f3978"
-    },
-    {
-      "id": "commit:HelgeSverre/dev-null-video-remotion:917e0158b59d043802e7ea568389be988731331f",
-      "kind": "commit",
-      "repo": "HelgeSverre/dev-null-video-remotion",
-      "at": "2026-10-16T18:11:07.000+02:00",
-      "title": "feat: /dev/null launch film synced to Deviation",
-      "url": "https://github.com/HelgeSverre/dev-null-video-remotion/commit/917e0158b59d043802e7ea568389be988731331f"
-    },
-    {
-      "id": "commit:tempestphp/highlight:190c15a85aec5092cd667677c4bd1730e63734de",
-      "kind": "commit",
-      "repo": "tempestphp/highlight",
-      "at": "2026-10-16T18:01:55.000+02:00",
-      "title": "fix: follow Sema's reader for bindings, delimiters and long input",
-      "url": "https://github.com/tempestphp/highlight/commit/190c15a85aec5092cd667677c4bd1730e63734de"
-    },
-    {
-      "id": "commit:tempestphp/highlight:6bbd260da87feb281ea6b8fa452da1c8031ae33a",
-      "kind": "commit",
-      "repo": "tempestphp/highlight",
-      "at": "2026-10-16T17:38:07.000+02:00",
-      "title": "feat: highlight Sema calls, operators, macros and parameters",
-      "url": "https://github.com/tempestphp/highlight/commit/6bbd260da87feb281ea6b8fa452da1c8031ae33a"
-    },
-    {
-      "id": "commit:tempestphp/highlight:f1d951f2730ef4756d44604b05b8b1d18e6df04f",
-      "kind": "commit",
-      "repo": "tempestphp/highlight",
-      "at": "2026-10-16T17:26:26.000+02:00",
-      "title": "feat: add Sema language support",
-      "url": "https://github.com/tempestphp/highlight/commit/f1d951f2730ef4756d44604b05b8b1d18e6df04f"
-    },
-    {
-      "id": "commit:dev-null-sh/dev-null.sh:7ff336ca8ede2c2f82c6fb45df938f1c462a6f71",
-      "kind": "commit",
-      "repo": "dev-null-sh/dev-null.sh",
-      "at": "2026-10-16T17:08:52.000+02:00",
-      "title": "feat: play YouTube, Suno, Spotify and other links in place (#243)",
-      "url": "https://github.com/dev-null-sh/dev-null.sh/commit/7ff336ca8ede2c2f82c6fb45df938f1c462a6f71"
-    },
-    {
-      "id": "pr:dev-null-sh/dev-null.sh:243",
-      "kind": "merge",
-      "repo": "dev-null-sh/dev-null.sh",
-      "at": "2026-10-16T15:02:15Z",
-      "title": "feat: play YouTube, Suno, Spotify and other links in place",
-      "url": "https://github.com/dev-null-sh/dev-null.sh/pull/243"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:f6ca78c9983cd6e41c0d48989d9fe2922dc1672b",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-16T15:01:33.000+02:00",
-      "title": "Prevent stack overflow in bulk prepared parameter binding",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/f6ca78c9983cd6e41c0d48989d9fe2922dc1672b"
-    },
-    {
-      "id": "pr:HelgeSverre/fsdb:115",
-      "kind": "merge",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-16T13:10:25Z",
-      "title": "Prevent stack overflow in bulk prepared parameter binding",
-      "url": "https://github.com/HelgeSverre/fsdb/pull/115"
     },
     {
       "id": "release:sema-lisp/sema:426629432",
