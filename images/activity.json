@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-01T06:19:42.756Z",
-  "since": "2026-10-18T06:19:42.756Z",
+  "fetchedAt": "2026-11-01T18:12:56.271Z",
+  "since": "2026-10-18T18:12:56.271Z",
   "partial": false,
   "events": [
     {
@@ -2051,14 +2051,6 @@
       "at": "2026-10-18T19:20:07Z",
       "title": "Avoid cross-app locking from unrelated qualified foreign keys",
       "url": "https://github.com/HelgeSverre/fsdb/pull/116"
-    },
-    {
-      "id": "commit:HelgeSverre/jake:37f9be4859fd8afeeda4fcb2d247ca0f91ff3131",
-      "kind": "commit",
-      "repo": "HelgeSverre/jake",
-      "at": "2026-10-18T14:52:42.000+02:00",
-      "title": "fix: prevent mobile website overflow",
-      "url": "https://github.com/HelgeSverre/jake/commit/37f9be4859fd8afeeda4fcb2d247ca0f91ff3131"
     },
     {
       "id": "release:sema-lisp/sema:426629432",
