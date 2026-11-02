@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-02T06:28:08.915Z",
-  "since": "2026-10-19T06:28:08.915Z",
+  "fetchedAt": "2026-11-02T12:19:19.512Z",
+  "since": "2026-10-19T12:19:19.512Z",
   "partial": false,
   "events": [
     {
@@ -1499,22 +1499,6 @@
       "at": "2026-10-19T17:56:22Z",
       "title": "fix: handle images selected from the Android photo picker",
       "url": "https://github.com/dev-null-sh/dev-null.sh/pull/494"
-    },
-    {
-      "id": "commit:HelgeSverre/glue:ef3ef0c2f82f1443f14edc729f993cf383d9c65e",
-      "kind": "commit",
-      "repo": "HelgeSverre/glue",
-      "at": "2026-10-19T09:43:41.000+02:00",
-      "title": "docs: embed demo GIF directly in README",
-      "url": "https://github.com/HelgeSverre/glue/commit/ef3ef0c2f82f1443f14edc729f993cf383d9c65e"
-    },
-    {
-      "id": "commit:HelgeSverre/glue:613897f99a905d43e90240d2455c3fd10127606c",
-      "kind": "commit",
-      "repo": "HelgeSverre/glue",
-      "at": "2026-10-19T09:43:16.000+02:00",
-      "title": "docs: showcase Glue chat and slash menu in README",
-      "url": "https://github.com/HelgeSverre/glue/commit/613897f99a905d43e90240d2455c3fd10127606c"
     },
     {
       "id": "release:sema-lisp/sema:426629432",
