@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-02T12:19:19.512Z",
-  "since": "2026-10-19T12:19:19.512Z",
+  "fetchedAt": "2026-11-02T18:15:28.420Z",
+  "since": "2026-10-19T18:15:28.420Z",
   "partial": false,
   "events": [
     {
@@ -1483,22 +1483,6 @@
       "at": "2026-10-20T08:11:08Z",
       "title": "feat: add Sema language support",
       "url": "https://github.com/tempestphp/highlight/pull/218"
-    },
-    {
-      "id": "commit:dev-null-sh/dev-null.sh:92562332b00034e27ff877c3269f920793fd3723",
-      "kind": "commit",
-      "repo": "dev-null-sh/dev-null.sh",
-      "at": "2026-10-19T18:56:22.000+01:00",
-      "title": "fix: handle images selected from the Android photo picker (#494)",
-      "url": "https://github.com/dev-null-sh/dev-null.sh/commit/92562332b00034e27ff877c3269f920793fd3723"
-    },
-    {
-      "id": "pr:dev-null-sh/dev-null.sh:494",
-      "kind": "merge",
-      "repo": "dev-null-sh/dev-null.sh",
-      "at": "2026-10-19T17:56:22Z",
-      "title": "fix: handle images selected from the Android photo picker",
-      "url": "https://github.com/dev-null-sh/dev-null.sh/pull/494"
     },
     {
       "id": "release:sema-lisp/sema:426629432",
