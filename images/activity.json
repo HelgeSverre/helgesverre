@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-03T06:21:10.628Z",
-  "since": "2026-10-20T06:21:10.628Z",
+  "fetchedAt": "2026-11-03T12:17:27.319Z",
+  "since": "2026-10-20T12:17:27.319Z",
   "partial": false,
   "events": [
     {
@@ -1813,14 +1813,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/pull/183"
     },
     {
-      "id": "pr:tempestphp/highlight:218",
-      "kind": "merge",
-      "repo": "tempestphp/highlight",
-      "at": "2026-10-20T08:11:08Z",
-      "title": "feat: add Sema language support",
-      "url": "https://github.com/tempestphp/highlight/pull/218"
-    },
-    {
       "id": "release:HelgeSverre/slack-bolt-php:431982529",
       "kind": "release",
       "repo": "HelgeSverre/slack-bolt-php",
@@ -1939,22 +1931,6 @@
       "at": "2026-10-20T18:16:19Z",
       "title": "v0.1.0-preview.36",
       "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0-preview.36"
-    },
-    {
-      "id": "release:tempestphp/highlight:425146582",
-      "kind": "release",
-      "repo": "tempestphp/highlight",
-      "at": "2026-10-27T07:33:00Z",
-      "title": "2.30.0",
-      "url": "https://github.com/tempestphp/highlight/releases/tag/2.30.0"
-    },
-    {
-      "id": "release:tempestphp/highlight:418156743",
-      "kind": "release",
-      "repo": "tempestphp/highlight",
-      "at": "2026-10-20T08:22:07Z",
-      "title": "2.29.0",
-      "url": "https://github.com/tempestphp/highlight/releases/tag/2.29.0"
     }
   ]
 }
