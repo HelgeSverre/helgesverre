@@ -1,9 +1,609 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-03T12:17:27.319Z",
-  "since": "2026-10-20T12:17:27.319Z",
+  "fetchedAt": "2026-11-03T18:14:37.199Z",
+  "since": "2026-10-20T18:14:37.199Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:a70e10ab7b08f1b9101cb2d7b9446b76b2effd1b",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T18:56:20.000+01:00",
+      "title": "Commit composer.lock so CI runs PHPStan and Pint at the same versions as local",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/a70e10ab7b08f1b9101cb2d7b9446b76b2effd1b"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:e27cb786d358e010c6980585c48060885e243b60",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T18:50:05.000+01:00",
+      "title": "Release 0.2.0",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/e27cb786d358e010c6980585c48060885e243b60"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:7c613fb532e42ecb6ff235e20946a8a4ebb5ad05",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T18:48:08.000+01:00",
+      "title": "Type the Pulse card view name for Larastan",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/7c613fb532e42ecb6ff235e20946a8a4ebb5ad05"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:df0ea3b2aba1c7820d38d21e09a6b2db4a2494a7",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T18:47:59.000+01:00",
+      "title": "Document new vendors, destination policy, loop guard and ingress",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/df0ea3b2aba1c7820d38d21e09a6b2db4a2494a7"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:57f78cb64f598bbd9327217b148d337d47ee849c",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T18:47:59.000+01:00",
+      "title": "Use spoo.me and clck.ru in place of v.gd in default topologies",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/57f78cb64f598bbd9327217b148d337d47ee849c"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:453cfbfd52b1a166cd1148a42d154708c07d7641",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T18:47:03.000+01:00",
+      "title": "Add a health check, a Pulse recorder and card, SlackApiCalled, and a live test with a real queue worker",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/453cfbfd52b1a166cd1148a42d154708c07d7641"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:bbe1e8cb0d5eb56bafc102c35d05be72eafe7fab",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T18:46:36.000+01:00",
+      "title": "Add spoo.me, rlu.ru, clck.ru, redirect services, TinyURL API and YOURLS",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/bbe1e8cb0d5eb56bafc102c35d05be72eafe7fab"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:db8648a1a2b597c5d2722aceae4c6e373d8da11a",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-03T18:46:22.000+01:00",
+      "title": "Organize versioned Markdown documentation",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/db8648a1a2b597c5d2722aceae4c6e373d8da11a"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:6fa41c5a0b1a2fdd921877e480264ae1972669ab",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T18:43:09.000+01:00",
+      "title": "Run kind CI offline and publish each release from one job",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/6fa41c5a0b1a2fdd921877e480264ae1972669ab"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:7948ce4f5f55303526d3d74c8d88d880a47fce0c",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T18:42:29.000+01:00",
+      "title": "Make Helm ingress produce working links",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/7948ce4f5f55303526d3d74c8d88d880a47fce0c"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:728c1550a5d52f9d525e39b52667674ee6ede7c1",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T18:41:11.000+01:00",
+      "title": "Default RAIL_LISTEN in the image so the healthcheck probes 8080",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/728c1550a5d52f9d525e39b52667674ee6ede7c1"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:acbb46a0a44829ceeceb6ad5a296c05fb0e65b1f",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T18:40:02.000+01:00",
+      "title": "Store values too large for a message as Slack files (files option)",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/acbb46a0a44829ceeceb6ad5a296c05fb0e65b1f"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:27992e6e9506f259bb69e96b297ad01e2ac3020f",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T18:39:56.000+01:00",
+      "title": "Report degraded when no mirror is healthy; drop dead state",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/27992e6e9506f259bb69e96b297ad01e2ac3020f"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:c1be05a4348a3879fd858823ed7bb73e59bb81dc",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T18:39:26.000+01:00",
+      "title": "Bound the /api/tree walk and detect aliased cycles in it",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/c1be05a4348a3879fd858823ed7bb73e59bb81dc"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:bf332129a7ad52e4fd28795c8348e6dae6e3cc82",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T18:38:52.000+01:00",
+      "title": "Make the health sweep concurrent, bounded and target-agnostic",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/bf332129a7ad52e4fd28795c8348e6dae6e3cc82"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:6c537184cefae74056113c298aa0cbc7ad0a2572",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T18:37:26.000+01:00",
+      "title": "Trace through non-ASCII and unparseable Location headers",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/6c537184cefae74056113c298aa0cbc7ad0a2572"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:b4ce1f307e4e26d4e190dbfbda2f6f9cfdb39825",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T18:37:03.000+01:00",
+      "title": "Keep a round-robin position per link",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/b4ce1f307e4e26d4e190dbfbda2f6f9cfdb39825"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:78f1bf1fb484c3c019d91a97c195f37f7896edf3",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T18:36:24.000+01:00",
+      "title": "Refuse to shorten loopback, private and link-local targets",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/78f1bf1fb484c3c019d91a97c195f37f7896edf3"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:d262f5804c5b4d74ddb1d27cfef7a9458b7a00e5",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T18:33:20.000+01:00",
+      "title": "Serialize concurrent shortens of the same target",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/d262f5804c5b4d74ddb1d27cfef7a9458b7a00e5"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:6ec1c19e73b523ce97ae1b92549db94c6532183b",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T18:33:01.000+01:00",
+      "title": "Add SlackCache::fake() with assertions, slackcache:topic, Boost guidelines and a failover recipe",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/6ec1c19e73b523ce97ae1b92549db94c6532183b"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:8594d4a8f65b5d2f8712cfd657344a168aebce38",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T18:32:23.000+01:00",
+      "title": "Detect cycles by instance identity and cap shorten chains",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/8594d4a8f65b5d2f8712cfd657344a168aebce38"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:b9edd7a0678284dd1137629b6e4ac49069bfb6b6",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T18:31:12.000+01:00",
+      "title": "Reject non-http rail upstreams and duplicate upstreams",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/b9edd7a0678284dd1137629b6e4ac49069bfb6b6"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:b31b791e16fc29343ec08f7c70dade20afa2a3b2",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T16:33:14.000+01:00",
+      "title": "Use the cleaner Enterprise Edition header without fine print",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/b31b791e16fc29343ec08f7c70dade20afa2a3b2"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:88731573698f3c8040e74339616fe5970e26020c",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T16:31:50.000+01:00",
+      "title": "Use the Enterprise Edition banner as the header",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/88731573698f3c8040e74339616fe5970e26020c"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:b86f42be7537b8e1af64f81bdd8393b216cab651",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T16:30:42.000+01:00",
+      "title": "Replace header with a blueprint-style illustration",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/b86f42be7537b8e1af64f81bdd8393b216cab651"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:82744198f95cdde3d4a52946022f0442ffe441be",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T16:22:41.000+01:00",
+      "title": "README: screenshot of status emoji and reactions in a real channel",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/82744198f95cdde3d4a52946022f0442ffe441be"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:8edb85be6ac366d4a82ffddb495c2963dc439f3c",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T16:17:26.000+01:00",
+      "title": "Bump GitHub Actions to current majors",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/8edb85be6ac366d4a82ffddb495c2963dc439f3c"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:1f950acdcb11cfa05284a361a6885bbaec43f4d0",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T16:17:09.000+01:00",
+      "title": "Replace header with a more enterprise header",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/1f950acdcb11cfa05284a361a6885bbaec43f4d0"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:99254a7216f446857d478540fa7c9055e09a2b80",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T16:15:52.000+01:00",
+      "title": "Document reactions; changelog for v0.8.0",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/99254a7216f446857d478540fa7c9055e09a2b80"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:d7949f5c7a3b239c8169952d0303bee4d43ff727",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T16:14:58.000+01:00",
+      "title": "Add README and header image",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/d7949f5c7a3b239c8169952d0303bee4d43ff727"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:aa2beaf9cb8bc84dc3374c6d3a522a7f8b2e2b5f",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T16:14:58.000+01:00",
+      "title": "Add CI, release and dependabot configuration",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/aa2beaf9cb8bc84dc3374c6d3a522a7f8b2e2b5f"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:c00e2ccc3b823e2c961e2e72ab26d0fe859bfd6f",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T16:14:58.000+01:00",
+      "title": "Add Helm chart deploying the pyramid",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/c00e2ccc3b823e2c961e2e72ab26d0fe859bfd6f"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:056e73aafedf3b04745730f35477f4c251af3d3f",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T16:14:58.000+01:00",
+      "title": "Add container image and docker compose pyramid",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/056e73aafedf3b04745730f35477f4c251af3d3f"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:8425851d07b10afd64705b3eb4af93ffad4a43b2",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T16:14:58.000+01:00",
+      "title": "Add integration tests for nested instances",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/8425851d07b10afd64705b3eb4af93ffad4a43b2"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:9ea5a5e025a11bec3068d399cd00c9ff83d11890",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T16:14:58.000+01:00",
+      "title": "Add HTTP server, health sweeps and CLI",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/9ea5a5e025a11bec3068d399cd00c9ff83d11890"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:c9b6015ecd74a81eb28d568d7350c925538932f4",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T16:14:57.000+01:00",
+      "title": "Add redirect tracing, cycle detection and balancing",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/c9b6015ecd74a81eb28d568d7350c925538932f4"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:25edb35dc5d1c092343d3721d742f5296548b30c",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T16:14:57.000+01:00",
+      "title": "Scaffold crate with upstream vendors and SQLite store",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/25edb35dc5d1c092343d3721d742f5296548b30c"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:5cbe2baf2e0cb384be7585ae93e37996322e0759",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T16:13:38.000+01:00",
+      "title": "Reset doctor failures per run; drop impossible null check",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/5cbe2baf2e0cb384be7585ae93e37996322e0759"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:9fcad6e5b9871a0e3089d40069ddf7c52ed20f3c",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T16:13:25.000+01:00",
+      "title": "Add reactions option and slackcache:decorate",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/9fcad6e5b9871a0e3089d40069ddf7c52ed20f3c"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:0f539c0e9c9f77d2d92ee6ad3b5dfad5f35b36f3",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T16:10:38.000+01:00",
+      "title": "README: full tagged key in emoji example",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/0f539c0e9c9f77d2d92ee6ad3b5dfad5f35b36f3"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:4efe5f5e6c7e6f4387c83847f8021b80a6a2d39e",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T16:10:30.000+01:00",
+      "title": "Document status emoji; changelog for v0.7.0",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/4efe5f5e6c7e6f4387c83847f8021b80a6a2d39e"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:209724e262d09c0558f637015265742e449027da",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T16:10:29.000+01:00",
+      "title": "Add emoji option: status emoji in message previews",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/209724e262d09c0558f637015265742e449027da"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:dcc013e2f27852d58f65c3d4c57eed17dba5cd91",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-03T16:02:06.000+01:00",
+      "title": "Prepare v0.6.0 Agent View starter release",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/dcc013e2f27852d58f65c3d4c57eed17dba5cd91"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:87fc188722343105dc5446532a092f211cc318b4",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T15:36:08.000+01:00",
+      "title": "Fix write-behind ordering, races and durability found in review; doctor queue check",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/87fc188722343105dc5446532a092f211cc318b4"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:3ed3265746b871bd1b1901b2cef3f4365f190da9",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T15:28:47.000+01:00",
+      "title": "Keep queued writes through slow queues and re-syncs; lock queue-side writes",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/3ed3265746b871bd1b1901b2cef3f4365f190da9"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:d75099334444c4c3a33e40b667532043900b98b9",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T15:27:13.000+01:00",
+      "title": "Document background sync and write-behind; changelog for v0.6.0",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/d75099334444c4c3a33e40b667532043900b98b9"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:c1109be4dee7b85757a9b71adfbbbe67c4d6d627",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T15:27:12.000+01:00",
+      "title": "Make per-key locks reentrant so write-behind works on the sync queue",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/c1109be4dee7b85757a9b71adfbbbe67c4d6d627"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:9a3f28b5d4de04eb2364b5f62a30f0bfac6ca915",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T15:18:31.000+01:00",
+      "title": "Add write-behind (async) and background re-sync through the queue",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/9a3f28b5d4de04eb2364b5f62a30f0bfac6ca915"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:46ffcc8dcaba77f433e56b29994029d590c6725b",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T15:12:18.000+01:00",
+      "title": "README: measured encryption overhead",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/46ffcc8dcaba77f433e56b29994029d590c6725b"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:8f28e0850307f72cf28083074ac359b6e9b1d266",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T15:11:58.000+01:00",
+      "title": "Document encryption, compression, doctor, retries and events; changelog for v0.5.0",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/8f28e0850307f72cf28083074ac359b6e9b1d266"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:6b686399f076365c2d6dbcf1c7118985bbd08aa5",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T15:11:24.000+01:00",
+      "title": "Add slackcache:doctor",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/6b686399f076365c2d6dbcf1c7118985bbd08aa5"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:2d3f8e8fbbb8f6b97f3a9778ce34a912f4254c13",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T15:08:24.000+01:00",
+      "title": "Retry Slack server errors and dropped connections with backoff; dispatch events",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/2d3f8e8fbbb8f6b97f3a9778ce34a912f4254c13"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:2d7a1c5e0884305c1a6e667e831c3be2ef882aff",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T15:06:42.000+01:00",
+      "title": "Add encrypt and compress options",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/2d7a1c5e0884305c1a6e667e831c3be2ef882aff"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:fd1d4be0e5a9ecd293d3a42f8b174e261a48f8f1",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-03T14:32:43.000+01:00",
+      "title": "Clarify Socket Mode settings for the Agent View playground",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/fd1d4be0e5a9ecd293d3a42f8b174e261a48f8f1"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:dd15d01cb29406d5313ebd741183ddd0d732af37",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-03T14:31:25.000+01:00",
+      "title": "Add Agent View starter and durable demo with live acceptance",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/dd15d01cb29406d5313ebd741183ddd0d732af37"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:4f04991123f1a2639846f35b3975b6ba2b6781bc",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T14:25:48.000+01:00",
+      "title": "Fix PHPStan finding in slackcache:keys; changelog for v0.4.1",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/4f04991123f1a2639846f35b3975b6ba2b6781bc"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:40302829a77455a2a7a078b7971af09139a5b024",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T14:22:07.000+01:00",
+      "title": "Handle deleted messages and failed replies in history mode, repost before the free plan hides edited keys, reap the lock channel",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/40302829a77455a2a7a078b7971af09139a5b024"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:77a8495bf7ea96a697058655bf28f33dc6792ed2",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T14:17:21.000+01:00",
+      "title": "Document version history and slackcache:keys; changelog for v0.4.0",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/77a8495bf7ea96a697058655bf28f33dc6792ed2"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:e34f1ffbb19e324014ad14831ec09e27b58fce3f",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T14:16:46.000+01:00",
+      "title": "Add version history in threads (history option), deleting threads with their keys",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/e34f1ffbb19e324014ad14831ec09e27b58fce3f"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:48534889848a8eb661c2029ea96c950f4b146376",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T14:13:41.000+01:00",
+      "title": "Add slackcache:keys, a Redis KEYS for the channel",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/48534889848a8eb661c2029ea96c950f4b146376"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:685dae9a524b8c5224d9eeb28420f59a42ff7d03",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T14:12:45.000+01:00",
+      "title": "Test section() on the default store; correct README",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/685dae9a524b8c5224d9eeb28420f59a42ff7d03"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:c410ad35f5a2504f60aa9b421da301481a2f4793",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T14:12:31.000+01:00",
+      "title": "Document tags, sections and locks; changelog for v0.3.0",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/c410ad35f5a2504f60aa9b421da301481a2f4793"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:8a66d5b9c292ef3b50d1fd60bcdf33c4b7ea16e3",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T14:11:26.000+01:00",
+      "title": "Build keyspaces through a typed factory method",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/8a66d5b9c292ef3b50d1fd60bcdf33c4b7ea16e3"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:b96976cdc29b4dc528e4582c10caa0bd0dc129ad",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T14:11:12.000+01:00",
+      "title": "Add cache tags, section(), and a separate lock channel with flushLocks()",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/b96976cdc29b4dc528e4582c10caa0bd0dc129ad"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:c0bc04938a06117dc5392b2f7607b1f61ce0a538",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T14:08:45.000+01:00",
+      "title": "Document Laravel integrations; changelog for v0.2.0",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/c0bc04938a06117dc5392b2f7607b1f61ce0a538"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:edcb4cc960e178c31e176b9419666df053c6396d",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T14:08:24.000+01:00",
+      "title": "Add slack session driver and php artisan about section; test flexible, memo, rate limiting, failover and cache commands",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/edcb4cc960e178c31e176b9419666df053c6396d"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:4fbf5de2d8e33d3a12d2d2010750b2d4b980c1de",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-03T13:54:26.000+01:00",
+      "title": "Keep README installation commands versionless",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/4fbf5de2d8e33d3a12d2d2010750b2d4b980c1de"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:6708dddc5ea30ce279c944ee8d0e9b390b377814",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T13:42:36.000+01:00",
+      "title": "Remove one-off header generation script",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/6708dddc5ea30ce279c944ee8d0e9b390b377814"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:ff7a67f2154e8a9b4ca19050f0c6fa4ded8e79fc",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T13:42:19.000+01:00",
+      "title": "Release v0.1.0",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/ff7a67f2154e8a9b4ca19050f0c6fa4ded8e79fc"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:10b67cfe0d708b1c1b785eeb11153dcc7d9500fa",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T13:32:37.000+01:00",
+      "title": "README: state tested Laravel floor",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/10b67cfe0d708b1c1b785eeb11153dcc7d9500fa"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:30118df28428719f32b807fab484ef62c37dcb05",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T13:32:32.000+01:00",
+      "title": "Pin tested dependency floors: Laravel 12.40+, Testbench 10.8+",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/30118df28428719f32b807fab484ef62c37dcb05"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:cd14a0f249c1ed1afe35c6d28b1c31a7f3e5c2b6",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T13:31:28.000+01:00",
+      "title": "Fix reload races and replica growth, atomic TTL-less locks, private channels; correct README claims",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/cd14a0f249c1ed1afe35c6d28b1c31a7f3e5c2b6"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:bf4e908cfdc987d5d2bf0f520aff8547db7463b3",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T13:26:33.000+01:00",
+      "title": "README with header art, license, changelog, CI matrix",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/bf4e908cfdc987d5d2bf0f520aff8547db7463b3"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:7276b8c6c827c8d553b0f3fc503f0ee8e08debb9",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T13:20:59.000+01:00",
+      "title": "Add base_url option, readable Slack previews, and an opt-in live smoke test",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/7276b8c6c827c8d553b0f3fc503f0ee8e08debb9"
+    },
+    {
+      "id": "commit:HelgeSverre/laravel-slackcache:f0e26818848a9955ba61ddab5bd8cde6daca2171",
+      "kind": "commit",
+      "repo": "HelgeSverre/laravel-slackcache",
+      "at": "2026-11-03T13:19:12.000+01:00",
+      "title": "Laravel cache store persisted to Slack, one message per key",
+      "url": "https://github.com/HelgeSverre/laravel-slackcache/commit/f0e26818848a9955ba61ddab5bd8cde6daca2171"
+    },
     {
       "id": "commit:HelgeSverre/slack-bolt-php:57ebdfce29de96d13f802454adeb5b0d00df24a3",
       "kind": "commit",
@@ -1725,14 +2325,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/pull/190"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:6ffa1a37b673a440f1d4eeced2737994942e48e4",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-20T20:04:58.000+02:00",
-      "title": "Match keyless filesort writes against pending indexed inserts",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/6ffa1a37b673a440f1d4eeced2737994942e48e4"
-    },
-    {
       "id": "pr:HelgeSverre/fsdb:189",
       "kind": "merge",
       "repo": "HelgeSverre/fsdb",
@@ -1741,28 +2333,12 @@
       "url": "https://github.com/HelgeSverre/fsdb/pull/189"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:3c8b82293c24537185e554b4dd261ec2d3586b90",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-20T19:34:37.000+02:00",
-      "title": "Probe DECIMAL range joins in either source order",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/3c8b82293c24537185e554b4dd261ec2d3586b90"
-    },
-    {
       "id": "pr:HelgeSverre/fsdb:188",
       "kind": "merge",
       "repo": "HelgeSverre/fsdb",
       "at": "2026-10-20T19:29:16Z",
       "title": "Release Fsdb 0.1.0-preview.37",
       "url": "https://github.com/HelgeSverre/fsdb/pull/188"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:f1d90019a197bd613ae9942b580259b1cfd92226",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-20T19:18:36.000+02:00",
-      "title": "Match indexed DECIMAL and DOUBLE range joins near 2^53",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/f1d90019a197bd613ae9942b580259b1cfd92226"
     },
     {
       "id": "pr:HelgeSverre/fsdb:187",
@@ -1797,20 +2373,28 @@
       "url": "https://github.com/HelgeSverre/fsdb/pull/185"
     },
     {
-      "id": "pr:HelgeSverre/fsdb:184",
-      "kind": "merge",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-20T17:35:02Z",
-      "title": "Probe DECIMAL/DOUBLE range joins in either source order",
-      "url": "https://github.com/HelgeSverre/fsdb/pull/184"
+      "id": "release:HelgeSverre/rail-rs:433041530",
+      "kind": "release",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T17:57:58Z",
+      "title": "v0.2.0",
+      "url": "https://github.com/HelgeSverre/rail-rs/releases/tag/v0.2.0"
     },
     {
-      "id": "pr:HelgeSverre/fsdb:183",
-      "kind": "merge",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-20T17:26:46Z",
-      "title": "Match indexed DECIMAL/DOUBLE range joins near 2^53",
-      "url": "https://github.com/HelgeSverre/fsdb/pull/183"
+      "id": "release:HelgeSverre/rail-rs:432872660",
+      "kind": "release",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T15:24:34Z",
+      "title": "v0.1.0",
+      "url": "https://github.com/HelgeSverre/rail-rs/releases/tag/v0.1.0"
+    },
+    {
+      "id": "release:HelgeSverre/slack-bolt-php:432848761",
+      "kind": "release",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-03T15:05:40Z",
+      "title": "v0.6.0",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/releases/tag/v0.6.0"
     },
     {
       "id": "release:HelgeSverre/slack-bolt-php:431982529",
