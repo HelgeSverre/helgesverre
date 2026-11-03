@@ -1,9 +1,121 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-02T18:15:28.420Z",
-  "since": "2026-10-19T18:15:28.420Z",
+  "fetchedAt": "2026-11-03T00:31:17.037Z",
+  "since": "2026-10-20T00:31:17.037Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:57ebdfce29de96d13f802454adeb5b0d00df24a3",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-02T22:16:38.000+01:00",
+      "title": "Add typed streaming progress builders and whole-stream limits",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/57ebdfce29de96d13f802454adeb5b0d00df24a3"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:93b4380cdfb00783ddcfb2b92e0cb731f61b43ea",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-02T22:10:07.000+01:00",
+      "title": "Add opt-in Agent View runtime and typed current app context",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/93b4380cdfb00783ddcfb2b92e0cb731f61b43ea"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:f95d7f69e9716146bca03408b8af3432f9ddf395",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-02T21:47:12.000+01:00",
+      "title": "Release v0.3: typed events, public testing and registry scaffolding",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/f95d7f69e9716146bca03408b8af3432f9ddf395"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:9cec4e27888f45bfe31856732f06cc0fbd695ca8",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-02T20:39:34.000+01:00",
+      "title": "Restructure README into a code-led framework tour",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/9cec4e27888f45bfe31856732f06cc0fbd695ca8"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:361cccf3480382038a1765948970adfa5c6f9392",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-02T20:27:54.000+01:00",
+      "title": "Prepare public Composer package and refresh README branding",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/361cccf3480382038a1765948970adfa5c6f9392"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:80a4d031dcebc11779dc2b02321aa5a444f00ef5",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-02T20:18:00.000+01:00",
+      "title": "Lay out architecture diagram from top to bottom",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/80a4d031dcebc11779dc2b02321aa5a444f00ef5"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:1bb8dfdc2644db6b58b69674a231e40f7ad9e8ab",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-02T20:01:41.000+01:00",
+      "title": "Make documentation checks reproducible and clean Git fixtures on Windows",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/1bb8dfdc2644db6b58b69674a231e40f7ad9e8ab"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:a30ee74bc021c6d89b970e32f4f5a04abc05b57b",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-02T19:52:35.000+01:00",
+      "title": "Improve project scaffolding and verify maintained setup documentation",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/a30ee74bc021c6d89b970e32f4f5a04abc05b57b"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:1dcad5bb35f4b5181999f1886d2ce123bac13a7e",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-02T16:19:14.000+01:00",
+      "title": "Record completed production operation verification",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/1dcad5bb35f4b5181999f1886d2ce123bac13a7e"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:d4c050290a2ee18fa8e83a25d1eb9bd66edf8554",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-02T16:15:22.000+01:00",
+      "title": "Isolate optional queue diagnostics and record two-hour reliability results",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/d4c050290a2ee18fa8e83a25d1eb9bd66edf8554"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:b420bcca00f1894b0c532b75737ec0e807f9085f",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-02T14:22:43.000+01:00",
+      "title": "Give drain tests enough lease time on loaded CI workers",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/b420bcca00f1894b0c532b75737ec0e807f9085f"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:09539af4f7dca53499941ed7fbdb2252ae80e86d",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-02T14:19:01.000+01:00",
+      "title": "Add observed worker health and supervised deployment support",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/09539af4f7dca53499941ed7fbdb2252ae80e86d"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:fb443ad5dab663320775375a5c0c73359d09cc92",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-02T08:59:06.000+01:00",
+      "title": "Record completed adopter readiness verification",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/fb443ad5dab663320775375a5c0c73359d09cc92"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:b2898141e3d9938e2a058fec2d09cd772e07ff83",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-02T08:57:06.000+01:00",
+      "title": "Improve application onboarding and verify live Slack delivery",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/b2898141e3d9938e2a058fec2d09cd772e07ff83"
+    },
     {
       "id": "commit:HelgeSverre/nvmr:e4b129b4284ebda8708899472ef74a5eca8133de",
       "kind": "commit",
@@ -45,6 +157,14 @@
       "url": "https://github.com/sema-lisp/sema/commit/62404bf7f07e82e149a56088e38512ce8cc91c2c"
     },
     {
+      "id": "commit:HelgeSverre/slack-bolt-php:436e734588a0d367c6b86f08fe5bb19c8f087ecc",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-28T11:32:25.000+01:00",
+      "title": "docs: record verified v0.2.0 preview release completion",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/436e734588a0d367c6b86f08fe5bb19c8f087ecc"
+    },
+    {
       "id": "commit:sema-lisp/sema:7be0d7c4b466be1ab758832af7cd49b455b5d440",
       "kind": "commit",
       "repo": "sema-lisp/sema",
@@ -53,12 +173,36 @@
       "url": "https://github.com/sema-lisp/sema/commit/7be0d7c4b466be1ab758832af7cd49b455b5d440"
     },
     {
+      "id": "commit:HelgeSverre/slack-bolt-php:1b27a8eb22e2f3ddb0c3f03ee674c4601cdb7dc2",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-28T11:28:15.000+01:00",
+      "title": "chore: prepare v0.2.0 compatibility preview",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/1b27a8eb22e2f3ddb0c3f03ee674c4601cdb7dc2"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:f91ace07b936b02cf20354a6d968a331026c9b18",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-28T11:21:00.000+01:00",
+      "title": "test: cover installation context and typed forms through durable recovery",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/f91ace07b936b02cf20354a6d968a331026c9b18"
+    },
+    {
       "id": "commit:sema-lisp/sema:5b8700ea405079f9aec10fd951a18fc7c53352de",
       "kind": "commit",
       "repo": "sema-lisp/sema",
       "at": "2026-10-28T11:19:10.000+01:00",
       "title": "test(vm): preserve ownership coverage under reentrancy guards",
       "url": "https://github.com/sema-lisp/sema/commit/5b8700ea405079f9aec10fd951a18fc7c53352de"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:f0392186e7fbf845967cde540796a0fe4fc1c37f",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-28T11:13:20.000+01:00",
+      "title": "feat: add typed interaction values and shared form state readers",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/f0392186e7fbf845967cde540796a0fe4fc1c37f"
     },
     {
       "id": "commit:sema-lisp/sema:2f405e28bafd8976b933d31f112a84a46d0e4898",
@@ -149,6 +293,14 @@
       "url": "https://github.com/sema-lisp/sema/pull/182"
     },
     {
+      "id": "commit:HelgeSverre/slack-bolt-php:d8b2ef8993db9a83226f7e6a5f4f36f9be4c7f3e",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-28T11:08:01.000+01:00",
+      "title": "feat: enrich authorized deliveries with typed transport context factories",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/d8b2ef8993db9a83226f7e6a5f4f36f9be4c7f3e"
+    },
+    {
       "id": "commit:sema-lisp/sema:d83ce67c74647c7d8f6f14503be8f9b742d54006",
       "kind": "commit",
       "repo": "sema-lisp/sema",
@@ -157,12 +309,196 @@
       "url": "https://github.com/sema-lisp/sema/commit/d83ce67c74647c7d8f6f14503be8f9b742d54006"
     },
     {
+      "id": "commit:HelgeSverre/slack-bolt-php:a2b51cd2e7d77241de019187dd668b6d3f97a93a",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-28T11:02:57.000+01:00",
+      "title": "feat: add installation hooks and reusable OAuth host routes",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/a2b51cd2e7d77241de019187dd668b6d3f97a93a"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:548e5574e3e03e12c251eff9222290ff2337b2bc",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-28T10:56:27.000+01:00",
+      "title": "feat: add per-install OAuth requests and concurrent browser flows",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/548e5574e3e03e12c251eff9222290ff2337b2bc"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:1c122335c4c7019c04720047108ed27abef41fcc",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-28T10:17:44.000+01:00",
+      "title": "feat: add message filters, function token policy and SSL probes",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/1c122335c4c7019c04720047108ed27abef41fcc"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:a4c50d943c365359aaaed61fab5adb66678145c8",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-28T09:52:14.000+01:00",
+      "title": "feat: add delivery context, structured failures and token identity",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/a4c50d943c365359aaaed61fab5adb66678145c8"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:4b03c1b0156442443459d2a4ee535b77445e29ad",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-26T15:51:37.000+01:00",
+      "title": "docs: audit Bolt JS parity and prioritize relevant PHP gaps",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/4b03c1b0156442443459d2a4ee535b77445e29ad"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:21192afee5efbbd35f90bbcf3e6b07858f5227b2",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-26T15:13:51.000+01:00",
+      "title": "feat: audit SDK transport and prepare v0.1.0 preview",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/21192afee5efbbd35f90bbcf3e6b07858f5227b2"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:ceb602fbd119a87f35084314fb183d5cf9f1d6f3",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-25T14:38:32.000+01:00",
+      "title": "feat: add durable job retention, migrations and history",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/ceb602fbd119a87f35084314fb183d5cf9f1d6f3"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:a7c6b720516d90e9312921a2201da94ef659bb43",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-25T02:07:44.000+02:00",
+      "title": "fix: honor Slack conversation read transport contracts",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/a7c6b720516d90e9312921a2201da94ef659bb43"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:28992b31f815c8d22f0e52985b641eb8fd32bb52",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-24T19:05:31.000+02:00",
+      "title": "feat: add agent sessions and durable cancellable AI demos",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/28992b31f815c8d22f0e52985b641eb8fd32bb52"
+    },
+    {
       "id": "commit:HelgeSverre/github-narcissist-feed:530da51a4bc3abf2ab06e5a3e330d1e13457bdb7",
       "kind": "commit",
       "repo": "HelgeSverre/github-narcissist-feed",
       "at": "2026-10-24T18:48:04.000+02:00",
       "title": "Add website and PWA builds with guided setup and public GitHub access",
       "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/530da51a4bc3abf2ab06e5a3e330d1e13457bdb7"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:6ff01f928c196e6e8b3f6f78e51dd9fa16849b13",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-24T17:43:02.000+02:00",
+      "title": "fix: bound job storage contention and verify busy failures reliably",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/6ff01f928c196e6e8b3f6f78e51dd9fa16849b13"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:028d56cadc62c18537ff4e808868cf298a71d6cb",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-24T17:37:52.000+02:00",
+      "title": "feat: add durable SQLite jobs with recovery and cancellation",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/028d56cadc62c18537ff4e808868cf298a71d6cb"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:f489045d283b8f620ed995ac30e4073111b302c4",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-24T15:40:05.000+02:00",
+      "title": "feat: expand event payloads and scaffolds; document async architecture",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/f489045d283b8f620ed995ac30e4073111b302c4"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:8f3fd46972dbd8e44f90441c523a70bceea1b966",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-24T15:23:57.000+02:00",
+      "title": "docs: inventory current capabilities and prioritize runtime gaps",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/8f3fd46972dbd8e44f90441c523a70bceea1b966"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:9a0d5480f67875cfcc65a37feb98c604a2154253",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-24T13:31:59.000+02:00",
+      "title": "docs: confirm branding belongs to Slack demo only",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/9a0d5480f67875cfcc65a37feb98c604a2154253"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:85440917c8b46535e59e235cfea1d2c71d147e87",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-24T13:17:15.000+02:00",
+      "title": "design: replace demo mascot with minimal vermilion identity",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/85440917c8b46535e59e235cfea1d2c71d147e87"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:db643c5f790f291607721ebecf0a80196a4ed05a",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-24T13:00:27.000+02:00",
+      "title": "feat: add custom workflow functions and protected async handoff",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/db643c5f790f291607721ebecf0a80196a4ed05a"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:9469c9ced9f7fe1826157c3575a9b59d8e0be81c",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-24T12:23:47.000+02:00",
+      "title": "feat: add Slack assistant threads and durable context runtime",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/9469c9ced9f7fe1826157c3575a9b59d8e0be81c"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:29ef0108dd150f4aae90bfa46fd012b2a7451a54",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-24T11:47:48.000+02:00",
+      "title": "feat: add Work Objects and durable bidirectional comments",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/29ef0108dd150f4aae90bfa46fd012b2a7451a54"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:44c78dc9f1807a8962b993ca5a1c2602ee295f1b",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-24T04:01:20.000+02:00",
+      "title": "feat: add Boltling App Home dashboard and care controls",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/44c78dc9f1807a8962b993ca5a1c2602ee295f1b"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:a84e2bcede4aa687636172e4205e453a722ff4e0",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-24T03:50:35.000+02:00",
+      "title": "feat: stream AI replies with tool progress cards and a concise voice",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/a84e2bcede4aa687636172e4205e453a722ff4e0"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:89e9d16171bb16b5e05d8930c01db9c414895c6e",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-24T01:55:39.000+02:00",
+      "title": "feat: add terminal, shared pet and Responses AI demos",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/89e9d16171bb16b5e05d8930c01db9c414895c6e"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:5321c32fa0d7b914062605d2d28af945645eb9ee",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-23T22:26:57.000+02:00",
+      "title": "feat: add Socket Mode runtime and CLI worker",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/5321c32fa0d7b914062605d2d28af945645eb9ee"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:a2d7fc5f425bce474ccf4536419e9b130090562a",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-23T20:48:06.000+02:00",
+      "title": "feat: bootstrap Thunder Bolt PHP framework",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/a2d7fc5f425bce474ccf4536419e9b130090562a"
     },
     {
       "id": "commit:HelgeSverre/ollama-gui:b79a7b8ca537037d1985c69109260ff540b88170",
@@ -1483,6 +1819,46 @@
       "at": "2026-10-20T08:11:08Z",
       "title": "feat: add Sema language support",
       "url": "https://github.com/tempestphp/highlight/pull/218"
+    },
+    {
+      "id": "release:HelgeSverre/slack-bolt-php:431982529",
+      "kind": "release",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-02T21:20:30Z",
+      "title": "v0.5.0",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/releases/tag/v0.5.0"
+    },
+    {
+      "id": "release:HelgeSverre/slack-bolt-php:431974718",
+      "kind": "release",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-02T21:11:54Z",
+      "title": "v0.4.0",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/releases/tag/v0.4.0"
+    },
+    {
+      "id": "release:HelgeSverre/slack-bolt-php:431958488",
+      "kind": "release",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-02T20:53:58Z",
+      "title": "v0.3.0",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/releases/tag/v0.3.0"
+    },
+    {
+      "id": "release:HelgeSverre/slack-bolt-php:426527069",
+      "kind": "release",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-28T10:30:00Z",
+      "title": "v0.2.0",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/releases/tag/v0.2.0"
+    },
+    {
+      "id": "release:HelgeSverre/slack-bolt-php:424337051",
+      "kind": "release",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-10-26T14:15:18Z",
+      "title": "v0.1.0",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/releases/tag/v0.1.0"
     },
     {
       "id": "release:sema-lisp/sema:426629432",
