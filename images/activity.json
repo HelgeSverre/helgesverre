@@ -1,9 +1,305 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-04T12:17:51.071Z",
-  "since": "2026-10-21T12:17:51.071Z",
+  "fetchedAt": "2026-11-04T18:13:58.397Z",
+  "since": "2026-10-21T18:13:58.397Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:d8e985efa9bbf6a65313fc40eda43e9f4d36a2d3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T19:09:17.000+01:00",
+      "title": "Classify order-dependent joined-view insert check",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d8e985efa9bbf6a65313fc40eda43e9f4d36a2d3"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:40f3aa3cf6a7e95bdb287768299112e7d5713a35",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T19:04:15.000+01:00",
+      "title": "Refine geographic point-segment distance with cross-track iteration",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/40f3aa3cf6a7e95bdb287768299112e7d5713a35"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b51e50dccb9a3a733dd554dabaeb5da3e9b36dfd",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T18:48:48.000+01:00",
+      "title": "Identify geographic segment distance strategy gap",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b51e50dccb9a3a733dd554dabaeb5da3e9b36dfd"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:99f72894877c943da64d3b77254c53836c60f07d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T18:45:42.000+01:00",
+      "title": "Isolate geographic polygon distance gap to hole segments",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/99f72894877c943da64d3b77254c53836c60f07d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9771f64c25dd1a22c4161e5cfabb25de353534d8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T18:42:35.000+01:00",
+      "title": "Cache inner-only correlated EXISTS projection validation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9771f64c25dd1a22c4161e5cfabb25de353534d8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6d6e7166ce15c5976e93a7e7286e29744dee341c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T18:35:46.000+01:00",
+      "title": "Probe composed CJK legacy weight bytes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6d6e7166ce15c5976e93a7e7286e29744dee341c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d6cdac1cb1f8674bd9bedb8fafa9fcc6d07d8b61",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T18:32:55.000+01:00",
+      "title": "Compare exact CJK legacy weight bytes with MySQL",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d6cdac1cb1f8674bd9bedb8fafa9fcc6d07d8b61"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6a6f0c1db8a206997e8ba305e9413f5ee6a6deed",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T18:28:23.000+01:00",
+      "title": "Use indexed correlated EXISTS for validated expressions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6a6f0c1db8a206997e8ba305e9413f5ee6a6deed"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2634b85633d237f55ee4ad4ebb9909b3a47996e2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T18:11:07.000+01:00",
+      "title": "Prepare Fsdb 0.1.0-preview.45",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2634b85633d237f55ee4ad4ebb9909b3a47996e2"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c77ab22baf4531f9c58003e61ffe4325898959ad",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T18:05:28.000+01:00",
+      "title": "Use indexed correlated EXISTS for bare inner columns",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c77ab22baf4531f9c58003e61ffe4325898959ad"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f124fbaf67c920c200bb18f2341006536ea1f15c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T17:56:46.000+01:00",
+      "title": "Use indexed correlated EXISTS for validated column projections",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f124fbaf67c920c200bb18f2341006536ea1f15c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:127ecd62c79e90811a8bd0466308d5b912c5ed6d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T17:46:29.000+01:00",
+      "title": "Audit UNION DISTINCT writable views and insert check order",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/127ecd62c79e90811a8bd0466308d5b912c5ed6d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:309c4873af89cde113a6d3e39dc01c73648596b4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T17:39:17.000+01:00",
+      "title": "Audit CJK Extension A U+3B00 ngram parity",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/309c4873af89cde113a6d3e39dc01c73648596b4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1cdda7a956990086b61b91bd24d113d98df3609b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T17:30:55.000+01:00",
+      "title": "Refresh geographic edge gap from current oracle",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1cdda7a956990086b61b91bd24d113d98df3609b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:deaf9c671209a075349c3c8dbedba8b080679bd5",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T17:28:12.000+01:00",
+      "title": "Record filtered correlated scalar performance boundary",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/deaf9c671209a075349c3c8dbedba8b080679bd5"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:ce70e8c0f2f3b50ba4928c2d87118fa4c417cb2d",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-04T17:17:59.000+01:00",
+      "title": "Require live Slack release acceptance and record modern block results",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/ce70e8c0f2f3b50ba4928c2d87118fa4c417cb2d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1cad341fb5c9df67493a7f3eb4e551bf90e31c47",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T17:14:05.000+01:00",
+      "title": "Audit wider ordered write limits under contention",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1cad341fb5c9df67493a7f3eb4e551bf90e31c47"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:09b6f7fc7e621197879a10c22857a9d08225eb60",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T17:09:28.000+01:00",
+      "title": "Evaluate simple correlated scalar projections directly",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/09b6f7fc7e621197879a10c22857a9d08225eb60"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b7c1312f094a8430b71aaaf4829793d3736a1683",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T16:52:25.000+01:00",
+      "title": "Prepare Fsdb 0.1.0-preview.44",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b7c1312f094a8430b71aaaf4829793d3736a1683"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:65b7d8fd91daa2f73f3185608bc0f46605dadfe8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T16:51:13.000+01:00",
+      "title": "Probe indexed correlated EXISTS before decorrelation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/65b7d8fd91daa2f73f3185608bc0f46605dadfe8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6749ae53f16de632f174276a8448967090b53df7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T16:38:19.000+01:00",
+      "title": "Resolve UNION view ambiguity at ordered output",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6749ae53f16de632f174276a8448967090b53df7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e3c04b377198fcda7c157802736e2f05cd38fd73",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T16:35:36.000+01:00",
+      "title": "Expand geographic validity oracle across seeded rings",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e3c04b377198fcda7c157802736e2f05cd38fd73"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:97a40e658bcc6da59d03034fa4feb7ed1b3b5f9f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T16:28:35.000+01:00",
+      "title": "Limit UNION CTE view ambiguity to ordinal ordering",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/97a40e658bcc6da59d03034fa4feb7ed1b3b5f9f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:59218378f2369e049b38f2e1f04044006285a6ee",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T16:26:00.000+01:00",
+      "title": "Match ambiguous ordered UNION CTE view updates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/59218378f2369e049b38f2e1f04044006285a6ee"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2f8028cf63b30b8383b40893ddb625ac140629b1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T16:17:55.000+01:00",
+      "title": "Audit U+3A00 Extension A ngram parity",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2f8028cf63b30b8383b40893ddb625ac140629b1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:98c0e87ec8511291893d9d6e70c74d5e1f561204",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T15:01:31.000+01:00",
+      "title": "Audit U+3900 Extension A ngram parity",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/98c0e87ec8511291893d9d6e70c74d5e1f561204"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:55a089fc5c02f885a79e31c2169f4b5ea3bdbf81",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T14:50:02.000+01:00",
+      "title": "Support duplicate UNION output names in writable CTE views",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/55a089fc5c02f885a79e31c2169f4b5ea3bdbf81"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e79a55500e7f525a947c6cd9621968689dcdcdb4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T14:43:37.000+01:00",
+      "title": "Preserve ordered UNION CTE rows in writable views",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e79a55500e7f525a947c6cd9621968689dcdcdb4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d9fc50ff73b3e110b4c2a6320f12e33290f5a34e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T14:30:20.000+01:00",
+      "title": "Allow independent UNION CTEs before writable view targets",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d9fc50ff73b3e110b4c2a6320f12e33290f5a34e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:175b28449583e4603018ad67fb36f6d19415bc75",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T14:18:23.000+01:00",
+      "title": "Audit composite ENUM and SET ordered write claims",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/175b28449583e4603018ad67fb36f6d19415bc75"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:98f08e9db314c1388dd29cdfcd77cb05cfdf0db0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T14:09:23.000+01:00",
+      "title": "Order pending SET writes by member bitmask",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/98f08e9db314c1388dd29cdfcd77cb05cfdf0db0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ce6b005a4ef92344c5dc24b59372bd4a908fa2b4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T14:02:03.000+01:00",
+      "title": "Observe pending ENUM primary keys in ordered writes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ce6b005a4ef92344c5dc24b59372bd4a908fa2b4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0028ecb53ab9130dfe7c4d271bbcd0684c7c9c29",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T13:45:26.000+01:00",
+      "title": "Prepare Fsdb 0.1.0-preview.43",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0028ecb53ab9130dfe7c4d271bbcd0684c7c9c29"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:048d070d65f007dc22c8b4c308918655b1eabad7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T13:39:54.000+01:00",
+      "title": "Observe pending ENUM ordinals in ordered writes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/048d070d65f007dc22c8b4c308918655b1eabad7"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:f1b5fc6c7a1b7f2b7ae76f249f26a9733afa060f",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-04T13:35:33.000+01:00",
+      "title": "Add native container, layout, data table and chart builders",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/f1b5fc6c7a1b7f2b7ae76f249f26a9733afa060f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:95e07ec82f1572fa9c7c99630b28c5021a66fb3a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T13:29:14.000+01:00",
+      "title": "Observe pending YEAR keys in ordered writes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/95e07ec82f1572fa9c7c99630b28c5021a66fb3a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8be1cd315847c3affc735748532c90d04645a163",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T13:20:56.000+01:00",
+      "title": "Scope projection memo entries by CTE binding",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8be1cd315847c3affc735748532c90d04645a163"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:969c075a340e81c5c3dab412517b7bb944fb78aa",
       "kind": "commit",
@@ -2029,52 +2325,12 @@
       "url": "https://github.com/HelgeSverre/vapor-swap/commit/0f1ae92e5639bca816c0aa9ed8f57c820eb9317c"
     },
     {
-      "id": "commit:HelgeSverre/vapor-swap:30f62e469e3cb27f5d00e3eaea90ce84e3850dc0",
-      "kind": "commit",
-      "repo": "HelgeSverre/vapor-swap",
-      "at": "2026-10-21T17:48:48.000+02:00",
-      "title": "Polish README with Vapor Sweep title and project badges",
-      "url": "https://github.com/HelgeSverre/vapor-swap/commit/30f62e469e3cb27f5d00e3eaea90ce84e3850dc0"
-    },
-    {
-      "id": "commit:HelgeSverre/vapor-swap:52a428b80239bd61f6c8db0177cbd7c66d83c737",
-      "kind": "commit",
-      "repo": "HelgeSverre/vapor-swap",
-      "at": "2026-10-21T17:38:22.000+02:00",
-      "title": "Keep checkout line endings consistent across CI platforms",
-      "url": "https://github.com/HelgeSverre/vapor-swap/commit/52a428b80239bd61f6c8db0177cbd7c66d83c737"
-    },
-    {
-      "id": "commit:HelgeSverre/vapor-swap:0440ea03f16f0741151308bc5a6d65b27df6f806",
-      "kind": "commit",
-      "repo": "HelgeSverre/vapor-swap",
-      "at": "2026-10-21T17:36:31.000+02:00",
-      "title": "Build Vapor profile manager with shell integration and PHP CI matrix",
-      "url": "https://github.com/HelgeSverre/vapor-swap/commit/0440ea03f16f0741151308bc5a6d65b27df6f806"
-    },
-    {
-      "id": "commit:HelgeSverre/fence:eee560c1e224869da50909b35e07535a6d806273",
-      "kind": "commit",
-      "repo": "HelgeSverre/fence",
-      "at": "2026-10-21T15:24:34.000+02:00",
-      "title": "fix: wait for preview fonts before centering search results",
-      "url": "https://github.com/HelgeSverre/fence/commit/eee560c1e224869da50909b35e07535a6d806273"
-    },
-    {
-      "id": "commit:HelgeSverre/fence:7ef2676d5cfabe5a27fcaef2476d0353952f439a",
-      "kind": "commit",
-      "repo": "HelgeSverre/fence",
-      "at": "2026-10-21T15:16:34.000+02:00",
-      "title": "fix: preserve sidebar focus and navigate preview metadata reliably",
-      "url": "https://github.com/HelgeSverre/fence/commit/7ef2676d5cfabe5a27fcaef2476d0353952f439a"
-    },
-    {
-      "id": "commit:HelgeSverre/fence:4dcb3753bca0afbc445634c3ba8be39dfe35497e",
-      "kind": "commit",
-      "repo": "HelgeSverre/fence",
-      "at": "2026-10-21T15:06:58.000+02:00",
-      "title": "release: prepare Fence 0.8.0",
-      "url": "https://github.com/HelgeSverre/fence/commit/4dcb3753bca0afbc445634c3ba8be39dfe35497e"
+      "id": "release:HelgeSverre/fsdb:433914061",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T12:50:13Z",
+      "title": "v0.1.0-preview.43",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0-preview.43"
     },
     {
       "id": "release:HelgeSverre/fsdb:433784671",
@@ -2083,30 +2339,6 @@
       "at": "2026-11-04T10:30:55Z",
       "title": "v0.1.0-preview.42",
       "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0-preview.42"
-    },
-    {
-      "id": "release:HelgeSverre/rail-rs:433789275",
-      "kind": "release",
-      "repo": "HelgeSverre/rail-rs",
-      "at": "2026-11-04T10:37:38Z",
-      "title": "v0.3.0",
-      "url": "https://github.com/HelgeSverre/rail-rs/releases/tag/v0.3.0"
-    },
-    {
-      "id": "release:HelgeSverre/rail-rs:433041530",
-      "kind": "release",
-      "repo": "HelgeSverre/rail-rs",
-      "at": "2026-11-03T17:57:58Z",
-      "title": "v0.2.0",
-      "url": "https://github.com/HelgeSverre/rail-rs/releases/tag/v0.2.0"
-    },
-    {
-      "id": "release:HelgeSverre/rail-rs:432872660",
-      "kind": "release",
-      "repo": "HelgeSverre/rail-rs",
-      "at": "2026-11-03T15:24:34Z",
-      "title": "v0.1.0",
-      "url": "https://github.com/HelgeSverre/rail-rs/releases/tag/v0.1.0"
     },
     {
       "id": "release:HelgeSverre/slack-bolt-php:432848761",
@@ -2157,6 +2389,30 @@
       "url": "https://github.com/HelgeSverre/slack-bolt-php/releases/tag/v0.1.0"
     },
     {
+      "id": "release:HelgeSverre/rail-rs:433789275",
+      "kind": "release",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-04T10:37:38Z",
+      "title": "v0.3.0",
+      "url": "https://github.com/HelgeSverre/rail-rs/releases/tag/v0.3.0"
+    },
+    {
+      "id": "release:HelgeSverre/rail-rs:433041530",
+      "kind": "release",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T17:57:58Z",
+      "title": "v0.2.0",
+      "url": "https://github.com/HelgeSverre/rail-rs/releases/tag/v0.2.0"
+    },
+    {
+      "id": "release:HelgeSverre/rail-rs:432872660",
+      "kind": "release",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-03T15:24:34Z",
+      "title": "v0.1.0",
+      "url": "https://github.com/HelgeSverre/rail-rs/releases/tag/v0.1.0"
+    },
+    {
       "id": "release:HelgeSverre/rust-vst3-host:433474346",
       "kind": "release",
       "repo": "HelgeSverre/rust-vst3-host",
@@ -2195,14 +2451,6 @@
       "at": "2026-10-22T03:40:00Z",
       "title": "v0.2.2",
       "url": "https://github.com/sema-lisp/pi-sema/releases/tag/v0.2.2"
-    },
-    {
-      "id": "release:HelgeSverre/fence:419596875",
-      "kind": "release",
-      "repo": "HelgeSverre/fence",
-      "at": "2026-10-21T13:38:20Z",
-      "title": "v0.8.0",
-      "url": "https://github.com/HelgeSverre/fence/releases/tag/v0.8.0"
     }
   ]
 }
