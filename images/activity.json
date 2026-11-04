@@ -1,9 +1,185 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-04T06:21:20.922Z",
-  "since": "2026-10-21T06:21:20.922Z",
+  "fetchedAt": "2026-11-04T12:17:51.071Z",
+  "since": "2026-10-21T12:17:51.071Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:969c075a340e81c5c3dab412517b7bb944fb78aa",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T12:53:03.000+01:00",
+      "title": "Memoize unsuccessful physical projection discovery",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/969c075a340e81c5c3dab412517b7bb944fb78aa"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2ebf0d0a81de77aa5f50585a1def30ae8fa98389",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T12:44:50.000+01:00",
+      "title": "Cache equality index matches within statements",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2ebf0d0a81de77aa5f50585a1def30ae8fa98389"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6933dde4014ba2f1dcb8e9a1b164deb04eff58bd",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T12:32:08.000+01:00",
+      "title": "Measure correlated equality setup and row scaling",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6933dde4014ba2f1dcb8e9a1b164deb04eff58bd"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c61baded42f181eb6803141f09a8c7adf404de6f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T12:29:23.000+01:00",
+      "title": "Record current correlated planner control benchmark",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c61baded42f181eb6803141f09a8c7adf404de6f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e2d424074be0af13505a068c37e517012e7e4834",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T12:25:32.000+01:00",
+      "title": "Document absent MeCab plugin parity on pinned MySQL",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e2d424074be0af13505a068c37e517012e7e4834"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:31de225614aa1440db4c24981a4c7c31eace243f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T12:17:34.000+01:00",
+      "title": "Sequence timing-sensitive ordered write regression",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/31de225614aa1440db4c24981a4c7c31eace243f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ff158e5885185a4aecc7739f799a7768310aa7a4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T12:01:07.000+01:00",
+      "title": "Pin geographic validity counterexamples in native oracle",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ff158e5885185a4aecc7739f799a7768310aa7a4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:98a65ec39c42b28f4d54364b2f36278110032ab1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T11:56:10.000+01:00",
+      "title": "Index correlated scaled ABS equalities",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/98a65ec39c42b28f4d54364b2f36278110032ab1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0370baf2ff635ecda259db5c912a888f6b5b2cd4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T11:47:59.000+01:00",
+      "title": "Make release check deterministic and identify ordered write timeouts",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0370baf2ff635ecda259db5c912a888f6b5b2cd4"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:fc005a4e057f6c75718c78e5b92bb0f0f3b7869c",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-04T11:28:03.000+01:00",
+      "title": "Release 0.3.0",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/fc005a4e057f6c75718c78e5b92bb0f0f3b7869c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5f2ea1ead5f506609638e91b564a73ff60c72836",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T11:25:32.000+01:00",
+      "title": "Prepare Fsdb 0.1.0-preview.42 release",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5f2ea1ead5f506609638e91b564a73ff60c72836"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:715136f3cd568d1644f49d2146f75b5efc53e44c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T11:16:34.000+01:00",
+      "title": "Index correlated signed multiplication equalities",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/715136f3cd568d1644f49d2146f75b5efc53e44c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:add078b42494ba861e4754ce9374266afb2f4d08",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T11:08:15.000+01:00",
+      "title": "Cover writable views beside UNION ALL derived rows",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/add078b42494ba861e4754ce9374266afb2f4d08"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:038acaa3a831104c3c660e98eb3bb48fb1640fa2",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-04T11:05:48.000+01:00",
+      "title": "Reflow licensed vendors note",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/038acaa3a831104c3c660e98eb3bb48fb1640fa2"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:aeadd3968ccb808770e7b119f1c5a1dab0a10726",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-04T11:05:08.000+01:00",
+      "title": "Mark Short.io live",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/aeadd3968ccb808770e7b119f1c5a1dab0a10726"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5e81a68073eef31e786009cdb3bc6ba084f01f03",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T11:04:13.000+01:00",
+      "title": "Audit Extension A U+3800 ngram parity",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5e81a68073eef31e786009cdb3bc6ba084f01f03"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:2fdb82acc93e64eaba011a726fcb2e089c9796bb",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-04T11:01:28.000+01:00",
+      "title": "Record Short.io as minting live, redirects gated on phone verification",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/2fdb82acc93e64eaba011a726fcb2e089c9796bb"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:9044d838744e5fe1b336816b606f80e4a79119c9",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-04T10:43:55.000+01:00",
+      "title": "Fix Agent View setup validation and refresh verified Slack docs",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/9044d838744e5fe1b336816b606f80e4a79119c9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e1daa3832efec36dd5bfdff41de2f31b5d71933d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T10:39:30.000+01:00",
+      "title": "Observe pending FLOAT and DOUBLE inserts in ordered writes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e1daa3832efec36dd5bfdff41de2f31b5d71933d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a411abd9ac0b325a9b5210a2dc45cee6d255cece",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T10:15:36.000+01:00",
+      "title": "Observe pending DECIMAL inserts in ordered writes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a411abd9ac0b325a9b5210a2dc45cee6d255cece"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:206",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T09:50:28Z",
+      "title": "Observe pending FLOAT and DOUBLE inserts in limited ordered writes",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/206"
+    },
+    {
+      "id": "pr:HelgeSverre/fsdb:205",
+      "kind": "merge",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T09:23:28Z",
+      "title": "Observe pending DECIMAL inserts in limited ordered writes",
+      "url": "https://github.com/HelgeSverre/fsdb/pull/205"
+    },
     {
       "id": "commit:HelgeSverre/vapor-swap:d81f007049194f4de39e11dd259afd7dfd40b728",
       "kind": "commit",
@@ -1901,68 +2077,20 @@
       "url": "https://github.com/HelgeSverre/fence/commit/4dcb3753bca0afbc445634c3ba8be39dfe35497e"
     },
     {
-      "id": "commit:HelgeSverre/fence:a4f268739767bb829f7abd79ea4b149a5f54956e",
-      "kind": "commit",
-      "repo": "HelgeSverre/fence",
-      "at": "2026-10-21T12:49:37.000+02:00",
-      "title": "fix: focus and center workspace search results in document panes",
-      "url": "https://github.com/HelgeSverre/fence/commit/a4f268739767bb829f7abd79ea4b149a5f54956e"
+      "id": "release:HelgeSverre/fsdb:433784671",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T10:30:55Z",
+      "title": "v0.1.0-preview.42",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0-preview.42"
     },
     {
-      "id": "commit:HelgeSverre/fence:06a3d48ff70de3bda69d306962e4358600c4d865",
-      "kind": "commit",
-      "repo": "HelgeSverre/fence",
-      "at": "2026-10-21T12:49:29.000+02:00",
-      "title": "fix: choose the current palette result after rapid keyboard navigation",
-      "url": "https://github.com/HelgeSverre/fence/commit/06a3d48ff70de3bda69d306962e4358600c4d865"
-    },
-    {
-      "id": "commit:HelgeSverre/fence:fc5b34a64e03814ee55abae14f30cf7cefc589d3",
-      "kind": "commit",
-      "repo": "HelgeSverre/fence",
-      "at": "2026-10-21T12:42:29.000+02:00",
-      "title": "feat: improve palette matching, actions and optional document peek",
-      "url": "https://github.com/HelgeSverre/fence/commit/fc5b34a64e03814ee55abae14f30cf7cefc589d3"
-    },
-    {
-      "id": "commit:HelgeSverre/fence:b1de6f7ff6408c42a75522df35350ac02ea0f693",
-      "kind": "commit",
-      "repo": "HelgeSverre/fence",
-      "at": "2026-10-21T12:42:29.000+02:00",
-      "title": "build: add isolated local macOS app launcher",
-      "url": "https://github.com/HelgeSverre/fence/commit/b1de6f7ff6408c42a75522df35350ac02ea0f693"
-    },
-    {
-      "id": "commit:sema-lisp/sema:7cf709b22732f3bcd30e18a9622f82825ff28b73",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-21T12:00:47.000+02:00",
-      "title": "docs: map the MCP embedding plan onto existing runtime and notebook primitives",
-      "url": "https://github.com/sema-lisp/sema/commit/7cf709b22732f3bcd30e18a9622f82825ff28b73"
-    },
-    {
-      "id": "commit:sema-lisp/sema:3c6f17d7a6cdf7b09d53734d6045d8886d95c3e0",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-21T11:42:24.000+02:00",
-      "title": "docs: third revision of the MCP embedding proposal after round two",
-      "url": "https://github.com/sema-lisp/sema/commit/3c6f17d7a6cdf7b09d53734d6045d8886d95c3e0"
-    },
-    {
-      "id": "commit:sema-lisp/sema:74c0b0bf1e049a07dc2527ed37d5b56cab90ea62",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-21T11:27:28.000+02:00",
-      "title": "docs: revise MCP embedding proposal after five-role adversarial review",
-      "url": "https://github.com/sema-lisp/sema/commit/74c0b0bf1e049a07dc2527ed37d5b56cab90ea62"
-    },
-    {
-      "id": "commit:sema-lisp/sema:ac1c2f011a13606895e3ffff039e3c1e0d835865",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-21T10:19:55.000+02:00",
-      "title": "build(web): re-vendor the browser runtime after the stdlib offload change",
-      "url": "https://github.com/sema-lisp/sema/commit/ac1c2f011a13606895e3ffff039e3c1e0d835865"
+      "id": "release:HelgeSverre/rail-rs:433789275",
+      "kind": "release",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-04T10:37:38Z",
+      "title": "v0.3.0",
+      "url": "https://github.com/HelgeSverre/rail-rs/releases/tag/v0.3.0"
     },
     {
       "id": "release:HelgeSverre/rail-rs:433041530",
@@ -1979,14 +2107,6 @@
       "at": "2026-11-03T15:24:34Z",
       "title": "v0.1.0",
       "url": "https://github.com/HelgeSverre/rail-rs/releases/tag/v0.1.0"
-    },
-    {
-      "id": "release:HelgeSverre/rust-vst3-host:433474346",
-      "kind": "release",
-      "repo": "HelgeSverre/rust-vst3-host",
-      "at": "2026-11-04T03:22:06Z",
-      "title": "v0.11.0",
-      "url": "https://github.com/HelgeSverre/rust-vst3-host/releases/tag/v0.11.0"
     },
     {
       "id": "release:HelgeSverre/slack-bolt-php:432848761",
@@ -2035,6 +2155,14 @@
       "at": "2026-10-26T14:15:18Z",
       "title": "v0.1.0",
       "url": "https://github.com/HelgeSverre/slack-bolt-php/releases/tag/v0.1.0"
+    },
+    {
+      "id": "release:HelgeSverre/rust-vst3-host:433474346",
+      "kind": "release",
+      "repo": "HelgeSverre/rust-vst3-host",
+      "at": "2026-11-04T03:22:06Z",
+      "title": "v0.11.0",
+      "url": "https://github.com/HelgeSverre/rust-vst3-host/releases/tag/v0.11.0"
     },
     {
       "id": "release:sema-lisp/sema:426629432",
