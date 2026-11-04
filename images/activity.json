@@ -1,9 +1,105 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-04T00:30:38.146Z",
-  "since": "2026-10-21T00:30:38.146Z",
+  "fetchedAt": "2026-11-04T06:21:20.922Z",
+  "since": "2026-10-21T06:21:20.922Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/vapor-swap:d81f007049194f4de39e11dd259afd7dfd40b728",
+      "kind": "commit",
+      "repo": "HelgeSverre/vapor-swap",
+      "at": "2026-11-04T05:13:26.000+01:00",
+      "title": "docs: install from Packagist",
+      "url": "https://github.com/HelgeSverre/vapor-swap/commit/d81f007049194f4de39e11dd259afd7dfd40b728"
+    },
+    {
+      "id": "commit:HelgeSverre/vapor-swap:b7ef904d827664d4c3eb0e4a8b79850a71bb7a71",
+      "kind": "commit",
+      "repo": "HelgeSverre/vapor-swap",
+      "at": "2026-11-04T05:07:08.000+01:00",
+      "title": "docs: rename banner and title to Vapor Swap",
+      "url": "https://github.com/HelgeSverre/vapor-swap/commit/b7ef904d827664d4c3eb0e4a8b79850a71bb7a71"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:c7d411b14817b79e28669a93fb44a3372a10f214",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-04T04:47:26.000+01:00",
+      "title": "Document licensed vendors",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/c7d411b14817b79e28669a93fb44a3372a10f214"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:c4c656ca4fe49ef54b6699463e80ac048753972f",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-04T04:47:26.000+01:00",
+      "title": "Load vendor credentials from a Secret in the Helm chart",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/c4c656ca4fe49ef54b6699463e80ac048753972f"
+    },
+    {
+      "id": "commit:HelgeSverre/rail-rs:01467d71350ea1d54391a5450a3e1813b05d350f",
+      "kind": "commit",
+      "repo": "HelgeSverre/rail-rs",
+      "at": "2026-11-04T04:47:26.000+01:00",
+      "title": "Support licensed vendors with credentials",
+      "url": "https://github.com/HelgeSverre/rail-rs/commit/01467d71350ea1d54391a5450a3e1813b05d350f"
+    },
+    {
+      "id": "commit:HelgeSverre/rust-vst3-host:cbacc3765464411561e460191ef41b2b83e75187",
+      "kind": "commit",
+      "repo": "HelgeSverre/rust-vst3-host",
+      "at": "2026-11-04T04:29:00.000+01:00",
+      "title": "ci: ignore the zbus 5 unmaintained advisories in cargo-deny",
+      "url": "https://github.com/HelgeSverre/rust-vst3-host/commit/cbacc3765464411561e460191ef41b2b83e75187"
+    },
+    {
+      "id": "commit:HelgeSverre/rust-vst3-host:00e10f720302f4c17e295d91dfe3dc4adb9d9dfd",
+      "kind": "commit",
+      "repo": "HelgeSverre/rust-vst3-host",
+      "at": "2026-11-04T04:21:14.000+01:00",
+      "title": "release: vst3-host 0.11.0",
+      "url": "https://github.com/HelgeSverre/rust-vst3-host/commit/00e10f720302f4c17e295d91dfe3dc4adb9d9dfd"
+    },
+    {
+      "id": "commit:HelgeSverre/rust-vst3-host:8ed68cc962550c90cb97c24fb2b1971ee36a8685",
+      "kind": "commit",
+      "repo": "HelgeSverre/rust-vst3-host",
+      "at": "2026-11-04T04:20:02.000+01:00",
+      "title": "docs: describe the reserved SysEx path, the non-blocking editor-edit drain, and tolerated compatibility metadata",
+      "url": "https://github.com/HelgeSverre/rust-vst3-host/commit/8ed68cc962550c90cb97c24fb2b1971ee36a8685"
+    },
+    {
+      "id": "commit:HelgeSverre/rust-vst3-host:a3ccd0779b539e2f797fdc7f41bc607b1e43c28e",
+      "kind": "commit",
+      "repo": "HelgeSverre/rust-vst3-host",
+      "at": "2026-11-04T04:20:02.000+01:00",
+      "title": "fix(discovery): validate the old ids of a skipped compatibility mapping",
+      "url": "https://github.com/HelgeSverre/rust-vst3-host/commit/a3ccd0779b539e2f797fdc7f41bc607b1e43c28e"
+    },
+    {
+      "id": "commit:HelgeSverre/rust-vst3-host:d9cadd1baac31df1da7df2c638815909c49df1d8",
+      "kind": "commit",
+      "repo": "HelgeSverre/rust-vst3-host",
+      "at": "2026-11-04T04:13:25.000+01:00",
+      "title": "test(rt): measure the reserved SysEx path under the counting allocator",
+      "url": "https://github.com/HelgeSverre/rust-vst3-host/commit/d9cadd1baac31df1da7df2c638815909c49df1d8"
+    },
+    {
+      "id": "commit:HelgeSverre/rust-vst3-host:f61fdcc6fb452d9056ce76b1de33860a5ff7a1a6",
+      "kind": "commit",
+      "repo": "HelgeSverre/rust-vst3-host",
+      "at": "2026-11-04T04:13:25.000+01:00",
+      "title": "fix(rt): keep the SysEx reserve's slots for reserved buffers",
+      "url": "https://github.com/HelgeSverre/rust-vst3-host/commit/f61fdcc6fb452d9056ce76b1de33860a5ff7a1a6"
+    },
+    {
+      "id": "commit:HelgeSverre/token:6eb9659fcd14515e8aa1f51089a93f1df4173a31",
+      "kind": "commit",
+      "repo": "HelgeSverre/token",
+      "at": "2026-11-04T04:01:03.000+01:00",
+      "title": "bump playwright",
+      "url": "https://github.com/HelgeSverre/token/commit/6eb9659fcd14515e8aa1f51089a93f1df4173a31"
+    },
     {
       "id": "commit:HelgeSverre/laravel-slackcache:007f96e318d831c10a4983cb18da0d3e45385632",
       "kind": "commit",
@@ -1869,142 +1965,6 @@
       "url": "https://github.com/sema-lisp/sema/commit/ac1c2f011a13606895e3ffff039e3c1e0d835865"
     },
     {
-      "id": "commit:sema-lisp/sema:65c5f7fd3e64698048c8ae8a6486cb09b3016a74",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-21T04:13:42.000+02:00",
-      "title": "fix(embed): address review of register_async_fn",
-      "url": "https://github.com/sema-lisp/sema/commit/65c5f7fd3e64698048c8ae8a6486cb09b3016a74"
-    },
-    {
-      "id": "commit:sema-lisp/sema:4c6687fbd1d35e94ce950ec9451702e54146625d",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-21T04:09:46.000+02:00",
-      "title": "docs: document register_async_fn and archive the async registration plan",
-      "url": "https://github.com/sema-lisp/sema/commit/4c6687fbd1d35e94ce950ec9451702e54146625d"
-    },
-    {
-      "id": "commit:sema-lisp/sema:2d752ca4e5a344726516ddf2cf82eae49b1af1c4",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-21T04:09:40.000+02:00",
-      "title": "feat(embed): add Interpreter::register_async_fn",
-      "url": "https://github.com/sema-lisp/sema/commit/2d752ca4e5a344726516ddf2cf82eae49b1af1c4"
-    },
-    {
-      "id": "commit:sema-lisp/sema:f5cc50bb89f0e403fad44b2cc091de3c35f7127c",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-21T04:09:40.000+02:00",
-      "title": "refactor(stdlib): share async offload cancel hook and assembler with sema-io",
-      "url": "https://github.com/sema-lisp/sema/commit/f5cc50bb89f0e403fad44b2cc091de3c35f7127c"
-    },
-    {
-      "id": "commit:sema-lisp/sema:6729fe9703648102cf20ac90c0f56adf3ce97e52",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-21T04:09:40.000+02:00",
-      "title": "feat(io): add host_async adapter for host-registered async natives",
-      "url": "https://github.com/sema-lisp/sema/commit/6729fe9703648102cf20ac90c0f56adf3ce97e52"
-    },
-    {
-      "id": "commit:sema-lisp/sema:dd280dafe4b3a12edf7806a7d6ee9e958b216a79",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-21T04:09:40.000+02:00",
-      "title": "docs: record D1-D5 approval for async registration plan",
-      "url": "https://github.com/sema-lisp/sema/commit/dd280dafe4b3a12edf7806a7d6ee9e958b216a79"
-    },
-    {
-      "id": "commit:sema-lisp/sema:0597a4916a4ca5a485733e2c9263b668759e2f5c",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-21T04:09:40.000+02:00",
-      "title": "docs: fold review findings into async registration plan",
-      "url": "https://github.com/sema-lisp/sema/commit/0597a4916a4ca5a485733e2c9263b668759e2f5c"
-    },
-    {
-      "id": "commit:sema-lisp/sema:2e37c896425c321e4036deec6869d77c106f87a4",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-21T04:09:40.000+02:00",
-      "title": "docs: propose async native function registration",
-      "url": "https://github.com/sema-lisp/sema/commit/2e37c896425c321e4036deec6869d77c106f87a4"
-    },
-    {
-      "id": "commit:sema-lisp/sema:7f9ce80b66a7968c021aa88327b1746648a29e39",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-21T03:43:00.000+02:00",
-      "title": "docs: record D1-D5 approval for async registration plan",
-      "url": "https://github.com/sema-lisp/sema/commit/7f9ce80b66a7968c021aa88327b1746648a29e39"
-    },
-    {
-      "id": "commit:sema-lisp/sema:a6f3e77259f07d7ce3e13dfff431d3ef220f3f32",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-21T03:42:07.000+02:00",
-      "title": "docs(core): trim thread-affinity docs and flag the breaking change",
-      "url": "https://github.com/sema-lisp/sema/commit/a6f3e77259f07d7ce3e13dfff431d3ef220f3f32"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:e53dfaf135b5470891abfa38702ac95b90e38b55",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-21T03:18:29.000+02:00",
-      "title": "Record Extension A 3700 ngram parity audit",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/e53dfaf135b5470891abfa38702ac95b90e38b55"
-    },
-    {
-      "id": "commit:sema-lisp/sema:919e6207e69c314be72603051a17f1fb3dc37ccd",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-21T03:13:06.000+02:00",
-      "title": "docs: fold review findings into async registration plan",
-      "url": "https://github.com/sema-lisp/sema/commit/919e6207e69c314be72603051a17f1fb3dc37ccd"
-    },
-    {
-      "id": "commit:sema-lisp/sema:9b96f08491dc5461337e0feb9f3427341718c6db",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-21T03:11:16.000+02:00",
-      "title": "docs: close gaps in the MCP embedding proposal",
-      "url": "https://github.com/sema-lisp/sema/commit/9b96f08491dc5461337e0feb9f3427341718c6db"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:428fbff9be6815c5998746e9b1105ecf40ef0173",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-21T02:32:46.000+02:00",
-      "title": "Prepare Fsdb 0.1.0-preview.41 release",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/428fbff9be6815c5998746e9b1105ecf40ef0173"
-    },
-    {
-      "id": "pr:sema-lisp/sema:177",
-      "kind": "merge",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-21T01:43:13Z",
-      "title": "docs: propose async native function registration",
-      "url": "https://github.com/sema-lisp/sema/pull/177"
-    },
-    {
-      "id": "pr:HelgeSverre/fsdb:204",
-      "kind": "merge",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-21T01:25:38Z",
-      "title": "Record Extension A U+3700–U+37FF ngram parity audit",
-      "url": "https://github.com/HelgeSverre/fsdb/pull/204"
-    },
-    {
-      "id": "pr:HelgeSverre/fsdb:203",
-      "kind": "merge",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-21T00:42:43Z",
-      "title": "Release Fsdb 0.1.0-preview.41",
-      "url": "https://github.com/HelgeSverre/fsdb/pull/203"
-    },
-    {
       "id": "release:HelgeSverre/rail-rs:433041530",
       "kind": "release",
       "repo": "HelgeSverre/rail-rs",
@@ -2019,6 +1979,14 @@
       "at": "2026-11-03T15:24:34Z",
       "title": "v0.1.0",
       "url": "https://github.com/HelgeSverre/rail-rs/releases/tag/v0.1.0"
+    },
+    {
+      "id": "release:HelgeSverre/rust-vst3-host:433474346",
+      "kind": "release",
+      "repo": "HelgeSverre/rust-vst3-host",
+      "at": "2026-11-04T03:22:06Z",
+      "title": "v0.11.0",
+      "url": "https://github.com/HelgeSverre/rust-vst3-host/releases/tag/v0.11.0"
     },
     {
       "id": "release:HelgeSverre/slack-bolt-php:432848761",
@@ -2107,14 +2075,6 @@
       "at": "2026-10-21T13:38:20Z",
       "title": "v0.8.0",
       "url": "https://github.com/HelgeSverre/fence/releases/tag/v0.8.0"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:419021332",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-10-21T00:47:47Z",
-      "title": "v0.1.0-preview.41",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0-preview.41"
     }
   ]
 }
