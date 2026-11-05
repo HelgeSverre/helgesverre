@@ -1,9 +1,241 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-05T06:21:28.448Z",
-  "since": "2026-10-22T06:21:28.448Z",
+  "fetchedAt": "2026-11-05T12:17:48.585Z",
+  "since": "2026-10-22T12:17:48.585Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:578482d6c046abf10853f1ed997844ec3e5d5d9e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T13:14:23.000+01:00",
+      "title": "Cover CTE-first natural writes through two joined views",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/578482d6c046abf10853f1ed997844ec3e5d5d9e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e02f8d9250fd664e8dd7dbe86725b94fc905d041",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T13:10:43.000+01:00",
+      "title": "Record rejected thread-local metadata cache trial",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e02f8d9250fd664e8dd7dbe86725b94fc905d041"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ce0210b761c68b5af9394cc12f53ca13fb1869f4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T13:06:34.000+01:00",
+      "title": "Audit CJK Extension A U+4300 ngram parity",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ce0210b761c68b5af9394cc12f53ca13fb1869f4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0e5555d19e20569b33f3e96a899225603efbd787",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T12:59:05.000+01:00",
+      "title": "Profile nested correlated scalar execution path",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0e5555d19e20569b33f3e96a899225603efbd787"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:145491bf03ba8b63585227340bc8dc878444585a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T12:54:06.000+01:00",
+      "title": "Benchmark nested scalar binding across two outer scopes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/145491bf03ba8b63585227340bc8dc878444585a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f945a9f89ae4671d47ef56a1b49ffc8d7a69879a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T12:51:43.000+01:00",
+      "title": "Document rejected nested scalar metadata cache trial",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f945a9f89ae4671d47ef56a1b49ffc8d7a69879a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:69f39a72f507e93f77e823ad98d38688721050d4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T12:44:18.000+01:00",
+      "title": "Preclaim bare view targets across dependent read sources",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/69f39a72f507e93f77e823ad98d38688721050d4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ebc0c47a2746e98ddf31a186c2d4012a1b62e479",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T12:35:10.000+01:00",
+      "title": "Preclaim bare view targets after CTE read sources",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ebc0c47a2746e98ddf31a186c2d4012a1b62e479"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d54c5573dfa20ba3664cc09d5461dfb26bdcc67b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T12:27:48.000+01:00",
+      "title": "Preclaim bare targets across natural-joined views",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d54c5573dfa20ba3664cc09d5461dfb26bdcc67b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8f86e1b9c94c788d440bd0d08fe5af7f18e4f84d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T12:13:09.000+01:00",
+      "title": "Pin polar ring-role spatial oracle cases",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8f86e1b9c94c788d440bd0d08fe5af7f18e4f84d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4588a69ac68f4537fe360215c5beff13db7ca89b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T12:05:54.000+01:00",
+      "title": "Audit Extension A U+4200 ngram parity",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4588a69ac68f4537fe360215c5beff13db7ca89b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:634dae6638f2ed5e9dab210c1d870dfad2d7d9ec",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T11:59:35.000+01:00",
+      "title": "Speed nested filtered source-free scalar queries",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/634dae6638f2ed5e9dab210c1d870dfad2d7d9ec"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c67d0747b49062359b0b3fba2553584b0eef56ae",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T11:49:31.000+01:00",
+      "title": "Record failed high-fan-out worker reserve trial",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c67d0747b49062359b0b3fba2553584b0eef56ae"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:606a565302dded81c4ce6325eae5ebda4705f3fa",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T11:42:40.000+01:00",
+      "title": "Preserve natural joins after writable view promotion",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/606a565302dded81c4ce6325eae5ebda4705f3fa"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:05cc6143eb1c750f0914f04e2668243546d19c9d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T11:28:21.000+01:00",
+      "title": "Rule out azimuth arithmetic in polar hole residual",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/05cc6143eb1c750f0914f04e2668243546d19c9d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3f91a5631f4abda3bf4e0697fef8ffe02d80cca5",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T11:23:28.000+01:00",
+      "title": "Target combined CJK ngram searches to new block",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3f91a5631f4abda3bf4e0697fef8ffe02d80cca5"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a7fbafb8c23493f79a005e048c551397506784c8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T11:18:39.000+01:00",
+      "title": "Audit Extension A 4100 ngram parity",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a7fbafb8c23493f79a005e048c551397506784c8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f075f0470c4d6440f6d959855fccf0f98200c9c7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T10:52:37.000+01:00",
+      "title": "Record current multi-database write scaling ceiling",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f075f0470c4d6440f6d959855fccf0f98200c9c7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:24e217eb92b03385e93188b4c0eb11edf7d5822e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T10:16:51.000+01:00",
+      "title": "Cache validated filtered source-free scalar plans",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/24e217eb92b03385e93188b4c0eb11edf7d5822e"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:6a61822c0f52ba3c449141aad33f8272c3cd0f29",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-05T10:16:11.000+01:00",
+      "title": "Record v0.8.0 publication and exact-source registry acceptance",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/6a61822c0f52ba3c449141aad33f8272c3cd0f29"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:be3a18b1c315cc3c982d5cc95b377b4291d8f12f",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-05T10:10:08.000+01:00",
+      "title": "Prepare v0.8.0 after live OAuth and delivery acceptance",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/be3a18b1c315cc3c982d5cc95b377b4291d8f12f"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:65c3899ee26d76ec79a8e8fb7c4b0c7cb5918ab0",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-05T10:01:40.000+01:00",
+      "title": "Resolve current playground grants and preserve terminal thread routing",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/65c3899ee26d76ec79a8e8fb7c4b0c7cb5918ab0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d28e4646f95606760ae7c31c4fee67d95dcf5463",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T09:58:20.000+01:00",
+      "title": "Document Extension A 4000 ngram parity audit",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d28e4646f95606760ae7c31c4fee67d95dcf5463"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:83610e5f53fd3e7cb86633653091135aea48f9e8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T09:40:23.000+01:00",
+      "title": "Correct polar ring diagnosis against Boost dispatcher",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/83610e5f53fd3e7cb86633653091135aea48f9e8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0d89a6e9a660482ef30d3887c124ccb0c12cbf90",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T09:35:19.000+01:00",
+      "title": "Record remaining polar winding experiment",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0d89a6e9a660482ef30d3887c124ccb0c12cbf90"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9f5c4f09326aa4e95f56a9cb8124876f99765945",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T09:31:46.000+01:00",
+      "title": "Respect hole orientation in geographic winding",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9f5c4f09326aa4e95f56a9cb8124876f99765945"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6f9e65c2b3042912e2f8c7d249419f543fb7c57e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T09:20:43.000+01:00",
+      "title": "Preserve merged columns after natural view joins",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6f9e65c2b3042912e2f8c7d249419f543fb7c57e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:629257aa8312a06e63afb40be73b62db850c2099",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T09:13:30.000+01:00",
+      "title": "Preserve natural read chains in joined view writes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/629257aa8312a06e63afb40be73b62db850c2099"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:bc244aee2ee6640cf17b0f72ecb483d5e4549d64",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T07:31:39.000+01:00",
+      "title": "Rebase view writes after preceding natural joins",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/bc244aee2ee6640cf17b0f72ecb483d5e4549d64"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:bf6f6c989dd1ea11699987ccff2cde9db9818bc9",
       "kind": "commit",
@@ -2421,46 +2653,6 @@
       "url": "https://github.com/HelgeSverre/nvmr/commit/4d3acd19a16208b7856dd0f5aa0e69599ede463e"
     },
     {
-      "id": "commit:HelgeSverre/nvmr:2a6bfc48ec5e4f8c21685320af2348744c61209c",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T13:19:35.000+02:00",
-      "title": "Gate: rustfmt and clippy checks; doc counts",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/2a6bfc48ec5e4f8c21685320af2348744c61209c"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:bed5d3b4d129b4bd3498a49c97ebc57beec11d29",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T13:13:30.000+02:00",
-      "title": "Send NVM_AUTH_HEADER on every fetch; uninstall --; safer installer",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/bed5d3b4d129b4bd3498a49c97ebc57beec11d29"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:a181841252d092eb5c6f0ab1eddac3ae1a896465",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T13:11:45.000+02:00",
-      "title": "Clean up: split modules, clippy-clean, simpler nvm-fetch protocol",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/a181841252d092eb5c6f0ab1eddac3ae1a896465"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:92681256b876084c655463a9cc07faad1d16ea45",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T13:03:49.000+02:00",
-      "title": "Source builds, io.js/old-layout recognition, Ctrl-C handling",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/92681256b876084c655463a9cc07faad1d16ea45"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:90001f3a81f73deeba89df4d2df74a605d2c9865",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T13:01:29.000+02:00",
-      "title": "Format with rustfmt",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/90001f3a81f73deeba89df4d2df74a605d2c9865"
-    },
-    {
       "id": "release:HelgeSverre/fsdb:433914061",
       "kind": "release",
       "repo": "HelgeSverre/fsdb",
@@ -2475,6 +2667,14 @@
       "at": "2026-11-04T10:30:55Z",
       "title": "v0.1.0-preview.42",
       "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0-preview.42"
+    },
+    {
+      "id": "release:HelgeSverre/slack-bolt-php:434981566",
+      "kind": "release",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-05T09:13:35Z",
+      "title": "v0.8.0",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/releases/tag/v0.8.0"
     },
     {
       "id": "release:HelgeSverre/slack-bolt-php:434299478",
