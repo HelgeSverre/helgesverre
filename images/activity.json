@@ -1,9 +1,25 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-05T00:33:09.327Z",
-  "since": "2026-10-22T00:33:09.327Z",
+  "fetchedAt": "2026-11-05T06:21:28.448Z",
+  "since": "2026-10-22T06:21:28.448Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:bf6f6c989dd1ea11699987ccff2cde9db9818bc9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T02:06:02.000+01:00",
+      "title": "Document Extension A 3F00 ngram parity audit",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/bf6f6c989dd1ea11699987ccff2cde9db9818bc9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:16a410e8e53e8d08f39f65f7c1e080c63b4126d2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T01:50:44.000+01:00",
+      "title": "Document Extension A 3E00 ngram parity audit",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/16a410e8e53e8d08f39f65f7c1e080c63b4126d2"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:f6b2ee801bf72502330b4c952f6e65dd27187cb4",
       "kind": "commit",
@@ -2445,350 +2461,6 @@
       "url": "https://github.com/HelgeSverre/nvmr/commit/90001f3a81f73deeba89df4d2df74a605d2c9865"
     },
     {
-      "id": "commit:HelgeSverre/github-narcissist-feed:486c5bfb93d508bcf9d00a1b99c1f35655de6eec",
-      "kind": "commit",
-      "repo": "HelgeSverre/github-narcissist-feed",
-      "at": "2026-10-22T06:18:29.000+02:00",
-      "title": "Make collapse-all a persisted default instead of a snapshot",
-      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/486c5bfb93d508bcf9d00a1b99c1f35655de6eec"
-    },
-    {
-      "id": "commit:HelgeSverre/github-narcissist-feed:01def4e6f524eac4c39c91cce9c09c6dfe5105c3",
-      "kind": "commit",
-      "repo": "HelgeSverre/github-narcissist-feed",
-      "at": "2026-10-22T06:18:24.000+02:00",
-      "title": "Drop the \"/\" hint from the search field",
-      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/01def4e6f524eac4c39c91cce9c09c6dfe5105c3"
-    },
-    {
-      "id": "commit:HelgeSverre/github-narcissist-feed:2206120ca3a2de3809ee1aec992b909d946d7edc",
-      "kind": "commit",
-      "repo": "HelgeSverre/github-narcissist-feed",
-      "at": "2026-10-22T06:18:19.000+02:00",
-      "title": "Remove the rail's Reset filters button",
-      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/2206120ca3a2de3809ee1aec992b909d946d7edc"
-    },
-    {
-      "id": "commit:HelgeSverre/sourcefour:cf743238b811896dd55107ce5d7fd8a7597a4ab8",
-      "kind": "commit",
-      "repo": "HelgeSverre/sourcefour",
-      "at": "2026-10-22T05:14:44.000+02:00",
-      "title": "slim justfile",
-      "url": "https://github.com/HelgeSverre/sourcefour/commit/cf743238b811896dd55107ce5d7fd8a7597a4ab8"
-    },
-    {
-      "id": "commit:HelgeSverre/sourcefour:27d1b7ff634e4567e3711d286613226a8fdf5cc4",
-      "kind": "commit",
-      "repo": "HelgeSverre/sourcefour",
-      "at": "2026-10-22T04:53:54.000+02:00",
-      "title": "docs: record visual evidence requirement in changelog",
-      "url": "https://github.com/HelgeSverre/sourcefour/commit/27d1b7ff634e4567e3711d286613226a8fdf5cc4"
-    },
-    {
-      "id": "commit:sema-lisp/pi-sema:2470efcbbffc3b4a8d10dff184dae63374f6dc66",
-      "kind": "commit",
-      "repo": "sema-lisp/pi-sema",
-      "at": "2026-10-22T04:40:50.000+02:00",
-      "title": "fix: use npm trusted publishing for releases",
-      "url": "https://github.com/sema-lisp/pi-sema/commit/2470efcbbffc3b4a8d10dff184dae63374f6dc66"
-    },
-    {
-      "id": "commit:HelgeSverre/github-narcissist-feed:5dea8f43a9d085a5ac6e82da924a90e2ba272da7",
-      "kind": "commit",
-      "repo": "HelgeSverre/github-narcissist-feed",
-      "at": "2026-10-22T04:39:49.000+02:00",
-      "title": "Select several activity types with Shift+Arrow and toggle them together",
-      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/5dea8f43a9d085a5ac6e82da924a90e2ba272da7"
-    },
-    {
-      "id": "commit:HelgeSverre/github-narcissist-feed:0c860dcc4cc24a45f97cd83c48f5aff9950095c2",
-      "kind": "commit",
-      "repo": "HelgeSverre/github-narcissist-feed",
-      "at": "2026-10-22T04:39:44.000+02:00",
-      "title": "Accent colours and a segmented theme switch",
-      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/0c860dcc4cc24a45f97cd83c48f5aff9950095c2"
-    },
-    {
-      "id": "commit:HelgeSverre/github-narcissist-feed:a38af425144c13c7a968b9bd5d8f1fb61c6778f3",
-      "kind": "commit",
-      "repo": "HelgeSverre/github-narcissist-feed",
-      "at": "2026-10-22T04:39:28.000+02:00",
-      "title": "Keyboard accessibility: rail arrow keys, radio groups, focus rings",
-      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/a38af425144c13c7a968b9bd5d8f1fb61c6778f3"
-    },
-    {
-      "id": "commit:HelgeSverre/github-narcissist-feed:a73dc2fbb7042bd2524aeb71d0bdd78009fe28d0",
-      "kind": "commit",
-      "repo": "HelgeSverre/github-narcissist-feed",
-      "at": "2026-10-22T04:30:04.000+02:00",
-      "title": "wip",
-      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/a73dc2fbb7042bd2524aeb71d0bdd78009fe28d0"
-    },
-    {
-      "id": "commit:sema-lisp/pi-sema:13b72bb0751ed111bd9bf7c6c461ae132c5bbb82",
-      "kind": "commit",
-      "repo": "sema-lisp/pi-sema",
-      "at": "2026-10-22T04:22:56.000+02:00",
-      "title": "release: v0.2.1",
-      "url": "https://github.com/sema-lisp/pi-sema/commit/13b72bb0751ed111bd9bf7c6c461ae132c5bbb82"
-    },
-    {
-      "id": "commit:HelgeSverre/sourcefour:ecf70b2b62fafc3a6cfe83909be4322d8f70f167",
-      "kind": "commit",
-      "repo": "HelgeSverre/sourcefour",
-      "at": "2026-10-22T04:20:38.000+02:00",
-      "title": "Fix remote badges and inline images in Markdown previews",
-      "url": "https://github.com/HelgeSverre/sourcefour/commit/ecf70b2b62fafc3a6cfe83909be4322d8f70f167"
-    },
-    {
-      "id": "commit:sema-lisp/pi-sema:ce9a0e507667a1b68f12029ce09d32c16ecd90ad",
-      "kind": "commit",
-      "repo": "sema-lisp/pi-sema",
-      "at": "2026-10-22T04:13:58.000+02:00",
-      "title": "fix: declare Pi host packages as peers (#1)",
-      "url": "https://github.com/sema-lisp/pi-sema/commit/ce9a0e507667a1b68f12029ce09d32c16ecd90ad"
-    },
-    {
-      "id": "commit:HelgeSverre/github-narcissist-feed:6429f6f2d69be9ddc4b2199830e4d47862998fde",
-      "kind": "commit",
-      "repo": "HelgeSverre/github-narcissist-feed",
-      "at": "2026-10-22T04:13:02.000+02:00",
-      "title": "Exclude .letta and .amp tool directories from oxlint and oxfmt",
-      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/6429f6f2d69be9ddc4b2199830e4d47862998fde"
-    },
-    {
-      "id": "commit:HelgeSverre/github-narcissist-feed:15cbd9c5c654e85e08a788226649cddf34894193",
-      "kind": "commit",
-      "repo": "HelgeSverre/github-narcissist-feed",
-      "at": "2026-10-22T04:13:02.000+02:00",
-      "title": "Make the Vite config native-loader compatible",
-      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/15cbd9c5c654e85e08a788226649cddf34894193"
-    },
-    {
-      "id": "commit:HelgeSverre/github-narcissist-feed:6550eb425b5fa39a4ad48a25ea206eea708736a8",
-      "kind": "commit",
-      "repo": "HelgeSverre/github-narcissist-feed",
-      "at": "2026-10-22T03:53:46.000+02:00",
-      "title": "Add justfile and headed e2e runs",
-      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/6550eb425b5fa39a4ad48a25ea206eea708736a8"
-    },
-    {
-      "id": "commit:HelgeSverre/github-narcissist-feed:5708eb5cdf50e351733abafe0b1e1118924f76f8",
-      "kind": "commit",
-      "repo": "HelgeSverre/github-narcissist-feed",
-      "at": "2026-10-22T03:53:42.000+02:00",
-      "title": "Switch to bun, oxlint and oxfmt",
-      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/5708eb5cdf50e351733abafe0b1e1118924f76f8"
-    },
-    {
-      "id": "commit:HelgeSverre/github-narcissist-feed:2ea79c58f5354982326c190d9feeac318e1c5b68",
-      "kind": "commit",
-      "repo": "HelgeSverre/github-narcissist-feed",
-      "at": "2026-10-22T03:53:31.000+02:00",
-      "title": "Tidy code flagged by oxlint",
-      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/2ea79c58f5354982326c190d9feeac318e1c5b68"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:bb3aa835f663113af0ef88e56fa32a0f602e29aa",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T03:51:52.000+02:00",
-      "title": "Remove stray npm lockfile created by a test run",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/bb3aa835f663113af0ef88e56fa32a0f602e29aa"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:206f233855934f3d8c62d90f8b5b3b718a7ad241",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T03:51:42.000+02:00",
-      "title": "Docs: final counts and known remaining differences",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/206f233855934f3d8c62d90f8b5b3b718a7ad241"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:b03f4efbc70303287ec7a11e7c4b85659e0fc13f",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T03:45:04.000+02:00",
-      "title": "Restore silent use --lts quirk",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/b03f4efbc70303287ec7a11e7c4b85659e0fc13f"
-    },
-    {
-      "id": "commit:HelgeSverre/github-narcissist-feed:c39f1bbf6471e458bb10647282454dceba5b3694",
-      "kind": "commit",
-      "repo": "HelgeSverre/github-narcissist-feed",
-      "at": "2026-10-22T03:43:27.000+02:00",
-      "title": "Replace icon with a glossy dark tile and frosted star-and-person glyph",
-      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/c39f1bbf6471e458bb10647282454dceba5b3694"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:0dd51ec023a4c76a8bbba9ccd687584498d92f56",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T03:41:37.000+02:00",
-      "title": "Port upstream arg semantics (use/which/run/exec/alias/unalias), read-only NVM_DIR, scenario 7",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/0dd51ec023a4c76a8bbba9ccd687584498d92f56"
-    },
-    {
-      "id": "commit:HelgeSverre/github-narcissist-feed:17ac76b4dcdbd0c4eb3c0b02e09e31ca0e91f5d8",
-      "kind": "commit",
-      "repo": "HelgeSverre/github-narcissist-feed",
-      "at": "2026-10-22T03:37:20.000+02:00",
-      "title": "Add dark-mode screenshot of the feed to the README",
-      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/17ac76b4dcdbd0c4eb3c0b02e09e31ca0e91f5d8"
-    },
-    {
-      "id": "commit:HelgeSverre/github-narcissist-feed:20fc010b2d7cb67caf2d8bbcf85aebe07a18f423",
-      "kind": "commit",
-      "repo": "HelgeSverre/github-narcissist-feed",
-      "at": "2026-10-22T03:30:06.000+02:00",
-      "title": "Switch README header to the dark theme",
-      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/20fc010b2d7cb67caf2d8bbcf85aebe07a18f423"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:29f2b937f64d8159134c2bc302bc30212570a664",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T03:20:16.000+02:00",
-      "title": "Colour ls-remote parity; gate includes it",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/29f2b937f64d8159134c2bc302bc30212570a664"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:8ddfe324194eb7c368ad7c2988686eb0f31c3ce9",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T03:18:20.000+02:00",
-      "title": "Spec: reproduced quirks, status; README",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/8ddfe324194eb7c368ad7c2988686eb0f31c3ce9"
-    },
-    {
-      "id": "commit:HelgeSverre/github-narcissist-feed:a4b2c32311bfdf78bbee8bad58c21b77b6fd429c",
-      "kind": "commit",
-      "repo": "HelgeSverre/github-narcissist-feed",
-      "at": "2026-10-22T03:18:04.000+02:00",
-      "title": "Regenerate README header from the real UI with gpt-image-2",
-      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/a4b2c32311bfdf78bbee8bad58c21b77b6fd429c"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:8b4b62fa77d43dd548faf55c30753fae37c7ed09",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T03:17:54.000+02:00",
-      "title": "README, spec updates: reproduced quirks, status, eval channel",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/8b4b62fa77d43dd548faf55c30753fae37c7ed09"
-    },
-    {
-      "id": "commit:sema-lisp/sema:c2a98654f032876c300794a8555a1cc48e928149",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-22T03:12:31.000+02:00",
-      "title": "docs(core): trim thread-affinity docs and flag the breaking change",
-      "url": "https://github.com/sema-lisp/sema/commit/c2a98654f032876c300794a8555a1cc48e928149"
-    },
-    {
-      "id": "commit:sema-lisp/sema:5fb48abed485560e690a31c24edd189ee749dc2d",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-22T03:12:31.000+02:00",
-      "title": "fix(core): enforce Value thread affinity",
-      "url": "https://github.com/sema-lisp/sema/commit/5fb48abed485560e690a31c24edd189ee749dc2d"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:b1cff44975e4b65643155823cf3027b3516350b7",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T03:11:00.000+02:00",
-      "title": "Installer, static bundle script",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/b1cff44975e4b65643155823cf3027b3516350b7"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:df5b07580642da6ff16ab410553802c1e50683da",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T03:09:08.000+02:00",
-      "title": "debug, install lock, third-party hook (scenario 6 identical)",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/df5b07580642da6ff16ab410553802c1e50683da"
-    },
-    {
-      "id": "commit:HelgeSverre/github-narcissist-feed:7c20c634fe75872bbcf2fc6a40820386d7df9181",
-      "kind": "commit",
-      "repo": "HelgeSverre/github-narcissist-feed",
-      "at": "2026-10-22T03:06:39.000+02:00",
-      "title": "Narcissist Feed for GitHub: initial release",
-      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/7c20c634fe75872bbcf2fc6a40820386d7df9181"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:350d95627570f56ecdcdf34237caec1d6528b5e8",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T03:05:49.000+02:00",
-      "title": "System node, offline cache resolution, mirror validation, prefix guard (scenarios 4-5 identical)",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/350d95627570f56ecdcdf34237caec1d6528b5e8"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:8c16083ba67937b6691f4310d6fbfb00b91c852f",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T02:58:46.000+02:00",
-      "title": "MANPATH/NODE_PATH parity, single-spawn eval file",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/8c16083ba67937b6691f4310d6fbfb00b91c852f"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:614c1c70f596cb40e1c024a7c90769c06a372815",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T02:50:55.000+02:00",
-      "title": "fish integration",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/614c1c70f596cb40e1c024a7c90769c06a372815"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:ef81d269188973b2b2c5dcebfca89e9456bdba66",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T02:49:02.000+02:00",
-      "title": "Shell integration: auto modes, helpers, lazy mode, nvm-exec, completion (bash/zsh parity)",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/ef81d269188973b2b2c5dcebfca89e9456bdba66"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:aea7f54d17b2098882a53f5de29d1c9a63b33c76",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T02:47:17.000+02:00",
-      "title": "npm features: install-latest-npm, reinstall-packages, default-packages, install flags (scenario 3 identical)",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/aea7f54d17b2098882a53f5de29d1c9a63b33c76"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:e31b951f1e2237560a42f24010006db0d6d67bb9",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T02:41:39.000+02:00",
-      "title": "Colour output, set-colors, unload; colour parity harness",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/e31b951f1e2237560a42f24010006db0d6d67bb9"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:35135d286c1dfb8fa50edae3320c12dbfc5d61f0",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T02:37:59.000+02:00",
-      "title": "Scenario 2: nvmrc, env, aliases, flags parity (86 commands identical)",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/35135d286c1dfb8fa50edae3320c12dbfc5d61f0"
-    },
-    {
-      "id": "commit:sema-lisp/sema:8aaefda02da93c9f5f0c83a67315e534cef0ef61",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-22T02:34:57.000+02:00",
-      "title": "build(web): re-vendor the browser runtime after the sema-core additions",
-      "url": "https://github.com/sema-lisp/sema/commit/8aaefda02da93c9f5f0c83a67315e534cef0ef61"
-    },
-    {
-      "id": "pr:sema-lisp/pi-sema:1",
-      "kind": "merge",
-      "repo": "sema-lisp/pi-sema",
-      "at": "2026-10-22T02:13:59Z",
-      "title": "fix: declare Pi host packages as peers",
-      "url": "https://github.com/sema-lisp/pi-sema/pull/1"
-    },
-    {
       "id": "release:HelgeSverre/fsdb:433914061",
       "kind": "release",
       "repo": "HelgeSverre/fsdb",
@@ -2915,14 +2587,6 @@
       "at": "2026-10-22T22:07:28Z",
       "title": "v1.0.0",
       "url": "https://github.com/HelgeSverre/trace-context/releases/tag/v1.0.0"
-    },
-    {
-      "id": "release:sema-lisp/pi-sema:420282753",
-      "kind": "release",
-      "repo": "sema-lisp/pi-sema",
-      "at": "2026-10-22T03:40:00Z",
-      "title": "v0.2.2",
-      "url": "https://github.com/sema-lisp/pi-sema/releases/tag/v0.2.2"
     }
   ]
 }
