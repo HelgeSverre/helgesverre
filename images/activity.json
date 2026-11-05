@@ -1,9 +1,209 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-05T12:17:48.585Z",
-  "since": "2026-10-22T12:17:48.585Z",
+  "fetchedAt": "2026-11-05T18:15:11.207Z",
+  "since": "2026-10-22T18:15:11.207Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:34a07f6cd1dddefed70f27cf8b3a9aa186fa16a2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T17:44:21.000+01:00",
+      "title": "Verify mixed outer read chain before natural view write",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/34a07f6cd1dddefed70f27cf8b3a9aa186fa16a2"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:25a559556b42cafa549f6a4c644f895352bbd6de",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T17:37:51.000+01:00",
+      "title": "Handle outer read prefixes before natural view writes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/25a559556b42cafa549f6a4c644f895352bbd6de"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8a4c6fe500949e181813725887368b2d3e98df2e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T17:27:59.000+01:00",
+      "title": "Profile row waits in high-fan-out multi-database writes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8a4c6fe500949e181813725887368b2d3e98df2e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8b531f1708138a118e475545224476839d298d8a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T17:19:32.000+01:00",
+      "title": "Match legacy weights across CJK symbols block",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8b531f1708138a118e475545224476839d298d8a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c9fbe433fdaa441af5b85ad301f498ac8ae4367e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T17:10:50.000+01:00",
+      "title": "Match ideographic space legacy weights in CJK text",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c9fbe433fdaa441af5b85ad301f498ac8ae4367e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b5715ff0d1dd57f819c1d3c23d6f92e9b6d2d9ac",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T17:01:12.000+01:00",
+      "title": "Extend nested correlated scalar fast path to literals",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b5715ff0d1dd57f819c1d3c23d6f92e9b6d2d9ac"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6c7e6733916bd8acfa0c8c706dfca54900761337",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T16:51:28.000+01:00",
+      "title": "Report grouped natural view key ambiguity before CTE lookup",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6c7e6733916bd8acfa0c8c706dfca54900761337"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:003fdc1816e35e37e93c65fd4d3355ca15a68c82",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T16:44:06.000+01:00",
+      "title": "Handle grouped CTE natural outer writes through views",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/003fdc1816e35e37e93c65fd4d3355ca15a68c82"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:cf1d31e2e9fd94e5776d17898e4bf83d63663e59",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T16:08:32.000+01:00",
+      "title": "Support CTE-first natural outer writes through views",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/cf1d31e2e9fd94e5776d17898e4bf83d63663e59"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f783a948c504ba755bf309d6cec30d3c206c7ed9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T15:54:27.000+01:00",
+      "title": "Record spatial first-Newton-point control",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f783a948c504ba755bf309d6cec30d3c206c7ed9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8d9f102641ea6f3cbaae8db753158f5942f30bc3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T15:47:16.000+01:00",
+      "title": "Record spatial near-edge seed diagnostic",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8d9f102641ea6f3cbaae8db753158f5942f30bc3"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f3b37aedb242a64677a8a2f6c85c53a3e9a1a039",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T15:42:34.000+01:00",
+      "title": "Pin duplicate-name ambiguity in mixed natural joins",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f3b37aedb242a64677a8a2f6c85c53a3e9a1a039"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:637098c9afe1cde88c1854b81346426da742d56b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T15:36:47.000+01:00",
+      "title": "Carry joined-view merged keys across distinct read joins",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/637098c9afe1cde88c1854b81346426da742d56b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2dbd04da4c636712d4cb59510ff5f11e3c9e0d18",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T15:27:41.000+01:00",
+      "title": "Record later natural joined-view binding gap",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2dbd04da4c636712d4cb59510ff5f11e3c9e0d18"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f9798db0edf15ad34a08c73ec13ec47c94a90302",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T15:21:46.000+01:00",
+      "title": "Audit Extension A U+4500 ngram compatibility",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f9798db0edf15ad34a08c73ec13ec47c94a90302"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:23505332eb7a8afd692002a87bf25fa6dfc5c2be",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T15:14:51.000+01:00",
+      "title": "Document inconclusive group-commit yield trial",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/23505332eb7a8afd692002a87bf25fa6dfc5c2be"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3102df6df6baf67e1dc4e77691547aee7882fa76",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T15:04:18.000+01:00",
+      "title": "Preserve grouped USING keys across joined view writes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3102df6df6baf67e1dc4e77691547aee7882fa76"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0410459273266a0d026b67298fbcc48d38590457",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T14:47:49.000+01:00",
+      "title": "Speed up nested filtered integer scalars",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0410459273266a0d026b67298fbcc48d38590457"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:19d3d22f2a130ae12173d8245858f60f80b6d7c3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T14:26:08.000+01:00",
+      "title": "Trace near-coincident Andoyer inverse rounding",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/19d3d22f2a130ae12173d8245858f60f80b6d7c3"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7a05293dc66aaf989e3f46f83b1ca0cac8d9ec48",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T14:10:01.000+01:00",
+      "title": "Audit Extension A U+4400 ngram behavior against MySQL",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7a05293dc66aaf989e3f46f83b1ca0cac8d9ec48"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1a35b2b706e53284ce62b8a42040ea0d11564350",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T14:01:44.000+01:00",
+      "title": "Add three-scope correlated scalar regression and benchmark",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1a35b2b706e53284ce62b8a42040ea0d11564350"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d129bd7e40cc4786bfd908b2571b887d4bf674fa",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T13:53:45.000+01:00",
+      "title": "Trace geographic cross-track reduced-length divergence",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d129bd7e40cc4786bfd908b2571b887d4bf674fa"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2dd8d34f38f3fb9a338bd349fa61fd9736955853",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T13:36:38.000+01:00",
+      "title": "Record geographic endpoint projection oracle trial",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2dd8d34f38f3fb9a338bd349fa61fd9736955853"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5bd0264bd6bc3f04d4e8e56a5e4bdc74363fa2b4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T13:33:08.000+01:00",
+      "title": "Cache qualified nested scalar metadata per statement",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5bd0264bd6bc3f04d4e8e56a5e4bdc74363fa2b4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:49028123348c4c3bc25baef11c696532102c62e2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-05T13:20:33.000+01:00",
+      "title": "Record structural nested-scope cache benchmark",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/49028123348c4c3bc25baef11c696532102c62e2"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:578482d6c046abf10853f1ed997844ec3e5d5d9e",
       "kind": "commit",
@@ -2595,62 +2795,6 @@
       "at": "2026-10-22T22:12:35.000+02:00",
       "title": "Docker reference benchmark results (Linux arm64, 2 pinned CPUs)",
       "url": "https://github.com/HelgeSverre/nvmr/commit/30de9c4dece4ae20933d1712b3b12c887322941a"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:85808c9bcb28ac7533ef7be0d82d17ab2128dc60",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T16:54:07.000+02:00",
-      "title": "Host benchmark results (Apple M2 Max, macOS 15.6)",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/85808c9bcb28ac7533ef7be0d82d17ab2128dc60"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:c42f9a4a1fe0428843773fc426dae10849c922be",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T16:22:28.000+02:00",
-      "title": "bench: serve the install mirror on a free port",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/c42f9a4a1fe0428843773fc426dae10849c922be"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:2280a98795030dadb86391ea0eaa738cc9acdebc",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T16:22:28.000+02:00",
-      "title": "macOS: nvm-core links libSystem only",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/2280a98795030dadb86391ea0eaa738cc9acdebc"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:c871fb2cc3b49547947b35f3381ec54a1c5584e8",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T15:33:17.000+02:00",
-      "title": "Reproducible benchmark and profiling harness; AGENTS.md",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/c871fb2cc3b49547947b35f3381ec54a1c5584e8"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:2933b33bf209660060825c93a02ad0d3d1f19215",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T15:14:19.000+02:00",
-      "title": "NVM_TIMINGS=1 prints nvm-core's in-process timings",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/2933b33bf209660060825c93a02ad0d3d1f19215"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:affa5b75e87ed5e2f76d2447a03c548a1a850124",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T15:14:19.000+02:00",
-      "title": "Remove ad-hoc probe scripts and scripts/perf.sh",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/affa5b75e87ed5e2f76d2447a03c548a1a850124"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:4d3acd19a16208b7856dd0f5aa0e69599ede463e",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T15:14:13.000+02:00",
-      "title": "Port upstream and fnm test cases; fix the divergences they found",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/4d3acd19a16208b7856dd0f5aa0e69599ede463e"
     },
     {
       "id": "release:HelgeSverre/fsdb:433914061",
