@@ -1,9 +1,481 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-06T12:17:31.722Z",
-  "since": "2026-10-23T12:17:31.722Z",
+  "fetchedAt": "2026-11-06T18:15:38.672Z",
+  "since": "2026-10-23T18:15:38.672Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:cc9e227d847cc12f5929cbda7501f822c83d7257",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T19:09:08.000+01:00",
+      "title": "Match plane-two legacy implicit weights",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/cc9e227d847cc12f5929cbda7501f822c83d7257"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:12806c31f685b591317458a1c3c143df707b2502",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T18:58:08.000+01:00",
+      "title": "Match Extension J plane-three legacy weights",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/12806c31f685b591317458a1c3c143df707b2502"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:eaab29550d3ef61ac50b8493d6a63900e5a1f206",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T18:35:09.000+01:00",
+      "title": "Match supplementary kana legacy weights",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/eaab29550d3ef61ac50b8493d6a63900e5a1f206"
+    },
+    {
+      "id": "commit:HelgeSverre/dmscene:bf36d9c535fe1ce92f0572e56f3c8b2c5391a7da",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-06T18:33:33.000+01:00",
+      "title": "Add twelve demos written by language models",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/bf36d9c535fe1ce92f0572e56f3c8b2c5391a7da"
+    },
+    {
+      "id": "commit:HelgeSverre/toon-php:c65ad5f21d53aa67d584d85dd2589427cd48515a",
+      "kind": "commit",
+      "repo": "HelgeSverre/toon-php",
+      "at": "2026-11-06T18:30:35.000+01:00",
+      "title": "Clarify vendored fixture tooling exclusions",
+      "url": "https://github.com/HelgeSverre/toon-php/commit/c65ad5f21d53aa67d584d85dd2589427cd48515a"
+    },
+    {
+      "id": "commit:HelgeSverre/toon-php:2cd9738dfaa8ad7b95c479e5529e27cb217825fb",
+      "kind": "commit",
+      "repo": "HelgeSverre/toon-php",
+      "at": "2026-11-06T18:30:19.000+01:00",
+      "title": "Complete Mago pre-PR checks and preserve validation provenance",
+      "url": "https://github.com/HelgeSverre/toon-php/commit/2cd9738dfaa8ad7b95c479e5529e27cb217825fb"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d7b10a039f86be7918c8ecb706cefc6ccd4abe4e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T18:27:21.000+01:00",
+      "title": "Verify multiset CTEs beside writable joined view",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d7b10a039f86be7918c8ecb706cefc6ccd4abe4e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ea1e6d0cf54946062fea020a3d83e8bf0d73b45b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T18:21:42.000+01:00",
+      "title": "Decorrelate integer keys in inner join ON clauses",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ea1e6d0cf54946062fea020a3d83e8bf0d73b45b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4b96d435380ed3d100de6b3f9b66132cd590ee24",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T18:10:58.000+01:00",
+      "title": "Expose geographic overlay gap in edge oracle",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4b96d435380ed3d100de6b3f9b66132cd590ee24"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:09143ea242489f1f41d33b734d548c818dbe632e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T18:08:43.000+01:00",
+      "title": "Audit set-operation CTEs in writable joined views",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/09143ea242489f1f41d33b734d548c818dbe632e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1f96d210df3aa62ed473ad8342b4acce6b06dcb8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T18:00:40.000+01:00",
+      "title": "Refresh current-head CJK ngram parity evidence",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1f96d210df3aa62ed473ad8342b4acce6b06dcb8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9926d700c58e94a246ec89583c17461496cc84e0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T17:57:45.000+01:00",
+      "title": "Decorrelate joined subqueries on integer key tuples",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9926d700c58e94a246ec89583c17461496cc84e0"
+    },
+    {
+      "id": "pr:HelgeSverre/toon-php:11",
+      "kind": "merge",
+      "repo": "HelgeSverre/toon-php",
+      "at": "2026-11-06T17:55:21Z",
+      "title": "Adopt Mago with compatibility and coverage safeguards",
+      "url": "https://github.com/HelgeSverre/toon-php/pull/11"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:bced5835026f77ffe6796ad823574fbac262fc44",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T17:47:17.000+01:00",
+      "title": "Match Nushu legacy weights across full block",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/bced5835026f77ffe6796ad823574fbac262fc44"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:6a225a1288d7bb2227fd9d04d0b16cf298af436f",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-11-06T17:42:00.000+01:00",
+      "title": "Record uninterrupted fnm hook rerun",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/6a225a1288d7bb2227fd9d04d0b16cf298af436f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4544b43fa363f121d6db05c034c705b1a3e48ab5",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T17:37:07.000+01:00",
+      "title": "Name Khitan block in legacy weight audit",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4544b43fa363f121d6db05c034c705b1a3e48ab5"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:22e5c5505f65103e425708ae2e4aa526f813baba",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-11-06T17:35:35.000+01:00",
+      "title": "Compare fnm local and recursive hooks fairly",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/22e5c5505f65103e425708ae2e4aa526f813baba"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b7b66fadfa8a5fdaff54bb417ee1ca767db6501f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T16:45:34.000+01:00",
+      "title": "Index correlated COUNT truth HAVING checks",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b7b66fadfa8a5fdaff54bb417ee1ca767db6501f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:99d2fb7a3bf628f7dedfcddeda98a87d10d63d1d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T16:33:29.000+01:00",
+      "title": "Match Tangut Components and Supplement legacy weights",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/99d2fb7a3bf628f7dedfcddeda98a87d10d63d1d"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:ea45aba4c7c0afd3c6be694563d9f64b8c9067db",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-11-06T16:30:55.000+01:00",
+      "title": "Benchmark mise and proto against nvmr and fnm",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/ea45aba4c7c0afd3c6be694563d9f64b8c9067db"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a8cf0ff14e0cdb245f4e17ec78419cad5cc24eba",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T16:25:25.000+01:00",
+      "title": "Match full Tangut legacy weight block",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a8cf0ff14e0cdb245f4e17ec78419cad5cc24eba"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:062602b78003396b630b8762012f45253dd64d95",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T16:16:06.000+01:00",
+      "title": "Match supplementary ideographic symbol weights and ngrams",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/062602b78003396b630b8762012f45253dd64d95"
+    },
+    {
+      "id": "commit:HelgeSverre/toon-php:79f9e2f0e6306eaa5d4fa4e9dadef88edc27af67",
+      "kind": "commit",
+      "repo": "HelgeSverre/toon-php",
+      "at": "2026-11-06T16:13:55.000+01:00",
+      "title": "Preserve legacy behavior and generated coverage in Mago migration",
+      "url": "https://github.com/HelgeSverre/toon-php/commit/79f9e2f0e6306eaa5d4fa4e9dadef88edc27af67"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e01d36ac06b9b953b7187b304d1eded46d4d275f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T16:03:04.000+01:00",
+      "title": "Pin non-updatable outer derived view boundary",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e01d36ac06b9b953b7187b304d1eded46d4d275f"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:8f47a5e4285c46f57bc53ef1272ed24e38506bab",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-11-06T16:02:23.000+01:00",
+      "title": "Pin proto Node and activation plugin contents",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/8f47a5e4285c46f57bc53ef1272ed24e38506bab"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7bdac4cfb935a63c02a42c8dc23693798a8c388d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T15:55:29.000+01:00",
+      "title": "Index correlated COUNT IN HAVING checks",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7bdac4cfb935a63c02a42c8dc23693798a8c388d"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:9d52455f0d2999d5b7dc54929f1dc917580eeab2",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-11-06T15:52:27.000+01:00",
+      "title": "Pin mise and proto releases for fair competitor benchmarks",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/9d52455f0d2999d5b7dc54929f1dc917580eeab2"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:262d005f641a7c48ccab28fba51c4c525f5029ca",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T15:45:11.000+01:00",
+      "title": "Match vertical punctuation legacy weights",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/262d005f641a7c48ccab28fba51c4c525f5029ca"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:33a2bc1bc7629bb3814f9c424ba3389ad1e81ff9",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-11-06T15:35:33.000+01:00",
+      "title": "Speed up version listings and native directory hooks",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/33a2bc1bc7629bb3814f9c424ba3389ad1e81ff9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2e99f8366d47c0e491346c40602a9bf657deee01",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T15:32:43.000+01:00",
+      "title": "Match legacy supplemental punctuation weights",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2e99f8366d47c0e491346c40602a9bf657deee01"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1b3f9de2a15d90fcc0f59e1229daad0ffce49e0e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T15:19:15.000+01:00",
+      "title": "Use indexed correlated counts for BETWEEN HAVING bounds",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1b3f9de2a15d90fcc0f59e1229daad0ffce49e0e"
+    },
+    {
+      "id": "commit:HelgeSverre/resume:c28a836ba235e0d5695a73a7884f3d2e2f633051",
+      "kind": "commit",
+      "repo": "HelgeSverre/resume",
+      "at": "2026-11-06T15:16:57.000+01:00",
+      "title": "Release 1.1.1 (#6)",
+      "url": "https://github.com/HelgeSverre/resume/commit/c28a836ba235e0d5695a73a7884f3d2e2f633051"
+    },
+    {
+      "id": "commit:HelgeSverre/resume:4a83896ac2a2883df2f610f4caf7b41a6fb8d45b",
+      "kind": "commit",
+      "repo": "HelgeSverre/resume",
+      "at": "2026-11-06T15:15:33.000+01:00",
+      "title": "Fix follow-up metadata, Unicode, and terminal-output regressions (#5)",
+      "url": "https://github.com/HelgeSverre/resume/commit/4a83896ac2a2883df2f610f4caf7b41a6fb8d45b"
+    },
+    {
+      "id": "commit:HelgeSverre/github-narcissist-feed:a8f6647b52bbec1c06b4e7962b3558137cda6581",
+      "kind": "commit",
+      "repo": "HelgeSverre/github-narcissist-feed",
+      "at": "2026-11-06T15:14:31.000+01:00",
+      "title": "Attribute closed pull requests to their closer and bump to 0.1.1",
+      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/a8f6647b52bbec1c06b4e7962b3558137cda6581"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:cd7d22a684ca08038b31164d5bed5559bc393f99",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T15:11:19.000+01:00",
+      "title": "Use indexed correlated counts for negated HAVING bounds",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/cd7d22a684ca08038b31164d5bed5559bc393f99"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:876d8f7215b2544834b647be2f50c7f06a81bb4c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T15:01:18.000+01:00",
+      "title": "Consolidate joined-view merged-key contention tests",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/876d8f7215b2544834b647be2f50c7f06a81bb4c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:93477aa7c4255dda9ecd8b0b085013111004715e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T14:53:32.000+01:00",
+      "title": "Propagate joined-view locks through merged-key chains",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/93477aa7c4255dda9ecd8b0b085013111004715e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:024480ef45c7bf99e8113f57a8c7eed0f85cb59a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T14:45:12.000+01:00",
+      "title": "Carry first natural key through joined-view source chains",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/024480ef45c7bf99e8113f57a8c7eed0f85cb59a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:be3553b7e12f6355487e898dcea3b7f1b35dbfe8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T14:39:22.000+01:00",
+      "title": "Carry first USING key through joined-view source chains",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/be3553b7e12f6355487e898dcea3b7f1b35dbfe8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:cd5d3110af63ae820e537602796720d1889002e7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T14:32:53.000+01:00",
+      "title": "Propagate joined-view source keys through inner equality chains",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/cd5d3110af63ae820e537602796720d1889002e7"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:107b1be3d942d10801668abdb7ec26ffabdec5da",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-11-06T14:24:00.000+01:00",
+      "title": "Profile nvmr against nvm and fnm in pinned Docker harness",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/107b1be3d942d10801668abdb7ec26ffabdec5da"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b41cd8938a5de14512334bfed77b571e27234bbf",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T14:23:34.000+01:00",
+      "title": "Narrow natural-join view source locks by shared keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b41cd8938a5de14512334bfed77b571e27234bbf"
+    },
+    {
+      "id": "pr:HelgeSverre/resume:6",
+      "kind": "merge",
+      "repo": "HelgeSverre/resume",
+      "at": "2026-11-06T14:16:58Z",
+      "title": "Release 1.1.1",
+      "url": "https://github.com/HelgeSverre/resume/pull/6"
+    },
+    {
+      "id": "commit:HelgeSverre/dmscene:f499691e9bd1fe7213d811c6466976673dd5a98e",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-06T14:16:48.000+01:00",
+      "title": "Simplify demo copy and expand linked README preview",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/f499691e9bd1fe7213d811c6466976673dd5a98e"
+    },
+    {
+      "id": "pr:HelgeSverre/resume:5",
+      "kind": "merge",
+      "repo": "HelgeSverre/resume",
+      "at": "2026-11-06T14:15:33Z",
+      "title": "Fix six bugs from the post-release audit",
+      "url": "https://github.com/HelgeSverre/resume/pull/5"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:595bb75467f423c638712b08669606b380dc934b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T14:14:37.000+01:00",
+      "title": "Narrow joined-view source locks through USING keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/595bb75467f423c638712b08669606b380dc934b"
+    },
+    {
+      "id": "commit:HelgeSverre/dmscene:9c526cc32e4439cd4575c372462322ac2e264cc6",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-06T14:13:54.000+01:00",
+      "title": "Restore ASCII README header and keep demo preview",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/9c526cc32e4439cd4575c372462322ac2e264cc6"
+    },
+    {
+      "id": "commit:HelgeSverre/dmscene:d4d6b2252c22576c07223e91579a13bfa7b2f480",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-06T14:08:08.000+01:00",
+      "title": "Add FULL SEND showcase and fix synth voice ownership",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/d4d6b2252c22576c07223e91579a13bfa7b2f480"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:38f22002be16358a7202a219346f3767e8d0f059",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T14:07:14.000+01:00",
+      "title": "Claim read sources for every written joined view",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/38f22002be16358a7202a219346f3767e8d0f059"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f7c2229a96e25935c51a46d047953e15adc39d26",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T13:55:34.000+01:00",
+      "title": "Reconcile current spatial and CJK oracle status",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f7c2229a96e25935c51a46d047953e15adc39d26"
+    },
+    {
+      "id": "commit:HelgeSverre/toon-php:672a78b46517667252ac93f9b6e57bad1519ac4e",
+      "kind": "commit",
+      "repo": "HelgeSverre/toon-php",
+      "at": "2026-11-06T13:46:52.000+01:00",
+      "title": "Record packaged Symfony Mate integration and release baseline checks",
+      "url": "https://github.com/HelgeSverre/toon-php/commit/672a78b46517667252ac93f9b6e57bad1519ac4e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ed593da05b361b8a269c9ef4769575c776f8b649",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T13:45:38.000+01:00",
+      "title": "Use indexed counts for combined correlated EXISTS HAVING bounds",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ed593da05b361b8a269c9ef4769575c776f8b649"
+    },
+    {
+      "id": "commit:HelgeSverre/toon-php:fd2a4bf05c8e1bd07ecbc5fc13991d1ce395789e",
+      "kind": "commit",
+      "repo": "HelgeSverre/toon-php",
+      "at": "2026-11-06T13:43:52.000+01:00",
+      "title": "Add opt-in TOON 4.4 codec and prepare 3.3.0 release",
+      "url": "https://github.com/HelgeSverre/toon-php/commit/fd2a4bf05c8e1bd07ecbc5fc13991d1ce395789e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:64d0a5e0e17a744b64a5edd07f5822a70f3221fc",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T13:38:35.000+01:00",
+      "title": "Verify autocommit joined-view source waits",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/64d0a5e0e17a744b64a5edd07f5822a70f3221fc"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2fefb3d8a96be01eb7f3c12e203379ccef1ad133",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T13:33:22.000+01:00",
+      "title": "Lock joined-view read sources in multi-table updates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2fefb3d8a96be01eb7f3c12e203379ccef1ad133"
+    },
+    {
+      "id": "commit:HelgeSverre/resume:418933b66f7b738993bbabe3fc786f4f2ea62808",
+      "kind": "commit",
+      "repo": "HelgeSverre/resume",
+      "at": "2026-11-06T13:24:02.000+01:00",
+      "title": "Release 1.1.0 (#4)",
+      "url": "https://github.com/HelgeSverre/resume/commit/418933b66f7b738993bbabe3fc786f4f2ea62808"
+    },
+    {
+      "id": "commit:HelgeSverre/resume:25b4a2310ac0235f8f442fdbd1c0894b1f029d85",
+      "kind": "commit",
+      "repo": "HelgeSverre/resume",
+      "at": "2026-11-06T13:22:58.000+01:00",
+      "title": "Use current Codex turn directory and monotonic activity timestamps (#3)",
+      "url": "https://github.com/HelgeSverre/resume/commit/25b4a2310ac0235f8f442fdbd1c0894b1f029d85"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:fcafb18ff8f205560fda1c87cccc4037896ca1c7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T13:21:51.000+01:00",
+      "title": "Wait on joined-view read sources before rebasing updates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/fcafb18ff8f205560fda1c87cccc4037896ca1c7"
+    },
+    {
+      "id": "pr:HelgeSverre/toon-php:10",
+      "kind": "merge",
+      "repo": "HelgeSverre/toon-php",
+      "at": "2026-11-06T13:07:31Z",
+      "title": "Support explicit TOON 3.3, 4.1 and 4.4 formats without changing defaults",
+      "url": "https://github.com/HelgeSverre/toon-php/pull/10"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:89dc32f65b99330c10af23531519afff9da0b334",
       "kind": "commit",
@@ -99,6 +571,22 @@
       "at": "2026-11-06T12:25:00.000+01:00",
       "title": "Record rejected three-scope metadata cache trial",
       "url": "https://github.com/HelgeSverre/fsdb/commit/ecd1f5935632f4d6321836d7de49e5e633fa2f73"
+    },
+    {
+      "id": "pr:HelgeSverre/resume:4",
+      "kind": "merge",
+      "repo": "HelgeSverre/resume",
+      "at": "2026-11-06T12:24:03Z",
+      "title": "Release 1.1.0",
+      "url": "https://github.com/HelgeSverre/resume/pull/4"
+    },
+    {
+      "id": "pr:HelgeSverre/resume:3",
+      "kind": "merge",
+      "repo": "HelgeSverre/resume",
+      "at": "2026-11-06T12:22:58Z",
+      "title": "Fix stale Codex worktree attribution and activity timestamps",
+      "url": "https://github.com/HelgeSverre/resume/pull/3"
     },
     {
       "id": "commit:HelgeSverre/nvmr:acf54850b6f1b04dab3a2f7d29719d4065d84ba4",
@@ -3933,6 +4421,38 @@
       "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0-preview.42"
     },
     {
+      "id": "release:HelgeSverre/toon-php:436513295",
+      "kind": "release",
+      "repo": "HelgeSverre/toon-php",
+      "at": "2026-11-06T13:08:20Z",
+      "title": "v3.3.0",
+      "url": "https://github.com/HelgeSverre/toon-php/releases/tag/v3.3.0"
+    },
+    {
+      "id": "release:HelgeSverre/nvmr:436418591",
+      "kind": "release",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-11-06T11:25:08Z",
+      "title": "v0.1.0",
+      "url": "https://github.com/HelgeSverre/nvmr/releases/tag/v0.1.0"
+    },
+    {
+      "id": "release:HelgeSverre/resume:436586489",
+      "kind": "release",
+      "repo": "HelgeSverre/resume",
+      "at": "2026-11-06T14:17:58Z",
+      "title": "v1.1.1",
+      "url": "https://github.com/HelgeSverre/resume/releases/tag/v1.1.1"
+    },
+    {
+      "id": "release:HelgeSverre/resume:436472277",
+      "kind": "release",
+      "repo": "HelgeSverre/resume",
+      "at": "2026-11-06T12:25:03Z",
+      "title": "v1.1.0",
+      "url": "https://github.com/HelgeSverre/resume/releases/tag/v1.1.0"
+    },
+    {
       "id": "release:HelgeSverre/resume:436454733",
       "kind": "release",
       "repo": "HelgeSverre/resume",
@@ -3947,14 +4467,6 @@
       "at": "2026-11-06T11:20:23Z",
       "title": "v2.1.0",
       "url": "https://github.com/HelgeSverre/laravel-prunekeeper/releases/tag/v2.1.0"
-    },
-    {
-      "id": "release:HelgeSverre/nvmr:436418591",
-      "kind": "release",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-11-06T11:25:08Z",
-      "title": "v0.1.0",
-      "url": "https://github.com/HelgeSverre/nvmr/releases/tag/v0.1.0"
     },
     {
       "id": "release:HelgeSverre/slack-bolt-php:434981566",
