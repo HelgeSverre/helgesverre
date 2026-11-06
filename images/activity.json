@@ -1,9 +1,25 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-05T18:15:11.207Z",
-  "since": "2026-10-22T18:15:11.207Z",
+  "fetchedAt": "2026-11-06T00:31:42.887Z",
+  "since": "2026-10-23T00:31:42.887Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/dmscene:391f5eecf61229ea3b1bd6c035307c71f4fca03c",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-05T22:56:08.000+01:00",
+      "title": "Add skyline, oldskool and glitch demos",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/391f5eecf61229ea3b1bd6c035307c71f4fca03c"
+    },
+    {
+      "id": "commit:HelgeSverre/dmscene:b12f1ac9fb7015c628ea00e9c755b5937795ec7f",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-05T22:43:52.000+01:00",
+      "title": "dmscene: pure C demo engine with VM, tracker, fractal shaders and 18 demos",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/b12f1ac9fb7015c628ea00e9c755b5937795ec7f"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:34a07f6cd1dddefed70f27cf8b3a9aa186fa16a2",
       "kind": "commit",
@@ -2781,22 +2797,6 @@
       "url": "https://github.com/HelgeSverre/ollama-gui/commit/dc54314183c6e2b4528043d88b6a4a5dba2d6d81"
     },
     {
-      "id": "commit:HelgeSverre/trace-context:03ba7904cc86d07942a4b34c66871fcfa9a77548",
-      "kind": "commit",
-      "repo": "HelgeSverre/trace-context",
-      "at": "2026-10-23T00:06:46.000+02:00",
-      "title": "Publish trace context action with Ubuntu and macOS smoke tests",
-      "url": "https://github.com/HelgeSverre/trace-context/commit/03ba7904cc86d07942a4b34c66871fcfa9a77548"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:30de9c4dece4ae20933d1712b3b12c887322941a",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-22T22:12:35.000+02:00",
-      "title": "Docker reference benchmark results (Linux arm64, 2 pinned CPUs)",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/30de9c4dece4ae20933d1712b3b12c887322941a"
-    },
-    {
       "id": "release:HelgeSverre/fsdb:433914061",
       "kind": "release",
       "repo": "HelgeSverre/fsdb",
@@ -2923,14 +2923,6 @@
       "at": "2026-10-23T00:55:17Z",
       "title": "v2.0.5",
       "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.5"
-    },
-    {
-      "id": "release:HelgeSverre/trace-context:421250645",
-      "kind": "release",
-      "repo": "HelgeSverre/trace-context",
-      "at": "2026-10-22T22:07:28Z",
-      "title": "v1.0.0",
-      "url": "https://github.com/HelgeSverre/trace-context/releases/tag/v1.0.0"
     }
   ]
 }
