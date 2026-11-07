@@ -1,9 +1,585 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-06T18:15:38.672Z",
-  "since": "2026-10-23T18:15:38.672Z",
+  "fetchedAt": "2026-11-07T00:30:28.111Z",
+  "since": "2026-10-24T00:30:28.111Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/dmscene:c1700d67fa0743e9335b3665ebef87c3a40734ff",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-07T00:41:47.000+01:00",
+      "title": "Default playback to native shaders without reducing resolution",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/c1700d67fa0743e9335b3665ebef87c3a40734ff"
+    },
+    {
+      "id": "commit:HelgeSverre/dmscene:8a91ca091113e4f8fe49a7a9926e74219efc174c",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-07T00:33:15.000+01:00",
+      "title": "Add Kitty terminal graphics and faster native shader playback",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/8a91ca091113e4f8fe49a7a9926e74219efc174c"
+    },
+    {
+      "id": "commit:sema-lisp/sema-coder:64540dc5456e325f87cf1ec9e1b04af86b25786c",
+      "kind": "commit",
+      "repo": "sema-lisp/sema-coder",
+      "at": "2026-11-07T00:29:27.000+01:00",
+      "title": "fix(tui): preserve reading position until scrolling back to bottom",
+      "url": "https://github.com/sema-lisp/sema-coder/commit/64540dc5456e325f87cf1ec9e1b04af86b25786c"
+    },
+    {
+      "id": "commit:HelgeSverre/dmscene:ac7dcad20b082badfd30bb5d0e1dc7c5dc385889",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-07T00:21:58.000+01:00",
+      "title": "Keep native MOV checks warning-clean under GCC",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/ac7dcad20b082badfd30bb5d0e1dc7c5dc385889"
+    },
+    {
+      "id": "commit:HelgeSverre/dmscene:6c12346c64d7cfdf6cd63e1cbe8ef6430bce9bcf",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-07T00:15:38.000+01:00",
+      "title": "Integrate native video export and supported WebAssembly demos",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/6c12346c64d7cfdf6cd63e1cbe8ef6430bce9bcf"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:79dca4893017ceef3bbeee4cfc9b53f9ac9b7a73",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T23:46:00.000+01:00",
+      "title": "Plan mixed nullable and matched COUNT HAVING",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/79dca4893017ceef3bbeee4cfc9b53f9ac9b7a73"
+    },
+    {
+      "id": "commit:HelgeSverre/dmscene:a65b8441db8e533684507ef08dda13c8943f86c6",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-06T23:37:47.000+01:00",
+      "title": "Document inspection commands and current engine behavior",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/a65b8441db8e533684507ef08dda13c8943f86c6"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d865e7531994e6f807ff3a40738a8c62d1d8d0ad",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T23:34:51.000+01:00",
+      "title": "Precompute fixed-group nullable COUNT membership",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d865e7531994e6f807ff3a40738a8c62d1d8d0ad"
+    },
+    {
+      "id": "commit:HelgeSverre/dmscene:8984bd1e11df6e241c66ccb577e59228df1f83c5",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-06T23:32:31.000+01:00",
+      "title": "Reconcile TODO with implemented features and remaining scope",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/8984bd1e11df6e241c66ccb577e59228df1f83c5"
+    },
+    {
+      "id": "commit:HelgeSverre/dmscene:74e37da611585c8ea26262b735be4e134ccb9db0",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-06T23:32:04.000+01:00",
+      "title": "Add module statistics and JSON check results",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/74e37da611585c8ea26262b735be4e134ccb9db0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:216c93035c0697eeac9202103807bcea07bf496d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T23:26:07.000+01:00",
+      "title": "Precompute nullable COUNT HAVING membership",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/216c93035c0697eeac9202103807bcea07bf496d"
+    },
+    {
+      "id": "commit:HelgeSverre/dmscene:78c0e1ceaaf41d4ed8b3f34fe1405abcba90ce8f",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-06T23:17:23.000+01:00",
+      "title": "Record cross-platform state audit validation",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/78c0e1ceaaf41d4ed8b3f34fe1405abcba90ce8f"
+    },
+    {
+      "id": "commit:HelgeSverre/dmscene:511dbf4e7c6d56deaa97828e987f871c884a4a1a",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-06T23:14:21.000+01:00",
+      "title": "Wait for observable transport transitions in live playback tests",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/511dbf4e7c6d56deaa97828e987f871c884a4a1a"
+    },
+    {
+      "id": "commit:HelgeSverre/dmscene:a1b8d3f1ac7209e9bd9b5bcfc78214b4fe5e48f2",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-06T23:11:19.000+01:00",
+      "title": "Document state machines and fix lifecycle invariant failures",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/a1b8d3f1ac7209e9bd9b5bcfc78214b4fe5e48f2"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:92a1e075e2e34361d0d6c0fd5fceb7479d599f1c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T22:59:59.000+01:00",
+      "title": "Prepare stable Fsdb 0.1.2 release",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/92a1e075e2e34361d0d6c0fd5fceb7479d599f1c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2ee51d5f19a4af8f91df0027f6b9beb7b145a0ed",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T22:56:13.000+01:00",
+      "title": "Precompute correlated counts of nullable physical columns",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2ee51d5f19a4af8f91df0027f6b9beb7b145a0ed"
+    },
+    {
+      "id": "commit:sema-lisp/sema-coder:817666cd5d085b9c71aa5a39909a709021d1031b",
+      "kind": "commit",
+      "repo": "sema-lisp/sema-coder",
+      "at": "2026-11-06T22:56:07.000+01:00",
+      "title": "docs: finalize state-machine evidence and verification record",
+      "url": "https://github.com/sema-lisp/sema-coder/commit/817666cd5d085b9c71aa5a39909a709021d1031b"
+    },
+    {
+      "id": "commit:sema-lisp/sema-coder:337fa6b7e26a7a6a3974571b972c67ce2ab5b798",
+      "kind": "commit",
+      "repo": "sema-lisp/sema-coder",
+      "at": "2026-11-06T22:55:28.000+01:00",
+      "title": "fix(session): isolate overlapping snapshot publications",
+      "url": "https://github.com/sema-lisp/sema-coder/commit/337fa6b7e26a7a6a3974571b972c67ce2ab5b798"
+    },
+    {
+      "id": "commit:sema-lisp/sema-coder:344d106c87e10699c846bcfcdb44c62662982c5e",
+      "kind": "commit",
+      "repo": "sema-lisp/sema-coder",
+      "at": "2026-11-06T22:54:21.000+01:00",
+      "title": "fix(selection): invalidate rendered positions when tool output expands",
+      "url": "https://github.com/sema-lisp/sema-coder/commit/344d106c87e10699c846bcfcdb44c62662982c5e"
+    },
+    {
+      "id": "commit:sema-lisp/sema-coder:297c1459399464a1fe43195ca935e1e559d5b55a",
+      "kind": "commit",
+      "repo": "sema-lisp/sema-coder",
+      "at": "2026-11-06T22:53:08.000+01:00",
+      "title": "fix(turn): cancel runner before foreground cleanup can yield",
+      "url": "https://github.com/sema-lisp/sema-coder/commit/297c1459399464a1fe43195ca935e1e559d5b55a"
+    },
+    {
+      "id": "commit:sema-lisp/sema-coder:52c78075e22b5cf3b702afeeb226690817473fea",
+      "kind": "commit",
+      "repo": "sema-lisp/sema-coder",
+      "at": "2026-11-06T22:51:21.000+01:00",
+      "title": "fix(input): ignore key releases and reject stale drag completion",
+      "url": "https://github.com/sema-lisp/sema-coder/commit/52c78075e22b5cf3b702afeeb226690817473fea"
+    },
+    {
+      "id": "commit:sema-lisp/sema-coder:804794afd634ed1cbbe1f0e952f3f229b83c210b",
+      "kind": "commit",
+      "repo": "sema-lisp/sema-coder",
+      "at": "2026-11-06T22:50:29.000+01:00",
+      "title": "fix(tui): show queued and steering inputs when their turns start",
+      "url": "https://github.com/sema-lisp/sema-coder/commit/804794afd634ed1cbbe1f0e952f3f229b83c210b"
+    },
+    {
+      "id": "commit:sema-lisp/sema-coder:10b00fe90fe8c672327a5cb7ee71917b01b798c8",
+      "kind": "commit",
+      "repo": "sema-lisp/sema-coder",
+      "at": "2026-11-06T22:49:57.000+01:00",
+      "title": "fix(mcp): fence connection results against superseded attempts",
+      "url": "https://github.com/sema-lisp/sema-coder/commit/10b00fe90fe8c672327a5cb7ee71917b01b798c8"
+    },
+    {
+      "id": "commit:sema-lisp/sema-coder:f0febc3ee6b92cdc03654c99588eebf685250bdf",
+      "kind": "commit",
+      "repo": "sema-lisp/sema-coder",
+      "at": "2026-11-06T22:49:06.000+01:00",
+      "title": "fix(session): persist empty queue updates and make resets explicit",
+      "url": "https://github.com/sema-lisp/sema-coder/commit/f0febc3ee6b92cdc03654c99588eebf685250bdf"
+    },
+    {
+      "id": "commit:sema-lisp/sema-coder:a41ffe99bb04b29e60377bd3e8312c2d5b80fe57",
+      "kind": "commit",
+      "repo": "sema-lisp/sema-coder",
+      "at": "2026-11-06T22:44:42.000+01:00",
+      "title": "fix: restore full modules after checkpoint conflict resolution",
+      "url": "https://github.com/sema-lisp/sema-coder/commit/a41ffe99bb04b29e60377bd3e8312c2d5b80fe57"
+    },
+    {
+      "id": "commit:sema-lisp/sema-coder:04ef56f70d3940738b6d908be00da51b06a8f256",
+      "kind": "commit",
+      "repo": "sema-lisp/sema-coder",
+      "at": "2026-11-06T22:44:16.000+01:00",
+      "title": "chore: checkpoint existing workspace changes",
+      "url": "https://github.com/sema-lisp/sema-coder/commit/04ef56f70d3940738b6d908be00da51b06a8f256"
+    },
+    {
+      "id": "commit:HelgeSverre/dmscene:ab790e41ab75a1ddbd48a0cfb2e96fd987f70758",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-06T22:42:29.000+01:00",
+      "title": "Wake playback on scroll input and reduce first-motion latency",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/ab790e41ab75a1ddbd48a0cfb2e96fd987f70758"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:944c97ffb9af8f30277bf55bcbdf09fe099b6d40",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T22:32:42.000+01:00",
+      "title": "Restore Japanese kana full-text token parity",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/944c97ffb9af8f30277bf55bcbdf09fe099b6d40"
+    },
+    {
+      "id": "commit:HelgeSverre/dmscene:d15847ab50952750f743b74a36ada9083b35e180",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-06T22:12:08.000+01:00",
+      "title": "Make terminal scrubbing smooth with asynchronous cached audio seeks",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/d15847ab50952750f743b74a36ada9083b35e180"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c142bcdef65ffcd7d6648d920da75e24958b84e2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T22:10:53.000+01:00",
+      "title": "Claim union and grouped view materialization sources",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c142bcdef65ffcd7d6648d920da75e24958b84e2"
+    },
+    {
+      "id": "commit:HelgeSverre/dmscene:4a13d5b96e099d9f40718da2bd828c88d004a306",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-06T21:51:05.000+01:00",
+      "title": "Handle terminal input safely and add playback transport controls",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/4a13d5b96e099d9f40718da2bd828c88d004a306"
+    },
+    {
+      "id": "commit:HelgeSverre/dmscene:a9177f1b9a5568daee07c0d749f8a1591aae6bf5",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-06T21:48:05.000+01:00",
+      "title": "Isolate pixel worker uniforms to remove render races",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/a9177f1b9a5568daee07c0d749f8a1591aae6bf5"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a9bb70a308f4c2569013f9e11125722306c68e4b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T21:45:22.000+01:00",
+      "title": "Prepare stable Fsdb 0.1.1 release",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a9bb70a308f4c2569013f9e11125722306c68e4b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:27ecc56613663756fc888e01fe8b07b9e2078fa3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T21:45:19.000+01:00",
+      "title": "Claim grouped derived sources for joined view writes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/27ecc56613663756fc888e01fe8b07b9e2078fa3"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:79cd8afe9221d0e885ec445080d88708570ce930",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T21:33:21.000+01:00",
+      "title": "Cache correlated count column proofs per statement",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/79cd8afe9221d0e885ec445080d88708570ce930"
+    },
+    {
+      "id": "commit:HelgeSverre/dmscene:14800f7d00765cadfb6dbc7001f3fd748d191537",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-06T21:24:36.000+01:00",
+      "title": "Compile demo shaders to native C for faster lossless video export",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/14800f7d00765cadfb6dbc7001f3fd748d191537"
+    },
+    {
+      "id": "commit:HelgeSverre/dmscene:cbe7fe1a379248c019f1e3c797ae21ed9fac4b37",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-06T21:22:51.000+01:00",
+      "title": "Harden qtrle MOV writer limits and seeking",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/cbe7fe1a379248c019f1e3c797ae21ed9fac4b37"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a29b7c25a947b252193e9dd82a9fd8be25ce04e2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T21:21:59.000+01:00",
+      "title": "Precompute correlated counts of nonnull physical columns",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a29b7c25a947b252193e9dd82a9fd8be25ce04e2"
+    },
+    {
+      "id": "commit:HelgeSverre/dmscene:42507e8029dc8b93a452057ba24ea86f5d6aef50",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-06T21:21:52.000+01:00",
+      "title": "Isolate pixel worker uniforms to remove render races",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/42507e8029dc8b93a452057ba24ea86f5d6aef50"
+    },
+    {
+      "id": "commit:HelgeSverre/dmscene:8f5e2a466be2621794e7fa9e5fd6366ac52cd4f4",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-06T21:15:03.000+01:00",
+      "title": "Prototype lossless QuickTime Animation export",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/8f5e2a466be2621794e7fa9e5fd6366ac52cd4f4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a68a30d955e274394c2e2252704408c892ac708e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T21:11:10.000+01:00",
+      "title": "Audit grouped derived sources in natural joined views",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a68a30d955e274394c2e2252704408c892ac708e"
+    },
+    {
+      "id": "commit:HelgeSverre/toon-php:a138b7235c34cc01618e50417259625f140846c0",
+      "kind": "commit",
+      "repo": "HelgeSverre/toon-php",
+      "at": "2026-11-06T21:06:21.000+01:00",
+      "title": "Record measured CI speed and real slowdown detection",
+      "url": "https://github.com/HelgeSverre/toon-php/commit/a138b7235c34cc01618e50417259625f140846c0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4961a36bf94f95d8ffa92e5b258417de8afca4a8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T21:05:17.000+01:00",
+      "title": "Trace geographic validity gap through line distance",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4961a36bf94f95d8ffa92e5b258417de8afca4a8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8d0833b1fab627e717dc651f895852faaf5e5847",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T21:02:19.000+01:00",
+      "title": "Pin geographic line-relation mismatches behind validity gaps",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8d0833b1fab627e717dc651f895852faaf5e5847"
+    },
+    {
+      "id": "commit:HelgeSverre/toon-php:0111d5fa7b3b49813bc1cfe1ca95764c4d1206ba",
+      "kind": "commit",
+      "repo": "HelgeSverre/toon-php",
+      "at": "2026-11-06T21:01:58.000+01:00",
+      "title": "Measure real benchmark regressions with a fast PR profile",
+      "url": "https://github.com/HelgeSverre/toon-php/commit/0111d5fa7b3b49813bc1cfe1ca95764c4d1206ba"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:bb1863321f4042bedca85a146dce0d186bd22417",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-11-06T21:01:47.000+01:00",
+      "title": "Tighten README prose and examples",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/bb1863321f4042bedca85a146dce0d186bd22417"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c512572fff5905a4f778fe03fefdafcf70f754c4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T20:58:31.000+01:00",
+      "title": "Use indexed membership for constant COUNT HAVING",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c512572fff5905a4f778fe03fefdafcf70f754c4"
+    },
+    {
+      "id": "commit:HelgeSverre/dmscene:c3dd615e7f55602de6c00c058b12ee145a27aa3d",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-06T20:52:58.000+01:00",
+      "title": "Prototype dependency-free raw AVI export",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/c3dd615e7f55602de6c00c058b12ee145a27aa3d"
+    },
+    {
+      "id": "commit:HelgeSverre/dmscene:7d9caf8e2484a17e8084a300323514e553aed3c7",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-06T20:52:22.000+01:00",
+      "title": "Add model rematch, exquisite corpse and CI",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/7d9caf8e2484a17e8084a300323514e553aed3c7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ef4e51a145e8af6beacf61aec6e9efe3151e0e39",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T20:51:28.000+01:00",
+      "title": "Precompute correlated counts of non-NULL constants",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ef4e51a145e8af6beacf61aec6e9efe3151e0e39"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:72a7183de5da62c26f1bd53a6776811363b7f5da",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-11-06T20:48:29.000+01:00",
+      "title": "Slim dev image and trim benchmark build context",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/72a7183de5da62c26f1bd53a6776811363b7f5da"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:b03ca63dbf1184ae9bce876ab6616e210c5f2c55",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-11-06T20:48:24.000+01:00",
+      "title": "Rewrite README as a practical command guide",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/b03ca63dbf1184ae9bce876ab6616e210c5f2c55"
+    },
+    {
+      "id": "commit:HelgeSverre/dmscene:8437a4538feca29aa7a31c8fd93c5196a2f0374e",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-06T20:46:13.000+01:00",
+      "title": "unused header file remove",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/8437a4538feca29aa7a31c8fd93c5196a2f0374e"
+    },
+    {
+      "id": "commit:HelgeSverre/dmscene:fe490ba08d96a28ab3c473ac08b4e91ffe7f167a",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-06T20:45:49.000+01:00",
+      "title": "Harden video export and add fast render scale override",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/fe490ba08d96a28ab3c473ac08b4e91ffe7f167a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:23fc7e37d568f03f35a09603d8ab53fdcf7e50cc",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T20:43:03.000+01:00",
+      "title": "Expand geographic validity oracle coverage after stable release",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/23fc7e37d568f03f35a09603d8ab53fdcf7e50cc"
+    },
+    {
+      "id": "commit:HelgeSverre/dmscene:26b238f0198039ddeb0f40a0000e21eaed83cbc8",
+      "kind": "commit",
+      "repo": "HelgeSverre/dmscene",
+      "at": "2026-11-06T20:24:11.000+01:00",
+      "title": "Add structured branches and embedded textures",
+      "url": "https://github.com/HelgeSverre/dmscene/commit/26b238f0198039ddeb0f40a0000e21eaed83cbc8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e9903dbb35ab1d5caa464a585f23948ddc927741",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T20:20:28.000+01:00",
+      "title": "Prepare first stable Fsdb 0.1.0 package",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e9903dbb35ab1d5caa464a585f23948ddc927741"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:220f5488b26dab4bc628d894856e85549cff51e1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T20:20:19.000+01:00",
+      "title": "Match Japanese kana-sensitive ordering and indexed ranges",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/220f5488b26dab4bc628d894856e85549cff51e1"
+    },
+    {
+      "id": "pr:HelgeSverre/toon-php:12",
+      "kind": "merge",
+      "repo": "HelgeSverre/toon-php",
+      "at": "2026-11-06T20:14:57Z",
+      "title": "Make benchmark checks real and keep routine PR runs small",
+      "url": "https://github.com/HelgeSverre/toon-php/pull/12"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:aefec43b1feb8929015616dd5e258507920070d7",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-06T20:08:40.000+01:00",
+      "title": "Record v0.9.0 publication and exact-source registry acceptance",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/aefec43b1feb8929015616dd5e258507920070d7"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:3b4163eb30204c4272238ae0eef5a5953d657396",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-06T20:04:10.000+01:00",
+      "title": "Update nvmr formula to v0.1.1",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/3b4163eb30204c4272238ae0eef5a5953d657396"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:2a29623f3063e8135d871122604c46b2f9bb2e76",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-11-06T19:59:21.000+01:00",
+      "title": "Release v0.1.1",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/2a29623f3063e8135d871122604c46b2f9bb2e76"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d85c9ebb33c4d5a69cb97b08012c1d4ac0dec1e9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T19:56:17.000+01:00",
+      "title": "Audit windowed NATURAL JOIN writable views",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d85c9ebb33c4d5a69cb97b08012c1d4ac0dec1e9"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:31a2b92a807ecfb5aab4d55066397c441a254b7c",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-06T19:54:34.000+01:00",
+      "title": "Prepare v0.9.0 after live starter and HTTP acceptance",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/31a2b92a807ecfb5aab4d55066397c441a254b7c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6db45c556fa38fa03c6c04e6ca532da58adab48d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T19:41:46.000+01:00",
+      "title": "Record per-database statement admission trial",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6db45c556fa38fa03c6c04e6ca532da58adab48d"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:9d6ef2ae4c5661afb3ded036756e6eb17c189556",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-06T19:39:25.000+01:00",
+      "title": "Document live starter acceptance and runtime migration",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/9d6ef2ae4c5661afb3ded036756e6eb17c189556"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:5e42816764af18e1d1885fcfe50eb1db648f0195",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-06T19:38:04.000+01:00",
+      "title": "Keep key command registration deterministic and extensible",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/5e42816764af18e1d1885fcfe50eb1db648f0195"
+    },
+    {
+      "id": "commit:HelgeSverre/slack-bolt-php:1066c8a45e6617185932a6436d0a18bf14a980e0",
+      "kind": "commit",
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-06T19:34:17.000+01:00",
+      "title": "Improve project bootstrap, browser routes and coherent starter profiles",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/1066c8a45e6617185932a6436d0a18bf14a980e0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c9c8d5510b14b8aa048ceb333f42971906df9bef",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T19:29:58.000+01:00",
+      "title": "Audit full plane-two unassigned ngram tail",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c9c8d5510b14b8aa048ceb333f42971906df9bef"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4e550d4a752138d967270af34f674641669c3256",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T19:24:13.000+01:00",
+      "title": "Group joined correlated NULL-safe numeric keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4e550d4a752138d967270af34f674641669c3256"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:dfeed97f47f1ffc7468f7b62f348d6f232ce9429",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-11-06T19:22:55.000+01:00",
+      "title": "Benchmark exact-default lazy startup against fnm",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/dfeed97f47f1ffc7468f7b62f348d6f232ce9429"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:fb9f55c92d04e7bd395e0dc2001d266a63d58a15",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T19:16:53.000+01:00",
+      "title": "Plan joined correlated decimal equality keys exactly",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/fb9f55c92d04e7bd395e0dc2001d266a63d58a15"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:cc9e227d847cc12f5929cbda7501f822c83d7257",
       "kind": "commit",
@@ -4381,28 +4957,28 @@
       "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/a84e2bcede4aa687636172e4205e453a722ff4e0"
     },
     {
-      "id": "commit:HelgeSverre/slack-bolt-php:89e9d16171bb16b5e05d8930c01db9c414895c6e",
-      "kind": "commit",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-10-24T01:55:39.000+02:00",
-      "title": "feat: add terminal, shared pet and Responses AI demos",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/89e9d16171bb16b5e05d8930c01db9c414895c6e"
+      "id": "release:HelgeSverre/fsdb:437110773",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T22:08:02Z",
+      "title": "v0.1.2",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.2"
     },
     {
-      "id": "commit:HelgeSverre/slack-bolt-php:5321c32fa0d7b914062605d2d28af945645eb9ee",
-      "kind": "commit",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-10-23T22:26:57.000+02:00",
-      "title": "feat: add Socket Mode runtime and CLI worker",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/5321c32fa0d7b914062605d2d28af945645eb9ee"
+      "id": "release:HelgeSverre/fsdb:437017794",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T20:50:12Z",
+      "title": "v0.1.1",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.1"
     },
     {
-      "id": "commit:HelgeSverre/slack-bolt-php:a2d7fc5f425bce474ccf4536419e9b130090562a",
-      "kind": "commit",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-10-23T20:48:06.000+02:00",
-      "title": "feat: bootstrap Thunder Bolt PHP framework",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/a2d7fc5f425bce474ccf4536419e9b130090562a"
+      "id": "release:HelgeSverre/fsdb:436913518",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T19:35:50Z",
+      "title": "v0.1.0",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0"
     },
     {
       "id": "release:HelgeSverre/fsdb:433914061",
@@ -4429,6 +5005,14 @@
       "url": "https://github.com/HelgeSverre/toon-php/releases/tag/v3.3.0"
     },
     {
+      "id": "release:HelgeSverre/nvmr:436878558",
+      "kind": "release",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-11-06T19:03:18Z",
+      "title": "v0.1.1",
+      "url": "https://github.com/HelgeSverre/nvmr/releases/tag/v0.1.1"
+    },
+    {
       "id": "release:HelgeSverre/nvmr:436418591",
       "kind": "release",
       "repo": "HelgeSverre/nvmr",
@@ -4437,36 +5021,12 @@
       "url": "https://github.com/HelgeSverre/nvmr/releases/tag/v0.1.0"
     },
     {
-      "id": "release:HelgeSverre/resume:436586489",
+      "id": "release:HelgeSverre/slack-bolt-php:436872692",
       "kind": "release",
-      "repo": "HelgeSverre/resume",
-      "at": "2026-11-06T14:17:58Z",
-      "title": "v1.1.1",
-      "url": "https://github.com/HelgeSverre/resume/releases/tag/v1.1.1"
-    },
-    {
-      "id": "release:HelgeSverre/resume:436472277",
-      "kind": "release",
-      "repo": "HelgeSverre/resume",
-      "at": "2026-11-06T12:25:03Z",
-      "title": "v1.1.0",
-      "url": "https://github.com/HelgeSverre/resume/releases/tag/v1.1.0"
-    },
-    {
-      "id": "release:HelgeSverre/resume:436454733",
-      "kind": "release",
-      "repo": "HelgeSverre/resume",
-      "at": "2026-11-06T12:06:10Z",
-      "title": "v1.1.0-rc.1",
-      "url": "https://github.com/HelgeSverre/resume/releases/tag/v1.1.0-rc.1"
-    },
-    {
-      "id": "release:HelgeSverre/laravel-prunekeeper:436414187",
-      "kind": "release",
-      "repo": "HelgeSverre/laravel-prunekeeper",
-      "at": "2026-11-06T11:20:23Z",
-      "title": "v2.1.0",
-      "url": "https://github.com/HelgeSverre/laravel-prunekeeper/releases/tag/v2.1.0"
+      "repo": "HelgeSverre/slack-bolt-php",
+      "at": "2026-11-06T18:56:50Z",
+      "title": "v0.9.0",
+      "url": "https://github.com/HelgeSverre/slack-bolt-php/releases/tag/v0.9.0"
     },
     {
       "id": "release:HelgeSverre/slack-bolt-php:434981566",
@@ -4531,6 +5091,38 @@
       "at": "2026-10-26T14:15:18Z",
       "title": "v0.1.0",
       "url": "https://github.com/HelgeSverre/slack-bolt-php/releases/tag/v0.1.0"
+    },
+    {
+      "id": "release:HelgeSverre/resume:436586489",
+      "kind": "release",
+      "repo": "HelgeSverre/resume",
+      "at": "2026-11-06T14:17:58Z",
+      "title": "v1.1.1",
+      "url": "https://github.com/HelgeSverre/resume/releases/tag/v1.1.1"
+    },
+    {
+      "id": "release:HelgeSverre/resume:436472277",
+      "kind": "release",
+      "repo": "HelgeSverre/resume",
+      "at": "2026-11-06T12:25:03Z",
+      "title": "v1.1.0",
+      "url": "https://github.com/HelgeSverre/resume/releases/tag/v1.1.0"
+    },
+    {
+      "id": "release:HelgeSverre/resume:436454733",
+      "kind": "release",
+      "repo": "HelgeSverre/resume",
+      "at": "2026-11-06T12:06:10Z",
+      "title": "v1.1.0-rc.1",
+      "url": "https://github.com/HelgeSverre/resume/releases/tag/v1.1.0-rc.1"
+    },
+    {
+      "id": "release:HelgeSverre/laravel-prunekeeper:436414187",
+      "kind": "release",
+      "repo": "HelgeSverre/laravel-prunekeeper",
+      "at": "2026-11-06T11:20:23Z",
+      "title": "v2.1.0",
+      "url": "https://github.com/HelgeSverre/laravel-prunekeeper/releases/tag/v2.1.0"
     },
     {
       "id": "release:HelgeSverre/rail-rs:433789275",
