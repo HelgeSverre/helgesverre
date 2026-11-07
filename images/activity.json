@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-07T00:30:28.111Z",
-  "since": "2026-10-24T00:30:28.111Z",
+  "fetchedAt": "2026-11-07T06:18:19.012Z",
+  "since": "2026-10-24T06:18:19.012Z",
   "partial": false,
   "events": [
     {
@@ -4939,22 +4939,6 @@
       "at": "2026-10-24T11:47:48.000+02:00",
       "title": "feat: add Work Objects and durable bidirectional comments",
       "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/29ef0108dd150f4aae90bfa46fd012b2a7451a54"
-    },
-    {
-      "id": "commit:HelgeSverre/slack-bolt-php:44c78dc9f1807a8962b993ca5a1c2602ee295f1b",
-      "kind": "commit",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-10-24T04:01:20.000+02:00",
-      "title": "feat: add Boltling App Home dashboard and care controls",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/44c78dc9f1807a8962b993ca5a1c2602ee295f1b"
-    },
-    {
-      "id": "commit:HelgeSverre/slack-bolt-php:a84e2bcede4aa687636172e4205e453a722ff4e0",
-      "kind": "commit",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-10-24T03:50:35.000+02:00",
-      "title": "feat: stream AI replies with tool progress cards and a concise voice",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/a84e2bcede4aa687636172e4205e453a722ff4e0"
     },
     {
       "id": "release:HelgeSverre/fsdb:437110773",
