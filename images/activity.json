@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-07T06:18:19.012Z",
-  "since": "2026-10-24T06:18:19.012Z",
+  "fetchedAt": "2026-11-07T12:16:15.690Z",
+  "since": "2026-10-24T12:16:15.690Z",
   "partial": false,
   "events": [
     {
@@ -4899,46 +4899,6 @@
       "at": "2026-10-24T15:23:57.000+02:00",
       "title": "docs: inventory current capabilities and prioritize runtime gaps",
       "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/8f3fd46972dbd8e44f90441c523a70bceea1b966"
-    },
-    {
-      "id": "commit:HelgeSverre/slack-bolt-php:9a0d5480f67875cfcc65a37feb98c604a2154253",
-      "kind": "commit",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-10-24T13:31:59.000+02:00",
-      "title": "docs: confirm branding belongs to Slack demo only",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/9a0d5480f67875cfcc65a37feb98c604a2154253"
-    },
-    {
-      "id": "commit:HelgeSverre/slack-bolt-php:85440917c8b46535e59e235cfea1d2c71d147e87",
-      "kind": "commit",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-10-24T13:17:15.000+02:00",
-      "title": "design: replace demo mascot with minimal vermilion identity",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/85440917c8b46535e59e235cfea1d2c71d147e87"
-    },
-    {
-      "id": "commit:HelgeSverre/slack-bolt-php:db643c5f790f291607721ebecf0a80196a4ed05a",
-      "kind": "commit",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-10-24T13:00:27.000+02:00",
-      "title": "feat: add custom workflow functions and protected async handoff",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/db643c5f790f291607721ebecf0a80196a4ed05a"
-    },
-    {
-      "id": "commit:HelgeSverre/slack-bolt-php:9469c9ced9f7fe1826157c3575a9b59d8e0be81c",
-      "kind": "commit",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-10-24T12:23:47.000+02:00",
-      "title": "feat: add Slack assistant threads and durable context runtime",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/9469c9ced9f7fe1826157c3575a9b59d8e0be81c"
-    },
-    {
-      "id": "commit:HelgeSverre/slack-bolt-php:29ef0108dd150f4aae90bfa46fd012b2a7451a54",
-      "kind": "commit",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-10-24T11:47:48.000+02:00",
-      "title": "feat: add Work Objects and durable bidirectional comments",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/29ef0108dd150f4aae90bfa46fd012b2a7451a54"
     },
     {
       "id": "release:HelgeSverre/fsdb:437110773",
