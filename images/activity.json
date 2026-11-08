@@ -1,9 +1,33 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-08T00:35:06.524Z",
-  "since": "2026-10-25T00:35:06.524Z",
+  "fetchedAt": "2026-11-08T06:18:50.645Z",
+  "since": "2026-10-25T06:18:50.645Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/rust-vst3-host:6c64cdffc6740cce0b4c5b6916724697b0ef9ff8",
+      "kind": "commit",
+      "repo": "HelgeSverre/rust-vst3-host",
+      "at": "2026-11-08T04:40:35.000+01:00",
+      "title": "fix(window): handle Linux editor close requests in 0.11.1",
+      "url": "https://github.com/HelgeSverre/rust-vst3-host/commit/6c64cdffc6740cce0b4c5b6916724697b0ef9ff8"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:871123f9d6c7b83cbd8073d8f8205962fe87e9b6",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-11-08T02:46:45.000+01:00",
+      "title": "docs: record verified 0.2.3 release outcome [skip ci]",
+      "url": "https://github.com/HelgeSverre/splash/commit/871123f9d6c7b83cbd8073d8f8205962fe87e9b6"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:6b40f1df5b5d411deda095c33140a258c157cd90",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-11-08T02:32:53.000+01:00",
+      "title": "fix: keep test diagnostics out of release publication",
+      "url": "https://github.com/HelgeSverre/splash/commit/6b40f1df5b5d411deda095c33140a258c157cd90"
+    },
     {
       "id": "commit:HelgeSverre/splash:2c359831e5284f0abb7dd3861326c6b46c14cc44",
       "kind": "commit",
@@ -4965,6 +4989,30 @@
       "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/ceb602fbd119a87f35084314fb183d5cf9f1d6f3"
     },
     {
+      "id": "release:HelgeSverre/rust-vst3-host:438016416",
+      "kind": "release",
+      "repo": "HelgeSverre/rust-vst3-host",
+      "at": "2026-11-08T03:48:55Z",
+      "title": "v0.11.1",
+      "url": "https://github.com/HelgeSverre/rust-vst3-host/releases/tag/v0.11.1"
+    },
+    {
+      "id": "release:HelgeSverre/rust-vst3-host:433474346",
+      "kind": "release",
+      "repo": "HelgeSverre/rust-vst3-host",
+      "at": "2026-11-04T03:22:06Z",
+      "title": "v0.11.0",
+      "url": "https://github.com/HelgeSverre/rust-vst3-host/releases/tag/v0.11.0"
+    },
+    {
+      "id": "release:HelgeSverre/splash:437949959",
+      "kind": "release",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-11-08T00:59:00Z",
+      "title": "v0.2.3",
+      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.2.3"
+    },
+    {
       "id": "release:HelgeSverre/files:437866261",
       "kind": "release",
       "repo": "HelgeSverre/files",
@@ -5171,14 +5219,6 @@
       "at": "2026-11-03T15:24:34Z",
       "title": "v0.1.0",
       "url": "https://github.com/HelgeSverre/rail-rs/releases/tag/v0.1.0"
-    },
-    {
-      "id": "release:HelgeSverre/rust-vst3-host:433474346",
-      "kind": "release",
-      "repo": "HelgeSverre/rust-vst3-host",
-      "at": "2026-11-04T03:22:06Z",
-      "title": "v0.11.0",
-      "url": "https://github.com/HelgeSverre/rust-vst3-host/releases/tag/v0.11.0"
     },
     {
       "id": "release:sema-lisp/sema:426629432",
