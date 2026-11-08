@@ -1,9 +1,73 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-08T12:16:10.770Z",
-  "since": "2026-10-25T12:16:10.770Z",
+  "fetchedAt": "2026-11-08T18:13:27.367Z",
+  "since": "2026-10-25T18:13:27.367Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:b92c375ab104b9ff8c8c7257fd1bb00f21b0353e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T19:11:47.000+01:00",
+      "title": "Bind correlated aggregate arguments before conversion",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b92c375ab104b9ff8c8c7257fd1bb00f21b0353e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b26648ebde10374d7c02be1d196d57c1a41aa70c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T19:04:39.000+01:00",
+      "title": "Characterize indexed correlated BETWEEN warnings",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b26648ebde10374d7c02be1d196d57c1a41aa70c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5efc47eaf26ab187757e6ceaa636e3bdd74839c1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T19:03:01.000+01:00",
+      "title": "Bind missing correlated COUNT argument before conversion",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5efc47eaf26ab187757e6ceaa636e3bdd74839c1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c59e7822647c9856f67b48be40c04fa54fb79d44",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T18:54:08.000+01:00",
+      "title": "Record correlated warning performance comparison",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c59e7822647c9856f67b48be40c04fa54fb79d44"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4d6b49d26dd80f827f8ee6a9fe3d34360e25ad75",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T18:37:53.000+01:00",
+      "title": "Preserve correlated count conversion diagnostics",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4d6b49d26dd80f827f8ee6a9fe3d34360e25ad75"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:eef1ef37a43035a5269831413c7dc3ccc78541a2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T17:21:47.000+01:00",
+      "title": "Prepare stable Fsdb 0.1.3 release",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/eef1ef37a43035a5269831413c7dc3ccc78541a2"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ec42b62756dc5c5b10429d8b416ce3148213ee4e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T17:04:20.000+01:00",
+      "title": "Plan fixed-group joined nullable COUNT HAVING",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ec42b62756dc5c5b10429d8b416ce3148213ee4e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:66b178bcc3e2d638b558d3286251888e69ad2607",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T16:56:04.000+01:00",
+      "title": "Plan joined nullable COUNT HAVING membership",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/66b178bcc3e2d638b558d3286251888e69ad2607"
+    },
     {
       "id": "commit:HelgeSverre/rust-vst3-host:6c64cdffc6740cce0b4c5b6916724697b0ef9ff8",
       "kind": "commit",
@@ -4981,52 +5045,12 @@
       "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/21192afee5efbbd35f90bbcf3e6b07858f5227b2"
     },
     {
-      "id": "commit:HelgeSverre/slack-bolt-php:ceb602fbd119a87f35084314fb183d5cf9f1d6f3",
-      "kind": "commit",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-10-25T14:38:32.000+01:00",
-      "title": "feat: add durable job retention, migrations and history",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/ceb602fbd119a87f35084314fb183d5cf9f1d6f3"
-    },
-    {
-      "id": "release:HelgeSverre/rust-vst3-host:438016416",
+      "id": "release:HelgeSverre/fsdb:438371054",
       "kind": "release",
-      "repo": "HelgeSverre/rust-vst3-host",
-      "at": "2026-11-08T03:48:55Z",
-      "title": "v0.11.1",
-      "url": "https://github.com/HelgeSverre/rust-vst3-host/releases/tag/v0.11.1"
-    },
-    {
-      "id": "release:HelgeSverre/rust-vst3-host:433474346",
-      "kind": "release",
-      "repo": "HelgeSverre/rust-vst3-host",
-      "at": "2026-11-04T03:22:06Z",
-      "title": "v0.11.0",
-      "url": "https://github.com/HelgeSverre/rust-vst3-host/releases/tag/v0.11.0"
-    },
-    {
-      "id": "release:HelgeSverre/splash:437949959",
-      "kind": "release",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-11-08T00:59:00Z",
-      "title": "v0.2.3",
-      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.2.3"
-    },
-    {
-      "id": "release:HelgeSverre/files:437866261",
-      "kind": "release",
-      "repo": "HelgeSverre/files",
-      "at": "2026-11-07T21:50:05Z",
-      "title": "v0.4.0",
-      "url": "https://github.com/HelgeSverre/files/releases/tag/v0.4.0"
-    },
-    {
-      "id": "release:HelgeSverre/files:437856654",
-      "kind": "release",
-      "repo": "HelgeSverre/files",
-      "at": "2026-11-07T21:30:46Z",
-      "title": "v0.3.1",
-      "url": "https://github.com/HelgeSverre/files/releases/tag/v0.3.1"
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T16:33:16Z",
+      "title": "v0.1.3",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.3"
     },
     {
       "id": "release:HelgeSverre/fsdb:437110773",
@@ -5067,6 +5091,46 @@
       "at": "2026-11-04T10:30:55Z",
       "title": "v0.1.0-preview.42",
       "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0-preview.42"
+    },
+    {
+      "id": "release:HelgeSverre/rust-vst3-host:438016416",
+      "kind": "release",
+      "repo": "HelgeSverre/rust-vst3-host",
+      "at": "2026-11-08T03:48:55Z",
+      "title": "v0.11.1",
+      "url": "https://github.com/HelgeSverre/rust-vst3-host/releases/tag/v0.11.1"
+    },
+    {
+      "id": "release:HelgeSverre/rust-vst3-host:433474346",
+      "kind": "release",
+      "repo": "HelgeSverre/rust-vst3-host",
+      "at": "2026-11-04T03:22:06Z",
+      "title": "v0.11.0",
+      "url": "https://github.com/HelgeSverre/rust-vst3-host/releases/tag/v0.11.0"
+    },
+    {
+      "id": "release:HelgeSverre/splash:437949959",
+      "kind": "release",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-11-08T00:59:00Z",
+      "title": "v0.2.3",
+      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.2.3"
+    },
+    {
+      "id": "release:HelgeSverre/files:437866261",
+      "kind": "release",
+      "repo": "HelgeSverre/files",
+      "at": "2026-11-07T21:50:05Z",
+      "title": "v0.4.0",
+      "url": "https://github.com/HelgeSverre/files/releases/tag/v0.4.0"
+    },
+    {
+      "id": "release:HelgeSverre/files:437856654",
+      "kind": "release",
+      "repo": "HelgeSverre/files",
+      "at": "2026-11-07T21:30:46Z",
+      "title": "v0.3.1",
+      "url": "https://github.com/HelgeSverre/files/releases/tag/v0.3.1"
     },
     {
       "id": "release:HelgeSverre/toon-php:436513295",
