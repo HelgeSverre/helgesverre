@@ -1,9 +1,129 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-07T18:12:55.506Z",
-  "since": "2026-10-24T18:12:55.506Z",
+  "fetchedAt": "2026-11-08T00:35:06.524Z",
+  "since": "2026-10-25T00:35:06.524Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/splash:2c359831e5284f0abb7dd3861326c6b46c14cc44",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-11-08T01:29:54.000+01:00",
+      "title": "fix: retry transient notarization ticket delivery for release 0.2.3",
+      "url": "https://github.com/HelgeSverre/splash/commit/2c359831e5284f0abb7dd3861326c6b46c14cc44"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:1d0f8d4999cb1c4bdaa51fb20a162e04d9c53794",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-11-08T00:32:33.000+01:00",
+      "title": "chore: release Splash 0.2.2",
+      "url": "https://github.com/HelgeSverre/splash/commit/1d0f8d4999cb1c4bdaa51fb20a162e04d9c53794"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:b8610d8f3378b9379fc2442b0e16a90f99f247b2",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-11-08T00:30:14.000+01:00",
+      "title": "fix: enforce session state ownership and recovery invariants",
+      "url": "https://github.com/HelgeSverre/splash/commit/b8610d8f3378b9379fc2442b0e16a90f99f247b2"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:92c8920fb90b5b75597603969b54b0d2d47f1839",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-07T23:31:42.000+01:00",
+      "title": "fix: infer website versions from pinned GitHub release tags",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/92c8920fb90b5b75597603969b54b0d2d47f1839"
+    },
+    {
+      "id": "commit:HelgeSverre/files:c0aa07f802dc158dbd0dfb6c2021d5a70e8f75f6",
+      "kind": "commit",
+      "repo": "HelgeSverre/files",
+      "at": "2026-11-07T22:45:24.000+01:00",
+      "title": "Bump version to 0.4.0",
+      "url": "https://github.com/HelgeSverre/files/commit/c0aa07f802dc158dbd0dfb6c2021d5a70e8f75f6"
+    },
+    {
+      "id": "commit:HelgeSverre/files:435ba8a09b924e90e7231ddbf59bde2d0c69c243",
+      "kind": "commit",
+      "repo": "HelgeSverre/files",
+      "at": "2026-11-07T22:45:24.000+01:00",
+      "title": "Add consistent environment defaults and CLI overrides",
+      "url": "https://github.com/HelgeSverre/files/commit/435ba8a09b924e90e7231ddbf59bde2d0c69c243"
+    },
+    {
+      "id": "commit:HelgeSverre/files:b0bf615e4431670579c5d714544e84c04e86118c",
+      "kind": "commit",
+      "repo": "HelgeSverre/files",
+      "at": "2026-11-07T22:38:52.000+01:00",
+      "title": "Separate flags table from its precedence note",
+      "url": "https://github.com/HelgeSverre/files/commit/b0bf615e4431670579c5d714544e84c04e86118c"
+    },
+    {
+      "id": "commit:HelgeSverre/files:66a6d81aa8480189643533acc7f6ece26a0aad6a",
+      "kind": "commit",
+      "repo": "HelgeSverre/files",
+      "at": "2026-11-07T22:38:52.000+01:00",
+      "title": "Document environment equivalents in the flags table",
+      "url": "https://github.com/HelgeSverre/files/commit/66a6d81aa8480189643533acc7f6ece26a0aad6a"
+    },
+    {
+      "id": "commit:HelgeSverre/files:27eb9b687ce8fd1491f4e547e21475746c1f7ab5",
+      "kind": "commit",
+      "repo": "HelgeSverre/files",
+      "at": "2026-11-07T22:36:52.000+01:00",
+      "title": "Update example command in README",
+      "url": "https://github.com/HelgeSverre/files/commit/27eb9b687ce8fd1491f4e547e21475746c1f7ab5"
+    },
+    {
+      "id": "commit:HelgeSverre/files:752ce7c3a45b0c985db897243d8da2c73a662136",
+      "kind": "commit",
+      "repo": "HelgeSverre/files",
+      "at": "2026-11-07T22:36:31.000+01:00",
+      "title": "Update README.md",
+      "url": "https://github.com/HelgeSverre/files/commit/752ce7c3a45b0c985db897243d8da2c73a662136"
+    },
+    {
+      "id": "commit:HelgeSverre/files:a3fd77475ceef3551d64dc756787be7aedc5bd80",
+      "kind": "commit",
+      "repo": "HelgeSverre/files",
+      "at": "2026-11-07T22:33:43.000+01:00",
+      "title": "Rewrite README with practical flag examples and terminal screenshots",
+      "url": "https://github.com/HelgeSverre/files/commit/a3fd77475ceef3551d64dc756787be7aedc5bd80"
+    },
+    {
+      "id": "commit:HelgeSverre/files:2c2e669f3f2dc8f4cedecb6b8dce9a0918050a06",
+      "kind": "commit",
+      "repo": "HelgeSverre/files",
+      "at": "2026-11-07T22:26:27.000+01:00",
+      "title": "Bump version to 0.3.1",
+      "url": "https://github.com/HelgeSverre/files/commit/2c2e669f3f2dc8f4cedecb6b8dce9a0918050a06"
+    },
+    {
+      "id": "commit:HelgeSverre/files:4a1c05948d9620a3289f3d18946ffa2dee7a44fe",
+      "kind": "commit",
+      "repo": "HelgeSverre/files",
+      "at": "2026-11-07T22:26:27.000+01:00",
+      "title": "Use supported macOS 15 runners for release builds",
+      "url": "https://github.com/HelgeSverre/files/commit/4a1c05948d9620a3289f3d18946ffa2dee7a44fe"
+    },
+    {
+      "id": "commit:HelgeSverre/files:e8bbad0035d77c85a6f9b8bf354d7eb067dab3b7",
+      "kind": "commit",
+      "repo": "HelgeSverre/files",
+      "at": "2026-11-07T22:25:40.000+01:00",
+      "title": "Bump version to 0.3.0",
+      "url": "https://github.com/HelgeSverre/files/commit/e8bbad0035d77c85a6f9b8bf354d7eb067dab3b7"
+    },
+    {
+      "id": "commit:HelgeSverre/files:7bd245ccb3ab01934a8fbcc7c412425582b6918c",
+      "kind": "commit",
+      "repo": "HelgeSverre/files",
+      "at": "2026-11-07T22:25:40.000+01:00",
+      "title": "Add optional compact folder paths with per-segment depth colors",
+      "url": "https://github.com/HelgeSverre/files/commit/7bd245ccb3ab01934a8fbcc7c412425582b6918c"
+    },
     {
       "id": "commit:HelgeSverre/dmscene:c1700d67fa0743e9335b3665ebef87c3a40734ff",
       "kind": "commit",
@@ -4845,12 +4965,20 @@
       "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/ceb602fbd119a87f35084314fb183d5cf9f1d6f3"
     },
     {
-      "id": "commit:HelgeSverre/slack-bolt-php:a7c6b720516d90e9312921a2201da94ef659bb43",
-      "kind": "commit",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-10-25T02:07:44.000+02:00",
-      "title": "fix: honor Slack conversation read transport contracts",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/a7c6b720516d90e9312921a2201da94ef659bb43"
+      "id": "release:HelgeSverre/files:437866261",
+      "kind": "release",
+      "repo": "HelgeSverre/files",
+      "at": "2026-11-07T21:50:05Z",
+      "title": "v0.4.0",
+      "url": "https://github.com/HelgeSverre/files/releases/tag/v0.4.0"
+    },
+    {
+      "id": "release:HelgeSverre/files:437856654",
+      "kind": "release",
+      "repo": "HelgeSverre/files",
+      "at": "2026-11-07T21:30:46Z",
+      "title": "v0.3.1",
+      "url": "https://github.com/HelgeSverre/files/releases/tag/v0.3.1"
     },
     {
       "id": "release:HelgeSverre/fsdb:437110773",
