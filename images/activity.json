@@ -1,9 +1,49 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-09T06:28:19.434Z",
-  "since": "2026-10-26T06:28:19.434Z",
+  "fetchedAt": "2026-11-09T12:19:12.586Z",
+  "since": "2026-10-26T12:19:12.586Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/hanimex:6d4232fb272e325cab37b0b4190a360fd225b7e4",
+      "kind": "commit",
+      "repo": "HelgeSverre/hanimex",
+      "at": "2026-11-09T11:32:12.000+01:00",
+      "title": "Make cartridge repair respond to quiet puffs and animate feedback",
+      "url": "https://github.com/HelgeSverre/hanimex/commit/6d4232fb272e325cab37b0b4190a360fd225b7e4"
+    },
+    {
+      "id": "commit:HelgeSverre/hanimex:814061d2f2653ec204543ca7ef55f4aa185de889",
+      "kind": "commit",
+      "repo": "HelgeSverre/hanimex",
+      "at": "2026-11-09T11:29:16.000+01:00",
+      "title": "Raise optional cartridge contact failures to 30 percent",
+      "url": "https://github.com/HelgeSverre/hanimex/commit/814061d2f2653ec204543ca7ef55f4aa185de889"
+    },
+    {
+      "id": "commit:HelgeSverre/hanimex:5a1236a3d8baf8e90a54b8bd9ad5ea3b9dc3661e",
+      "kind": "commit",
+      "repo": "HelgeSverre/hanimex",
+      "at": "2026-11-09T10:08:41.000+01:00",
+      "title": "Update README for the 3D production release",
+      "url": "https://github.com/HelgeSverre/hanimex/commit/5a1236a3d8baf8e90a54b8bd9ad5ea3b9dc3661e"
+    },
+    {
+      "id": "commit:HelgeSverre/hanimex:2027b0766cb014db9c465098661520915abee9be",
+      "kind": "commit",
+      "repo": "HelgeSverre/hanimex",
+      "at": "2026-11-09T10:05:38.000+01:00",
+      "title": "Refine CRT with deep wood cabinet and recessed rounded bezel",
+      "url": "https://github.com/HelgeSverre/hanimex/commit/2027b0766cb014db9c465098661520915abee9be"
+    },
+    {
+      "id": "commit:HelgeSverre/hanimex:ca08fd5ab0f34f18c3bed8d4e0fe0d8f2bd149f0",
+      "kind": "commit",
+      "repo": "HelgeSverre/hanimex",
+      "at": "2026-11-09T02:18:26.000+01:00",
+      "title": "Experiment with a WebGL console desk and larger CRT",
+      "url": "https://github.com/HelgeSverre/hanimex/commit/ca08fd5ab0f34f18c3bed8d4e0fe0d8f2bd149f0"
+    },
     {
       "id": "commit:HelgeSverre/hanimex:e6bc4a1e8b86fc3c6dd9a6223637dca12943f314",
       "kind": "commit",
