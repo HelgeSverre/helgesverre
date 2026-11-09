@@ -1,9 +1,193 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-08T18:13:27.367Z",
-  "since": "2026-10-25T18:13:27.367Z",
+  "fetchedAt": "2026-11-09T00:35:04.316Z",
+  "since": "2026-10-26T00:35:04.316Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/akai-fire-looper:365048c391d878c1dc4d7c7ca32133441318b3ad",
+      "kind": "commit",
+      "repo": "HelgeSverre/akai-fire-looper",
+      "at": "2026-11-08T22:36:07.000+01:00",
+      "title": "Add Snake and fix OLED layouts across example apps",
+      "url": "https://github.com/HelgeSverre/akai-fire-looper/commit/365048c391d878c1dc4d7c7ca32133441318b3ad"
+    },
+    {
+      "id": "commit:HelgeSverre/akai-fire-looper:166cf9c70de8ce6f419190922f29b878cd89e145",
+      "kind": "commit",
+      "repo": "HelgeSverre/akai-fire-looper",
+      "at": "2026-11-08T22:06:45.000+01:00",
+      "title": "docs: tighten README prose",
+      "url": "https://github.com/HelgeSverre/akai-fire-looper/commit/166cf9c70de8ce6f419190922f29b878cd89e145"
+    },
+    {
+      "id": "commit:HelgeSverre/akai-fire-looper:60ea3ecbfa1246570da8614ad08ac50a93f88b8b",
+      "kind": "commit",
+      "repo": "HelgeSverre/akai-fire-looper",
+      "at": "2026-11-08T22:05:08.000+01:00",
+      "title": "docs: position project as a Python library and application framework",
+      "url": "https://github.com/HelgeSverre/akai-fire-looper/commit/60ea3ecbfa1246570da8614ad08ac50a93f88b8b"
+    },
+    {
+      "id": "commit:HelgeSverre/akai-fire-looper:ebdf114578f6a26ad74d5a01b8028ea807f27e46",
+      "kind": "commit",
+      "repo": "HelgeSverre/akai-fire-looper",
+      "at": "2026-11-08T21:59:40.000+01:00",
+      "title": "Improve Fire runtime, example apps, docs, and hardware-style mock",
+      "url": "https://github.com/HelgeSverre/akai-fire-looper/commit/ebdf114578f6a26ad74d5a01b8028ea807f27e46"
+    },
+    {
+      "id": "commit:HelgeSverre/claude-pranks:ccbbd40979941783b234ce8a7ff5202374d59ae1",
+      "kind": "commit",
+      "repo": "HelgeSverre/claude-pranks",
+      "at": "2026-11-08T21:59:14.000+01:00",
+      "title": "Fix first README badge URL",
+      "url": "https://github.com/HelgeSverre/claude-pranks/commit/ccbbd40979941783b234ce8a7ff5202374d59ae1"
+    },
+    {
+      "id": "commit:HelgeSverre/ryde-cli:bbd7e57b82d6e886d08cead455e7ea13e9dbe56c",
+      "kind": "commit",
+      "repo": "HelgeSverre/ryde-cli",
+      "at": "2026-11-08T21:42:33.000+01:00",
+      "title": "docs: replace uv badge URL",
+      "url": "https://github.com/HelgeSverre/ryde-cli/commit/bbd7e57b82d6e886d08cead455e7ea13e9dbe56c"
+    },
+    {
+      "id": "commit:HelgeSverre/ryde-cli:0acae69ccf5013a6b3389e02effdd051f3628bbb",
+      "kind": "commit",
+      "repo": "HelgeSverre/ryde-cli",
+      "at": "2026-11-08T21:41:44.000+01:00",
+      "title": "docs: warn that app attestation currently blocks CLI login",
+      "url": "https://github.com/HelgeSverre/ryde-cli/commit/0acae69ccf5013a6b3389e02effdd051f3628bbb"
+    },
+    {
+      "id": "commit:HelgeSverre/clickmore:19609ef9f3e9d85d4ede79f5fc5124d636f33643",
+      "kind": "commit",
+      "repo": "HelgeSverre/clickmore",
+      "at": "2026-11-08T21:35:25.000+01:00",
+      "title": "Record successful 0.1.3 release verification",
+      "url": "https://github.com/HelgeSverre/clickmore/commit/19609ef9f3e9d85d4ede79f5fc5124d636f33643"
+    },
+    {
+      "id": "commit:HelgeSverre/clickmore:b8f55f5d6ae9b7d5b23080c26499381a334ae5be",
+      "kind": "commit",
+      "repo": "HelgeSverre/clickmore",
+      "at": "2026-11-08T21:31:05.000+01:00",
+      "title": "Release ClickMore 0.1.3 with reliable click cancellation",
+      "url": "https://github.com/HelgeSverre/clickmore/commit/b8f55f5d6ae9b7d5b23080c26499381a334ae5be"
+    },
+    {
+      "id": "commit:HelgeSverre/clickmore:c869ae87fe645f8d2c55cffb93e69e583d59e18d",
+      "kind": "commit",
+      "repo": "HelgeSverre/clickmore",
+      "at": "2026-11-08T21:28:55.000+01:00",
+      "title": "Fix click cancellation races and tighten controller ownership",
+      "url": "https://github.com/HelgeSverre/clickmore/commit/c869ae87fe645f8d2c55cffb93e69e583d59e18d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:39352de97ca956c2e71f38eb8d323787dfa74d27",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T21:05:29.000+01:00",
+      "title": "Release Fsdb 0.1.6",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/39352de97ca956c2e71f38eb8d323787dfa74d27"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:90151499c9766b2f1324305f7e8cc9cfb5213fd7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T20:53:48.000+01:00",
+      "title": "Plan finite truncated DOUBLE ranges with setup diagnostics",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/90151499c9766b2f1324305f7e8cc9cfb5213fd7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:975fc2cda7e23a4db10b54ec980c9b9d96abb77a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T20:40:06.000+01:00",
+      "title": "Audit Extension A 4700-49FF ngram parity",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/975fc2cda7e23a4db10b54ec980c9b9d96abb77a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:089baaf0d49daca2756fb2d6e6f9bfa910ea1ec8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T20:26:24.000+01:00",
+      "title": "Identify indexed BETWEEN planner barrier",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/089baaf0d49daca2756fb2d6e6f9bfa910ea1ec8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8f558a192409b341daea8c638957bc3ef972178d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T20:24:21.000+01:00",
+      "title": "Preserve scanned correlated BETWEEN warning counts",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8f558a192409b341daea8c638957bc3ef972178d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:771eff5585a2c95f8dc7b5feb1abcff513eddd41",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T20:15:04.000+01:00",
+      "title": "Cover successive USING joins on nested writable views",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/771eff5585a2c95f8dc7b5feb1abcff513eddd41"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1462281534c7359cc7690433d33be6273647a47f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T20:07:40.000+01:00",
+      "title": "Prepare stable Fsdb 0.1.5 release",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1462281534c7359cc7690433d33be6273647a47f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a2e7f0f35047d2c6abdba49c766856a2c344db40",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T20:07:40.000+01:00",
+      "title": "Resolve nested view join keys before physical expansion",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a2e7f0f35047d2c6abdba49c766856a2c344db40"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:aac4f3772a8473c17661ecf116ec4a2e92159f81",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T19:54:21.000+01:00",
+      "title": "Record geographic endpoint-contact trial",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/aac4f3772a8473c17661ecf116ec4a2e92159f81"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8eb55fcde196b81aa6085869371ba596f1dd0c09",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T19:50:57.000+01:00",
+      "title": "Expose geographic boundary crossing events",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8eb55fcde196b81aa6085869371ba596f1dd0c09"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9ae35ab504c230e10aecf479ac49f64259a958d7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T19:29:10.000+01:00",
+      "title": "Prepare stable Fsdb 0.1.4 release",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9ae35ab504c230e10aecf479ac49f64259a958d7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f14eba50460311ae59c8efe79eb50208232717ac",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T19:23:54.000+01:00",
+      "title": "Audit Extension I ngram under Unicode 5.2",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f14eba50460311ae59c8efe79eb50208232717ac"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:931b46e5673b30774a5e4ee68b3f74975f563986",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T19:21:15.000+01:00",
+      "title": "Audit Extension I ngram under general collation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/931b46e5673b30774a5e4ee68b3f74975f563986"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:b92c375ab104b9ff8c8c7257fd1bb00f21b0353e",
       "kind": "commit",
@@ -5043,6 +5227,30 @@
       "at": "2026-10-26T15:13:51.000+01:00",
       "title": "feat: audit SDK transport and prepare v0.1.0 preview",
       "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/21192afee5efbbd35f90bbcf3e6b07858f5227b2"
+    },
+    {
+      "id": "release:HelgeSverre/clickmore:438504711",
+      "kind": "release",
+      "repo": "HelgeSverre/clickmore",
+      "at": "2026-11-08T20:34:10Z",
+      "title": "v0.1.3",
+      "url": "https://github.com/HelgeSverre/clickmore/releases/tag/v0.1.3"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:438457466",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T19:07:55Z",
+      "title": "v0.1.5",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.5"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:438439363",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T18:34:50Z",
+      "title": "v0.1.4",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.4"
     },
     {
       "id": "release:HelgeSverre/fsdb:438371054",
