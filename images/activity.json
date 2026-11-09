@@ -1,9 +1,153 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-09T12:19:12.586Z",
-  "since": "2026-10-26T12:19:12.586Z",
+  "fetchedAt": "2026-11-09T18:15:47.951Z",
+  "since": "2026-10-26T18:15:47.951Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/terminal:e3f5a373ee25f6af21a41becb14da834b1ba8064",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T17:56:11.000+01:00",
+      "title": "Refresh pane gallery screenshot [skip ci]",
+      "url": "https://github.com/HelgeSverre/terminal/commit/e3f5a373ee25f6af21a41becb14da834b1ba8064"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:a65d6efd7973d82bc852e02a3d9e75b930c2c088",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T17:56:11.000+01:00",
+      "title": "Adapt GUI diagnostics to pane headers [skip ci]",
+      "url": "https://github.com/HelgeSverre/terminal/commit/a65d6efd7973d82bc852e02a3d9e75b930c2c088"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:ce285ffc38104a1ca61d9527cf2edee8b211c24e",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T17:43:46.000+01:00",
+      "title": "Follow active pane titles and add compact pane headers and dimming",
+      "url": "https://github.com/HelgeSverre/terminal/commit/ce285ffc38104a1ca61d9527cf2edee8b211c24e"
+    },
+    {
+      "id": "commit:HelgeSverre/hanimex:28b5a9d0c2dd767f922b254542b0e18c0a4ff302",
+      "kind": "commit",
+      "repo": "HelgeSverre/hanimex",
+      "at": "2026-11-09T17:40:22.000+01:00",
+      "title": "Keep horizontal timing in registers and add draggable TV cable",
+      "url": "https://github.com/HelgeSverre/hanimex/commit/28b5a9d0c2dd767f922b254542b0e18c0a4ff302"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:33fa09a60f3072d29c52b9c0198b4f0cafc84f3f",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-09T17:37:53.000+01:00",
+      "title": "Point Helge Terminal cask to its public source repository",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/33fa09a60f3072d29c52b9c0198b4f0cafc84f3f"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:a5eb5bf3432639d13b21a6491bbe0aae00212f53",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-09T17:26:54.000+01:00",
+      "title": "Use shell fences in generated and checked-in README",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/a5eb5bf3432639d13b21a6491bbe0aae00212f53"
+    },
+    {
+      "id": "commit:HelgeSverre/hanimex:4ecafc478cc96a64241073bda2909d2ae301e03b",
+      "kind": "commit",
+      "repo": "HelgeSverre/hanimex",
+      "at": "2026-11-09T16:55:58.000+01:00",
+      "title": "Remove chip worker timer gaps and record circuit profiling",
+      "url": "https://github.com/HelgeSverre/hanimex/commit/4ecafc478cc96a64241073bda2909d2ae301e03b"
+    },
+    {
+      "id": "commit:HelgeSverre/ollama-gui:0c871708f327b51f80c2cd3f4e285ea474704dcb",
+      "kind": "commit",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-11-09T16:06:02.000+01:00",
+      "title": "chore: release 2.0.6",
+      "url": "https://github.com/HelgeSverre/ollama-gui/commit/0c871708f327b51f80c2cd3f4e285ea474704dcb"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:292279b1f119ac647e4a932c40a8d71fc3e5bfc0",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-09T15:46:42.000+01:00",
+      "title": "Use current Homebrew URL verification defaults",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/292279b1f119ac647e4a932c40a8d71fc3e5bfc0"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:c9a65a05341665945706c123cd32e2ae9704c7c9",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-09T15:43:36.000+01:00",
+      "title": "Add the notarized Helge Terminal Homebrew cask",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/c9a65a05341665945706c123cd32e2ae9704c7c9"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:caddb9d3f921b176c52b96a7d9ce6d8c942ede82",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-09T15:43:36.000+01:00",
+      "title": "Respect cask architecture requirements in the tap catalog",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/caddb9d3f921b176c52b96a7d9ce6d8c942ede82"
+    },
+    {
+      "id": "commit:HelgeSverre/hanimex:a089c5832bf9d91a7f399d10b9658b5b5b386145",
+      "kind": "commit",
+      "repo": "HelgeSverre/hanimex",
+      "at": "2026-11-09T15:25:19.000+01:00",
+      "title": "Record chip validation and measured speed limits",
+      "url": "https://github.com/HelgeSverre/hanimex/commit/a089c5832bf9d91a7f399d10b9658b5b5b386145"
+    },
+    {
+      "id": "commit:HelgeSverre/hanimex:7a533d1855c125ea7355850bd401dabafafa5e10",
+      "kind": "commit",
+      "repo": "HelgeSverre/hanimex",
+      "at": "2026-11-09T15:21:11.000+01:00",
+      "title": "Run Super Wipeout from recovered silicon and reduce timing fanout work",
+      "url": "https://github.com/HelgeSverre/hanimex/commit/7a533d1855c125ea7355850bd401dabafafa5e10"
+    },
+    {
+      "id": "commit:HelgeSverre/hanimex:5b5755e454e399e83adb18bd4e917dfb20c8288e",
+      "kind": "commit",
+      "repo": "HelgeSverre/hanimex",
+      "at": "2026-11-09T14:41:15.000+01:00",
+      "title": "Compile chip fanout and add Wipeout and Pong circuit workbenches",
+      "url": "https://github.com/HelgeSverre/hanimex/commit/5b5755e454e399e83adb18bd4e917dfb20c8288e"
+    },
+    {
+      "id": "pr:HelgeSverre/hanimex:1",
+      "kind": "merge",
+      "repo": "HelgeSverre/hanimex",
+      "at": "2026-11-09T14:25:39Z",
+      "title": "Run Submarine and Super Wipeout from recovered chip circuits",
+      "url": "https://github.com/HelgeSverre/hanimex/pull/1"
+    },
+    {
+      "id": "commit:HelgeSverre/hanimex:781811328cbe15be1b9c29f48c94c1802f27345b",
+      "kind": "commit",
+      "repo": "HelgeSverre/hanimex",
+      "at": "2026-11-09T13:34:59.000+01:00",
+      "title": "Compile game-dependent latch banks and move chip controls into the inspector",
+      "url": "https://github.com/HelgeSverre/hanimex/commit/781811328cbe15be1b9c29f48c94c1802f27345b"
+    },
+    {
+      "id": "commit:HelgeSverre/hanimex:2682c99cc6a2deacc89006f0f39222b339792c46",
+      "kind": "commit",
+      "repo": "HelgeSverre/hanimex",
+      "at": "2026-11-09T12:02:30.000+01:00",
+      "title": "Compile the Submarine horizontal timing circuit into a sequential block",
+      "url": "https://github.com/HelgeSverre/hanimex/commit/2682c99cc6a2deacc89006f0f39222b339792c46"
+    },
+    {
+      "id": "commit:HelgeSverre/hanimex:cb075a049a2e775c85bcea6535470eb7f91fb78e",
+      "kind": "commit",
+      "repo": "HelgeSverre/hanimex",
+      "at": "2026-11-09T11:33:37.000+01:00",
+      "title": "Compile AY-3-8605 logic blocks and retain selectable transistor reference",
+      "url": "https://github.com/HelgeSverre/hanimex/commit/cb075a049a2e775c85bcea6535470eb7f91fb78e"
+    },
     {
       "id": "commit:HelgeSverre/hanimex:6d4232fb272e325cab37b0b4190a360fd225b7e4",
       "kind": "commit",
@@ -19,6 +163,30 @@
       "at": "2026-11-09T11:29:16.000+01:00",
       "title": "Raise optional cartridge contact failures to 30 percent",
       "url": "https://github.com/HelgeSverre/hanimex/commit/814061d2f2653ec204543ca7ef55f4aa185de889"
+    },
+    {
+      "id": "commit:HelgeSverre/hanimex:38925499d2f97ebe6ecbcd416fa936ce82c025d5",
+      "kind": "commit",
+      "repo": "HelgeSverre/hanimex",
+      "at": "2026-11-09T10:59:32.000+01:00",
+      "title": "Record long-run chip movement and firing validation",
+      "url": "https://github.com/HelgeSverre/hanimex/commit/38925499d2f97ebe6ecbcd416fa936ce82c025d5"
+    },
+    {
+      "id": "commit:HelgeSverre/hanimex:2bdb4f707545e3816926f1fea0c639489a4adc5a",
+      "kind": "commit",
+      "repo": "HelgeSverre/hanimex",
+      "at": "2026-11-09T10:55:46.000+01:00",
+      "title": "Add live Submarine die inspector with clock-edge stepping",
+      "url": "https://github.com/HelgeSverre/hanimex/commit/2bdb4f707545e3816926f1fea0c639489a4adc5a"
+    },
+    {
+      "id": "commit:HelgeSverre/hanimex:6c57dd6d2363a6468dff3360e9bac6302cff55ce",
+      "kind": "commit",
+      "repo": "HelgeSverre/hanimex",
+      "at": "2026-11-09T10:48:05.000+01:00",
+      "title": "Run recovered Submarine netlist in a Rust Wasm worker",
+      "url": "https://github.com/HelgeSverre/hanimex/commit/6c57dd6d2363a6468dff3360e9bac6302cff55ce"
     },
     {
       "id": "commit:HelgeSverre/hanimex:5a1236a3d8baf8e90a54b8bd9ad5ea3b9dc3661e",
@@ -5261,20 +5429,12 @@
       "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/a4c50d943c365359aaaed61fab5adb66678145c8"
     },
     {
-      "id": "commit:HelgeSverre/slack-bolt-php:4b03c1b0156442443459d2a4ee535b77445e29ad",
-      "kind": "commit",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-10-26T15:51:37.000+01:00",
-      "title": "docs: audit Bolt JS parity and prioritize relevant PHP gaps",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/4b03c1b0156442443459d2a4ee535b77445e29ad"
-    },
-    {
-      "id": "commit:HelgeSverre/slack-bolt-php:21192afee5efbbd35f90bbcf3e6b07858f5227b2",
-      "kind": "commit",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-10-26T15:13:51.000+01:00",
-      "title": "feat: audit SDK transport and prepare v0.1.0 preview",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/21192afee5efbbd35f90bbcf3e6b07858f5227b2"
+      "id": "release:HelgeSverre/homebrew-tap:439248081",
+      "kind": "release",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-09T14:43:14Z",
+      "title": "helge-terminal-v0.2.2",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/releases/tag/helge-terminal-v0.2.2"
     },
     {
       "id": "release:HelgeSverre/clickmore:438504711",
@@ -5475,14 +5635,6 @@
       "at": "2026-10-28T10:30:00Z",
       "title": "v0.2.0",
       "url": "https://github.com/HelgeSverre/slack-bolt-php/releases/tag/v0.2.0"
-    },
-    {
-      "id": "release:HelgeSverre/slack-bolt-php:424337051",
-      "kind": "release",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-10-26T14:15:18Z",
-      "title": "v0.1.0",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/releases/tag/v0.1.0"
     },
     {
       "id": "release:HelgeSverre/resume:436586489",
