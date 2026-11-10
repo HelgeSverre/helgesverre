@@ -1,9 +1,41 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-10T06:20:29.466Z",
-  "since": "2026-10-27T06:20:29.466Z",
+  "fetchedAt": "2026-11-10T12:17:09.249Z",
+  "since": "2026-10-27T12:17:09.249Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/terminal:5568f8388753bfd030ecff1297c0235cccbe7c67",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T08:37:06.000+01:00",
+      "title": "Archive row experiment and prepare version 0.2.4 release notes",
+      "url": "https://github.com/HelgeSverre/terminal/commit/5568f8388753bfd030ecff1297c0235cccbe7c67"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:490b637769fa3416648ebe8d905088f73f934e48",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-10T07:53:16.000Z",
+      "title": "Update Helge Terminal to v0.2.4",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/490b637769fa3416648ebe8d905088f73f934e48"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:c868067ce2d07a073b628bfa08f69a2144ab2b6d",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T07:34:10.000+01:00",
+      "title": "Refresh terminal comparisons and profile Unicode printing",
+      "url": "https://github.com/HelgeSverre/terminal/commit/c868067ce2d07a073b628bfa08f69a2144ab2b6d"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:c504a672f483a245adba42ecab10fe4770727f87",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T00:59:47.000+01:00",
+      "title": "Keep reference benchmark grids exact on Retina",
+      "url": "https://github.com/HelgeSverre/terminal/commit/c504a672f483a245adba42ecab10fe4770727f87"
+    },
     {
       "id": "commit:HelgeSverre/terminal:55df7a7091b911456a61be1baf7479d0f23b4b76",
       "kind": "commit",
@@ -5835,6 +5867,14 @@
       "at": "2026-10-28T09:52:14.000+01:00",
       "title": "feat: add delivery context, structured failures and token identity",
       "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/a4c50d943c365359aaaed61fab5adb66678145c8"
+    },
+    {
+      "id": "release:HelgeSverre/terminal:440064609",
+      "kind": "release",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T07:53:15Z",
+      "title": "v0.2.4",
+      "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.2.4"
     },
     {
       "id": "release:HelgeSverre/terminal:439603894",
