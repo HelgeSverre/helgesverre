@@ -1,9 +1,417 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-09T18:15:47.951Z",
-  "since": "2026-10-26T18:15:47.951Z",
+  "fetchedAt": "2026-11-10T00:31:04.501Z",
+  "since": "2026-10-27T00:31:04.501Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/terminal:55df7a7091b911456a61be1baf7479d0f23b4b76",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T00:53:03.000+01:00",
+      "title": "Record rejected Unicode writer and payload experiments",
+      "url": "https://github.com/HelgeSverre/terminal/commit/55df7a7091b911456a61be1baf7479d0f23b4b76"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:455c5b785cd24927f8638ffac60defecbd29486e",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T00:52:22.000+01:00",
+      "title": "Overlap PTY reads with ordered terminal processing",
+      "url": "https://github.com/HelgeSverre/terminal/commit/455c5b785cd24927f8638ffac60defecbd29486e"
+    },
+    {
+      "id": "commit:HelgeSverre/akai-fire-looper:e0f7c571c9b7fff90609119cabac5502597d6c7d",
+      "kind": "commit",
+      "repo": "HelgeSverre/akai-fire-looper",
+      "at": "2026-11-10T00:34:15.000+01:00",
+      "title": "Build Eight Track performance prototype for hardware checks",
+      "url": "https://github.com/HelgeSverre/akai-fire-looper/commit/e0f7c571c9b7fff90609119cabac5502597d6c7d"
+    },
+    {
+      "id": "commit:HelgeSverre/akai-fire-looper:885431d8262028ef98ae18b0142d6e0a37318dda",
+      "kind": "commit",
+      "repo": "HelgeSverre/akai-fire-looper",
+      "at": "2026-11-10T00:17:31.000+01:00",
+      "title": "Explore an MMT-8-inspired eight-track recorder",
+      "url": "https://github.com/HelgeSverre/akai-fire-looper/commit/885431d8262028ef98ae18b0142d6e0a37318dda"
+    },
+    {
+      "id": "commit:HelgeSverre/akai-fire-looper:72daba602a50235eb054744972072fc0a2a15787",
+      "kind": "commit",
+      "repo": "HelgeSverre/akai-fire-looper",
+      "at": "2026-11-10T00:15:03.000+01:00",
+      "title": "Migrate maintained apps to foreground decorators",
+      "url": "https://github.com/HelgeSverre/akai-fire-looper/commit/72daba602a50235eb054744972072fc0a2a15787"
+    },
+    {
+      "id": "commit:HelgeSverre/akai-fire-looper:8eff4f6dbc3fd04ec6e1005c99d38152c2e9a7f4",
+      "kind": "commit",
+      "repo": "HelgeSverre/akai-fire-looper",
+      "at": "2026-11-09T23:59:02.000+01:00",
+      "title": "Add declarative app events and the Firestorm particle instrument",
+      "url": "https://github.com/HelgeSverre/akai-fire-looper/commit/8eff4f6dbc3fd04ec6e1005c99d38152c2e9a7f4"
+    },
+    {
+      "id": "commit:HelgeSverre/akai-fire-looper:8f95ffd6d267bfca0e5afac28d264176b20582b6",
+      "kind": "commit",
+      "repo": "HelgeSverre/akai-fire-looper",
+      "at": "2026-11-09T23:39:41.000+01:00",
+      "title": "Add hardware-verified RGB controls to the pixel editor",
+      "url": "https://github.com/HelgeSverre/akai-fire-looper/commit/8f95ffd6d267bfca0e5afac28d264176b20582b6"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:649083cde98fc2f4c8cd2e65104d4f1ebcb601f8",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T23:30:45.000+01:00",
+      "title": "Borrow long ASCII input through the document writer",
+      "url": "https://github.com/HelgeSverre/terminal/commit/649083cde98fc2f4c8cd2e65104d4f1ebcb601f8"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:0b7eafd9d3228c2b0f80c57a63d9aa4b7968a97e",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T23:30:44.000+01:00",
+      "title": "Admit CSI parameters in bounded contiguous runs",
+      "url": "https://github.com/HelgeSverre/terminal/commit/0b7eafd9d3228c2b0f80c57a63d9aa4b7968a97e"
+    },
+    {
+      "id": "commit:HelgeSverre/akai-fire-looper:a85d388c93d4ef1076c5ec4fffe8adc94ab9d452",
+      "kind": "commit",
+      "repo": "HelgeSverre/akai-fire-looper",
+      "at": "2026-11-09T23:19:22.000+01:00",
+      "title": "Add an end-to-end application tutorial and pixel editor",
+      "url": "https://github.com/HelgeSverre/akai-fire-looper/commit/a85d388c93d4ef1076c5ec4fffe8adc94ab9d452"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:e62bd660b7a43d1c94e2c8b119bb33fe10d8070a",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T22:59:38.000+01:00",
+      "title": "Document every automation command and add checked workflows",
+      "url": "https://github.com/HelgeSverre/terminal/commit/e62bd660b7a43d1c94e2c8b119bb33fe10d8070a"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:154f2a8a6d054d5e70db4cd397a66220b822830e",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T22:59:30.000+01:00",
+      "title": "Compare Swift, Ghostty and Kitty with matched owned app runs",
+      "url": "https://github.com/HelgeSverre/terminal/commit/154f2a8a6d054d5e70db4cd397a66220b822830e"
+    },
+    {
+      "id": "commit:HelgeSverre/hanimex:56d1e6d6a84728974170bc8a11758dfebf0effef",
+      "kind": "commit",
+      "repo": "HelgeSverre/hanimex",
+      "at": "2026-11-09T22:52:18.000+01:00",
+      "title": "Add miniature repair crew after console explosions",
+      "url": "https://github.com/HelgeSverre/hanimex/commit/56d1e6d6a84728974170bc8a11758dfebf0effef"
+    },
+    {
+      "id": "commit:HelgeSverre/hanimex:c464e6b5fac9e7cc25adcec41f75c52d6641f896",
+      "kind": "commit",
+      "repo": "HelgeSverre/hanimex",
+      "at": "2026-11-09T22:47:11.000+01:00",
+      "title": "Add Channel 13 pirate teletext and weather game",
+      "url": "https://github.com/HelgeSverre/hanimex/commit/c464e6b5fac9e7cc25adcec41f75c52d6641f896"
+    },
+    {
+      "id": "commit:HelgeSverre/akai-fire-looper:718f3c94c555df7ee8b61e57f6f840e9178f27a9",
+      "kind": "commit",
+      "repo": "HelgeSverre/akai-fire-looper",
+      "at": "2026-11-09T22:46:14.000+01:00",
+      "title": "Fix hardware-verified LED states and bank clearing",
+      "url": "https://github.com/HelgeSverre/akai-fire-looper/commit/718f3c94c555df7ee8b61e57f6f840e9178f27a9"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:9354d3a1efac0ec2e238236e11606145337ac9d3",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T22:36:45.000+01:00",
+      "title": "Record full-app performance after the profile-guided changes",
+      "url": "https://github.com/HelgeSverre/terminal/commit/9354d3a1efac0ec2e238236e11606145337ac9d3"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:d4788dfd492f5d68dfa2e2c37d57845477ecf3bb",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T22:33:00.000+01:00",
+      "title": "Exercise native settings drafts and actions in the default test suite",
+      "url": "https://github.com/HelgeSverre/terminal/commit/d4788dfd492f5d68dfa2e2c37d57845477ecf3bb"
+    },
+    {
+      "id": "commit:HelgeSverre/hanimex:ebe63443dd61006e18af67b73c568f83c3f64597",
+      "kind": "commit",
+      "repo": "HelgeSverre/hanimex",
+      "at": "2026-11-09T22:28:55.000+01:00",
+      "title": "Add hidden PC-000 Clippy demo cartridge with ten interactive scenes",
+      "url": "https://github.com/HelgeSverre/hanimex/commit/ebe63443dd61006e18af67b73c568f83c3f64597"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:96c2eb77ae5689304e82b426656b74f9e779de1c",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T22:27:47.000+01:00",
+      "title": "Reuse owner-confined PTY read storage with owned output copies",
+      "url": "https://github.com/HelgeSverre/terminal/commit/96c2eb77ae5689304e82b426656b74f9e779de1c"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:9533fdcb9d9c7bf8868de506bfd487c057111070",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T22:25:02.000+01:00",
+      "title": "Redesign native settings with a charcoal sidebar and yellow accents",
+      "url": "https://github.com/HelgeSverre/terminal/commit/9533fdcb9d9c7bf8868de506bfd487c057111070"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:7d0a356a69f3e5b4d2bc68bc7ce23fe49492ca08",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T22:24:28.000+01:00",
+      "title": "Reuse link classification data and classify ASCII directly",
+      "url": "https://github.com/HelgeSverre/terminal/commit/7d0a356a69f3e5b4d2bc68bc7ce23fe49492ca08"
+    },
+    {
+      "id": "commit:HelgeSverre/akai-fire-looper:e8789c5e1af89e50e143e469be4e43be9b1b4e90",
+      "kind": "commit",
+      "repo": "HelgeSverre/akai-fire-looper",
+      "at": "2026-11-09T22:22:35.000+01:00",
+      "title": "Record STEP readability and remaining hardware verification gaps",
+      "url": "https://github.com/HelgeSverre/akai-fire-looper/commit/e8789c5e1af89e50e143e469be4e43be9b1b4e90"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:63ad414bc8f91270abd189fe52c795190a001978",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T22:22:26.000+01:00",
+      "title": "Index pinned Unicode grapheme categories with deduplicated pages",
+      "url": "https://github.com/HelgeSverre/terminal/commit/63ad414bc8f91270abd189fe52c795190a001978"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:25df49244bf5b2cbc32282c30163e715ab29c494",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T22:19:14.000+01:00",
+      "title": "Profile Unicode, link projection, and PTY read costs",
+      "url": "https://github.com/HelgeSverre/terminal/commit/25df49244bf5b2cbc32282c30163e715ab29c494"
+    },
+    {
+      "id": "commit:HelgeSverre/akai-fire-looper:b28ebffe3dabede3879e4672fb4ce659da58720f",
+      "kind": "commit",
+      "repo": "HelgeSverre/akai-fire-looper",
+      "at": "2026-11-09T22:15:52.000+01:00",
+      "title": "Add encoder editing menus and clarify Circuit pattern controls",
+      "url": "https://github.com/HelgeSverre/akai-fire-looper/commit/b28ebffe3dabede3879e4672fb4ce659da58720f"
+    },
+    {
+      "id": "commit:HelgeSverre/hanimex:53e3b64eadd9c305a3f2aec66a77e2048dde5372",
+      "kind": "commit",
+      "repo": "HelgeSverre/hanimex",
+      "at": "2026-11-09T22:10:49.000+01:00",
+      "title": "Add cartridge impacts, explosion audio, and transient camera shake",
+      "url": "https://github.com/HelgeSverre/hanimex/commit/53e3b64eadd9c305a3f2aec66a77e2048dde5372"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:ea16eb90b403147a9983a8d98a39199ec422c432",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T21:57:29.000+01:00",
+      "title": "Record parser compatibility, app benchmarks, and verified release",
+      "url": "https://github.com/HelgeSverre/terminal/commit/ea16eb90b403147a9983a8d98a39199ec422c432"
+    },
+    {
+      "id": "commit:HelgeSverre/akai-fire-looper:0ae5e1f3baf8e56f707dde9f723d6ef27b10f962",
+      "kind": "commit",
+      "repo": "HelgeSverre/akai-fire-looper",
+      "at": "2026-11-09T21:52:09.000+01:00",
+      "title": "Show Circuit mute state consistently on OLED and pads",
+      "url": "https://github.com/HelgeSverre/akai-fire-looper/commit/0ae5e1f3baf8e56f707dde9f723d6ef27b10f962"
+    },
+    {
+      "id": "commit:HelgeSverre/akai-fire-looper:b36ac58c463f78d2a470e48e6335c8b162431a73",
+      "kind": "commit",
+      "repo": "HelgeSverre/akai-fire-looper",
+      "at": "2026-11-09T21:43:15.000+01:00",
+      "title": "Measure OLED text in monochrome mode to preserve header padding",
+      "url": "https://github.com/HelgeSverre/akai-fire-looper/commit/b36ac58c463f78d2a470e48e6335c8b162431a73"
+    },
+    {
+      "id": "commit:HelgeSverre/akai-fire-looper:c806f6b2fab9265178ec86720ffe718ef395d3ac",
+      "kind": "commit",
+      "repo": "HelgeSverre/akai-fire-looper",
+      "at": "2026-11-09T21:27:22.000+01:00",
+      "title": "Batch Circuit pad frames to reduce hardware MIDI traffic",
+      "url": "https://github.com/HelgeSverre/akai-fire-looper/commit/c806f6b2fab9265178ec86720ffe718ef395d3ac"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:0b7a6c0c2c8fbb4028262696790f79459e46d1f5",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T21:14:14.000+01:00",
+      "title": "Start development of version 0.2.4",
+      "url": "https://github.com/HelgeSverre/terminal/commit/0b7a6c0c2c8fbb4028262696790f79459e46d1f5"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:935635a7c2e5bbe7a3d69c4e16c5cac1c55a96b8",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T21:14:14.000+01:00",
+      "title": "Batch fresh Unicode text within owned rows",
+      "url": "https://github.com/HelgeSverre/terminal/commit/935635a7c2e5bbe7a3d69c4e16c5cac1c55a96b8"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:d6a37d77991ca167520f8c3f6472a43ca9abde0f",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T21:14:14.000+01:00",
+      "title": "Parse CSI bytes directly and avoid unchanged screen copies for SGR",
+      "url": "https://github.com/HelgeSverre/terminal/commit/d6a37d77991ca167520f8c3f6472a43ca9abde0f"
+    },
+    {
+      "id": "commit:HelgeSverre/akai-fire-looper:b6e2b8f3021daca92ec62647d7d05b26d4a96bf5",
+      "kind": "commit",
+      "repo": "HelgeSverre/akai-fire-looper",
+      "at": "2026-11-09T21:12:39.000+01:00",
+      "title": "Correct Fire track LED control change addresses",
+      "url": "https://github.com/HelgeSverre/akai-fire-looper/commit/b6e2b8f3021daca92ec62647d7d05b26d4a96bf5"
+    },
+    {
+      "id": "commit:HelgeSverre/akai-fire-looper:aad36347b1a615ceb081dc40e20c7aebf8fb42c7",
+      "kind": "commit",
+      "repo": "HelgeSverre/akai-fire-looper",
+      "at": "2026-11-09T21:06:48.000+01:00",
+      "title": "Keep static Fire OLED frames awake by default",
+      "url": "https://github.com/HelgeSverre/akai-fire-looper/commit/aad36347b1a615ceb081dc40e20c7aebf8fb42c7"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:3e559d2bca6285b507e4bbc9909d2026979dc51c",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T21:00:31.000+01:00",
+      "title": "Record release preflight throughput after Swift cleanup [skip ci]",
+      "url": "https://github.com/HelgeSverre/terminal/commit/3e559d2bca6285b507e4bbc9909d2026979dc51c"
+    },
+    {
+      "id": "commit:HelgeSverre/hanimex:c4083517de2f45497d2dfbcf5c2ecad5b597c644",
+      "kind": "commit",
+      "repo": "HelgeSverre/hanimex",
+      "at": "2026-11-09T20:57:35.000+01:00",
+      "title": "Add throwable cartridges, console explosion, and worn avatar sticker",
+      "url": "https://github.com/HelgeSverre/hanimex/commit/c4083517de2f45497d2dfbcf5c2ecad5b597c644"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:2e8949b0b4f95f2511ef5a6c22aaed467716d262",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T20:57:14.000+01:00",
+      "title": "Synchronize selection tests with asynchronous word jobs",
+      "url": "https://github.com/HelgeSverre/terminal/commit/2e8949b0b4f95f2511ef5a6c22aaed467716d262"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:88b2b5221f08bd0ad37abf5bc5b51c7db942d481",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T20:57:14.000+01:00",
+      "title": "Isolate editing smoke from external desktop keystrokes",
+      "url": "https://github.com/HelgeSverre/terminal/commit/88b2b5221f08bd0ad37abf5bc5b51c7db942d481"
+    },
+    {
+      "id": "commit:HelgeSverre/hanimex:b4580ccd7fc6c351779a945e127be29715db089a",
+      "kind": "commit",
+      "repo": "HelgeSverre/hanimex",
+      "at": "2026-11-09T20:44:20.000+01:00",
+      "title": "Polish tiling wood, seat cartridges in socket, and enable camera panning",
+      "url": "https://github.com/HelgeSverre/hanimex/commit/b4580ccd7fc6c351779a945e127be29715db089a"
+    },
+    {
+      "id": "commit:HelgeSverre/hanimex:ccc3cb2222f574f9b8ed0addbdd92cc6c7d63e51",
+      "kind": "commit",
+      "repo": "HelgeSverre/hanimex",
+      "at": "2026-11-09T20:38:02.000+01:00",
+      "title": "Recreate photographed PC-50x cartridge labels and shells in both views",
+      "url": "https://github.com/HelgeSverre/hanimex/commit/ccc3cb2222f574f9b8ed0addbdd92cc6c7d63e51"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:45c8f7fde4e412c866fb55750325b64816b51874",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T20:33:08.000+01:00",
+      "title": "Prepare version 0.2.3 build 10",
+      "url": "https://github.com/HelgeSverre/terminal/commit/45c8f7fde4e412c866fb55750325b64816b51874"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:e35c003d2e88cd36962353c66a267693b4c48e1a",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T20:33:08.000+01:00",
+      "title": "Document the measured Swift and Ghostty baseline",
+      "url": "https://github.com/HelgeSverre/terminal/commit/e35c003d2e88cd36962353c66a267693b4c48e1a"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:157d52c7802f72910a43af8a5a1a024baa03030f",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T20:32:34.000+01:00",
+      "title": "Add native shortcuts for numbered and adjacent tabs",
+      "url": "https://github.com/HelgeSverre/terminal/commit/157d52c7802f72910a43af8a5a1a024baa03030f"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:90c4d9d8d8886a3096afdf19f966098ee39c97c1",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T20:32:34.000+01:00",
+      "title": "Organize Swift sources and centralize preference application",
+      "url": "https://github.com/HelgeSverre/terminal/commit/90c4d9d8d8886a3096afdf19f966098ee39c97c1"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:2e5ec1d011104de2c85cd3400e4cbc81222c6ad6",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-09T20:26:00.000Z",
+      "title": "Update Helge Terminal to v0.2.3",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/2e5ec1d011104de2c85cd3400e4cbc81222c6ad6"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:c05d1bb8867cbf91a5e0cfc36612b5da1e04ad81",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T20:09:21.000+01:00",
+      "title": "Reap owned children when process construction is interrupted",
+      "url": "https://github.com/HelgeSverre/terminal/commit/c05d1bb8867cbf91a5e0cfc36612b5da1e04ad81"
+    },
+    {
+      "id": "commit:HelgeSverre/hanimex:6ca8f7c37178157db8e5c081996ebc0ca64bd2be",
+      "kind": "commit",
+      "repo": "HelgeSverre/hanimex",
+      "at": "2026-11-09T20:07:16.000+01:00",
+      "title": "Share compiled game latch banks across chip phases",
+      "url": "https://github.com/HelgeSverre/hanimex/commit/6ca8f7c37178157db8e5c081996ebc0ca64bd2be"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:af41ca81fdb814977928c14432a6719b8b79b6fd",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T19:55:43.000+01:00",
+      "title": "Validate measured copies and close early benchmark cleanup gaps",
+      "url": "https://github.com/HelgeSverre/terminal/commit/af41ca81fdb814977928c14432a6719b8b79b6fd"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:7f40e982b0221b9d3986e020f29bbd12ccc735ca",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T19:43:54.000+01:00",
+      "title": "Fix pre-layout grid sizing and benchmark process ownership",
+      "url": "https://github.com/HelgeSverre/terminal/commit/7f40e982b0221b9d3986e020f29bbd12ccc735ca"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:df4a04df0ff636b896511271a595ae6f11577317",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T19:30:24.000+01:00",
+      "title": "Add a Terminal2Shell joke badge [skip ci]",
+      "url": "https://github.com/HelgeSverre/terminal/commit/df4a04df0ff636b896511271a595ae6f11577317"
+    },
     {
       "id": "commit:HelgeSverre/terminal:e3f5a373ee25f6af21a41becb14da834b1ba8064",
       "kind": "commit",
@@ -5427,6 +5835,14 @@
       "at": "2026-10-28T09:52:14.000+01:00",
       "title": "feat: add delivery context, structured failures and token identity",
       "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/a4c50d943c365359aaaed61fab5adb66678145c8"
+    },
+    {
+      "id": "release:HelgeSverre/terminal:439603894",
+      "kind": "release",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-09T20:25:59Z",
+      "title": "v0.2.3",
+      "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.2.3"
     },
     {
       "id": "release:HelgeSverre/homebrew-tap:439248081",
