@@ -1,9 +1,281 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-11T12:18:05.702Z",
-  "since": "2026-10-28T12:18:05.702Z",
+  "fetchedAt": "2026-11-11T18:13:48.455Z",
+  "since": "2026-10-28T18:13:48.455Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/terminal:edadeeaff7a4d8e2753ac0d28640ad3ae3d5b8b3",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T15:09:51.000+01:00",
+      "title": "Drop references to the retired Rust implementation from code and tools",
+      "url": "https://github.com/HelgeSverre/terminal/commit/edadeeaff7a4d8e2753ac0d28640ad3ae3d5b8b3"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:0a9a8a11ebd8ab4f4aba7b8da9901e69ec3fb574",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T14:46:55.000+01:00",
+      "title": "Point CI and the docs at the Swift Testing suites",
+      "url": "https://github.com/HelgeSverre/terminal/commit/0a9a8a11ebd8ab4f4aba7b8da9901e69ec3fb574"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:8b89d1f4b2316c68a5f78c62f90223fb0fb9b9a1",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T14:40:29.000+01:00",
+      "title": "Run the test suites with swift test",
+      "url": "https://github.com/HelgeSverre/terminal/commit/8b89d1f4b2316c68a5f78c62f90223fb0fb9b9a1"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:a9f53aaac07e7a69e1913e33efe8bbdf945f5de5",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T14:34:15.000+01:00",
+      "title": "Convert glyph residency tests",
+      "url": "https://github.com/HelgeSverre/terminal/commit/a9f53aaac07e7a69e1913e33efe8bbdf945f5de5"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:76b4f8754c69b3fee9203210fef8b1d756aee371",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T14:34:15.000+01:00",
+      "title": "Convert preferences tests",
+      "url": "https://github.com/HelgeSverre/terminal/commit/76b4f8754c69b3fee9203210fef8b1d756aee371"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:4aee7218b67ace3eb8cc3bba953955cfb943bbe8",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T14:34:15.000+01:00",
+      "title": "Convert visible link projection tests",
+      "url": "https://github.com/HelgeSverre/terminal/commit/4aee7218b67ace3eb8cc3bba953955cfb943bbe8"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:9032c157c0bedfe0a09fde4ce368d45763b43e94",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T14:34:15.000+01:00",
+      "title": "Convert graphics and prompt clear oracle tests",
+      "url": "https://github.com/HelgeSverre/terminal/commit/9032c157c0bedfe0a09fde4ce368d45763b43e94"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:186f0d00aee04695b3bb2d307f807c3dffcc9ba2",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T14:34:15.000+01:00",
+      "title": "Convert tab navigation and scheduler oracle tests",
+      "url": "https://github.com/HelgeSverre/terminal/commit/186f0d00aee04695b3bb2d307f807c3dffcc9ba2"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:dd0423cf066146750fb26bee90fe298ec5991d1a",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T14:34:15.000+01:00",
+      "title": "Convert history search, input encoder and document oracle tests",
+      "url": "https://github.com/HelgeSverre/terminal/commit/dd0423cf066146750fb26bee90fe298ec5991d1a"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:17ce3c12612bb826af3d2a5ff01151e6bc8162f7",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T14:34:15.000+01:00",
+      "title": "Convert OSC 52, viewport, Unicode 18 corpus and settings window tests",
+      "url": "https://github.com/HelgeSverre/terminal/commit/17ce3c12612bb826af3d2a5ff01151e6bc8162f7"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:3fe7e272aef52079e7ecec98b2f27066e8dba342",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T14:34:15.000+01:00",
+      "title": "Convert small unicode, geometry and statistics tests to Swift Testing",
+      "url": "https://github.com/HelgeSverre/terminal/commit/3fe7e272aef52079e7ecec98b2f27066e8dba342"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:2c11606d03a321abea2027803d31743b0a8652e9",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T14:33:45.000+01:00",
+      "title": "Use require instead of fatalError in the snapshot bridge test",
+      "url": "https://github.com/HelgeSverre/terminal/commit/2c11606d03a321abea2027803d31743b0a8652e9"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:60e92be1cde98c5e3faf43ddbc301645cf62f2c0",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T14:33:45.000+01:00",
+      "title": "Convert the session tests to Swift Testing",
+      "url": "https://github.com/HelgeSverre/terminal/commit/60e92be1cde98c5e3faf43ddbc301645cf62f2c0"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:387a454a7ac57c3dfd1e08b4d8d1939560bc59c9",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T14:33:45.000+01:00",
+      "title": "Convert the snapshot bridge test to Swift Testing",
+      "url": "https://github.com/HelgeSverre/terminal/commit/387a454a7ac57c3dfd1e08b4d8d1939560bc59c9"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:6f31073e27561222fc902cf0a7033d1e8b706ae3",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T14:33:44.000+01:00",
+      "title": "Convert the clipboard access test to Swift Testing",
+      "url": "https://github.com/HelgeSverre/terminal/commit/6f31073e27561222fc902cf0a7033d1e8b706ae3"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:effac509c19e3bf5e5773bf50e69272203adbf53",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T14:33:44.000+01:00",
+      "title": "Convert the shell editing test to Swift Testing",
+      "url": "https://github.com/HelgeSverre/terminal/commit/effac509c19e3bf5e5773bf50e69272203adbf53"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:576f629fa1779ab9c0b1124e89401af1f758eca5",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T14:33:44.000+01:00",
+      "title": "Convert the key map test to Swift Testing",
+      "url": "https://github.com/HelgeSverre/terminal/commit/576f629fa1779ab9c0b1124e89401af1f758eca5"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:8ea7b7b3d78068fe6ed74fb068555bc0fc5246c3",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T14:33:44.000+01:00",
+      "title": "Convert the PTY, transport and ingress tests to Swift Testing",
+      "url": "https://github.com/HelgeSverre/terminal/commit/8ea7b7b3d78068fe6ed74fb068555bc0fc5246c3"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:93234a64106fdcfcf7b43474b9ee5b9378d4e14e",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T14:33:32.000+01:00",
+      "title": "Convert TerminalDocumentOwnershipTests to Swift Testing",
+      "url": "https://github.com/HelgeSverre/terminal/commit/93234a64106fdcfcf7b43474b9ee5b9378d4e14e"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:12f6b1ced40800ae7c0b0890e5f54b2360972b7e",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T14:33:32.000+01:00",
+      "title": "Convert EmulatorTests to Swift Testing and move its fixture",
+      "url": "https://github.com/HelgeSverre/terminal/commit/12f6b1ced40800ae7c0b0890e5f54b2360972b7e"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:19e77d564a3f33a2e28c619c98b97bcd1200aefa",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T14:33:32.000+01:00",
+      "title": "Convert TerminalSemanticRegressionTests to Swift Testing",
+      "url": "https://github.com/HelgeSverre/terminal/commit/19e77d564a3f33a2e28c619c98b97bcd1200aefa"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:e4059ed6a168171786b941ad8d4726f10ef8df2e",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T14:33:32.000+01:00",
+      "title": "Convert TerminalBoundaryRegressionTests to Swift Testing",
+      "url": "https://github.com/HelgeSverre/terminal/commit/e4059ed6a168171786b941ad8d4726f10ef8df2e"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:7da245df5bf837f2b40ee976f7f267779b5b8b61",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T14:33:32.000+01:00",
+      "title": "Convert TerminalSelectionTests to Swift Testing",
+      "url": "https://github.com/HelgeSverre/terminal/commit/7da245df5bf837f2b40ee976f7f267779b5b8b61"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:485b3e836e596e2fc00c3597624219a36813e6e8",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T14:33:32.000+01:00",
+      "title": "Convert PresentedContentTests to Swift Testing",
+      "url": "https://github.com/HelgeSverre/terminal/commit/485b3e836e596e2fc00c3597624219a36813e6e8"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:47985d1e1ba7c9499019658c8c25c8dd6f84be3f",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T14:33:25.000+01:00",
+      "title": "Add a test package and convert two groups to Swift Testing",
+      "url": "https://github.com/HelgeSverre/terminal/commit/47985d1e1ba7c9499019658c8c25c8dd6f84be3f"
+    },
+    {
+      "id": "pr:HelgeSverre/terminal:2",
+      "kind": "merge",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T14:10:12Z",
+      "title": "Drop references to the retired Rust implementation from code and tools",
+      "url": "https://github.com/HelgeSverre/terminal/pull/2"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:0c2829ec919a19ce7c1136ce385ba0ad5fe11842",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T13:56:05.000+01:00",
+      "title": "Let the AppleScript receipt shell read from a pipe",
+      "url": "https://github.com/HelgeSverre/terminal/commit/0c2829ec919a19ce7c1136ce385ba0ad5fe11842"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:642ef4994da0e1cdc389720571a6bf50846b1d54",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T13:52:29.000+01:00",
+      "title": "Keep git from paging in the gallery fixture and refresh the screenshots",
+      "url": "https://github.com/HelgeSverre/terminal/commit/642ef4994da0e1cdc389720571a6bf50846b1d54"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:f970f8264665fe835fbdbdf88b8ae39c631740a3",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T13:50:35.000+01:00",
+      "title": "Account for the pane header in the rendering-proof layout check",
+      "url": "https://github.com/HelgeSverre/terminal/commit/f970f8264665fe835fbdbdf88b8ae39c631740a3"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:9908a1a410fe72808a958a22f3ad43ec36911b81",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T13:47:59.000+01:00",
+      "title": "Make fixture terminals raw without running stty",
+      "url": "https://github.com/HelgeSverre/terminal/commit/9908a1a410fe72808a958a22f3ad43ec36911b81"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:6773fcb834250d7d390900e01b7de21d150df2ab",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T13:45:12.000+01:00",
+      "title": "Set raw mode directly in the AppleScript smoke child",
+      "url": "https://github.com/HelgeSverre/terminal/commit/6773fcb834250d7d390900e01b7de21d150df2ab"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:d1a9cbb31889c5495df05b2427f9ba0c611ac9c1",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T13:16:34.000+01:00",
+      "title": "Add an intense resize smoke over streaming panes",
+      "url": "https://github.com/HelgeSverre/terminal/commit/d1a9cbb31889c5495df05b2427f9ba0c611ac9c1"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:6741f0ca7f641ecab073aa3a5b24301e16eb8711",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T13:16:30.000+01:00",
+      "title": "Retry a resize refused for reflow budget instead of dropping it",
+      "url": "https://github.com/HelgeSverre/terminal/commit/6741f0ca7f641ecab073aa3a5b24301e16eb8711"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:9a7030c76d9a47fadac67894d7d0a3ad6f23cdb3",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T12:46:36.000+01:00",
+      "title": "Find the split through the pane header in the resize smoke",
+      "url": "https://github.com/HelgeSverre/terminal/commit/9a7030c76d9a47fadac67894d7d0a3ad6f23cdb3"
+    },
     {
       "id": "commit:HelgeSverre/terminal:22b9f692843851d91b4937d7d838910c6aceb623",
       "kind": "commit",
@@ -6259,22 +6531,6 @@
       "at": "2026-10-29T11:13:22.000+01:00",
       "title": "Rename project to nvmr",
       "url": "https://github.com/HelgeSverre/nvmr/commit/2c65dd467437730cee245e9dcbf38d25d1b1ba69"
-    },
-    {
-      "id": "commit:sema-lisp/sema:0fb0dfd3e372bedbd5539fb63d4b380c4af5a384",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-28T13:42:08.000+01:00",
-      "title": "docs: record Sema 2.0 release verification and archive completed plans",
-      "url": "https://github.com/sema-lisp/sema/commit/0fb0dfd3e372bedbd5539fb63d4b380c4af5a384"
-    },
-    {
-      "id": "pr:sema-lisp/sema:183",
-      "kind": "merge",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-28T12:43:33Z",
-      "title": "docs: record verified Sema 2.0 release",
-      "url": "https://github.com/sema-lisp/sema/pull/183"
     },
     {
       "id": "release:HelgeSverre/terminal:441467223",
