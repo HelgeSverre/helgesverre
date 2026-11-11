@@ -1,9 +1,465 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-10T18:13:25.978Z",
-  "since": "2026-10-27T18:13:25.978Z",
+  "fetchedAt": "2026-11-11T00:32:08.983Z",
+  "since": "2026-10-28T00:32:08.983Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/terminal:68dfb44f084a04c26a2cbef5a572b7678f125010",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T00:15:47.000+01:00",
+      "title": "Remove the Ruby runners",
+      "url": "https://github.com/HelgeSverre/terminal/commit/68dfb44f084a04c26a2cbef5a572b7678f125010"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:a27d58fa4d2b45a5580fe2b2f121ea742925f5ee",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T00:15:47.000+01:00",
+      "title": "Port the rendering proof runner and its fixture to the dev tool",
+      "url": "https://github.com/HelgeSverre/terminal/commit/a27d58fa4d2b45a5580fe2b2f121ea742925f5ee"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:96a7f28bffa15bd41237d18f251173709532a9ec",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T00:15:47.000+01:00",
+      "title": "Stop tracking the accessibility smoke result files",
+      "url": "https://github.com/HelgeSverre/terminal/commit/96a7f28bffa15bd41237d18f251173709532a9ec"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:428527d4b9e864ff73975958b2410a90e6674bf0",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T00:15:47.000+01:00",
+      "title": "Point the release workflow and the docs at the dev tool",
+      "url": "https://github.com/HelgeSverre/terminal/commit/428527d4b9e864ff73975958b2410a90e6674bf0"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:37cfd1d8bfdbd87df83fcc2ce554e1539e84f7ab",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T00:15:47.000+01:00",
+      "title": "Stop tracking the remaining smoke result files",
+      "url": "https://github.com/HelgeSverre/terminal/commit/37cfd1d8bfdbd87df83fcc2ce554e1539e84f7ab"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:b0a76ebce499927f3d5788bc8490e446bd4cff2b",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T00:15:47.000+01:00",
+      "title": "Call the dev tool from every recipe that ran Ruby",
+      "url": "https://github.com/HelgeSverre/terminal/commit/b0a76ebce499927f3d5788bc8490e446bd4cff2b"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:d7bc09c8a4c12b90226f8a184fe5bbafcf7dfa21",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T00:15:47.000+01:00",
+      "title": "Register every ported command and its tests",
+      "url": "https://github.com/HelgeSverre/terminal/commit/d7bc09c8a4c12b90226f8a184fe5bbafcf7dfa21"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:8ecd92991db31e2d2bfd658ddef8f0e922c2e77e",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T00:15:47.000+01:00",
+      "title": "Replace the lettered support files with files named for their topic",
+      "url": "https://github.com/HelgeSverre/terminal/commit/8ecd92991db31e2d2bfd658ddef8f0e922c2e77e"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:593e449a7e6377091345290b3208c4fafc80658a",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T00:15:47.000+01:00",
+      "title": "Give signal handling one owner",
+      "url": "https://github.com/HelgeSverre/terminal/commit/593e449a7e6377091345290b3208c4fafc80658a"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:fd58e7077b10ef880203b4d62bce769a0dd4ec07",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T00:15:47.000+01:00",
+      "title": "Let ProcessTree discard output, log streams apart and refuse an old log",
+      "url": "https://github.com/HelgeSverre/terminal/commit/fd58e7077b10ef880203b4d62bce769a0dd4ec07"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:6c278d499b5a39060ae6d280382429d6301443c7",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T00:15:47.000+01:00",
+      "title": "Port the comparison runners, the AppleScript smoke and the glyph policy test to the dev tool",
+      "url": "https://github.com/HelgeSverre/terminal/commit/6c278d499b5a39060ae6d280382429d6301443c7"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:f7876886d4a392d0bfeb4dd686884ac873db93d8",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T00:15:47.000+01:00",
+      "title": "Port the TUI stress and gallery runners to the dev tool",
+      "url": "https://github.com/HelgeSverre/terminal/commit/f7876886d4a392d0bfeb4dd686884ac873db93d8"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:2af117f1b1c72ff91ebcf602a148dafc9ebb77da",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T00:15:47.000+01:00",
+      "title": "Port release signing and release publisher to dev subcommands",
+      "url": "https://github.com/HelgeSverre/terminal/commit/2af117f1b1c72ff91ebcf602a148dafc9ebb77da"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:9fcb1e165e7744a2b14fd0edd639673931ac0a83",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T00:15:47.000+01:00",
+      "title": "Port the terminal comparison, profile, stream and cat runners to the dev tool",
+      "url": "https://github.com/HelgeSverre/terminal/commit/9fcb1e165e7744a2b14fd0edd639673931ac0a83"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:fd8bcb152526b69c14e5dde54a4aaf502f6feeee",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T00:15:47.000+01:00",
+      "title": "Port six Ruby runners to dev subcommands",
+      "url": "https://github.com/HelgeSverre/terminal/commit/fd8bcb152526b69c14e5dde54a4aaf502f6feeee"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:fa4ab617574e443dc50953c14f842d6fcb9b2130",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T00:15:47.000+01:00",
+      "title": "Do not pass ignored signals on to launched processes",
+      "url": "https://github.com/HelgeSverre/terminal/commit/fa4ab617574e443dc50953c14f842d6fcb9b2130"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:def722e3cbc7d32fbdf20ec72acab3fec601016b",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T00:15:47.000+01:00",
+      "title": "Give the dev tool process trees, self-tests and the native smoke runner",
+      "url": "https://github.com/HelgeSverre/terminal/commit/def722e3cbc7d32fbdf20ec72acab3fec601016b"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:6db894bf0ee14a1afb972ad07c624606982aa4df",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T00:10:12.000+01:00",
+      "title": "Hand the quit reply to the main run loop as a Sendable value",
+      "url": "https://github.com/HelgeSverre/terminal/commit/6db894bf0ee14a1afb972ad07c624606982aa4df"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:796782eb39e873cf126e3a211f309ee1f38ba822",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T23:35:53.000+01:00",
+      "title": "Start only the login shell early, not an --execute command",
+      "url": "https://github.com/HelgeSverre/terminal/commit/796782eb39e873cf126e3a211f309ee1f38ba822"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:95d943e69e2fd935a49d63c65bc0675d817d53d2",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T23:32:21.000+01:00",
+      "title": "Build the renderer after the application object exists",
+      "url": "https://github.com/HelgeSverre/terminal/commit/95d943e69e2fd935a49d63c65bc0675d817d53d2"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:551cdf809af5c4469ee219a44c5ff3a485c95986",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T23:01:50.000+01:00",
+      "title": "Wait for the children of closed panes before quitting",
+      "url": "https://github.com/HelgeSverre/terminal/commit/551cdf809af5c4469ee219a44c5ff3a485c95986"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:ca79d201b3e1782744413bda49834d181a9e35cc",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T22:42:44.000+01:00",
+      "title": "Stop tracking the result files that every test and smoke run rewrites",
+      "url": "https://github.com/HelgeSverre/terminal/commit/ca79d201b3e1782744413bda49834d181a9e35cc"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:5eeaf7233f45ab9beb6879d0ffebe894444fdf99",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T22:33:43.000+01:00",
+      "title": "Start panes in the darkest gray and make the default color a setting",
+      "url": "https://github.com/HelgeSverre/terminal/commit/5eeaf7233f45ab9beb6879d0ffebe894444fdf99"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:6899a8f01ecd58327bda06fed07f52af129ceaac",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T21:57:29.000+01:00",
+      "title": "Close the pane, not the window, when the find field has focus",
+      "url": "https://github.com/HelgeSverre/terminal/commit/6899a8f01ecd58327bda06fed07f52af129ceaac"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:89c789795d835d2027f0d3e59aab998d2a254882",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T21:18:57.000+01:00",
+      "title": "Report startup and shutdown time against four terminals",
+      "url": "https://github.com/HelgeSverre/terminal/commit/89c789795d835d2027f0d3e59aab998d2a254882"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:909f15b2fec7e59882caa4e959b936b11a3a65dc",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T20:29:52.000+01:00",
+      "title": "Quit as soon as every pane's child has ended",
+      "url": "https://github.com/HelgeSverre/terminal/commit/909f15b2fec7e59882caa4e959b936b11a3a65dc"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:91e8f3864cbdfaa84aaedf5c5e5861672228fd0e",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T20:26:54.000+01:00",
+      "title": "Add a shutdown comparison to the dev tool",
+      "url": "https://github.com/HelgeSverre/terminal/commit/91e8f3864cbdfaa84aaedf5c5e5861672228fd0e"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:c80049c8ad52313bdaf2e221ed1918a6c6411754",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T20:26:54.000+01:00",
+      "title": "Add the dev tool with a startup comparison across terminals",
+      "url": "https://github.com/HelgeSverre/terminal/commit/c80049c8ad52313bdaf2e221ed1918a6c6411754"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:f5b5db4d441baed43cfa51c2ea9b3cb1830b5bef",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T20:26:54.000+01:00",
+      "title": "Start the shell at launch and present the first frame with the window",
+      "url": "https://github.com/HelgeSverre/terminal/commit/f5b5db4d441baed43cfa51c2ea9b3cb1830b5bef"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:49458da20d64b941546c63e28a0733a7cdbefc6d",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T20:26:46.000+01:00",
+      "title": "Add a clean recipe for build outputs",
+      "url": "https://github.com/HelgeSverre/terminal/commit/49458da20d64b941546c63e28a0733a7cdbefc6d"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:53e402e26c6d750a98e0557f1928972e0f34377b",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T19:57:31.000+01:00",
+      "title": "Record smoke evidence for blank in-flight glyphs",
+      "url": "https://github.com/HelgeSverre/terminal/commit/53e402e26c6d750a98e0557f1928972e0f34377b"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:337c74316a4b14a7f13b5356a039ad8fe7fffd55",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T19:57:31.000+01:00",
+      "title": "Leave in-flight glyphs blank and prewarm ASCII before the first prompt",
+      "url": "https://github.com/HelgeSverre/terminal/commit/337c74316a4b14a7f13b5356a039ad8fe7fffd55"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:2a531541cf131b67bb9158efd09d1fee441add4d",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T19:55:36.000+01:00",
+      "title": "Fit the pane color popover to square swatches and add darker grays",
+      "url": "https://github.com/HelgeSverre/terminal/commit/2a531541cf131b67bb9158efd09d1fee441add4d"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:04a46f3c6a6f0aa867f00eb6181d72f31b963c95",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T19:55:36.000+01:00",
+      "title": "Replace the find sheet with a bar docked to the top of the pane",
+      "url": "https://github.com/HelgeSverre/terminal/commit/04a46f3c6a6f0aa867f00eb6181d72f31b963c95"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:8ca26abb13b9bb37da031e7585eab505bb67a45d",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T19:55:36.000+01:00",
+      "title": "Report where throughput stands after whole-cluster printing",
+      "url": "https://github.com/HelgeSverre/terminal/commit/8ca26abb13b9bb37da031e7585eab505bb67a45d"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:fa7db4c09036363a6f4aaa003695748d25ae968d",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T19:55:36.000+01:00",
+      "title": "Keep the scrollback byte count inlined and the payload capacity stored",
+      "url": "https://github.com/HelgeSverre/terminal/commit/fa7db4c09036363a6f4aaa003695748d25ae968d"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:ecc36fee88ac0e09e03160ad56c7db09a82ff162",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T19:55:36.000+01:00",
+      "title": "Wait for a PTY refill only after a read that emptied a full queue",
+      "url": "https://github.com/HelgeSverre/terminal/commit/ecc36fee88ac0e09e03160ad56c7db09a82ff162"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:bc8f8be376fc6dc9e9314bf69c208049f4365eb5",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T19:55:36.000+01:00",
+      "title": "Plan session recovery after a crash, kill or hard reset",
+      "url": "https://github.com/HelgeSverre/terminal/commit/bc8f8be376fc6dc9e9314bf69c208049f4365eb5"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:291da1638deae819105e4cca7b47af9c842f23ef",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T19:55:36.000+01:00",
+      "title": "Add a --background launch flag for diagnostic runs that keep focus",
+      "url": "https://github.com/HelgeSverre/terminal/commit/291da1638deae819105e4cca7b47af9c842f23ef"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:bf2e11b9a1294ce7a1c89f406506f8d17fac0043",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T19:55:36.000+01:00",
+      "title": "Take short ASCII runs along while decoding a UTF-8 run",
+      "url": "https://github.com/HelgeSverre/terminal/commit/bf2e11b9a1294ce7a1c89f406506f8d17fac0043"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:3e898b9f05be371edc065b238414f54fb8e77adb",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T19:55:36.000+01:00",
+      "title": "Print whole multi-scalar clusters in the run that begins them",
+      "url": "https://github.com/HelgeSverre/terminal/commit/3e898b9f05be371edc065b238414f54fb8e77adb"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:a66be297479ceb5dba1531b2d060f54242c6fb3e",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T19:55:36.000+01:00",
+      "title": "Decode UTF-8 runs straight into the pending text buffer",
+      "url": "https://github.com/HelgeSverre/terminal/commit/a66be297479ceb5dba1531b2d060f54242c6fb3e"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:eb70889389a307dbea317c824ac4887f76e4dd66",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T19:55:36.000+01:00",
+      "title": "Report where throughput stands after the direct text path",
+      "url": "https://github.com/HelgeSverre/terminal/commit/eb70889389a307dbea317c824ac4887f76e4dd66"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:dfc625a46a8c8f387101abf89b7606e8d8dc38b8",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T19:55:36.000+01:00",
+      "title": "Stop paying per scrolled row for history lookups and charges",
+      "url": "https://github.com/HelgeSverre/terminal/commit/dfc625a46a8c8f387101abf89b7606e8d8dc38b8"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:1469e320e83792ef5aee10882722618efc905217",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T19:55:36.000+01:00",
+      "title": "Test row style tables under churn, compaction and cross-row copies",
+      "url": "https://github.com/HelgeSverre/terminal/commit/1469e320e83792ef5aee10882722618efc905217"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:dcd2ec22e1e275df7ccb2678d84c9f27cfb9fd8d",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T19:55:36.000+01:00",
+      "title": "Extend a whole cluster in one step from a small cluster cache",
+      "url": "https://github.com/HelgeSverre/terminal/commit/dcd2ec22e1e275df7ccb2678d84c9f27cfb9fd8d"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:08e2ce102df5bfaf324232604df1c7ddcab6edcd",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T19:55:36.000+01:00",
+      "title": "Skip category decoding for plain text and stop copying cluster state",
+      "url": "https://github.com/HelgeSverre/terminal/commit/08e2ce102df5bfaf324232604df1c7ddcab6edcd"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:77895e8a89f849c9e5560b4e7cd36a9f0819ea87",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T19:55:36.000+01:00",
+      "title": "Make each print one row edit and skip unchanged cluster rewrites",
+      "url": "https://github.com/HelgeSverre/terminal/commit/77895e8a89f849c9e5560b4e7cd36a9f0819ea87"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:b297683633624d3d08c501bcfd260b1509f33979",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T19:55:36.000+01:00",
+      "title": "Gather PTY reads into one delivery without blocking the owner",
+      "url": "https://github.com/HelgeSverre/terminal/commit/b297683633624d3d08c501bcfd260b1509f33979"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:28b97faaf47502310e8421730177c7e34d6f79c2",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T19:55:36.000+01:00",
+      "title": "Classify printed scalars from one memoized table",
+      "url": "https://github.com/HelgeSverre/terminal/commit/28b97faaf47502310e8421730177c7e34d6f79c2"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:8b1eaa2ea9d78f2d16d084b08abecf8a2a3caacf",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T19:55:36.000+01:00",
+      "title": "Close a pane by middle-clicking its header",
+      "url": "https://github.com/HelgeSverre/terminal/commit/8b1eaa2ea9d78f2d16d084b08abecf8a2a3caacf"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:bce47be430e8be3e18ed81d4d88efede0df93a32",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T19:55:36.000+01:00",
+      "title": "Center pane titles, add a close button and expand inactive dimming",
+      "url": "https://github.com/HelgeSverre/terminal/commit/bce47be430e8be3e18ed81d4d88efede0df93a32"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:0d7dc466e9866b686505498fb24eb52c97c61e52",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T19:55:36.000+01:00",
+      "title": "Make the justfile default list recipes and group them by purpose",
+      "url": "https://github.com/HelgeSverre/terminal/commit/0d7dc466e9866b686505498fb24eb52c97c61e52"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:7c6e5d8b3dedfff39f3747bb612337341d531526",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T19:55:36.000+01:00",
+      "title": "Focus the clicked pane on the click that activates a window",
+      "url": "https://github.com/HelgeSverre/terminal/commit/7c6e5d8b3dedfff39f3747bb612337341d531526"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:0d82dd05cb03343b07e3c0a44a6be7503b26935c",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T19:55:36.000+01:00",
+      "title": "Yield after the single scalar whose wrap appends history",
+      "url": "https://github.com/HelgeSverre/terminal/commit/0d82dd05cb03343b07e3c0a44a6be7503b26935c"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:c0c0f8977ed77147c5ab2721a88b5150000e1b0f",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T19:55:36.000+01:00",
+      "title": "Write text and SGR directly into compact row cells",
+      "url": "https://github.com/HelgeSverre/terminal/commit/c0c0f8977ed77147c5ab2721a88b5150000e1b0f"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:8bb12b54cb377390839e4751a95b5b76d7b6642d",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-10T19:53:46.000+01:00",
+      "title": "Add working rules for agents sharing this repository",
+      "url": "https://github.com/HelgeSverre/terminal/commit/8bb12b54cb377390839e4751a95b5b76d7b6642d"
+    },
     {
       "id": "commit:HelgeSverre/terminal:5568f8388753bfd030ecff1297c0235cccbe7c67",
       "kind": "commit",
