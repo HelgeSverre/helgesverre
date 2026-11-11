@@ -1,9 +1,153 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-11T06:20:53.918Z",
-  "since": "2026-10-28T06:20:53.918Z",
+  "fetchedAt": "2026-11-11T12:18:05.702Z",
+  "since": "2026-10-28T12:18:05.702Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/terminal:22b9f692843851d91b4937d7d838910c6aceb623",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T12:24:45.000+01:00",
+      "title": "Keep physical key presses out of the native smoke",
+      "url": "https://github.com/HelgeSverre/terminal/commit/22b9f692843851d91b4937d7d838910c6aceb623"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:09e57fc673e811af3cfcd351958ec56e6640a2cd",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T12:24:44.000+01:00",
+      "title": "Do not open a second window when a reopen arrives during launch",
+      "url": "https://github.com/HelgeSverre/terminal/commit/09e57fc673e811af3cfcd351958ec56e6640a2cd"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:c56760f6a657b7499e1461f84f770b55cd2abe6e",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T12:01:09.000+01:00",
+      "title": "Build and run test groups through one recipe",
+      "url": "https://github.com/HelgeSverre/terminal/commit/c56760f6a657b7499e1461f84f770b55cd2abe6e"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:852125659a6262ccfd85a56cb48a2bd3a7d8fce3",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T12:00:24.000+01:00",
+      "title": "Call the two compared apps baseline and candidate",
+      "url": "https://github.com/HelgeSverre/terminal/commit/852125659a6262ccfd85a56cb48a2bd3a7d8fce3"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:487bd627fcbe250fb9cc36028ead9f40884e517a",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T12:00:24.000+01:00",
+      "title": "Fix runner reports that hid a failure or lost their evidence",
+      "url": "https://github.com/HelgeSverre/terminal/commit/487bd627fcbe250fb9cc36028ead9f40884e517a"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:cf081d9b517d37a91ea10c0400151dc52952329b",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T12:00:24.000+01:00",
+      "title": "Fix five defects in the release signing and publishing commands",
+      "url": "https://github.com/HelgeSverre/terminal/commit/cf081d9b517d37a91ea10c0400151dc52952329b"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:8fdddfa5d702e15f3490560ca612ca852a1819d5",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T12:00:24.000+01:00",
+      "title": "Describe the benchmark recipes that exist",
+      "url": "https://github.com/HelgeSverre/terminal/commit/8fdddfa5d702e15f3490560ca612ca852a1819d5"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:abbae69af9e59d7e312de0689b9c51e6503bd505",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T12:00:24.000+01:00",
+      "title": "Remove five tools whose one-time job is done",
+      "url": "https://github.com/HelgeSverre/terminal/commit/abbae69af9e59d7e312de0689b9c51e6503bd505"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:813dd7a465ca595eb012401fef1a091c9bbdfcc0",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T11:47:01.000+01:00",
+      "title": "Tell children which terminal they run in, and only that",
+      "url": "https://github.com/HelgeSverre/terminal/commit/813dd7a465ca595eb012401fef1a091c9bbdfcc0"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:bb1b3ae8b649f29b89305909d9952919134f5913",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T11:39:06.000+01:00",
+      "title": "Rework the session recovery plan around the 2026-11-11 decisions",
+      "url": "https://github.com/HelgeSverre/terminal/commit/bb1b3ae8b649f29b89305909d9952919134f5913"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:3c96cb7bf25c49af18263c4794b49e45089fabe6",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T11:13:55.000+01:00",
+      "title": "Compare visible startup and key latency across terminals",
+      "url": "https://github.com/HelgeSverre/terminal/commit/3c96cb7bf25c49af18263c4794b49e45089fabe6"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:7eff9bc2a61a590f77d0787eb5cbb1d1a31f30bf",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T10:29:04.000+01:00",
+      "title": "Launch disposable iTerm2 instances without session servers or quit prompts",
+      "url": "https://github.com/HelgeSverre/terminal/commit/7eff9bc2a61a590f77d0787eb5cbb1d1a31f30bf"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:b8920951ee717776236251d65c4bf8ad89e28f2f",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T10:03:29.000+01:00",
+      "title": "Keep the CSI probe and its counts with the 0.3.0 measurements",
+      "url": "https://github.com/HelgeSverre/terminal/commit/b8920951ee717776236251d65c4bf8ad89e28f2f"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:27eac7c7a15e07dc851208314071aa4b41ef4809",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T10:01:40.000+01:00",
+      "title": "Mention the control sequence fix in the 0.3.0 notes",
+      "url": "https://github.com/HelgeSverre/terminal/commit/27eac7c7a15e07dc851208314071aa4b41ef4809"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:aca8a167d9a2cac4b54e776946acd7809691cc5d",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T09:47:58.000+01:00",
+      "title": "Run a CSI command only under its own marker and intermediate",
+      "url": "https://github.com/HelgeSverre/terminal/commit/aca8a167d9a2cac4b54e776946acd7809691cc5d"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:a608a703fceb5336622171861623d79f9191c539",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-11T09:31:38.000Z",
+      "title": "Update Helge Terminal to v0.3.0",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/a608a703fceb5336622171861623d79f9191c539"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:2b1669f820ca328a92be9741c52bdc02bdcbabd5",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T08:40:18.000+01:00",
+      "title": "Do not read xterm key-modifier options as SGR",
+      "url": "https://github.com/HelgeSverre/terminal/commit/2b1669f820ca328a92be9741c52bdc02bdcbabd5"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:325b8a1b330feb83ddf5cfc72c5982498b8a3349",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T08:37:25.000+01:00",
+      "title": "Prepare version 0.3.0",
+      "url": "https://github.com/HelgeSverre/terminal/commit/325b8a1b330feb83ddf5cfc72c5982498b8a3349"
+    },
     {
       "id": "commit:HelgeSverre/terminal:68dfb44f084a04c26a2cbef5a572b7678f125010",
       "kind": "commit",
@@ -6133,196 +6277,12 @@
       "url": "https://github.com/sema-lisp/sema/pull/183"
     },
     {
-      "id": "commit:sema-lisp/sema:62404bf7f07e82e149a56088e38512ce8cc91c2c",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-28T11:52:01.000+01:00",
-      "title": "fix(vm): clear interrupted callback frames before reuse",
-      "url": "https://github.com/sema-lisp/sema/commit/62404bf7f07e82e149a56088e38512ce8cc91c2c"
-    },
-    {
-      "id": "commit:HelgeSverre/slack-bolt-php:436e734588a0d367c6b86f08fe5bb19c8f087ecc",
-      "kind": "commit",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-10-28T11:32:25.000+01:00",
-      "title": "docs: record verified v0.2.0 preview release completion",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/436e734588a0d367c6b86f08fe5bb19c8f087ecc"
-    },
-    {
-      "id": "commit:sema-lisp/sema:7be0d7c4b466be1ab758832af7cd49b455b5d440",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-28T11:30:32.000+01:00",
-      "title": "fix(eval): keep async debugger admission separate from sync entry",
-      "url": "https://github.com/sema-lisp/sema/commit/7be0d7c4b466be1ab758832af7cd49b455b5d440"
-    },
-    {
-      "id": "commit:HelgeSverre/slack-bolt-php:1b27a8eb22e2f3ddb0c3f03ee674c4601cdb7dc2",
-      "kind": "commit",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-10-28T11:28:15.000+01:00",
-      "title": "chore: prepare v0.2.0 compatibility preview",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/1b27a8eb22e2f3ddb0c3f03ee674c4601cdb7dc2"
-    },
-    {
-      "id": "commit:HelgeSverre/slack-bolt-php:f91ace07b936b02cf20354a6d968a331026c9b18",
-      "kind": "commit",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-10-28T11:21:00.000+01:00",
-      "title": "test: cover installation context and typed forms through durable recovery",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/f91ace07b936b02cf20354a6d968a331026c9b18"
-    },
-    {
-      "id": "commit:sema-lisp/sema:5b8700ea405079f9aec10fd951a18fc7c53352de",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-28T11:19:10.000+01:00",
-      "title": "test(vm): preserve ownership coverage under reentrancy guards",
-      "url": "https://github.com/sema-lisp/sema/commit/5b8700ea405079f9aec10fd951a18fc7c53352de"
-    },
-    {
-      "id": "commit:HelgeSverre/slack-bolt-php:f0392186e7fbf845967cde540796a0fe4fc1c37f",
-      "kind": "commit",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-10-28T11:13:20.000+01:00",
-      "title": "feat: add typed interaction values and shared form state readers",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/f0392186e7fbf845967cde540796a0fe4fc1c37f"
-    },
-    {
-      "id": "commit:sema-lisp/sema:2f405e28bafd8976b933d31f112a84a46d0e4898",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-28T11:12:12.000+01:00",
-      "title": "fix(mcp): enforce source limits before build hooks",
-      "url": "https://github.com/sema-lisp/sema/commit/2f405e28bafd8976b933d31f112a84a46d0e4898"
-    },
-    {
-      "id": "commit:sema-lisp/sema:47ac9be76fef06fd8677385e203ef43bb72c68c5",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-28T11:11:10.000+01:00",
-      "title": "test(llm): isolate missing Nomic credential check",
-      "url": "https://github.com/sema-lisp/sema/commit/47ac9be76fef06fd8677385e203ef43bb72c68c5"
-    },
-    {
-      "id": "pr:sema-lisp/sema:176",
-      "kind": "merge",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-28T11:08:31Z",
-      "title": "docs: propose MCP access for embedded interpreters",
-      "url": "https://github.com/sema-lisp/sema/pull/176"
-    },
-    {
-      "id": "pr:sema-lisp/sema:175",
-      "kind": "merge",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-28T11:08:31Z",
-      "title": "fix(core): enforce Value thread affinity",
-      "url": "https://github.com/sema-lisp/sema/pull/175"
-    },
-    {
-      "id": "pr:sema-lisp/sema:172",
-      "kind": "merge",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-28T11:08:31Z",
-      "title": "Fix retrieval configuration and add native Ollama and Nomic embeddings",
-      "url": "https://github.com/sema-lisp/sema/pull/172"
-    },
-    {
-      "id": "pr:sema-lisp/sema:173",
-      "kind": "merge",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-28T11:08:30Z",
-      "title": "Validate embedding and reranking responses before use or replay",
-      "url": "https://github.com/sema-lisp/sema/pull/173"
-    },
-    {
-      "id": "pr:sema-lisp/sema:180",
-      "kind": "merge",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-28T11:08:30Z",
-      "title": "feat(embed): typed registration, ValueRef, and register_async_fn_cx",
-      "url": "https://github.com/sema-lisp/sema/pull/180"
-    },
-    {
-      "id": "pr:sema-lisp/sema:174",
-      "kind": "merge",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-28T11:08:30Z",
-      "title": "Add six embedding providers through shared retrieval presets",
-      "url": "https://github.com/sema-lisp/sema/pull/174"
-    },
-    {
-      "id": "pr:sema-lisp/sema:178",
-      "kind": "merge",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-28T11:08:30Z",
-      "title": "feat(embed): add Interpreter::register_async_fn",
-      "url": "https://github.com/sema-lisp/sema/pull/178"
-    },
-    {
-      "id": "pr:sema-lisp/sema:171",
-      "kind": "merge",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-28T11:08:30Z",
-      "title": "fix(reader): accept rational components in complex literals",
-      "url": "https://github.com/sema-lisp/sema/pull/171"
-    },
-    {
-      "id": "pr:sema-lisp/sema:182",
-      "kind": "merge",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-28T11:08:28Z",
-      "title": "Release Sema 2.0: embedding APIs, retrieval configuration, and embeddable MCP",
-      "url": "https://github.com/sema-lisp/sema/pull/182"
-    },
-    {
-      "id": "commit:HelgeSverre/slack-bolt-php:d8b2ef8993db9a83226f7e6a5f4f36f9be4c7f3e",
-      "kind": "commit",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-10-28T11:08:01.000+01:00",
-      "title": "feat: enrich authorized deliveries with typed transport context factories",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/d8b2ef8993db9a83226f7e6a5f4f36f9be4c7f3e"
-    },
-    {
-      "id": "commit:sema-lisp/sema:d83ce67c74647c7d8f6f14503be8f9b742d54006",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-28T11:07:55.000+01:00",
-      "title": "feat(mcp): expose embedded server sessions and prepare Sema 2.0",
-      "url": "https://github.com/sema-lisp/sema/commit/d83ce67c74647c7d8f6f14503be8f9b742d54006"
-    },
-    {
-      "id": "commit:HelgeSverre/slack-bolt-php:a2b51cd2e7d77241de019187dd668b6d3f97a93a",
-      "kind": "commit",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-10-28T11:02:57.000+01:00",
-      "title": "feat: add installation hooks and reusable OAuth host routes",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/a2b51cd2e7d77241de019187dd668b6d3f97a93a"
-    },
-    {
-      "id": "commit:HelgeSverre/slack-bolt-php:548e5574e3e03e12c251eff9222290ff2337b2bc",
-      "kind": "commit",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-10-28T10:56:27.000+01:00",
-      "title": "feat: add per-install OAuth requests and concurrent browser flows",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/548e5574e3e03e12c251eff9222290ff2337b2bc"
-    },
-    {
-      "id": "commit:HelgeSverre/slack-bolt-php:1c122335c4c7019c04720047108ed27abef41fcc",
-      "kind": "commit",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-10-28T10:17:44.000+01:00",
-      "title": "feat: add message filters, function token policy and SSL probes",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/1c122335c4c7019c04720047108ed27abef41fcc"
-    },
-    {
-      "id": "commit:HelgeSverre/slack-bolt-php:a4c50d943c365359aaaed61fab5adb66678145c8",
-      "kind": "commit",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-10-28T09:52:14.000+01:00",
-      "title": "feat: add delivery context, structured failures and token identity",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/a4c50d943c365359aaaed61fab5adb66678145c8"
+      "id": "release:HelgeSverre/terminal:441467223",
+      "kind": "release",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T09:31:37Z",
+      "title": "v0.3.0",
+      "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.3.0"
     },
     {
       "id": "release:HelgeSverre/terminal:440064609",
@@ -6541,14 +6501,6 @@
       "url": "https://github.com/HelgeSverre/slack-bolt-php/releases/tag/v0.3.0"
     },
     {
-      "id": "release:HelgeSverre/slack-bolt-php:426527069",
-      "kind": "release",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-10-28T10:30:00Z",
-      "title": "v0.2.0",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/releases/tag/v0.2.0"
-    },
-    {
       "id": "release:HelgeSverre/resume:436586489",
       "kind": "release",
       "repo": "HelgeSverre/resume",
@@ -6603,14 +6555,6 @@
       "at": "2026-11-03T15:24:34Z",
       "title": "v0.1.0",
       "url": "https://github.com/HelgeSverre/rail-rs/releases/tag/v0.1.0"
-    },
-    {
-      "id": "release:sema-lisp/sema:426629432",
-      "kind": "release",
-      "repo": "sema-lisp/sema",
-      "at": "2026-10-28T12:17:24Z",
-      "title": "v2.0.0",
-      "url": "https://github.com/sema-lisp/sema/releases/tag/v2.0.0"
     }
   ]
 }
