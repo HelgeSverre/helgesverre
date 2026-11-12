@@ -1,9 +1,49 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-12T00:33:19.428Z",
-  "since": "2026-10-29T00:33:19.428Z",
+  "fetchedAt": "2026-11-12T06:21:27.647Z",
+  "since": "2026-10-29T06:21:27.647Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/terminal:3a9c1bb98e206999ec79aee9e2bf1fb45a685fe7",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-12T03:42:22.000+01:00",
+      "title": "Draw each frame from one reused Metal buffer",
+      "url": "https://github.com/HelgeSverre/terminal/commit/3a9c1bb98e206999ec79aee9e2bf1fb45a685fe7"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:68aa6dbe489c7aa1c72d404a72c2942b3f8e5026",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-12T03:33:45.000+01:00",
+      "title": "Read the PTY in 64 KiB slabs so floods wake the owner less often",
+      "url": "https://github.com/HelgeSverre/terminal/commit/68aa6dbe489c7aa1c72d404a72c2942b3f8e5026"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:a9aee3286c2b57fad83cdaafcebd18585adb4066",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-12T01:39:45.000+01:00",
+      "title": "Prepare release 0.4.0",
+      "url": "https://github.com/HelgeSverre/terminal/commit/a9aee3286c2b57fad83cdaafcebd18585adb4066"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:9215373422563742957e6f8c7091cae7ffc9a16d",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-12T01:38:15.000+01:00",
+      "title": "Update README.md",
+      "url": "https://github.com/HelgeSverre/terminal/commit/9215373422563742957e6f8c7091cae7ffc9a16d"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:0632f9137b40ca134abf405e848505f73437d492",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-12T01:37:55.000+01:00",
+      "title": "Keep test preferences out of ~/Library/Preferences",
+      "url": "https://github.com/HelgeSverre/terminal/commit/0632f9137b40ca134abf405e848505f73437d492"
+    },
     {
       "id": "commit:HelgeSverre/terminal:5a856cb12ce2fd02691407b60103792e59e0c7ca",
       "kind": "commit",
@@ -27,6 +67,14 @@
       "at": "2026-11-12T01:23:39.000+01:00",
       "title": "helge-terminal: add zap stanza",
       "url": "https://github.com/HelgeSverre/homebrew-tap/commit/a74bf2ec1431058932f31c75ad3401f2e41db681"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:c1567b6fdb263f15ea89ecd7fbbf107979edae78",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-12T00:57:07.000Z",
+      "title": "Update Helge Terminal to v0.4.0",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/c1567b6fdb263f15ea89ecd7fbbf107979edae78"
     },
     {
       "id": "commit:HelgeSverre/terminal:848ae70941ba7e3c687cdd9f31fb0bf42cd5db8b",
@@ -6915,6 +6963,14 @@
       "at": "2026-10-29T11:13:22.000+01:00",
       "title": "Rename project to nvmr",
       "url": "https://github.com/HelgeSverre/nvmr/commit/2c65dd467437730cee245e9dcbf38d25d1b1ba69"
+    },
+    {
+      "id": "release:HelgeSverre/terminal:442361557",
+      "kind": "release",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-12T00:57:06Z",
+      "title": "v0.4.0",
+      "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.4.0"
     },
     {
       "id": "release:HelgeSverre/terminal:442198275",
