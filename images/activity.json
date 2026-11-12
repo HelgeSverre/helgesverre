@@ -1,9 +1,41 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-12T12:18:11.520Z",
-  "since": "2026-10-29T12:18:11.520Z",
+  "fetchedAt": "2026-11-12T18:14:36.060Z",
+  "since": "2026-10-29T18:14:36.060Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/terminal:e15a857d9863a5908361f5cace3475ddead338c5",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-12T16:00:55.000+01:00",
+      "title": "Report Shift with Enter, Tab and Backspace in kitty disambiguate mode",
+      "url": "https://github.com/HelgeSverre/terminal/commit/e15a857d9863a5908361f5cace3475ddead338c5"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:8050420e1d12380165ed60f223312ffda8ed1e54",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-12T15:57:02.000+01:00",
+      "title": "Allow OSC 52 clipboard writes without asking",
+      "url": "https://github.com/HelgeSverre/terminal/commit/8050420e1d12380165ed60f223312ffda8ed1e54"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:0b26d78938e24bf096dbbc3e76e4409b33e8503a",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-12T13:28:17.000+01:00",
+      "title": "Prepare release 0.4.1",
+      "url": "https://github.com/HelgeSverre/terminal/commit/0b26d78938e24bf096dbbc3e76e4409b33e8503a"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:a4eba276a214d7b72a059506315fcbbe97ac8248",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-12T13:07:22.000Z",
+      "title": "Update Helge Terminal to v0.4.1",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/a4eba276a214d7b72a059506315fcbbe97ac8248"
+    },
     {
       "id": "commit:HelgeSverre/terminal:c346fd3167b45df3b8b36acd50761f46ecffa913",
       "kind": "commit",
@@ -7003,6 +7035,14 @@
       "at": "2026-11-02T08:57:06.000+01:00",
       "title": "Improve application onboarding and verify live Slack delivery",
       "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/b2898141e3d9938e2a058fec2d09cd772e07ff83"
+    },
+    {
+      "id": "release:HelgeSverre/terminal:442961225",
+      "kind": "release",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-12T13:07:21Z",
+      "title": "v0.4.1",
+      "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.4.1"
     },
     {
       "id": "release:HelgeSverre/terminal:442361557",
