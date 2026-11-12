@@ -1,9 +1,65 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-12T06:21:27.647Z",
-  "since": "2026-10-29T06:21:27.647Z",
+  "fetchedAt": "2026-11-12T12:18:11.520Z",
+  "since": "2026-10-29T12:18:11.520Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/terminal:c346fd3167b45df3b8b36acd50761f46ecffa913",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-12T12:09:28.000+01:00",
+      "title": "Add Undo, Redo, Cut and Delete to the Edit menu",
+      "url": "https://github.com/HelgeSverre/terminal/commit/c346fd3167b45df3b8b36acd50761f46ecffa913"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:43aa8165430c187aae3806e9cec65a9b75b05de2",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-12T11:23:03.000+01:00",
+      "title": "Give Settings a Tab order and keyboard control for every field",
+      "url": "https://github.com/HelgeSverre/terminal/commit/43aa8165430c187aae3806e9cec65a9b75b05de2"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:aa2a888abe378f3adf4e1e5d3560e013c91063f9",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-12T11:07:14.000+01:00",
+      "title": "Make the pane color popover usable from the keyboard and AppleScript",
+      "url": "https://github.com/HelgeSverre/terminal/commit/aa2a888abe378f3adf4e1e5d3560e013c91063f9"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:fe18fe4f5b4044eac2246196fdd69f168a884ea2",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-12T11:07:07.000+01:00",
+      "title": "Sign the AppleScript fixture deeply so it can load Sparkle",
+      "url": "https://github.com/HelgeSverre/terminal/commit/fe18fe4f5b4044eac2246196fdd69f168a884ea2"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:739ed11152db476eeb52e26ca86c06ac32892f16",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-12T09:44:41.000+01:00",
+      "title": "Open the pane color popover where the header was right-clicked",
+      "url": "https://github.com/HelgeSverre/terminal/commit/739ed11152db476eeb52e26ca86c06ac32892f16"
+    },
+    {
+      "id": "commit:HelgeSverre/gravemaskin:df990b2d4e7f57ae95073aa294dc49e395d2db7f",
+      "kind": "commit",
+      "repo": "HelgeSverre/gravemaskin",
+      "at": "2026-11-12T08:50:52.000+01:00",
+      "title": "physics: loose soil redone — packets in flight, piles as terrain; new world, machine meshes",
+      "url": "https://github.com/HelgeSverre/gravemaskin/commit/df990b2d4e7f57ae95073aa294dc49e395d2db7f"
+    },
+    {
+      "id": "commit:HelgeSverre/gravemaskin:792d650e423f3248635e82538f95e5961fb98b6b",
+      "kind": "commit",
+      "repo": "HelgeSverre/gravemaskin",
+      "at": "2026-11-12T08:50:52.000+01:00",
+      "title": "packaging: bundle identifier no.helgesverre.gravemaskin",
+      "url": "https://github.com/HelgeSverre/gravemaskin/commit/792d650e423f3248635e82538f95e5961fb98b6b"
+    },
     {
       "id": "commit:HelgeSverre/terminal:3a9c1bb98e206999ec79aee9e2bf1fb45a685fe7",
       "kind": "commit",
@@ -6947,22 +7003,6 @@
       "at": "2026-11-02T08:57:06.000+01:00",
       "title": "Improve application onboarding and verify live Slack delivery",
       "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/b2898141e3d9938e2a058fec2d09cd772e07ff83"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:e4b129b4284ebda8708899472ef74a5eca8133de",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-29T11:13:22.000+01:00",
-      "title": "Add project website",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/e4b129b4284ebda8708899472ef74a5eca8133de"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:2c65dd467437730cee245e9dcbf38d25d1b1ba69",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-10-29T11:13:22.000+01:00",
-      "title": "Rename project to nvmr",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/2c65dd467437730cee245e9dcbf38d25d1b1ba69"
     },
     {
       "id": "release:HelgeSverre/terminal:442361557",
