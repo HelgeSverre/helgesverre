@@ -1,9 +1,393 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-11T18:13:48.455Z",
-  "since": "2026-10-28T18:13:48.455Z",
+  "fetchedAt": "2026-11-12T00:33:19.428Z",
+  "since": "2026-10-29T00:33:19.428Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/terminal:5a856cb12ce2fd02691407b60103792e59e0c7ca",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-12T01:32:04.000+01:00",
+      "title": "AGENTS.md: commit and push to main by default; branches only on request",
+      "url": "https://github.com/HelgeSverre/terminal/commit/5a856cb12ce2fd02691407b60103792e59e0c7ca"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:5cced1bbaea6ad74db108bddc5117d34a9299412",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-12T01:23:45.000+01:00",
+      "title": "Add the update public key so releases sign an update feed",
+      "url": "https://github.com/HelgeSverre/terminal/commit/5cced1bbaea6ad74db108bddc5117d34a9299412"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:a74bf2ec1431058932f31c75ad3401f2e41db681",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-12T01:23:39.000+01:00",
+      "title": "helge-terminal: add zap stanza",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/a74bf2ec1431058932f31c75ad3401f2e41db681"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:848ae70941ba7e3c687cdd9f31fb0bf42cd5db8b",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T22:18:41.000+01:00",
+      "title": "Name the updater directory apart from the app version in release signing",
+      "url": "https://github.com/HelgeSverre/terminal/commit/848ae70941ba7e3c687cdd9f31fb0bf42cd5db8b"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:17c2869181cbf1ebb42b7238af24a9a20685512e",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T22:15:14.000+01:00",
+      "title": "Sign an update feed in the release and add the update-key command",
+      "url": "https://github.com/HelgeSverre/terminal/commit/17c2869181cbf1ebb42b7238af24a9a20685512e"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:5b8cc0dd039cc06ca6eb6c41430a29386a09c8cb",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T22:10:00.000+01:00",
+      "title": "Embed Sparkle and look for an update at launch and on request",
+      "url": "https://github.com/HelgeSverre/terminal/commit/5b8cc0dd039cc06ca6eb6c41430a29386a09c8cb"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:c6064f3eefc9b5444d0eda0bded919b7db9fd70e",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T21:59:56.000+01:00",
+      "title": "Release only the signed, notarized ZIP; drop the PKG installer",
+      "url": "https://github.com/HelgeSverre/terminal/commit/c6064f3eefc9b5444d0eda0bded919b7db9fd70e"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:664186983e49c50cbf21d7ff15864c53cdb01cbd",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T21:53:01.000+01:00",
+      "title": "Compile the release build in one compiler run",
+      "url": "https://github.com/HelgeSverre/terminal/commit/664186983e49c50cbf21d7ff15864c53cdb01cbd"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:2aae91f984ca572aea9fae2fa60ae4750f65b9a7",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T21:53:01.000+01:00",
+      "title": "Call the app Helge Terminal in its menu",
+      "url": "https://github.com/HelgeSverre/terminal/commit/2aae91f984ca572aea9fae2fa60ae4750f65b9a7"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:36b2c3fe6912973746007f0379d30cda6af8a55a",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T21:53:01.000+01:00",
+      "title": "Declare what programs in the terminal may ask for",
+      "url": "https://github.com/HelgeSverre/terminal/commit/36b2c3fe6912973746007f0379d30cda6af8a55a"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:bf14aad365817389ecf47831ede59a40728d3619",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T21:53:01.000+01:00",
+      "title": "Start a pane's shell on a terminal of the pane's size",
+      "url": "https://github.com/HelgeSverre/terminal/commit/bf14aad365817389ecf47831ede59a40728d3619"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:6ab518475c8c147c4b66066ca659d3e47c00fb44",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T21:53:01.000+01:00",
+      "title": "Record what each pane shows when the resize smoke cannot start",
+      "url": "https://github.com/HelgeSverre/terminal/commit/6ab518475c8c147c4b66066ca659d3e47c00fb44"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:8c6649ba326214d970ab5221be16ae5a962d497e",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T21:53:01.000+01:00",
+      "title": "Compile the app with the package and assemble the bundle in the dev tool",
+      "url": "https://github.com/HelgeSverre/terminal/commit/8c6649ba326214d970ab5221be16ae5a962d497e"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:fc9dcc657aa2bc97ad4ee9c54a5e3c99a986870d",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T21:28:46.000+01:00",
+      "title": "Release the code under the MIT License",
+      "url": "https://github.com/HelgeSverre/terminal/commit/fc9dcc657aa2bc97ad4ee9c54a5e3c99a986870d"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:07f6cf305589641ea48cbeab59208ac7b5d2fc42",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-11T21:17:07.000Z",
+      "title": "Update Helge Terminal to v0.3.1",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/07f6cf305589641ea48cbeab59208ac7b5d2fc42"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:88360447db7f6ab060c707cf9859a6d4a7c13870",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T20:55:08.000+01:00",
+      "title": "Mention closing on exit in the 0.3.1 notes",
+      "url": "https://github.com/HelgeSverre/terminal/commit/88360447db7f6ab060c707cf9859a6d4a7c13870"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:e22bf6dfb149943bf136f643c49da9f7908d16f8",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T20:55:08.000+01:00",
+      "title": "Close a pane when its shell is left",
+      "url": "https://github.com/HelgeSverre/terminal/commit/e22bf6dfb149943bf136f643c49da9f7908d16f8"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:85dd16824f9570ea196de16a0d486e144136ce76",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T20:52:28.000+01:00",
+      "title": "Wait for a settled prompt before the resize smoke starts",
+      "url": "https://github.com/HelgeSverre/terminal/commit/85dd16824f9570ea196de16a0d486e144136ce76"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:c95e0b543fd1853b2a16a25a1738877b48e8919e",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T20:42:23.000+01:00",
+      "title": "Look for a notarized build only when one exists",
+      "url": "https://github.com/HelgeSverre/terminal/commit/c95e0b543fd1853b2a16a25a1738877b48e8919e"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:10c79e768d481feee38a12388d51d332aefe2dea",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T20:41:56.000+01:00",
+      "title": "Prepare release 0.3.1",
+      "url": "https://github.com/HelgeSverre/terminal/commit/10c79e768d481feee38a12388d51d332aefe2dea"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:ec786dfbafd5599067d7f285cb3200262f1e9ddb",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T20:26:05.000+01:00",
+      "title": "Do not pass the launching terminal's TERMINFO to children",
+      "url": "https://github.com/HelgeSverre/terminal/commit/ec786dfbafd5599067d7f285cb3200262f1e9ddb"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:afb4d7e3f0e2d382660405b528caae758a8729d3",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T20:26:05.000+01:00",
+      "title": "Accept base64 padding in a kitty chunk that is not the last",
+      "url": "https://github.com/HelgeSverre/terminal/commit/afb4d7e3f0e2d382660405b528caae758a8729d3"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:cf3eda0913a6d9e25b97312701d15e95cd681438",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T20:25:43.000+01:00",
+      "title": "Consume DCS, SOS and PM, cancel CSI on CAN, SUB or ESC, and add DECALN",
+      "url": "https://github.com/HelgeSverre/terminal/commit/cf3eda0913a6d9e25b97312701d15e95cd681438"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:3c40b2f39bb9545cc1d3cede780b51c5a6ef4d39",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T20:25:19.000+01:00",
+      "title": "Report real mode state, keep the DECXCPR marker and stop advertising sixel",
+      "url": "https://github.com/HelgeSverre/terminal/commit/3c40b2f39bb9545cc1d3cede780b51c5a6ef4d39"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:c38a0e9092ee33b49313d6c87a7d1bce3310444b",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T20:23:25.000+01:00",
+      "title": "List the control sequence bugs found by probing 0.3.0",
+      "url": "https://github.com/HelgeSverre/terminal/commit/c38a0e9092ee33b49313d6c87a7d1bce3310444b"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:5f29b9eec9fbf5082a8fc2547e5c52fecd648bf8",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-11-11T20:22:13.000+01:00",
+      "title": "bump playwright",
+      "url": "https://github.com/HelgeSverre/splash/commit/5f29b9eec9fbf5082a8fc2547e5c52fecd648bf8"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:2b12afa9ae15c9271ad866e917ad77eaec74a4dd",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-11-11T20:22:02.000+01:00",
+      "title": "docs: require release version preflight checks",
+      "url": "https://github.com/HelgeSverre/splash/commit/2b12afa9ae15c9271ad866e917ad77eaec74a4dd"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:bad5bdaa453597fbe515295dc194d61336a6cbab",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T20:18:26.000+01:00",
+      "title": "Tell the TUI stress workload about a resize directly",
+      "url": "https://github.com/HelgeSverre/terminal/commit/bad5bdaa453597fbe515295dc194d61336a6cbab"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:66bae21f739320e3536da196c08f4179ccac3423",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T20:00:31.000+01:00",
+      "title": "Pass the background flag after the report path",
+      "url": "https://github.com/HelgeSverre/terminal/commit/66bae21f739320e3536da196c08f4179ccac3423"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:c9a6751316c6aad772d926cc8c5f56ad6b342f6f",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T19:56:17.000+01:00",
+      "title": "Leave the accessibility checks out of the idle smoke",
+      "url": "https://github.com/HelgeSverre/terminal/commit/c9a6751316c6aad772d926cc8c5f56ad6b342f6f"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:be7d2b3ad735f760e330f5286245080bc49fc7d0",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T19:50:28.000+01:00",
+      "title": "Run the smokes without the app being active",
+      "url": "https://github.com/HelgeSverre/terminal/commit/be7d2b3ad735f760e330f5286245080bc49fc7d0"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:689b2d55d64d6cecd91c9f3f067e08b72e657fae",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T19:44:24.000+01:00",
+      "title": "Run the developer tool tests with swift test",
+      "url": "https://github.com/HelgeSverre/terminal/commit/689b2d55d64d6cecd91c9f3f067e08b72e657fae"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:131fd57be56bd0a7acce31e3ada46046701fa187",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T19:44:24.000+01:00",
+      "title": "Convert ReleasePublisher tests",
+      "url": "https://github.com/HelgeSverre/terminal/commit/131fd57be56bd0a7acce31e3ada46046701fa187"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:703e8a9810ad02902eef5a193532ba7202898a35",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T19:44:24.000+01:00",
+      "title": "Convert ReleaseSigning tests",
+      "url": "https://github.com/HelgeSverre/terminal/commit/703e8a9810ad02902eef5a193532ba7202898a35"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:b42e0c42acb5a6e2e0f839ebd96da0993043a95c",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T19:44:24.000+01:00",
+      "title": "Convert DiagnoseStream tests",
+      "url": "https://github.com/HelgeSverre/terminal/commit/b42e0c42acb5a6e2e0f839ebd96da0993043a95c"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:7a5bea93210c6d0ce328a7b3b69f63b77d39019d",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T19:44:24.000+01:00",
+      "title": "Convert ProfileTerminal tests",
+      "url": "https://github.com/HelgeSverre/terminal/commit/7a5bea93210c6d0ce328a7b3b69f63b77d39019d"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:85a10777e0ae3ce24175ee19bce433638947c479",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T19:44:24.000+01:00",
+      "title": "Convert CompareTerminalApps tests",
+      "url": "https://github.com/HelgeSverre/terminal/commit/85a10777e0ae3ce24175ee19bce433638947c479"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:dfa827644635d570134654c74e78875d0f24dc13",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T19:44:11.000+01:00",
+      "title": "Convert CompareTerminals tests",
+      "url": "https://github.com/HelgeSverre/terminal/commit/dfa827644635d570134654c74e78875d0f24dc13"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:b128478873229f73d3a21ad71e27775ab052aa10",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T19:44:11.000+01:00",
+      "title": "Convert gallery tests",
+      "url": "https://github.com/HelgeSverre/terminal/commit/b128478873229f73d3a21ad71e27775ab052aa10"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:3429707e01f9bf796181ecae7f5865c84a528f26",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T19:44:11.000+01:00",
+      "title": "Convert AppleScript smoke tests",
+      "url": "https://github.com/HelgeSverre/terminal/commit/3429707e01f9bf796181ecae7f5865c84a528f26"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:30bbee05fb99a6d972c2122ad0b1cfd9d5773d62",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T19:44:11.000+01:00",
+      "title": "Convert sources, glyph policy and input latency tests",
+      "url": "https://github.com/HelgeSverre/terminal/commit/30bbee05fb99a6d972c2122ad0b1cfd9d5773d62"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:a4ccae6021eb3ab2c01c4786c6b4a8fd6d2856e2",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T19:44:11.000+01:00",
+      "title": "Convert cat stress, terminfo and accessibility smoke tests",
+      "url": "https://github.com/HelgeSverre/terminal/commit/a4ccae6021eb3ab2c01c4786c6b4a8fd6d2856e2"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:8a1e2f8fafda81a7376618b80f12870dbf399838",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T19:44:11.000+01:00",
+      "title": "Convert selection and startup grid smoke tests",
+      "url": "https://github.com/HelgeSverre/terminal/commit/8a1e2f8fafda81a7376618b80f12870dbf399838"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:3596366dae065abb9f42d4c3abde926323cf4897",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T19:44:11.000+01:00",
+      "title": "Convert interruption, native smoke and close smoke tests",
+      "url": "https://github.com/HelgeSverre/terminal/commit/3596366dae065abb9f42d4c3abde926323cf4897"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:5bbce7bee149b92d44668384517eda3cf3c1f3b0",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T19:44:10.000+01:00",
+      "title": "Convert command and JSON parsing tests",
+      "url": "https://github.com/HelgeSverre/terminal/commit/5bbce7bee149b92d44668384517eda3cf3c1f3b0"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:1be4d7a314028df57159e2eaec98fa5e66b5ef09",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T19:44:10.000+01:00",
+      "title": "Build the developer tool in the test package and convert its first suite",
+      "url": "https://github.com/HelgeSverre/terminal/commit/1be4d7a314028df57159e2eaec98fa5e66b5ef09"
+    },
+    {
+      "id": "commit:PrinsFrank/pdfparser:5c4b1b93f731f9f64ad4055369ef70d31b26d48d",
+      "kind": "commit",
+      "repo": "PrinsFrank/pdfparser",
+      "at": "2026-11-11T19:33:17.000+01:00",
+      "title": "Fix support for various integer/float formats (#662)",
+      "url": "https://github.com/PrinsFrank/pdfparser/commit/5c4b1b93f731f9f64ad4055369ef70d31b26d48d"
+    },
+    {
+      "id": "pr:PrinsFrank/pdfparser:662",
+      "kind": "merge",
+      "repo": "PrinsFrank/pdfparser",
+      "at": "2026-11-11T18:33:17Z",
+      "title": "Fix support for various integer/float formats",
+      "url": "https://github.com/PrinsFrank/pdfparser/pull/662"
+    },
     {
       "id": "commit:HelgeSverre/terminal:edadeeaff7a4d8e2753ac0d28640ad3ae3d5b8b3",
       "kind": "commit",
@@ -6533,6 +6917,14 @@
       "url": "https://github.com/HelgeSverre/nvmr/commit/2c65dd467437730cee245e9dcbf38d25d1b1ba69"
     },
     {
+      "id": "release:HelgeSverre/terminal:442198275",
+      "kind": "release",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-11T21:17:06Z",
+      "title": "v0.3.1",
+      "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.3.1"
+    },
+    {
       "id": "release:HelgeSverre/terminal:441467223",
       "kind": "release",
       "repo": "HelgeSverre/terminal",
@@ -6563,6 +6955,70 @@
       "at": "2026-11-09T14:43:14Z",
       "title": "helge-terminal-v0.2.2",
       "url": "https://github.com/HelgeSverre/homebrew-tap/releases/tag/helge-terminal-v0.2.2"
+    },
+    {
+      "id": "release:HelgeSverre/splash:437949959",
+      "kind": "release",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-11-08T00:59:00Z",
+      "title": "v0.2.3",
+      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.2.3"
+    },
+    {
+      "id": "release:PrinsFrank/pdfparser:435345051",
+      "kind": "release",
+      "repo": "PrinsFrank/pdfparser",
+      "at": "2026-11-05T15:03:41Z",
+      "title": "v4.3.0",
+      "url": "https://github.com/PrinsFrank/pdfparser/releases/tag/v4.3.0"
+    },
+    {
+      "id": "release:PrinsFrank/pdfparser:435353531",
+      "kind": "release",
+      "repo": "PrinsFrank/pdfparser",
+      "at": "2026-11-05T15:06:10Z",
+      "title": "v3.9.0",
+      "url": "https://github.com/PrinsFrank/pdfparser/releases/tag/v3.9.0"
+    },
+    {
+      "id": "release:PrinsFrank/pdfparser:435355062",
+      "kind": "release",
+      "repo": "PrinsFrank/pdfparser",
+      "at": "2026-11-05T15:07:23Z",
+      "title": "v2.9.0",
+      "url": "https://github.com/PrinsFrank/pdfparser/releases/tag/v2.9.0"
+    },
+    {
+      "id": "release:PrinsFrank/pdfparser:434236779",
+      "kind": "release",
+      "repo": "PrinsFrank/pdfparser",
+      "at": "2026-11-04T18:55:54Z",
+      "title": "v4.2.0",
+      "url": "https://github.com/PrinsFrank/pdfparser/releases/tag/v4.2.0"
+    },
+    {
+      "id": "release:PrinsFrank/pdfparser:430155460",
+      "kind": "release",
+      "repo": "PrinsFrank/pdfparser",
+      "at": "2026-10-31T20:03:44Z",
+      "title": "v4.1.1",
+      "url": "https://github.com/PrinsFrank/pdfparser/releases/tag/v4.1.1"
+    },
+    {
+      "id": "release:PrinsFrank/pdfparser:429441783",
+      "kind": "release",
+      "repo": "PrinsFrank/pdfparser",
+      "at": "2026-10-30T20:05:36Z",
+      "title": "v4.1.0",
+      "url": "https://github.com/PrinsFrank/pdfparser/releases/tag/v4.1.0"
+    },
+    {
+      "id": "release:PrinsFrank/pdfparser:429419911",
+      "kind": "release",
+      "repo": "PrinsFrank/pdfparser",
+      "at": "2026-10-30T19:52:14Z",
+      "title": "v4.0.0",
+      "url": "https://github.com/PrinsFrank/pdfparser/releases/tag/v4.0.0"
     },
     {
       "id": "release:HelgeSverre/clickmore:438504711",
@@ -6651,14 +7107,6 @@
       "at": "2026-11-04T03:22:06Z",
       "title": "v0.11.0",
       "url": "https://github.com/HelgeSverre/rust-vst3-host/releases/tag/v0.11.0"
-    },
-    {
-      "id": "release:HelgeSverre/splash:437949959",
-      "kind": "release",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-11-08T00:59:00Z",
-      "title": "v0.2.3",
-      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.2.3"
     },
     {
       "id": "release:HelgeSverre/files:437866261",
