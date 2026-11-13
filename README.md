@@ -10,7 +10,7 @@
 --><a href="https://helgesver.re/projects"><img src="images/now.png?v=ten-projects" width="100%" alt="Now building — recently active public projects"></a><!--
 --><a href="https://github.com/HelgeSverre"><img src="images/heat.png" width="100%" alt="Contribution graph — contributions over the last year"></a><!--
 --><a href="https://helgesver.re/projects"><img src="images/prog.png" width="49.9%" alt="Recent programme — real project activity in Europe/Oslo"></a><!--
---><a href="https://www.yr.no/en/forecast/daily-table/2-3161732"><img src="images/wx.png" width="49.9%" alt="Bergen weather"></a><!--
+--><a href="https://www.yr.no/en/forecast/daily-table/1-92416"><img src="images/wx.png" width="49.9%" alt="Bergen weather"></a><!--
 --><a href="https://helgesver.re/projects"><img src="images/nav-0.png" width="24.9%" alt="200 Projects"></a><!--
 --><a href="https://helgesver.re/articles"><img src="images/nav-1.png" width="24.9%" alt="300 Articles"></a><!--
 --><a href="https://helgesver.re"><img src="images/nav-2.png" width="24.9%" alt="100 Home"></a><!--
