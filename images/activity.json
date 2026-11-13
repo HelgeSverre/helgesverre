@@ -1,9 +1,105 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-12T18:14:36.060Z",
-  "since": "2026-10-29T18:14:36.060Z",
+  "fetchedAt": "2026-11-13T00:32:24.100Z",
+  "since": "2026-10-30T00:32:24.100Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:sema-lisp/sema:c164970c03c2a78499c277b6388a6481b5455604",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-11-13T01:05:54.000+01:00",
+      "title": "test(ws): await the cancelled receive before reading async/cancelled?",
+      "url": "https://github.com/sema-lisp/sema/commit/c164970c03c2a78499c277b6388a6481b5455604"
+    },
+    {
+      "id": "commit:sema-lisp/sema:38d1dccd9d67b6ab01af4a4b8ce4c31cbe7cbf9b",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-11-12T23:02:24.000+01:00",
+      "title": "ci: pin Playwright jobs to ubuntu-24.04",
+      "url": "https://github.com/sema-lisp/sema/commit/38d1dccd9d67b6ab01af4a4b8ce4c31cbe7cbf9b"
+    },
+    {
+      "id": "commit:sema-lisp/sema:a617ad303bf8f3a289559ca8f15397f5a89ab2e8",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-11-12T23:02:24.000+01:00",
+      "title": "test: find binaries and splice paths in a layout-independent way",
+      "url": "https://github.com/sema-lisp/sema/commit/a617ad303bf8f3a289559ca8f15397f5a89ab2e8"
+    },
+    {
+      "id": "commit:sema-lisp/sema:72009f6419ceb7f844ae1e00a054d6af7e2388a2",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-11-12T22:18:25.000+01:00",
+      "title": "test(llm): keep SystemRoot when clearing the child environment on Windows",
+      "url": "https://github.com/sema-lisp/sema/commit/72009f6419ceb7f844ae1e00a054d6af7e2388a2"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:e229650c726b448faf66e20a23dd573d9a727dd1",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-12T22:09:18.000+01:00",
+      "title": "Prepare release 0.4.3",
+      "url": "https://github.com/HelgeSverre/terminal/commit/e229650c726b448faf66e20a23dd573d9a727dd1"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:2f7bd00ef8b813d56c73097a5715b8eb04297107",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-12T21:55:51.000+01:00",
+      "title": "Test that a background job does not keep an exited shell's pane",
+      "url": "https://github.com/HelgeSverre/terminal/commit/2f7bd00ef8b813d56c73097a5715b8eb04297107"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:ba0e9f7e5b33a1f8f59aa0b8412a2c024c94c07b",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-12T21:44:17.000+01:00",
+      "title": "Scroll by accumulated trackpad travel, one line per line height",
+      "url": "https://github.com/HelgeSverre/terminal/commit/ba0e9f7e5b33a1f8f59aa0b8412a2c024c94c07b"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:a956d3d001b218614198d4507df17120439f0d72",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-12T21:30:51.000+01:00",
+      "title": "Prepare release 0.4.2",
+      "url": "https://github.com/HelgeSverre/terminal/commit/a956d3d001b218614198d4507df17120439f0d72"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:a20f926db21f1e407afa1bffd6e734925537bbf7",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-12T21:28:12.000Z",
+      "title": "Update Helge Terminal to v0.4.3",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/a20f926db21f1e407afa1bffd6e734925537bbf7"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:5c2c7389033ccc29ecd6c101d15c3357c4e2a558",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-12T20:49:16.000Z",
+      "title": "Update Helge Terminal to v0.4.2",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/5c2c7389033ccc29ecd6c101d15c3357c4e2a558"
+    },
+    {
+      "id": "commit:HelgeSverre/akaifire-js:75d7fd6c6ccaa78cc70d0fdee01e0b50ab5a5985",
+      "kind": "commit",
+      "repo": "HelgeSverre/akaifire-js",
+      "at": "2026-11-12T19:25:18.000+01:00",
+      "title": "Open the Web MIDI ports explicitly",
+      "url": "https://github.com/HelgeSverre/akaifire-js/commit/75d7fd6c6ccaa78cc70d0fdee01e0b50ab5a5985"
+    },
+    {
+      "id": "commit:HelgeSverre/akaifire-js:563f51890cfc5824ac08076e73d4cbdc3b05cd3a",
+      "kind": "commit",
+      "repo": "HelgeSverre/akaifire-js",
+      "at": "2026-11-12T19:22:58.000+01:00",
+      "title": "AKAI Fire library for JavaScript: protocol, device, canvas, testing mock",
+      "url": "https://github.com/HelgeSverre/akaifire-js/commit/563f51890cfc5824ac08076e73d4cbdc3b05cd3a"
+    },
     {
       "id": "commit:HelgeSverre/terminal:e15a857d9863a5908361f5cace3475ddead338c5",
       "kind": "commit",
@@ -7035,6 +7131,22 @@
       "at": "2026-11-02T08:57:06.000+01:00",
       "title": "Improve application onboarding and verify live Slack delivery",
       "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/b2898141e3d9938e2a058fec2d09cd772e07ff83"
+    },
+    {
+      "id": "release:HelgeSverre/terminal:443530049",
+      "kind": "release",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-12T21:28:10Z",
+      "title": "v0.4.3",
+      "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.4.3"
+    },
+    {
+      "id": "release:HelgeSverre/terminal:443492437",
+      "kind": "release",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-12T20:49:15Z",
+      "title": "v0.4.2",
+      "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.4.2"
     },
     {
       "id": "release:HelgeSverre/terminal:442961225",
