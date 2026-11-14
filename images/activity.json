@@ -1,9 +1,113 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-14T12:15:34.343Z",
-  "since": "2026-10-31T12:15:34.343Z",
+  "fetchedAt": "2026-11-14T18:13:08.035Z",
+  "since": "2026-10-31T18:13:08.035Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/terminal:a2f4f149eac954cca915ca218c69528c789190a2",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-14T16:50:55.000+01:00",
+      "title": "Add a public headless emulator",
+      "url": "https://github.com/HelgeSverre/terminal/commit/a2f4f149eac954cca915ca218c69528c789190a2"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:fd258f630b44c4970b9c21b77f7cd0b25b12e3ad",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-14T16:44:56.000+01:00",
+      "title": "Rename the libraries for embedding and leave the app out of a dependency's manifest",
+      "url": "https://github.com/HelgeSverre/terminal/commit/fd258f630b44c4970b9c21b77f7cd0b25b12e3ad"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:8dda44ed87baf9018db35468afc8ad896f5f793a",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-11-14T16:34:55.000+01:00",
+      "title": "chore: release Splash 0.2.4",
+      "url": "https://github.com/HelgeSverre/splash/commit/8dda44ed87baf9018db35468afc8ad896f5f793a"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:1816e628f21a608ea7dd38ccd6fb572f8706adcd",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-14T15:57:32.000+01:00",
+      "title": "Fix the embedding defects that break a host",
+      "url": "https://github.com/HelgeSverre/terminal/commit/1816e628f21a608ea7dd38ccd6fb572f8706adcd"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:f491a276ded7fac0d0b6600eeaa6d2c851c303da",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-14T15:57:32.000+01:00",
+      "title": "Exempt the parser from dynamic exclusivity checks in the source",
+      "url": "https://github.com/HelgeSverre/terminal/commit/f491a276ded7fac0d0b6600eeaa6d2c851c303da"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:674ffd72c6bdd4923d45a6d978960e5d46d829d1",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-14T15:17:12.000+01:00",
+      "title": "Keep smoke commands out of the user's zsh history",
+      "url": "https://github.com/HelgeSverre/terminal/commit/674ffd72c6bdd4923d45a6d978960e5d46d829d1"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:e4aa69e66ca4c405ccfa29d704cf0fe7715aa03f",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-11-14T15:11:40.000+01:00",
+      "title": "feat: compact workbench, clearer dialogs and lists",
+      "url": "https://github.com/HelgeSverre/splash/commit/e4aa69e66ca4c405ccfa29d704cf0fe7715aa03f"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:bd2b2e947630bd8668d03f04ddef07e7f2d85c19",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-14T14:37:31.000+01:00",
+      "title": "Measure Terminal against SwiftTerm as embedded libraries, and audit the public interface",
+      "url": "https://github.com/HelgeSverre/terminal/commit/bd2b2e947630bd8668d03f04ddef07e7f2d85c19"
+    },
+    {
+      "id": "pr:HelgeSverre/splash:17",
+      "kind": "merge",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-11-14T14:11:40Z",
+      "title": "Compact workbench, clearer dialogs and lists",
+      "url": "https://github.com/HelgeSverre/splash/pull/17"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:7a396ab628bc49d6b98f823e10757daf1572748f",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-14T14:00:43.000+01:00",
+      "title": "Record release throughput before and after the module split",
+      "url": "https://github.com/HelgeSverre/terminal/commit/7a396ab628bc49d6b98f823e10757daf1572748f"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:dbc36b0af7268adc63f6b4069d62882426099073",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-14T14:00:35.000+01:00",
+      "title": "Offer the terminal view to other apps as package products",
+      "url": "https://github.com/HelgeSverre/terminal/commit/dbc36b0af7268adc63f6b4069d62882426099073"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:9c8c1a38d720c2f0ad30a501574276acf33cea5a",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-14T14:00:35.000+01:00",
+      "title": "Split the terminal view into its own target",
+      "url": "https://github.com/HelgeSverre/terminal/commit/9c8c1a38d720c2f0ad30a501574276acf33cea5a"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:edc53d281877c04c2db96e9a1eaa3f76704ef001",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-14T14:00:35.000+01:00",
+      "title": "Split the emulator and the session into their own targets",
+      "url": "https://github.com/HelgeSverre/terminal/commit/edc53d281877c04c2db96e9a1eaa3f76704ef001"
+    },
     {
       "id": "commit:HelgeSverre/terminal:abae9bc6e8c3ec13a0fecb6824d23c78f7363f3d",
       "kind": "commit",
@@ -7205,20 +7309,20 @@
       "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.2.3"
     },
     {
-      "id": "release:HelgeSverre/homebrew-tap:439248081",
-      "kind": "release",
-      "repo": "HelgeSverre/homebrew-tap",
-      "at": "2026-11-09T14:43:14Z",
-      "title": "helge-terminal-v0.2.2",
-      "url": "https://github.com/HelgeSverre/homebrew-tap/releases/tag/helge-terminal-v0.2.2"
-    },
-    {
       "id": "release:HelgeSverre/splash:437949959",
       "kind": "release",
       "repo": "HelgeSverre/splash",
       "at": "2026-11-08T00:59:00Z",
       "title": "v0.2.3",
       "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.2.3"
+    },
+    {
+      "id": "release:HelgeSverre/homebrew-tap:439248081",
+      "kind": "release",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-09T14:43:14Z",
+      "title": "helge-terminal-v0.2.2",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/releases/tag/helge-terminal-v0.2.2"
     },
     {
       "id": "release:PrinsFrank/pdfparser:435345051",
