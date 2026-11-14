@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-13T18:14:17.877Z",
-  "since": "2026-10-30T18:14:17.877Z",
+  "fetchedAt": "2026-11-14T06:18:13.292Z",
+  "since": "2026-10-31T06:18:13.292Z",
   "partial": false,
   "events": [
     {
@@ -7251,22 +7251,6 @@
       "at": "2026-10-31T20:03:44Z",
       "title": "v4.1.1",
       "url": "https://github.com/PrinsFrank/pdfparser/releases/tag/v4.1.1"
-    },
-    {
-      "id": "release:PrinsFrank/pdfparser:429441783",
-      "kind": "release",
-      "repo": "PrinsFrank/pdfparser",
-      "at": "2026-10-30T20:05:36Z",
-      "title": "v4.1.0",
-      "url": "https://github.com/PrinsFrank/pdfparser/releases/tag/v4.1.0"
-    },
-    {
-      "id": "release:PrinsFrank/pdfparser:429419911",
-      "kind": "release",
-      "repo": "PrinsFrank/pdfparser",
-      "at": "2026-10-30T19:52:14Z",
-      "title": "v4.0.0",
-      "url": "https://github.com/PrinsFrank/pdfparser/releases/tag/v4.0.0"
     },
     {
       "id": "release:HelgeSverre/clickmore:438504711",
