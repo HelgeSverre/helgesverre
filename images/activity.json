@@ -1,9 +1,17 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-14T06:18:13.292Z",
-  "since": "2026-10-31T06:18:13.292Z",
+  "fetchedAt": "2026-11-14T12:15:34.343Z",
+  "since": "2026-10-31T12:15:34.343Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/terminal:abae9bc6e8c3ec13a0fecb6824d23c78f7363f3d",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-14T13:03:35.000+01:00",
+      "title": "Compare SwiftTerm with Terminal, from source",
+      "url": "https://github.com/HelgeSverre/terminal/commit/abae9bc6e8c3ec13a0fecb6824d23c78f7363f3d"
+    },
     {
       "id": "commit:sema-lisp/sema:c164970c03c2a78499c277b6388a6481b5455604",
       "kind": "commit",
