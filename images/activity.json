@@ -1,9 +1,89 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-15T06:18:51.907Z",
-  "since": "2026-11-01T06:18:51.907Z",
+  "fetchedAt": "2026-11-15T12:15:52.968Z",
+  "since": "2026-11-01T12:15:52.968Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/terminal:51bfc8b7513d668875d36ee24abd875e11797858",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-15T13:08:35.000+01:00",
+      "title": "Prepare release 0.6.0",
+      "url": "https://github.com/HelgeSverre/terminal/commit/51bfc8b7513d668875d36ee24abd875e11797858"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:a308b24257efe00b7667794b53fbc64a1e086106",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-15T12:49:03.000+01:00",
+      "title": "Name the characters a glyph smoke page lost",
+      "url": "https://github.com/HelgeSverre/terminal/commit/a308b24257efe00b7667794b53fbc64a1e086106"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:e196b239f4ed0d5ac08b6d8f5b03679b02e4b1b7",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-15T12:30:24.000+01:00",
+      "title": "Give a word selection's slot back when its work is done",
+      "url": "https://github.com/HelgeSverre/terminal/commit/e196b239f4ed0d5ac08b6d8f5b03679b02e4b1b7"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:3a36822e7af6e10fc0a692635bd21fc932fb7014",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-15T11:59:55.000+01:00",
+      "title": "Create a release from its tag, and make the glyph storage tests run without unified memory",
+      "url": "https://github.com/HelgeSverre/terminal/commit/3a36822e7af6e10fc0a692635bd21fc932fb7014"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:d72b662759ac2c30444fc05e7f9e4c625705a521",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-15T11:54:21.000+01:00",
+      "title": "Hold the release workflow at the tagged version while 0.5.1 publishes",
+      "url": "https://github.com/HelgeSverre/terminal/commit/d72b662759ac2c30444fc05e7f9e4c625705a521"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:728a2d9bf612dbcbcff2461b98d69b1db3bcbe5d",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-15T11:43:20.000+01:00",
+      "title": "Wait for the child's whole last line in the direct launch test",
+      "url": "https://github.com/HelgeSverre/terminal/commit/728a2d9bf612dbcbcff2461b98d69b1db3bcbe5d"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:2661924c86a642563509312a1c5dd6852a50fc64",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-15T11:28:20.000+01:00",
+      "title": "Build the release for Apple silicon and Intel, from macOS 14",
+      "url": "https://github.com/HelgeSverre/terminal/commit/2661924c86a642563509312a1c5dd6852a50fc64"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:31a5b0356bee6bdcc49bf8d5ac17dfd709ac09b6",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-15T11:10:57.000+01:00",
+      "title": "Start a session's child without the launcher helper",
+      "url": "https://github.com/HelgeSverre/terminal/commit/31a5b0356bee6bdcc49bf8d5ac17dfd709ac09b6"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:1759c16f724dc03700fa6a731339719820424be2",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-15T11:03:28.000+01:00",
+      "title": "Prepare release 0.5.1",
+      "url": "https://github.com/HelgeSverre/terminal/commit/1759c16f724dc03700fa6a731339719820424be2"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:f82269fa8f5107a4cca807678df7aae26af86b6e",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-15T10:56:29.000Z",
+      "title": "Update Helge Terminal to v0.5.1",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/f82269fa8f5107a4cca807678df7aae26af86b6e"
+    },
     {
       "id": "commit:HelgeSverre/terminal:d83b7af197cdf3b073d66026141705f7eda73acb",
       "kind": "commit",
@@ -7387,6 +7467,14 @@
       "at": "2026-11-02T08:57:06.000+01:00",
       "title": "Improve application onboarding and verify live Slack delivery",
       "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/b2898141e3d9938e2a058fec2d09cd772e07ff83"
+    },
+    {
+      "id": "release:HelgeSverre/terminal:445989793",
+      "kind": "release",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-15T10:56:27Z",
+      "title": "v0.5.1",
+      "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.5.1"
     },
     {
       "id": "release:HelgeSverre/terminal:445652206",
