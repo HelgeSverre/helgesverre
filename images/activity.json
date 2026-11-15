@@ -1,9 +1,153 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-14T18:13:08.035Z",
-  "since": "2026-10-31T18:13:08.035Z",
+  "fetchedAt": "2026-11-15T00:34:35.121Z",
+  "since": "2026-11-01T00:34:35.121Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/terminal:d83b7af197cdf3b073d66026141705f7eda73acb",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-15T01:27:51.000+01:00",
+      "title": "Run on Intel Macs and macOS 14",
+      "url": "https://github.com/HelgeSverre/terminal/commit/d83b7af197cdf3b073d66026141705f7eda73acb"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:4a9d76810d3145312af0c70f8e3959bc43bbe8d2",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-14T23:25:52.000+01:00",
+      "title": "Declare the weak reference in the session test as a variable",
+      "url": "https://github.com/HelgeSverre/terminal/commit/4a9d76810d3145312af0c70f8e3959bc43bbe8d2"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:37dc3e2211c06c635f35d7862a0a480364ffc8fc",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-14T23:16:18.000+01:00",
+      "title": "Add the release notes for 0.5.0",
+      "url": "https://github.com/HelgeSverre/terminal/commit/37dc3e2211c06c635f35d7862a0a480364ffc8fc"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:9def1991557a0cf7b871a5ac21bc15fa56d8a947",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-14T23:15:35.000+01:00",
+      "title": "Prepare release 0.5.0",
+      "url": "https://github.com/HelgeSverre/terminal/commit/9def1991557a0cf7b871a5ac21bc15fa56d8a947"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:4b6c5186c66234a4f115a38cc052b7a83bc2a36e",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-14T22:57:16.000Z",
+      "title": "Update Helge Terminal to v0.5.0",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/4b6c5186c66234a4f115a38cc052b7a83bc2a36e"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:198c23257599b18f87a8d4f4f2e8a810bfbf552e",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-14T22:55:26.000+01:00",
+      "title": "Put the emoji layout in Settings",
+      "url": "https://github.com/HelgeSverre/terminal/commit/198c23257599b18f87a8d4f4f2e8a810bfbf552e"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:fc4ec377faa95ba0fbc0919aee961b9d12f62646",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-14T22:41:41.000+01:00",
+      "title": "Add a font menu with four bundled families and a ligatures setting",
+      "url": "https://github.com/HelgeSverre/terminal/commit/fc4ec377faa95ba0fbc0919aee961b9d12f62646"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:861f47f45f393b1e1606446a20b770d76d1510d5",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-14T21:49:50.000+01:00",
+      "title": "Draw ligatures when a host asks for them",
+      "url": "https://github.com/HelgeSverre/terminal/commit/861f47f45f393b1e1606446a20b770d76d1510d5"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:bd3535294fbda92cb3e8c5ef8269c5b746977d4a",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-14T21:46:11.000+01:00",
+      "title": "Add a replay example with a custom transport; build both examples in Swift 6 mode",
+      "url": "https://github.com/HelgeSverre/terminal/commit/bd3535294fbda92cb3e8c5ef8269c5b746977d4a"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:3f14f08d81a8844b1170c2ca96477b90fa40e9af",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-14T21:39:47.000+01:00",
+      "title": "Let a host send keys without an AppKit event",
+      "url": "https://github.com/HelgeSverre/terminal/commit/3f14f08d81a8844b1170c2ca96477b90fa40e9af"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:1f83500cce7e00781b6712f02b4d342bf3b7db66",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-14T20:42:19.000+01:00",
+      "title": "Make mode 2027 choose between grapheme clusters and code point widths",
+      "url": "https://github.com/HelgeSverre/terminal/commit/1f83500cce7e00781b6712f02b4d342bf3b7db66"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:5f40abbbe8ded481307d50d276a400cd82c42323",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-14T20:25:42.000+01:00",
+      "title": "Let a host decide clipboard writes, paste, set the inset and recolor the chrome",
+      "url": "https://github.com/HelgeSverre/terminal/commit/5f40abbbe8ded481307d50d276a400cd82c42323"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:b33aa1ec1b26dbe9047145909b61e0f05693dfac",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-14T19:53:02.000+01:00",
+      "title": "Give the headless emulator cells, styles and history",
+      "url": "https://github.com/HelgeSverre/terminal/commit/b33aa1ec1b26dbe9047145909b61e0f05693dfac"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:32b3638cffdf0dd8c58cb20fd586774df152a1d0",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-14T19:49:10.000+01:00",
+      "title": "Document shell integration and the accessibility identifiers for embedding apps",
+      "url": "https://github.com/HelgeSverre/terminal/commit/32b3638cffdf0dd8c58cb20fd586774df152a1d0"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:d81c94ee2cdf929309cce2676045cd8fd2189a7d",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-14T19:48:39.000+01:00",
+      "title": "Name fonts a Mac has in the font family examples",
+      "url": "https://github.com/HelgeSverre/terminal/commit/d81c94ee2cdf929309cce2676045cd8fd2189a7d"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:277c123f8bca6a8ebd98f8b7015cd0440d623077",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-14T19:44:11.000+01:00",
+      "title": "Let a host choose a view's font family",
+      "url": "https://github.com/HelgeSverre/terminal/commit/277c123f8bca6a8ebd98f8b7015cd0440d623077"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:0f63cd8b4762c43f415f2fa88c032016be6030a6",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-14T19:39:10.000+01:00",
+      "title": "Open search, selection, the find bar, colors and view hooks to embedding apps",
+      "url": "https://github.com/HelgeSverre/terminal/commit/0f63cd8b4762c43f415f2fa88c032016be6030a6"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:68df4c5135ca1414b55ca3d53e8c9afc09554ab9",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-14T19:17:05.000+01:00",
+      "title": "Run a session over a host's transport",
+      "url": "https://github.com/HelgeSverre/terminal/commit/68df4c5135ca1414b55ca3d53e8c9afc09554ab9"
+    },
     {
       "id": "commit:HelgeSverre/terminal:a2f4f149eac954cca915ca218c69528c789190a2",
       "kind": "commit",
@@ -7245,6 +7389,14 @@
       "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/b2898141e3d9938e2a058fec2d09cd772e07ff83"
     },
     {
+      "id": "release:HelgeSverre/terminal:445652206",
+      "kind": "release",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-14T22:57:14Z",
+      "title": "v0.5.0",
+      "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.5.0"
+    },
+    {
       "id": "release:HelgeSverre/terminal:443530049",
       "kind": "release",
       "repo": "HelgeSverre/terminal",
@@ -7309,20 +7461,28 @@
       "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.2.3"
     },
     {
-      "id": "release:HelgeSverre/splash:437949959",
-      "kind": "release",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-11-08T00:59:00Z",
-      "title": "v0.2.3",
-      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.2.3"
-    },
-    {
       "id": "release:HelgeSverre/homebrew-tap:439248081",
       "kind": "release",
       "repo": "HelgeSverre/homebrew-tap",
       "at": "2026-11-09T14:43:14Z",
       "title": "helge-terminal-v0.2.2",
       "url": "https://github.com/HelgeSverre/homebrew-tap/releases/tag/helge-terminal-v0.2.2"
+    },
+    {
+      "id": "release:HelgeSverre/splash:445501031",
+      "kind": "release",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-11-14T18:25:51Z",
+      "title": "v0.2.4",
+      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.2.4"
+    },
+    {
+      "id": "release:HelgeSverre/splash:437949959",
+      "kind": "release",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-11-08T00:59:00Z",
+      "title": "v0.2.3",
+      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.2.3"
     },
     {
       "id": "release:PrinsFrank/pdfparser:435345051",
@@ -7355,14 +7515,6 @@
       "at": "2026-11-04T18:55:54Z",
       "title": "v4.2.0",
       "url": "https://github.com/PrinsFrank/pdfparser/releases/tag/v4.2.0"
-    },
-    {
-      "id": "release:PrinsFrank/pdfparser:430155460",
-      "kind": "release",
-      "repo": "PrinsFrank/pdfparser",
-      "at": "2026-10-31T20:03:44Z",
-      "title": "v4.1.1",
-      "url": "https://github.com/PrinsFrank/pdfparser/releases/tag/v4.1.1"
     },
     {
       "id": "release:HelgeSverre/clickmore:438504711",
