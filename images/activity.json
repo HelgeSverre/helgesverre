@@ -1,9 +1,41 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-16T12:22:46.576Z",
-  "since": "2026-11-02T12:22:46.576Z",
+  "fetchedAt": "2026-11-16T18:15:03.649Z",
+  "since": "2026-11-02T18:15:03.649Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/terminal:ea9dd02946b86f5e5683ed4c1065bd0c42dbe4da",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-16T17:09:03.000+01:00",
+      "title": "Record protocol audit verification and remaining gaps",
+      "url": "https://github.com/HelgeSverre/terminal/commit/ea9dd02946b86f5e5683ed4c1065bd0c42dbe4da"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:95c8aba2d6aa7d2d13b6c8969dba244a1422ff11",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-16T17:03:20.000+01:00",
+      "title": "Remove unused private graphics state and blend inputs",
+      "url": "https://github.com/HelgeSverre/terminal/commit/95c8aba2d6aa7d2d13b6c8969dba244a1422ff11"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:4076d4a42cead85a8b30c0e9fb3f318ca7b97b78",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-16T16:59:44.000+01:00",
+      "title": "Trim archived reports and document terminal protocol coverage",
+      "url": "https://github.com/HelgeSverre/terminal/commit/4076d4a42cead85a8b30c0e9fb3f318ca7b97b78"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:814f7b8050d3500e42afc9cd1cde3660e04e238f",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-16T16:58:50.000+01:00",
+      "title": "Fix Kitty frame composition and bound SIXEL command state",
+      "url": "https://github.com/HelgeSverre/terminal/commit/814f7b8050d3500e42afc9cd1cde3660e04e238f"
+    },
     {
       "id": "commit:HelgeSverre/terminal:3ad91fecedff8116f22bc0ec705c0e710405ac28",
       "kind": "commit",
@@ -7651,46 +7683,6 @@
       "at": "2026-11-06T05:42:59.000+01:00",
       "title": "Match Unicode 5.2 supplementary compatibility equality classes",
       "url": "https://github.com/HelgeSverre/fsdb/commit/a8b58ea7f0bf9a61c9a05acdbe62abc3ff1a3f9f"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:15d496a77acec1e29446a51ecceddf6fc1c00484",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T05:31:11.000+01:00",
-      "title": "Record replay identity trial under durable write load",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/15d496a77acec1e29446a51ecceddf6fc1c00484"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:3a4fa8810f4e010d491c9595ca55c23bd2a9d8b7",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T05:25:57.000+01:00",
-      "title": "Use indexed EXISTS for unambiguous bare inner ordering",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/3a4fa8810f4e010d491c9595ca55c23bd2a9d8b7"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:0210b6f1aa6d81856d221e0342e3cd70366544bd",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T05:23:37.000+01:00",
-      "title": "Use indexed correlated EXISTS with qualified inner ordering",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/0210b6f1aa6d81856d221e0342e3cd70366544bd"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:dbc4b8768eefe1437adca4e2c41140e1cabefa09",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T05:18:21.000+01:00",
-      "title": "Record current polar hole residual and winding control",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/dbc4b8768eefe1437adca4e2c41140e1cabefa09"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ee5cbb185451eed10e1f74ee60e58f28f2ff27aa",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T05:15:33.000+01:00",
-      "title": "Cover unmatched mixed natural view writes and waits",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ee5cbb185451eed10e1f74ee60e58f28f2ff27aa"
     },
     {
       "id": "pr:HelgeSverre/fsdb:206",
