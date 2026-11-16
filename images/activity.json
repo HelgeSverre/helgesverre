@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-16T00:38:13.774Z",
-  "since": "2026-11-02T00:38:13.774Z",
+  "fetchedAt": "2026-11-16T06:32:50.338Z",
+  "since": "2026-11-02T06:32:50.338Z",
   "partial": true,
   "events": [
     {
@@ -7699,14 +7699,6 @@
       "at": "2026-11-06T04:45:30.000+01:00",
       "title": "Match legacy squared CJK weights through U+33FF",
       "url": "https://github.com/HelgeSverre/fsdb/commit/43d5c1f822b4f6a587bf91e7859d162220fe169c"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:52ac1f4806867de937c24bc3825d7280737dd48e",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T04:41:34.000+01:00",
-      "title": "Match legacy circled CJK weights through U+32FF",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/52ac1f4806867de937c24bc3825d7280737dd48e"
     },
     {
       "id": "pr:HelgeSverre/fsdb:206",
