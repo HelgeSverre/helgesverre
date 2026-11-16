@@ -1,9 +1,49 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-16T06:32:50.338Z",
-  "since": "2026-11-02T06:32:50.338Z",
+  "fetchedAt": "2026-11-16T12:22:46.576Z",
+  "since": "2026-11-02T12:22:46.576Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/terminal:3ad91fecedff8116f22bc0ec705c0e710405ac28",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-16T11:26:41.000+01:00",
+      "title": "Prepare release 0.6.1",
+      "url": "https://github.com/HelgeSverre/terminal/commit/3ad91fecedff8116f22bc0ec705c0e710405ac28"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:ffe4e93651497d635ee8ea4c9c6b588f487d9bdc",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-16T10:48:10.000Z",
+      "title": "Update Helge Terminal to v0.6.1",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/ffe4e93651497d635ee8ea4c9c6b588f487d9bdc"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:ea4d891fb1930cf02cfe9b6ed2dac0fec2e9398a",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-16T10:30:24.000+01:00",
+      "title": "Record terminal registration and Codex input verification",
+      "url": "https://github.com/HelgeSverre/terminal/commit/ea4d891fb1930cf02cfe9b6ed2dac0fec2e9398a"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:247f364370efab7873c5c3d826d5018faf4a5097",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-16T10:23:27.000+01:00",
+      "title": "Register terminal file handlers and support command-file launches",
+      "url": "https://github.com/HelgeSverre/terminal/commit/247f364370efab7873c5c3d826d5018faf4a5097"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:1b9b52b9927606aa74777663a65b3c03dace0976",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-16T09:39:50.000+01:00",
+      "title": "Document Toolbox terminal discovery and image-drop investigation",
+      "url": "https://github.com/HelgeSverre/terminal/commit/1b9b52b9927606aa74777663a65b3c03dace0976"
+    },
     {
       "id": "commit:sema-lisp/pkg:fb942d93037f7e615e98edccdba258c08de7e240",
       "kind": "commit",
@@ -7653,54 +7693,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/ee5cbb185451eed10e1f74ee60e58f28f2ff27aa"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:000b57a76743c70e99ade8bd6642d8dbcc41557e",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T05:13:36.000+01:00",
-      "title": "Audit mixed natural view writes across derived read source",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/000b57a76743c70e99ade8bd6642d8dbcc41557e"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ebd1f0cc3c9d925c6dfbc974a21901af41cecb35",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T05:10:11.000+01:00",
-      "title": "Match Unicode 5.2 supplementary enclosed CJK equality",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ebd1f0cc3c9d925c6dfbc974a21901af41cecb35"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ae8fb96bba717a0ccf426270f06358fbe8208f75",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T05:07:09.000+01:00",
-      "title": "Distinguish Unicode 5.2 account-of signs in ngram keys",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ae8fb96bba717a0ccf426270f06358fbe8208f75"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:478e348fc9c2058ce882662c09bc2e5b6b467d54",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T05:02:56.000+01:00",
-      "title": "Preserve general collation punctuation and subscript equality",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/478e348fc9c2058ce882662c09bc2e5b6b467d54"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:1ddde362a33b0055c05b70fe8c8c87c56b54491d",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T04:58:29.000+01:00",
-      "title": "Match Unicode 5.2 enclosed CJK equality without changing ngram keys",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/1ddde362a33b0055c05b70fe8c8c87c56b54491d"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:43d5c1f822b4f6a587bf91e7859d162220fe169c",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T04:45:30.000+01:00",
-      "title": "Match legacy squared CJK weights through U+33FF",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/43d5c1f822b4f6a587bf91e7859d162220fe169c"
-    },
-    {
       "id": "pr:HelgeSverre/fsdb:206",
       "kind": "merge",
       "repo": "HelgeSverre/fsdb",
@@ -7715,6 +7707,14 @@
       "at": "2026-11-04T09:23:28Z",
       "title": "Observe pending DECIMAL inserts in limited ordered writes",
       "url": "https://github.com/HelgeSverre/fsdb/pull/205"
+    },
+    {
+      "id": "release:HelgeSverre/terminal:446908850",
+      "kind": "release",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-16T10:48:09Z",
+      "title": "v0.6.1",
+      "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.6.1"
     },
     {
       "id": "release:HelgeSverre/terminal:446057888",
