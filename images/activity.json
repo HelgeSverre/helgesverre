@@ -1,9 +1,225 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-17T06:21:03.625Z",
-  "since": "2026-11-03T06:21:03.625Z",
+  "fetchedAt": "2026-11-17T12:18:18.370Z",
+  "since": "2026-11-03T12:18:18.370Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:73d289e3b9354d3c287bc8a409c39af5a1c25284",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T13:01:07.000+01:00",
+      "title": "Release Fsdb 0.1.8",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/73d289e3b9354d3c287bc8a409c39af5a1c25284"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:976081f6e526b2a5f643385b909c20a5530afc2e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T13:00:31.000+01:00",
+      "title": "Classify shared geographic endpoints before arc sampling",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/976081f6e526b2a5f643385b909c20a5530afc2e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2190153c5165b4358104c1d5d555a353a7bb7366",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T12:22:41.000+01:00",
+      "title": "Release Fsdb 0.1.7",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2190153c5165b4358104c1d5d555a353a7bb7366"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:bcb304c84b303727fa8a1a21e320427fea52e597",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T12:19:53.000+01:00",
+      "title": "Reuse eligible immutable ranges across refinement phases",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/bcb304c84b303727fa8a1a21e320427fea52e597"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7ccdf3f1bf00fbddc17da7fac2828dd4f5f07b2b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T12:09:21.000+01:00",
+      "title": "Normalize exact numeric DOUBLE ranges and correct benchmark coverage",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7ccdf3f1bf00fbddc17da7fac2828dd4f5f07b2b"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:7573f723742c2b7162ba1b9c0ef1211b22e6f29d",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T12:02:25.000+01:00",
+      "title": "Record Kitty real-client and native validation results",
+      "url": "https://github.com/HelgeSverre/terminal/commit/7573f723742c2b7162ba1b9c0ef1211b22e6f29d"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:a9aa3e574b3de9daefe8ef864abdae80bb9161e7",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T11:55:38.000+01:00",
+      "title": "Fix Kitty frame lifecycle, relative placements and current client transport",
+      "url": "https://github.com/HelgeSverre/terminal/commit/a9aa3e574b3de9daefe8ef864abdae80bb9161e7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:320d58af5aa01af32afde1ea1b59af3ec50d82f9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T11:55:03.000+01:00",
+      "title": "Skip stored-view scan pipelines for empty catalog snapshots",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/320d58af5aa01af32afde1ea1b59af3ec50d82f9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:10e3fc4620e5231e311a175b9e415b0adb9e2602",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T11:44:06.000+01:00",
+      "title": "Avoid warning scopes for exact numeric DOUBLE probes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/10e3fc4620e5231e311a175b9e415b0adb9e2602"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e66852e56510e4ea34ed9c00fdcacfa0cda196bb",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T11:29:17.000+01:00",
+      "title": "Record rejected correlated range selection reuse experiment",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e66852e56510e4ea34ed9c00fdcacfa0cda196bb"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:863b285cb8bce571bc2216474dbb782b219ba12d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T11:23:30.000+01:00",
+      "title": "Measure correlated range planner throughput and allocation regression",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/863b285cb8bce571bc2216474dbb782b219ba12d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d77873f41d2b8d391242a078efbe25ab4d152fb5",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T11:18:29.000+01:00",
+      "title": "Plan correlated ranges against estimated ref cardinality",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d77873f41d2b8d391242a078efbe25ab4d152fb5"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:bf57ee65464d79ca41ecc36d188024dcd125e670",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T11:06:52.000+01:00",
+      "title": "Trace correlated ref estimates and repeated range setup phases",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/bf57ee65464d79ca41ecc36d188024dcd125e670"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9ae56df77588c944f02695728dc5b3f9b18a2cc0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T11:02:56.000+01:00",
+      "title": "Honor forced projected ranges beyond the cost threshold",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9ae56df77588c944f02695728dc5b3f9b18a2cc0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:bfc7a80bf55d244c6794adae101550428c5017e0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T10:55:06.000+01:00",
+      "title": "Honor index hints in correlated equality probes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/bfc7a80bf55d244c6794adae101550428c5017e0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b79781ed1bb830561f736e1262374362830001a6",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T10:48:42.000+01:00",
+      "title": "Suppress LIMIT 0 metadata diagnostics and audit range boundaries",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b79781ed1bb830561f736e1262374362830001a6"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:c79e56d6a2950b92ebed8e42d815d98c6b38f462",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T10:44:33.000+01:00",
+      "title": "Record clean and cached test speed measurements",
+      "url": "https://github.com/HelgeSverre/terminal/commit/c79e56d6a2950b92ebed8e42d815d98c6b38f462"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:104ee2a434376f930847f41cad7753e00c7df585",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T10:41:41.000+01:00",
+      "title": "Retain correlated range setup diagnostics without outer rows",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/104ee2a434376f930847f41cad7753e00c7df585"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:13588c1db5a37be9aa8057a4ec0087df3b2e93c3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T10:35:10.000+01:00",
+      "title": "Preserve indexed correlated BETWEEN candidate diagnostics",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/13588c1db5a37be9aa8057a4ec0087df3b2e93c3"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:695a094c0318ddb6976b6964c554f611a0a8bf31",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T10:25:43.000+01:00",
+      "title": "Keep the documented unit-test entry point in the headless gate",
+      "url": "https://github.com/HelgeSverre/terminal/commit/695a094c0318ddb6976b6964c554f611a0a8bf31"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:296028ba6859243034eea4e6fc5f67a99b99eb75",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T10:21:57.000+01:00",
+      "title": "Preserve the required CI check across parallel test jobs",
+      "url": "https://github.com/HelgeSverre/terminal/commit/296028ba6859243034eea4e6fc5f67a99b99eb75"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9bcf16fad3bde96d83ba48bf71b844738e35bffc",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T10:18:08.000+01:00",
+      "title": "Carry selected range access through correlated source candidates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9bcf16fad3bde96d83ba48bf71b844738e35bffc"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:4dde1028c9b5a988bd354dac6ad6e92d31d96901",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T10:16:41.000+01:00",
+      "title": "Reuse verified test build inputs across checkouts and separate CI gates",
+      "url": "https://github.com/HelgeSverre/terminal/commit/4dde1028c9b5a988bd354dac6ad6e92d31d96901"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:fd752da1f58ae91ee2b08a4d05af127571870eb1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T10:12:20.000+01:00",
+      "title": "Retain physical access in projected correlated range lookup",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/fd752da1f58ae91ee2b08a4d05af127571870eb1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4698a834c1249db870a36a5d9dd733f53c5de7aa",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T10:06:41.000+01:00",
+      "title": "Separate physical range selection from candidate materialization",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4698a834c1249db870a36a5d9dd733f53c5de7aa"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:fdd5b2c7d05a977c0df9ae5ad43fc898e3c3cf0a",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T10:05:47.000+01:00",
+      "title": "Build the headless test gate from shared SwiftPM products",
+      "url": "https://github.com/HelgeSverre/terminal/commit/fdd5b2c7d05a977c0df9ae5ad43fc898e3c3cf0a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1806fffc43d62904f6ac589dc0b9f849c11058e4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T10:00:51.000+01:00",
+      "title": "Audit nested window outer views against MySQL",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1806fffc43d62904f6ac589dc0b9f849c11058e4"
+    },
     {
       "id": "commit:HelgeSverre/terminal:c26d1670469855f4d99916a04a720d857f149152",
       "kind": "commit",
@@ -7453,222 +7669,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/67ed75bfac7f360a882d617fc57aa7ecae17cd67"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:54d4d98f28010b1b6e311cb3bea1d4afcd6616f8",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T08:03:02.000+01:00",
-      "title": "Refine geographic line boundary intervals",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/54d4d98f28010b1b6e311cb3bea1d4afcd6616f8"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:1c98d5de52d5186838c4bf5e6f2d963d854b79ef",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T07:58:42.000+01:00",
-      "title": "Classify short geographic corner crossings between boundary events",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/1c98d5de52d5186838c4bf5e6f2d963d854b79ef"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:494da18dd3c64e882cfcff5007e165a244d543bf",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T07:50:19.000+01:00",
-      "title": "Distinguish zero-distance polar line from polygon contact",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/494da18dd3c64e882cfcff5007e165a244d543bf"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ae6e4b89b305a27e5bba4aea9d5d6be6a96c45f1",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T07:46:39.000+01:00",
-      "title": "Audit one-sided three-view concurrent writes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ae6e4b89b305a27e5bba4aea9d5d6be6a96c45f1"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:aecd2bce1a72dea14bee4e7edc962e483c6c2d3e",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T07:43:43.000+01:00",
-      "title": "Trace endpoint and segment evidence in geographic relations",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/aecd2bce1a72dea14bee4e7edc962e483c6c2d3e"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:bbe22a37647d912c225b6647550324d7ac2e56eb",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T07:40:08.000+01:00",
-      "title": "Index correlated EXISTS with Boolean null-check grouping",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/bbe22a37647d912c225b6647550324d7ac2e56eb"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:975af7b3ea1ee1e3cbb8dbc8ad6823788108cef5",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T07:36:36.000+01:00",
-      "title": "Match MySQL ideographic description legacy weights",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/975af7b3ea1ee1e3cbb8dbc8ad6823788108cef5"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:021704d45c7ab6f4f7d26b033995344d82122963",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T07:32:13.000+01:00",
-      "title": "Audit three-target joined view contention against MySQL",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/021704d45c7ab6f4f7d26b033995344d82122963"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:d91dd2384edb5920dab0b464e4d1c85d42faced1",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T07:28:45.000+01:00",
-      "title": "Expand third writable joined view after grouped source",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/d91dd2384edb5920dab0b464e4d1c85d42faced1"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:31659849818bf062b0e7da4d027f34b7422108b6",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T07:19:32.000+01:00",
-      "title": "Trace geographic line polygon relation matrices",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/31659849818bf062b0e7da4d027f34b7422108b6"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:8d6b6b7c5c3ea413664b53979e89fa0ae6df8f71",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T07:14:53.000+01:00",
-      "title": "Match MySQL legacy CJK radical supplement weights",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/8d6b6b7c5c3ea413664b53979e89fa0ae6df8f71"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:61edd5a878eeebf96d5f80a158af7622a305bd9e",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T07:09:20.000+01:00",
-      "title": "Match MySQL legacy Kangxi radical weight bytes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/61edd5a878eeebf96d5f80a158af7622a305bd9e"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:a4e5aa8ba1392c3bab1badd2a7016da4fc79fb5a",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T07:03:29.000+01:00",
-      "title": "Characterize variable MySQL descending insert waits",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/a4e5aa8ba1392c3bab1badd2a7016da4fc79fb5a"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:761b0b67400a02a2ecdf4146272d531831f9b06c",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T06:59:44.000+01:00",
-      "title": "Audit temporal write frontiers and record descending wait gap",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/761b0b67400a02a2ecdf4146272d531831f9b06c"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:c708f34a5181b9fd3aa416c9444098c7cf121215",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T06:51:39.000+01:00",
-      "title": "Index correlated EXISTS with inner null-check grouping",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/c708f34a5181b9fd3aa416c9444098c7cf121215"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:18ef809ca6e4bc96833682e9da2b1c30f937a71e",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T06:48:48.000+01:00",
-      "title": "Extend two-view oracle through right-joined read tails",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/18ef809ca6e4bc96833682e9da2b1c30f937a71e"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:fc5f0242683160d8d76301e427fbc5a9b617db8b",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T06:46:03.000+01:00",
-      "title": "Audit contended filesort writes through LIMIT 32",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/fc5f0242683160d8d76301e427fbc5a9b617db8b"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:0926bc53626a723d690d231b3244f7a0cf4e4464",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T06:43:34.000+01:00",
-      "title": "Trace geographic cross-track seed divergence",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/0926bc53626a723d690d231b3244f7a0cf4e4464"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:a160d577b0519bff5b9f4dd03e5e0f1948a1f3a5",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T06:39:44.000+01:00",
-      "title": "Record denser geographic relation sampling control",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/a160d577b0519bff5b9f4dd03e5e0f1948a1f3a5"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:a6f1de860a1f338af6968e583d2e171ad098cb8a",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T06:37:27.000+01:00",
-      "title": "Match supplementary enclosed alphanumeric legacy weights",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/a6f1de860a1f338af6968e583d2e171ad098cb8a"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:c243a30fa0166f65a984139baa7a810d79c2b7a0",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T06:33:04.000+01:00",
-      "title": "Match supplementary enclosed CJK legacy weight bytes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/c243a30fa0166f65a984139baa7a810d79c2b7a0"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:c394de0a0f7552f69acddbae74c3aa3588be6b85",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T06:29:47.000+01:00",
-      "title": "Match legacy Kanbun collation weights",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/c394de0a0f7552f69acddbae74c3aa3588be6b85"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:c2308bcd38add4407f19f40c2af9488019f1bb7f",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T06:27:20.000+01:00",
-      "title": "Match legacy weights for Bopomofo extensions and CJK strokes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/c2308bcd38add4407f19f40c2af9488019f1bb7f"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:2f012a43a35a1060708bc8badc7c4bc293bb8f68",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T06:22:47.000+01:00",
-      "title": "Extend grouped EXISTS lookup to inner column projections",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/2f012a43a35a1060708bc8badc7c4bc293bb8f68"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:f10ca6390bfad84e68744ab47a31a7f257330e05",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T06:20:40.000+01:00",
-      "title": "Use indexed membership for grouped correlated EXISTS",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/f10ca6390bfad84e68744ab47a31a7f257330e05"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:a075c74f109085e9d29a6048c5d3546da963ca00",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T06:16:12.000+01:00",
-      "title": "Audit natural read tails after preserved joined view",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/a075c74f109085e9d29a6048c5d3546da963ca00"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:a9e63e0f51edf5f42037e902e575706ad51348b5",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T06:14:28.000+01:00",
-      "title": "Audit ordered write rebasing through limit eight",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/a9e63e0f51edf5f42037e902e575706ad51348b5"
-    },
-    {
       "id": "pr:HelgeSverre/fsdb:206",
       "kind": "merge",
       "repo": "HelgeSverre/fsdb",
@@ -7683,6 +7683,86 @@
       "at": "2026-11-04T09:23:28Z",
       "title": "Observe pending DECIMAL inserts in limited ordered writes",
       "url": "https://github.com/HelgeSverre/fsdb/pull/205"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:448570781",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T12:01:30Z",
+      "title": "v0.1.8",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.8"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:448541781",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T11:33:31Z",
+      "title": "v0.1.7",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.7"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:438457466",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T19:07:55Z",
+      "title": "v0.1.5",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.5"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:438439363",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T18:34:50Z",
+      "title": "v0.1.4",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.4"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:438371054",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T16:33:16Z",
+      "title": "v0.1.3",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.3"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:437110773",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T22:08:02Z",
+      "title": "v0.1.2",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.2"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:437017794",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T20:50:12Z",
+      "title": "v0.1.1",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.1"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:436913518",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T19:35:50Z",
+      "title": "v0.1.0",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:433914061",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T12:50:13Z",
+      "title": "v0.1.0-preview.43",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0-preview.43"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:433784671",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T10:30:55Z",
+      "title": "v0.1.0-preview.42",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0-preview.42"
     },
     {
       "id": "release:HelgeSverre/terminal:446908850",
@@ -7843,70 +7923,6 @@
       "at": "2026-11-08T20:34:10Z",
       "title": "v0.1.3",
       "url": "https://github.com/HelgeSverre/clickmore/releases/tag/v0.1.3"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:438457466",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-08T19:07:55Z",
-      "title": "v0.1.5",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.5"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:438439363",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-08T18:34:50Z",
-      "title": "v0.1.4",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.4"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:438371054",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-08T16:33:16Z",
-      "title": "v0.1.3",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.3"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:437110773",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T22:08:02Z",
-      "title": "v0.1.2",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.2"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:437017794",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T20:50:12Z",
-      "title": "v0.1.1",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.1"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:436913518",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T19:35:50Z",
-      "title": "v0.1.0",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:433914061",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-04T12:50:13Z",
-      "title": "v0.1.0-preview.43",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0-preview.43"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:433784671",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-04T10:30:55Z",
-      "title": "v0.1.0-preview.42",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0-preview.42"
     },
     {
       "id": "release:HelgeSverre/rust-vst3-host:438016416",
