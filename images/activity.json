@@ -1,9 +1,33 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-17T12:18:18.370Z",
-  "since": "2026-11-03T12:18:18.370Z",
+  "fetchedAt": "2026-11-17T18:14:51.874Z",
+  "since": "2026-11-03T18:14:51.874Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/terminal:67a34c3d9da1c95799769aaddca82f5378d9f0cd",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T15:50:21.000+01:00",
+      "title": "Plan delegated implementation of app gap inventory",
+      "url": "https://github.com/HelgeSverre/terminal/commit/67a34c3d9da1c95799769aaddca82f5378d9f0cd"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:dfd25d8dcbd37d4135046fb714acf68cdb5f1c79",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T15:40:54.000+01:00",
+      "title": "Document cross-app gaps and remaining validation work",
+      "url": "https://github.com/HelgeSverre/terminal/commit/dfd25d8dcbd37d4135046fb714acf68cdb5f1c79"
+    },
+    {
+      "id": "commit:HelgeSverre/jaguar:fd5be845b07b9be7b69399c9679fb3bd71cdb264",
+      "kind": "commit",
+      "repo": "HelgeSverre/jaguar",
+      "at": "2026-11-17T15:30:02.000+01:00",
+      "title": "Fix Jaguar emulation bugs and accelerate plain RAM blits",
+      "url": "https://github.com/HelgeSverre/jaguar/commit/fd5be845b07b9be7b69399c9679fb3bd71cdb264"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:73d289e3b9354d3c287bc8a409c39af5a1c25284",
       "kind": "commit",
@@ -7637,38 +7661,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/be2cc607a14c8c25bffd7e58e557bf566f5ff46f"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:30136b588dd72824bd3f355e4f5f7a456503dd41",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T08:20:09.000+01:00",
-      "title": "Match legacy CJK overline equality",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/30136b588dd72824bd3f355e4f5f7a456503dd41"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ed5d25ba2ed554ba122197ef87bbd67c2f0bf95f",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T08:16:26.000+01:00",
-      "title": "Match legacy CJK small form weights",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ed5d25ba2ed554ba122197ef87bbd67c2f0bf95f"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:2da4cdc59e3522a4fee1eb63c1acc2d1988578fa",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T08:12:47.000+01:00",
-      "title": "Match legacy CJK compatibility form weights",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/2da4cdc59e3522a4fee1eb63c1acc2d1988578fa"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:67ed75bfac7f360a882d617fc57aa7ecae17cd67",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T08:06:28.000+01:00",
-      "title": "Document geographic endpoint trial",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/67ed75bfac7f360a882d617fc57aa7ecae17cd67"
-    },
-    {
       "id": "pr:HelgeSverre/fsdb:206",
       "kind": "merge",
       "repo": "HelgeSverre/fsdb",
@@ -7683,86 +7675,6 @@
       "at": "2026-11-04T09:23:28Z",
       "title": "Observe pending DECIMAL inserts in limited ordered writes",
       "url": "https://github.com/HelgeSverre/fsdb/pull/205"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:448570781",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-17T12:01:30Z",
-      "title": "v0.1.8",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.8"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:448541781",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-17T11:33:31Z",
-      "title": "v0.1.7",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.7"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:438457466",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-08T19:07:55Z",
-      "title": "v0.1.5",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.5"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:438439363",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-08T18:34:50Z",
-      "title": "v0.1.4",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.4"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:438371054",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-08T16:33:16Z",
-      "title": "v0.1.3",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.3"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:437110773",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T22:08:02Z",
-      "title": "v0.1.2",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.2"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:437017794",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T20:50:12Z",
-      "title": "v0.1.1",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.1"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:436913518",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T19:35:50Z",
-      "title": "v0.1.0",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:433914061",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-04T12:50:13Z",
-      "title": "v0.1.0-preview.43",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0-preview.43"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:433784671",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-04T10:30:55Z",
-      "title": "v0.1.0-preview.42",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0-preview.42"
     },
     {
       "id": "release:HelgeSverre/terminal:446908850",
@@ -7859,6 +7771,86 @@
       "at": "2026-11-09T20:25:59Z",
       "title": "v0.2.3",
       "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.2.3"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:448570781",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T12:01:30Z",
+      "title": "v0.1.8",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.8"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:448541781",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T11:33:31Z",
+      "title": "v0.1.7",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.7"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:438457466",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T19:07:55Z",
+      "title": "v0.1.5",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.5"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:438439363",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T18:34:50Z",
+      "title": "v0.1.4",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.4"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:438371054",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T16:33:16Z",
+      "title": "v0.1.3",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.3"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:437110773",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T22:08:02Z",
+      "title": "v0.1.2",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.2"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:437017794",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T20:50:12Z",
+      "title": "v0.1.1",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.1"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:436913518",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T19:35:50Z",
+      "title": "v0.1.0",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:433914061",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T12:50:13Z",
+      "title": "v0.1.0-preview.43",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0-preview.43"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:433784671",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T10:30:55Z",
+      "title": "v0.1.0-preview.42",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0-preview.42"
     },
     {
       "id": "release:HelgeSverre/homebrew-tap:439248081",
@@ -8003,14 +7995,6 @@
       "at": "2026-11-04T18:33:45Z",
       "title": "v0.7.0",
       "url": "https://github.com/HelgeSverre/slack-bolt-php/releases/tag/v0.7.0"
-    },
-    {
-      "id": "release:HelgeSverre/slack-bolt-php:432848761",
-      "kind": "release",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-11-03T15:05:40Z",
-      "title": "v0.6.0",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/releases/tag/v0.6.0"
     },
     {
       "id": "release:HelgeSverre/resume:436586489",
