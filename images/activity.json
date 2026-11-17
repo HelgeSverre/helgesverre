@@ -1,9 +1,49 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-16T18:15:03.649Z",
-  "since": "2026-11-02T18:15:03.649Z",
+  "fetchedAt": "2026-11-17T00:32:16.223Z",
+  "since": "2026-11-03T00:32:16.223Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/terminal:c26d1670469855f4d99916a04a720d857f149152",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T00:36:12.000+01:00",
+      "title": "Record release candidate timing and signature verification",
+      "url": "https://github.com/HelgeSverre/terminal/commit/c26d1670469855f4d99916a04a720d857f149152"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:9a6265145d80824cf913d795e918eddb6777afe9",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T00:15:06.000+01:00",
+      "title": "Prepare 0.6.2 release candidate artifacts",
+      "url": "https://github.com/HelgeSverre/terminal/commit/9a6265145d80824cf913d795e918eddb6777afe9"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:b01de100add38cc839254776b2738ab0ecab8f84",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T00:03:21.000+01:00",
+      "title": "Preserve link previews during cursor refresh",
+      "url": "https://github.com/HelgeSverre/terminal/commit/b01de100add38cc839254776b2738ab0ecab8f84"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:14c880f298b016ae7aaa37fbd622d59778e92ba2",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-16T23:49:39.000+01:00",
+      "title": "Show link destinations on Command hover",
+      "url": "https://github.com/HelgeSverre/terminal/commit/14c880f298b016ae7aaa37fbd622d59778e92ba2"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:799cc5209539a944e79ace880b19e4125703920e",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-16T23:25:17.000+01:00",
+      "title": "Isolate release signing and exclude diagnostic launch modes",
+      "url": "https://github.com/HelgeSverre/terminal/commit/799cc5209539a944e79ace880b19e4125703920e"
+    },
     {
       "id": "commit:HelgeSverre/terminal:ea9dd02946b86f5e5683ed4c1065bd0c42dbe4da",
       "kind": "commit",
@@ -7637,54 +7677,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/2bebe1b38f7cb5b8c1a86ff19e6571d526852781"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:ef9e864427963a83e2f4c3c7575838c90be80a7b",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T06:08:39.000+01:00",
-      "title": "Preserve natural right view key after dependent source",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ef9e864427963a83e2f4c3c7575838c90be80a7b"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:1c74f0ff92f6fa791589510a0aa757ce3924d747",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T05:58:50.000+01:00",
-      "title": "Record complete cross-track initialization trial",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/1c74f0ff92f6fa791589510a0aa757ce3924d747"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:32c541d183135f4b932a968048bddd5ddbf93c6a",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T05:56:13.000+01:00",
-      "title": "Capture Boost geographic line polygon relation controls",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/32c541d183135f4b932a968048bddd5ddbf93c6a"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:47a5f41d508e3477b128f2275be1e29329ec789f",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T05:53:50.000+01:00",
-      "title": "Match fused Andoyer azimuth near polar hole vertex",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/47a5f41d508e3477b128f2275be1e29329ec789f"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:e81e3cea89b0fa3b368ab2ebdd9b6993e6e7ee93",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T05:45:51.000+01:00",
-      "title": "Use indexed EXISTS with validated computed inner ordering",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/e81e3cea89b0fa3b368ab2ebdd9b6993e6e7ee93"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:a8b58ea7f0bf9a61c9a05acdbe62abc3ff1a3f9f",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T05:42:59.000+01:00",
-      "title": "Match Unicode 5.2 supplementary compatibility equality classes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/a8b58ea7f0bf9a61c9a05acdbe62abc3ff1a3f9f"
-    },
-    {
       "id": "pr:HelgeSverre/fsdb:206",
       "kind": "merge",
       "repo": "HelgeSverre/fsdb",
@@ -8011,30 +8003,6 @@
       "at": "2026-11-03T15:05:40Z",
       "title": "v0.6.0",
       "url": "https://github.com/HelgeSverre/slack-bolt-php/releases/tag/v0.6.0"
-    },
-    {
-      "id": "release:HelgeSverre/slack-bolt-php:431982529",
-      "kind": "release",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-11-02T21:20:30Z",
-      "title": "v0.5.0",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/releases/tag/v0.5.0"
-    },
-    {
-      "id": "release:HelgeSverre/slack-bolt-php:431974718",
-      "kind": "release",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-11-02T21:11:54Z",
-      "title": "v0.4.0",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/releases/tag/v0.4.0"
-    },
-    {
-      "id": "release:HelgeSverre/slack-bolt-php:431958488",
-      "kind": "release",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-11-02T20:53:58Z",
-      "title": "v0.3.0",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/releases/tag/v0.3.0"
     },
     {
       "id": "release:HelgeSverre/resume:436586489",
