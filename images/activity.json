@@ -1,9 +1,97 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-18T00:33:16.934Z",
-  "since": "2026-11-04T00:33:16.934Z",
+  "fetchedAt": "2026-11-18T06:20:55.979Z",
+  "since": "2026-11-04T06:20:55.979Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:2de1b9f9b72f9c2f90d40c02f64e6acfb22b0dd4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-18T04:31:16.000+01:00",
+      "title": "Record GC and transaction controls for point-read load",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2de1b9f9b72f9c2f90d40c02f64e6acfb22b0dd4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:268b78d0b5f2c711fb92980322cbe17cdc44ebf1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-18T04:14:18.000+01:00",
+      "title": "Record spatial lookup before and after literal planning fix",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/268b78d0b5f2c711fb92980322cbe17cdc44ebf1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:899d38db52e9722f96fae5f30fc364c91785a088",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-18T04:13:57.000+01:00",
+      "title": "Use connection WKT literals in spatial index plans",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/899d38db52e9722f96fae5f30fc364c91785a088"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:136c32b1c728162f82fe50661ed2c819ca08865f",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-18T04:03:24.000+01:00",
+      "title": "docs: record the Sparkle update rehearsal",
+      "url": "https://github.com/HelgeSverre/terminal/commit/136c32b1c728162f82fe50661ed2c819ca08865f"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:ff65cda0ea68273b106759ac3e8a6365c5bbc295",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-18T03:59:26.000+01:00",
+      "title": "feat: rehearse a Sparkle update locally with running programs (just update-rehearsal)",
+      "url": "https://github.com/HelgeSverre/terminal/commit/ff65cda0ea68273b106759ac3e8a6365c5bbc295"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:004e9c2dd5eaf314a9b86d3ae1a0de67bee0517b",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-18T03:01:11.000+01:00",
+      "title": "docs: record session handoff runs with real programs",
+      "url": "https://github.com/HelgeSverre/terminal/commit/004e9c2dd5eaf314a9b86d3ae1a0de67bee0517b"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:5b1a366f9f9aef8b482671f8ef76ee66e6ce81bd",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-18T02:57:27.000+01:00",
+      "title": "feat: gate session handoff behind a preference, hand off before a Sparkle relaunch, document and test it",
+      "url": "https://github.com/HelgeSverre/terminal/commit/5b1a366f9f9aef8b482671f8ef76ee66e6ce81bd"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:4535e23814da15c6f9d533997eb2e4a0fff3c997",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-18T02:52:43.000+01:00",
+      "title": "fix: keep wrapped-row breaks, nested split ratios and settled sizes across a handoff",
+      "url": "https://github.com/HelgeSverre/terminal/commit/4535e23814da15c6f9d533997eb2e4a0fff3c997"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:dd2687dfc75a21ee9f785af7a9c88d633d69b920",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-18T02:41:54.000+01:00",
+      "title": "feat: hand running sessions to a keeper and adopt them at launch (experimental)",
+      "url": "https://github.com/HelgeSverre/terminal/commit/dd2687dfc75a21ee9f785af7a9c88d633d69b920"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:08ca903a12d71d8ab719f53ec4dfaa27a75ff971",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-18T02:29:40.000+01:00",
+      "title": "feat: let a session give up its child and another adopt it",
+      "url": "https://github.com/HelgeSverre/terminal/commit/08ca903a12d71d8ab719f53ec4dfaa27a75ff971"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:83de87ab9dad189b0c4a5587a15ed3d7b0af7914",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-18T02:26:03.000+01:00",
+      "title": "feat: capture and restore terminal state for process handoff",
+      "url": "https://github.com/HelgeSverre/terminal/commit/83de87ab9dad189b0c4a5587a15ed3d7b0af7914"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:b5bf78417fdf20652f205ff24bf4c9f515f59e9a",
       "kind": "commit",
@@ -7525,86 +7613,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/fb9f55c92d04e7bd395e0dc2001d266a63d58a15"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:cc9e227d847cc12f5929cbda7501f822c83d7257",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T19:09:08.000+01:00",
-      "title": "Match plane-two legacy implicit weights",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/cc9e227d847cc12f5929cbda7501f822c83d7257"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:12806c31f685b591317458a1c3c143df707b2502",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T18:58:08.000+01:00",
-      "title": "Match Extension J plane-three legacy weights",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/12806c31f685b591317458a1c3c143df707b2502"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:eaab29550d3ef61ac50b8493d6a63900e5a1f206",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T18:35:09.000+01:00",
-      "title": "Match supplementary kana legacy weights",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/eaab29550d3ef61ac50b8493d6a63900e5a1f206"
-    },
-    {
-      "id": "commit:HelgeSverre/dmscene:bf36d9c535fe1ce92f0572e56f3c8b2c5391a7da",
-      "kind": "commit",
-      "repo": "HelgeSverre/dmscene",
-      "at": "2026-11-06T18:33:33.000+01:00",
-      "title": "Add twelve demos written by language models",
-      "url": "https://github.com/HelgeSverre/dmscene/commit/bf36d9c535fe1ce92f0572e56f3c8b2c5391a7da"
-    },
-    {
-      "id": "commit:HelgeSverre/toon-php:c65ad5f21d53aa67d584d85dd2589427cd48515a",
-      "kind": "commit",
-      "repo": "HelgeSverre/toon-php",
-      "at": "2026-11-06T18:30:35.000+01:00",
-      "title": "Clarify vendored fixture tooling exclusions",
-      "url": "https://github.com/HelgeSverre/toon-php/commit/c65ad5f21d53aa67d584d85dd2589427cd48515a"
-    },
-    {
-      "id": "commit:HelgeSverre/toon-php:2cd9738dfaa8ad7b95c479e5529e27cb217825fb",
-      "kind": "commit",
-      "repo": "HelgeSverre/toon-php",
-      "at": "2026-11-06T18:30:19.000+01:00",
-      "title": "Complete Mago pre-PR checks and preserve validation provenance",
-      "url": "https://github.com/HelgeSverre/toon-php/commit/2cd9738dfaa8ad7b95c479e5529e27cb217825fb"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:d7b10a039f86be7918c8ecb706cefc6ccd4abe4e",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T18:27:21.000+01:00",
-      "title": "Verify multiset CTEs beside writable joined view",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/d7b10a039f86be7918c8ecb706cefc6ccd4abe4e"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ea1e6d0cf54946062fea020a3d83e8bf0d73b45b",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T18:21:42.000+01:00",
-      "title": "Decorrelate integer keys in inner join ON clauses",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ea1e6d0cf54946062fea020a3d83e8bf0d73b45b"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:4b96d435380ed3d100de6b3f9b66132cd590ee24",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T18:10:58.000+01:00",
-      "title": "Expose geographic overlay gap in edge oracle",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/4b96d435380ed3d100de6b3f9b66132cd590ee24"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:09143ea242489f1f41d33b734d548c818dbe632e",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T18:08:43.000+01:00",
-      "title": "Audit set-operation CTEs in writable joined views",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/09143ea242489f1f41d33b734d548c818dbe632e"
-    },
-    {
       "id": "pr:HelgeSverre/toon-php:11",
       "kind": "merge",
       "repo": "HelgeSverre/toon-php",
@@ -7947,14 +7955,6 @@
       "at": "2026-11-08T03:48:55Z",
       "title": "v0.11.1",
       "url": "https://github.com/HelgeSverre/rust-vst3-host/releases/tag/v0.11.1"
-    },
-    {
-      "id": "release:HelgeSverre/rust-vst3-host:433474346",
-      "kind": "release",
-      "repo": "HelgeSverre/rust-vst3-host",
-      "at": "2026-11-04T03:22:06Z",
-      "title": "v0.11.0",
-      "url": "https://github.com/HelgeSverre/rust-vst3-host/releases/tag/v0.11.0"
     },
     {
       "id": "release:HelgeSverre/files:437866261",
