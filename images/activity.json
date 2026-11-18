@@ -1,9 +1,849 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-17T18:14:51.874Z",
-  "since": "2026-11-03T18:14:51.874Z",
+  "fetchedAt": "2026-11-18T00:33:16.934Z",
+  "since": "2026-11-04T00:33:16.934Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:b5bf78417fdf20652f205ff24bf4c9f515f59e9a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-18T00:42:27.000+01:00",
+      "title": "Record native MySQL latency and throughput comparison",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b5bf78417fdf20652f205ff24bf4c9f515f59e9a"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:37343b67a1928303ae348d90207a117931569ba5",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-18T00:23:38.000+01:00",
+      "title": "docs: record removed title reports and queued download offers",
+      "url": "https://github.com/HelgeSverre/terminal/commit/37343b67a1928303ae348d90207a117931569ba5"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:c9b2eca4a63369e8277709512f883e0c9d14e58a",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-18T00:23:11.000+01:00",
+      "title": "feat: stop reporting titles back to programs and queue download offers per pane",
+      "url": "https://github.com/HelgeSverre/terminal/commit/c9b2eca4a63369e8277709512f883e0c9d14e58a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:316b0292493664e56679f79223dbfc6ace5667ac",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-18T00:12:42.000+01:00",
+      "title": "Share geographic ring edge contact checks",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/316b0292493664e56679f79223dbfc6ace5667ac"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:d20c7486ba21cf723045e84156861811320a5cf5",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-18T00:10:34.000+01:00",
+      "title": "docs: record 473 conformance passes and extend the 0.6.2 release notes",
+      "url": "https://github.com/HelgeSverre/terminal/commit/d20c7486ba21cf723045e84156861811320a5cf5"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:25d3add7677f002d63c928ee4d89d812a6a2e7a3",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-18T00:09:46.000+01:00",
+      "title": "feat: report permanently reset for DECRQM modes that can never be set",
+      "url": "https://github.com/HelgeSverre/terminal/commit/25d3add7677f002d63c928ee4d89d812a6a2e7a3"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:98867972324b368937e60f3028b02f33a784bf1d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T23:51:55.000+01:00",
+      "title": "Reuse validated geographic polygon boundaries",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/98867972324b368937e60f3028b02f33a784bf1d"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:d689f75207a1887a32bbe9da8c41e1cde3e733bc",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-17T23:48:30.000Z",
+      "title": "Update Helge Terminal to v0.6.2",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/d689f75207a1887a32bbe9da8c41e1cde3e733bc"
+    },
+    {
+      "id": "commit:HelgeSverre/jaguar:7d3e913b9d5c39aa2b76205dad4265a9f94a05b1",
+      "kind": "commit",
+      "repo": "HelgeSverre/jaguar",
+      "at": "2026-11-17T23:15:20.000+01:00",
+      "title": "Add configurable gamepad support and legacy Xbox USB setup",
+      "url": "https://github.com/HelgeSverre/jaguar/commit/7d3e913b9d5c39aa2b76205dad4265a9f94a05b1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9f4a2a0bd87075e7e9981dc6e45e0907e4f0f383",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T22:46:11.000+01:00",
+      "title": "Release Fsdb 0.1.9",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9f4a2a0bd87075e7e9981dc6e45e0907e4f0f383"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:fa9bdabaf10a3ccd1fbd833b3e69c39a21552de0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T22:31:59.000+01:00",
+      "title": "Avoid temporary collections in indexed key comparison",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/fa9bdabaf10a3ccd1fbd833b3e69c39a21552de0"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:8bbdb61459e32ec17069215589da06ab5b8cd961",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T22:29:20.000+01:00",
+      "title": "docs: reconcile status, protocol and conformance pages with the verified tip",
+      "url": "https://github.com/HelgeSverre/terminal/commit/8bbdb61459e32ec17069215589da06ab5b8cd961"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:14406efa941a18cfc0bacc38f7eb67541845bdc6",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T22:28:23.000+01:00",
+      "title": "Correct resolved geographic validity status in gap summary",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/14406efa941a18cfc0bacc38f7eb67541845bdc6"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:71b2d9f7faec38ec3385d5a894d0574e81c927e1",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T22:24:54.000+01:00",
+      "title": "test: protect 460 verified conformance cases",
+      "url": "https://github.com/HelgeSverre/terminal/commit/71b2d9f7faec38ec3385d5a894d0574e81c927e1"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:556aa5182a118126d3194a8ed2a99e6cc48d1b84",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T22:23:07.000+01:00",
+      "title": "docs: correct stale automation, usage, terminfo, recovery and index statements",
+      "url": "https://github.com/HelgeSverre/terminal/commit/556aa5182a118126d3194a8ed2a99e6cc48d1b84"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:fb5820fa66f0247eef8f902b61b53dd283383263",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T22:21:39.000+01:00",
+      "title": "fix: retry frames dropped for a stale drawable and keep scroll requests under output",
+      "url": "https://github.com/HelgeSverre/terminal/commit/fb5820fa66f0247eef8f902b61b53dd283383263"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:056da0d432916b0d7eaacc5a977f1fd2fb68ea0e",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T22:15:23.000+01:00",
+      "title": "feat: add regex counted repetition and shorthand classes; fix search edge cases",
+      "url": "https://github.com/HelgeSverre/terminal/commit/056da0d432916b0d7eaacc5a977f1fd2fb68ea0e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8fadf98dbec60cab29d3491ba74c4d085455770c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T22:10:18.000+01:00",
+      "title": "Validate geographic polygons with holes and multipart interiors",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8fadf98dbec60cab29d3491ba74c4d085455770c"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:e0040baedc9efc5944eda00ff91f440beaae3a82",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T22:08:40.000+01:00",
+      "title": "fix: keep command navigation across reflow and answer absent-hardware status reports",
+      "url": "https://github.com/HelgeSverre/terminal/commit/e0040baedc9efc5944eda00ff91f440beaae3a82"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:0a161303430586742c3468b45cc4f9169f4b0ba1",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T22:01:39.000+01:00",
+      "title": "fix: save recovery state under steady output and keep resume offers across saves",
+      "url": "https://github.com/HelgeSverre/terminal/commit/0a161303430586742c3468b45cc4f9169f4b0ba1"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:9ae695837ee6a7dfcc6705c7cd2134cadab2fa38",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T22:00:03.000+01:00",
+      "title": "refactor: split main.swift and build the menu bar from one shortcut table",
+      "url": "https://github.com/HelgeSverre/terminal/commit/9ae695837ee6a7dfcc6705c7cd2134cadab2fa38"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:224e65499f695bf54c67eb08cdbc2132da616228",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T21:55:51.000+01:00",
+      "title": "fix: accept partial desktop configurations and keep profile directories on split",
+      "url": "https://github.com/HelgeSverre/terminal/commit/224e65499f695bf54c67eb08cdbc2132da616228"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c0e707ba4c8814a4cb276439d8be063c401ff6ed",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T21:34:27.000+01:00",
+      "title": "Add adversarial geographic polygon validity oracle corpus",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c0e707ba4c8814a4cb276439d8be063c401ff6ed"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d59b43800046c9390d5c4cf8a444f0f4809fdae2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T21:14:52.000+01:00",
+      "title": "Match geographic long-edge crossings with Sjöberg intersection",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d59b43800046c9390d5c4cf8a444f0f4809fdae2"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:cbb5fb6ee4f7ea7e30565b344f2fe9b4ceaf0f0d",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T20:56:16.000+01:00",
+      "title": "docs: record sanitizer fix and hosted validation findings",
+      "url": "https://github.com/HelgeSverre/terminal/commit/cbb5fb6ee4f7ea7e30565b344f2fe9b4ceaf0f0d"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:648a83c3584c197955d969facbb2dfed8359e5f3",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T20:54:46.000+01:00",
+      "title": "fix: isolate standalone sanitizer probes from embedding wrappers",
+      "url": "https://github.com/HelgeSverre/terminal/commit/648a83c3584c197955d969facbb2dfed8359e5f3"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d809cb0bf360aebd1ea631309f777f96aae49637",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T20:54:43.000+01:00",
+      "title": "Trace long-edge geographic intersection strategy against MySQL",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d809cb0bf360aebd1ea631309f777f96aae49637"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:df3f951630162253c9e8145ea1380ea6f7bd687f",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T20:47:28.000+01:00",
+      "title": "docs: record passing final gap implementation checks",
+      "url": "https://github.com/HelgeSverre/terminal/commit/df3f951630162253c9e8145ea1380ea6f7bd687f"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:5d46b0171436527b969ff62777ca0dc5621ea5e4",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T20:28:14.000+01:00",
+      "title": "docs: record integrated gap work and verified runtime evidence",
+      "url": "https://github.com/HelgeSverre/terminal/commit/5d46b0171436527b969ff62777ca0dc5621ea5e4"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:129ca48977448cde26bdef52e5cf46f57059d063",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T20:15:06.000+01:00",
+      "title": "fix: keep child arguments out of recovery state configuration",
+      "url": "https://github.com/HelgeSverre/terminal/commit/129ca48977448cde26bdef52e5cf46f57059d063"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:3caff843f0b823cb9a02742de88fe17f78a81473",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T20:14:55.000+01:00",
+      "title": "Disambiguate UIKit find next action selector",
+      "url": "https://github.com/HelgeSverre/terminal/commit/3caff843f0b823cb9a02742de88fe17f78a81473"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:ac19dfd477bfe93335581d220a0408ed248a8d73",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T20:14:55.000+01:00",
+      "title": "Filter command-owned paths from synthetic startup document requests",
+      "url": "https://github.com/HelgeSverre/terminal/commit/ac19dfd477bfe93335581d220a0408ed248a8d73"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:224f8aee00e8f39f79e95ca76f7dc4e94794c51b",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T20:13:07.000+01:00",
+      "title": "test: protect 447 verified conformance cases",
+      "url": "https://github.com/HelgeSverre/terminal/commit/224f8aee00e8f39f79e95ca76f7dc4e94794c51b"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:b9456246222a1983abe45c5bc7b9bea6aa225e22",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T20:05:00.000+01:00",
+      "title": "test: select modern reverse-wrap conformance expectations",
+      "url": "https://github.com/HelgeSverre/terminal/commit/b9456246222a1983abe45c5bc7b9bea6aa225e22"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:306a5926920f361642d2ee56da07640a8190e5c1",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T20:00:15.000+01:00",
+      "title": "Clear erased wrap connections and support curses tab mode",
+      "url": "https://github.com/HelgeSverre/terminal/commit/306a5926920f361642d2ee56da07640a8190e5c1"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:3df67f69715d3137d33b6ff322a34b650c5d9c01",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T20:00:15.000+01:00",
+      "title": "Draw text decorations after glyph coverage",
+      "url": "https://github.com/HelgeSverre/terminal/commit/3df67f69715d3137d33b6ff322a34b650c5d9c01"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:e3e89fbe2903d690699014b74cd19e3256a7b532",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:59:28.000+01:00",
+      "title": "Document protocol conformance failure dispositions",
+      "url": "https://github.com/HelgeSverre/terminal/commit/e3e89fbe2903d690699014b74cd19e3256a7b532"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:5da3cb5242e058888335b2c8de4b38daaf1e97e4",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:55:01.000+01:00",
+      "title": "Restore mixed title stack entries and align conformance colors",
+      "url": "https://github.com/HelgeSverre/terminal/commit/5da3cb5242e058888335b2c8de4b38daaf1e97e4"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:5b66360911f8d2cf6dd11e2adead5231ca32bf25",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:55:01.000+01:00",
+      "title": "Index before returning when executing next line",
+      "url": "https://github.com/HelgeSverre/terminal/commit/5b66360911f8d2cf6dd11e2adead5231ca32bf25"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:06b530697449d60a103cdf6a9397fa28408e37ab",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:55:01.000+01:00",
+      "title": "Reset alignment margins and ISO erasure protection",
+      "url": "https://github.com/HelgeSverre/terminal/commit/06b530697449d60a103cdf6a9397fa28408e37ab"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:f3457678579f970ae96a3d3283d46772da5f7581",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:55:01.000+01:00",
+      "title": "Evaluate mutating composition test calls before expectations",
+      "url": "https://github.com/HelgeSverre/terminal/commit/f3457678579f970ae96a3d3283d46772da5f7581"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:7a3cd811e13b0aff942ddb1059c4103521637f7f",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:50:56.000+01:00",
+      "title": "Fix graphics test identity and Darwin shared-memory ABI",
+      "url": "https://github.com/HelgeSverre/terminal/commit/7a3cd811e13b0aff942ddb1059c4103521637f7f"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:f223b2530927d96bd4171b8f6f7005594c51ae76",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:50:56.000+01:00",
+      "title": "Preserve pinned viewport intent when erasing saved lines",
+      "url": "https://github.com/HelgeSverre/terminal/commit/f223b2530927d96bd4171b8f6f7005594c51ae76"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:a38bb06beea1c2d1ed9693bb5762240290780937",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:50:56.000+01:00",
+      "title": "Reveal matched content instead of neighboring search proof rows",
+      "url": "https://github.com/HelgeSverre/terminal/commit/a38bb06beea1c2d1ed9693bb5762240290780937"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:0a928a47f8c345379b04f936d8c4248be7ef3686",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:50:56.000+01:00",
+      "title": "Update protocol and historical capacity test fixtures",
+      "url": "https://github.com/HelgeSverre/terminal/commit/0a928a47f8c345379b04f936d8c4248be7ef3686"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:db12c7a16c177ab38166f41f2dbe12d081c29e20",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:50:56.000+01:00",
+      "title": "test: gate all shared-heap Metal suites through the driver probe",
+      "url": "https://github.com/HelgeSverre/terminal/commit/db12c7a16c177ab38166f41f2dbe12d081c29e20"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:e0f79b34e596a8632d2da58a40437e7eefab174c",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:48:45.000+01:00",
+      "title": "docs: reconcile live status with integrated gap implementations",
+      "url": "https://github.com/HelgeSverre/terminal/commit/e0f79b34e596a8632d2da58a40437e7eefab174c"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:58e3dd6a7c11fd9e5870f2870de5f41b199f39bf",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:48:45.000+01:00",
+      "title": "Reject composition replacements inside UTF-16 surrogate pairs",
+      "url": "https://github.com/HelgeSverre/terminal/commit/58e3dd6a7c11fd9e5870f2870de5f41b199f39bf"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:798da18585bd5d048bd6fddea6e2971d4604dc13",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:48:45.000+01:00",
+      "title": "Invalidate queued download deliveries when the terminal resets",
+      "url": "https://github.com/HelgeSverre/terminal/commit/798da18585bd5d048bd6fddea6e2971d4604dc13"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:7f1c2502ff4bffd53826d57f9172b090808a6e25",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:43:50.000+01:00",
+      "title": "docs: explain explicit development package mode",
+      "url": "https://github.com/HelgeSverre/terminal/commit/7f1c2502ff4bffd53826d57f9172b090808a6e25"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:0fe942ddf8835af9932d790dfce93b353d141af7",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:43:50.000+01:00",
+      "title": "Reserve fixed menu shortcuts when validating desktop actions",
+      "url": "https://github.com/HelgeSverre/terminal/commit/0fe942ddf8835af9932d790dfce93b353d141af7"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:a1d35cfc75857fc4aa30790c0f30df6ea1ef94df",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:43:39.000+01:00",
+      "title": "Preserve UIKit preedit on output and keep blank terminals accessible",
+      "url": "https://github.com/HelgeSverre/terminal/commit/a1d35cfc75857fc4aa30790c0f30df6ea1ef94df"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:881bdc7f51a66e6a3e069e2b549ca96e9d73dc59",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:43:39.000+01:00",
+      "title": "Offer terminal downloads through explicit bounded user saves",
+      "url": "https://github.com/HelgeSverre/terminal/commit/881bdc7f51a66e6a3e069e2b549ca96e9d73dc59"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:d392945295161c54a1ead463b395adae75074ea7",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:43:29.000+01:00",
+      "title": "Document explicit download ownership and save boundaries",
+      "url": "https://github.com/HelgeSverre/terminal/commit/d392945295161c54a1ead463b395adae75074ea7"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:ab5551ec283652252c924514700f675d6f0cbb71",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:43:29.000+01:00",
+      "title": "Offer bounded OSC 1337 downloads as explicit data requests",
+      "url": "https://github.com/HelgeSverre/terminal/commit/ab5551ec283652252c924514700f675d6f0cbb71"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:830adc527f61b2ee815f2065fc378d005379c189",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:43:19.000+01:00",
+      "title": "Cover recovery checksum privacy and concurrent capture lifecycle",
+      "url": "https://github.com/HelgeSverre/terminal/commit/830adc527f61b2ee815f2065fc378d005379c189"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:7eef3635d2839411ec3811640ed81630c141987b",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:43:19.000+01:00",
+      "title": "Preserve complete saved terminal state across clear and reset",
+      "url": "https://github.com/HelgeSverre/terminal/commit/7eef3635d2839411ec3811640ed81630c141987b"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:8f9f2355352d365ee958e7253bebf1d9e275fe0f",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:40:32.000+01:00",
+      "title": "Keep recovery checkpoint completion and retries live during concurrent reads",
+      "url": "https://github.com/HelgeSverre/terminal/commit/8f9f2355352d365ee958e7253bebf1d9e275fe0f"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:efcdc25dcfd3bc4ff8217302ef631aad17dfcb8c",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:40:17.000+01:00",
+      "title": "Preserve OSC 8 anchor identities through reflow and activation",
+      "url": "https://github.com/HelgeSverre/terminal/commit/efcdc25dcfd3bc4ff8217302ef631aad17dfcb8c"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:f42be8e980f5a3e5892e4bc1a24fc87b0272fcc8",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:39:58.000+01:00",
+      "title": "test: evaluate mutating input and recovery assertions before macros",
+      "url": "https://github.com/HelgeSverre/terminal/commit/f42be8e980f5a3e5892e4bc1a24fc87b0272fcc8"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:1d8cb5a39ea5224d5539d72a04a2a39ea2deeeea",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:38:05.000+01:00",
+      "title": "Preserve the locked running sentinel across interrupted metadata writes",
+      "url": "https://github.com/HelgeSverre/terminal/commit/1d8cb5a39ea5224d5539d72a04a2a39ea2deeeea"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:fc400e7822c56dffec11a03512722341a30be709",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:37:57.000+01:00",
+      "title": "Offer data-driven agent recovery only after an explicit resume action",
+      "url": "https://github.com/HelgeSverre/terminal/commit/fc400e7822c56dffec11a03512722341a30be709"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:30a53506f187d0c51ed3729b8b403ba114ef9022",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:37:42.000+01:00",
+      "title": "test: correct optional readiness and mutating bell assertions",
+      "url": "https://github.com/HelgeSverre/terminal/commit/30a53506f187d0c51ed3729b8b403ba114ef9022"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:8ad0ec2527172accc9ecaf303a394dfc56f1bfb6",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:34:12.000+01:00",
+      "title": "Read scripted directory state on the Cocoa scripting main actor",
+      "url": "https://github.com/HelgeSverre/terminal/commit/8ad0ec2527172accc9ecaf303a394dfc56f1bfb6"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:f04ea3a1cb3145c8b419f99145304217195da8a0",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:32:20.000+01:00",
+      "title": "Resolve merged mouse handler and embedding command arguments",
+      "url": "https://github.com/HelgeSverre/terminal/commit/f04ea3a1cb3145c8b419f99145304217195da8a0"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:5da697e30ad427fc53f6e1d6d714adae02a34213",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:32:20.000+01:00",
+      "title": "Reject FIFO recovery files without blocking startup",
+      "url": "https://github.com/HelgeSverre/terminal/commit/5da697e30ad427fc53f6e1d6d714adae02a34213"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:4e11744c6a5c805510894f7bc93662cf6e46a272",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:32:20.000+01:00",
+      "title": "Include the active hit in headless all-match highlights",
+      "url": "https://github.com/HelgeSverre/terminal/commit/4e11744c6a5c805510894f7bc93662cf6e46a272"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:3f142c62b88e995f7139c6ad75755453f3a2aee9",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:32:20.000+01:00",
+      "title": "Seed recovered history after measuring the first terminal grid",
+      "url": "https://github.com/HelgeSverre/terminal/commit/3f142c62b88e995f7139c6ad75755453f3a2aee9"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:b3719d6e49847a41b719960f19c95e8276b7054c",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:30:50.000+01:00",
+      "title": "Separate parser escape mutation from scalar folding",
+      "url": "https://github.com/HelgeSverre/terminal/commit/b3719d6e49847a41b719960f19c95e8276b7054c"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:f7ecfb0d39cdda8f21521f134ab8ae4d7e4c9a22",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:30:26.000+01:00",
+      "title": "Support grouped bounded regex with leftmost longest matching",
+      "url": "https://github.com/HelgeSverre/terminal/commit/f7ecfb0d39cdda8f21521f134ab8ae4d7e4c9a22"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:41636981077317de781d22ea974d60830cb5f9d3",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:30:26.000+01:00",
+      "title": "Import Core Animation for the pane bell outline",
+      "url": "https://github.com/HelgeSverre/terminal/commit/41636981077317de781d22ea974d60830cb5f9d3"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:106a87b4b00dce7fe98d35dda10f835c3055df8e",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T19:30:26.000+01:00",
+      "title": "Keep recovery launches independent of configured command profiles",
+      "url": "https://github.com/HelgeSverre/terminal/commit/106a87b4b00dce7fe98d35dda10f835c3055df8e"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:a5a221a3decf7355033712ea543ca29b000bfdc3",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:11:04.000+01:00",
+      "title": "Require scripting class descriptions before forming object references",
+      "url": "https://github.com/HelgeSverre/terminal/commit/a5a221a3decf7355033712ea543ca29b000bfdc3"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:7cc1aecd0dfd2179977a5e6605313730ede17d92",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:11:04.000+01:00",
+      "title": "Exercise desktop scripting collections and preference parity in smoke tests",
+      "url": "https://github.com/HelgeSverre/terminal/commit/7cc1aecd0dfd2179977a5e6605313730ede17d92"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:a1513321b2ca8231715c9b13ae97454341358969",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:09:32.000+01:00",
+      "title": "Connect integrated resource, palette and standalone engine interfaces",
+      "url": "https://github.com/HelgeSverre/terminal/commit/a1513321b2ca8231715c9b13ae97454341358969"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:d71a181cdad9971bb9b8f731cea177316659d537",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:09:32.000+01:00",
+      "title": "Honor inline image stretch in renderer placement",
+      "url": "https://github.com/HelgeSverre/terminal/commit/d71a181cdad9971bb9b8f731cea177316659d537"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:0fcde9ce0330db4542ff85400eb06cc21abaec7e",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:09:32.000+01:00",
+      "title": "Add rendered oracle for stretched inline image boxes",
+      "url": "https://github.com/HelgeSverre/terminal/commit/0fcde9ce0330db4542ff85400eb06cc21abaec7e"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:afa64f991f9be748400b6d0ab1f4a8b14ca91a4b",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:09:32.000+01:00",
+      "title": "Preserve inline image stretch intent in render snapshots",
+      "url": "https://github.com/HelgeSverre/terminal/commit/afa64f991f9be748400b6d0ab1f4a8b14ca91a4b"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:7448bf40e7f3b8d213fe5fd049b13cefd4399b9c",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:08:27.000+01:00",
+      "title": "Wire desktop pane actions, visual bell and bounded scripting reads",
+      "url": "https://github.com/HelgeSverre/terminal/commit/7448bf40e7f3b8d213fe5fd049b13cefd4399b9c"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:ac4ab222d8e99a4420a827c610e5bef9331a1a18",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:08:27.000+01:00",
+      "title": "Finalize recovery asynchronously and harden state directory handling",
+      "url": "https://github.com/HelgeSverre/terminal/commit/ac4ab222d8e99a4420a827c610e5bef9331a1a18"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:9da904d81c28dd573cd422da44fb11a94fe508ed",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:08:27.000+01:00",
+      "title": "Bound recovery capture startup and expose ordered history reads",
+      "url": "https://github.com/HelgeSverre/terminal/commit/9da904d81c28dd573cd422da44fb11a94fe508ed"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:4bc3e559bed12a87ea03f9c316a5315f82de1135",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:08:27.000+01:00",
+      "title": "Match xterm attribute color foreground semantics",
+      "url": "https://github.com/HelgeSverre/terminal/commit/4bc3e559bed12a87ea03f9c316a5315f82de1135"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:0ef810ea53394917bd4d33c74204e0c2016aea0d",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:08:20.000+01:00",
+      "title": "Add validated desktop customization and automation controls",
+      "url": "https://github.com/HelgeSverre/terminal/commit/0ef810ea53394917bd4d33c74204e0c2016aea0d"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:a6215894fdc87d0711b6651f733c521c707972a5",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:08:20.000+01:00",
+      "title": "perf: coordinate prebuilt CI test shards and record feedback latency",
+      "url": "https://github.com/HelgeSverre/terminal/commit/a6215894fdc87d0711b6651f733c521c707972a5"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:0ec9e800209b90109ac7f1d0ec0db1775aa1545e",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:08:06.000+01:00",
+      "title": "Cover virtual placement remapping and wide-cell anchors",
+      "url": "https://github.com/HelgeSverre/terminal/commit/0ec9e800209b90109ac7f1d0ec0db1775aa1545e"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:f06ec334e0cfbdb7534eb42d6385cc3fd3a58d38",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:08:06.000+01:00",
+      "title": "Resolve indexed graphics against configured presentation colors",
+      "url": "https://github.com/HelgeSverre/terminal/commit/f06ec334e0cfbdb7534eb42d6385cc3fd3a58d38"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:533f760761c7655df80353e231a3f63af50557e4",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:08:06.000+01:00",
+      "title": "Preserve explicit color overrides and prepare Snacks detection fixture",
+      "url": "https://github.com/HelgeSverre/terminal/commit/533f760761c7655df80353e231a3f63af50557e4"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:19ae7783f1cb0225b088a8d19659e8c54abcba2a",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:07:30.000+01:00",
+      "title": "Preserve UIKit modifier text facts and native edit shortcuts",
+      "url": "https://github.com/HelgeSverre/terminal/commit/19ae7783f1cb0225b088a8d19659e8c54abcba2a"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:4f599f953c6e561854cf32142e674f5d60c04a6c",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:07:30.000+01:00",
+      "title": "Expand UIKit terminal interactions and document embedding contract",
+      "url": "https://github.com/HelgeSverre/terminal/commit/4f599f953c6e561854cf32142e674f5d60c04a6c"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:84b205af997d356e32fc79586f3c218c40cb2f4f",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:07:30.000+01:00",
+      "title": "Make embedding graph explicit and bundle shell resources",
+      "url": "https://github.com/HelgeSverre/terminal/commit/84b205af997d356e32fc79586f3c218c40cb2f4f"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:e9a6e272228f1c456c31118e301bbee292d220db",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:07:30.000+01:00",
+      "title": "Cover Bash PTY metadata and fish prompt pipeline preservation",
+      "url": "https://github.com/HelgeSverre/terminal/commit/e9a6e272228f1c456c31118e301bbee292d220db"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:622f166dc9583faa1ed2d8376814bba5e943b8bd",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:07:30.000+01:00",
+      "title": "Preserve fish pipeline status when invoking user prompt",
+      "url": "https://github.com/HelgeSverre/terminal/commit/622f166dc9583faa1ed2d8376814bba5e943b8bd"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:177b94d3fdee9f824ab22dc183064c861d376b3c",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:07:30.000+01:00",
+      "title": "Preserve host-supplied zsh startup directory through integration",
+      "url": "https://github.com/HelgeSverre/terminal/commit/177b94d3fdee9f824ab22dc183064c861d376b3c"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:1ee865d9bc2fe9b29c21e60f669a7e2810fa6b33",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:07:30.000+01:00",
+      "title": "Add safe Bash and fish integration with bounded command navigation",
+      "url": "https://github.com/HelgeSverre/terminal/commit/1ee865d9bc2fe9b29c21e60f669a7e2810fa6b33"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:11ccf1df50c74a63fbf7b90ae450c7c48dc70bcc",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:07:03.000+01:00",
+      "title": "Add bounded search options and headless selection and search APIs",
+      "url": "https://github.com/HelgeSverre/terminal/commit/11ccf1df50c74a63fbf7b90ae450c7c48dc70bcc"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:abc30793f02580581c522cdfd1864b4458dafa4e",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:06:29.000+01:00",
+      "title": "Support native composition geometry and bounded accessibility history",
+      "url": "https://github.com/HelgeSverre/terminal/commit/abc30793f02580581c522cdfd1864b4458dafa4e"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:7f0945fe713394e7424a1703b28fd96e9c9d437b",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:06:07.000+01:00",
+      "title": "Bound cursor overrides and fractional link hit regions",
+      "url": "https://github.com/HelgeSverre/terminal/commit/7f0945fe713394e7424a1703b28fd96e9c9d437b"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:e1ce3013bb287168c00038734389eb55939d3c75",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:05:52.000+01:00",
+      "title": "Render underline styles, requested blink, and fractional viewports",
+      "url": "https://github.com/HelgeSverre/terminal/commit/e1ce3013bb287168c00038734389eb55939d3c75"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:129a4a73ce73f0e01634cb2efbf8a692de4e21f2",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:05:52.000+01:00",
+      "title": "Add unclean-exit layout and literal scrollback recovery",
+      "url": "https://github.com/HelgeSverre/terminal/commit/129a4a73ce73f0e01634cb2efbf8a692de4e21f2"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:4b5ab33de26841b06571b5fedef944fdfa57e5b4",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:05:10.000+01:00",
+      "title": "Carry graphics through index and wrapped rectangle scrolling",
+      "url": "https://github.com/HelgeSverre/terminal/commit/4b5ab33de26841b06571b5fedef944fdfa57e5b4"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:7ec62e2e03bc939a6a510653fb4c915587aad273",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:05:10.000+01:00",
+      "title": "Expand bounded image protocols and preserve graphics placements",
+      "url": "https://github.com/HelgeSverre/terminal/commit/7ec62e2e03bc939a6a510653fb4c915587aad273"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:33bc38eeff7655d76f32687775544b7a22e4b4e0",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:04:08.000+01:00",
+      "title": "Add negotiated xterm keyboard and extended mouse input",
+      "url": "https://github.com/HelgeSverre/terminal/commit/33bc38eeff7655d76f32687775544b7a22e4b4e0"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:47d7adc99d3031ac3ca419e2a4eb4ce930b7e5aa",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:03:42.000+01:00",
+      "title": "Cover maximum column and reverse-wrap counts",
+      "url": "https://github.com/HelgeSverre/terminal/commit/47d7adc99d3031ac3ca419e2a4eb4ce930b7e5aa"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:d4405c13b9d5f8e4005e9e857f878427ff6c784f",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:03:42.000+01:00",
+      "title": "Fix VT cursor, erase, rectangle and save semantics",
+      "url": "https://github.com/HelgeSverre/terminal/commit/d4405c13b9d5f8e4005e9e857f878427ff6c784f"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:f639dee58d45ba35ee2b699edb336d42a629b598",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T16:00:58.000+01:00",
+      "title": "Add truthful terminal discovery and bounded status queries",
+      "url": "https://github.com/HelgeSverre/terminal/commit/f639dee58d45ba35ee2b699edb336d42a629b598"
+    },
     {
       "id": "commit:HelgeSverre/terminal:67a34c3d9da1c95799769aaddca82f5378d9f0cd",
       "kind": "commit",
@@ -6765,260 +7605,12 @@
       "url": "https://github.com/HelgeSverre/fsdb/commit/09143ea242489f1f41d33b734d548c818dbe632e"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:1f96d210df3aa62ed473ad8342b4acce6b06dcb8",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T18:00:40.000+01:00",
-      "title": "Refresh current-head CJK ngram parity evidence",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/1f96d210df3aa62ed473ad8342b4acce6b06dcb8"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:9926d700c58e94a246ec89583c17461496cc84e0",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T17:57:45.000+01:00",
-      "title": "Decorrelate joined subqueries on integer key tuples",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/9926d700c58e94a246ec89583c17461496cc84e0"
-    },
-    {
       "id": "pr:HelgeSverre/toon-php:11",
       "kind": "merge",
       "repo": "HelgeSverre/toon-php",
       "at": "2026-11-06T17:55:21Z",
       "title": "Adopt Mago with compatibility and coverage safeguards",
       "url": "https://github.com/HelgeSverre/toon-php/pull/11"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:bced5835026f77ffe6796ad823574fbac262fc44",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T17:47:17.000+01:00",
-      "title": "Match Nushu legacy weights across full block",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/bced5835026f77ffe6796ad823574fbac262fc44"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:6a225a1288d7bb2227fd9d04d0b16cf298af436f",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-11-06T17:42:00.000+01:00",
-      "title": "Record uninterrupted fnm hook rerun",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/6a225a1288d7bb2227fd9d04d0b16cf298af436f"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:4544b43fa363f121d6db05c034c705b1a3e48ab5",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T17:37:07.000+01:00",
-      "title": "Name Khitan block in legacy weight audit",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/4544b43fa363f121d6db05c034c705b1a3e48ab5"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:22e5c5505f65103e425708ae2e4aa526f813baba",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-11-06T17:35:35.000+01:00",
-      "title": "Compare fnm local and recursive hooks fairly",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/22e5c5505f65103e425708ae2e4aa526f813baba"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:b7b66fadfa8a5fdaff54bb417ee1ca767db6501f",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T16:45:34.000+01:00",
-      "title": "Index correlated COUNT truth HAVING checks",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/b7b66fadfa8a5fdaff54bb417ee1ca767db6501f"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:99d2fb7a3bf628f7dedfcddeda98a87d10d63d1d",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T16:33:29.000+01:00",
-      "title": "Match Tangut Components and Supplement legacy weights",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/99d2fb7a3bf628f7dedfcddeda98a87d10d63d1d"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:ea45aba4c7c0afd3c6be694563d9f64b8c9067db",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-11-06T16:30:55.000+01:00",
-      "title": "Benchmark mise and proto against nvmr and fnm",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/ea45aba4c7c0afd3c6be694563d9f64b8c9067db"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:a8cf0ff14e0cdb245f4e17ec78419cad5cc24eba",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T16:25:25.000+01:00",
-      "title": "Match full Tangut legacy weight block",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/a8cf0ff14e0cdb245f4e17ec78419cad5cc24eba"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:062602b78003396b630b8762012f45253dd64d95",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T16:16:06.000+01:00",
-      "title": "Match supplementary ideographic symbol weights and ngrams",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/062602b78003396b630b8762012f45253dd64d95"
-    },
-    {
-      "id": "commit:HelgeSverre/toon-php:79f9e2f0e6306eaa5d4fa4e9dadef88edc27af67",
-      "kind": "commit",
-      "repo": "HelgeSverre/toon-php",
-      "at": "2026-11-06T16:13:55.000+01:00",
-      "title": "Preserve legacy behavior and generated coverage in Mago migration",
-      "url": "https://github.com/HelgeSverre/toon-php/commit/79f9e2f0e6306eaa5d4fa4e9dadef88edc27af67"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:e01d36ac06b9b953b7187b304d1eded46d4d275f",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T16:03:04.000+01:00",
-      "title": "Pin non-updatable outer derived view boundary",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/e01d36ac06b9b953b7187b304d1eded46d4d275f"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:8f47a5e4285c46f57bc53ef1272ed24e38506bab",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-11-06T16:02:23.000+01:00",
-      "title": "Pin proto Node and activation plugin contents",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/8f47a5e4285c46f57bc53ef1272ed24e38506bab"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:7bdac4cfb935a63c02a42c8dc23693798a8c388d",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T15:55:29.000+01:00",
-      "title": "Index correlated COUNT IN HAVING checks",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/7bdac4cfb935a63c02a42c8dc23693798a8c388d"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:9d52455f0d2999d5b7dc54929f1dc917580eeab2",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-11-06T15:52:27.000+01:00",
-      "title": "Pin mise and proto releases for fair competitor benchmarks",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/9d52455f0d2999d5b7dc54929f1dc917580eeab2"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:262d005f641a7c48ccab28fba51c4c525f5029ca",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T15:45:11.000+01:00",
-      "title": "Match vertical punctuation legacy weights",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/262d005f641a7c48ccab28fba51c4c525f5029ca"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:33a2bc1bc7629bb3814f9c424ba3389ad1e81ff9",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-11-06T15:35:33.000+01:00",
-      "title": "Speed up version listings and native directory hooks",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/33a2bc1bc7629bb3814f9c424ba3389ad1e81ff9"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:2e99f8366d47c0e491346c40602a9bf657deee01",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T15:32:43.000+01:00",
-      "title": "Match legacy supplemental punctuation weights",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/2e99f8366d47c0e491346c40602a9bf657deee01"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:1b3f9de2a15d90fcc0f59e1229daad0ffce49e0e",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T15:19:15.000+01:00",
-      "title": "Use indexed correlated counts for BETWEEN HAVING bounds",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/1b3f9de2a15d90fcc0f59e1229daad0ffce49e0e"
-    },
-    {
-      "id": "commit:HelgeSverre/resume:c28a836ba235e0d5695a73a7884f3d2e2f633051",
-      "kind": "commit",
-      "repo": "HelgeSverre/resume",
-      "at": "2026-11-06T15:16:57.000+01:00",
-      "title": "Release 1.1.1 (#6)",
-      "url": "https://github.com/HelgeSverre/resume/commit/c28a836ba235e0d5695a73a7884f3d2e2f633051"
-    },
-    {
-      "id": "commit:HelgeSverre/resume:4a83896ac2a2883df2f610f4caf7b41a6fb8d45b",
-      "kind": "commit",
-      "repo": "HelgeSverre/resume",
-      "at": "2026-11-06T15:15:33.000+01:00",
-      "title": "Fix follow-up metadata, Unicode, and terminal-output regressions (#5)",
-      "url": "https://github.com/HelgeSverre/resume/commit/4a83896ac2a2883df2f610f4caf7b41a6fb8d45b"
-    },
-    {
-      "id": "commit:HelgeSverre/github-narcissist-feed:a8f6647b52bbec1c06b4e7962b3558137cda6581",
-      "kind": "commit",
-      "repo": "HelgeSverre/github-narcissist-feed",
-      "at": "2026-11-06T15:14:31.000+01:00",
-      "title": "Attribute closed pull requests to their closer and bump to 0.1.1",
-      "url": "https://github.com/HelgeSverre/github-narcissist-feed/commit/a8f6647b52bbec1c06b4e7962b3558137cda6581"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:cd7d22a684ca08038b31164d5bed5559bc393f99",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T15:11:19.000+01:00",
-      "title": "Use indexed correlated counts for negated HAVING bounds",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/cd7d22a684ca08038b31164d5bed5559bc393f99"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:876d8f7215b2544834b647be2f50c7f06a81bb4c",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T15:01:18.000+01:00",
-      "title": "Consolidate joined-view merged-key contention tests",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/876d8f7215b2544834b647be2f50c7f06a81bb4c"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:93477aa7c4255dda9ecd8b0b085013111004715e",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T14:53:32.000+01:00",
-      "title": "Propagate joined-view locks through merged-key chains",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/93477aa7c4255dda9ecd8b0b085013111004715e"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:024480ef45c7bf99e8113f57a8c7eed0f85cb59a",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T14:45:12.000+01:00",
-      "title": "Carry first natural key through joined-view source chains",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/024480ef45c7bf99e8113f57a8c7eed0f85cb59a"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:be3553b7e12f6355487e898dcea3b7f1b35dbfe8",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T14:39:22.000+01:00",
-      "title": "Carry first USING key through joined-view source chains",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/be3553b7e12f6355487e898dcea3b7f1b35dbfe8"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:cd5d3110af63ae820e537602796720d1889002e7",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T14:32:53.000+01:00",
-      "title": "Propagate joined-view source keys through inner equality chains",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/cd5d3110af63ae820e537602796720d1889002e7"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:107b1be3d942d10801668abdb7ec26ffabdec5da",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-11-06T14:24:00.000+01:00",
-      "title": "Profile nvmr against nvm and fnm in pinned Docker harness",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/107b1be3d942d10801668abdb7ec26ffabdec5da"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:b41cd8938a5de14512334bfed77b571e27234bbf",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T14:23:34.000+01:00",
-      "title": "Narrow natural-join view source locks by shared keys",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/b41cd8938a5de14512334bfed77b571e27234bbf"
     },
     {
       "id": "pr:HelgeSverre/resume:6",
@@ -7029,14 +7621,6 @@
       "url": "https://github.com/HelgeSverre/resume/pull/6"
     },
     {
-      "id": "commit:HelgeSverre/dmscene:f499691e9bd1fe7213d811c6466976673dd5a98e",
-      "kind": "commit",
-      "repo": "HelgeSverre/dmscene",
-      "at": "2026-11-06T14:16:48.000+01:00",
-      "title": "Simplify demo copy and expand linked README preview",
-      "url": "https://github.com/HelgeSverre/dmscene/commit/f499691e9bd1fe7213d811c6466976673dd5a98e"
-    },
-    {
       "id": "pr:HelgeSverre/resume:5",
       "kind": "merge",
       "repo": "HelgeSverre/resume",
@@ -7045,212 +7629,12 @@
       "url": "https://github.com/HelgeSverre/resume/pull/5"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:595bb75467f423c638712b08669606b380dc934b",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T14:14:37.000+01:00",
-      "title": "Narrow joined-view source locks through USING keys",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/595bb75467f423c638712b08669606b380dc934b"
-    },
-    {
-      "id": "commit:HelgeSverre/dmscene:9c526cc32e4439cd4575c372462322ac2e264cc6",
-      "kind": "commit",
-      "repo": "HelgeSverre/dmscene",
-      "at": "2026-11-06T14:13:54.000+01:00",
-      "title": "Restore ASCII README header and keep demo preview",
-      "url": "https://github.com/HelgeSverre/dmscene/commit/9c526cc32e4439cd4575c372462322ac2e264cc6"
-    },
-    {
-      "id": "commit:HelgeSverre/dmscene:d4d6b2252c22576c07223e91579a13bfa7b2f480",
-      "kind": "commit",
-      "repo": "HelgeSverre/dmscene",
-      "at": "2026-11-06T14:08:08.000+01:00",
-      "title": "Add FULL SEND showcase and fix synth voice ownership",
-      "url": "https://github.com/HelgeSverre/dmscene/commit/d4d6b2252c22576c07223e91579a13bfa7b2f480"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:38f22002be16358a7202a219346f3767e8d0f059",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T14:07:14.000+01:00",
-      "title": "Claim read sources for every written joined view",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/38f22002be16358a7202a219346f3767e8d0f059"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:f7c2229a96e25935c51a46d047953e15adc39d26",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T13:55:34.000+01:00",
-      "title": "Reconcile current spatial and CJK oracle status",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/f7c2229a96e25935c51a46d047953e15adc39d26"
-    },
-    {
-      "id": "commit:HelgeSverre/toon-php:672a78b46517667252ac93f9b6e57bad1519ac4e",
-      "kind": "commit",
-      "repo": "HelgeSverre/toon-php",
-      "at": "2026-11-06T13:46:52.000+01:00",
-      "title": "Record packaged Symfony Mate integration and release baseline checks",
-      "url": "https://github.com/HelgeSverre/toon-php/commit/672a78b46517667252ac93f9b6e57bad1519ac4e"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ed593da05b361b8a269c9ef4769575c776f8b649",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T13:45:38.000+01:00",
-      "title": "Use indexed counts for combined correlated EXISTS HAVING bounds",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ed593da05b361b8a269c9ef4769575c776f8b649"
-    },
-    {
-      "id": "commit:HelgeSverre/toon-php:fd2a4bf05c8e1bd07ecbc5fc13991d1ce395789e",
-      "kind": "commit",
-      "repo": "HelgeSverre/toon-php",
-      "at": "2026-11-06T13:43:52.000+01:00",
-      "title": "Add opt-in TOON 4.4 codec and prepare 3.3.0 release",
-      "url": "https://github.com/HelgeSverre/toon-php/commit/fd2a4bf05c8e1bd07ecbc5fc13991d1ce395789e"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:64d0a5e0e17a744b64a5edd07f5822a70f3221fc",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T13:38:35.000+01:00",
-      "title": "Verify autocommit joined-view source waits",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/64d0a5e0e17a744b64a5edd07f5822a70f3221fc"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:2fefb3d8a96be01eb7f3c12e203379ccef1ad133",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T13:33:22.000+01:00",
-      "title": "Lock joined-view read sources in multi-table updates",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/2fefb3d8a96be01eb7f3c12e203379ccef1ad133"
-    },
-    {
-      "id": "commit:HelgeSverre/resume:418933b66f7b738993bbabe3fc786f4f2ea62808",
-      "kind": "commit",
-      "repo": "HelgeSverre/resume",
-      "at": "2026-11-06T13:24:02.000+01:00",
-      "title": "Release 1.1.0 (#4)",
-      "url": "https://github.com/HelgeSverre/resume/commit/418933b66f7b738993bbabe3fc786f4f2ea62808"
-    },
-    {
-      "id": "commit:HelgeSverre/resume:25b4a2310ac0235f8f442fdbd1c0894b1f029d85",
-      "kind": "commit",
-      "repo": "HelgeSverre/resume",
-      "at": "2026-11-06T13:22:58.000+01:00",
-      "title": "Use current Codex turn directory and monotonic activity timestamps (#3)",
-      "url": "https://github.com/HelgeSverre/resume/commit/25b4a2310ac0235f8f442fdbd1c0894b1f029d85"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:fcafb18ff8f205560fda1c87cccc4037896ca1c7",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T13:21:51.000+01:00",
-      "title": "Wait on joined-view read sources before rebasing updates",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/fcafb18ff8f205560fda1c87cccc4037896ca1c7"
-    },
-    {
       "id": "pr:HelgeSverre/toon-php:10",
       "kind": "merge",
       "repo": "HelgeSverre/toon-php",
       "at": "2026-11-06T13:07:31Z",
       "title": "Support explicit TOON 3.3, 4.1 and 4.4 formats without changing defaults",
       "url": "https://github.com/HelgeSverre/toon-php/pull/10"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:89dc32f65b99330c10af23531519afff9da0b334",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T13:07:14.000+01:00",
-      "title": "Probe Chinese collation tailoring and weight composition",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/89dc32f65b99330c10af23531519afff9da0b334"
-    },
-    {
-      "id": "commit:HelgeSverre/resume:8b2ee4962e14cc0a31e742ef6181e8cce959e7b4",
-      "kind": "commit",
-      "repo": "HelgeSverre/resume",
-      "at": "2026-11-06T13:04:05.000+01:00",
-      "title": "Match saved npm publisher workflow and allow release retries (#2)",
-      "url": "https://github.com/HelgeSverre/resume/commit/8b2ee4962e14cc0a31e742ef6181e8cce959e7b4"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:0d700ee67ffda04cf1ff44aeeb06f199d47cf9de",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T12:58:20.000+01:00",
-      "title": "Cover dependent UNION CTEs in writable joined views",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/0d700ee67ffda04cf1ff44aeeb06f199d47cf9de"
-    },
-    {
-      "id": "commit:HelgeSverre/resume:f1adf6e1c325524561679eb1dc4d5e23ac40bb43",
-      "kind": "commit",
-      "repo": "HelgeSverre/resume",
-      "at": "2026-11-06T12:55:35.000+01:00",
-      "title": "Prepare 1.1.0: async discovery, launch after exit, and trusted publishing (#1)",
-      "url": "https://github.com/HelgeSverre/resume/commit/f1adf6e1c325524561679eb1dc4d5e23ac40bb43"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:55d5fb8736bbad0b33ff51f6d08df309f692aae3",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T12:53:17.000+01:00",
-      "title": "Audit Extension A U+4600 ngram parity",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/55d5fb8736bbad0b33ff51f6d08df309f692aae3"
-    },
-    {
-      "id": "commit:HelgeSverre/laravel-prunekeeper:58150fa67893507ff8b5920dec97903628e5f57a",
-      "kind": "commit",
-      "repo": "HelgeSverre/laravel-prunekeeper",
-      "at": "2026-11-06T12:48:17.000+01:00",
-      "title": "docs: add test status badge to README",
-      "url": "https://github.com/HelgeSverre/laravel-prunekeeper/commit/58150fa67893507ff8b5920dec97903628e5f57a"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:55eae6b754f9a57822f5128185042f91667fcaf3",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T12:44:36.000+01:00",
-      "title": "Bound grouped EXISTS counts by correlated equality keys",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/55eae6b754f9a57822f5128185042f91667fcaf3"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:948422059931dc50eb8f60b3ed747d34b36a62e5",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T12:38:33.000+01:00",
-      "title": "Use indexed counts for correlated EXISTS HAVING thresholds",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/948422059931dc50eb8f60b3ed747d34b36a62e5"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:76922afbafd7109c312dd6b45c41cc27c1ad053c",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T12:29:34.000+01:00",
-      "title": "Cover dependent CTE view writes under contention",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/76922afbafd7109c312dd6b45c41cc27c1ad053c"
-    },
-    {
-      "id": "commit:HelgeSverre/homebrew-tap:61ee229d2b50ef79a7a98e49b9cd2f3233287a9c",
-      "kind": "commit",
-      "repo": "HelgeSverre/homebrew-tap",
-      "at": "2026-11-06T12:29:05.000+01:00",
-      "title": "Remove redundant nvmr formula version",
-      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/61ee229d2b50ef79a7a98e49b9cd2f3233287a9c"
-    },
-    {
-      "id": "commit:HelgeSverre/homebrew-tap:f9da8154664b2f62ad1b07921ea6c75d2488d8fa",
-      "kind": "commit",
-      "repo": "HelgeSverre/homebrew-tap",
-      "at": "2026-11-06T12:26:39.000+01:00",
-      "title": "Add nvmr v0.1.0 formula",
-      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/f9da8154664b2f62ad1b07921ea6c75d2488d8fa"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ecd1f5935632f4d6321836d7de49e5e633fa2f73",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T12:25:00.000+01:00",
-      "title": "Record rejected three-scope metadata cache trial",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ecd1f5935632f4d6321836d7de49e5e633fa2f73"
     },
     {
       "id": "pr:HelgeSverre/resume:4",
@@ -7269,118 +7653,6 @@
       "url": "https://github.com/HelgeSverre/resume/pull/3"
     },
     {
-      "id": "commit:HelgeSverre/nvmr:acf54850b6f1b04dab3a2f7d29719d4065d84ba4",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-11-06T12:21:14.000+01:00",
-      "title": "Document installation and license nvmr under MIT",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/acf54850b6f1b04dab3a2f7d29719d4065d84ba4"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:315a918adcd0db52370cb413e07c9b9a80e6e28b",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T12:18:43.000+01:00",
-      "title": "Verify repeated dependent CTE view sources",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/315a918adcd0db52370cb413e07c9b9a80e6e28b"
-    },
-    {
-      "id": "commit:HelgeSverre/laravel-prunekeeper:3a87c0e55472a701e6c2d6536d8504b9efb00ad6",
-      "kind": "commit",
-      "repo": "HelgeSverre/laravel-prunekeeper",
-      "at": "2026-11-06T12:17:56.000+01:00",
-      "title": "fix: declare Intl requirement for archive size reporting",
-      "url": "https://github.com/HelgeSverre/laravel-prunekeeper/commit/3a87c0e55472a701e6c2d6536d8504b9efb00ad6"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:6c19e69d84c5db0a6fd59ac56cbd241fd1dd9e29",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T12:15:38.000+01:00",
-      "title": "Cover renamed and star dependent CTE view chains",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/6c19e69d84c5db0a6fd59ac56cbd241fd1dd9e29"
-    },
-    {
-      "id": "commit:HelgeSverre/laravel-prunekeeper:829ccbb83eaa05f8d327202170ca341e95a46f85",
-      "kind": "commit",
-      "repo": "HelgeSverre/laravel-prunekeeper",
-      "at": "2026-11-06T12:15:21.000+01:00",
-      "title": "docs: prepare v2.1.0 release and document archive guarantees",
-      "url": "https://github.com/HelgeSverre/laravel-prunekeeper/commit/829ccbb83eaa05f8d327202170ca341e95a46f85"
-    },
-    {
-      "id": "commit:HelgeSverre/laravel-prunekeeper:54f3e2f6533d23b785a309e5a1aaaacbaa6b2ac2",
-      "kind": "commit",
-      "repo": "HelgeSverre/laravel-prunekeeper",
-      "at": "2026-11-06T12:15:21.000+01:00",
-      "title": "feat: support Laravel 13 with isolated Docker compatibility testing",
-      "url": "https://github.com/HelgeSverre/laravel-prunekeeper/commit/54f3e2f6533d23b785a309e5a1aaaacbaa6b2ac2"
-    },
-    {
-      "id": "commit:HelgeSverre/laravel-prunekeeper:516e6b70677ebcbd855b1d07c57a48e721a7c397",
-      "kind": "commit",
-      "repo": "HelgeSverre/laravel-prunekeeper",
-      "at": "2026-11-06T12:15:08.000+01:00",
-      "title": "fix: validate pruning models and align archive lifecycle behavior",
-      "url": "https://github.com/HelgeSverre/laravel-prunekeeper/commit/516e6b70677ebcbd855b1d07c57a48e721a7c397"
-    },
-    {
-      "id": "commit:HelgeSverre/laravel-prunekeeper:c9877536dc1f578ecd8de175f8ab3c710f2abc90",
-      "kind": "commit",
-      "repo": "HelgeSverre/laravel-prunekeeper",
-      "at": "2026-11-06T12:15:08.000+01:00",
-      "title": "fix: harden archive publication and compression failures",
-      "url": "https://github.com/HelgeSverre/laravel-prunekeeper/commit/c9877536dc1f578ecd8de175f8ab3c710f2abc90"
-    },
-    {
-      "id": "commit:HelgeSverre/laravel-prunekeeper:1e8865683c12061c9dfba12c98099402a05a83c9",
-      "kind": "commit",
-      "repo": "HelgeSverre/laravel-prunekeeper",
-      "at": "2026-11-06T12:14:47.000+01:00",
-      "title": "fix: preserve archive data and SQL restore fidelity",
-      "url": "https://github.com/HelgeSverre/laravel-prunekeeper/commit/1e8865683c12061c9dfba12c98099402a05a83c9"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:0ed4b0d9a5367d476c72a2af0624435a055db830",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T12:13:36.000+01:00",
-      "title": "Keep dependent CTE scope in writable joined views",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/0ed4b0d9a5367d476c72a2af0624435a055db830"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:8735fe0afb18e5bf54fe55714065e45f784d45e6",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-11-06T12:12:46.000+01:00",
-      "title": "Write release checksums after Docker bundle build",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/8735fe0afb18e5bf54fe55714065e45f784d45e6"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:1aa8464cf2ea1b665a6b327e58b599eb145e5d87",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-11-06T12:10:37.000+01:00",
-      "title": "Fix release bundle smoke environment",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/1aa8464cf2ea1b665a6b327e58b599eb145e5d87"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:5964c5a00e0c6742e6c02dd0e46ae97de799bd3b",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-11-06T12:08:07.000+01:00",
-      "title": "Fix nvm parity edge cases and prepare Linux release bundles",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/5964c5a00e0c6742e6c02dd0e46ae97de799bd3b"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:19e1e644434806593dd75b2b53bf5d5ac0c8e113",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T12:06:02.000+01:00",
-      "title": "Verify DISTINCT and windowed joined-view sources",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/19e1e644434806593dd75b2b53bf5d5ac0c8e113"
-    },
-    {
       "id": "pr:HelgeSverre/resume:2",
       "kind": "merge",
       "repo": "HelgeSverre/resume",
@@ -7389,276 +7661,12 @@
       "url": "https://github.com/HelgeSverre/resume/pull/2"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:dfb5a06f64a6c88c068589d2dd3a8f1c25878e2f",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T12:01:53.000+01:00",
-      "title": "Record mixed-script Chinese key constraint",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/dfb5a06f64a6c88c068589d2dd3a8f1c25878e2f"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:10f59c28d1493b993c4e95910ee951f70c3dbdcf",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T12:00:25.000+01:00",
-      "title": "Compare Chinese Han ordering with CLDR 30 pinyin",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/10f59c28d1493b993c4e95910ee951f70c3dbdcf"
-    },
-    {
       "id": "pr:HelgeSverre/resume:1",
       "kind": "merge",
       "repo": "HelgeSverre/resume",
       "at": "2026-11-06T11:55:36Z",
       "title": "Prepare 1.1.0: async discovery, launch after exit, and trusted publishing",
       "url": "https://github.com/HelgeSverre/resume/pull/1"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:86cca780d1102871d9149015c30dd782636b6fb5",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T11:54:41.000+01:00",
-      "title": "Measure Chinese Han collation ordering breadth",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/86cca780d1102871d9149015c30dd782636b6fb5"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:1e8c575f263264437843e67b4ce6398bb0b6b741",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T11:52:40.000+01:00",
-      "title": "Record rejected Chinese stroke collation trial",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/1e8c575f263264437843e67b4ce6398bb0b6b741"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ee1f006e91b8843f5a3abf4a7d969a6537ce20aa",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T11:49:18.000+01:00",
-      "title": "Verify Chinese collation indexed range divergence",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ee1f006e91b8843f5a3abf4a7d969a6537ce20aa"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:f0cf7a6c1c63c1c2eecaecff5ac7b0ba098a336f",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T11:47:49.000+01:00",
-      "title": "Verify Chinese Han scalar comparison divergence",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/f0cf7a6c1c63c1c2eecaecff5ac7b0ba098a336f"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:dd108921c3dc206480e76a7ab595cc347125fb59",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T11:46:33.000+01:00",
-      "title": "Document Chinese 0900 Han ordering divergence",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/dd108921c3dc206480e76a7ab595cc347125fb59"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:b6e135df8485994b52cbe0ff45fd6ff73c6cc08c",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T11:41:28.000+01:00",
-      "title": "Verify nested writable-view groups against MySQL",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/b6e135df8485994b52cbe0ff45fd6ff73c6cc08c"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:b2b660a30bdf9a69c006d91568791ed4dea2f100",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T11:37:15.000+01:00",
-      "title": "Record reverted statement-access fast-path benchmark",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/b2b660a30bdf9a69c006d91568791ed4dea2f100"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:48b5d156ac4b3f279712013664e3b8746591943b",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T11:28:30.000+01:00",
-      "title": "Bind grouped natural keys through writable view updates",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/48b5d156ac4b3f279712013664e3b8746591943b"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:a40b22f85ef8782ce58ab66a0f3f080d3cfc563b",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T11:15:57.000+01:00",
-      "title": "Expand grouped writable views after a physical update source",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/a40b22f85ef8782ce58ab66a0f3f080d3cfc563b"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:dccdc407a53feb92429d9fa556169687343c35b6",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T11:06:45.000+01:00",
-      "title": "Index equivalent zero-count HAVING comparisons",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/dccdc407a53feb92429d9fa556169687343c35b6"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:1382979e2e60928963c0390b23271a75a80c2230",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T11:03:29.000+01:00",
-      "title": "Index zero COUNT HAVING in correlated EXISTS",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/1382979e2e60928963c0390b23271a75a80c2230"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:b5509354370c9656c937588a63edeeb9a4543cdc",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T10:59:41.000+01:00",
-      "title": "Index nonzero COUNT HAVING membership and verify case-sensitive CJK ngrams",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/b5509354370c9656c937588a63edeeb9a4543cdc"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:03f7aafc738ef8cc3f124dbb2d928af1d3bcfb2e",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T10:55:45.000+01:00",
-      "title": "Cover accent-sensitive UCA 9 CJK ngrams in native oracle",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/03f7aafc738ef8cc3f124dbb2d928af1d3bcfb2e"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:9bcf80e5d34be9241d53649aaad60a58324fb9ed",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T10:50:38.000+01:00",
-      "title": "Index positive COUNT HAVING in correlated EXISTS",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/9bcf80e5d34be9241d53649aaad60a58324fb9ed"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:b00ab4bb72bf630dd316c2009e1b82273d228a81",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T10:44:51.000+01:00",
-      "title": "Extend geographic relation probe and refresh write baseline",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/b00ab4bb72bf630dd316c2009e1b82273d228a81"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:9239177f7ab6eda601a425930858b0c8e72af5d7",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T10:40:50.000+01:00",
-      "title": "Verify Japanese CJK ngrams at all token sizes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/9239177f7ab6eda601a425930858b0c8e72af5d7"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:251b1f880336028fb0f59d58551fb9e27122ef11",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T10:38:43.000+01:00",
-      "title": "Match UCA 9 Jamo composition in CJK ngrams",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/251b1f880336028fb0f59d58551fb9e27122ef11"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:55f54f92cc619080bca431b3286bd774a1ade7bf",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T10:35:40.000+01:00",
-      "title": "Correct UCA 9 Mongolian separator ngram weight",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/55f54f92cc619080bca431b3286bd774a1ade7bf"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:5620d68173377b6550ad98b62060043f2f038d91",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T10:29:30.000+01:00",
-      "title": "Classify remaining 0900 AI CJK ngram differences",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/5620d68173377b6550ad98b62060043f2f038d91"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:a4ff0a746b45a49d4c6e5e139d4408b25cc72b60",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T10:25:55.000+01:00",
-      "title": "Index safe aliased grouping in correlated EXISTS",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/a4ff0a746b45a49d4c6e5e139d4408b25cc72b60"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:bf77870ba040d1476d510795d8002e3463d3ff58",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T10:20:53.000+01:00",
-      "title": "Expand four-view oracle and identify grouped mutation gap",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/bf77870ba040d1476d510795d8002e3463d3ff58"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:2dde3656653ca948c5259b54d9d9c3181ee6e84c",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T10:07:31.000+01:00",
-      "title": "Index grouped correlated EXISTS with null-check projections",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/2dde3656653ca948c5259b54d9d9c3181ee6e84c"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:dfd42b208dd465e8c906bc4e8482b1653e4bde99",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T10:02:31.000+01:00",
-      "title": "Trace geographic endpoint relation disagreement",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/dfd42b208dd465e8c906bc4e8482b1653e4bde99"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:efcc11910f1921d7dd9c46edb45995edca5de682",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T09:59:23.000+01:00",
-      "title": "Match Boost reduced-length grouping for geographic distances",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/efcc11910f1921d7dd9c46edb45995edca5de682"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:835d32906ed0e83e18fec2b67af97bd424544f2a",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T09:55:03.000+01:00",
-      "title": "Use SRS-radian endpoints through geographic direct distance",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/835d32906ed0e83e18fec2b67af97bd424544f2a"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:2bded4b1670fe9734e97710bb6aeb96ed01ec916",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T09:48:47.000+01:00",
-      "title": "Match MySQL legacy Unicode fullwidth weights and equality",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/2bded4b1670fe9734e97710bb6aeb96ed01ec916"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:f6ca4714ebb457afbad6e24b482e1dbe50306b91",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T09:40:03.000+01:00",
-      "title": "Match MySQL general collation weights for fullwidth forms",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/f6ca4714ebb457afbad6e24b482e1dbe50306b91"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:1f97a24e416cf5dd1d19edaee9ee285e75ae9387",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T09:33:13.000+01:00",
-      "title": "Expand four-view mixed join oracle",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/1f97a24e416cf5dd1d19edaee9ee285e75ae9387"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:77ecd1ab7126ce35e7b0d2a6c013e937266ddae4",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T09:29:03.000+01:00",
-      "title": "Audit four writable views through mixed joins",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/77ecd1ab7126ce35e7b0d2a6c013e937266ddae4"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:154186389e9685e93f8cf3e338e0caff3f85268e",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T09:24:37.000+01:00",
-      "title": "Allow reads past blocked writers under global read lock",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/154186389e9685e93f8cf3e338e0caff3f85268e"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:be2cc607a14c8c25bffd7e58e557bf566f5ff46f",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T09:18:29.000+01:00",
-      "title": "Index correlated EXISTS with null-safe grouped checks",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/be2cc607a14c8c25bffd7e58e557bf566f5ff46f"
     },
     {
       "id": "pr:HelgeSverre/fsdb:206",
@@ -7675,6 +7683,102 @@
       "at": "2026-11-04T09:23:28Z",
       "title": "Observe pending DECIMAL inserts in limited ordered writes",
       "url": "https://github.com/HelgeSverre/fsdb/pull/205"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:449236333",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T21:46:17Z",
+      "title": "v0.1.9",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.9"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:448570781",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T12:01:30Z",
+      "title": "v0.1.8",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.8"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:448541781",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T11:33:31Z",
+      "title": "v0.1.7",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.7"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:438457466",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T19:07:55Z",
+      "title": "v0.1.5",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.5"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:438439363",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T18:34:50Z",
+      "title": "v0.1.4",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.4"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:438371054",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-08T16:33:16Z",
+      "title": "v0.1.3",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.3"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:437110773",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T22:08:02Z",
+      "title": "v0.1.2",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.2"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:437017794",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T20:50:12Z",
+      "title": "v0.1.1",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.1"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:436913518",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-06T19:35:50Z",
+      "title": "v0.1.0",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:433914061",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T12:50:13Z",
+      "title": "v0.1.0-preview.43",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0-preview.43"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:433784671",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-04T10:30:55Z",
+      "title": "v0.1.0-preview.42",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0-preview.42"
+    },
+    {
+      "id": "release:HelgeSverre/terminal:449339028",
+      "kind": "release",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-17T23:48:29Z",
+      "title": "v0.6.2",
+      "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.6.2"
     },
     {
       "id": "release:HelgeSverre/terminal:446908850",
@@ -7771,86 +7875,6 @@
       "at": "2026-11-09T20:25:59Z",
       "title": "v0.2.3",
       "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.2.3"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:448570781",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-17T12:01:30Z",
-      "title": "v0.1.8",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.8"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:448541781",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-17T11:33:31Z",
-      "title": "v0.1.7",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.7"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:438457466",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-08T19:07:55Z",
-      "title": "v0.1.5",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.5"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:438439363",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-08T18:34:50Z",
-      "title": "v0.1.4",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.4"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:438371054",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-08T16:33:16Z",
-      "title": "v0.1.3",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.3"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:437110773",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T22:08:02Z",
-      "title": "v0.1.2",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.2"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:437017794",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T20:50:12Z",
-      "title": "v0.1.1",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.1"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:436913518",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T19:35:50Z",
-      "title": "v0.1.0",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:433914061",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-04T12:50:13Z",
-      "title": "v0.1.0-preview.43",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0-preview.43"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:433784671",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-04T10:30:55Z",
-      "title": "v0.1.0-preview.42",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0-preview.42"
     },
     {
       "id": "release:HelgeSverre/homebrew-tap:439248081",
@@ -8019,14 +8043,6 @@
       "at": "2026-11-06T12:06:10Z",
       "title": "v1.1.0-rc.1",
       "url": "https://github.com/HelgeSverre/resume/releases/tag/v1.1.0-rc.1"
-    },
-    {
-      "id": "release:HelgeSverre/laravel-prunekeeper:436414187",
-      "kind": "release",
-      "repo": "HelgeSverre/laravel-prunekeeper",
-      "at": "2026-11-06T11:20:23Z",
-      "title": "v2.1.0",
-      "url": "https://github.com/HelgeSverre/laravel-prunekeeper/releases/tag/v2.1.0"
     }
   ]
 }
