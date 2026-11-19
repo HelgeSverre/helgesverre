@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-19T00:32:34.566Z",
-  "since": "2026-11-05T00:32:34.566Z",
+  "fetchedAt": "2026-11-19T06:24:27.151Z",
+  "since": "2026-11-05T06:24:27.151Z",
   "partial": true,
   "events": [
     {
@@ -7587,14 +7587,6 @@
       "at": "2026-11-06T22:44:16.000+01:00",
       "title": "chore: checkpoint existing workspace changes",
       "url": "https://github.com/sema-lisp/sema-coder/commit/04ef56f70d3940738b6d908be00da51b06a8f256"
-    },
-    {
-      "id": "commit:HelgeSverre/dmscene:ab790e41ab75a1ddbd48a0cfb2e96fd987f70758",
-      "kind": "commit",
-      "repo": "HelgeSverre/dmscene",
-      "at": "2026-11-06T22:42:29.000+01:00",
-      "title": "Wake playback on scroll input and reduce first-motion latency",
-      "url": "https://github.com/HelgeSverre/dmscene/commit/ab790e41ab75a1ddbd48a0cfb2e96fd987f70758"
     },
     {
       "id": "pr:HelgeSverre/toon-php:12",
