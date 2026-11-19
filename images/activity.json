@@ -1,9 +1,329 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-18T18:18:45.489Z",
-  "since": "2026-11-04T18:18:45.489Z",
+  "fetchedAt": "2026-11-19T00:32:34.566Z",
+  "since": "2026-11-05T00:32:34.566Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:ff65835a52cc187db63029288fe37d704cb4846d",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-18T22:38:15.000+01:00",
+      "title": "Site test: Helge Terminal and Helge Launcher ship universal builds",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/ff65835a52cc187db63029288fe37d704cb4846d"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:7942585a757f41e0d70d97869fd15f922bbde1b8",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T22:28:04.000+01:00",
+      "title": "Test waits for the pid, not the file",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/7942585a757f41e0d70d97869fd15f922bbde1b8"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:945548fe07b3bc5d34575d87308d5208fee52fec",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T22:25:31.000+01:00",
+      "title": "Release 0.1.1",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/945548fe07b3bc5d34575d87308d5208fee52fec"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:0bd9f0c3d62b6536354fde1357e480bfb7bef4ee",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T22:01:42.000+01:00",
+      "title": "Cleanup document: final verification",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/0bd9f0c3d62b6536354fde1357e480bfb7bef4ee"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:cb90516752ac9941a08573cbd7398935058612e3",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T22:00:09.000+01:00",
+      "title": "Cleanup document: Sweep B verify",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/cb90516752ac9941a08573cbd7398935058612e3"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:f736061d6f430c050b9aaabb39a2aafb32fb5cb8",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T21:59:43.000+01:00",
+      "title": "Docs: match AI start errors, plugin exit text, icon rule, ⌘W",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/f736061d6f430c050b9aaabb39a2aafb32fb5cb8"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:9e750ea9f2059a2edef92741d8f3cdaa0e4dfeb2",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T21:57:26.000+01:00",
+      "title": "Sweep B Challenge repairs",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/9e750ea9f2059a2edef92741d8f3cdaa0e4dfeb2"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:c4aa58dd330b3ada170b36977d47ecf780ca4efb",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T21:55:47.000+01:00",
+      "title": "Side effects are no-ops under test runners",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/c4aa58dd330b3ada170b36977d47ecf780ca4efb"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:94e8987c19b790ec7d1baf92a6212df862a807af",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T21:51:38.000+01:00",
+      "title": "Lint clean; cleanup document: Sweep B decisions",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/94e8987c19b790ec7d1baf92a6212df862a807af"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:e3266fcccab7c1918a5966e0d3156d76dd059c59",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T21:51:01.000+01:00",
+      "title": "Sweep B4: comments and formatting",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/e3266fcccab7c1918a5966e0d3156d76dd059c59"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:19ee671426bcf36da4041ec2277303bf0ccecc85",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T21:48:59.000+01:00",
+      "title": "Sweep B3: items, actions and modes",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/19ee671426bcf36da4041ec2277303bf0ccecc85"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:6898cf73f3d6f58623fc886f00b1d9b598cb72f5",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T21:45:07.000+01:00",
+      "title": "Sweep B2: app shell owners",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/6898cf73f3d6f58623fc886f00b1d9b598cb72f5"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:7b7738b44be29ab3976f7e770f52a79178d5d161",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T21:43:02.000+01:00",
+      "title": "Sweep B1: config, pasteboard, 1Password, clipboard and process owners",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/7b7738b44be29ab3976f7e770f52a79178d5d161"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:f545f019a1dc28fef895086b0c58a7378219f6ba",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T21:34:59.000+01:00",
+      "title": "Cleanup document: Sweep A closed",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/f545f019a1dc28fef895086b0c58a7378219f6ba"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:80653093ee0d77c3a90e7ecc72e32f54b3101980",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T21:32:31.000+01:00",
+      "title": "Cleanup document: A11",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/80653093ee0d77c3a90e7ecc72e32f54b3101980"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:1cf20a602ccf0cd1b95bef603fb7a1cb0b2de006",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T21:32:31.000+01:00",
+      "title": "Tests use a private pasteboard",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/1cf20a602ccf0cd1b95bef603fb7a1cb0b2de006"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:9612cd231968882d1c394b86c4d79ad436dd3152",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-18T21:30:44.000Z",
+      "title": "helge-launcher 0.1.1",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/9612cd231968882d1c394b86c4d79ad436dd3152"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:b851c45d6b5d7c10f90c720ed5c1e89ba098bf0d",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T21:26:27.000+01:00",
+      "title": "Cleanup document: A10 and Verify 5",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/b851c45d6b5d7c10f90c720ed5c1e89ba098bf0d"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:45eee1dfb0b1170b4aea2e518f36d36c15c0cc09",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T21:26:00.000+01:00",
+      "title": "Sweep A Verify 5 repairs",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/45eee1dfb0b1170b4aea2e518f36d36c15c0cc09"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:036857e5893391f4cadfc02bda586b66c9c66216",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T21:22:27.000+01:00",
+      "title": "Cleanup document: A9 commit",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/036857e5893391f4cadfc02bda586b66c9c66216"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:66b9118a2662899af25027dc71e3914053cf8ec7",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T21:22:27.000+01:00",
+      "title": "Sweep A Verify 4 repairs",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/66b9118a2662899af25027dc71e3914053cf8ec7"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:9541a1f9eebf4eabbf49dcce04070aa19b5d37fd",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T21:18:17.000+01:00",
+      "title": "Cleanup document: revision for A8 statuses",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/9541a1f9eebf4eabbf49dcce04070aa19b5d37fd"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:869ccd0c16c29c9c4fc20f72576f3785a839f5be",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T21:18:12.000+01:00",
+      "title": "Sweep A Verify 3 repairs",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/869ccd0c16c29c9c4fc20f72576f3785a839f5be"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:7cd7eab457b28cd95aed5a8e2f0d1b426ad331fe",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T21:13:29.000+01:00",
+      "title": "Sweep A Verify 2 repairs",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/7cd7eab457b28cd95aed5a8e2f0d1b426ad331fe"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:d54bdcfc7ce55606bd7b2074318cce0842715b55",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T21:09:01.000+01:00",
+      "title": "Cleanup document: Sweep A statuses through Verify 1",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/d54bdcfc7ce55606bd7b2074318cce0842715b55"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:be5177d88e7e2ff41da9bc6ea8428e61d60f019f",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T21:08:29.000+01:00",
+      "title": "Sweep A Verify repairs",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/be5177d88e7e2ff41da9bc6ea8428e61d60f019f"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:335101709880e397a695c8353d6e05ab7903719b",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T21:00:24.000+01:00",
+      "title": "Sweep A Challenge repairs",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/335101709880e397a695c8353d6e05ab7903719b"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:ed91cf73f8673ca15b9c0fcf8c7ac8f276c29cd4",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T20:47:38.000+01:00",
+      "title": "Cleanup document: Sweep A implementation status",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/ed91cf73f8673ca15b9c0fcf8c7ac8f276c29cd4"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:1e7c501766df3ffff8656d9fc95bf20ebb90ba02",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T20:47:15.000+01:00",
+      "title": "Config reload, clipboard images, menu state",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/1e7c501766df3ffff8656d9fc95bf20ebb90ba02"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:c01dcc4bb11e25345c066f7c7795dfb140eb470c",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T20:45:07.000+01:00",
+      "title": "Processes, 1Password and snippet secrets",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/c01dcc4bb11e25345c066f7c7795dfb140eb470c"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:52d0cf9067b72549cbd2c13971dde0f1169aabfe",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T20:42:20.000+01:00",
+      "title": "Launcher: fence plugin results by mode, keep selection by id",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/52d0cf9067b72549cbd2c13971dde0f1169aabfe"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:f96694beeed475a6096309db0f5cdbfea691f64c",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T20:40:07.000+01:00",
+      "title": "AI: own the opencode server lifecycle and fence conversations",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/f96694beeed475a6096309db0f5cdbfea691f64c"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:52c2f0d6432219485ceb9716648037ea44f49559",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T20:28:17.000+01:00",
+      "title": "Create the config directory before running a plugin from it",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/52c2f0d6432219485ceb9716648037ea44f49559"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:9dd6488b9139ec0316ff981ee818f93bcfdc38cd",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T20:26:15.000+01:00",
+      "title": "Docs: plugins, snippets, config, AI; example plugins incl. Sema",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/9dd6488b9139ec0316ff981ee818f93bcfdc38cd"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:a94611b013bce3bc14b4e7fca00380af75fd42f5",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T20:26:15.000+01:00",
+      "title": "Plugins: exec argument lists, env, prefix jump; more snippet placeholders",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/a94611b013bce3bc14b4e7fca00380af75fd42f5"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:6b5b4b752b27b65861c099730bdcd22bf7f4c11d",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T20:10:25.000+01:00",
+      "title": "Don't paste the op:// reference when 1Password can't read it",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/6b5b4b752b27b65861c099730bdcd22bf7f4c11d"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:fecbac04b7a80c96fd172027cf39056af30d6257",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T20:10:05.000+01:00",
+      "title": "Document snippet placeholders and 1Password references",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/fecbac04b7a80c96fd172027cf39056af30d6257"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:1130e238b77d5526776414a5204a53dada8db904",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T20:09:46.000+01:00",
+      "title": "Drop the Kassal command example",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/1130e238b77d5526776414a5204a53dada8db904"
+    },
+    {
+      "id": "commit:HelgeSverre/helge-launcher:3a68570f490f948f8b4668c24a53ab558599738f",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T19:56:53.000+01:00",
+      "title": "Build each architecture separately and merge with lipo",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/3a68570f490f948f8b4668c24a53ab558599738f"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:0dbe7edbccc51a60d528e82b73ebfd5422122076",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-18T19:02:41.000Z",
+      "title": "helge-launcher 0.1.0",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/0dbe7edbccc51a60d528e82b73ebfd5422122076"
+    },
     {
       "id": "commit:HelgeSverre/helge-launcher:58897cf482afbd1b85e701870eb82a3ce90ace28",
       "kind": "commit",
@@ -7277,324 +7597,12 @@
       "url": "https://github.com/HelgeSverre/dmscene/commit/ab790e41ab75a1ddbd48a0cfb2e96fd987f70758"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:944c97ffb9af8f30277bf55bcbdf09fe099b6d40",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T22:32:42.000+01:00",
-      "title": "Restore Japanese kana full-text token parity",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/944c97ffb9af8f30277bf55bcbdf09fe099b6d40"
-    },
-    {
-      "id": "commit:HelgeSverre/dmscene:d15847ab50952750f743b74a36ada9083b35e180",
-      "kind": "commit",
-      "repo": "HelgeSverre/dmscene",
-      "at": "2026-11-06T22:12:08.000+01:00",
-      "title": "Make terminal scrubbing smooth with asynchronous cached audio seeks",
-      "url": "https://github.com/HelgeSverre/dmscene/commit/d15847ab50952750f743b74a36ada9083b35e180"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:c142bcdef65ffcd7d6648d920da75e24958b84e2",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T22:10:53.000+01:00",
-      "title": "Claim union and grouped view materialization sources",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/c142bcdef65ffcd7d6648d920da75e24958b84e2"
-    },
-    {
-      "id": "commit:HelgeSverre/dmscene:4a13d5b96e099d9f40718da2bd828c88d004a306",
-      "kind": "commit",
-      "repo": "HelgeSverre/dmscene",
-      "at": "2026-11-06T21:51:05.000+01:00",
-      "title": "Handle terminal input safely and add playback transport controls",
-      "url": "https://github.com/HelgeSverre/dmscene/commit/4a13d5b96e099d9f40718da2bd828c88d004a306"
-    },
-    {
-      "id": "commit:HelgeSverre/dmscene:a9177f1b9a5568daee07c0d749f8a1591aae6bf5",
-      "kind": "commit",
-      "repo": "HelgeSverre/dmscene",
-      "at": "2026-11-06T21:48:05.000+01:00",
-      "title": "Isolate pixel worker uniforms to remove render races",
-      "url": "https://github.com/HelgeSverre/dmscene/commit/a9177f1b9a5568daee07c0d749f8a1591aae6bf5"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:a9bb70a308f4c2569013f9e11125722306c68e4b",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T21:45:22.000+01:00",
-      "title": "Prepare stable Fsdb 0.1.1 release",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/a9bb70a308f4c2569013f9e11125722306c68e4b"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:27ecc56613663756fc888e01fe8b07b9e2078fa3",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T21:45:19.000+01:00",
-      "title": "Claim grouped derived sources for joined view writes",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/27ecc56613663756fc888e01fe8b07b9e2078fa3"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:79cd8afe9221d0e885ec445080d88708570ce930",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T21:33:21.000+01:00",
-      "title": "Cache correlated count column proofs per statement",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/79cd8afe9221d0e885ec445080d88708570ce930"
-    },
-    {
-      "id": "commit:HelgeSverre/dmscene:14800f7d00765cadfb6dbc7001f3fd748d191537",
-      "kind": "commit",
-      "repo": "HelgeSverre/dmscene",
-      "at": "2026-11-06T21:24:36.000+01:00",
-      "title": "Compile demo shaders to native C for faster lossless video export",
-      "url": "https://github.com/HelgeSverre/dmscene/commit/14800f7d00765cadfb6dbc7001f3fd748d191537"
-    },
-    {
-      "id": "commit:HelgeSverre/dmscene:cbe7fe1a379248c019f1e3c797ae21ed9fac4b37",
-      "kind": "commit",
-      "repo": "HelgeSverre/dmscene",
-      "at": "2026-11-06T21:22:51.000+01:00",
-      "title": "Harden qtrle MOV writer limits and seeking",
-      "url": "https://github.com/HelgeSverre/dmscene/commit/cbe7fe1a379248c019f1e3c797ae21ed9fac4b37"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:a29b7c25a947b252193e9dd82a9fd8be25ce04e2",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T21:21:59.000+01:00",
-      "title": "Precompute correlated counts of nonnull physical columns",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/a29b7c25a947b252193e9dd82a9fd8be25ce04e2"
-    },
-    {
-      "id": "commit:HelgeSverre/dmscene:42507e8029dc8b93a452057ba24ea86f5d6aef50",
-      "kind": "commit",
-      "repo": "HelgeSverre/dmscene",
-      "at": "2026-11-06T21:21:52.000+01:00",
-      "title": "Isolate pixel worker uniforms to remove render races",
-      "url": "https://github.com/HelgeSverre/dmscene/commit/42507e8029dc8b93a452057ba24ea86f5d6aef50"
-    },
-    {
-      "id": "commit:HelgeSverre/dmscene:8f5e2a466be2621794e7fa9e5fd6366ac52cd4f4",
-      "kind": "commit",
-      "repo": "HelgeSverre/dmscene",
-      "at": "2026-11-06T21:15:03.000+01:00",
-      "title": "Prototype lossless QuickTime Animation export",
-      "url": "https://github.com/HelgeSverre/dmscene/commit/8f5e2a466be2621794e7fa9e5fd6366ac52cd4f4"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:a68a30d955e274394c2e2252704408c892ac708e",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T21:11:10.000+01:00",
-      "title": "Audit grouped derived sources in natural joined views",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/a68a30d955e274394c2e2252704408c892ac708e"
-    },
-    {
-      "id": "commit:HelgeSverre/toon-php:a138b7235c34cc01618e50417259625f140846c0",
-      "kind": "commit",
-      "repo": "HelgeSverre/toon-php",
-      "at": "2026-11-06T21:06:21.000+01:00",
-      "title": "Record measured CI speed and real slowdown detection",
-      "url": "https://github.com/HelgeSverre/toon-php/commit/a138b7235c34cc01618e50417259625f140846c0"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:4961a36bf94f95d8ffa92e5b258417de8afca4a8",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T21:05:17.000+01:00",
-      "title": "Trace geographic validity gap through line distance",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/4961a36bf94f95d8ffa92e5b258417de8afca4a8"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:8d0833b1fab627e717dc651f895852faaf5e5847",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T21:02:19.000+01:00",
-      "title": "Pin geographic line-relation mismatches behind validity gaps",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/8d0833b1fab627e717dc651f895852faaf5e5847"
-    },
-    {
-      "id": "commit:HelgeSverre/toon-php:0111d5fa7b3b49813bc1cfe1ca95764c4d1206ba",
-      "kind": "commit",
-      "repo": "HelgeSverre/toon-php",
-      "at": "2026-11-06T21:01:58.000+01:00",
-      "title": "Measure real benchmark regressions with a fast PR profile",
-      "url": "https://github.com/HelgeSverre/toon-php/commit/0111d5fa7b3b49813bc1cfe1ca95764c4d1206ba"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:bb1863321f4042bedca85a146dce0d186bd22417",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-11-06T21:01:47.000+01:00",
-      "title": "Tighten README prose and examples",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/bb1863321f4042bedca85a146dce0d186bd22417"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:c512572fff5905a4f778fe03fefdafcf70f754c4",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T20:58:31.000+01:00",
-      "title": "Use indexed membership for constant COUNT HAVING",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/c512572fff5905a4f778fe03fefdafcf70f754c4"
-    },
-    {
-      "id": "commit:HelgeSverre/dmscene:c3dd615e7f55602de6c00c058b12ee145a27aa3d",
-      "kind": "commit",
-      "repo": "HelgeSverre/dmscene",
-      "at": "2026-11-06T20:52:58.000+01:00",
-      "title": "Prototype dependency-free raw AVI export",
-      "url": "https://github.com/HelgeSverre/dmscene/commit/c3dd615e7f55602de6c00c058b12ee145a27aa3d"
-    },
-    {
-      "id": "commit:HelgeSverre/dmscene:7d9caf8e2484a17e8084a300323514e553aed3c7",
-      "kind": "commit",
-      "repo": "HelgeSverre/dmscene",
-      "at": "2026-11-06T20:52:22.000+01:00",
-      "title": "Add model rematch, exquisite corpse and CI",
-      "url": "https://github.com/HelgeSverre/dmscene/commit/7d9caf8e2484a17e8084a300323514e553aed3c7"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ef4e51a145e8af6beacf61aec6e9efe3151e0e39",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T20:51:28.000+01:00",
-      "title": "Precompute correlated counts of non-NULL constants",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ef4e51a145e8af6beacf61aec6e9efe3151e0e39"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:72a7183de5da62c26f1bd53a6776811363b7f5da",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-11-06T20:48:29.000+01:00",
-      "title": "Slim dev image and trim benchmark build context",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/72a7183de5da62c26f1bd53a6776811363b7f5da"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:b03ca63dbf1184ae9bce876ab6616e210c5f2c55",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-11-06T20:48:24.000+01:00",
-      "title": "Rewrite README as a practical command guide",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/b03ca63dbf1184ae9bce876ab6616e210c5f2c55"
-    },
-    {
-      "id": "commit:HelgeSverre/dmscene:8437a4538feca29aa7a31c8fd93c5196a2f0374e",
-      "kind": "commit",
-      "repo": "HelgeSverre/dmscene",
-      "at": "2026-11-06T20:46:13.000+01:00",
-      "title": "unused header file remove",
-      "url": "https://github.com/HelgeSverre/dmscene/commit/8437a4538feca29aa7a31c8fd93c5196a2f0374e"
-    },
-    {
-      "id": "commit:HelgeSverre/dmscene:fe490ba08d96a28ab3c473ac08b4e91ffe7f167a",
-      "kind": "commit",
-      "repo": "HelgeSverre/dmscene",
-      "at": "2026-11-06T20:45:49.000+01:00",
-      "title": "Harden video export and add fast render scale override",
-      "url": "https://github.com/HelgeSverre/dmscene/commit/fe490ba08d96a28ab3c473ac08b4e91ffe7f167a"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:23fc7e37d568f03f35a09603d8ab53fdcf7e50cc",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T20:43:03.000+01:00",
-      "title": "Expand geographic validity oracle coverage after stable release",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/23fc7e37d568f03f35a09603d8ab53fdcf7e50cc"
-    },
-    {
-      "id": "commit:HelgeSverre/dmscene:26b238f0198039ddeb0f40a0000e21eaed83cbc8",
-      "kind": "commit",
-      "repo": "HelgeSverre/dmscene",
-      "at": "2026-11-06T20:24:11.000+01:00",
-      "title": "Add structured branches and embedded textures",
-      "url": "https://github.com/HelgeSverre/dmscene/commit/26b238f0198039ddeb0f40a0000e21eaed83cbc8"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:e9903dbb35ab1d5caa464a585f23948ddc927741",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T20:20:28.000+01:00",
-      "title": "Prepare first stable Fsdb 0.1.0 package",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/e9903dbb35ab1d5caa464a585f23948ddc927741"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:220f5488b26dab4bc628d894856e85549cff51e1",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T20:20:19.000+01:00",
-      "title": "Match Japanese kana-sensitive ordering and indexed ranges",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/220f5488b26dab4bc628d894856e85549cff51e1"
-    },
-    {
       "id": "pr:HelgeSverre/toon-php:12",
       "kind": "merge",
       "repo": "HelgeSverre/toon-php",
       "at": "2026-11-06T20:14:57Z",
       "title": "Make benchmark checks real and keep routine PR runs small",
       "url": "https://github.com/HelgeSverre/toon-php/pull/12"
-    },
-    {
-      "id": "commit:HelgeSverre/slack-bolt-php:aefec43b1feb8929015616dd5e258507920070d7",
-      "kind": "commit",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-11-06T20:08:40.000+01:00",
-      "title": "Record v0.9.0 publication and exact-source registry acceptance",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/aefec43b1feb8929015616dd5e258507920070d7"
-    },
-    {
-      "id": "commit:HelgeSverre/homebrew-tap:3b4163eb30204c4272238ae0eef5a5953d657396",
-      "kind": "commit",
-      "repo": "HelgeSverre/homebrew-tap",
-      "at": "2026-11-06T20:04:10.000+01:00",
-      "title": "Update nvmr formula to v0.1.1",
-      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/3b4163eb30204c4272238ae0eef5a5953d657396"
-    },
-    {
-      "id": "commit:HelgeSverre/nvmr:2a29623f3063e8135d871122604c46b2f9bb2e76",
-      "kind": "commit",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-11-06T19:59:21.000+01:00",
-      "title": "Release v0.1.1",
-      "url": "https://github.com/HelgeSverre/nvmr/commit/2a29623f3063e8135d871122604c46b2f9bb2e76"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:d85c9ebb33c4d5a69cb97b08012c1d4ac0dec1e9",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T19:56:17.000+01:00",
-      "title": "Audit windowed NATURAL JOIN writable views",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/d85c9ebb33c4d5a69cb97b08012c1d4ac0dec1e9"
-    },
-    {
-      "id": "commit:HelgeSverre/slack-bolt-php:31a2b92a807ecfb5aab4d55066397c441a254b7c",
-      "kind": "commit",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-11-06T19:54:34.000+01:00",
-      "title": "Prepare v0.9.0 after live starter and HTTP acceptance",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/31a2b92a807ecfb5aab4d55066397c441a254b7c"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:6db45c556fa38fa03c6c04e6ca532da58adab48d",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T19:41:46.000+01:00",
-      "title": "Record per-database statement admission trial",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/6db45c556fa38fa03c6c04e6ca532da58adab48d"
-    },
-    {
-      "id": "commit:HelgeSverre/slack-bolt-php:9d6ef2ae4c5661afb3ded036756e6eb17c189556",
-      "kind": "commit",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-11-06T19:39:25.000+01:00",
-      "title": "Document live starter acceptance and runtime migration",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/9d6ef2ae4c5661afb3ded036756e6eb17c189556"
-    },
-    {
-      "id": "commit:HelgeSverre/slack-bolt-php:5e42816764af18e1d1885fcfe50eb1db648f0195",
-      "kind": "commit",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-11-06T19:38:04.000+01:00",
-      "title": "Keep key command registration deterministic and extensible",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/commit/5e42816764af18e1d1885fcfe50eb1db648f0195"
     },
     {
       "id": "pr:HelgeSverre/toon-php:11",
@@ -7659,6 +7667,30 @@
       "at": "2026-11-06T11:55:36Z",
       "title": "Prepare 1.1.0: async discovery, launch after exit, and trusted publishing",
       "url": "https://github.com/HelgeSverre/resume/pull/1"
+    },
+    {
+      "id": "release:HelgeSverre/homebrew-tap:439248081",
+      "kind": "release",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-09T14:43:14Z",
+      "title": "helge-terminal-v0.2.2",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/releases/tag/helge-terminal-v0.2.2"
+    },
+    {
+      "id": "release:HelgeSverre/helge-launcher:450582083",
+      "kind": "release",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T21:30:42Z",
+      "title": "v0.1.1",
+      "url": "https://github.com/HelgeSverre/helge-launcher/releases/tag/v0.1.1"
+    },
+    {
+      "id": "release:HelgeSverre/helge-launcher:450428523",
+      "kind": "release",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T19:02:40Z",
+      "title": "v0.1.0",
+      "url": "https://github.com/HelgeSverre/helge-launcher/releases/tag/v0.1.0"
     },
     {
       "id": "release:HelgeSverre/terminal:449339028",
@@ -7837,14 +7869,6 @@
       "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.0"
     },
     {
-      "id": "release:HelgeSverre/homebrew-tap:439248081",
-      "kind": "release",
-      "repo": "HelgeSverre/homebrew-tap",
-      "at": "2026-11-09T14:43:14Z",
-      "title": "helge-terminal-v0.2.2",
-      "url": "https://github.com/HelgeSverre/homebrew-tap/releases/tag/helge-terminal-v0.2.2"
-    },
-    {
       "id": "release:HelgeSverre/splash:445501031",
       "kind": "release",
       "repo": "HelgeSverre/splash",
@@ -7885,14 +7909,6 @@
       "url": "https://github.com/PrinsFrank/pdfparser/releases/tag/v2.9.0"
     },
     {
-      "id": "release:PrinsFrank/pdfparser:434236779",
-      "kind": "release",
-      "repo": "PrinsFrank/pdfparser",
-      "at": "2026-11-04T18:55:54Z",
-      "title": "v4.2.0",
-      "url": "https://github.com/PrinsFrank/pdfparser/releases/tag/v4.2.0"
-    },
-    {
       "id": "release:HelgeSverre/clickmore:438504711",
       "kind": "release",
       "repo": "HelgeSverre/clickmore",
@@ -7931,46 +7947,6 @@
       "at": "2026-11-06T13:08:20Z",
       "title": "v3.3.0",
       "url": "https://github.com/HelgeSverre/toon-php/releases/tag/v3.3.0"
-    },
-    {
-      "id": "release:HelgeSverre/nvmr:436878558",
-      "kind": "release",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-11-06T19:03:18Z",
-      "title": "v0.1.1",
-      "url": "https://github.com/HelgeSverre/nvmr/releases/tag/v0.1.1"
-    },
-    {
-      "id": "release:HelgeSverre/nvmr:436418591",
-      "kind": "release",
-      "repo": "HelgeSverre/nvmr",
-      "at": "2026-11-06T11:25:08Z",
-      "title": "v0.1.0",
-      "url": "https://github.com/HelgeSverre/nvmr/releases/tag/v0.1.0"
-    },
-    {
-      "id": "release:HelgeSverre/slack-bolt-php:436872692",
-      "kind": "release",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-11-06T18:56:50Z",
-      "title": "v0.9.0",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/releases/tag/v0.9.0"
-    },
-    {
-      "id": "release:HelgeSverre/slack-bolt-php:434981566",
-      "kind": "release",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-11-05T09:13:35Z",
-      "title": "v0.8.0",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/releases/tag/v0.8.0"
-    },
-    {
-      "id": "release:HelgeSverre/slack-bolt-php:434299478",
-      "kind": "release",
-      "repo": "HelgeSverre/slack-bolt-php",
-      "at": "2026-11-04T18:33:45Z",
-      "title": "v0.7.0",
-      "url": "https://github.com/HelgeSverre/slack-bolt-php/releases/tag/v0.7.0"
     },
     {
       "id": "release:HelgeSverre/resume:436586489",
