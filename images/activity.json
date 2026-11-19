@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-19T12:17:48.485Z",
-  "since": "2026-11-05T12:17:48.485Z",
+  "fetchedAt": "2026-11-19T18:20:54.758Z",
+  "since": "2026-11-05T18:20:54.758Z",
   "partial": true,
   "events": [
     {
@@ -7573,14 +7573,6 @@
       "url": "https://github.com/sema-lisp/sema-coder/commit/817666cd5d085b9c71aa5a39909a709021d1031b"
     },
     {
-      "id": "commit:sema-lisp/sema-coder:337fa6b7e26a7a6a3974571b972c67ce2ab5b798",
-      "kind": "commit",
-      "repo": "sema-lisp/sema-coder",
-      "at": "2026-11-06T22:55:28.000+01:00",
-      "title": "fix(session): isolate overlapping snapshot publications",
-      "url": "https://github.com/sema-lisp/sema-coder/commit/337fa6b7e26a7a6a3974571b972c67ce2ab5b798"
-    },
-    {
       "id": "pr:HelgeSverre/toon-php:12",
       "kind": "merge",
       "repo": "HelgeSverre/toon-php",
@@ -7869,28 +7861,12 @@
       "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.2.3"
     },
     {
-      "id": "release:PrinsFrank/pdfparser:435345051",
+      "id": "release:PrinsFrank/pdfparser:451680537",
       "kind": "release",
       "repo": "PrinsFrank/pdfparser",
-      "at": "2026-11-05T15:03:41Z",
-      "title": "v4.3.0",
-      "url": "https://github.com/PrinsFrank/pdfparser/releases/tag/v4.3.0"
-    },
-    {
-      "id": "release:PrinsFrank/pdfparser:435353531",
-      "kind": "release",
-      "repo": "PrinsFrank/pdfparser",
-      "at": "2026-11-05T15:06:10Z",
-      "title": "v3.9.0",
-      "url": "https://github.com/PrinsFrank/pdfparser/releases/tag/v3.9.0"
-    },
-    {
-      "id": "release:PrinsFrank/pdfparser:435355062",
-      "kind": "release",
-      "repo": "PrinsFrank/pdfparser",
-      "at": "2026-11-05T15:07:23Z",
-      "title": "v2.9.0",
-      "url": "https://github.com/PrinsFrank/pdfparser/releases/tag/v2.9.0"
+      "at": "2026-11-19T17:32:33Z",
+      "title": "v4.4.0",
+      "url": "https://github.com/PrinsFrank/pdfparser/releases/tag/v4.4.0"
     },
     {
       "id": "release:HelgeSverre/clickmore:438504711",
