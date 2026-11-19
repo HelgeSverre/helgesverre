@@ -1,9 +1,65 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-19T06:24:27.151Z",
-  "since": "2026-11-05T06:24:27.151Z",
+  "fetchedAt": "2026-11-19T12:17:48.485Z",
+  "since": "2026-11-05T12:17:48.485Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/busted:306e2a35697de4506e836475e430ecf0cbff694d",
+      "kind": "commit",
+      "repo": "HelgeSverre/busted",
+      "at": "2026-11-19T11:52:21.000+01:00",
+      "title": "Add README and MIT license",
+      "url": "https://github.com/HelgeSverre/busted/commit/306e2a35697de4506e836475e430ecf0cbff694d"
+    },
+    {
+      "id": "commit:HelgeSverre/mizzle:4462e0f66b60689b0003a19b1f79f0b25aa67b6d",
+      "kind": "commit",
+      "repo": "HelgeSverre/mizzle",
+      "at": "2026-11-19T11:52:19.000+01:00",
+      "title": "Add README and MIT license",
+      "url": "https://github.com/HelgeSverre/mizzle/commit/4462e0f66b60689b0003a19b1f79f0b25aa67b6d"
+    },
+    {
+      "id": "commit:HelgeSverre/busted:3db4ff2f8892b91e94e26fabbd05470487143c53",
+      "kind": "commit",
+      "repo": "HelgeSverre/busted",
+      "at": "2026-11-19T11:47:19.000+01:00",
+      "title": "Initial commit",
+      "url": "https://github.com/HelgeSverre/busted/commit/3db4ff2f8892b91e94e26fabbd05470487143c53"
+    },
+    {
+      "id": "commit:HelgeSverre/mizzle:acd833d70c580f00af5c557bc348e07a9ea4b886",
+      "kind": "commit",
+      "repo": "HelgeSverre/mizzle",
+      "at": "2026-11-19T11:47:11.000+01:00",
+      "title": "Initial commit",
+      "url": "https://github.com/HelgeSverre/mizzle/commit/acd833d70c580f00af5c557bc348e07a9ea4b886"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:209ea47855697a72274cd23a36e0f8938cc6ee47",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-19T10:17:16.000+01:00",
+      "title": "Site: a formula or cask that won't parse no longer blocks the deploy",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/209ea47855697a72274cd23a36e0f8938cc6ee47"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:08c242355534d4988e1a9c66312ea5f5e23009b5",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-19T09:37:46.000+01:00",
+      "title": "docs: describe process identity, the settle signal and a lost handoff",
+      "url": "https://github.com/HelgeSverre/terminal/commit/08c242355534d4988e1a9c66312ea5f5e23009b5"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:fa58d3d415a4c8207f37e01479fda93a3f186732",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-19T09:35:19.000+01:00",
+      "title": "fix: tell an adopted child from a later process with its number; settle adopted sizes on the app's word; end a keeper nothing will claim",
+      "url": "https://github.com/HelgeSverre/terminal/commit/fa58d3d415a4c8207f37e01479fda93a3f186732"
+    },
     {
       "id": "commit:HelgeSverre/homebrew-tap:ff65835a52cc187db63029288fe37d704cb4846d",
       "kind": "commit",
@@ -7525,70 +7581,6 @@
       "url": "https://github.com/sema-lisp/sema-coder/commit/337fa6b7e26a7a6a3974571b972c67ce2ab5b798"
     },
     {
-      "id": "commit:sema-lisp/sema-coder:344d106c87e10699c846bcfcdb44c62662982c5e",
-      "kind": "commit",
-      "repo": "sema-lisp/sema-coder",
-      "at": "2026-11-06T22:54:21.000+01:00",
-      "title": "fix(selection): invalidate rendered positions when tool output expands",
-      "url": "https://github.com/sema-lisp/sema-coder/commit/344d106c87e10699c846bcfcdb44c62662982c5e"
-    },
-    {
-      "id": "commit:sema-lisp/sema-coder:297c1459399464a1fe43195ca935e1e559d5b55a",
-      "kind": "commit",
-      "repo": "sema-lisp/sema-coder",
-      "at": "2026-11-06T22:53:08.000+01:00",
-      "title": "fix(turn): cancel runner before foreground cleanup can yield",
-      "url": "https://github.com/sema-lisp/sema-coder/commit/297c1459399464a1fe43195ca935e1e559d5b55a"
-    },
-    {
-      "id": "commit:sema-lisp/sema-coder:52c78075e22b5cf3b702afeeb226690817473fea",
-      "kind": "commit",
-      "repo": "sema-lisp/sema-coder",
-      "at": "2026-11-06T22:51:21.000+01:00",
-      "title": "fix(input): ignore key releases and reject stale drag completion",
-      "url": "https://github.com/sema-lisp/sema-coder/commit/52c78075e22b5cf3b702afeeb226690817473fea"
-    },
-    {
-      "id": "commit:sema-lisp/sema-coder:804794afd634ed1cbbe1f0e952f3f229b83c210b",
-      "kind": "commit",
-      "repo": "sema-lisp/sema-coder",
-      "at": "2026-11-06T22:50:29.000+01:00",
-      "title": "fix(tui): show queued and steering inputs when their turns start",
-      "url": "https://github.com/sema-lisp/sema-coder/commit/804794afd634ed1cbbe1f0e952f3f229b83c210b"
-    },
-    {
-      "id": "commit:sema-lisp/sema-coder:10b00fe90fe8c672327a5cb7ee71917b01b798c8",
-      "kind": "commit",
-      "repo": "sema-lisp/sema-coder",
-      "at": "2026-11-06T22:49:57.000+01:00",
-      "title": "fix(mcp): fence connection results against superseded attempts",
-      "url": "https://github.com/sema-lisp/sema-coder/commit/10b00fe90fe8c672327a5cb7ee71917b01b798c8"
-    },
-    {
-      "id": "commit:sema-lisp/sema-coder:f0febc3ee6b92cdc03654c99588eebf685250bdf",
-      "kind": "commit",
-      "repo": "sema-lisp/sema-coder",
-      "at": "2026-11-06T22:49:06.000+01:00",
-      "title": "fix(session): persist empty queue updates and make resets explicit",
-      "url": "https://github.com/sema-lisp/sema-coder/commit/f0febc3ee6b92cdc03654c99588eebf685250bdf"
-    },
-    {
-      "id": "commit:sema-lisp/sema-coder:a41ffe99bb04b29e60377bd3e8312c2d5b80fe57",
-      "kind": "commit",
-      "repo": "sema-lisp/sema-coder",
-      "at": "2026-11-06T22:44:42.000+01:00",
-      "title": "fix: restore full modules after checkpoint conflict resolution",
-      "url": "https://github.com/sema-lisp/sema-coder/commit/a41ffe99bb04b29e60377bd3e8312c2d5b80fe57"
-    },
-    {
-      "id": "commit:sema-lisp/sema-coder:04ef56f70d3940738b6d908be00da51b06a8f256",
-      "kind": "commit",
-      "repo": "sema-lisp/sema-coder",
-      "at": "2026-11-06T22:44:16.000+01:00",
-      "title": "chore: checkpoint existing workspace changes",
-      "url": "https://github.com/sema-lisp/sema-coder/commit/04ef56f70d3940738b6d908be00da51b06a8f256"
-    },
-    {
       "id": "pr:HelgeSverre/toon-php:12",
       "kind": "merge",
       "repo": "HelgeSverre/toon-php",
@@ -7667,22 +7659,6 @@
       "at": "2026-11-09T14:43:14Z",
       "title": "helge-terminal-v0.2.2",
       "url": "https://github.com/HelgeSverre/homebrew-tap/releases/tag/helge-terminal-v0.2.2"
-    },
-    {
-      "id": "release:HelgeSverre/helge-launcher:450582083",
-      "kind": "release",
-      "repo": "HelgeSverre/helge-launcher",
-      "at": "2026-11-18T21:30:42Z",
-      "title": "v0.1.1",
-      "url": "https://github.com/HelgeSverre/helge-launcher/releases/tag/v0.1.1"
-    },
-    {
-      "id": "release:HelgeSverre/helge-launcher:450428523",
-      "kind": "release",
-      "repo": "HelgeSverre/helge-launcher",
-      "at": "2026-11-18T19:02:40Z",
-      "title": "v0.1.0",
-      "url": "https://github.com/HelgeSverre/helge-launcher/releases/tag/v0.1.0"
     },
     {
       "id": "release:HelgeSverre/terminal:449339028",
@@ -7787,6 +7763,22 @@
       "at": "2026-11-09T20:25:59Z",
       "title": "v0.2.3",
       "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.2.3"
+    },
+    {
+      "id": "release:HelgeSverre/helge-launcher:450582083",
+      "kind": "release",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T21:30:42Z",
+      "title": "v0.1.1",
+      "url": "https://github.com/HelgeSverre/helge-launcher/releases/tag/v0.1.1"
+    },
+    {
+      "id": "release:HelgeSverre/helge-launcher:450428523",
+      "kind": "release",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T19:02:40Z",
+      "title": "v0.1.0",
+      "url": "https://github.com/HelgeSverre/helge-launcher/releases/tag/v0.1.0"
     },
     {
       "id": "release:HelgeSverre/fsdb:449236333",
