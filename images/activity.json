@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-20T00:30:08.751Z",
-  "since": "2026-11-06T00:30:08.751Z",
+  "fetchedAt": "2026-11-20T06:20:41.393Z",
+  "since": "2026-11-06T06:20:41.393Z",
   "partial": true,
   "events": [
     {
@@ -35,6 +35,14 @@
       "at": "2026-11-20T01:00:16.000+01:00",
       "title": "chore: share the release signing order, have the keeper answer only a claim and remove its socket when ended, clean up after an update rehearsal",
       "url": "https://github.com/HelgeSverre/terminal/commit/ac5449aa54ff66eb2c68a4ce2ad30629ce048162"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:3216a89b3e025c3e3ff533611d4fd76dfa0bc56d",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-20T00:44:19.000Z",
+      "title": "Update Helge Terminal to v0.6.3",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/3216a89b3e025c3e3ff533611d4fd76dfa0bc56d"
     },
     {
       "id": "commit:HelgeSverre/busted:306e2a35697de4506e836475e430ecf0cbff694d",
@@ -7549,22 +7557,6 @@
       "url": "https://github.com/HelgeSverre/dmscene/commit/74e37da611585c8ea26262b735be4e134ccb9db0"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:216c93035c0697eeac9202103807bcea07bf496d",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T23:26:07.000+01:00",
-      "title": "Precompute nullable COUNT HAVING membership",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/216c93035c0697eeac9202103807bcea07bf496d"
-    },
-    {
-      "id": "commit:HelgeSverre/dmscene:78c0e1ceaaf41d4ed8b3f34fe1405abcba90ce8f",
-      "kind": "commit",
-      "repo": "HelgeSverre/dmscene",
-      "at": "2026-11-06T23:17:23.000+01:00",
-      "title": "Record cross-platform state audit validation",
-      "url": "https://github.com/HelgeSverre/dmscene/commit/78c0e1ceaaf41d4ed8b3f34fe1405abcba90ce8f"
-    },
-    {
       "id": "pr:HelgeSverre/toon-php:12",
       "kind": "merge",
       "repo": "HelgeSverre/toon-php",
@@ -7635,6 +7627,14 @@
       "at": "2026-11-06T11:55:36Z",
       "title": "Prepare 1.1.0: async discovery, launch after exit, and trusted publishing",
       "url": "https://github.com/HelgeSverre/resume/pull/1"
+    },
+    {
+      "id": "release:HelgeSverre/terminal:452124423",
+      "kind": "release",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-20T00:44:17Z",
+      "title": "v0.6.3",
+      "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.6.3"
     },
     {
       "id": "release:HelgeSverre/terminal:449339028",
