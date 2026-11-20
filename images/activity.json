@@ -1,9 +1,17 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-20T12:18:04.127Z",
-  "since": "2026-11-06T12:18:04.127Z",
+  "fetchedAt": "2026-11-20T18:26:51.545Z",
+  "since": "2026-11-06T18:26:51.545Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/speak:bdb5a9bcec418019f1c141970db17e53e2fcf7a9",
+      "kind": "commit",
+      "repo": "HelgeSverre/speak",
+      "at": "2026-11-20T13:39:47.000+01:00",
+      "title": "speak: offline text-to-speech with no model inside",
+      "url": "https://github.com/HelgeSverre/speak/commit/bdb5a9bcec418019f1c141970db17e53e2fcf7a9"
+    },
     {
       "id": "commit:HelgeSverre/terminal:65bf8f7dfce429ee1cab365a2fa6711e0367d44d",
       "kind": "commit",
@@ -7533,76 +7541,12 @@
       "url": "https://github.com/HelgeSverre/dmscene/commit/a65b8441db8e533684507ef08dda13c8943f86c6"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:d865e7531994e6f807ff3a40738a8c62d1d8d0ad",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T23:34:51.000+01:00",
-      "title": "Precompute fixed-group nullable COUNT membership",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/d865e7531994e6f807ff3a40738a8c62d1d8d0ad"
-    },
-    {
-      "id": "commit:HelgeSverre/dmscene:8984bd1e11df6e241c66ccb577e59228df1f83c5",
-      "kind": "commit",
-      "repo": "HelgeSverre/dmscene",
-      "at": "2026-11-06T23:32:31.000+01:00",
-      "title": "Reconcile TODO with implemented features and remaining scope",
-      "url": "https://github.com/HelgeSverre/dmscene/commit/8984bd1e11df6e241c66ccb577e59228df1f83c5"
-    },
-    {
       "id": "pr:HelgeSverre/toon-php:12",
       "kind": "merge",
       "repo": "HelgeSverre/toon-php",
       "at": "2026-11-06T20:14:57Z",
       "title": "Make benchmark checks real and keep routine PR runs small",
       "url": "https://github.com/HelgeSverre/toon-php/pull/12"
-    },
-    {
-      "id": "pr:HelgeSverre/toon-php:11",
-      "kind": "merge",
-      "repo": "HelgeSverre/toon-php",
-      "at": "2026-11-06T17:55:21Z",
-      "title": "Adopt Mago with compatibility and coverage safeguards",
-      "url": "https://github.com/HelgeSverre/toon-php/pull/11"
-    },
-    {
-      "id": "pr:HelgeSverre/resume:6",
-      "kind": "merge",
-      "repo": "HelgeSverre/resume",
-      "at": "2026-11-06T14:16:58Z",
-      "title": "Release 1.1.1",
-      "url": "https://github.com/HelgeSverre/resume/pull/6"
-    },
-    {
-      "id": "pr:HelgeSverre/resume:5",
-      "kind": "merge",
-      "repo": "HelgeSverre/resume",
-      "at": "2026-11-06T14:15:33Z",
-      "title": "Fix six bugs from the post-release audit",
-      "url": "https://github.com/HelgeSverre/resume/pull/5"
-    },
-    {
-      "id": "pr:HelgeSverre/toon-php:10",
-      "kind": "merge",
-      "repo": "HelgeSverre/toon-php",
-      "at": "2026-11-06T13:07:31Z",
-      "title": "Support explicit TOON 3.3, 4.1 and 4.4 formats without changing defaults",
-      "url": "https://github.com/HelgeSverre/toon-php/pull/10"
-    },
-    {
-      "id": "pr:HelgeSverre/resume:4",
-      "kind": "merge",
-      "repo": "HelgeSverre/resume",
-      "at": "2026-11-06T12:24:03Z",
-      "title": "Release 1.1.0",
-      "url": "https://github.com/HelgeSverre/resume/pull/4"
-    },
-    {
-      "id": "pr:HelgeSverre/resume:3",
-      "kind": "merge",
-      "repo": "HelgeSverre/resume",
-      "at": "2026-11-06T12:22:58Z",
-      "title": "Fix stale Codex worktree attribution and activity timestamps",
-      "url": "https://github.com/HelgeSverre/resume/pull/3"
     },
     {
       "id": "release:HelgeSverre/terminal:452124423",
@@ -7867,30 +7811,6 @@
       "at": "2026-11-07T21:30:46Z",
       "title": "v0.3.1",
       "url": "https://github.com/HelgeSverre/files/releases/tag/v0.3.1"
-    },
-    {
-      "id": "release:HelgeSverre/toon-php:436513295",
-      "kind": "release",
-      "repo": "HelgeSverre/toon-php",
-      "at": "2026-11-06T13:08:20Z",
-      "title": "v3.3.0",
-      "url": "https://github.com/HelgeSverre/toon-php/releases/tag/v3.3.0"
-    },
-    {
-      "id": "release:HelgeSverre/resume:436586489",
-      "kind": "release",
-      "repo": "HelgeSverre/resume",
-      "at": "2026-11-06T14:17:58Z",
-      "title": "v1.1.1",
-      "url": "https://github.com/HelgeSverre/resume/releases/tag/v1.1.1"
-    },
-    {
-      "id": "release:HelgeSverre/resume:436472277",
-      "kind": "release",
-      "repo": "HelgeSverre/resume",
-      "at": "2026-11-06T12:25:03Z",
-      "title": "v1.1.0",
-      "url": "https://github.com/HelgeSverre/resume/releases/tag/v1.1.0"
     }
   ]
 }
