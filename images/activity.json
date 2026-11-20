@@ -1,9 +1,41 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-19T18:20:54.758Z",
-  "since": "2026-11-05T18:20:54.758Z",
+  "fetchedAt": "2026-11-20T00:30:08.751Z",
+  "since": "2026-11-06T00:30:08.751Z",
   "partial": true,
   "events": [
+    {
+      "id": "commit:HelgeSverre/terminal:65bf8f7dfce429ee1cab365a2fa6711e0367d44d",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-20T01:22:39.000+01:00",
+      "title": "fix: build every interop C file into the release app",
+      "url": "https://github.com/HelgeSverre/terminal/commit/65bf8f7dfce429ee1cab365a2fa6711e0367d44d"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:e8c67faa7013f68a280200435432dc4634b049c7",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-20T01:04:53.000+01:00",
+      "title": "Prepare release 0.6.3",
+      "url": "https://github.com/HelgeSverre/terminal/commit/e8c67faa7013f68a280200435432dc4634b049c7"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:bd9a6f9d59ccfae6cfd87d405595a932e206eafe",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-20T01:03:09.000+01:00",
+      "title": "fix: let a keeper be ended whatever signals its starter held back; remove the rehearsal copies' cache and settings file",
+      "url": "https://github.com/HelgeSverre/terminal/commit/bd9a6f9d59ccfae6cfd87d405595a932e206eafe"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:ac5449aa54ff66eb2c68a4ce2ad30629ce048162",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-20T01:00:16.000+01:00",
+      "title": "chore: share the release signing order, have the keeper answer only a claim and remove its socket when ended, clean up after an update rehearsal",
+      "url": "https://github.com/HelgeSverre/terminal/commit/ac5449aa54ff66eb2c68a4ce2ad30629ce048162"
+    },
     {
       "id": "commit:HelgeSverre/busted:306e2a35697de4506e836475e430ecf0cbff694d",
       "kind": "commit",
@@ -7533,46 +7565,6 @@
       "url": "https://github.com/HelgeSverre/dmscene/commit/78c0e1ceaaf41d4ed8b3f34fe1405abcba90ce8f"
     },
     {
-      "id": "commit:HelgeSverre/dmscene:511dbf4e7c6d56deaa97828e987f871c884a4a1a",
-      "kind": "commit",
-      "repo": "HelgeSverre/dmscene",
-      "at": "2026-11-06T23:14:21.000+01:00",
-      "title": "Wait for observable transport transitions in live playback tests",
-      "url": "https://github.com/HelgeSverre/dmscene/commit/511dbf4e7c6d56deaa97828e987f871c884a4a1a"
-    },
-    {
-      "id": "commit:HelgeSverre/dmscene:a1b8d3f1ac7209e9bd9b5bcfc78214b4fe5e48f2",
-      "kind": "commit",
-      "repo": "HelgeSverre/dmscene",
-      "at": "2026-11-06T23:11:19.000+01:00",
-      "title": "Document state machines and fix lifecycle invariant failures",
-      "url": "https://github.com/HelgeSverre/dmscene/commit/a1b8d3f1ac7209e9bd9b5bcfc78214b4fe5e48f2"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:92a1e075e2e34361d0d6c0fd5fceb7479d599f1c",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T22:59:59.000+01:00",
-      "title": "Prepare stable Fsdb 0.1.2 release",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/92a1e075e2e34361d0d6c0fd5fceb7479d599f1c"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:2ee51d5f19a4af8f91df0027f6b9beb7b145a0ed",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-06T22:56:13.000+01:00",
-      "title": "Precompute correlated counts of nullable physical columns",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/2ee51d5f19a4af8f91df0027f6b9beb7b145a0ed"
-    },
-    {
-      "id": "commit:sema-lisp/sema-coder:817666cd5d085b9c71aa5a39909a709021d1031b",
-      "kind": "commit",
-      "repo": "sema-lisp/sema-coder",
-      "at": "2026-11-06T22:56:07.000+01:00",
-      "title": "docs: finalize state-machine evidence and verification record",
-      "url": "https://github.com/sema-lisp/sema-coder/commit/817666cd5d085b9c71aa5a39909a709021d1031b"
-    },
-    {
       "id": "pr:HelgeSverre/toon-php:12",
       "kind": "merge",
       "repo": "HelgeSverre/toon-php",
@@ -7643,14 +7635,6 @@
       "at": "2026-11-06T11:55:36Z",
       "title": "Prepare 1.1.0: async discovery, launch after exit, and trusted publishing",
       "url": "https://github.com/HelgeSverre/resume/pull/1"
-    },
-    {
-      "id": "release:HelgeSverre/homebrew-tap:439248081",
-      "kind": "release",
-      "repo": "HelgeSverre/homebrew-tap",
-      "at": "2026-11-09T14:43:14Z",
-      "title": "helge-terminal-v0.2.2",
-      "url": "https://github.com/HelgeSverre/homebrew-tap/releases/tag/helge-terminal-v0.2.2"
     },
     {
       "id": "release:HelgeSverre/terminal:449339028",
@@ -7755,6 +7739,14 @@
       "at": "2026-11-09T20:25:59Z",
       "title": "v0.2.3",
       "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.2.3"
+    },
+    {
+      "id": "release:HelgeSverre/homebrew-tap:439248081",
+      "kind": "release",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-09T14:43:14Z",
+      "title": "helge-terminal-v0.2.2",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/releases/tag/helge-terminal-v0.2.2"
     },
     {
       "id": "release:HelgeSverre/helge-launcher:450582083",
