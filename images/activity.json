@@ -1,9 +1,57 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-21T12:16:37.701Z",
-  "since": "2026-11-07T12:16:37.701Z",
+  "fetchedAt": "2026-11-21T18:13:34.801Z",
+  "since": "2026-11-07T18:13:34.801Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/jt4000-sdk:3d8fc82af02991dacbc12141e6fe1929bade587e",
+      "kind": "commit",
+      "repo": "HelgeSverre/jt4000-sdk",
+      "at": "2026-11-21T18:36:27.000+01:00",
+      "title": "README: drop the status section",
+      "url": "https://github.com/HelgeSverre/jt4000-sdk/commit/3d8fc82af02991dacbc12141e6fe1929bade587e"
+    },
+    {
+      "id": "commit:HelgeSverre/jt4000-sdk:ce62f1ee05bc5449ab0f67701c8566beed0a7155",
+      "kind": "commit",
+      "repo": "HelgeSverre/jt4000-sdk",
+      "at": "2026-11-21T18:35:37.000+01:00",
+      "title": "Rename examples/ambient to examples/soundbox (an ambient sound box)",
+      "url": "https://github.com/HelgeSverre/jt4000-sdk/commit/ce62f1ee05bc5449ab0f67701c8566beed0a7155"
+    },
+    {
+      "id": "commit:HelgeSverre/jt4000-sdk:72616243af28e5f3e113a719c95c13b6b6d0e153",
+      "kind": "commit",
+      "repo": "HelgeSverre/jt4000-sdk",
+      "at": "2026-11-21T18:35:03.000+01:00",
+      "title": "README: both examples confirmed on hardware",
+      "url": "https://github.com/HelgeSverre/jt4000-sdk/commit/72616243af28e5f3e113a719c95c13b6b6d0e153"
+    },
+    {
+      "id": "commit:HelgeSverre/jt4000-sdk:7078c5423193472235774b536101e57c75637509",
+      "kind": "commit",
+      "repo": "HelgeSverre/jt4000-sdk",
+      "at": "2026-11-21T18:34:49.000+01:00",
+      "title": "README header: the orbit scene as an animated GIF",
+      "url": "https://github.com/HelgeSverre/jt4000-sdk/commit/7078c5423193472235774b536101e57c75637509"
+    },
+    {
+      "id": "commit:HelgeSverre/jt4000-sdk:4643787efcc8cb743fd68a28d420b91a6eed6f7a",
+      "kind": "commit",
+      "repo": "HelgeSverre/jt4000-sdk",
+      "at": "2026-11-21T18:30:03.000+01:00",
+      "title": "ambient: rebuild as a text-free sound box",
+      "url": "https://github.com/HelgeSverre/jt4000-sdk/commit/4643787efcc8cb743fd68a28d420b91a6eed6f7a"
+    },
+    {
+      "id": "commit:HelgeSverre/jt4000-sdk:6106c25a8e27ed642f961ec9277b57032d8955c7",
+      "kind": "commit",
+      "repo": "HelgeSverre/jt4000-sdk",
+      "at": "2026-11-21T18:30:03.000+01:00",
+      "title": "JT-4000 Micro: custom firmware SDK and reverse-engineering notes",
+      "url": "https://github.com/HelgeSverre/jt4000-sdk/commit/6106c25a8e27ed642f961ec9277b57032d8955c7"
+    },
     {
       "id": "commit:HelgeSverre/speak:bdb5a9bcec418019f1c141970db17e53e2fcf7a9",
       "kind": "commit",
