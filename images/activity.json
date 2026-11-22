@@ -1,9 +1,49 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-22T12:16:01.549Z",
-  "since": "2026-11-08T12:16:01.549Z",
+  "fetchedAt": "2026-11-22T18:13:34.178Z",
+  "since": "2026-11-08T18:13:34.178Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/jt4000-sdk:f10a268c9be4afe6f428fb773571610586bdb920",
+      "kind": "commit",
+      "repo": "HelgeSverre/jt4000-sdk",
+      "at": "2026-11-22T16:37:50.000+01:00",
+      "title": "README around just commands, new header and video poster, plainer docs, update mode from the USB interrupt",
+      "url": "https://github.com/HelgeSverre/jt4000-sdk/commit/f10a268c9be4afe6f428fb773571610586bdb920"
+    },
+    {
+      "id": "commit:HelgeSverre/jt4000-sdk:42a87f5185696e14bcc33e137428f66d6906bb53",
+      "kind": "commit",
+      "repo": "HelgeSverre/jt4000-sdk",
+      "at": "2026-11-22T16:12:11.000+01:00",
+      "title": "Header from the demo, launch film link, docs brought up to date",
+      "url": "https://github.com/HelgeSverre/jt4000-sdk/commit/42a87f5185696e14bcc33e137428f66d6906bb53"
+    },
+    {
+      "id": "commit:HelgeSverre/jt4000-sdk:060101f9c4faed86f929af57add74c1f60afccd6",
+      "kind": "commit",
+      "repo": "HelgeSverre/jt4000-sdk",
+      "at": "2026-11-22T15:43:16.000+01:00",
+      "title": "simon: a splash that zooms into the robot, and a pause after a correct round",
+      "url": "https://github.com/HelgeSverre/jt4000-sdk/commit/060101f9c4faed86f929af57add74c1f60afccd6"
+    },
+    {
+      "id": "commit:HelgeSverre/jt4000-sdk:2ec12dadc9ebeb7e1014888b88f263f9a0a70d70",
+      "kind": "commit",
+      "repo": "HelgeSverre/jt4000-sdk",
+      "at": "2026-11-22T15:36:45.000+01:00",
+      "title": "Add examples/simon and storage that survives power-off",
+      "url": "https://github.com/HelgeSverre/jt4000-sdk/commit/2ec12dadc9ebeb7e1014888b88f263f9a0a70d70"
+    },
+    {
+      "id": "commit:HelgeSverre/jt4000-sdk:5f468fb4075d58b88121a835fc55fae066e91b7b",
+      "kind": "commit",
+      "repo": "HelgeSverre/jt4000-sdk",
+      "at": "2026-11-22T15:26:54.000+01:00",
+      "title": "Add examples/demo: a demoscene-style demo",
+      "url": "https://github.com/HelgeSverre/jt4000-sdk/commit/5f468fb4075d58b88121a835fc55fae066e91b7b"
+    },
     {
       "id": "commit:HelgeSverre/jt4000-sdk:fc3bf5661dbefd1f72532e4c6d052f2e3e0afc64",
       "kind": "commit",
@@ -21,12 +61,84 @@
       "url": "https://github.com/HelgeSverre/jt4000-sdk/commit/e358a03372088e3f0dac5fcd725ae94befd6a021"
     },
     {
+      "id": "commit:HelgeSverre/keystep2-editor:5b20bafa4cc94635aeb043ca33b5e96ebe6c3635",
+      "kind": "commit",
+      "repo": "HelgeSverre/keystep2-editor",
+      "at": "2026-11-22T12:25:14.000+01:00",
+      "title": "Tint the hovered lane with the accent instead of lightening it",
+      "url": "https://github.com/HelgeSverre/keystep2-editor/commit/5b20bafa4cc94635aeb043ca33b5e96ebe6c3635"
+    },
+    {
+      "id": "commit:HelgeSverre/keystep2-editor:2029132e54c690acde932cdcfd4414638103f59d",
+      "kind": "commit",
+      "repo": "HelgeSverre/keystep2-editor",
+      "at": "2026-11-22T12:20:08.000+01:00",
+      "title": "Keep the slot row divider unchanged on hover",
+      "url": "https://github.com/HelgeSverre/keystep2-editor/commit/2029132e54c690acde932cdcfd4414638103f59d"
+    },
+    {
+      "id": "commit:HelgeSverre/keystep2-editor:d8db7275492abd22c8b26ba9bbd404e8ca681d60",
+      "kind": "commit",
+      "repo": "HelgeSverre/keystep2-editor",
+      "at": "2026-11-22T12:19:42.000+01:00",
+      "title": "Read and Send groups with pattern, bank and all; new slot rows",
+      "url": "https://github.com/HelgeSverre/keystep2-editor/commit/d8db7275492abd22c8b26ba9bbd404e8ca681d60"
+    },
+    {
+      "id": "commit:HelgeSverre/keystep2-editor:3be19c19f8d1368539afd128a82fa7f7d0c0e71f",
+      "kind": "commit",
+      "repo": "HelgeSverre/keystep2-editor",
+      "at": "2026-11-22T12:06:31.000+01:00",
+      "title": "Start with an empty project; add Send all; fix editing after a cancelled read",
+      "url": "https://github.com/HelgeSverre/keystep2-editor/commit/3be19c19f8d1368539afd128a82fa7f7d0c0e71f"
+    },
+    {
+      "id": "commit:HelgeSverre/keystep2-editor:e7f9f99b5c0637d1694f41358abc2b2192c982a9",
+      "kind": "commit",
+      "repo": "HelgeSverre/keystep2-editor",
+      "at": "2026-11-22T11:59:20.000+01:00",
+      "title": "Keep the patterns already received when a full read is cancelled",
+      "url": "https://github.com/HelgeSverre/keystep2-editor/commit/e7f9f99b5c0637d1694f41358abc2b2192c982a9"
+    },
+    {
+      "id": "commit:HelgeSverre/keystep2-editor:e2dc7166bbc61449fec5ccafe8e18f13f7716fec",
+      "kind": "commit",
+      "repo": "HelgeSverre/keystep2-editor",
+      "at": "2026-11-22T11:50:20.000+01:00",
+      "title": "Add MIT licence; document cancelling and the wider send verification",
+      "url": "https://github.com/HelgeSverre/keystep2-editor/commit/e2dc7166bbc61449fec5ccafe8e18f13f7716fec"
+    },
+    {
+      "id": "commit:HelgeSverre/keystep2-editor:65690a6d877eb8bd38241a0e02c06bc94ba8ad07",
+      "kind": "commit",
+      "repo": "HelgeSverre/keystep2-editor",
+      "at": "2026-11-22T11:40:07.000+01:00",
+      "title": "Read and send patterns over MIDI, transfer view, toolbar and skins",
+      "url": "https://github.com/HelgeSverre/keystep2-editor/commit/65690a6d877eb8bd38241a0e02c06bc94ba8ad07"
+    },
+    {
+      "id": "commit:HelgeSverre/keystep2-editor:40a7364bb2cf070af0d4a33b36fe0e24a39b736c",
+      "kind": "commit",
+      "repo": "HelgeSverre/keystep2-editor",
+      "at": "2026-11-22T10:40:41.000+01:00",
+      "title": "Skins, pan and zoom, multi-note editing, and a fuller README",
+      "url": "https://github.com/HelgeSverre/keystep2-editor/commit/40a7364bb2cf070af0d4a33b36fe0e24a39b736c"
+    },
+    {
       "id": "commit:HelgeSverre/jt4000-sdk:f884bf6d6af410ab57fee9f2301eb67747f44f1d",
       "kind": "commit",
       "repo": "HelgeSverre/jt4000-sdk",
       "at": "2026-11-22T10:37:54.000+01:00",
       "title": "Add examples/speak: a talking typewriter",
       "url": "https://github.com/HelgeSverre/jt4000-sdk/commit/f884bf6d6af410ab57fee9f2301eb67747f44f1d"
+    },
+    {
+      "id": "commit:HelgeSverre/keystep2-editor:2f57bdeb8d4ff66450bba53288ecdeff2a9ac33b",
+      "kind": "commit",
+      "repo": "HelgeSverre/keystep2-editor",
+      "at": "2026-11-22T10:01:52.000+01:00",
+      "title": "KeyStep mk2 pattern editor and corrected file format",
+      "url": "https://github.com/HelgeSverre/keystep2-editor/commit/2f57bdeb8d4ff66450bba53288ecdeff2a9ac33b"
     },
     {
       "id": "commit:HelgeSverre/jt4000-sdk:827b711f3576a36511a1d643f9b7e5aeabae7686",
@@ -5693,422 +5805,6 @@
       "url": "https://github.com/HelgeSverre/terminal/commit/db33304cea04c98b88970b3d009c8df47c2f2b4e"
     },
     {
-      "id": "commit:HelgeSverre/fsdb:b92c375ab104b9ff8c8c7257fd1bb00f21b0353e",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-08T19:11:47.000+01:00",
-      "title": "Bind correlated aggregate arguments before conversion",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/b92c375ab104b9ff8c8c7257fd1bb00f21b0353e"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:b26648ebde10374d7c02be1d196d57c1a41aa70c",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-08T19:04:39.000+01:00",
-      "title": "Characterize indexed correlated BETWEEN warnings",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/b26648ebde10374d7c02be1d196d57c1a41aa70c"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:6fe7916209f51bc067059fa130cb03a0e5c774a1",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T19:03:26.000+01:00",
-      "title": "Harden Swift search proof lifecycle",
-      "url": "https://github.com/HelgeSverre/terminal/commit/6fe7916209f51bc067059fa130cb03a0e5c774a1"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:ccf496f5bab0d21a28f4677a3ce83f0f73c4342e",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T19:03:26.000+01:00",
-      "title": "Integrate bounded Swift search ABI",
-      "url": "https://github.com/HelgeSverre/terminal/commit/ccf496f5bab0d21a28f4677a3ce83f0f73c4342e"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:5efc47eaf26ab187757e6ceaa636e3bdd74839c1",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-08T19:03:01.000+01:00",
-      "title": "Bind missing correlated COUNT argument before conversion",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/5efc47eaf26ab187757e6ceaa636e3bdd74839c1"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:71b8633a11f35db527446f84b2e776d592b2b223",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T18:59:27.000+01:00",
-      "title": "Keep 868 stream artifacts in raw archive",
-      "url": "https://github.com/HelgeSverre/terminal/commit/71b8633a11f35db527446f84b2e776d592b2b223"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:a83f8ddaae47f9376814dec692bdb5a978329e37",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T18:59:13.000+01:00",
-      "title": "Publish source scoped 868 acceptance milestone",
-      "url": "https://github.com/HelgeSverre/terminal/commit/a83f8ddaae47f9376814dec692bdb5a978329e37"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:c59e7822647c9856f67b48be40c04fa54fb79d44",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-08T18:54:08.000+01:00",
-      "title": "Record correlated warning performance comparison",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/c59e7822647c9856f67b48be40c04fa54fb79d44"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:868d6691a036b2f476c75d91c7280826e26ca5ec",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T18:52:02.000+01:00",
-      "title": "Keep stream counter updates within exclusive mutation",
-      "url": "https://github.com/HelgeSverre/terminal/commit/868d6691a036b2f476c75d91c7280826e26ca5ec"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:eb1757b0c8baab3d1ca4f1d68e808b80cf9c3180",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T18:50:14.000+01:00",
-      "title": "Add opt-in PTY stream diagnostics",
-      "url": "https://github.com/HelgeSverre/terminal/commit/eb1757b0c8baab3d1ca4f1d68e808b80cf9c3180"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:3441b2aa88356a18a3cca52523101fcb1d3bcb4b",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T18:48:29.000+01:00",
-      "title": "Move carriage return into document owner",
-      "url": "https://github.com/HelgeSverre/terminal/commit/3441b2aa88356a18a3cca52523101fcb1d3bcb4b"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:23d99e86ce6d7608c1bee9406c4e772800ecd9f2",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T18:44:03.000+01:00",
-      "title": "Preserve paired benchmark samples in execution order",
-      "url": "https://github.com/HelgeSverre/terminal/commit/23d99e86ce6d7608c1bee9406c4e772800ecd9f2"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:4d6b49d26dd80f827f8ee6a9fe3d34360e25ad75",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-08T18:37:53.000+01:00",
-      "title": "Preserve correlated count conversion diagnostics",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/4d6b49d26dd80f827f8ee6a9fe3d34360e25ad75"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:f328b29b692f3e2a9050b19051867ad101ba6733",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T18:35:33.000+01:00",
-      "title": "Publish row reuse acceptance evidence",
-      "url": "https://github.com/HelgeSverre/terminal/commit/f328b29b692f3e2a9050b19051867ad101ba6733"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:1896e42ca663a6ba926d3ccbfddd84d6abb6a5da",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T18:25:03.000+01:00",
-      "title": "Reuse discarded alternate rows without detaching snapshots",
-      "url": "https://github.com/HelgeSverre/terminal/commit/1896e42ca663a6ba926d3ccbfddd84d6abb6a5da"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:3583555b2080bbfa9e8e2cc670f63837b3f7beb3",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T18:22:53.000+01:00",
-      "title": "Build release bundles with Swift whole-module optimization",
-      "url": "https://github.com/HelgeSverre/terminal/commit/3583555b2080bbfa9e8e2cc670f63837b3f7beb3"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:5c5f8f1ec28365f42e4fac4932c75d0d5e79f5a1",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T18:17:32.000+01:00",
-      "title": "Publish CSI reuse pilot evidence",
-      "url": "https://github.com/HelgeSverre/terminal/commit/5c5f8f1ec28365f42e4fac4932c75d0d5e79f5a1"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:0465763e54b13968493c2364834cbf66830f7796",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T18:14:53.000+01:00",
-      "title": "Reuse CSI parameter storage and colon classification",
-      "url": "https://github.com/HelgeSverre/terminal/commit/0465763e54b13968493c2364834cbf66830f7796"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:11ce4d784b91dcb5a7c6459ba489758d162c10ae",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T18:08:53.000+01:00",
-      "title": "Document alternating Swift acceptance trials",
-      "url": "https://github.com/HelgeSverre/terminal/commit/11ce4d784b91dcb5a7c6459ba489758d162c10ae"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:1435a87dc5426a48c12fb85c81c74aea4eda96f4",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T18:07:54.000+01:00",
-      "title": "Publish d356 ANSI profile evidence",
-      "url": "https://github.com/HelgeSverre/terminal/commit/1435a87dc5426a48c12fb85c81c74aea4eda96f4"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:0aaa7fd21e49170dc3f95a7b8bfea1fd29e0be85",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T18:06:03.000+01:00",
-      "title": "Allow alternating app benchmark order",
-      "url": "https://github.com/HelgeSverre/terminal/commit/0aaa7fd21e49170dc3f95a7b8bfea1fd29e0be85"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:199952d9a1e1e0dd75b388c1d10abbf82e13225f",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T18:03:24.000+01:00",
-      "title": "Publish d356 scalar buffer pilot",
-      "url": "https://github.com/HelgeSverre/terminal/commit/199952d9a1e1e0dd75b388c1d10abbf82e13225f"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:8c83f1dcace4b7eeeba3a996b19a908544c6d643",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T18:02:04.000+01:00",
-      "title": "Publish failed and recovered Swift pilots",
-      "url": "https://github.com/HelgeSverre/terminal/commit/8c83f1dcace4b7eeeba3a996b19a908544c6d643"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:d35690e8adbe4bfe6be68d1d180127b6f4a7507d",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T18:01:20.000+01:00",
-      "title": "Batch ASCII admission through reusable scalar buffer",
-      "url": "https://github.com/HelgeSverre/terminal/commit/d35690e8adbe4bfe6be68d1d180127b6f4a7507d"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:c9b6316cc111a86f2d3409ae92affbbaeefdae1c",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T17:47:08.000+01:00",
-      "title": "Research supported Swift performance techniques",
-      "url": "https://github.com/HelgeSverre/terminal/commit/c9b6316cc111a86f2d3409ae92affbbaeefdae1c"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:1a7373e12a409b93234b53bc620ccfa59e66e5b7",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T17:45:57.000+01:00",
-      "title": "Batch alternate row replacements without yielding",
-      "url": "https://github.com/HelgeSverre/terminal/commit/1a7373e12a409b93234b53bc620ccfa59e66e5b7"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:916850b1fc29fc1a5eabdf4f044a2ddfc29572b9",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T17:45:57.000+01:00",
-      "title": "Restore scalar buffering after direct-view regression",
-      "url": "https://github.com/HelgeSverre/terminal/commit/916850b1fc29fc1a5eabdf4f044a2ddfc29572b9"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:d934705dc295fd612811a484fd180e8e235a079b",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T17:27:47.000+01:00",
-      "title": "Admit long ASCII input directly",
-      "url": "https://github.com/HelgeSverre/terminal/commit/d934705dc295fd612811a484fd180e8e235a079b"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:eef1ef37a43035a5269831413c7dc3ccc78541a2",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-08T17:21:47.000+01:00",
-      "title": "Prepare stable Fsdb 0.1.3 release",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/eef1ef37a43035a5269831413c7dc3ccc78541a2"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:8691573384391640a0c5bc487782193d8bf94c7e",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T17:16:13.000+01:00",
-      "title": "Publish row storage compatibility evidence",
-      "url": "https://github.com/HelgeSverre/terminal/commit/8691573384391640a0c5bc487782193d8bf94c7e"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:933274dfdc31cc945fcb9b934c073e74d03dbae0",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T17:10:40.000+01:00",
-      "title": "Set Swift acceptance floor to seventy percent",
-      "url": "https://github.com/HelgeSverre/terminal/commit/933274dfdc31cc945fcb9b934c073e74d03dbae0"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:ec42b62756dc5c5b10429d8b416ce3148213ee4e",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-08T17:04:20.000+01:00",
-      "title": "Plan fixed-group joined nullable COUNT HAVING",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/ec42b62756dc5c5b10429d8b416ce3148213ee4e"
-    },
-    {
-      "id": "commit:HelgeSverre/fsdb:66b178bcc3e2d638b558d3286251888e69ad2607",
-      "kind": "commit",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-08T16:56:04.000+01:00",
-      "title": "Plan joined nullable COUNT HAVING membership",
-      "url": "https://github.com/HelgeSverre/fsdb/commit/66b178bcc3e2d638b558d3286251888e69ad2607"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:43ef231afef6be7eac54e0eeecc3776944ef39e9",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T16:47:45.000+01:00",
-      "title": "Optimize terminal row ASCII spans",
-      "url": "https://github.com/HelgeSverre/terminal/commit/43ef231afef6be7eac54e0eeecc3776944ef39e9"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:c8f279bf467454ea58ed512c048ef9aef2efa6d9",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T16:42:13.000+01:00",
-      "title": "Compare frozen Swift row behavior and byte budgets",
-      "url": "https://github.com/HelgeSverre/terminal/commit/c8f279bf467454ea58ed512c048ef9aef2efa6d9"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:9106ed260079b21e3651a013f92788bad5702576",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T16:25:02.000+01:00",
-      "title": "Preserve row charge across copy on write",
-      "url": "https://github.com/HelgeSverre/terminal/commit/9106ed260079b21e3651a013f92788bad5702576"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:b4c71fdef008d70529f842166ea9176cd6239056",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T16:25:02.000+01:00",
-      "title": "Store terminal rows in scalar slots",
-      "url": "https://github.com/HelgeSverre/terminal/commit/b4c71fdef008d70529f842166ea9176cd6239056"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:9c83614b026fab3b0ccaf2e91b248604a4992c32",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T15:47:47.000+01:00",
-      "title": "Publish f10 Swift WMO pilot evidence",
-      "url": "https://github.com/HelgeSverre/terminal/commit/9c83614b026fab3b0ccaf2e91b248604a4992c32"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:f10acc2a79abbff7e34be885f6be2d6c12ac8d58",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T15:40:44.000+01:00",
-      "title": "Optimize byte-wise CSI parameter parsing",
-      "url": "https://github.com/HelgeSverre/terminal/commit/f10acc2a79abbff7e34be885f6be2d6c12ac8d58"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:c8b718e43fa0e69d5a9c7403ce429ea6db05e940",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T15:21:59.000+01:00",
-      "title": "Publish 645 Swift WMO pilot evidence",
-      "url": "https://github.com/HelgeSverre/terminal/commit/c8b718e43fa0e69d5a9c7403ce429ea6db05e940"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:645f8727379d992cf1a000260de41e56ae76cf79",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T15:15:16.000+01:00",
-      "title": "Move terminal indexing into document",
-      "url": "https://github.com/HelgeSverre/terminal/commit/645f8727379d992cf1a000260de41e56ae76cf79"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:ae324ee1aea0590c4947f8238a2e04d40da0b07d",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T15:06:45.000+01:00",
-      "title": "Record 9e long ASCII profile hotspot",
-      "url": "https://github.com/HelgeSverre/terminal/commit/ae324ee1aea0590c4947f8238a2e04d40da0b07d"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:2a682ff8bb15caf1b10fa95efbd6a134c7a2358c",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T15:06:19.000+01:00",
-      "title": "Publish 9e Swift WMO pilot evidence",
-      "url": "https://github.com/HelgeSverre/terminal/commit/2a682ff8bb15caf1b10fa95efbd6a134c7a2358c"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:026ff7a1f9fa3e4b91692a8b4f3de70c04ef3766",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T15:02:52.000+01:00",
-      "title": "Publish Swift WMO profile evidence",
-      "url": "https://github.com/HelgeSverre/terminal/commit/026ff7a1f9fa3e4b91692a8b4f3de70c04ef3766"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:9e5673aebfaaf5af301d21ef229e16a63d5e394a",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T15:01:19.000+01:00",
-      "title": "Batch printable ASCII placement",
-      "url": "https://github.com/HelgeSverre/terminal/commit/9e5673aebfaaf5af301d21ef229e16a63d5e394a"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:edbaf7ae0f2a03eb1a9af628a156b18c3c7b6bd4",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T15:00:26.000+01:00",
-      "title": "Profile individual terminal workloads",
-      "url": "https://github.com/HelgeSverre/terminal/commit/edbaf7ae0f2a03eb1a9af628a156b18c3c7b6bd4"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:266be3f7f36e5a2d0125cd414ac145e965aa0465",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T14:54:30.000+01:00",
-      "title": "Publish fused Swift WMO pilot evidence",
-      "url": "https://github.com/HelgeSverre/terminal/commit/266be3f7f36e5a2d0125cd414ac145e965aa0465"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:93de5367c400cb14d6e70b725e62b7758878d87f",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T14:51:13.000+01:00",
-      "title": "Publish frozen Swift WMO comparison evidence",
-      "url": "https://github.com/HelgeSverre/terminal/commit/93de5367c400cb14d6e70b725e62b7758878d87f"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:03e90f67a8a6e12418b549dc3ecdb4a79396dc81",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T14:49:19.000+01:00",
-      "title": "Fuse terminal cell replacement",
-      "url": "https://github.com/HelgeSverre/terminal/commit/03e90f67a8a6e12418b549dc3ecdb4a79396dc81"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:506d565538f7db960e2ae7cd771539c800adcfe4",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T14:32:56.000+01:00",
-      "title": "Add owned terminal app profiler",
-      "url": "https://github.com/HelgeSverre/terminal/commit/506d565538f7db960e2ae7cd771539c800adcfe4"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:80459598f9e7951d0273ec5ebdc53e75dfab0723",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T14:03:39.000+01:00",
-      "title": "Compare real app throughput and track the Swift replacement gate",
-      "url": "https://github.com/HelgeSverre/terminal/commit/80459598f9e7951d0273ec5ebdc53e75dfab0723"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:4ca285f0c4dcf9de200c75b91e83cc5649db2f22",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T14:02:53.000+01:00",
-      "title": "Batch decoded Swift terminal text",
-      "url": "https://github.com/HelgeSverre/terminal/commit/4ca285f0c4dcf9de200c75b91e83cc5649db2f22"
-    },
-    {
       "id": "release:HelgeSverre/terminal:454323058",
       "kind": "release",
       "repo": "HelgeSverre/terminal",
@@ -6291,14 +5987,6 @@
       "at": "2026-11-08T18:34:50Z",
       "title": "v0.1.4",
       "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.4"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:438371054",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-08T16:33:16Z",
-      "title": "v0.1.3",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.3"
     },
     {
       "id": "release:HelgeSverre/splash:445501031",
