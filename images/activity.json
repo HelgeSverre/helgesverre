@@ -1,9 +1,81 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-22T06:19:24.492Z",
-  "since": "2026-11-08T06:19:24.492Z",
+  "fetchedAt": "2026-11-22T12:16:01.549Z",
+  "since": "2026-11-08T12:16:01.549Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/jt4000-sdk:fc3bf5661dbefd1f72532e4c6d052f2e3e0afc64",
+      "kind": "commit",
+      "repo": "HelgeSverre/jt4000-sdk",
+      "at": "2026-11-22T12:32:13.000+01:00",
+      "title": "justfile: shorter descriptions",
+      "url": "https://github.com/HelgeSverre/jt4000-sdk/commit/fc3bf5661dbefd1f72532e4c6d052f2e3e0afc64"
+    },
+    {
+      "id": "commit:HelgeSverre/jt4000-sdk:e358a03372088e3f0dac5fcd725ae94befd6a021",
+      "kind": "commit",
+      "repo": "HelgeSverre/jt4000-sdk",
+      "at": "2026-11-22T12:31:50.000+01:00",
+      "title": "Four new apps, a host build, and a window that looks like the synth",
+      "url": "https://github.com/HelgeSverre/jt4000-sdk/commit/e358a03372088e3f0dac5fcd725ae94befd6a021"
+    },
+    {
+      "id": "commit:HelgeSverre/jt4000-sdk:f884bf6d6af410ab57fee9f2301eb67747f44f1d",
+      "kind": "commit",
+      "repo": "HelgeSverre/jt4000-sdk",
+      "at": "2026-11-22T10:37:54.000+01:00",
+      "title": "Add examples/speak: a talking typewriter",
+      "url": "https://github.com/HelgeSverre/jt4000-sdk/commit/f884bf6d6af410ab57fee9f2301eb67747f44f1d"
+    },
+    {
+      "id": "commit:HelgeSverre/jt4000-sdk:827b711f3576a36511a1d643f9b7e5aeabae7686",
+      "kind": "commit",
+      "repo": "HelgeSverre/jt4000-sdk",
+      "at": "2026-11-22T09:53:37.000+01:00",
+      "title": "tools: one-line errors instead of tracebacks",
+      "url": "https://github.com/HelgeSverre/jt4000-sdk/commit/827b711f3576a36511a1d643f9b7e5aeabae7686"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:fd9749a75f16b98cc8d6b3145d7336f8b316670f",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-22T09:50:44.000+01:00",
+      "title": "Prepare release 0.6.4",
+      "url": "https://github.com/HelgeSverre/terminal/commit/fd9749a75f16b98cc8d6b3145d7336f8b316670f"
+    },
+    {
+      "id": "commit:HelgeSverre/jt4000-sdk:090e3c9664e65a755853db140a1b50218371751f",
+      "kind": "commit",
+      "repo": "HelgeSverre/jt4000-sdk",
+      "at": "2026-11-22T09:46:38.000+01:00",
+      "title": "flash.py: tell a stale bootloader port from a bootloader that is still running",
+      "url": "https://github.com/HelgeSverre/jt4000-sdk/commit/090e3c9664e65a755853db140a1b50218371751f"
+    },
+    {
+      "id": "commit:HelgeSverre/jt4000-sdk:e51d32ae68ce747f5ca74808a0fda10d3e6306a8",
+      "kind": "commit",
+      "repo": "HelgeSverre/jt4000-sdk",
+      "at": "2026-11-22T09:43:09.000+01:00",
+      "title": "flash.py: verify the bootloader before erasing, confirm the app started",
+      "url": "https://github.com/HelgeSverre/jt4000-sdk/commit/e51d32ae68ce747f5ca74808a0fda10d3e6306a8"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:f689e94417bdc04ab623209336c418e53c04a2e3",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-22T09:42:20.000+01:00",
+      "title": "fix: open a new window as a window, not a tab, unless the system prefers tabs",
+      "url": "https://github.com/HelgeSverre/terminal/commit/f689e94417bdc04ab623209336c418e53c04a2e3"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:29fc88011342bd543f07523eb3b4eb8c99de4c3f",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-22T09:05:46.000Z",
+      "title": "Update Helge Terminal to v0.6.4",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/29fc88011342bd543f07523eb3b4eb8c99de4c3f"
+    },
     {
       "id": "commit:HelgeSverre/jt4000-sdk:3d8fc82af02991dacbc12141e6fe1929bade587e",
       "kind": "commit",
@@ -4445,6 +4517,14 @@
       "url": "https://github.com/HelgeSverre/ollama-gui/commit/0c871708f327b51f80c2cd3f4e285ea474704dcb"
     },
     {
+      "id": "commit:wwww9178/ollama-gui-zh-cn:0c871708f327b51f80c2cd3f4e285ea474704dcb",
+      "kind": "commit",
+      "repo": "wwww9178/ollama-gui-zh-cn",
+      "at": "2026-11-09T16:06:02.000+01:00",
+      "title": "chore: release 2.0.6",
+      "url": "https://github.com/wwww9178/ollama-gui-zh-cn/commit/0c871708f327b51f80c2cd3f4e285ea474704dcb"
+    },
+    {
       "id": "commit:HelgeSverre/terminal:41ef5805767fe28a5a445f7873b54ac3a9ca6524",
       "kind": "commit",
       "repo": "HelgeSverre/terminal",
@@ -6029,236 +6109,12 @@
       "url": "https://github.com/HelgeSverre/terminal/commit/4ca285f0c4dcf9de200c75b91e83cc5649db2f22"
     },
     {
-      "id": "commit:HelgeSverre/terminal:ca252d03d7ca269c92c6f45fe45ba228d434805d",
-      "kind": "commit",
+      "id": "release:HelgeSverre/terminal:454323058",
+      "kind": "release",
       "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T13:09:32.000+01:00",
-      "title": "Avoid snapshot JSON round trip for binary views",
-      "url": "https://github.com/HelgeSverre/terminal/commit/ca252d03d7ca269c92c6f45fe45ba228d434805d"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:72a1280c5108f822e3a952aef8e0c9417be00866",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T13:04:07.000+01:00",
-      "title": "Fix benchmark CPU clock conversion",
-      "url": "https://github.com/HelgeSverre/terminal/commit/72a1280c5108f822e3a952aef8e0c9417be00866"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:fb900611cebb97efabfb6dc205827e44d28fe2b5",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T12:47:46.000+01:00",
-      "title": "Charge retained cell storage and hyperlinks to history budget",
-      "url": "https://github.com/HelgeSverre/terminal/commit/fb900611cebb97efabfb6dc205827e44d28fe2b5"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:b2e47519baa553056d819e17cfb29524eaca61cd",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T12:41:15.000+01:00",
-      "title": "Borrow screen only for ignorable owner validation",
-      "url": "https://github.com/HelgeSverre/terminal/commit/b2e47519baa553056d819e17cfb29524eaca61cd"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:e34c09b3a55d13cbefcafaed35355c3a1c3d4176",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T12:39:03.000+01:00",
-      "title": "Preserve orphan ignorable cursor restore semantics",
-      "url": "https://github.com/HelgeSverre/terminal/commit/e34c09b3a55d13cbefcafaed35355c3a1c3d4176"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:e4733ac936f8905569db59a0d753b9f83fa2375c",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T12:34:11.000+01:00",
-      "title": "Move print segmentation into TerminalDocument",
-      "url": "https://github.com/HelgeSverre/terminal/commit/e4733ac936f8905569db59a0d753b9f83fa2375c"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:05f1ba2f3b6d706806b5275e2a40641aaf25f27f",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T12:31:22.000+01:00",
-      "title": "Publish Swift decoder gains and fresh Rust replay comparison",
-      "url": "https://github.com/HelgeSverre/terminal/commit/05f1ba2f3b6d706806b5275e2a40641aaf25f27f"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:a19f77fa2fc91f329515c89aa5e17157ff71ab56",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T12:19:32.000+01:00",
-      "title": "Avoid per-byte UTF-8 decoder allocations",
-      "url": "https://github.com/HelgeSverre/terminal/commit/a19f77fa2fc91f329515c89aa5e17157ff71ab56"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:c7988a456a45fa3431af79612d8f297f67e6cb5f",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T12:19:23.000+01:00",
-      "title": "Publish measured Swift printing improvements with raw evidence",
-      "url": "https://github.com/HelgeSverre/terminal/commit/c7988a456a45fa3431af79612d8f297f67e6cb5f"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:f5dd5a9be287e12c39e2d94dab92d131773734cd",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T12:16:29.000+01:00",
-      "title": "Use native lock modifier masks in semantic wire fixtures",
-      "url": "https://github.com/HelgeSverre/terminal/commit/f5dd5a9be287e12c39e2d94dab92d131773734cd"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:54dc608af45ed082fe4cab73f99670551d12883f",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T12:10:24.000+01:00",
-      "title": "Align Swift native modifier input with the host ABI",
-      "url": "https://github.com/HelgeSverre/terminal/commit/54dc608af45ed082fe4cab73f99670551d12883f"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:e053bfbbd20839a07d0e84fbbb3ae5cfbabe1f95",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T12:07:11.000+01:00",
-      "title": "Wait for shell readiness before smoke resize transitions",
-      "url": "https://github.com/HelgeSverre/terminal/commit/e053bfbbd20839a07d0e84fbbb3ae5cfbabe1f95"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:315f0551008e54cf2496b96fd0545a788760ab68",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T12:00:55.000+01:00",
-      "title": "Repair wide pairs locally after scalar edits",
-      "url": "https://github.com/HelgeSverre/terminal/commit/315f0551008e54cf2496b96fd0545a788760ab68"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:f9ba7aed27270840c0c177e0df44bd8ac9bdf6b4",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T11:53:22.000+01:00",
-      "title": "Verify frozen Swift app native automation paths",
-      "url": "https://github.com/HelgeSverre/terminal/commit/f9ba7aed27270840c0c177e0df44bd8ac9bdf6b4"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:7fc6fac490a03f0eef2c67e9e2ce811a38f04cc4",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T11:46:13.000+01:00",
-      "title": "Preserve prompt phase across resize and align native clear actions",
-      "url": "https://github.com/HelgeSverre/terminal/commit/7fc6fac490a03f0eef2c67e9e2ce811a38f04cc4"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:6674c2247f61f35e55d0dec76aad177e4eefa8f5",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T11:11:34.000+01:00",
-      "title": "Unify Swift scalar printing in terminal document",
-      "url": "https://github.com/HelgeSverre/terminal/commit/6674c2247f61f35e55d0dec76aad177e4eefa8f5"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:ea5186a38bfb1040eee2e1dbc1ffd734b0abe33c",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T10:55:20.000+01:00",
-      "title": "Publish optimized Swift Rust replay comparison and raw evidence",
-      "url": "https://github.com/HelgeSverre/terminal/commit/ea5186a38bfb1040eee2e1dbc1ffd734b0abe33c"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:f94be6ffd3b0769c7c6f3eb215a5422199aaf3e4",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T10:52:42.000+01:00",
-      "title": "Restore native host parity for Swift core",
-      "url": "https://github.com/HelgeSverre/terminal/commit/f94be6ffd3b0769c7c6f3eb215a5422199aaf3e4"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:fa152000fa8686f64b3c1074410f9338bf11f2d9",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T10:48:28.000+01:00",
-      "title": "Verify signed AppleScript automation with stable consent and cleanup",
-      "url": "https://github.com/HelgeSverre/terminal/commit/fa152000fa8686f64b3c1074410f9338bf11f2d9"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:a49a5af1774c3b824aade7d4e054dbc1fbc63ce9",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T10:32:14.000+01:00",
-      "title": "Preserve keypad text when AppKit returns an empty translation",
-      "url": "https://github.com/HelgeSverre/terminal/commit/a49a5af1774c3b824aade7d4e054dbc1fbc63ce9"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:56e49bb6694da1924b8ab53a2e330814b3e2d635",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T10:17:03.000+01:00",
-      "title": "Stabilize native input smoke routing",
-      "url": "https://github.com/HelgeSverre/terminal/commit/56e49bb6694da1924b8ab53a2e330814b3e2d635"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:e0755b03ccb63d10ec4551985494697203397412",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T10:10:58.000+01:00",
-      "title": "Retain exported accessibility links and verify external clients",
-      "url": "https://github.com/HelgeSverre/terminal/commit/e0755b03ccb63d10ec4551985494697203397412"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:6c601d17b643bdb3651c7a2c992d1bb7f20c506d",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T10:08:12.000+01:00",
-      "title": "Move ASCII placement into terminal document",
-      "url": "https://github.com/HelgeSverre/terminal/commit/6c601d17b643bdb3651c7a2c992d1bb7f20c506d"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:be2c329acf89048cb8a6e8f0d887fd6cdaa8e8cb",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T09:57:43.000+01:00",
-      "title": "Verify Swift AppleScript smoke after input fix",
-      "url": "https://github.com/HelgeSverre/terminal/commit/be2c329acf89048cb8a6e8f0d887fd6cdaa8e8cb"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:1abb728013ed450a2a65542b8ef17ad225e477ef",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T09:57:25.000+01:00",
-      "title": "Expose styled terminal text and links through accessibility",
-      "url": "https://github.com/HelgeSverre/terminal/commit/1abb728013ed450a2a65542b8ef17ad225e477ef"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:5af641d9e60b8d5577c80960620ee66d3fadcb4e",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T09:52:20.000+01:00",
-      "title": "Forward complete committed terminal text",
-      "url": "https://github.com/HelgeSverre/terminal/commit/5af641d9e60b8d5577c80960620ee66d3fadcb4e"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:eccb81cd556bca9c47a32400f611948c33612772",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T09:49:42.000+01:00",
-      "title": "Record stable AppleScript parity smoke",
-      "url": "https://github.com/HelgeSverre/terminal/commit/eccb81cd556bca9c47a32400f611948c33612772"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:4e3e35890ad3bf5fda38c8c2c9b10367245f1738",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T07:51:59.000+01:00",
-      "title": "Preserve empty OSC 8 links in snapshot ABI",
-      "url": "https://github.com/HelgeSverre/terminal/commit/4e3e35890ad3bf5fda38c8c2c9b10367245f1738"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:3ed2f443555bd66fb1c2c2498ac6f858556217ba",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-08T07:44:42.000+01:00",
-      "title": "Harden Swift OSC52 streaming and Unicode width",
-      "url": "https://github.com/HelgeSverre/terminal/commit/3ed2f443555bd66fb1c2c2498ac6f858556217ba"
+      "at": "2026-11-22T09:05:44Z",
+      "title": "v0.6.4",
+      "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.6.4"
     },
     {
       "id": "release:HelgeSverre/terminal:452124423",
