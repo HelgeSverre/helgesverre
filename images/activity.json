@@ -1,9 +1,57 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-23T12:18:55.685Z",
-  "since": "2026-11-09T12:18:55.685Z",
+  "fetchedAt": "2026-11-23T18:14:27.274Z",
+  "since": "2026-11-09T18:14:27.274Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/sql-splitter:f3327664376d9f1b520001f9114064e0a6774a4b",
+      "kind": "commit",
+      "repo": "HelgeSverre/sql-splitter",
+      "at": "2026-11-23T14:30:19.000+01:00",
+      "title": "ci: expire non-release artifacts after 7 days",
+      "url": "https://github.com/HelgeSverre/sql-splitter/commit/f3327664376d9f1b520001f9114064e0a6774a4b"
+    },
+    {
+      "id": "commit:HelgeSverre/sourcefour:e79c230cb26a155ef041719dbbec62a6ddb05027",
+      "kind": "commit",
+      "repo": "HelgeSverre/sourcefour",
+      "at": "2026-11-23T14:30:16.000+01:00",
+      "title": "ci: expire non-release artifacts after 7 days",
+      "url": "https://github.com/HelgeSverre/sourcefour/commit/e79c230cb26a155ef041719dbbec62a6ddb05027"
+    },
+    {
+      "id": "commit:HelgeSverre/token:f2e1369c6517e0aeae780de9f3e7fd7f0665ae63",
+      "kind": "commit",
+      "repo": "HelgeSverre/token",
+      "at": "2026-11-23T14:30:13.000+01:00",
+      "title": "ci: expire non-release artifacts after 7 days",
+      "url": "https://github.com/HelgeSverre/token/commit/f2e1369c6517e0aeae780de9f3e7fd7f0665ae63"
+    },
+    {
+      "id": "commit:HelgeSverre/glue:89c1c73e6be35c401e77a16c4245edcdbc665a5e",
+      "kind": "commit",
+      "repo": "HelgeSverre/glue",
+      "at": "2026-11-23T14:30:10.000+01:00",
+      "title": "ci: expire non-release artifacts after 7 days",
+      "url": "https://github.com/HelgeSverre/glue/commit/89c1c73e6be35c401e77a16c4245edcdbc665a5e"
+    },
+    {
+      "id": "commit:HelgeSverre/codemagic-skill:6eaf364b0206f5d902c4dd2bfa7424be0d868d81",
+      "kind": "commit",
+      "repo": "HelgeSverre/codemagic-skill",
+      "at": "2026-11-23T14:30:06.000+01:00",
+      "title": "ci: expire non-release artifacts after 7 days",
+      "url": "https://github.com/HelgeSverre/codemagic-skill/commit/6eaf364b0206f5d902c4dd2bfa7424be0d868d81"
+    },
+    {
+      "id": "commit:HelgeSverre/splash:19288ebbd5550d673a01fe64f5b42ad637f5a304",
+      "kind": "commit",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-11-23T13:52:40.000+01:00",
+      "title": "ci: expire non-tag package artifacts after 7 days",
+      "url": "https://github.com/HelgeSverre/splash/commit/19288ebbd5550d673a01fe64f5b42ad637f5a304"
+    },
     {
       "id": "commit:sema-lisp/sema:51389ac2e43683a4a272c768e50682c7542649de",
       "kind": "commit",
@@ -4605,220 +4653,12 @@
       "url": "https://github.com/HelgeSverre/terminal/commit/df4a04df0ff636b896511271a595ae6f11577317"
     },
     {
-      "id": "commit:HelgeSverre/terminal:e3f5a373ee25f6af21a41becb14da834b1ba8064",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-09T17:56:11.000+01:00",
-      "title": "Refresh pane gallery screenshot [skip ci]",
-      "url": "https://github.com/HelgeSverre/terminal/commit/e3f5a373ee25f6af21a41becb14da834b1ba8064"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:a65d6efd7973d82bc852e02a3d9e75b930c2c088",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-09T17:56:11.000+01:00",
-      "title": "Adapt GUI diagnostics to pane headers [skip ci]",
-      "url": "https://github.com/HelgeSverre/terminal/commit/a65d6efd7973d82bc852e02a3d9e75b930c2c088"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:ce285ffc38104a1ca61d9527cf2edee8b211c24e",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-09T17:43:46.000+01:00",
-      "title": "Follow active pane titles and add compact pane headers and dimming",
-      "url": "https://github.com/HelgeSverre/terminal/commit/ce285ffc38104a1ca61d9527cf2edee8b211c24e"
-    },
-    {
-      "id": "commit:HelgeSverre/hanimex:28b5a9d0c2dd767f922b254542b0e18c0a4ff302",
-      "kind": "commit",
-      "repo": "HelgeSverre/hanimex",
-      "at": "2026-11-09T17:40:22.000+01:00",
-      "title": "Keep horizontal timing in registers and add draggable TV cable",
-      "url": "https://github.com/HelgeSverre/hanimex/commit/28b5a9d0c2dd767f922b254542b0e18c0a4ff302"
-    },
-    {
-      "id": "commit:HelgeSverre/homebrew-tap:33fa09a60f3072d29c52b9c0198b4f0cafc84f3f",
-      "kind": "commit",
-      "repo": "HelgeSverre/homebrew-tap",
-      "at": "2026-11-09T17:37:53.000+01:00",
-      "title": "Point Helge Terminal cask to its public source repository",
-      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/33fa09a60f3072d29c52b9c0198b4f0cafc84f3f"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:c46fe72abe7fbfa8885c61e5797ab72f2d397446",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-09T17:32:19.000+01:00",
-      "title": "Document scoped tap credentials and omit private vault identifiers",
-      "url": "https://github.com/HelgeSverre/terminal/commit/c46fe72abe7fbfa8885c61e5797ab72f2d397446"
-    },
-    {
-      "id": "commit:HelgeSverre/homebrew-tap:a5eb5bf3432639d13b21a6491bbe0aae00212f53",
-      "kind": "commit",
-      "repo": "HelgeSverre/homebrew-tap",
-      "at": "2026-11-09T17:26:54.000+01:00",
-      "title": "Use shell fences in generated and checked-in README",
-      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/a5eb5bf3432639d13b21a6491bbe0aae00212f53"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:00e61e9553439627497aec47f381a6489c2d3bd5",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-09T17:25:51.000+01:00",
-      "title": "Use shell fences consistently in project READMEs",
-      "url": "https://github.com/HelgeSverre/terminal/commit/00e61e9553439627497aec47f381a6489c2d3bd5"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:408dc1deb96768c7d3d9a215fb86ad188a3f2d2c",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-09T17:25:28.000+01:00",
-      "title": "Automate signed and notarized releases with Homebrew publication",
-      "url": "https://github.com/HelgeSverre/terminal/commit/408dc1deb96768c7d3d9a215fb86ad188a3f2d2c"
-    },
-    {
-      "id": "commit:HelgeSverre/hanimex:4ecafc478cc96a64241073bda2909d2ae301e03b",
-      "kind": "commit",
-      "repo": "HelgeSverre/hanimex",
-      "at": "2026-11-09T16:55:58.000+01:00",
-      "title": "Remove chip worker timer gaps and record circuit profiling",
-      "url": "https://github.com/HelgeSverre/hanimex/commit/4ecafc478cc96a64241073bda2909d2ae301e03b"
-    },
-    {
-      "id": "commit:HelgeSverre/ollama-gui:0c871708f327b51f80c2cd3f4e285ea474704dcb",
-      "kind": "commit",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-11-09T16:06:02.000+01:00",
-      "title": "chore: release 2.0.6",
-      "url": "https://github.com/HelgeSverre/ollama-gui/commit/0c871708f327b51f80c2cd3f4e285ea474704dcb"
-    },
-    {
-      "id": "commit:wwww9178/ollama-gui-zh-cn:0c871708f327b51f80c2cd3f4e285ea474704dcb",
-      "kind": "commit",
-      "repo": "wwww9178/ollama-gui-zh-cn",
-      "at": "2026-11-09T16:06:02.000+01:00",
-      "title": "chore: release 2.0.6",
-      "url": "https://github.com/wwww9178/ollama-gui-zh-cn/commit/0c871708f327b51f80c2cd3f4e285ea474704dcb"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:41ef5805767fe28a5a445f7873b54ac3a9ca6524",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-09T15:50:54.000+01:00",
-      "title": "Document Homebrew installation and remove README icon [skip ci]",
-      "url": "https://github.com/HelgeSverre/terminal/commit/41ef5805767fe28a5a445f7873b54ac3a9ca6524"
-    },
-    {
-      "id": "commit:HelgeSverre/homebrew-tap:292279b1f119ac647e4a932c40a8d71fc3e5bfc0",
-      "kind": "commit",
-      "repo": "HelgeSverre/homebrew-tap",
-      "at": "2026-11-09T15:46:42.000+01:00",
-      "title": "Use current Homebrew URL verification defaults",
-      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/292279b1f119ac647e4a932c40a8d71fc3e5bfc0"
-    },
-    {
-      "id": "commit:HelgeSverre/homebrew-tap:c9a65a05341665945706c123cd32e2ae9704c7c9",
-      "kind": "commit",
-      "repo": "HelgeSverre/homebrew-tap",
-      "at": "2026-11-09T15:43:36.000+01:00",
-      "title": "Add the notarized Helge Terminal Homebrew cask",
-      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/c9a65a05341665945706c123cd32e2ae9704c7c9"
-    },
-    {
-      "id": "commit:HelgeSverre/homebrew-tap:caddb9d3f921b176c52b96a7d9ce6d8c942ede82",
-      "kind": "commit",
-      "repo": "HelgeSverre/homebrew-tap",
-      "at": "2026-11-09T15:43:36.000+01:00",
-      "title": "Respect cask architecture requirements in the tap catalog",
-      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/caddb9d3f921b176c52b96a7d9ce6d8c942ede82"
-    },
-    {
-      "id": "commit:HelgeSverre/hanimex:a089c5832bf9d91a7f399d10b9658b5b5b386145",
-      "kind": "commit",
-      "repo": "HelgeSverre/hanimex",
-      "at": "2026-11-09T15:25:19.000+01:00",
-      "title": "Record chip validation and measured speed limits",
-      "url": "https://github.com/HelgeSverre/hanimex/commit/a089c5832bf9d91a7f399d10b9658b5b5b386145"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:31e35a5bcc69857c1f2b4e4f26db5be43f5030e2",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-09T15:23:10.000+01:00",
-      "title": "Rewrite project overview and add usage and architecture guides [skip ci]",
-      "url": "https://github.com/HelgeSverre/terminal/commit/31e35a5bcc69857c1f2b4e4f26db5be43f5030e2"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:cdf62fbf2a5a224dca2f0c278f6cb0c0cc4ebf5e",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-09T15:22:43.000+01:00",
-      "title": "Add native README captures and reproducible gallery commands [skip ci]",
-      "url": "https://github.com/HelgeSverre/terminal/commit/cdf62fbf2a5a224dca2f0c278f6cb0c0cc4ebf5e"
-    },
-    {
-      "id": "commit:HelgeSverre/hanimex:7a533d1855c125ea7355850bd401dabafafa5e10",
-      "kind": "commit",
-      "repo": "HelgeSverre/hanimex",
-      "at": "2026-11-09T15:21:11.000+01:00",
-      "title": "Run Super Wipeout from recovered silicon and reduce timing fanout work",
-      "url": "https://github.com/HelgeSverre/hanimex/commit/7a533d1855c125ea7355850bd401dabafafa5e10"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:f533afe5c52282bf6dc7f259e1d5ee3e4f0ea42b",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-09T14:58:54.000+01:00",
-      "title": "Run pane lifecycle smoke with the local GUI checks",
-      "url": "https://github.com/HelgeSverre/terminal/commit/f533afe5c52282bf6dc7f259e1d5ee3e4f0ea42b"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:b816a639ea2ee388492699b03cc73215ba931f24",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-09T14:45:45.000+01:00",
-      "title": "Stress real Codex and Files through pane and window changes",
-      "url": "https://github.com/HelgeSverre/terminal/commit/b816a639ea2ee388492699b03cc73215ba931f24"
-    },
-    {
-      "id": "commit:HelgeSverre/hanimex:5b5755e454e399e83adb18bd4e917dfb20c8288e",
-      "kind": "commit",
-      "repo": "HelgeSverre/hanimex",
-      "at": "2026-11-09T14:41:15.000+01:00",
-      "title": "Compile chip fanout and add Wipeout and Pong circuit workbenches",
-      "url": "https://github.com/HelgeSverre/hanimex/commit/5b5755e454e399e83adb18bd4e917dfb20c8288e"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:e7a1c670e1cb4a67a0099c88b21b94ec8b2c4e1c",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-09T14:37:51.000+01:00",
-      "title": "Enforce nested pane minimums during window resizing",
-      "url": "https://github.com/HelgeSverre/terminal/commit/e7a1c670e1cb4a67a0099c88b21b94ec8b2c4e1c"
-    },
-    {
-      "id": "pr:HelgeSverre/hanimex:1",
-      "kind": "merge",
-      "repo": "HelgeSverre/hanimex",
-      "at": "2026-11-09T14:25:39Z",
-      "title": "Run Submarine and Super Wipeout from recovered chip circuits",
-      "url": "https://github.com/HelgeSverre/hanimex/pull/1"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:e59560aed5e44d58a967ef0a67f2be2f502e70f2",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-09T14:15:05.000+01:00",
-      "title": "Allocate space before subdividing narrow terminal panes",
-      "url": "https://github.com/HelgeSverre/terminal/commit/e59560aed5e44d58a967ef0a67f2be2f502e70f2"
-    },
-    {
-      "id": "commit:HelgeSverre/hanimex:781811328cbe15be1b9c29f48c94c1802f27345b",
-      "kind": "commit",
-      "repo": "HelgeSverre/hanimex",
-      "at": "2026-11-09T13:34:59.000+01:00",
-      "title": "Compile game-dependent latch banks and move chip controls into the inspector",
-      "url": "https://github.com/HelgeSverre/hanimex/commit/781811328cbe15be1b9c29f48c94c1802f27345b"
+      "id": "release:HelgeSverre/splash:445501031",
+      "kind": "release",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-11-14T18:25:51Z",
+      "title": "v0.2.4",
+      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.2.4"
     },
     {
       "id": "release:HelgeSverre/ollama-gui:455256782",
@@ -4965,14 +4805,6 @@
       "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.2.3"
     },
     {
-      "id": "release:HelgeSverre/homebrew-tap:439248081",
-      "kind": "release",
-      "repo": "HelgeSverre/homebrew-tap",
-      "at": "2026-11-09T14:43:14Z",
-      "title": "helge-terminal-v0.2.2",
-      "url": "https://github.com/HelgeSverre/homebrew-tap/releases/tag/helge-terminal-v0.2.2"
-    },
-    {
       "id": "release:HelgeSverre/helge-launcher:450582083",
       "kind": "release",
       "repo": "HelgeSverre/helge-launcher",
@@ -5011,14 +4843,6 @@
       "at": "2026-11-17T11:33:31Z",
       "title": "v0.1.7",
       "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.7"
-    },
-    {
-      "id": "release:HelgeSverre/splash:445501031",
-      "kind": "release",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-11-14T18:25:51Z",
-      "title": "v0.2.4",
-      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.2.4"
     },
     {
       "id": "release:PrinsFrank/pdfparser:451680537",
