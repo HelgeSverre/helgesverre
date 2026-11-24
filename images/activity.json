@@ -1,9 +1,17 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-24T00:29:50.166Z",
-  "since": "2026-11-10T00:29:50.166Z",
+  "fetchedAt": "2026-11-24T18:14:39.964Z",
+  "since": "2026-11-10T18:14:39.964Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/helge-launcher:f0e0d413cc6a40e6efc533ec601f6c927eaa6e92",
+      "kind": "commit",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-24T16:22:32.000+01:00",
+      "title": "Numbers as 1 000 000.00, right-aligned answers, <details> in chat",
+      "url": "https://github.com/HelgeSverre/helge-launcher/commit/f0e0d413cc6a40e6efc533ec601f6c927eaa6e92"
+    },
     {
       "id": "commit:HelgeSverre/helge-launcher:007d56791035d0d89dba60007538b834a6af5ca2",
       "kind": "commit",
@@ -4229,30 +4237,6 @@
       "url": "https://github.com/HelgeSverre/terminal/commit/8bb12b54cb377390839e4751a95b5b76d7b6642d"
     },
     {
-      "id": "commit:HelgeSverre/terminal:5568f8388753bfd030ecff1297c0235cccbe7c67",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-10T08:37:06.000+01:00",
-      "title": "Archive row experiment and prepare version 0.2.4 release notes",
-      "url": "https://github.com/HelgeSverre/terminal/commit/5568f8388753bfd030ecff1297c0235cccbe7c67"
-    },
-    {
-      "id": "commit:HelgeSverre/homebrew-tap:490b637769fa3416648ebe8d905088f73f934e48",
-      "kind": "commit",
-      "repo": "HelgeSverre/homebrew-tap",
-      "at": "2026-11-10T07:53:16.000Z",
-      "title": "Update Helge Terminal to v0.2.4",
-      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/490b637769fa3416648ebe8d905088f73f934e48"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:c868067ce2d07a073b628bfa08f69a2144ab2b6d",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-10T07:34:10.000+01:00",
-      "title": "Refresh terminal comparisons and profile Unicode printing",
-      "url": "https://github.com/HelgeSverre/terminal/commit/c868067ce2d07a073b628bfa08f69a2144ab2b6d"
-    },
-    {
       "id": "release:HelgeSverre/helge-launcher:450582083",
       "kind": "release",
       "repo": "HelgeSverre/helge-launcher",
@@ -4403,14 +4387,6 @@
       "at": "2026-11-11T09:31:37Z",
       "title": "v0.3.0",
       "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.3.0"
-    },
-    {
-      "id": "release:HelgeSverre/terminal:440064609",
-      "kind": "release",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-10T07:53:15Z",
-      "title": "v0.2.4",
-      "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.2.4"
     },
     {
       "id": "release:HelgeSverre/fsdb:449236333",
