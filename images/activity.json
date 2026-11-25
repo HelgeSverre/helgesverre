@@ -1,9 +1,25 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-25T06:21:36.315Z",
-  "since": "2026-11-11T06:21:36.315Z",
+  "fetchedAt": "2026-11-25T12:19:23.057Z",
+  "since": "2026-11-11T12:19:23.057Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:e8bebd1051ee8b466dbe7a2a6b8a3cb8e28e61d0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T13:01:18.000+01:00",
+      "title": "Benchmark native MySQL protocol OLTP peers",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e8bebd1051ee8b466dbe7a2a6b8a3cb8e28e61d0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8f55e71c82acda6fc00f40a70f414dd46447a9d1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T12:38:29.000+01:00",
+      "title": "Measure sustained CLI throughput with Server GC",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8f55e71c82acda6fc00f40a70f414dd46447a9d1"
+    },
     {
       "id": "commit:HelgeSverre/helge-launcher:412cf6df5c81e221dfd15571812ec1af5fe421dd",
       "kind": "commit",
@@ -3653,172 +3669,28 @@
       "url": "https://github.com/HelgeSverre/terminal/commit/6773fcb834250d7d390900e01b7de21d150df2ab"
     },
     {
-      "id": "commit:HelgeSverre/terminal:d1a9cbb31889c5495df05b2427f9ba0c611ac9c1",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T13:16:34.000+01:00",
-      "title": "Add an intense resize smoke over streaming panes",
-      "url": "https://github.com/HelgeSverre/terminal/commit/d1a9cbb31889c5495df05b2427f9ba0c611ac9c1"
+      "id": "release:HelgeSverre/fsdb:449236333",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T21:46:17Z",
+      "title": "v0.1.9",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.9"
     },
     {
-      "id": "commit:HelgeSverre/terminal:6741f0ca7f641ecab073aa3a5b24301e16eb8711",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T13:16:30.000+01:00",
-      "title": "Retry a resize refused for reflow budget instead of dropping it",
-      "url": "https://github.com/HelgeSverre/terminal/commit/6741f0ca7f641ecab073aa3a5b24301e16eb8711"
+      "id": "release:HelgeSverre/fsdb:448570781",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T12:01:30Z",
+      "title": "v0.1.8",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.8"
     },
     {
-      "id": "commit:HelgeSverre/terminal:9a7030c76d9a47fadac67894d7d0a3ad6f23cdb3",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T12:46:36.000+01:00",
-      "title": "Find the split through the pane header in the resize smoke",
-      "url": "https://github.com/HelgeSverre/terminal/commit/9a7030c76d9a47fadac67894d7d0a3ad6f23cdb3"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:22b9f692843851d91b4937d7d838910c6aceb623",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T12:24:45.000+01:00",
-      "title": "Keep physical key presses out of the native smoke",
-      "url": "https://github.com/HelgeSverre/terminal/commit/22b9f692843851d91b4937d7d838910c6aceb623"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:09e57fc673e811af3cfcd351958ec56e6640a2cd",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T12:24:44.000+01:00",
-      "title": "Do not open a second window when a reopen arrives during launch",
-      "url": "https://github.com/HelgeSverre/terminal/commit/09e57fc673e811af3cfcd351958ec56e6640a2cd"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:c56760f6a657b7499e1461f84f770b55cd2abe6e",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T12:01:09.000+01:00",
-      "title": "Build and run test groups through one recipe",
-      "url": "https://github.com/HelgeSverre/terminal/commit/c56760f6a657b7499e1461f84f770b55cd2abe6e"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:852125659a6262ccfd85a56cb48a2bd3a7d8fce3",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T12:00:24.000+01:00",
-      "title": "Call the two compared apps baseline and candidate",
-      "url": "https://github.com/HelgeSverre/terminal/commit/852125659a6262ccfd85a56cb48a2bd3a7d8fce3"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:487bd627fcbe250fb9cc36028ead9f40884e517a",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T12:00:24.000+01:00",
-      "title": "Fix runner reports that hid a failure or lost their evidence",
-      "url": "https://github.com/HelgeSverre/terminal/commit/487bd627fcbe250fb9cc36028ead9f40884e517a"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:cf081d9b517d37a91ea10c0400151dc52952329b",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T12:00:24.000+01:00",
-      "title": "Fix five defects in the release signing and publishing commands",
-      "url": "https://github.com/HelgeSverre/terminal/commit/cf081d9b517d37a91ea10c0400151dc52952329b"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:8fdddfa5d702e15f3490560ca612ca852a1819d5",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T12:00:24.000+01:00",
-      "title": "Describe the benchmark recipes that exist",
-      "url": "https://github.com/HelgeSverre/terminal/commit/8fdddfa5d702e15f3490560ca612ca852a1819d5"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:abbae69af9e59d7e312de0689b9c51e6503bd505",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T12:00:24.000+01:00",
-      "title": "Remove five tools whose one-time job is done",
-      "url": "https://github.com/HelgeSverre/terminal/commit/abbae69af9e59d7e312de0689b9c51e6503bd505"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:813dd7a465ca595eb012401fef1a091c9bbdfcc0",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T11:47:01.000+01:00",
-      "title": "Tell children which terminal they run in, and only that",
-      "url": "https://github.com/HelgeSverre/terminal/commit/813dd7a465ca595eb012401fef1a091c9bbdfcc0"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:bb1b3ae8b649f29b89305909d9952919134f5913",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T11:39:06.000+01:00",
-      "title": "Rework the session recovery plan around the 2026-11-11 decisions",
-      "url": "https://github.com/HelgeSverre/terminal/commit/bb1b3ae8b649f29b89305909d9952919134f5913"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:3c96cb7bf25c49af18263c4794b49e45089fabe6",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T11:13:55.000+01:00",
-      "title": "Compare visible startup and key latency across terminals",
-      "url": "https://github.com/HelgeSverre/terminal/commit/3c96cb7bf25c49af18263c4794b49e45089fabe6"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:7eff9bc2a61a590f77d0787eb5cbb1d1a31f30bf",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T10:29:04.000+01:00",
-      "title": "Launch disposable iTerm2 instances without session servers or quit prompts",
-      "url": "https://github.com/HelgeSverre/terminal/commit/7eff9bc2a61a590f77d0787eb5cbb1d1a31f30bf"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:b8920951ee717776236251d65c4bf8ad89e28f2f",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T10:03:29.000+01:00",
-      "title": "Keep the CSI probe and its counts with the 0.3.0 measurements",
-      "url": "https://github.com/HelgeSverre/terminal/commit/b8920951ee717776236251d65c4bf8ad89e28f2f"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:27eac7c7a15e07dc851208314071aa4b41ef4809",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T10:01:40.000+01:00",
-      "title": "Mention the control sequence fix in the 0.3.0 notes",
-      "url": "https://github.com/HelgeSverre/terminal/commit/27eac7c7a15e07dc851208314071aa4b41ef4809"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:aca8a167d9a2cac4b54e776946acd7809691cc5d",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T09:47:58.000+01:00",
-      "title": "Run a CSI command only under its own marker and intermediate",
-      "url": "https://github.com/HelgeSverre/terminal/commit/aca8a167d9a2cac4b54e776946acd7809691cc5d"
-    },
-    {
-      "id": "commit:HelgeSverre/homebrew-tap:a608a703fceb5336622171861623d79f9191c539",
-      "kind": "commit",
-      "repo": "HelgeSverre/homebrew-tap",
-      "at": "2026-11-11T09:31:38.000Z",
-      "title": "Update Helge Terminal to v0.3.0",
-      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/a608a703fceb5336622171861623d79f9191c539"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:2b1669f820ca328a92be9741c52bdc02bdcbabd5",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T08:40:18.000+01:00",
-      "title": "Do not read xterm key-modifier options as SGR",
-      "url": "https://github.com/HelgeSverre/terminal/commit/2b1669f820ca328a92be9741c52bdc02bdcbabd5"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:325b8a1b330feb83ddf5cfc72c5982498b8a3349",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T08:37:25.000+01:00",
-      "title": "Prepare version 0.3.0",
-      "url": "https://github.com/HelgeSverre/terminal/commit/325b8a1b330feb83ddf5cfc72c5982498b8a3349"
+      "id": "release:HelgeSverre/fsdb:448541781",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T11:33:31Z",
+      "title": "v0.1.7",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.7"
     },
     {
       "id": "release:HelgeSverre/helge-launcher:457172402",
@@ -3971,38 +3843,6 @@
       "at": "2026-11-11T21:17:06Z",
       "title": "v0.3.1",
       "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.3.1"
-    },
-    {
-      "id": "release:HelgeSverre/terminal:441467223",
-      "kind": "release",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T09:31:37Z",
-      "title": "v0.3.0",
-      "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.3.0"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:449236333",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-17T21:46:17Z",
-      "title": "v0.1.9",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.9"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:448570781",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-17T12:01:30Z",
-      "title": "v0.1.8",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.8"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:448541781",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-17T11:33:31Z",
-      "title": "v0.1.7",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.7"
     },
     {
       "id": "release:PrinsFrank/pdfparser:451680537",
