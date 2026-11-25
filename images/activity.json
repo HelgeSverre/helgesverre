@@ -1,9 +1,297 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-25T12:19:23.057Z",
-  "since": "2026-11-11T12:19:23.057Z",
+  "fetchedAt": "2026-11-25T18:16:58.835Z",
+  "since": "2026-11-11T18:16:58.835Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/terminal:b7507ba8af199673d34554432d45bc122967ff6a",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-25T19:09:08.000+01:00",
+      "title": "chore: fix iOS Swift 6 build and eliminate all compiler warnings and deprecations",
+      "url": "https://github.com/HelgeSverre/terminal/commit/b7507ba8af199673d34554432d45bc122967ff6a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:64f67e1fb21cfbc532db58692f276fd6a51cc8e8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T19:07:57.000+01:00",
+      "title": "Lock lower-isolation joined partner ranges",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/64f67e1fb21cfbc532db58692f276fd6a51cc8e8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:fa76702ca892af30f38d69650c795d3f4b59b9df",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T18:51:46.000+01:00",
+      "title": "Reuse partner range claims inside joined view updates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/fa76702ca892af30f38d69650c795d3f4b59b9df"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c15c04122f8c02695ebfb5a6762afabb52fba7b4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T18:40:00.000+01:00",
+      "title": "Match MySQL UTF-8 full-text word boundaries",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c15c04122f8c02695ebfb5a6762afabb52fba7b4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:44027dec7499dd6e85e5b3976c5b67b9caa5a02f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T18:25:10.000+01:00",
+      "title": "Support overlays on geographic point collections",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/44027dec7499dd6e85e5b3976c5b67b9caa5a02f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5b24b39477a6d5e611e83d676845b98bbce89457",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T18:10:24.000+01:00",
+      "title": "Count one-sided correlated integer index ranges",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5b24b39477a6d5e611e83d676845b98bbce89457"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:46b804ee9bde76151c2d6776581047bc500b7089",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T18:01:34.000+01:00",
+      "title": "Compare Fsdb with native peers and ARM64 Percona",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/46b804ee9bde76151c2d6776581047bc500b7089"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d3b25c8acdaa8faf3e59449a79846f087b4e65a0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T17:46:07.000+01:00",
+      "title": "Use pinned MySQL case maps for legacy full-text postings",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d3b25c8acdaa8faf3e59449a79846f087b4e65a0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d54281b35e6c4087e65ead69de60e56da2c56317",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T17:34:17.000+01:00",
+      "title": "Use collation lowercase boundaries in Boolean ngram queries",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d54281b35e6c4087e65ead69de60e56da2c56317"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b15730220e4ed78b414aaee04c0669f2c1db4849",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T17:24:34.000+01:00",
+      "title": "Use pinned Chinese 0900 weights for full-text postings",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b15730220e4ed78b414aaee04c0669f2c1db4849"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:96ac9df19960230d368b393afb41dab808bd59b2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T17:16:22.000+01:00",
+      "title": "Use nonlocking joined update partner reads at lower isolation levels",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/96ac9df19960230d368b393afb41dab808bd59b2"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6651e2ed682ee49661d719936e9c30d04fd667e6",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T17:09:10.000+01:00",
+      "title": "Wait for qualifying inserts into joined update read ranges",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6651e2ed682ee49661d719936e9c30d04fd667e6"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:70268ada350d05b44a6e9e83660226d531a1a912",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T16:57:54.000+01:00",
+      "title": "Use joined update ranges when preparing partner read locks",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/70268ada350d05b44a6e9e83660226d531a1a912"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d3e48cbd2a0ced15973d3ecbbfdd16b6b343796c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T16:44:18.000+01:00",
+      "title": "Use composite range probes for joined view updates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d3e48cbd2a0ced15973d3ecbbfdd16b6b343796c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b347b3a54b7b265da904f75a6fc1e34ca3539a33",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T16:36:04.000+01:00",
+      "title": "Explain selected index prefixes for joined view updates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b347b3a54b7b265da904f75a6fc1e34ca3539a33"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:eeb9a42b5f61974b41d85156b1cd03050261bba0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T16:26:54.000+01:00",
+      "title": "Benchmark native peers after joined update prefix probes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/eeb9a42b5f61974b41d85156b1cd03050261bba0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c894409b88328713b2c706b7e1eee31a76f48d9d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T16:09:08.000+01:00",
+      "title": "Use selective index prefixes for joined update sources",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c894409b88328713b2c706b7e1eee31a76f48d9d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:76ad342899b4666eb4dfabf7fa64a8ce0855ee18",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T16:01:26.000+01:00",
+      "title": "Show primary probes for bound joined-view updates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/76ad342899b4666eb4dfabf7fa64a8ce0855ee18"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d36375e7ce408ea77e1dcc0c79c1906a75acaeac",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T15:47:35.000+01:00",
+      "title": "Use MySQL weights for Chinese 0900 SQL collation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d36375e7ce408ea77e1dcc0c79c1906a75acaeac"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2fa923d2ddcbc79fd6cdb06e29afe178060fc9ca",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T15:35:11.000+01:00",
+      "title": "Record Chinese collation impact on tied full-text scores",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2fa923d2ddcbc79fd6cdb06e29afe178060fc9ca"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8174e0b26c7fd58fc4c4e10f33dbc5e8607b31c2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T15:35:11.000+01:00",
+      "title": "Narrow joined update locks to bound target keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8174e0b26c7fd58fc4c4e10f33dbc5e8607b31c2"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f1c483819663f4e6be4af9e13d3017b79402f5d2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T15:28:23.000+01:00",
+      "title": "Probe primary keys for bound joined updates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f1c483819663f4e6be4af9e13d3017b79402f5d2"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:68b3271d0705b6f25a4bcb4b77a4a73064574546",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T15:18:07.000+01:00",
+      "title": "Match MySQL geographic point predicate precision",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/68b3271d0705b6f25a4bcb4b77a4a73064574546"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f092662b73349ea1e22fae4fe77808e9cb6c32c2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T15:03:26.000+01:00",
+      "title": "Benchmark native peers under hot-row contention",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f092662b73349ea1e22fae4fe77808e9cb6c32c2"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:5f87b062198c7d58768ca8341f014a82d8620563",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-25T15:01:36.000+01:00",
+      "title": "docs: archive historical ledgers, condense status to 0.6.4, update README, BUGS, AGENTS, and conformance",
+      "url": "https://github.com/HelgeSverre/terminal/commit/5f87b062198c7d58768ca8341f014a82d8620563"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:18ab67d4d418f96027e16eaf6a0a56b9e4cbb4dc",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-25T15:01:36.000+01:00",
+      "title": "feat: adopt Swift 6 language mode across all targets and tooling",
+      "url": "https://github.com/HelgeSverre/terminal/commit/18ab67d4d418f96027e16eaf6a0a56b9e4cbb4dc"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:cdc1a2d0ee268217104e45a2f06a017a0a0f0ff3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T14:47:39.000+01:00",
+      "title": "Support geographic point-set overlays",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/cdc1a2d0ee268217104e45a2f06a017a0a0f0ff3"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f934a47947d8913bbf9c2229573e1815baf78ce0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T14:32:52.000+01:00",
+      "title": "Narrow joined view deletes to bound primary keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f934a47947d8913bbf9c2229573e1815baf78ce0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5e43bad0aa0978378bf1ae26655fc9ae6a559e3f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T14:22:26.000+01:00",
+      "title": "Keep indexed MATCH scores in joined view deletes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5e43bad0aa0978378bf1ae26655fc9ae6a559e3f"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:35d681d2e4ae0d23149ec72a79f57be952e61dd9",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-25T14:20:41.000+01:00",
+      "title": "refactor: split TerminalEmulator and TerminalSession, add DECRQSS DECSNLS/DECSLPP and Metal Kitty pixel oracle",
+      "url": "https://github.com/HelgeSverre/terminal/commit/35d681d2e4ae0d23149ec72a79f57be952e61dd9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:570bc6f38d80c0e1d8d19d161d259c5bb70fda9d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T14:15:30.000+01:00",
+      "title": "Delete through mergeable views in multi-table joins",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/570bc6f38d80c0e1d8d19d161d259c5bb70fda9d"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:77c5ea77fe7b8d5925db8a08606284f83b9d9e6a",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-25T14:01:20.000+01:00",
+      "title": "perf: pack snapshot colors/kinds, reuse renderer buffers, use byte OSC buffer and KERN_PROCARGS2, extract RecoveryCoordinator",
+      "url": "https://github.com/HelgeSverre/terminal/commit/77c5ea77fe7b8d5925db8a08606284f83b9d9e6a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d839bc553000c353f3738849496c04150987c34d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T14:00:33.000+01:00",
+      "title": "Match MySQL joined DELETE view and CTE semantics",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d839bc553000c353f3738849496c04150987c34d"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:80a8e08e3bdb9141ed751f301179cb295ec3d82b",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-25T13:47:36.000+01:00",
+      "title": "chore: fix library boundary, UIKit selection/AX, DEC lookup, and build/CI hygiene",
+      "url": "https://github.com/HelgeSverre/terminal/commit/80a8e08e3bdb9141ed751f301179cb295ec3d82b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:38532f0e83da2c2c71ef3c4c848f4cd351bb4708",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T13:45:21.000+01:00",
+      "title": "Count correlated integer ranges from composite indexes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/38532f0e83da2c2c71ef3c4c848f4cd351bb4708"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a98b726bca5ee08fda05cb94239bb1d4a60a01a6",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-25T13:33:56.000+01:00",
+      "title": "Benchmark correlated and feature SQL across native peers",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a98b726bca5ee08fda05cb94239bb1d4a60a01a6"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:e8bebd1051ee8b466dbe7a2a6b8a3cb8e28e61d0",
       "kind": "commit",
@@ -3421,334 +3709,6 @@
       "url": "https://github.com/PrinsFrank/pdfparser/pull/662"
     },
     {
-      "id": "commit:HelgeSverre/terminal:edadeeaff7a4d8e2753ac0d28640ad3ae3d5b8b3",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T15:09:51.000+01:00",
-      "title": "Drop references to the retired Rust implementation from code and tools",
-      "url": "https://github.com/HelgeSverre/terminal/commit/edadeeaff7a4d8e2753ac0d28640ad3ae3d5b8b3"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:0a9a8a11ebd8ab4f4aba7b8da9901e69ec3fb574",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T14:46:55.000+01:00",
-      "title": "Point CI and the docs at the Swift Testing suites",
-      "url": "https://github.com/HelgeSverre/terminal/commit/0a9a8a11ebd8ab4f4aba7b8da9901e69ec3fb574"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:8b89d1f4b2316c68a5f78c62f90223fb0fb9b9a1",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T14:40:29.000+01:00",
-      "title": "Run the test suites with swift test",
-      "url": "https://github.com/HelgeSverre/terminal/commit/8b89d1f4b2316c68a5f78c62f90223fb0fb9b9a1"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:a9f53aaac07e7a69e1913e33efe8bbdf945f5de5",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T14:34:15.000+01:00",
-      "title": "Convert glyph residency tests",
-      "url": "https://github.com/HelgeSverre/terminal/commit/a9f53aaac07e7a69e1913e33efe8bbdf945f5de5"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:76b4f8754c69b3fee9203210fef8b1d756aee371",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T14:34:15.000+01:00",
-      "title": "Convert preferences tests",
-      "url": "https://github.com/HelgeSverre/terminal/commit/76b4f8754c69b3fee9203210fef8b1d756aee371"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:4aee7218b67ace3eb8cc3bba953955cfb943bbe8",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T14:34:15.000+01:00",
-      "title": "Convert visible link projection tests",
-      "url": "https://github.com/HelgeSverre/terminal/commit/4aee7218b67ace3eb8cc3bba953955cfb943bbe8"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:9032c157c0bedfe0a09fde4ce368d45763b43e94",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T14:34:15.000+01:00",
-      "title": "Convert graphics and prompt clear oracle tests",
-      "url": "https://github.com/HelgeSverre/terminal/commit/9032c157c0bedfe0a09fde4ce368d45763b43e94"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:186f0d00aee04695b3bb2d307f807c3dffcc9ba2",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T14:34:15.000+01:00",
-      "title": "Convert tab navigation and scheduler oracle tests",
-      "url": "https://github.com/HelgeSverre/terminal/commit/186f0d00aee04695b3bb2d307f807c3dffcc9ba2"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:dd0423cf066146750fb26bee90fe298ec5991d1a",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T14:34:15.000+01:00",
-      "title": "Convert history search, input encoder and document oracle tests",
-      "url": "https://github.com/HelgeSverre/terminal/commit/dd0423cf066146750fb26bee90fe298ec5991d1a"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:17ce3c12612bb826af3d2a5ff01151e6bc8162f7",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T14:34:15.000+01:00",
-      "title": "Convert OSC 52, viewport, Unicode 18 corpus and settings window tests",
-      "url": "https://github.com/HelgeSverre/terminal/commit/17ce3c12612bb826af3d2a5ff01151e6bc8162f7"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:3fe7e272aef52079e7ecec98b2f27066e8dba342",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T14:34:15.000+01:00",
-      "title": "Convert small unicode, geometry and statistics tests to Swift Testing",
-      "url": "https://github.com/HelgeSverre/terminal/commit/3fe7e272aef52079e7ecec98b2f27066e8dba342"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:2c11606d03a321abea2027803d31743b0a8652e9",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T14:33:45.000+01:00",
-      "title": "Use require instead of fatalError in the snapshot bridge test",
-      "url": "https://github.com/HelgeSverre/terminal/commit/2c11606d03a321abea2027803d31743b0a8652e9"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:60e92be1cde98c5e3faf43ddbc301645cf62f2c0",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T14:33:45.000+01:00",
-      "title": "Convert the session tests to Swift Testing",
-      "url": "https://github.com/HelgeSverre/terminal/commit/60e92be1cde98c5e3faf43ddbc301645cf62f2c0"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:387a454a7ac57c3dfd1e08b4d8d1939560bc59c9",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T14:33:45.000+01:00",
-      "title": "Convert the snapshot bridge test to Swift Testing",
-      "url": "https://github.com/HelgeSverre/terminal/commit/387a454a7ac57c3dfd1e08b4d8d1939560bc59c9"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:6f31073e27561222fc902cf0a7033d1e8b706ae3",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T14:33:44.000+01:00",
-      "title": "Convert the clipboard access test to Swift Testing",
-      "url": "https://github.com/HelgeSverre/terminal/commit/6f31073e27561222fc902cf0a7033d1e8b706ae3"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:effac509c19e3bf5e5773bf50e69272203adbf53",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T14:33:44.000+01:00",
-      "title": "Convert the shell editing test to Swift Testing",
-      "url": "https://github.com/HelgeSverre/terminal/commit/effac509c19e3bf5e5773bf50e69272203adbf53"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:576f629fa1779ab9c0b1124e89401af1f758eca5",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T14:33:44.000+01:00",
-      "title": "Convert the key map test to Swift Testing",
-      "url": "https://github.com/HelgeSverre/terminal/commit/576f629fa1779ab9c0b1124e89401af1f758eca5"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:8ea7b7b3d78068fe6ed74fb068555bc0fc5246c3",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T14:33:44.000+01:00",
-      "title": "Convert the PTY, transport and ingress tests to Swift Testing",
-      "url": "https://github.com/HelgeSverre/terminal/commit/8ea7b7b3d78068fe6ed74fb068555bc0fc5246c3"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:93234a64106fdcfcf7b43474b9ee5b9378d4e14e",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T14:33:32.000+01:00",
-      "title": "Convert TerminalDocumentOwnershipTests to Swift Testing",
-      "url": "https://github.com/HelgeSverre/terminal/commit/93234a64106fdcfcf7b43474b9ee5b9378d4e14e"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:12f6b1ced40800ae7c0b0890e5f54b2360972b7e",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T14:33:32.000+01:00",
-      "title": "Convert EmulatorTests to Swift Testing and move its fixture",
-      "url": "https://github.com/HelgeSverre/terminal/commit/12f6b1ced40800ae7c0b0890e5f54b2360972b7e"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:19e77d564a3f33a2e28c619c98b97bcd1200aefa",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T14:33:32.000+01:00",
-      "title": "Convert TerminalSemanticRegressionTests to Swift Testing",
-      "url": "https://github.com/HelgeSverre/terminal/commit/19e77d564a3f33a2e28c619c98b97bcd1200aefa"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:e4059ed6a168171786b941ad8d4726f10ef8df2e",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T14:33:32.000+01:00",
-      "title": "Convert TerminalBoundaryRegressionTests to Swift Testing",
-      "url": "https://github.com/HelgeSverre/terminal/commit/e4059ed6a168171786b941ad8d4726f10ef8df2e"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:7da245df5bf837f2b40ee976f7f267779b5b8b61",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T14:33:32.000+01:00",
-      "title": "Convert TerminalSelectionTests to Swift Testing",
-      "url": "https://github.com/HelgeSverre/terminal/commit/7da245df5bf837f2b40ee976f7f267779b5b8b61"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:485b3e836e596e2fc00c3597624219a36813e6e8",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T14:33:32.000+01:00",
-      "title": "Convert PresentedContentTests to Swift Testing",
-      "url": "https://github.com/HelgeSverre/terminal/commit/485b3e836e596e2fc00c3597624219a36813e6e8"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:47985d1e1ba7c9499019658c8c25c8dd6f84be3f",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T14:33:25.000+01:00",
-      "title": "Add a test package and convert two groups to Swift Testing",
-      "url": "https://github.com/HelgeSverre/terminal/commit/47985d1e1ba7c9499019658c8c25c8dd6f84be3f"
-    },
-    {
-      "id": "pr:HelgeSverre/terminal:2",
-      "kind": "merge",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T14:10:12Z",
-      "title": "Drop references to the retired Rust implementation from code and tools",
-      "url": "https://github.com/HelgeSverre/terminal/pull/2"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:0c2829ec919a19ce7c1136ce385ba0ad5fe11842",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T13:56:05.000+01:00",
-      "title": "Let the AppleScript receipt shell read from a pipe",
-      "url": "https://github.com/HelgeSverre/terminal/commit/0c2829ec919a19ce7c1136ce385ba0ad5fe11842"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:642ef4994da0e1cdc389720571a6bf50846b1d54",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T13:52:29.000+01:00",
-      "title": "Keep git from paging in the gallery fixture and refresh the screenshots",
-      "url": "https://github.com/HelgeSverre/terminal/commit/642ef4994da0e1cdc389720571a6bf50846b1d54"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:f970f8264665fe835fbdbdf88b8ae39c631740a3",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T13:50:35.000+01:00",
-      "title": "Account for the pane header in the rendering-proof layout check",
-      "url": "https://github.com/HelgeSverre/terminal/commit/f970f8264665fe835fbdbdf88b8ae39c631740a3"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:9908a1a410fe72808a958a22f3ad43ec36911b81",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T13:47:59.000+01:00",
-      "title": "Make fixture terminals raw without running stty",
-      "url": "https://github.com/HelgeSverre/terminal/commit/9908a1a410fe72808a958a22f3ad43ec36911b81"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:6773fcb834250d7d390900e01b7de21d150df2ab",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-11T13:45:12.000+01:00",
-      "title": "Set raw mode directly in the AppleScript smoke child",
-      "url": "https://github.com/HelgeSverre/terminal/commit/6773fcb834250d7d390900e01b7de21d150df2ab"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:449236333",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-17T21:46:17Z",
-      "title": "v0.1.9",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.9"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:448570781",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-17T12:01:30Z",
-      "title": "v0.1.8",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.8"
-    },
-    {
-      "id": "release:HelgeSverre/fsdb:448541781",
-      "kind": "release",
-      "repo": "HelgeSverre/fsdb",
-      "at": "2026-11-17T11:33:31Z",
-      "title": "v0.1.7",
-      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.7"
-    },
-    {
-      "id": "release:HelgeSverre/helge-launcher:457172402",
-      "kind": "release",
-      "repo": "HelgeSverre/helge-launcher",
-      "at": "2026-11-24T18:28:52Z",
-      "title": "v0.2.0",
-      "url": "https://github.com/HelgeSverre/helge-launcher/releases/tag/v0.2.0"
-    },
-    {
-      "id": "release:HelgeSverre/helge-launcher:450582083",
-      "kind": "release",
-      "repo": "HelgeSverre/helge-launcher",
-      "at": "2026-11-18T21:30:42Z",
-      "title": "v0.1.1",
-      "url": "https://github.com/HelgeSverre/helge-launcher/releases/tag/v0.1.1"
-    },
-    {
-      "id": "release:HelgeSverre/helge-launcher:450428523",
-      "kind": "release",
-      "repo": "HelgeSverre/helge-launcher",
-      "at": "2026-11-18T19:02:40Z",
-      "title": "v0.1.0",
-      "url": "https://github.com/HelgeSverre/helge-launcher/releases/tag/v0.1.0"
-    },
-    {
-      "id": "release:HelgeSverre/splash:445501031",
-      "kind": "release",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-11-14T18:25:51Z",
-      "title": "v0.2.4",
-      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.2.4"
-    },
-    {
-      "id": "release:HelgeSverre/ollama-gui:455256782",
-      "kind": "release",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-11-23T10:15:43Z",
-      "title": "v2.0.7",
-      "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.7"
-    },
-    {
-      "id": "release:HelgeSverre/ollama-gui:455266912",
-      "kind": "release",
-      "repo": "HelgeSverre/ollama-gui",
-      "at": "2026-11-23T10:26:02Z",
-      "title": "v2.0.6",
-      "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.6"
-    },
-    {
-      "id": "release:HelgeSverre/dbdump:455223751",
-      "kind": "release",
-      "repo": "HelgeSverre/dbdump",
-      "at": "2026-11-23T09:43:00Z",
-      "title": "v1.5.1",
-      "url": "https://github.com/HelgeSverre/dbdump/releases/tag/v1.5.1"
-    },
-    {
       "id": "release:HelgeSverre/terminal:454323058",
       "kind": "release",
       "repo": "HelgeSverre/terminal",
@@ -3843,6 +3803,86 @@
       "at": "2026-11-11T21:17:06Z",
       "title": "v0.3.1",
       "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.3.1"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:449236333",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T21:46:17Z",
+      "title": "v0.1.9",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.9"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:448570781",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T12:01:30Z",
+      "title": "v0.1.8",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.8"
+    },
+    {
+      "id": "release:HelgeSverre/fsdb:448541781",
+      "kind": "release",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-17T11:33:31Z",
+      "title": "v0.1.7",
+      "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.7"
+    },
+    {
+      "id": "release:HelgeSverre/helge-launcher:457172402",
+      "kind": "release",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-24T18:28:52Z",
+      "title": "v0.2.0",
+      "url": "https://github.com/HelgeSverre/helge-launcher/releases/tag/v0.2.0"
+    },
+    {
+      "id": "release:HelgeSverre/helge-launcher:450582083",
+      "kind": "release",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T21:30:42Z",
+      "title": "v0.1.1",
+      "url": "https://github.com/HelgeSverre/helge-launcher/releases/tag/v0.1.1"
+    },
+    {
+      "id": "release:HelgeSverre/helge-launcher:450428523",
+      "kind": "release",
+      "repo": "HelgeSverre/helge-launcher",
+      "at": "2026-11-18T19:02:40Z",
+      "title": "v0.1.0",
+      "url": "https://github.com/HelgeSverre/helge-launcher/releases/tag/v0.1.0"
+    },
+    {
+      "id": "release:HelgeSverre/splash:445501031",
+      "kind": "release",
+      "repo": "HelgeSverre/splash",
+      "at": "2026-11-14T18:25:51Z",
+      "title": "v0.2.4",
+      "url": "https://github.com/HelgeSverre/splash/releases/tag/v0.2.4"
+    },
+    {
+      "id": "release:HelgeSverre/ollama-gui:455256782",
+      "kind": "release",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-11-23T10:15:43Z",
+      "title": "v2.0.7",
+      "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.7"
+    },
+    {
+      "id": "release:HelgeSverre/ollama-gui:455266912",
+      "kind": "release",
+      "repo": "HelgeSverre/ollama-gui",
+      "at": "2026-11-23T10:26:02Z",
+      "title": "v2.0.6",
+      "url": "https://github.com/HelgeSverre/ollama-gui/releases/tag/v2.0.6"
+    },
+    {
+      "id": "release:HelgeSverre/dbdump:455223751",
+      "kind": "release",
+      "repo": "HelgeSverre/dbdump",
+      "at": "2026-11-23T09:43:00Z",
+      "title": "v1.5.1",
+      "url": "https://github.com/HelgeSverre/dbdump/releases/tag/v1.5.1"
     },
     {
       "id": "release:PrinsFrank/pdfparser:451680537",
