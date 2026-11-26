@@ -1,9 +1,257 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-26T12:18:23.898Z",
-  "since": "2026-11-12T12:18:23.898Z",
+  "fetchedAt": "2026-11-26T18:14:38.017Z",
+  "since": "2026-11-12T18:14:38.017Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:ef5b22254c8766956b4f4f280cd5ed9032ab5815",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T18:59:34.000+01:00",
+      "title": "Match MySQL ngram phrase parsing and relevance",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ef5b22254c8766956b4f4f280cd5ed9032ab5815"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:da01457b037bd9720d42fa586f53b57cd549ccc3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T18:45:12.000+01:00",
+      "title": "Implement discrete Frechet distance for line strings",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/da01457b037bd9720d42fa586f53b57cd549ccc3"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:33557b91153c2fd3becf2fc657ef1b7defa8d2cb",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T18:29:43.000+01:00",
+      "title": "Group matching-collation correlated text keys once",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/33557b91153c2fd3becf2fc657ef1b7defa8d2cb"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2d38edcab4ea2518350c63387e09c3cdcbb169dc",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T18:04:31.000+01:00",
+      "title": "Reopen queued explicit lock lists after concurrent DDL",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2d38edcab4ea2518350c63387e09c3cdcbb169dc"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e1aaad06f92068e1968629e0f5699eee0439d7f0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T17:12:18.000+01:00",
+      "title": "Honor transaction metadata when acquiring explicit table locks",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e1aaad06f92068e1968629e0f5699eee0439d7f0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a4355f35133c5003239c3aeded313e35e94a60ad",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T16:54:08.000+01:00",
+      "title": "Keep table metadata locks across XA prepare and recovery",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a4355f35133c5003239c3aeded313e35e94a60ad"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:899b506e77dc8d6f6cf49f69f47882f61dda41c7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T16:42:19.000+01:00",
+      "title": "Record TablePlus administration and query cancellation findings",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/899b506e77dc8d6f6cf49f69f47882f61dda41c7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:29a281ba024d38aebf05c164501ab7476bcf51c2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T16:28:10.000+01:00",
+      "title": "Retain metadata after statements fail on opened tables",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/29a281ba024d38aebf05c164501ab7476bcf51c2"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5b9827b76b3ecafabd1d90ec6c35bd589ab491a0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T16:19:05.000+01:00",
+      "title": "Release eligible metadata locks on savepoint rollback",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5b9827b76b3ecafabd1d90ec6c35bd589ab491a0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b0ceb27ab090f9990a1a752926d5aeb22e983a5a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T16:06:39.000+01:00",
+      "title": "Prioritize queued table metadata writers",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b0ceb27ab090f9990a1a752926d5aeb22e983a5a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:18db0564433a384a6fa1e2541a7a0af88910e515",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T15:51:12.000+01:00",
+      "title": "Hold table metadata for ordinary transactions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/18db0564433a384a6fa1e2541a7a0af88910e515"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:69c0c215da48efa3d51434e2e571e7b65f90c577",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T15:36:44.000+01:00",
+      "title": "Isolate primary range locks from replaced table snapshots",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/69c0c215da48efa3d51434e2e571e7b65f90c577"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:16d71bb1b3a03c4573d8d8aec48e9a2e76db1786",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T15:25:14.000+01:00",
+      "title": "Match MySQL locking for reverse composite primary ranges",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/16d71bb1b3a03c4573d8d8aec48e9a2e76db1786"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e0239e5668e82fafd9b8cef28ee78a17dd4f6516",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T15:13:55.000+01:00",
+      "title": "Lock reverse serializable scans on composite equality prefixes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e0239e5668e82fafd9b8cef28ee78a17dd4f6516"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a993cf5a04e34b05f14caf28dcc1759f49552480",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T15:08:10.000+01:00",
+      "title": "Verify TablePlus backup and restore against MySQL",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a993cf5a04e34b05f14caf28dcc1759f49552480"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:75d94c6abe9bbf32e7d0018396057d5b6bd2ec05",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-26T14:59:32.000+01:00",
+      "title": "ci: drop the sanitizer fuzz job from CI; fuzzing stays a local just fuzz run",
+      "url": "https://github.com/HelgeSverre/terminal/commit/75d94c6abe9bbf32e7d0018396057d5b6bd2ec05"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2257848bcb27c36b55bb6a6cbca788799ebcfa17",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T14:55:27.000+01:00",
+      "title": "Match reverse serializable locks on single-column primary ranges",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2257848bcb27c36b55bb6a6cbca788799ebcfa17"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1758218950320c237a24f58e97527b4c928b762e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T14:46:58.000+01:00",
+      "title": "Lock the visited prefix of forward serializable range scans",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1758218950320c237a24f58e97527b4c928b762e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8892ac166009c76a635b5944373e5bad6b95dfaf",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T14:35:30.000+01:00",
+      "title": "Lock limited serializable primary-key lookups",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8892ac166009c76a635b5944373e5bad6b95dfaf"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:6b7a737fdd67e15e8db677395eb10dcc5cd85123",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-26T14:27:31.000+01:00",
+      "title": "ci: pin Xcode 26.3 to match the local Swift 6.2.4 toolchain",
+      "url": "https://github.com/HelgeSverre/terminal/commit/6b7a737fdd67e15e8db677395eb10dcc5cd85123"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:9234a672cad0c0c585afaccb81bc9b717f85dfbb",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-26T14:23:41.000Z",
+      "title": "Update Helge Terminal to v0.6.5",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/9234a672cad0c0c585afaccb81bc9b717f85dfbb"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:026dcfc4dc5877dc01fcec8b82bca394d04ccdaa",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T14:20:57.000+01:00",
+      "title": "Record TablePlus client compatibility and dump gaps",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/026dcfc4dc5877dc01fcec8b82bca394d04ccdaa"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:5c944dd746607e94d187e09eef0a83cfd1f87072",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-26T14:20:04.000+01:00",
+      "title": "Revert \"fix: import ScreenCaptureKit with @preconcurrency so Xcode 16.4 CI builds RenderingCapture\"",
+      "url": "https://github.com/HelgeSverre/terminal/commit/5c944dd746607e94d187e09eef0a83cfd1f87072"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:ccf5a9bb7be299cacdd3c777a1d0c22fa6ea1251",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-26T14:20:04.000+01:00",
+      "title": "Revert \"fix: use explicit self in nested search closure for the Swift 6.1 CI compiler\"",
+      "url": "https://github.com/HelgeSverre/terminal/commit/ccf5a9bb7be299cacdd3c777a1d0c22fa6ea1251"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:1b10afddf59b7d0d31a07869b6ff5ba6115d624f",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-26T14:20:04.000+01:00",
+      "title": "ci: build and release on macos-26 with Xcode 26 to match the local Swift 6.2 toolchain",
+      "url": "https://github.com/HelgeSverre/terminal/commit/1b10afddf59b7d0d31a07869b6ff5ba6115d624f"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:f200472af825e0c962e3425ccd07b8ec591ab1b9",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-26T14:15:29.000+01:00",
+      "title": "fix: use explicit self in nested search closure for the Swift 6.1 CI compiler",
+      "url": "https://github.com/HelgeSverre/terminal/commit/f200472af825e0c962e3425ccd07b8ec591ab1b9"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:a9ea2f3172a4f872950bb02c0427210c17899bfb",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-26T14:09:38.000+01:00",
+      "title": "Prepare release 0.6.5",
+      "url": "https://github.com/HelgeSverre/terminal/commit/a9ea2f3172a4f872950bb02c0427210c17899bfb"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:ecf1eb093ed62971ad30cd491c454999bcaa9d98",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-26T14:09:32.000+01:00",
+      "title": "fix: import ScreenCaptureKit with @preconcurrency so Xcode 16.4 CI builds RenderingCapture",
+      "url": "https://github.com/HelgeSverre/terminal/commit/ecf1eb093ed62971ad30cd491c454999bcaa9d98"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5fe3040456b6da548d089508db0e7baa6893591e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T13:54:05.000+01:00",
+      "title": "Record durable benchmarks against five MySQL-compatible peers",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5fe3040456b6da548d089508db0e7baa6893591e"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:500ce06b19b46fbad26d78f8b513982270778501",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-26T13:49:36.000+01:00",
+      "title": "feat: add interactive feature-check TUI recipe and draft 0.6.5 release notes",
+      "url": "https://github.com/HelgeSverre/terminal/commit/500ce06b19b46fbad26d78f8b513982270778501"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:789a3519587392417caaa558bb2dacb07958c273",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T13:27:37.000+01:00",
+      "title": "Lock descending and composite serializable primary-key ranges",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/789a3519587392417caaa558bb2dacb07958c273"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:e21875f9f81257b35c1ffaebd6519727838188b2",
       "kind": "commit",
@@ -4061,38 +4309,6 @@
       "url": "https://github.com/HelgeSverre/akaifire-js/commit/563f51890cfc5824ac08076e73d4cbdc3b05cd3a"
     },
     {
-      "id": "commit:HelgeSverre/terminal:e15a857d9863a5908361f5cace3475ddead338c5",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-12T16:00:55.000+01:00",
-      "title": "Report Shift with Enter, Tab and Backspace in kitty disambiguate mode",
-      "url": "https://github.com/HelgeSverre/terminal/commit/e15a857d9863a5908361f5cace3475ddead338c5"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:8050420e1d12380165ed60f223312ffda8ed1e54",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-12T15:57:02.000+01:00",
-      "title": "Allow OSC 52 clipboard writes without asking",
-      "url": "https://github.com/HelgeSverre/terminal/commit/8050420e1d12380165ed60f223312ffda8ed1e54"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:0b26d78938e24bf096dbbc3e76e4409b33e8503a",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-12T13:28:17.000+01:00",
-      "title": "Prepare release 0.4.1",
-      "url": "https://github.com/HelgeSverre/terminal/commit/0b26d78938e24bf096dbbc3e76e4409b33e8503a"
-    },
-    {
-      "id": "commit:HelgeSverre/homebrew-tap:a4eba276a214d7b72a059506315fcbbe97ac8248",
-      "kind": "commit",
-      "repo": "HelgeSverre/homebrew-tap",
-      "at": "2026-11-12T13:07:22.000Z",
-      "title": "Update Helge Terminal to v0.4.1",
-      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/a4eba276a214d7b72a059506315fcbbe97ac8248"
-    },
-    {
       "id": "release:HelgeSverre/fsdb:449236333",
       "kind": "release",
       "repo": "HelgeSverre/fsdb",
@@ -4115,6 +4331,14 @@
       "at": "2026-11-17T11:33:31Z",
       "title": "v0.1.7",
       "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.7"
+    },
+    {
+      "id": "release:HelgeSverre/terminal:459517235",
+      "kind": "release",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-26T14:23:40Z",
+      "title": "v0.6.5",
+      "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.6.5"
     },
     {
       "id": "release:HelgeSverre/terminal:454323058",
@@ -4187,14 +4411,6 @@
       "at": "2026-11-12T20:49:15Z",
       "title": "v0.4.2",
       "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.4.2"
-    },
-    {
-      "id": "release:HelgeSverre/terminal:442961225",
-      "kind": "release",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-12T13:07:21Z",
-      "title": "v0.4.1",
-      "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.4.1"
     },
     {
       "id": "release:HelgeSverre/helge-launcher:457172402",
