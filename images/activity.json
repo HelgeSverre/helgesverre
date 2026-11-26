@@ -1,9 +1,265 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-26T00:31:26.629Z",
-  "since": "2026-11-12T00:31:26.629Z",
+  "fetchedAt": "2026-11-26T06:21:46.600Z",
+  "since": "2026-11-12T06:21:46.600Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:ddbd4602e291bcfe765ba65a5994fc172585858b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T07:05:33.000+01:00",
+      "title": "Flush cached ngram postings on orderly shutdown",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ddbd4602e291bcfe765ba65a5994fc172585858b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9ae24022cd7e9fe8b3cc3ac6fa55b488e021e85c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T06:54:05.000+01:00",
+      "title": "Count disjoint ngram phrase postings by source",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9ae24022cd7e9fe8b3cc3ac6fa55b488e021e85c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c3db6f7ea2e453dd783a29f58ab795f7f4a76da0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T06:46:20.000+01:00",
+      "title": "Match cached ngram prefix traversal order",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c3db6f7ea2e453dd783a29f58ab795f7f4a76da0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b1572cee282993406258537120d7ac18f9bcfcf3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T06:31:06.000+01:00",
+      "title": "Distinguish cached and flushed ngram prefix postings",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b1572cee282993406258537120d7ac18f9bcfcf3"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f8ef8c9bac4309dc4cc3f3d97cfa4de0665dcdd0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T06:20:53.000+01:00",
+      "title": "Add a differential oracle for the ngram cache lifecycle",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f8ef8c9bac4309dc4cc3f3d97cfa4de0665dcdd0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:77519dc31bfdbea8940451729278ff17fc3f8d97",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T06:11:35.000+01:00",
+      "title": "Accumulate Boolean ngram ranks in InnoDB term order",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/77519dc31bfdbea8940451729278ff17fc3f8d97"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7c258b9afb3cbe7379d3012bc15391c2c7507ae4",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T06:02:28.000+01:00",
+      "title": "Preserve required ngram posting bounds across Boolean groups",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7c258b9afb3cbe7379d3012bc15391c2c7507ae4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:abd338e601798021df75f4e255305134b0455763",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T05:59:33.000+01:00",
+      "title": "Refresh durable spatial and CJK benchmarks against MySQL",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/abd338e601798021df75f4e255305134b0455763"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f7c47dd7fb1785a3b857acd7df35c6327e3b0f19",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T05:41:25.000+01:00",
+      "title": "Preserve zero relevance for weighted CJK ngram matches",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f7c47dd7fb1785a3b857acd7df35c6327e3b0f19"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1f5a91cab740bb28c92b5e8640113ac1e624ce0c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T05:32:27.000+01:00",
+      "title": "Classify geographic turns at rounded polygon vertices",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1f5a91cab740bb28c92b5e8640113ac1e624ce0c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b6ab2bca5e9c538d2704f10d2bbbdec128b99052",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T05:22:08.000+01:00",
+      "title": "Preserve near-coincident geographic turn distances",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b6ab2bca5e9c538d2704f10d2bbbdec128b99052"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d35f484e4ceabe4bfb3edca201329fdef2dbf1fe",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T05:15:34.000+01:00",
+      "title": "Recognize geographic crossings between ordered boundary turns",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d35f484e4ceabe4bfb3edca201329fdef2dbf1fe"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:46d962ce400d799c0330d9a1fa9f57870153caa1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T05:07:46.000+01:00",
+      "title": "Preserve reduced-latitude precision in geographic turns",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/46d962ce400d799c0330d9a1fa9f57870153caa1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6ae78296a913e568c2a6580331b5201db8b6106e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T04:57:28.000+01:00",
+      "title": "Benchmark current Fsdb against native database peers",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6ae78296a913e568c2a6580331b5201db8b6106e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:cc2cb5f65f4f024ae0df99f9b23ffb8433c0a76a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T04:40:09.000+01:00",
+      "title": "Classify ordered proper and rounded geographic turns",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/cc2cb5f65f4f024ae0df99f9b23ffb8433c0a76a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:544f8745acc12024cd425c1c911b3b021ee7b2ea",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T04:31:23.000+01:00",
+      "title": "Recognize paired rounded geographic boundary contacts",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/544f8745acc12024cd425c1c911b3b021ee7b2ea"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9c99d75fbf0e6975ffe601a2e85850ef227d441c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T04:20:29.000+01:00",
+      "title": "Match rounded geographic line-area turn handling",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9c99d75fbf0e6975ffe601a2e85850ef227d441c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:fd05001dd64b00be928f42f5c715b713b2aadb67",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T04:04:39.000+01:00",
+      "title": "Refine geographic line-area relations with directed turns",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/fd05001dd64b00be928f42f5c715b713b2aadb67"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:572c261134b22623b0c6cddb7bc8768df3ad6ad2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T03:51:38.000+01:00",
+      "title": "Trace the incoming side of geographic line-area turns",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/572c261134b22623b0c6cddb7bc8768df3ad6ad2"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:81295724c55bbbcee25acdd411888e03e5465833",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T03:51:38.000+01:00",
+      "title": "Support point overlays against mixed geographic collections",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/81295724c55bbbcee25acdd411888e03e5465833"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:35b5f3c915c5480f76229b59bcc50a42b29e4bc7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T03:42:18.000+01:00",
+      "title": "Refresh durable native database peer benchmarks",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/35b5f3c915c5480f76229b59bcc50a42b29e4bc7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d11c7f654ae5a58c0d5fc0bfc5bc37946d4a1699",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T03:24:56.000+01:00",
+      "title": "Audit CJK Extension A tail against MySQL",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d11c7f654ae5a58c0d5fc0bfc5bc37946d4a1699"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9b09e4acf2dbbaf293db71e3fb36434cb93e6c7c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T03:24:56.000+01:00",
+      "title": "Match MySQL ngram Boolean modifier boundaries",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9b09e4acf2dbbaf293db71e3fb36434cb93e6c7c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ec2284f735fc42a32df7617b2e72434761c8397b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T03:14:29.000+01:00",
+      "title": "Retain joined-view materialized scan row locks",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ec2284f735fc42a32df7617b2e72434761c8397b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5263349dd0cf1ad7b0ad4bc43649171cd4fc0827",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T03:01:05.000+01:00",
+      "title": "Retain joined-view read locks through physical projections",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5263349dd0cf1ad7b0ad4bc43649171cd4fc0827"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c28cdfd50afc58ea785bf8798e1c0a73461d07de",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T02:50:57.000+01:00",
+      "title": "Measure joined-view missing-key lock intervals",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c28cdfd50afc58ea785bf8798e1c0a73461d07de"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4d7bc9792d9533b830e307f0eed17bcd13cd628c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T02:50:57.000+01:00",
+      "title": "Reuse successful derived aggregate bindings per scope",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4d7bc9792d9533b830e307f0eed17bcd13cd628c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:93e993b8fcabe8f5e0d5ff90301cbfdc44639cf9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T02:42:20.000+01:00",
+      "title": "Benchmark projected ranges and durable database peers",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/93e993b8fcabe8f5e0d5ff90301cbfdc44639cf9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2e54f0c78499f50f36b74df6ef1b51a7e7a99f79",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T02:32:48.000+01:00",
+      "title": "Match projected scalar aggregate wire metadata",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2e54f0c78499f50f36b74df6ef1b51a7e7a99f79"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:57b06a0bf8b88a2f7e93b76e2c42324b45a5d923",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T02:19:04.000+01:00",
+      "title": "Use composite correlated ranges through projections",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/57b06a0bf8b88a2f7e93b76e2c42324b45a5d923"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:af712139730ba26a25a47e7aff8ab8866f209ffb",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T01:59:54.000+01:00",
+      "title": "Index additional MBR spatial predicates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/af712139730ba26a25a47e7aff8ab8866f209ffb"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:41ab65dacb61ea4c87b2d6e4bb2bcee07efab9d9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T01:40:29.000+01:00",
+      "title": "Use spatial indexes for geographic MBR queries",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/41ab65dacb61ea4c87b2d6e4bb2bcee07efab9d9"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:98256e319c2944e2311be0fc560247eccb810ce7",
       "kind": "commit",
@@ -3573,62 +3829,6 @@
       "url": "https://github.com/HelgeSverre/gravemaskin/commit/792d650e423f3248635e82538f95e5961fb98b6b"
     },
     {
-      "id": "commit:HelgeSverre/terminal:3a9c1bb98e206999ec79aee9e2bf1fb45a685fe7",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-12T03:42:22.000+01:00",
-      "title": "Draw each frame from one reused Metal buffer",
-      "url": "https://github.com/HelgeSverre/terminal/commit/3a9c1bb98e206999ec79aee9e2bf1fb45a685fe7"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:68aa6dbe489c7aa1c72d404a72c2942b3f8e5026",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-12T03:33:45.000+01:00",
-      "title": "Read the PTY in 64 KiB slabs so floods wake the owner less often",
-      "url": "https://github.com/HelgeSverre/terminal/commit/68aa6dbe489c7aa1c72d404a72c2942b3f8e5026"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:a9aee3286c2b57fad83cdaafcebd18585adb4066",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-12T01:39:45.000+01:00",
-      "title": "Prepare release 0.4.0",
-      "url": "https://github.com/HelgeSverre/terminal/commit/a9aee3286c2b57fad83cdaafcebd18585adb4066"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:9215373422563742957e6f8c7091cae7ffc9a16d",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-12T01:38:15.000+01:00",
-      "title": "Update README.md",
-      "url": "https://github.com/HelgeSverre/terminal/commit/9215373422563742957e6f8c7091cae7ffc9a16d"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:0632f9137b40ca134abf405e848505f73437d492",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-12T01:37:55.000+01:00",
-      "title": "Keep test preferences out of ~/Library/Preferences",
-      "url": "https://github.com/HelgeSverre/terminal/commit/0632f9137b40ca134abf405e848505f73437d492"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:5a856cb12ce2fd02691407b60103792e59e0c7ca",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-12T01:32:04.000+01:00",
-      "title": "AGENTS.md: commit and push to main by default; branches only on request",
-      "url": "https://github.com/HelgeSverre/terminal/commit/5a856cb12ce2fd02691407b60103792e59e0c7ca"
-    },
-    {
-      "id": "commit:HelgeSverre/homebrew-tap:c1567b6fdb263f15ea89ecd7fbbf107979edae78",
-      "kind": "commit",
-      "repo": "HelgeSverre/homebrew-tap",
-      "at": "2026-11-12T00:57:07.000Z",
-      "title": "Update Helge Terminal to v0.4.0",
-      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/c1567b6fdb263f15ea89ecd7fbbf107979edae78"
-    },
-    {
       "id": "release:HelgeSverre/fsdb:449236333",
       "kind": "release",
       "repo": "HelgeSverre/fsdb",
@@ -3731,14 +3931,6 @@
       "at": "2026-11-12T13:07:21Z",
       "title": "v0.4.1",
       "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.4.1"
-    },
-    {
-      "id": "release:HelgeSverre/terminal:442361557",
-      "kind": "release",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-12T00:57:06Z",
-      "title": "v0.4.0",
-      "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.4.0"
     },
     {
       "id": "release:HelgeSverre/helge-launcher:457172402",
