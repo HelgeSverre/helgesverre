@@ -1,9 +1,329 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-26T06:21:46.600Z",
-  "since": "2026-11-12T06:21:46.600Z",
+  "fetchedAt": "2026-11-26T12:18:23.898Z",
+  "since": "2026-11-12T12:18:23.898Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:e21875f9f81257b35c1ffaebd6519727838188b2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T13:15:48.000+01:00",
+      "title": "Lock ascending primary-key ranges in serializable reads",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e21875f9f81257b35c1ffaebd6519727838188b2"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:b7ae7d03ec9dca7f34db836acd9b3ae602b0c484",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-26T13:12:31.000+01:00",
+      "title": "chore: remove accidentally committed frozen/ benchmark bundles",
+      "url": "https://github.com/HelgeSverre/terminal/commit/b7ae7d03ec9dca7f34db836acd9b3ae602b0c484"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:578a4d93db364e59f289760365d315d56f523cf6",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-26T13:09:28.000+01:00",
+      "title": "perf: split cluster texts from OSC 8 links in TerminalRowPayloads and tighten UTF-8/cluster printing",
+      "url": "https://github.com/HelgeSverre/terminal/commit/578a4d93db364e59f289760365d315d56f523cf6"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7b9e382c33d5192488fe5799d17ae35bf04ff0cf",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T13:01:20.000+01:00",
+      "title": "Lock exact primary-key reads in serializable transactions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7b9e382c33d5192488fe5799d17ae35bf04ff0cf"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:ced9b3161480d5b6a94ae464128f70c5301cedfe",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-26T12:55:04.000+01:00",
+      "title": "perf: add direct in-process PNG decoder fast path for 8-bit RGB/RGBA Kitty images",
+      "url": "https://github.com/HelgeSverre/terminal/commit/ced9b3161480d5b6a94ae464128f70c5301cedfe"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:fef0863927f4723780023c0d660b0007ca80272d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T12:50:18.000+01:00",
+      "title": "Retain prepared XA write locks in memory mode",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/fef0863927f4723780023c0d660b0007ca80272d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f3659c79494d29f60de2d6286fd769ff4b3febe6",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T12:39:13.000+01:00",
+      "title": "Protect joined-view gaps in unsigned integer primary keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f3659c79494d29f60de2d6286fd769ff4b3febe6"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f720ef7928b900c034927a4a53ac8165494ecb4c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T12:29:06.000+01:00",
+      "title": "Use cross-platform MySQL results for geographic regressions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f720ef7928b900c034927a4a53ac8165494ecb4c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2a85e005a7c2e7e82beea008870e1d6a01bd7733",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T12:19:32.000+01:00",
+      "title": "Reject rounded geographic overlay cuts beyond geodesic bounds",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2a85e005a7c2e7e82beea008870e1d6a01bd7733"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:800276bf6b75e05d06545c805c6d7b92c5512e97",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-26T12:07:22.000+01:00",
+      "title": "chore: move DistributionTests into DevTests and use SwiftPM TerminfoProbe",
+      "url": "https://github.com/HelgeSverre/terminal/commit/800276bf6b75e05d06545c805c6d7b92c5512e97"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:59cc0f803bd27dc6f270721ba312dd8ade11581d",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-26T12:07:22.000+01:00",
+      "title": "perf: fast canonical Kitty base64 decoder, bulk APC scan, and zero-append Unicode printBatch",
+      "url": "https://github.com/HelgeSverre/terminal/commit/59cc0f803bd27dc6f270721ba312dd8ade11581d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c429fe184c3a4012b0501b3efdcde5fb307a1c69",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T12:07:02.000+01:00",
+      "title": "Translate shifted keys into correlated composite index bounds",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c429fe184c3a4012b0501b3efdcde5fb307a1c69"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3659d1fd2e10d4d1dd00d8110d794300b61a5130",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T11:53:37.000+01:00",
+      "title": "Keep composite ranges through bounded computed projections",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3659d1fd2e10d4d1dd00d8110d794300b61a5130"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c4e04ec42382b2ad4f82d808b5b0640e09f1e8b8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T11:41:52.000+01:00",
+      "title": "Keep solver radians through geographic overlay coverage",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c4e04ec42382b2ad4f82d808b5b0640e09f1e8b8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d0e88e83e5731eb4d9f87e97a7c4f6ec8f592c01",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T11:32:22.000+01:00",
+      "title": "Retain rounded source endpoints in geographic intersections",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d0e88e83e5731eb4d9f87e97a7c4f6ec8f592c01"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b8fcf017a9de8adb89ad3e9e5d13673841b88193",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T11:25:02.000+01:00",
+      "title": "Reject rounded endpoints in geographic overlay crossings",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b8fcf017a9de8adb89ad3e9e5d13673841b88193"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d6d85da4fc7338faf8c8fd6b3adaddf8590ac340",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T11:17:37.000+01:00",
+      "title": "Preserve rounded geographic overlay vertices and source order",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d6d85da4fc7338faf8c8fd6b3adaddf8590ac340"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:03b3a0a2f9b75c6568792ff92af511c90fa0ca22",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T11:03:04.000+01:00",
+      "title": "Repeat durable database peer benchmarks with geographic overlays",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/03b3a0a2f9b75c6568792ff92af511c90fa0ca22"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:78c40bbef44f05ae78bc65ccb528fdfb21667e80",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T10:43:33.000+01:00",
+      "title": "Classify geographic overlay intervals from directed turns",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/78c40bbef44f05ae78bc65ccb528fdfb21667e80"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1ea5def4c1b63428e715c24ac090352563b2d9de",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T10:34:04.000+01:00",
+      "title": "Refresh geographic line relation parity evidence",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1ea5def4c1b63428e715c24ac090352563b2d9de"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:004b67eb50deb01bd24ee735d805f37e67048e44",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T10:34:04.000+01:00",
+      "title": "Honor destination gap locks in cross-database updates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/004b67eb50deb01bd24ee735d805f37e67048e44"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:008608a2196a24d7a65526c6b52aea94ff2888dd",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T10:21:56.000+01:00",
+      "title": "Let joined-view gaps widen after a predecessor is purged",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/008608a2196a24d7a65526c6b52aea94ff2888dd"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f352bde86e51959f0e7736bd19743bd44f05ce51",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T10:13:47.000+01:00",
+      "title": "Honor session lock wait timeouts for storage writes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f352bde86e51959f0e7736bd19743bd44f05ce51"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:056f7c5d3e7c8d67db14a58872a06b1416ba9c3e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T10:07:54.000+01:00",
+      "title": "Protect missing primary-key gaps in joined-view updates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/056f7c5d3e7c8d67db14a58872a06b1416ba9c3e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0ab5ee53b8bae6c1455150eafc72741469119ab1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T09:53:22.000+01:00",
+      "title": "Check how read views pin joined-update gap boundaries",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0ab5ee53b8bae6c1455150eafc72741469119ab1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:67498a214d13ab38e881dcd6ac8c1bffddd901c6",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T09:52:58.000+01:00",
+      "title": "Share the deadlock-aware lock wait across monitors",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/67498a214d13ab38e881dcd6ac8c1bffddd901c6"
+    },
+    {
+      "id": "commit:HelgeSverre/terminal:43ec70ee2ab329e1e3ae0739e0bf645174728e27",
+      "kind": "commit",
+      "repo": "HelgeSverre/terminal",
+      "at": "2026-11-26T09:48:27.000+01:00",
+      "title": "feat: support Kitty indexed animation frames, composition, playback, and frame promotion",
+      "url": "https://github.com/HelgeSverre/terminal/commit/43ec70ee2ab329e1e3ae0739e0bf645174728e27"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:eeec271a192757052050bf908f21a3ec7acd4061",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T09:46:31.000+01:00",
+      "title": "Release locks when preparing an empty XA branch",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/eeec271a192757052050bf908f21a3ec7acd4061"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7b248f521d96ba98bc318bb3f4d419528b3f9507",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T09:42:39.000+01:00",
+      "title": "Refresh native Fsdb benchmarks against database peers",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7b248f521d96ba98bc318bb3f4d419528b3f9507"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:baf72b20696e664b31ffe751ebfe03572c5c056b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T09:14:42.000+01:00",
+      "title": "Keep signed WHERE filters on correlated composite ranges",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/baf72b20696e664b31ffe751ebfe03572c5c056b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9ae6848b99c9fb56a778935b67cb96074851ecda",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T09:05:21.000+01:00",
+      "title": "Keep signed source filters on correlated composite ranges",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9ae6848b99c9fb56a778935b67cb96074851ecda"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b8ad0c8a3fa6da75c219d9ff6e26f13129325f82",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T08:55:25.000+01:00",
+      "title": "Honor cached posting segment bounds in ngram ranking",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b8ad0c8a3fa6da75c219d9ff6e26f13129325f82"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:00470fbac8355db8f7c8c11b9e4a8278d2d4ad90",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T08:46:23.000+01:00",
+      "title": "Include word indexes in shared full-text cache pressure",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/00470fbac8355db8f7c8c11b9e4a8278d2d4ad90"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2c4d7ad26d33d996a0167741daed36c215119c09",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T08:36:34.000+01:00",
+      "title": "Benchmark durable Fsdb against native database peers",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2c4d7ad26d33d996a0167741daed36c215119c09"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ac7d4a6730870ff3327a93ad866adbb8b2fc096c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T08:23:08.000+01:00",
+      "title": "Honor server-wide ngram cache pressure on indexed writes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ac7d4a6730870ff3327a93ad866adbb8b2fc096c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d2ad0ca1c380314e7877de68334bd06bb66e1849",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T08:07:08.000+01:00",
+      "title": "Sync ngram posting caches under per-table pressure",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d2ad0ca1c380314e7877de68334bd06bb66e1849"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:45279ab6fd837162675fde364c1604d783078a77",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T07:52:36.000+01:00",
+      "title": "Add differential oracle for automatic ngram cache pressure",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/45279ab6fd837162675fde364c1604d783078a77"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:905b41bf805f7998840e92887b63bc0c582d0512",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T07:41:33.000+01:00",
+      "title": "Match deleted ngram frequencies in natural and expanded searches",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/905b41bf805f7998840e92887b63bc0c582d0512"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:dce9caa6d9b88aa0c98b51b5b50fb5252fcc9fca",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T07:34:23.000+01:00",
+      "title": "Retain deleted ngram postings for Boolean ranking",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/dce9caa6d9b88aa0c98b51b5b50fb5252fcc9fca"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8a98b37cfcee4d07c4a502eb5f19922e2a522042",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T07:23:04.000+01:00",
+      "title": "Refresh durable native database peer benchmarks",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8a98b37cfcee4d07c4a502eb5f19922e2a522042"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:ddbd4602e291bcfe765ba65a5994fc172585858b",
       "kind": "commit",
@@ -3771,62 +4091,6 @@
       "at": "2026-11-12T13:07:22.000Z",
       "title": "Update Helge Terminal to v0.4.1",
       "url": "https://github.com/HelgeSverre/homebrew-tap/commit/a4eba276a214d7b72a059506315fcbbe97ac8248"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:c346fd3167b45df3b8b36acd50761f46ecffa913",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-12T12:09:28.000+01:00",
-      "title": "Add Undo, Redo, Cut and Delete to the Edit menu",
-      "url": "https://github.com/HelgeSverre/terminal/commit/c346fd3167b45df3b8b36acd50761f46ecffa913"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:43aa8165430c187aae3806e9cec65a9b75b05de2",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-12T11:23:03.000+01:00",
-      "title": "Give Settings a Tab order and keyboard control for every field",
-      "url": "https://github.com/HelgeSverre/terminal/commit/43aa8165430c187aae3806e9cec65a9b75b05de2"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:aa2a888abe378f3adf4e1e5d3560e013c91063f9",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-12T11:07:14.000+01:00",
-      "title": "Make the pane color popover usable from the keyboard and AppleScript",
-      "url": "https://github.com/HelgeSverre/terminal/commit/aa2a888abe378f3adf4e1e5d3560e013c91063f9"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:fe18fe4f5b4044eac2246196fdd69f168a884ea2",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-12T11:07:07.000+01:00",
-      "title": "Sign the AppleScript fixture deeply so it can load Sparkle",
-      "url": "https://github.com/HelgeSverre/terminal/commit/fe18fe4f5b4044eac2246196fdd69f168a884ea2"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:739ed11152db476eeb52e26ca86c06ac32892f16",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-12T09:44:41.000+01:00",
-      "title": "Open the pane color popover where the header was right-clicked",
-      "url": "https://github.com/HelgeSverre/terminal/commit/739ed11152db476eeb52e26ca86c06ac32892f16"
-    },
-    {
-      "id": "commit:HelgeSverre/gravemaskin:df990b2d4e7f57ae95073aa294dc49e395d2db7f",
-      "kind": "commit",
-      "repo": "HelgeSverre/gravemaskin",
-      "at": "2026-11-12T08:50:52.000+01:00",
-      "title": "physics: loose soil redone — packets in flight, piles as terrain; new world, machine meshes",
-      "url": "https://github.com/HelgeSverre/gravemaskin/commit/df990b2d4e7f57ae95073aa294dc49e395d2db7f"
-    },
-    {
-      "id": "commit:HelgeSverre/gravemaskin:792d650e423f3248635e82538f95e5961fb98b6b",
-      "kind": "commit",
-      "repo": "HelgeSverre/gravemaskin",
-      "at": "2026-11-12T08:50:52.000+01:00",
-      "title": "packaging: bundle identifier no.helgesverre.gravemaskin",
-      "url": "https://github.com/HelgeSverre/gravemaskin/commit/792d650e423f3248635e82538f95e5961fb98b6b"
     },
     {
       "id": "release:HelgeSverre/fsdb:449236333",
