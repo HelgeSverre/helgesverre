@@ -1,9 +1,265 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-27T12:18:32.728Z",
-  "since": "2026-11-13T12:18:32.728Z",
+  "fetchedAt": "2026-11-27T18:14:44.628Z",
+  "since": "2026-11-13T18:14:44.628Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:d1304f596964d10cd86c7a6cf32222cf2ea7eb38",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T19:05:21.000+01:00",
+      "title": "Share CTE plans across UNION branches",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d1304f596964d10cd86c7a6cf32222cf2ea7eb38"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3e9f8ea1806dcff9e1c330c744e4af411249f876",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T18:54:06.000+01:00",
+      "title": "Resolve materialized CTEs in correlated EXPLAIN plans",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3e9f8ea1806dcff9e1c330c744e4af411249f876"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1ebb8c6e383ece059805c2300b79f2589ac46b91",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T18:41:11.000+01:00",
+      "title": "Explain correlated index probes from derived scopes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1ebb8c6e383ece059805c2300b79f2589ac46b91"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b977850b2635047659eda91b7832ead67d1dbe99",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T18:29:17.000+01:00",
+      "title": "Support symmetric difference of mixed geographic collections",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b977850b2635047659eda91b7832ead67d1dbe99"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5411a2ec61a4a1d805e7f9ef3a19f0bcd172b0c7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T18:17:24.000+01:00",
+      "title": "Intersect mixed geographic collections by dimension",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5411a2ec61a4a1d805e7f9ef3a19f0bcd172b0c7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:288b52ab62178f9c5cb6a8672e2a15796206676d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T18:06:35.000+01:00",
+      "title": "Subtract mixed geographic collections by dimension",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/288b52ab62178f9c5cb6a8672e2a15796206676d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f16ac022e8096ddd68a6704f7a182ff9db1126ff",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T17:55:39.000+01:00",
+      "title": "Preserve source rings in geographic edge intersections",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f16ac022e8096ddd68a6704f7a182ff9db1126ff"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:15f00ff64ed751e6aa4c43f1158bbafd084bfcb0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T17:44:13.000+01:00",
+      "title": "Support geographic polygon set operations",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/15f00ff64ed751e6aa4c43f1158bbafd084bfcb0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9728ec855c8bcfd72719da0439b1d7c49187bede",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T17:24:54.000+01:00",
+      "title": "Protect gaps during unindexed single-table writes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9728ec855c8bcfd72719da0439b1d7c49187bede"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1be869e452565ce45ca9f810569ab964a42e6cff",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T16:56:43.000+01:00",
+      "title": "Stream correlated top-N across collation ties",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1be869e452565ce45ca9f810569ab964a42e6cff"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6746ad4101d36e62d7292164aa6f3aa4e81e4e07",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T16:37:20.000+01:00",
+      "title": "Explain correlated top-N index lookups",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6746ad4101d36e62d7292164aa6f3aa4e81e4e07"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:45030f74b59cd963b51e1267b6f5605e289ba891",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T16:21:58.000+01:00",
+      "title": "Respect collation ties in SQL ordering and grouping",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/45030f74b59cd963b51e1267b6f5605e289ba891"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:cfe8fe064a7edaa18b3c6fb41809db783834c123",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T16:08:18.000+01:00",
+      "title": "Seek correlated top-N through constant text prefixes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/cfe8fe064a7edaa18b3c6fb41809db783834c123"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:99f00146d4c428d51a23212a71435966910e30bb",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T15:57:16.000+01:00",
+      "title": "Match case-sensitive full-text prefix cursors",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/99f00146d4c428d51a23212a71435966910e30bb"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a0cd8154c359085cf96d3438690819f01660686e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T15:47:42.000+01:00",
+      "title": "Honor MySQL Boolean word group visitation order",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a0cd8154c359085cf96d3438690819f01660686e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:06d72cd56bb68317d4dd55ce5fc221de56c80152",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T15:35:44.000+01:00",
+      "title": "Share posting relevance for compound word wildcards",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/06d72cd56bb68317d4dd55ce5fc221de56c80152"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:846967b2deb7f034565e8c28f99b01b296ae2318",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T15:24:59.000+01:00",
+      "title": "Match default-parser Boolean wildcard relevance",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/846967b2deb7f034565e8c28f99b01b296ae2318"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3a3bea942041a3273615f086479f66e31e451790",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T15:13:20.000+01:00",
+      "title": "Match dotted and dotless I in legacy full-text keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3a3bea942041a3273615f086479f66e31e451790"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:cfe2ce92ef078b0ae8f836e7738e6b5f4ef9a139",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T14:57:50.000+01:00",
+      "title": "Match MySQL full-text bulk token preparation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/cfe2ce92ef078b0ae8f836e7738e6b5f4ef9a139"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:fd363393953f5923c2cae561fd1e4c36c3632ded",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T14:41:45.000+01:00",
+      "title": "Match write-time ngram stopword grouping",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/fd363393953f5923c2cae561fd1e4c36c3632ded"
+    },
+    {
+      "id": "commit:HelgeSverre/speak:3ae90962e30d8470f7b5f1de8c839e8401569d70",
+      "kind": "commit",
+      "repo": "HelgeSverre/speak",
+      "at": "2026-11-27T14:33:52.000+01:00",
+      "title": "Install page: extras as rows, dictionary command on three lines, LED mouth for SidePulse",
+      "url": "https://github.com/HelgeSverre/speak/commit/3ae90962e30d8470f7b5f1de8c839e8401569d70"
+    },
+    {
+      "id": "commit:HelgeSverre/speak:825a37be5bfc875d087ff79cb94b48884c0ff255",
+      "kind": "commit",
+      "repo": "HelgeSverre/speak",
+      "at": "2026-11-27T14:22:02.000+01:00",
+      "title": "Install page: no website card; SidePulse card explains how to turn it off instead of showing it",
+      "url": "https://github.com/HelgeSverre/speak/commit/825a37be5bfc875d087ff79cb94b48884c0ff255"
+    },
+    {
+      "id": "commit:HelgeSverre/speak:a69ee30aa20f685063c6e4f8a672f4199ef2ecc4",
+      "kind": "commit",
+      "repo": "HelgeSverre/speak",
+      "at": "2026-11-27T14:21:09.000+01:00",
+      "title": "Release on macos-15 for Apple Silicon; add just deploy for the website",
+      "url": "https://github.com/HelgeSverre/speak/commit/a69ee30aa20f685063c6e4f8a672f4199ef2ecc4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:cabd3d0e19becabf24cf36470c44ec8b00308789",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T14:20:59.000+01:00",
+      "title": "Support mixed Cartesian geometry collection overlays",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/cabd3d0e19becabf24cf36470c44ec8b00308789"
+    },
+    {
+      "id": "commit:HelgeSverre/speak:4596b4244802610e6ac21dd46dc658901c5151eb",
+      "kind": "commit",
+      "repo": "HelgeSverre/speak",
+      "at": "2026-11-27T14:17:36.000+01:00",
+      "title": "Browser build, MCP server, Homebrew release, and a shorter tail",
+      "url": "https://github.com/HelgeSverre/speak/commit/4596b4244802610e6ac21dd46dc658901c5151eb"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ed6e8438994f178d562d39d8bb9ccb748ea07b46",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T14:07:20.000+01:00",
+      "title": "Honor collated primary range locking schedules",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ed6e8438994f178d562d39d8bb9ccb748ea07b46"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:87f1a8299ed2d0553cc77a855ba03eef20315550",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T13:44:16.000+01:00",
+      "title": "Honor typed primary range locking schedules",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/87f1a8299ed2d0553cc77a855ba03eef20315550"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:86e41c6089ae416d27e0e8848a4c28709e40ffe3",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-27T13:40:21.000+01:00",
+      "title": "Update nvmr formula to v0.1.3",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/86e41c6089ae416d27e0e8848a4c28709e40ffe3"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:e2dd666eb29abf979dc1bc09f9e9ded04f08c261",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-11-27T13:37:46.000+01:00",
+      "title": "Release v0.1.3",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/e2dd666eb29abf979dc1bc09f9e9ded04f08c261"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:3d36808f01b1e2f1494555adc2873f4d9048175a",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-11-27T13:37:35.000+01:00",
+      "title": "Collapse remote versions with the same core like upstream",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/3d36808f01b1e2f1494555adc2873f4d9048175a"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:68db5fe08adeacc761708beff41869b395d2946a",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-11-27T13:37:35.000+01:00",
+      "title": "List alias completions without changing directory",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/68db5fe08adeacc761708beff41869b395d2946a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:73b93e80c183fd1ae9075a4b2b6d0808b8e28ed3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T13:27:55.000+01:00",
+      "title": "Match MySQL geometry comparison binding and metadata",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/73b93e80c183fd1ae9075a4b2b6d0808b8e28ed3"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:f57fb381ae40f6523409b707ae0b8da031ef6f6d",
       "kind": "commit",
@@ -2573,6 +2829,14 @@
       "url": "https://github.com/HelgeSverre/jt4000-sdk/commit/6106c25a8e27ed642f961ec9277b57032d8955c7"
     },
     {
+      "id": "commit:HelgeSverre/speak:93c3f4f974d5c34799f846f96da25e6302119f83",
+      "kind": "commit",
+      "repo": "HelgeSverre/speak",
+      "at": "2026-11-20T13:47:54.000+01:00",
+      "title": "Add \"No Weights, No Net\", an original song",
+      "url": "https://github.com/HelgeSverre/speak/commit/93c3f4f974d5c34799f846f96da25e6302119f83"
+    },
+    {
       "id": "commit:HelgeSverre/speak:bdb5a9bcec418019f1c141970db17e53e2fcf7a9",
       "kind": "commit",
       "repo": "HelgeSverre/speak",
@@ -4973,12 +5237,20 @@
       "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.7"
     },
     {
-      "id": "release:sema-lisp/sema:460557550",
+      "id": "release:HelgeSverre/speak:460632665",
       "kind": "release",
-      "repo": "sema-lisp/sema",
-      "at": "2026-11-27T12:11:15Z",
-      "title": "v2.0.1",
-      "url": "https://github.com/sema-lisp/sema/releases/tag/v2.0.1"
+      "repo": "HelgeSverre/speak",
+      "at": "2026-11-27T13:25:13Z",
+      "title": "v0.1.0",
+      "url": "https://github.com/HelgeSverre/speak/releases/tag/v0.1.0"
+    },
+    {
+      "id": "release:HelgeSverre/nvmr:460586303",
+      "kind": "release",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-11-27T12:40:01Z",
+      "title": "v0.1.3",
+      "url": "https://github.com/HelgeSverre/nvmr/releases/tag/v0.1.3"
     },
     {
       "id": "release:HelgeSverre/nvmr:460514698",
@@ -4987,6 +5259,14 @@
       "at": "2026-11-27T11:26:57Z",
       "title": "v0.1.2",
       "url": "https://github.com/HelgeSverre/nvmr/releases/tag/v0.1.2"
+    },
+    {
+      "id": "release:sema-lisp/sema:460557550",
+      "kind": "release",
+      "repo": "sema-lisp/sema",
+      "at": "2026-11-27T12:11:15Z",
+      "title": "v2.0.1",
+      "url": "https://github.com/sema-lisp/sema/releases/tag/v2.0.1"
     },
     {
       "id": "release:HelgeSverre/terminal:459517235",
