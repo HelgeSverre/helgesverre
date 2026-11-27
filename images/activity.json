@@ -1,9 +1,273 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-26T18:14:38.017Z",
-  "since": "2026-11-12T18:14:38.017Z",
+  "fetchedAt": "2026-11-27T00:31:37.833Z",
+  "since": "2026-11-13T00:31:37.833Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:9e81f14de2ed14062637388097ecd31276966f85",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T01:30:20.000+01:00",
+      "title": "Lock collapsed primary ranges before suffix sorting",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9e81f14de2ed14062637388097ecd31276966f85"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8bd2a385742a329795cf1017358e12f6d7189b3f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T01:19:57.000+01:00",
+      "title": "Match full-text wildcard prefixes inside collation expansions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8bd2a385742a329795cf1017358e12f6d7189b3f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:537f8ab01477ec40a10ee5fdc532b63f06c1c13f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T01:06:11.000+01:00",
+      "title": "Fold fullwidth ASCII in legacy Unicode full-text keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/537f8ab01477ec40a10ee5fdc532b63f06c1c13f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e5f87aac9fea854ae9ff6be737fea7125e931d27",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T00:52:59.000+01:00",
+      "title": "Implement ST_Validate and share MySQL geometry validity checks",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e5f87aac9fea854ae9ff6be737fea7125e931d27"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a01d84071c7eddcfe1858356d2e828c70dfce14d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T00:39:23.000+01:00",
+      "title": "Implement planar ST_Simplify with MySQL spatial diagnostics",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a01d84071c7eddcfe1858356d2e828c70dfce14d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5504a9991f502d99a657e63968c405010bd46189",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T00:25:45.000+01:00",
+      "title": "Report observed correlated index lookups in EXPLAIN ANALYZE",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5504a9991f502d99a657e63968c405010bd46189"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:36b94bc2c0db8ea6fa58eb2403c560df9cdb4862",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T00:16:34.000+01:00",
+      "title": "Stream correlated top-N reads over text index prefixes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/36b94bc2c0db8ea6fa58eb2403c560df9cdb4862"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:93786f115e140e9c639ccdbe4dd39e55a4f8b02a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T00:06:08.000+01:00",
+      "title": "Respect statement-local view materialization in writes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/93786f115e140e9c639ccdbe4dd39e55a4f8b02a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:38dfd0a2f3de6a0cc5620ec0af9076ac45d6178b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T23:46:57.000+01:00",
+      "title": "Stream correlated top-N reads from composite indexes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/38dfd0a2f3de6a0cc5620ec0af9076ac45d6178b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3fa8e3132c0a3a06b07aafc930d5e92569003e61",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T23:32:32.000+01:00",
+      "title": "Match outer join nullability and lateral parameter scopes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3fa8e3132c0a3a06b07aafc930d5e92569003e61"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f0099d02708146ff3a35c58707b4702c27d1d7c0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T23:23:23.000+01:00",
+      "title": "Bind left lateral sources to preserved right join operands",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f0099d02708146ff3a35c58707b4702c27d1d7c0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1cef139defee9ada3b668ccd5196375f72b70811",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T23:09:45.000+01:00",
+      "title": "Preserve comma join precedence and lateral scope",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1cef139defee9ada3b668ccd5196375f72b70811"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1d456770c225ccfe092be16a3e0195dc239d6945",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T22:59:27.000+01:00",
+      "title": "Implement discrete Hausdorff distance for MySQL spatial types",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1d456770c225ccfe092be16a3e0195dc239d6945"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3da07f92bb78b0a173153478ffcb9e4ec9f3fb1f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T22:49:50.000+01:00",
+      "title": "Keep primary scan progress while waiting on pending inserts",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3da07f92bb78b0a173153478ffcb9e4ec9f3fb1f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ec13a7f3d64c744af0847fc8f2b9f16056e828cc",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T22:41:26.000+01:00",
+      "title": "Narrow primary read gaps while waiting on existing rows",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ec13a7f3d64c744af0847fc8f2b9f16056e828cc"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f191392059cdfd74dbb7e658c0ed5994ae8ea1f3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T22:32:39.000+01:00",
+      "title": "Retain visited primary-key locks after a read timeout",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f191392059cdfd74dbb7e658c0ed5994ae8ea1f3"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:86d2aef197147ff8f26bbc51da329daeb95f908b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T22:23:11.000+01:00",
+      "title": "Protect gaps in explicit primary-key locking reads",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/86d2aef197147ff8f26bbc51da329daeb95f908b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5e4708ae76eb15ed000587240bf397fea558dfe3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T22:14:41.000+01:00",
+      "title": "Seek correlated integer ranges after collated text prefixes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5e4708ae76eb15ed000587240bf397fea558dfe3"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e630f08a62097bfc45b235a227ef911c5e43abab",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T22:05:01.000+01:00",
+      "title": "Use composite correlated ranges across integer key domains",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e630f08a62097bfc45b235a227ef911c5e43abab"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d079aabb2494a5eb7dd8990cdc05d831bca192d5",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T21:55:51.000+01:00",
+      "title": "Share Boolean ngram ranking across exact and prefix lookups",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d079aabb2494a5eb7dd8990cdc05d831bca192d5"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e73f9fcab3e3b9dd189d1c6b3e55722c8b8dacad",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T21:46:20.000+01:00",
+      "title": "Match MySQL full-text query boundaries at embedded NUL",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e73f9fcab3e3b9dd189d1c6b3e55722c8b8dacad"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:bfdc73677fc10f696712df5e9446a3207a824797",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T21:30:05.000+01:00",
+      "title": "Dissolve geographic polygon boundaries in ST_Union",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/bfdc73677fc10f696712df5e9446a3207a824797"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:73cb262d8c73b1e8f4244ac08eb48054a0526fe6",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T21:14:12.000+01:00",
+      "title": "Keep leading derived sources in multi-table DELETE",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/73cb262d8c73b1e8f4244ac08eb48054a0526fe6"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f3814724c46ece00a51d589fbe2a8b87ac47b87d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T21:01:10.000+01:00",
+      "title": "Bind correlated subqueries to merged join keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f3814724c46ece00a51d589fbe2a8b87ac47b87d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1b65d540b3ccf6e8bd4f4b32912ef3a7ff865124",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T20:51:42.000+01:00",
+      "title": "Record correlated merged join key divergences",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1b65d540b3ccf6e8bd4f4b32912ef3a7ff865124"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f0b3a566b5d924071de41e20dfe403ecfeaffe50",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T20:51:42.000+01:00",
+      "title": "Accept multiline text prepared statements",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f0b3a566b5d924071de41e20dfe403ecfeaffe50"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8c54d9cd40f3e539ab774bf6d171a763f19fcac2",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T20:45:37.000+01:00",
+      "title": "Preserve caller subquery scope in joined view updates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8c54d9cd40f3e539ab774bf6d171a763f19fcac2"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ec86338f053c44b82e6868d7876667f74b778984",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T20:32:49.000+01:00",
+      "title": "Resolve caller subqueries against exposed view columns",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ec86338f053c44b82e6868d7876667f74b778984"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6bcb81cb3020f2ba15bfc8cca63d677110742054",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T20:17:44.000+01:00",
+      "title": "Bind qualified correlations in standalone view updates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6bcb81cb3020f2ba15bfc8cca63d677110742054"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:aed3f8fec4b4e0f287927cd3776db025676e68ac",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T20:07:19.000+01:00",
+      "title": "Narrow mixed joined write locks to complete primary keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/aed3f8fec4b4e0f287927cd3776db025676e68ac"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ef02cdc8f62b6b5c546850827fac21f18c7b6f1e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T19:56:01.000+01:00",
+      "title": "Preserve permanent view bindings in mixed joined updates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ef02cdc8f62b6b5c546850827fac21f18c7b6f1e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:980be9f18f0fa7450706289f59649ccad0709503",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T19:34:12.000+01:00",
+      "title": "Separate joined DELETE targets across temporary shadows",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/980be9f18f0fa7450706289f59649ccad0709503"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b466570acf5c3bc1cab07d01f3f90f6f1a95c9a1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-26T19:14:29.000+01:00",
+      "title": "Bind joined DELETE targets before join predicates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b466570acf5c3bc1cab07d01f3f90f6f1a95c9a1"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:ef5b22254c8766956b4f4f280cd5ed9032ab5815",
       "kind": "commit",
@@ -4213,102 +4477,6 @@
       "url": "https://github.com/HelgeSverre/terminal/commit/abae9bc6e8c3ec13a0fecb6824d23c78f7363f3d"
     },
     {
-      "id": "commit:sema-lisp/sema:c164970c03c2a78499c277b6388a6481b5455604",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-11-13T01:05:54.000+01:00",
-      "title": "test(ws): await the cancelled receive before reading async/cancelled?",
-      "url": "https://github.com/sema-lisp/sema/commit/c164970c03c2a78499c277b6388a6481b5455604"
-    },
-    {
-      "id": "commit:sema-lisp/sema:38d1dccd9d67b6ab01af4a4b8ce4c31cbe7cbf9b",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-11-12T23:02:24.000+01:00",
-      "title": "ci: pin Playwright jobs to ubuntu-24.04",
-      "url": "https://github.com/sema-lisp/sema/commit/38d1dccd9d67b6ab01af4a4b8ce4c31cbe7cbf9b"
-    },
-    {
-      "id": "commit:sema-lisp/sema:a617ad303bf8f3a289559ca8f15397f5a89ab2e8",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-11-12T23:02:24.000+01:00",
-      "title": "test: find binaries and splice paths in a layout-independent way",
-      "url": "https://github.com/sema-lisp/sema/commit/a617ad303bf8f3a289559ca8f15397f5a89ab2e8"
-    },
-    {
-      "id": "commit:sema-lisp/sema:72009f6419ceb7f844ae1e00a054d6af7e2388a2",
-      "kind": "commit",
-      "repo": "sema-lisp/sema",
-      "at": "2026-11-12T22:18:25.000+01:00",
-      "title": "test(llm): keep SystemRoot when clearing the child environment on Windows",
-      "url": "https://github.com/sema-lisp/sema/commit/72009f6419ceb7f844ae1e00a054d6af7e2388a2"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:e229650c726b448faf66e20a23dd573d9a727dd1",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-12T22:09:18.000+01:00",
-      "title": "Prepare release 0.4.3",
-      "url": "https://github.com/HelgeSverre/terminal/commit/e229650c726b448faf66e20a23dd573d9a727dd1"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:2f7bd00ef8b813d56c73097a5715b8eb04297107",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-12T21:55:51.000+01:00",
-      "title": "Test that a background job does not keep an exited shell's pane",
-      "url": "https://github.com/HelgeSverre/terminal/commit/2f7bd00ef8b813d56c73097a5715b8eb04297107"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:ba0e9f7e5b33a1f8f59aa0b8412a2c024c94c07b",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-12T21:44:17.000+01:00",
-      "title": "Scroll by accumulated trackpad travel, one line per line height",
-      "url": "https://github.com/HelgeSverre/terminal/commit/ba0e9f7e5b33a1f8f59aa0b8412a2c024c94c07b"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:a956d3d001b218614198d4507df17120439f0d72",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-12T21:30:51.000+01:00",
-      "title": "Prepare release 0.4.2",
-      "url": "https://github.com/HelgeSverre/terminal/commit/a956d3d001b218614198d4507df17120439f0d72"
-    },
-    {
-      "id": "commit:HelgeSverre/homebrew-tap:a20f926db21f1e407afa1bffd6e734925537bbf7",
-      "kind": "commit",
-      "repo": "HelgeSverre/homebrew-tap",
-      "at": "2026-11-12T21:28:12.000Z",
-      "title": "Update Helge Terminal to v0.4.3",
-      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/a20f926db21f1e407afa1bffd6e734925537bbf7"
-    },
-    {
-      "id": "commit:HelgeSverre/homebrew-tap:5c2c7389033ccc29ecd6c101d15c3357c4e2a558",
-      "kind": "commit",
-      "repo": "HelgeSverre/homebrew-tap",
-      "at": "2026-11-12T20:49:16.000Z",
-      "title": "Update Helge Terminal to v0.4.2",
-      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/5c2c7389033ccc29ecd6c101d15c3357c4e2a558"
-    },
-    {
-      "id": "commit:HelgeSverre/akaifire-js:75d7fd6c6ccaa78cc70d0fdee01e0b50ab5a5985",
-      "kind": "commit",
-      "repo": "HelgeSverre/akaifire-js",
-      "at": "2026-11-12T19:25:18.000+01:00",
-      "title": "Open the Web MIDI ports explicitly",
-      "url": "https://github.com/HelgeSverre/akaifire-js/commit/75d7fd6c6ccaa78cc70d0fdee01e0b50ab5a5985"
-    },
-    {
-      "id": "commit:HelgeSverre/akaifire-js:563f51890cfc5824ac08076e73d4cbdc3b05cd3a",
-      "kind": "commit",
-      "repo": "HelgeSverre/akaifire-js",
-      "at": "2026-11-12T19:22:58.000+01:00",
-      "title": "AKAI Fire library for JavaScript: protocol, device, canvas, testing mock",
-      "url": "https://github.com/HelgeSverre/akaifire-js/commit/563f51890cfc5824ac08076e73d4cbdc3b05cd3a"
-    },
-    {
       "id": "release:HelgeSverre/fsdb:449236333",
       "kind": "release",
       "repo": "HelgeSverre/fsdb",
@@ -4395,22 +4563,6 @@
       "at": "2026-11-14T22:57:14Z",
       "title": "v0.5.0",
       "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.5.0"
-    },
-    {
-      "id": "release:HelgeSverre/terminal:443530049",
-      "kind": "release",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-12T21:28:10Z",
-      "title": "v0.4.3",
-      "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.4.3"
-    },
-    {
-      "id": "release:HelgeSverre/terminal:443492437",
-      "kind": "release",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-12T20:49:15Z",
-      "title": "v0.4.2",
-      "url": "https://github.com/HelgeSverre/terminal/releases/tag/v0.4.2"
     },
     {
       "id": "release:HelgeSverre/helge-launcher:457172402",
