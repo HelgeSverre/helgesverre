@@ -1,9 +1,289 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-27T06:21:49.647Z",
-  "since": "2026-11-13T06:21:49.647Z",
+  "fetchedAt": "2026-11-27T12:18:32.728Z",
+  "since": "2026-11-13T12:18:32.728Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:f57fb381ae40f6523409b707ae0b8da031ef6f6d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T13:05:44.000+01:00",
+      "title": "Check retained view reads in joined DELETE",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f57fb381ae40f6523409b707ae0b8da031ef6f6d"
+    },
+    {
+      "id": "commit:sema-lisp/sema:50c0fed8f5fc08645f5c7ab2934adc18ae9ad7f2",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-11-27T12:45:08.000+01:00",
+      "title": "docs: refresh social preview badges for 2.0.1",
+      "url": "https://github.com/sema-lisp/sema/commit/50c0fed8f5fc08645f5c7ab2934adc18ae9ad7f2"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f9fa7f4d0c88c180cba6be547152cc06a472c6f9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T12:44:38.000+01:00",
+      "title": "Match MySQL EXISTS bounds in saved views",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f9fa7f4d0c88c180cba6be547152cc06a472c6f9"
+    },
+    {
+      "id": "commit:sema-lisp/sema:1633465ce3ecf1297738337e224373ee93d7f014",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-11-27T12:37:48.000+01:00",
+      "title": "release: 2.0.1",
+      "url": "https://github.com/sema-lisp/sema/commit/1633465ce3ecf1297738337e224373ee93d7f014"
+    },
+    {
+      "id": "commit:sema-lisp/sema:9c122396b6f3adeb22146b11469468cabdd94ca9",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-11-27T12:37:35.000+01:00",
+      "title": "fix(llm): charge policy rejections, cache hits, zero usage and batches by one rule (#188)",
+      "url": "https://github.com/sema-lisp/sema/commit/9c122396b6f3adeb22146b11469468cabdd94ca9"
+    },
+    {
+      "id": "commit:sema-lisp/sema:afd4423f01f8081562e425ca591051454d54c54c",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-11-27T12:37:09.000+01:00",
+      "title": "refactor(llm): typed response origin for completion accounting (#187)",
+      "url": "https://github.com/sema-lisp/sema/commit/afd4423f01f8081562e425ca591051454d54c54c"
+    },
+    {
+      "id": "commit:sema-lisp/sema:ffa89394c30f99e91d44e88d354cea6bb1d3e703",
+      "kind": "commit",
+      "repo": "sema-lisp/sema",
+      "at": "2026-11-27T12:36:38.000+01:00",
+      "title": "fix(vm): intrinsic opcodes return the stdlib result on rejected operands (#186)",
+      "url": "https://github.com/sema-lisp/sema/commit/ffa89394c30f99e91d44e88d354cea6bb1d3e703"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c9d672f8d6357eb597976396528f8e2e4ba063b1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T12:27:54.000+01:00",
+      "title": "Bind bare saved-view correlations through CTE scopes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c9d672f8d6357eb597976396528f8e2e4ba063b1"
+    },
+    {
+      "id": "commit:HelgeSverre/homebrew-tap:3ed723bf8d44386434f49dedbaadd177c94d1438",
+      "kind": "commit",
+      "repo": "HelgeSverre/homebrew-tap",
+      "at": "2026-11-27T12:27:41.000+01:00",
+      "title": "Update nvmr formula to v0.1.2",
+      "url": "https://github.com/HelgeSverre/homebrew-tap/commit/3ed723bf8d44386434f49dedbaadd177c94d1438"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:6e8919f021488ca9cfc9b9e37b29b2657dba8734",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-11-27T12:24:38.000+01:00",
+      "title": "Release v0.1.2",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/6e8919f021488ca9cfc9b9e37b29b2657dba8734"
+    },
+    {
+      "id": "commit:HelgeSverre/nvmr:06305fec659fe4c2319580ff7a7edcc20a08ae50",
+      "kind": "commit",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-11-27T12:23:45.000+01:00",
+      "title": "Exit quietly on a closed pipe instead of panicking",
+      "url": "https://github.com/HelgeSverre/nvmr/commit/06305fec659fe4c2319580ff7a7edcc20a08ae50"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4b04285f467781e1eb4b010860ae88f3864f1926",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T12:16:41.000+01:00",
+      "title": "Preserve correlated references across saved join view aliases",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4b04285f467781e1eb4b010860ae88f3864f1926"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:11b6b22bcdb78ef98e5f7c06af0a9292d8a222de",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T12:01:21.000+01:00",
+      "title": "Reject joined updates that read the target through a merged view",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/11b6b22bcdb78ef98e5f7c06af0a9292d8a222de"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7aab488f14c2e3fb4192ecbcbacee726a16c8d78",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T11:43:14.000+01:00",
+      "title": "Use pinned MySQL collation keys in the ngram cache",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7aab488f14c2e3fb4192ecbcbacee726a16c8d78"
+    },
+    {
+      "id": "pr:sema-lisp/sema:188",
+      "kind": "merge",
+      "repo": "sema-lisp/sema",
+      "at": "2026-11-27T11:37:36Z",
+      "title": "fix(llm): charge policy rejections, cache hits, zero usage and batches by one rule",
+      "url": "https://github.com/sema-lisp/sema/pull/188"
+    },
+    {
+      "id": "pr:sema-lisp/sema:187",
+      "kind": "merge",
+      "repo": "sema-lisp/sema",
+      "at": "2026-11-27T11:37:09Z",
+      "title": "refactor(llm): typed response origin for completion accounting",
+      "url": "https://github.com/sema-lisp/sema/pull/187"
+    },
+    {
+      "id": "pr:sema-lisp/sema:186",
+      "kind": "merge",
+      "repo": "sema-lisp/sema",
+      "at": "2026-11-27T11:36:39Z",
+      "title": "fix(vm): intrinsic opcodes return the stdlib result on rejected operands",
+      "url": "https://github.com/sema-lisp/sema/pull/186"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:422e4302fc395a9e14a21bae5906b10125c33c62",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T11:30:25.000+01:00",
+      "title": "Match accent-sensitive ngram prefix scans after a flush",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/422e4302fc395a9e14a21bae5906b10125c33c62"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:fbb6183dbdc2242bd63d8d9856b00fae43cc87be",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T11:13:24.000+01:00",
+      "title": "Match accent-sensitive ngram cache prefix traversal",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/fbb6183dbdc2242bd63d8d9856b00fae43cc87be"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:058b3f702d043e2678e17eab885dfabc1661ae11",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T10:56:37.000+01:00",
+      "title": "Apply saved view self-read rules to metadata and writes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/058b3f702d043e2678e17eab885dfabc1661ae11"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:554a548ee56b8e3518d70c0a8904e0845e71ce36",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T10:40:00.000+01:00",
+      "title": "Reject mutation subqueries that read the written table",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/554a548ee56b8e3518d70c0a8904e0845e71ce36"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:eebb7e03ae47ddf76094369dae24ce0f4217ddb5",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T10:20:40.000+01:00",
+      "title": "Compare geometry using its SQL binary representation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/eebb7e03ae47ddf76094369dae24ce0f4217ddb5"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:837fd714e2d33fde272f3586d88b1f0b2d9c1731",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T10:09:23.000+01:00",
+      "title": "Preserve original binary geometry from ST_Validate",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/837fd714e2d33fde272f3586d88b1f0b2d9c1731"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:76ef399383b718d6d115c6c3c273855368c07f74",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T09:54:30.000+01:00",
+      "title": "Defer user-variable assignments to projected rows",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/76ef399383b718d6d115c6c3c273855368c07f74"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8bd0b8e68f1a4497f9de4f6d0888a8f82a44889b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T09:41:09.000+01:00",
+      "title": "Count consumed offsets in FOUND_ROWS",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8bd0b8e68f1a4497f9de4f6d0888a8f82a44889b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e6aa6df2b77bca1eb6a5f913fb2bb4a09f6e9ddd",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T09:28:16.000+01:00",
+      "title": "Avoid row locks for zero-limit reads",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e6aa6df2b77bca1eb6a5f913fb2bb4a09f6e9ddd"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:cb912f51ff98e985ec5321b40c9777e9f260f5da",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T09:17:45.000+01:00",
+      "title": "Honor ordered primary range limits for SKIP LOCKED",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/cb912f51ff98e985ec5321b40c9777e9f260f5da"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ae1c50beee16cb6af9336311c46f63b722f8e038",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T09:02:24.000+01:00",
+      "title": "Honor ordered primary range limits for NOWAIT",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ae1c50beee16cb6af9336311c46f63b722f8e038"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:014e566775f6c26fe064ff4bcbf20fd2d501f0fa",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T08:48:02.000+01:00",
+      "title": "Match MySQL nonblocking exact primary reads",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/014e566775f6c26fe064ff4bcbf20fd2d501f0fa"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4b2542a07b7159741004ce231ea45cb4ce3ba14f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T08:34:01.000+01:00",
+      "title": "Extend exact primary key locking reads",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4b2542a07b7159741004ce231ea45cb4ce3ba14f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:9a127c11329816929e5acfa04b13abb486d44518",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T08:18:08.000+01:00",
+      "title": "Protect gaps after missing text primary key writes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/9a127c11329816929e5acfa04b13abb486d44518"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1d3c8d48b55987100f7bd6e22b5ee506effcc346",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T07:58:21.000+01:00",
+      "title": "Protect gaps after missing decimal and binary key writes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1d3c8d48b55987100f7bd6e22b5ee506effcc346"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d0c46c45529c257c0e4d6ed3d221b4217da67722",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T07:47:40.000+01:00",
+      "title": "Match accent-sensitive CJK ngram expansions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d0c46c45529c257c0e4d6ed3d221b4217da67722"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:caf651ee5c1c2d95ea156983550e37872e760580",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T07:34:18.000+01:00",
+      "title": "Match MySQL Kana and Jamo ngram postings",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/caf651ee5c1c2d95ea156983550e37872e760580"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6f6b84e91e8238ac2453b5786f848892e7bd519c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T07:23:15.000+01:00",
+      "title": "Enforce geometry subtypes in materialized relations",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6f6b84e91e8238ac2453b5786f848892e7bd519c"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:0d129d1752881271f7b44236f0cbca50cc31368a",
       "kind": "commit",
@@ -4691,6 +4971,22 @@
       "at": "2026-11-17T11:33:31Z",
       "title": "v0.1.7",
       "url": "https://github.com/HelgeSverre/fsdb/releases/tag/v0.1.7"
+    },
+    {
+      "id": "release:sema-lisp/sema:460557550",
+      "kind": "release",
+      "repo": "sema-lisp/sema",
+      "at": "2026-11-27T12:11:15Z",
+      "title": "v2.0.1",
+      "url": "https://github.com/sema-lisp/sema/releases/tag/v2.0.1"
+    },
+    {
+      "id": "release:HelgeSverre/nvmr:460514698",
+      "kind": "release",
+      "repo": "HelgeSverre/nvmr",
+      "at": "2026-11-27T11:26:57Z",
+      "title": "v0.1.2",
+      "url": "https://github.com/HelgeSverre/nvmr/releases/tag/v0.1.2"
     },
     {
       "id": "release:HelgeSverre/terminal:459517235",
