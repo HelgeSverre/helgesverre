@@ -1,9 +1,201 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-27T00:31:37.833Z",
-  "since": "2026-11-13T00:31:37.833Z",
+  "fetchedAt": "2026-11-27T06:21:49.647Z",
+  "since": "2026-11-13T06:21:49.647Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:0d129d1752881271f7b44236f0cbca50cc31368a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T07:12:50.000+01:00",
+      "title": "Use constant envelopes as spatial index probes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0d129d1752881271f7b44236f0cbca50cc31368a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3c507b1aa6b77306224c382250baae084aca7289",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T07:03:28.000+01:00",
+      "title": "Implement MySQL ST_MakeEnvelope",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3c507b1aa6b77306224c382250baae084aca7289"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:264006813e6eeff927bae80030ab2d3eb9710b8c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T06:50:50.000+01:00",
+      "title": "Protect gaps after missing primary key writes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/264006813e6eeff927bae80030ab2d3eb9710b8c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d6488f2aae623ccd9e068d6620b7748e65c288e7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T06:39:29.000+01:00",
+      "title": "Refresh point writes after unique keys move",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d6488f2aae623ccd9e068d6620b7748e65c288e7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:941dd16d9370a0feab8c640dc42c02a8e8dd7cd1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T06:19:26.000+01:00",
+      "title": "Preserve repeatable read views across write refreshes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/941dd16d9370a0feab8c640dc42c02a8e8dd7cd1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7b858a719033c3aa628193e36e2bbb3b93bc0ee0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T06:05:15.000+01:00",
+      "title": "Fix checked join upserts and rebase after waits",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7b858a719033c3aa628193e36e2bbb3b93bc0ee0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0d7b495a93bc6a41e909f6536a99f0fb977dfe9c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T05:48:25.000+01:00",
+      "title": "Implement MySQL spatial collection aggregates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0d7b495a93bc6a41e909f6536a99f0fb977dfe9c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:86a6e4e809a97374505bb325dd69e3abdb26c59a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T05:32:30.000+01:00",
+      "title": "Match MySQL UPDATE IGNORE assignment coercion",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/86a6e4e809a97374505bb325dd69e3abdb26c59a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5880c7da122cc6be0462d2ebd14a629a94dd62ef",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T05:14:57.000+01:00",
+      "title": "Keep UPDATE IGNORE warnings in row order after waits",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5880c7da122cc6be0462d2ebd14a629a94dd62ef"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e7637fe4f950f357d873e4773ce7572f293a8bed",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T05:05:28.000+01:00",
+      "title": "Refresh permanent keys through temporary update joins",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e7637fe4f950f357d873e4773ce7572f293a8bed"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e4f9627d9a69ce87f1e2eebdc6ef58918fbe2af1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T04:57:48.000+01:00",
+      "title": "Refresh keys after waits in wrapped autocommit updates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e4f9627d9a69ce87f1e2eebdc6ef58918fbe2af1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ea78750692bc7d6a94e7ff032121301961004406",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T04:40:18.000+01:00",
+      "title": "Keep accepted UPDATE IGNORE rows after key waits",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ea78750692bc7d6a94e7ff032121301961004406"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:80aaa958e9466376e9eef13351e57b1ef860520b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T04:25:38.000+01:00",
+      "title": "Lock moved unique secondary keys during updates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/80aaa958e9466376e9eef13351e57b1ef860520b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a1a88ac65f8963aecf4a7a22557155fda98eadbd",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T04:13:29.000+01:00",
+      "title": "Reuse checked upsert IDs after duplicate updates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a1a88ac65f8963aecf4a7a22557155fda98eadbd"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8965750ac9ec902c4ccfad187cc31b5759e912b8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T04:00:24.000+01:00",
+      "title": "Match checked INSERT SELECT upsert ID reservations",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8965750ac9ec902c4ccfad187cc31b5759e912b8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d396c7b33a38d1d4d31e437c7979828e2aa4bc3b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T03:48:37.000+01:00",
+      "title": "Defer checked upsert auto-increment allocation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d396c7b33a38d1d4d31e437c7979828e2aa4bc3b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0f263f624dddb41ae070998e1c5b4ca90b80a932",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T03:29:12.000+01:00",
+      "title": "Skip failed view checks in ignored upsert batches",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0f263f624dddb41ae070998e1c5b4ca90b80a932"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:36993742be8cdc767625ba047feacd109d863ddf",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T03:20:03.000+01:00",
+      "title": "Match MySQL duplicate writes through filtered views",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/36993742be8cdc767625ba047feacd109d863ddf"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:615f8a011d0d08bfe682715ed8eed4694ea356b6",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T03:00:10.000+01:00",
+      "title": "Persist and inherit database character defaults",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/615f8a011d0d08bfe682715ed8eed4694ea356b6"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5be77c6e2aaa5b4a10629b3f50ff3c4c0812fd25",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T02:38:21.000+01:00",
+      "title": "Seek nullable prefixes for correlated top-N queries",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5be77c6e2aaa5b4a10629b3f50ff3c4c0812fd25"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:eca53bd578f93084ddd3545452f36e95f6e6c2f0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T02:28:09.000+01:00",
+      "title": "Support numeric POINT constructors and spatial index probes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/eca53bd578f93084ddd3545452f36e95f6e6c2f0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:290362ccedfe86aa30dafb72f6c91035569bc72f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T02:16:29.000+01:00",
+      "title": "Implement MySQL point coordinate getters and setters",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/290362ccedfe86aa30dafb72f6c91035569bc72f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1f2e9fa6592939f241aa918e61311568029395b7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T02:01:28.000+01:00",
+      "title": "Implement ST_IsSimple for planar and geographic geometries",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1f2e9fa6592939f241aa918e61311568029395b7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d92ec00057e27257ed1b866d2f6dac4d5bf43711",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T01:45:13.000+01:00",
+      "title": "Follow physical primary order for unordered locking limits",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d92ec00057e27257ed1b866d2f6dac4d5bf43711"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:9e81f14de2ed14062637388097ecd31276966f85",
       "kind": "commit",
