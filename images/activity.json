@@ -1,9 +1,225 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-27T18:14:44.628Z",
-  "since": "2026-11-13T18:14:44.628Z",
+  "fetchedAt": "2026-11-28T00:31:05.176Z",
+  "since": "2026-11-14T00:31:05.176Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:99de3c6e7b002fe05f67b47e9afe023f62bf01ba",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T01:29:31.000+01:00",
+      "title": "Implement MySQL ST_Area for polygons and multipolygons",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/99de3c6e7b002fe05f67b47e9afe023f62bf01ba"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:97ddf1a5a49c92e58a857994d30929cec89fddf9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T01:09:58.000+01:00",
+      "title": "Record the missing ST_Area spatial function",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/97ddf1a5a49c92e58a857994d30929cec89fddf9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:211d2d55fea58a608529c92291657a0dbad83511",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T01:09:58.000+01:00",
+      "title": "Warn on ignored duplicate-key update conflicts",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/211d2d55fea58a608529c92291657a0dbad83511"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:86d4170d1eaf0c1e36228391e79ba37af59f8cac",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T00:52:52.000+01:00",
+      "title": "Claim actual primary and unique upsert destinations",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/86d4170d1eaf0c1e36228391e79ba37af59f8cac"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d9e653fca91143e0fe7e9cabe25d21cebd707441",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T00:52:52.000+01:00",
+      "title": "Replay repeated updates to a row within one WAL event",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d9e653fca91143e0fe7e9cabe25d21cebd707441"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f47a0b10ef4b37324a5c953715eeef2d6446d033",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T00:35:29.000+01:00",
+      "title": "Honor secondary gap locks for duplicate-key update destinations",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f47a0b10ef4b37324a5c953715eeef2d6446d033"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d1f14813e552ccc96ee0ecbccf9c0a2d62079dcb",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T00:12:30.000+01:00",
+      "title": "Protect gaps visited by ordered secondary locking reads",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d1f14813e552ccc96ee0ecbccf9c0a2d62079dcb"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a8a97cbf596d17fdea4f007a6cf886a3f2fc768f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T23:45:57.000+01:00",
+      "title": "Seek UTC keys for correlated TIMESTAMP equality",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a8a97cbf596d17fdea4f007a6cf886a3f2fc768f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ecfb443edb4200b34a82907c344a8cdf7e394d80",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T23:27:30.000+01:00",
+      "title": "Follow geographic polygon turns at clipping ring starts",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ecfb443edb4200b34a82907c344a8cdf7e394d80"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:11b31972e7446d5a4b86793b27cfb5a107663013",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T23:10:22.000+01:00",
+      "title": "Reject materialized view write targets during binding",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/11b31972e7446d5a4b86793b27cfb5a107663013"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0ee91bb12d06f161918d70867aaba814d5684c31",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T22:49:34.000+01:00",
+      "title": "Seek temporal keys in correlated ordered limits",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0ee91bb12d06f161918d70867aaba814d5684c31"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3b288a8c3bef5597751c384573a4e16abc3a1207",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T22:34:33.000+01:00",
+      "title": "Release rewritten secondary offset records after rollback",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3b288a8c3bef5597751c384573a4e16abc3a1207"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5c917a43da3e90c60a5b2143c0cf6e017fc67045",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T22:20:36.000+01:00",
+      "title": "Retain deleted word postings for full-text ranking",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5c917a43da3e90c60a5b2143c0cf6e017fc67045"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:aa11094ca17d8fda7764773cbb1bfd93de82d600",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T22:10:26.000+01:00",
+      "title": "Keep modified words in their Boolean lexer list",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/aa11094ca17d8fda7764773cbb1bfd93de82d600"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:cfbb2487f82a83f6cd3593425e5575a28d3bc81e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T22:00:39.000+01:00",
+      "title": "Use pinned Japanese weights for full-text prefix cursors",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/cfbb2487f82a83f6cd3593425e5575a28d3bc81e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d457917aeacc9a2693121946fdc7188eae4176dc",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T21:49:31.000+01:00",
+      "title": "Share accent-insensitive ngram keys for circled Katakana",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d457917aeacc9a2693121946fdc7188eae4176dc"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:fdfe68ba210a14a9ef5201bd787e234c5127b1aa",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T21:45:01.000+01:00",
+      "title": "Count visited postings for weighted ngram prefixes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/fdfe68ba210a14a9ef5201bd787e234c5127b1aa"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8e6513b04c28005f1c869e18f0468b7b3cc9883b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T21:31:54.000+01:00",
+      "title": "Explain the base plan for deletes through merged views",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8e6513b04c28005f1c869e18f0468b7b3cc9883b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3dadeafda92cc6071a2fb0ced7b8e3d549e745ab",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T21:10:06.000+01:00",
+      "title": "Delete base rows through computed view projections",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3dadeafda92cc6071a2fb0ced7b8e3d549e745ab"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:334443be72df0a6db8401cb9c20db566c13a3bd1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T20:58:13.000+01:00",
+      "title": "Respect nested view materialization and classify joined deletes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/334443be72df0a6db8401cb9c20db566c13a3bd1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:37c9ef66b0de1d13038b740b6eb29f8a394cd20d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T20:42:20.000+01:00",
+      "title": "Match check options for views over read-only sources",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/37c9ef66b0de1d13038b740b6eb29f8a394cd20d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2b3c9b4717ec0c15e8e1050f995548ae5182c9a7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T20:30:20.000+01:00",
+      "title": "Keep saved views writable with unused CTEs",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2b3c9b4717ec0c15e8e1050f995548ae5182c9a7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:07bca55e5f5f8507d782f4285840d44179a95efd",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T20:17:23.000+01:00",
+      "title": "Wait and reopen ordered secondary locking reads",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/07bca55e5f5f8507d782f4285840d44179a95efd"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a1d118376f356d5b3413c20e9b86bd02c5c13005",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T20:04:40.000+01:00",
+      "title": "Honor pending inserts in ordered secondary locking reads",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a1d118376f356d5b3413c20e9b86bd02c5c13005"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:539b652d8235203513de3b465f50678d7de76bd7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T19:46:06.000+01:00",
+      "title": "Stream correlated top-N through derived projections",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/539b652d8235203513de3b465f50678d7de76bd7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b0cbc686eeab9551f2341a65e3156aa48392c88f",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T19:32:05.000+01:00",
+      "title": "Seek correlated top-N over exact decimal keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b0cbc686eeab9551f2341a65e3156aa48392c88f"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ed8fcf9a3cd1e2168899392939c54042dd0318a6",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-27T19:20:38.000+01:00",
+      "title": "Pin MySQL legacy general full-text weights",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ed8fcf9a3cd1e2168899392939c54042dd0318a6"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:d1304f596964d10cd86c7a6cf32222cf2ea7eb38",
       "kind": "commit",
