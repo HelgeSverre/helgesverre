@@ -1,9 +1,177 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-28T00:31:05.176Z",
-  "since": "2026-11-14T00:31:05.176Z",
+  "fetchedAt": "2026-11-28T06:19:50.890Z",
+  "since": "2026-11-14T06:19:50.890Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:0f5bd6ac030fcb759347499743a22e4f8a5c3d89",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T06:49:57.000+01:00",
+      "title": "Preserve rounded endpoint contacts in geographic polygon unions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0f5bd6ac030fcb759347499743a22e4f8a5c3d89"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:14b8aa038c36b204c3b7981fb5afbbe661e98f6b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T06:29:20.000+01:00",
+      "title": "Bind view inserts to permanent tables behind temporary shadows",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/14b8aa038c36b204c3b7981fb5afbbe661e98f6b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:fafb3b6580e548edf1f79ede5eca97717abb90e6",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T06:17:16.000+01:00",
+      "title": "Refresh upserts that read temporary tables",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/fafb3b6580e548edf1f79ede5eca97717abb90e6"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1e4b4c848ba32eae9d1ebfe27af4b045d61537d0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T06:05:03.000+01:00",
+      "title": "Continue ignored upsert batches after late unique-key collisions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1e4b4c848ba32eae9d1ebfe27af4b045d61537d0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f8d4a899d47cbca41f815d1e8be4c8ea10eff8a7",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T05:43:29.000+01:00",
+      "title": "Lock secondary ranges before filesort applies limits",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f8d4a899d47cbca41f815d1e8be4c8ea10eff8a7"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c4f57e4d7570b8b2c280b3660ef1918098053377",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T05:25:03.000+01:00",
+      "title": "Honor implicit primary keys in ordered secondary locking reads",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c4f57e4d7570b8b2c280b3660ef1918098053377"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a30d5550e62799fa381c42bb19ec38fe719ffa07",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T04:55:20.000+01:00",
+      "title": "Push exact numeric filters into set-operation CTEs",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a30d5550e62799fa381c42bb19ec38fe719ffa07"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0f51285bbeab20234e9b79d0b9f8b1b4ed7da8cd",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T04:33:28.000+01:00",
+      "title": "Push numeric filters into grouped CTEs",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0f51285bbeab20234e9b79d0b9f8b1b4ed7da8cd"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c675a28aa07c582451951f461089b314267b0919",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T04:18:03.000+01:00",
+      "title": "Push bounded integer expressions into materialized CTEs",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c675a28aa07c582451951f461089b314267b0919"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b0351a9b85d6ceb0ed3bf7a2be0805f2eb4389a3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T04:18:02.000+01:00",
+      "title": "Preserve SQL parameter order during preparation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b0351a9b85d6ceb0ed3bf7a2be0805f2eb4389a3"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:429a9ff723f1b47e69962f44303efc62c56549b8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T03:54:05.000+01:00",
+      "title": "Push numeric filters into singly referenced materialized CTEs",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/429a9ff723f1b47e69962f44303efc62c56549b8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:4fb3bd652b0ceabc7077c8229ded23612c14bcd8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T03:42:17.000+01:00",
+      "title": "Honor NO_MERGE for individual CTE references",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/4fb3bd652b0ceabc7077c8229ded23612c14bcd8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:5242a3a6745c837dadd440f16cdad3d5c099f6f9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T03:24:38.000+01:00",
+      "title": "Seek correlated ranges on leading TIMESTAMP keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/5242a3a6745c837dadd440f16cdad3d5c099f6f9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:490a40cf128b27b482c1c581a07ca30285e4ee13",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T03:10:20.000+01:00",
+      "title": "Seek correlated TIMESTAMP ranges through composite indexes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/490a40cf128b27b482c1c581a07ca30285e4ee13"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:52a8f209afc5139685f86dadf1845fe57e58f536",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T02:57:30.000+01:00",
+      "title": "Sort direct TIMESTAMP columns by their stored UTC instant",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/52a8f209afc5139685f86dadf1845fe57e58f536"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b148cd47fb1e15e1cfbb5af51aea69b4b52125a0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T02:41:37.000+01:00",
+      "title": "Use pinned Japanese weights for SQL comparisons and indexes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b148cd47fb1e15e1cfbb5af51aea69b4b52125a0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1351a2ff23c08c6dcb657752e45e7e552c1e4381",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T02:27:20.000+01:00",
+      "title": "Use pinned three-level weights for Japanese full-text prefixes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1351a2ff23c08c6dcb657752e45e7e552c1e4381"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c777b44ec3eb9b5e16d5bc0b6421edf951cf6602",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T02:16:33.000+01:00",
+      "title": "Record three-level Japanese ngram wildcard differences",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c777b44ec3eb9b5e16d5bc0b6421edf951cf6602"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:11b7abe3dbbd445e9bda83c487a008e07d5049f0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T02:16:33.000+01:00",
+      "title": "Bind geohash argument types before execution",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/11b7abe3dbbd445e9bda83c487a008e07d5049f0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:acaed9eaace8d7a08aea1f7782a8ee34a6ca7a88",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T01:58:22.000+01:00",
+      "title": "Implement MySQL spatial geohash functions",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/acaed9eaace8d7a08aea1f7782a8ee34a6ca7a88"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:134d1ab0c48026ac1ce6bfa09e00e573615ac812",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T01:36:43.000+01:00",
+      "title": "Trace geographic symmetric difference to union traversal",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/134d1ab0c48026ac1ce6bfa09e00e573615ac812"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:99de3c6e7b002fe05f67b47e9afe023f62bf01ba",
       "kind": "commit",
