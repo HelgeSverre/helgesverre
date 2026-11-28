@@ -1,9 +1,273 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-28T12:15:58.859Z",
-  "since": "2026-11-14T12:15:58.859Z",
+  "fetchedAt": "2026-11-28T18:13:40.127Z",
+  "since": "2026-11-14T18:13:40.127Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:HelgeSverre/fsdb:98edb572ebb9ad61e9e633bb3782836f16e32785",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T18:40:23.000+01:00",
+      "title": "Match MySQL NULL-left scalar comparison evaluation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/98edb572ebb9ad61e9e633bb3782836f16e32785"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:42e87e16e0d969b041af630bd6accf4fa4880352",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T18:08:35.000+01:00",
+      "title": "Seek leading signed integer ranges in correlated top-N",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/42e87e16e0d969b041af630bd6accf4fa4880352"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:968c8195df06b60d66457e93b775db6ec0c6d1e0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T17:56:58.000+01:00",
+      "title": "Record Extension J unigram and trigram parity",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/968c8195df06b60d66457e93b775db6ec0c6d1e0"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2f9028b34c6fd2b73cd3f8d050cdcda6f5775037",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T17:56:58.000+01:00",
+      "title": "Seek shifted signed integer ranges in correlated top-N",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2f9028b34c6fd2b73cd3f8d050cdcda6f5775037"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:200fab5ad5a5642984e1651fc40b62a24c7a0882",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T17:41:33.000+01:00",
+      "title": "Name correlated bindings, join partners, and spatial rounding",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/200fab5ad5a5642984e1651fc40b62a24c7a0882"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6609020e7a09419b9b9d5ca0d70ac7a1b072d3d5",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T17:28:02.000+01:00",
+      "title": "Record whole-block Extension J bigram parity",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6609020e7a09419b9b9d5ca0d70ac7a1b072d3d5"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c4ed9150c2a2b921052826d002eafceaf41ba376",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T17:27:35.000+01:00",
+      "title": "Match signed BIGINT overflow and skipped read evaluation",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c4ed9150c2a2b921052826d002eafceaf41ba376"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ddb6748ddd6fe186a4deb91058e4ec70812b2bf9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T17:03:00.000+01:00",
+      "title": "Seek ordered correlated prefixes with bounded outer arithmetic",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ddb6748ddd6fe186a4deb91058e4ec70812b2bf9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:bf0f42e8f33d2a09e3789f845eef7358d1afdf4e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T16:50:17.000+01:00",
+      "title": "Match Linux geographic overlay crossing and coverage rounding",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/bf0f42e8f33d2a09e3789f845eef7358d1afdf4e"
+    },
+    {
+      "id": "commit:getcarrier/website:165334b61bff95a88652ec5e90de16cb1a10cc81",
+      "kind": "commit",
+      "repo": "getcarrier/website",
+      "at": "2026-11-28T16:31:49.000+01:00",
+      "title": "Demo terminal on phones: scale to fit, taps as mouse clicks, key bar, full screen",
+      "url": "https://github.com/getcarrier/website/commit/165334b61bff95a88652ec5e90de16cb1a10cc81"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a3104bd76be0c38483bad08baf4337b11b68ad07",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T16:29:10.000+01:00",
+      "title": "Reuse resolved operands for plain joined mutation claims",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a3104bd76be0c38483bad08baf4337b11b68ad07"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6d36459644a88b550c2b2ed919d3e1be7783d302",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T16:24:42.000+01:00",
+      "title": "Match rounded geographic source endpoints on Linux",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6d36459644a88b550c2b2ed919d3e1be7783d302"
+    },
+    {
+      "id": "commit:getcarrier/carrier:0ce4ad99be450883f9f16483979cbf7b7fe87686",
+      "kind": "commit",
+      "repo": "getcarrier/carrier",
+      "at": "2026-11-28T16:21:12.000+01:00",
+      "title": "Carrier 0.2.2",
+      "url": "https://github.com/getcarrier/carrier/commit/0ce4ad99be450883f9f16483979cbf7b7fe87686"
+    },
+    {
+      "id": "commit:getcarrier/carrier:8ba6460bc10bd879d59dd8a742554b29fdf9eff9",
+      "kind": "commit",
+      "repo": "getcarrier/carrier",
+      "at": "2026-11-28T16:20:58.000+01:00",
+      "title": "Return to the start menu when an application is cancelled",
+      "url": "https://github.com/getcarrier/carrier/commit/8ba6460bc10bd879d59dd8a742554b29fdf9eff9"
+    },
+    {
+      "id": "commit:getcarrier/carrier:505011537cf6c911d95fdfd5c62ac8d4a6bbfc95",
+      "kind": "commit",
+      "repo": "getcarrier/carrier",
+      "at": "2026-11-28T16:20:58.000+01:00",
+      "title": "Make the browser terminal usable on phones",
+      "url": "https://github.com/getcarrier/carrier/commit/505011537cf6c911d95fdfd5c62ac8d4a6bbfc95"
+    },
+    {
+      "id": "commit:getcarrier/carrier:54040be56d305a4796e519ab01d8eb811fad59b9",
+      "kind": "commit",
+      "repo": "getcarrier/carrier",
+      "at": "2026-11-28T16:20:58.000+01:00",
+      "title": "Clicks and taps: SGR mouse input for terminals that report it",
+      "url": "https://github.com/getcarrier/carrier/commit/54040be56d305a4796e519ab01d8eb811fad59b9"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3a13135ee22f73b3b1b75a70e79282123dae5565",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T16:02:37.000+01:00",
+      "title": "Record cross-platform geographic overlay results",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3a13135ee22f73b3b1b75a70e79282123dae5565"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a8f1b6905e67db7a409e8c6395d41f90565b94d8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T16:02:37.000+01:00",
+      "title": "Apply and buffer joined update targets in source order",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a8f1b6905e67db7a409e8c6395d41f90565b94d8"
+    },
+    {
+      "id": "commit:getcarrier/editor:20013a01bf9c70f61c91db27c0bdbccb14e67b7b",
+      "kind": "commit",
+      "repo": "getcarrier/editor",
+      "at": "2026-11-28T15:51:44.000+01:00",
+      "title": "Review fixes: live rows in use, fit zoom, scrolling and a collapsible side panel, dark canvas edge, per-tool defaults; add ellipse, mirror drawing, reference image, ANSI clipboard and touch",
+      "url": "https://github.com/getcarrier/editor/commit/20013a01bf9c70f61c91db27c0bdbccb14e67b7b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:01e8164543895f927602ec85c04de722e2942081",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T15:40:36.000+01:00",
+      "title": "Lock matching read partners in plain joined mutations",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/01e8164543895f927602ec85c04de722e2942081"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:6db078f116b436238b105325e80a4f22b51c3ef6",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T15:22:14.000+01:00",
+      "title": "Check joined mutation layouts and forced index lifetimes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/6db078f116b436238b105325e80a4f22b51c3ef6"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a35eb908f5f5320c273efc2d997d6e9cf3627753",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T15:07:28.000+01:00",
+      "title": "Consolidate transaction read-view checks",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a35eb908f5f5320c273efc2d997d6e9cf3627753"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:3d13c7a57eb3eeb385036fe5095dece548b2bac1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T14:45:21.000+01:00",
+      "title": "Keep temporary insert-select overlays in the transaction",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/3d13c7a57eb3eeb385036fe5095dece548b2bac1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2693384ad172446f33efb32a46590906ee39d91e",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T14:37:06.000+01:00",
+      "title": "Record remaining temporary insert source divergences",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2693384ad172446f33efb32a46590906ee39d91e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c83cd30685e80a552f56f468781cd91f5f6bb241",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T14:31:36.000+01:00",
+      "title": "Use current locking reads for insert-select sources",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c83cd30685e80a552f56f468781cd91f5f6bb241"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f6c4cdd54e25cecf9bd65231c588878ed0ce2360",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T14:17:26.000+01:00",
+      "title": "Distinguish duplicate key checks from existing-row writes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f6c4cdd54e25cecf9bd65231c588878ed0ce2360"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b3d2b1a632fe56c17d0ef3bfb4ff9abd299739ff",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T14:02:31.000+01:00",
+      "title": "Bind direct mutation reads before acquiring write locks",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b3d2b1a632fe56c17d0ef3bfb4ff9abd299739ff"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f2ae641e20d18558957de178bb73bbfad0ff61ef",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T13:45:23.000+01:00",
+      "title": "Check table layouts before acquiring locking reads",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f2ae641e20d18558957de178bb73bbfad0ff61ef"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8d5664eb1397c540cf7472a6ce9e7fe85a05fe40",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T13:31:04.000+01:00",
+      "title": "Respect secondary index lifetimes in locking reads",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8d5664eb1397c540cf7472a6ce9e7fe85a05fe40"
+    },
+    {
+      "id": "commit:getcarrier/infra:7a934678b652dc9257616e78fe7c128be9f8ae43",
+      "kind": "commit",
+      "repo": "getcarrier/infra",
+      "at": "2026-11-28T13:17:56.000+01:00",
+      "title": "Rebuild from each source's current commit instead of a rate-limited API lookup; deploy nightly",
+      "url": "https://github.com/getcarrier/infra/commit/7a934678b652dc9257616e78fe7c128be9f8ae43"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a144d9a805861a397b74a902e415678c0aab3f25",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T13:16:40.000+01:00",
+      "title": "Simplify consistent read index binding and planner guards",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a144d9a805861a397b74a902e415678c0aab3f25"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d16f596fa71456b25f8de4685fafcc4b3185dfd3",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T13:16:26.000+01:00",
+      "title": "Preserve pinned rows after writes across index-only DDL",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d16f596fa71456b25f8de4685fafcc4b3185dfd3"
+    },
+    {
+      "id": "commit:getcarrier/infra:258201bb7f74a03a244bef239228876099763ba7",
+      "kind": "commit",
+      "repo": "getcarrier/infra",
+      "at": "2026-11-28T13:15:43.000+01:00",
+      "title": "Serve the art editor at editor.carrierbbs.com",
+      "url": "https://github.com/getcarrier/infra/commit/258201bb7f74a03a244bef239228876099763ba7"
+    },
     {
       "id": "commit:getcarrier/editor:15745cf3755b2e2176b734620959f84769b3d78b",
       "kind": "commit",
@@ -11,6 +275,14 @@
       "at": "2026-11-28T13:11:19.000+01:00",
       "title": "Refresh walkthrough screenshots",
       "url": "https://github.com/getcarrier/editor/commit/15745cf3755b2e2176b734620959f84769b3d78b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:0e3d01dd88dbbcc58051d18d94f3d8eb4d9866e1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T13:10:51.000+01:00",
+      "title": "Respect secondary index lifetimes in consistent SELECTs",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/0e3d01dd88dbbcc58051d18d94f3d8eb4d9866e1"
     },
     {
       "id": "commit:getcarrier/editor:e2e4655deb5051623334f18ebb2ec393526fba67",
@@ -5979,110 +6251,6 @@
       "at": "2026-11-14T19:17:05.000+01:00",
       "title": "Run a session over a host's transport",
       "url": "https://github.com/HelgeSverre/terminal/commit/68df4c5135ca1414b55ca3d53e8c9afc09554ab9"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:a2f4f149eac954cca915ca218c69528c789190a2",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-14T16:50:55.000+01:00",
-      "title": "Add a public headless emulator",
-      "url": "https://github.com/HelgeSverre/terminal/commit/a2f4f149eac954cca915ca218c69528c789190a2"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:fd258f630b44c4970b9c21b77f7cd0b25b12e3ad",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-14T16:44:56.000+01:00",
-      "title": "Rename the libraries for embedding and leave the app out of a dependency's manifest",
-      "url": "https://github.com/HelgeSverre/terminal/commit/fd258f630b44c4970b9c21b77f7cd0b25b12e3ad"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:8dda44ed87baf9018db35468afc8ad896f5f793a",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-11-14T16:34:55.000+01:00",
-      "title": "chore: release Splash 0.2.4",
-      "url": "https://github.com/HelgeSverre/splash/commit/8dda44ed87baf9018db35468afc8ad896f5f793a"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:1816e628f21a608ea7dd38ccd6fb572f8706adcd",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-14T15:57:32.000+01:00",
-      "title": "Fix the embedding defects that break a host",
-      "url": "https://github.com/HelgeSverre/terminal/commit/1816e628f21a608ea7dd38ccd6fb572f8706adcd"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:f491a276ded7fac0d0b6600eeaa6d2c851c303da",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-14T15:57:32.000+01:00",
-      "title": "Exempt the parser from dynamic exclusivity checks in the source",
-      "url": "https://github.com/HelgeSverre/terminal/commit/f491a276ded7fac0d0b6600eeaa6d2c851c303da"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:674ffd72c6bdd4923d45a6d978960e5d46d829d1",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-14T15:17:12.000+01:00",
-      "title": "Keep smoke commands out of the user's zsh history",
-      "url": "https://github.com/HelgeSverre/terminal/commit/674ffd72c6bdd4923d45a6d978960e5d46d829d1"
-    },
-    {
-      "id": "commit:HelgeSverre/splash:e4aa69e66ca4c405ccfa29d704cf0fe7715aa03f",
-      "kind": "commit",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-11-14T15:11:40.000+01:00",
-      "title": "feat: compact workbench, clearer dialogs and lists",
-      "url": "https://github.com/HelgeSverre/splash/commit/e4aa69e66ca4c405ccfa29d704cf0fe7715aa03f"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:bd2b2e947630bd8668d03f04ddef07e7f2d85c19",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-14T14:37:31.000+01:00",
-      "title": "Measure Terminal against SwiftTerm as embedded libraries, and audit the public interface",
-      "url": "https://github.com/HelgeSverre/terminal/commit/bd2b2e947630bd8668d03f04ddef07e7f2d85c19"
-    },
-    {
-      "id": "pr:HelgeSverre/splash:17",
-      "kind": "merge",
-      "repo": "HelgeSverre/splash",
-      "at": "2026-11-14T14:11:40Z",
-      "title": "Compact workbench, clearer dialogs and lists",
-      "url": "https://github.com/HelgeSverre/splash/pull/17"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:7a396ab628bc49d6b98f823e10757daf1572748f",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-14T14:00:43.000+01:00",
-      "title": "Record release throughput before and after the module split",
-      "url": "https://github.com/HelgeSverre/terminal/commit/7a396ab628bc49d6b98f823e10757daf1572748f"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:dbc36b0af7268adc63f6b4069d62882426099073",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-14T14:00:35.000+01:00",
-      "title": "Offer the terminal view to other apps as package products",
-      "url": "https://github.com/HelgeSverre/terminal/commit/dbc36b0af7268adc63f6b4069d62882426099073"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:9c8c1a38d720c2f0ad30a501574276acf33cea5a",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-14T14:00:35.000+01:00",
-      "title": "Split the terminal view into its own target",
-      "url": "https://github.com/HelgeSverre/terminal/commit/9c8c1a38d720c2f0ad30a501574276acf33cea5a"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:edc53d281877c04c2db96e9a1eaa3f76704ef001",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-14T14:00:35.000+01:00",
-      "title": "Split the emulator and the session into their own targets",
-      "url": "https://github.com/HelgeSverre/terminal/commit/edc53d281877c04c2db96e9a1eaa3f76704ef001"
     },
     {
       "id": "release:HelgeSverre/fsdb:449236333",
