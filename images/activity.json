@@ -1,9 +1,505 @@
 {
   "version": 1,
-  "fetchedAt": "2026-11-28T06:19:50.890Z",
-  "since": "2026-11-14T06:19:50.890Z",
+  "fetchedAt": "2026-11-28T12:15:58.859Z",
+  "since": "2026-11-14T12:15:58.859Z",
   "partial": false,
   "events": [
+    {
+      "id": "commit:getcarrier/editor:15745cf3755b2e2176b734620959f84769b3d78b",
+      "kind": "commit",
+      "repo": "getcarrier/editor",
+      "at": "2026-11-28T13:11:19.000+01:00",
+      "title": "Refresh walkthrough screenshots",
+      "url": "https://github.com/getcarrier/editor/commit/15745cf3755b2e2176b734620959f84769b3d78b"
+    },
+    {
+      "id": "commit:getcarrier/editor:e2e4655deb5051623334f18ebb2ec393526fba67",
+      "kind": "commit",
+      "repo": "getcarrier/editor",
+      "at": "2026-11-28T13:10:30.000+01:00",
+      "title": "Join box-drawing strokes across pointer segments; editor tests",
+      "url": "https://github.com/getcarrier/editor/commit/e2e4655deb5051623334f18ebb2ec393526fba67"
+    },
+    {
+      "id": "commit:getcarrier/editor:2152fedf2e86a6b22769669cb3d507354b5ff0ed",
+      "kind": "commit",
+      "repo": "getcarrier/editor",
+      "at": "2026-11-28T13:08:56.000+01:00",
+      "title": "Fix the bright-background test expectation (SGR 104 is light blue)",
+      "url": "https://github.com/getcarrier/editor/commit/2152fedf2e86a6b22769669cb3d507354b5ff0ed"
+    },
+    {
+      "id": "commit:getcarrier/editor:dc64d38cd83ca5aef1a46802857f0b589d29417e",
+      "kind": "commit",
+      "repo": "getcarrier/editor",
+      "at": "2026-11-28T13:08:44.000+01:00",
+      "title": "Bundle Inter, README, drag-and-drop and bright-background checks, walkthrough screenshots",
+      "url": "https://github.com/getcarrier/editor/commit/dc64d38cd83ca5aef1a46802857f0b589d29417e"
+    },
+    {
+      "id": "commit:getcarrier/editor:cf16c84c6e2bdf88ec34e707e5d4d06329e03c30",
+      "kind": "commit",
+      "repo": "getcarrier/editor",
+      "at": "2026-11-28T13:04:05.000+01:00",
+      "title": "Add the full-screen editor UI and a headless Chrome walkthrough",
+      "url": "https://github.com/getcarrier/editor/commit/cf16c84c6e2bdf88ec34e707e5d4d06329e03c30"
+    },
+    {
+      "id": "commit:getcarrier/website:0b35455a0c3145f296f7a718a4c2840230f593f0",
+      "kind": "commit",
+      "repo": "getcarrier/website",
+      "at": "2026-11-28T13:02:43.000+01:00",
+      "title": "shoot.mjs: decode every image before the full-page capture and report images that fail to load",
+      "url": "https://github.com/getcarrier/website/commit/0b35455a0c3145f296f7a718a4c2840230f593f0"
+    },
+    {
+      "id": "commit:getcarrier/website:959ee5eed5484fc83cce6d44cccbd8341c4bad5a",
+      "kind": "commit",
+      "repo": "getcarrier/website",
+      "at": "2026-11-28T12:54:30.000+01:00",
+      "title": "Custom homepage below the hero; carrierbbs.com as the default host; sitemap and robots",
+      "url": "https://github.com/getcarrier/website/commit/959ee5eed5484fc83cce6d44cccbd8341c4bad5a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:aa784bf6719c3932ccb0b70c503b6ce4d70889a0",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T12:50:52.000+01:00",
+      "title": "Check physical table layouts against consistent read views",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/aa784bf6719c3932ccb0b70c503b6ce4d70889a0"
+    },
+    {
+      "id": "commit:getcarrier/carrier:e639472c16255ec1b9549f3bfdc1b70e0a3192c3",
+      "kind": "commit",
+      "repo": "getcarrier/carrier",
+      "at": "2026-11-28T12:43:20.000+01:00",
+      "title": "Run split workflows one at a time so a branch and a tag push do not race",
+      "url": "https://github.com/getcarrier/carrier/commit/e639472c16255ec1b9549f3bfdc1b70e0a3192c3"
+    },
+    {
+      "id": "commit:getcarrier/infra:5372ef15f04e91fbeb0744a84f5fab92777abb05",
+      "kind": "commit",
+      "repo": "getcarrier/infra",
+      "at": "2026-11-28T12:41:18.000+01:00",
+      "title": "Deploy carrierbbs.com to Fly.io: website and demo board in one machine",
+      "url": "https://github.com/getcarrier/infra/commit/5372ef15f04e91fbeb0744a84f5fab92777abb05"
+    },
+    {
+      "id": "commit:getcarrier/carrier:787ebfdc4bcb7aebdfcd25dc100ab322bec67027",
+      "kind": "commit",
+      "repo": "getcarrier/carrier",
+      "at": "2026-11-28T12:39:29.000+01:00",
+      "title": "Read the PROXY protocol header on telnet, SSH and rlogin",
+      "url": "https://github.com/getcarrier/carrier/commit/787ebfdc4bcb7aebdfcd25dc100ab322bec67027"
+    },
+    {
+      "id": "commit:getcarrier/editor:c6c1e039a4df7243e53cd8ce86a93975b1a793f4",
+      "kind": "commit",
+      "repo": "getcarrier/editor",
+      "at": "2026-11-28T12:36:16.000+01:00",
+      "title": "Add templates, half blocks, box drawing, checks and preview emulation with tests",
+      "url": "https://github.com/getcarrier/editor/commit/c6c1e039a4df7243e53cd8ce86a93975b1a793f4"
+    },
+    {
+      "id": "commit:getcarrier/carrier:6438947c55cc4913fce23748729889d8d7fd9342",
+      "kind": "commit",
+      "repo": "getcarrier/carrier",
+      "at": "2026-11-28T12:34:37.000+01:00",
+      "title": "Point package metadata, READMEs and AGENTS.md at carrierbbs.com",
+      "url": "https://github.com/getcarrier/carrier/commit/6438947c55cc4913fce23748729889d8d7fd9342"
+    },
+    {
+      "id": "commit:getcarrier/.github:5130842870616c38f83a06369e144060c2fe966f",
+      "kind": "commit",
+      "repo": "getcarrier/.github",
+      "at": "2026-11-28T12:34:28.000+01:00",
+      "title": "Point the profile at carrierbbs.com",
+      "url": "https://github.com/getcarrier/.github/commit/5130842870616c38f83a06369e144060c2fe966f"
+    },
+    {
+      "id": "commit:getcarrier/editor:8fc4ac9dfdbac2fa0bb4975921142d9994db0deb",
+      "kind": "commit",
+      "repo": "getcarrier/editor",
+      "at": "2026-11-28T12:28:37.000+01:00",
+      "title": "Port Carrier's art pipeline to TypeScript with conformance tests against Carrier's own rendering",
+      "url": "https://github.com/getcarrier/editor/commit/8fc4ac9dfdbac2fa0bb4975921142d9994db0deb"
+    },
+    {
+      "id": "commit:getcarrier/website:5575aff7ecd6fd1ee5697c405523e586f4d937bd",
+      "kind": "commit",
+      "repo": "getcarrier/website",
+      "at": "2026-11-28T12:25:47.000+01:00",
+      "title": "Document DEMO_WS_URL for local development without nginx",
+      "url": "https://github.com/getcarrier/website/commit/5575aff7ecd6fd1ee5697c405523e586f4d937bd"
+    },
+    {
+      "id": "commit:getcarrier/carrier:02fa171a805f1edbbfe817c142c6d0a398d2106e",
+      "kind": "commit",
+      "repo": "getcarrier/carrier",
+      "at": "2026-11-28T12:24:08.000+01:00",
+      "title": "Install from Packagist in the docs; wrap long attributes one argument per line",
+      "url": "https://github.com/getcarrier/carrier/commit/02fa171a805f1edbbfe817c142c6d0a398d2106e"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:7d4b819801bdf990407cfcc9344e37998764b42b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T12:23:22.000+01:00",
+      "title": "Record when MySQL plans open snapshot indexes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/7d4b819801bdf990407cfcc9344e37998764b42b"
+    },
+    {
+      "id": "commit:getcarrier/website:073278b70e23011410e71636b6318e7fcb11edf4",
+      "kind": "commit",
+      "repo": "getcarrier/website",
+      "at": "2026-11-28T12:22:38.000+01:00",
+      "title": "README, diagram at natural size, no code ligatures, drop the Next section, PHPStan fixes",
+      "url": "https://github.com/getcarrier/website/commit/073278b70e23011410e71636b6318e7fcb11edf4"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:fed47cae41b0e2634bf32c430480f358406da393",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T12:21:51.000+01:00",
+      "title": "Preserve nonfinite centroid points across recovery",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/fed47cae41b0e2634bf32c430480f358406da393"
+    },
+    {
+      "id": "commit:getcarrier/website:d7df51d38222486ac8b2af5a60a08f05751a933b",
+      "kind": "commit",
+      "repo": "getcarrier/website",
+      "at": "2026-11-28T12:19:25.000+01:00",
+      "title": "Build, docs images, link checker, deploy notes, screenshot and contrast tool",
+      "url": "https://github.com/getcarrier/website/commit/d7df51d38222486ac8b2af5a60a08f05751a933b"
+    },
+    {
+      "id": "commit:getcarrier/carrier:138fa414bb1a35ea31ef13bc2792046ae8d43f9e",
+      "kind": "commit",
+      "repo": "getcarrier/carrier",
+      "at": "2026-11-28T12:15:40.000+01:00",
+      "title": "Lead the README with installing a board; move monorepo work to its own section",
+      "url": "https://github.com/getcarrier/carrier/commit/138fa414bb1a35ea31ef13bc2792046ae8d43f9e"
+    },
+    {
+      "id": "commit:getcarrier/carrier:2ad8d8c7594b32bda2f22b5309f9497433620f4e",
+      "kind": "commit",
+      "repo": "getcarrier/carrier",
+      "at": "2026-11-28T12:15:40.000+01:00",
+      "title": "Add AGENTS.md for coding agents, and CLAUDE.md importing it",
+      "url": "https://github.com/getcarrier/carrier/commit/2ad8d8c7594b32bda2f22b5309f9497433620f4e"
+    },
+    {
+      "id": "commit:getcarrier/carrier:41159b3bde2262a2669e04915dfc207b6c028cd8",
+      "kind": "commit",
+      "repo": "getcarrier/carrier",
+      "at": "2026-11-28T12:15:40.000+01:00",
+      "title": "Declare ext-intl, fix the make:module hint and correct the docs",
+      "url": "https://github.com/getcarrier/carrier/commit/41159b3bde2262a2669e04915dfc207b6c028cd8"
+    },
+    {
+      "id": "commit:getcarrier/carrier:e442b02c17e3b2c1a7e426f42ff34659126942ee",
+      "kind": "commit",
+      "repo": "getcarrier/carrier",
+      "at": "2026-11-28T12:15:40.000+01:00",
+      "title": "Harden transports against input floods, password guessing and forged proxy headers",
+      "url": "https://github.com/getcarrier/carrier/commit/e442b02c17e3b2c1a7e426f42ff34659126942ee"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c3bc218e02c9895692456e7e3da44b2c0d37263b",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T12:14:02.000+01:00",
+      "title": "Implement MySQL Cartesian spatial centroids",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c3bc218e02c9895692456e7e3da44b2c0d37263b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:15e660fed4287de8ea7dbe904c5558b49c799b3a",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T12:14:02.000+01:00",
+      "title": "Discard embedded transactions interrupted during execution",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/15e660fed4287de8ea7dbe904c5558b49c799b3a"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:dd2e5e8e0893c84c3b3a0e17aecea656b5a87707",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T12:14:01.000+01:00",
+      "title": "Record snapshot DDL and Japanese full-text oracle coverage",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/dd2e5e8e0893c84c3b3a0e17aecea656b5a87707"
+    },
+    {
+      "id": "commit:getcarrier/website:758a0888305461ef0d4e11a56d530b634bf1bd47",
+      "kind": "commit",
+      "repo": "getcarrier/website",
+      "at": "2026-11-28T12:03:52.000+01:00",
+      "title": "Carrier website on Tempest: homepage, docs pulled from getcarrier/docs, demo terminal",
+      "url": "https://github.com/getcarrier/website/commit/758a0888305461ef0d4e11a56d530b634bf1bd47"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:2d1cc5518184beb2f9fed59f8dfb8302c96e5ad9",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T11:57:00.000+01:00",
+      "title": "Share ordinary transaction completion and preserve embedded starts",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/2d1cc5518184beb2f9fed59f8dfb8302c96e5ad9"
+    },
+    {
+      "id": "commit:getcarrier/carrier:374b841748fa090fb1dbc29c3169dc41ff333808",
+      "kind": "commit",
+      "repo": "getcarrier/carrier",
+      "at": "2026-11-28T11:47:49.000+01:00",
+      "title": "Split docs/ to getcarrier/docs for the website",
+      "url": "https://github.com/getcarrier/carrier/commit/374b841748fa090fb1dbc29c3169dc41ff333808"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:a32eccc43ad7b99225253023564603545ffd8796",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T11:45:53.000+01:00",
+      "title": "Keep transaction teardown consistent across errors and XA",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/a32eccc43ad7b99225253023564603545ffd8796"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:f51a706083273fddd682f415818b477cf6b7972d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T11:40:05.000+01:00",
+      "title": "Support explicit consistent transaction snapshots",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/f51a706083273fddd682f415818b477cf6b7972d"
+    },
+    {
+      "id": "commit:getcarrier/carrier:f8daae47d7a539afaf7359429d3cf5e534e19037",
+      "kind": "commit",
+      "repo": "getcarrier/carrier",
+      "at": "2026-11-28T11:37:56.000+01:00",
+      "title": "Give the framework README logo paragraph spacing",
+      "url": "https://github.com/getcarrier/carrier/commit/f8daae47d7a539afaf7359429d3cf5e534e19037"
+    },
+    {
+      "id": "commit:getcarrier/.github:fa5e1b00b9eb4d54cd0453c4b8223c5fd5b5a3dc",
+      "kind": "commit",
+      "repo": "getcarrier/.github",
+      "at": "2026-11-28T11:37:54.000+01:00",
+      "title": "Give the logo and tour paragraph spacing",
+      "url": "https://github.com/getcarrier/.github/commit/fa5e1b00b9eb4d54cd0453c4b8223c5fd5b5a3dc"
+    },
+    {
+      "id": "commit:getcarrier/framework:b4fea86e02a2120e2c330f8d5b1ce45704d119a8",
+      "kind": "commit",
+      "repo": "getcarrier/framework",
+      "at": "2026-11-28T11:33:26.000+01:00",
+      "title": "Give carrier/framework its own README and LICENSE for the split repository",
+      "url": "https://github.com/getcarrier/framework/commit/b4fea86e02a2120e2c330f8d5b1ce45704d119a8"
+    },
+    {
+      "id": "commit:getcarrier/carrier:52431a019257707ca84636f49c8413dd7e953c13",
+      "kind": "commit",
+      "repo": "getcarrier/carrier",
+      "at": "2026-11-28T11:33:26.000+01:00",
+      "title": "Give carrier/framework its own README and LICENSE for the split repository",
+      "url": "https://github.com/getcarrier/carrier/commit/52431a019257707ca84636f49c8413dd7e953c13"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1b4c1bb6a3bf1f92abd418e6e9f6175b1928c450",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T11:29:43.000+01:00",
+      "title": "Refresh documentation for current Fsdb behavior",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1b4c1bb6a3bf1f92abd418e6e9f6175b1928c450"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:38397dfe165b024e0b6ca0b8641baed1dd72fe76",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T11:22:48.000+01:00",
+      "title": "Use the primary cursor for uncontested nonblocking ranges",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/38397dfe165b024e0b6ca0b8641baed1dd72fe76"
+    },
+    {
+      "id": "commit:getcarrier/.github:e0748f37b6df146321a18768d3615f0495d030b6",
+      "kind": "commit",
+      "repo": "getcarrier/.github",
+      "at": "2026-11-28T11:21:46.000+01:00",
+      "title": "Add the organization profile",
+      "url": "https://github.com/getcarrier/.github/commit/e0748f37b6df146321a18768d3615f0495d030b6"
+    },
+    {
+      "id": "commit:getcarrier/framework:e8605315478a9859710155af15eee6498551b4d6",
+      "kind": "commit",
+      "repo": "getcarrier/framework",
+      "at": "2026-11-28T11:20:47.000+01:00",
+      "title": "Split into carrier/framework kits and a carrier/app starter project; add the brand",
+      "url": "https://github.com/getcarrier/framework/commit/e8605315478a9859710155af15eee6498551b4d6"
+    },
+    {
+      "id": "commit:getcarrier/app:02cc23f2efd9ca2718aa839cab96039638572e32",
+      "kind": "commit",
+      "repo": "getcarrier/app",
+      "at": "2026-11-28T11:20:47.000+01:00",
+      "title": "Split into carrier/framework kits and a carrier/app starter project; add the brand",
+      "url": "https://github.com/getcarrier/app/commit/02cc23f2efd9ca2718aa839cab96039638572e32"
+    },
+    {
+      "id": "commit:getcarrier/carrier:7c26c371050909bb41c54cf72b76054f46f8d77d",
+      "kind": "commit",
+      "repo": "getcarrier/carrier",
+      "at": "2026-11-28T11:20:47.000+01:00",
+      "title": "Split into carrier/framework kits and a carrier/app starter project; add the brand",
+      "url": "https://github.com/getcarrier/carrier/commit/7c26c371050909bb41c54cf72b76054f46f8d77d"
+    },
+    {
+      "id": "commit:getcarrier/docs:98b37fc9ae1205919f9e4ad3177d12dc640e3607",
+      "kind": "commit",
+      "repo": "getcarrier/docs",
+      "at": "2026-11-28T11:20:47.000+01:00",
+      "title": "Split into carrier/framework kits and a carrier/app starter project; add the brand",
+      "url": "https://github.com/getcarrier/docs/commit/98b37fc9ae1205919f9e4ad3177d12dc640e3607"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ff8492183101483a1034ae96a352b6faad5ad959",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T11:11:24.000+01:00",
+      "title": "Match gap locking for filtered primary scans",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ff8492183101483a1034ae96a352b6faad5ad959"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:1976e8faaff350dfc072c4bf7841160600675394",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T10:55:05.000+01:00",
+      "title": "Protect gaps on non-covering full locking scans",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/1976e8faaff350dfc072c4bf7841160600675394"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8615b5053cac5f6479819bc77c71255db9288dc1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T10:42:40.000+01:00",
+      "title": "Protect gaps during full primary locking scans",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8615b5053cac5f6479819bc77c71255db9288dc1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:d0b014c0799709829c728e21cc1fa7b5b02c934c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T10:29:48.000+01:00",
+      "title": "Recheck unique key moves on the live autocommit path",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/d0b014c0799709829c728e21cc1fa7b5b02c934c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:91b4c340a2c4ed6100215b84478b848d08f31237",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T10:23:20.000+01:00",
+      "title": "Recheck occupied unique keys in upsert order",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/91b4c340a2c4ed6100215b84478b848d08f31237"
+    },
+    {
+      "id": "commit:getcarrier/carrier:92616a16883107d5345f19d1eaaa4868319a4eb8",
+      "kind": "commit",
+      "repo": "getcarrier/carrier",
+      "at": "2026-11-28T10:18:52.000+01:00",
+      "title": "Carrier: a BBS framework and board in PHP 8.5 on Tempest and Amp",
+      "url": "https://github.com/getcarrier/carrier/commit/92616a16883107d5345f19d1eaaa4868319a4eb8"
+    },
+    {
+      "id": "commit:getcarrier/docs:0219f4ead8bee28342049f353c8587d0ec12963b",
+      "kind": "commit",
+      "repo": "getcarrier/docs",
+      "at": "2026-11-28T10:18:52.000+01:00",
+      "title": "Carrier: a BBS framework and board in PHP 8.5 on Tempest and Amp",
+      "url": "https://github.com/getcarrier/docs/commit/0219f4ead8bee28342049f353c8587d0ec12963b"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:bfc7eb4f34875331d2bdafd01d9f23cf2b6847af",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T10:04:41.000+01:00",
+      "title": "Recheck occupied secondary keys during updates",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/bfc7eb4f34875331d2bdafd01d9f23cf2b6847af"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:8efb64693b3154037b45e59f68d57421fb75c04d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T09:42:31.000+01:00",
+      "title": "Retain secondary unique keys through cascaded deletes",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/8efb64693b3154037b45e59f68d57421fb75c04d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:b7e2dbf95a0459a6a8ec2dd7a51d6d876ee92f90",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T09:21:03.000+01:00",
+      "title": "Replay finite timestamp window frames across clock folds",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/b7e2dbf95a0459a6a8ec2dd7a51d6d876ee92f90"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:63b62f2774a4fb16df8af6817baa46571d5d95ce",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T09:03:31.000+01:00",
+      "title": "Split timestamp window partitions at repeated local keys",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/63b62f2774a4fb16df8af6817baa46571d5d95ce"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:bb3da9fd94072615314aa786b52180ac1fdfac89",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T08:49:13.000+01:00",
+      "title": "Compare local timestamps when sorting joined rows",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/bb3da9fd94072615314aa786b52180ac1fdfac89"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:247304def8957b8e31dcd17dd4b732b5b8c748e1",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T08:34:17.000+01:00",
+      "title": "Match MySQL timestamp ordering across window sorts",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/247304def8957b8e31dcd17dd4b732b5b8c748e1"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:ed4269220e7db288081a1e00870d0f90455ccdf8",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T08:16:49.000+01:00",
+      "title": "Reuse exact covering seeks for named timestamp bounds",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/ed4269220e7db288081a1e00870d0f90455ccdf8"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:c41d48f948a15618ee45547361bc7e2f37d3c73d",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T08:00:29.000+01:00",
+      "title": "Seek disjoint UTC slices for correlated timestamp ranges",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/c41d48f948a15618ee45547361bc7e2f37d3c73d"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:e28e8f7448d988ae9ea68c011ded86355e4a93ae",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T07:47:23.000+01:00",
+      "title": "Separate touching holes in geographic polygon differences",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/e28e8f7448d988ae9ea68c011ded86355e4a93ae"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:25d730ce4641f8f981c952de69c52aaf5499be9c",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T07:33:24.000+01:00",
+      "title": "Traverse retained geographic rings through exterior contacts",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/25d730ce4641f8f981c952de69c52aaf5499be9c"
+    },
+    {
+      "id": "commit:HelgeSverre/fsdb:66a82ca3bd71e412ee95338daac6a1fe7c0762a5",
+      "kind": "commit",
+      "repo": "HelgeSverre/fsdb",
+      "at": "2026-11-28T07:19:40.000+01:00",
+      "title": "Order clipped geographic difference rings by MySQL turns",
+      "url": "https://github.com/HelgeSverre/fsdb/commit/66a82ca3bd71e412ee95338daac6a1fe7c0762a5"
+    },
     {
       "id": "commit:HelgeSverre/fsdb:0f5bd6ac030fcb759347499743a22e4f8a5c3d89",
       "kind": "commit",
@@ -5587,14 +6083,6 @@
       "at": "2026-11-14T14:00:35.000+01:00",
       "title": "Split the emulator and the session into their own targets",
       "url": "https://github.com/HelgeSverre/terminal/commit/edc53d281877c04c2db96e9a1eaa3f76704ef001"
-    },
-    {
-      "id": "commit:HelgeSverre/terminal:abae9bc6e8c3ec13a0fecb6824d23c78f7363f3d",
-      "kind": "commit",
-      "repo": "HelgeSverre/terminal",
-      "at": "2026-11-14T13:03:35.000+01:00",
-      "title": "Compare SwiftTerm with Terminal, from source",
-      "url": "https://github.com/HelgeSverre/terminal/commit/abae9bc6e8c3ec13a0fecb6824d23c78f7363f3d"
     },
     {
       "id": "release:HelgeSverre/fsdb:449236333",
